@@ -4,33 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "a8b4a19be1c0d786",
+        "id": "3e345493fe0d8b4e",
         "type": "tabs",
         "children": [
           {
-            "id": "df3809fa3a713dfa",
+            "id": "2416acb34068f33a",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
               "title": "Nueva pestaña"
-            }
-          }
-        ]
-      },
-      {
-        "id": "e0040fa105ca44ab",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "25edc900f0605de4",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
             }
           }
         ]
@@ -65,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +70,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -106,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bienvenido.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Bienvenido"
+              "title": "Enlaces entrantes"
             }
           },
           {
@@ -125,12 +109,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bienvenido.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Bienvenido"
+              "title": "Enlaces salientes"
             }
           },
           {
@@ -168,13 +151,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bienvenido.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Bienvenido"
+              "title": "Esquema"
             }
           },
           {
@@ -192,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 374.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,7 +190,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "25edc900f0605de4",
+  "active": "2416acb34068f33a",
   "lastOpenFiles": [
     "Sin título.md",
     "Bienvenido.md",
