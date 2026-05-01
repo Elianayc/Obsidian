@@ -1,6 +1,0 @@
-- [[Sistemas de Bases de Datos]]
-- [[Ventajas]]
-- [[Independencia de los datos]]
-- [[Historia y Evolución]]
-- [[Tipos de Bases de Datos]]
-- [[OLTP vs OLAP]]

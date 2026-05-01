@@ -1,2 +1,0 @@
-- [[Gestor de Almacenamiento]]
-- [[Procesador de Consultas]]

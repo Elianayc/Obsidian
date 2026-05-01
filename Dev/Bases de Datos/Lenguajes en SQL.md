@@ -1,0 +1,4 @@
+- [[DDL]] → estructura 
+- [[DML]] → datos 
+- [[DCL]] → permisos 
+- [[TCL]] → transacciones 

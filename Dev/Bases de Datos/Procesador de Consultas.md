@@ -1,3 +1,0 @@
-- **Intérprete [[DDL (Data Definition Language)]]**: procesa las instrucciones DDL, encargándose de la definición y modificación de la estructura de la base de datos (esquemas, tablas, restricciones).
-- **Compilador [[DML (Data Manipulation Language)]]**: traduce las instrucciones [[DML (Data Manipulation Language)]] a un lenguaje interno u ოპtimizable por el sistema para que puedan ser ejecutadas eficientemente.
-- **Motor de evaluación de consultas**: analiza las consultas recibidas, genera un plan de ejecución optimizado y finalmente las ejecuta sobre la base de datos.
