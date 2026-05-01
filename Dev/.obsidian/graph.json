@@ -4,19 +4,27 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:\"Bases de Datos\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11139536
+      }
+    }
+  ],
   "collapse-display": true,
-  "showArrow": false,
-  "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 1,
+  "showArrow": true,
+  "textFadeMultiplier": 0.6,
+  "nodeSizeMultiplier": 1.41037722619548,
+  "lineSizeMultiplier": 1.65225073622213,
+  "collapse-forces": false,
+  "centerStrength": 0.496283831159725,
+  "repelStrength": 10.0154256065068,
+  "linkStrength": 0.5187210769878,
+  "linkDistance": 46,
+  "scale": 1.0000000000000002,
   "close": true
 }

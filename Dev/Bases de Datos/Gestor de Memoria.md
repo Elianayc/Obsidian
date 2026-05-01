@@ -1,0 +1,1 @@
+Se encarga de la asignación y administración de memoria para optimizar el acceso a los datos durante la ejecución de consultas.

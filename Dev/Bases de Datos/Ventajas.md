@@ -1,0 +1,6 @@
+- Compartir datos
+- Reducir redundancia
+- Evitar inconsistencias
+- Manejo de transacciones
+- Integridad de datos
+- Seguridad

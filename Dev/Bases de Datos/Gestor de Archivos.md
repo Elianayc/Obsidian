@@ -1,0 +1,1 @@
+Administra la organización física de los datos en el sistema de archivos y permite su acceso eficiente.

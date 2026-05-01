@@ -1,0 +1,1 @@
+Concepto que especifica cómo van a estar organizados los datos y cómo se van a relacionar.
