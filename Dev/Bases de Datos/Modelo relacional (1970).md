@@ -1,4 +1,5 @@
 Surge para superar las limitaciones de los modelos anteriores.
+## [[SQL]]
 
 ### Características principales
 - Acceso directo a los datos sin recorrer estructuras completas
@@ -30,3 +31,4 @@ Surge para superar las limitaciones de los modelos anteriores.
 - Mayor flexibilidad
 - Facilidad para agregar tablas y relaciones
 - Menor complejidad estructural
+

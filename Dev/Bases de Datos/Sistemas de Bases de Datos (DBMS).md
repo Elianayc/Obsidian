@@ -26,13 +26,11 @@ Actúa como interfaz entre el nivel lógico y el almacenamiento físico.
 Interpreta y ejecuta las consultas del usuario.
 
 ##### Componentes:
-- **Intérprete [[DDL]]** → define la estructura de la base de datos  
-- **Compilador [[DML]]** → traduce consultas a planes de ejecución  
+- **Intérprete DDL** → define la estructura de la base de datos  
+- **Compilador DML** → traduce consultas a planes de ejecución  
 - **Motor de evaluación** → ejecuta las consultas
 
 [[Ventajas]]
 [[Modelos de Bases de Datos]]
 [[Tipos de Bases de Datos]]
-
-
-[[Ejercitación Bases de Datos]]
+[[ERD]]

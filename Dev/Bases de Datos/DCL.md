@@ -4,4 +4,4 @@ Se usa para controlar quién puede acceder o modificar datos.
 
 - [[GRANT]]
 - [[REVOKE]]
-- [[DENY]] _(según motor de BD, como SQL Server)_
+- [[DENY]]
