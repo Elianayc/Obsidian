@@ -9,4 +9,4 @@ Se utiliza principalmente en el modelo relacional.
 
 [[Tipos de datos en SQL]]
 
-[[Prácticas]]
+[[Ejemplos]]

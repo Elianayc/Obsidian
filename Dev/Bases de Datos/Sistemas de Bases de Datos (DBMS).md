@@ -34,3 +34,4 @@ Interpreta y ejecuta las consultas del usuario.
 [[Modelos de Bases de Datos]]
 [[Tipos de Bases de Datos]]
 [[ERD]]
+[[Arquitectura de Sistemas de Bases de Datos ANSI SPARC]]
