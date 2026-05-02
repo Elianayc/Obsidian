@@ -9,15 +9,14 @@ Permite almacenar, recuperar y manipular datos.
 ### Modelo de base de datos
 Concepto que especifica cómo van a estar organizados los datos y cómo se van a relacionar.
 
----
-### Componentes
 
+## Componentes
 #### Gestor de almacenamiento
 Administra el almacenamiento físico de los datos.  
 Permite almacenar, recuperar y actualizar información.  
 Actúa como interfaz entre el nivel lógico y el almacenamiento físico.
 
-##### Componentes:
+##### Conformado por:
 - **Gestor de archivos** → organiza datos en disco  
 - **Gestor de memoria** → gestiona RAM y caché  
 
@@ -33,5 +32,4 @@ Interpreta y ejecuta las consultas del usuario.
 [[Ventajas]]
 [[Modelos de Bases de Datos]]
 [[Tipos de Bases de Datos]]
-[[ERD]]
 [[Arquitectura de Sistemas de Bases de Datos ANSI SPARC]]

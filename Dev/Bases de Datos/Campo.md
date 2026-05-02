@@ -1,0 +1,4 @@
+- También llamado columna o atributo
+- Propiedad de una entidad
+- Se repite en todos los registros
+- Sus valores pueden variar

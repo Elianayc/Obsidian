@@ -4,7 +4,7 @@ A nivel funcional, los tipos de bases de datos se clasifican en:
 - [[Transaccionales OLTP]]
 - [[Toma de decisiones OLAP]]
 - [[Híbridas]]
--
+
 
 #### Comparación OLTP vs OLAP
 

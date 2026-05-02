@@ -1,34 +1,44 @@
 Surge para superar las limitaciones de los modelos anteriores.
-## [[SQL]]
 
 ### Características principales
 - Acceso directo a los datos sin recorrer estructuras completas
 - Relaciones sin dependencia jerárquica
 - Flexibilidad para relacionar cualquier tabla
+- Concepto de [[Modelo entidad-relación (E-R)]]
 
 ### Ventajas
 - Mayor flexibilidad
 - Facilidad para agregar tablas y relaciones
 - Menor complejidad estructural
 
-## Modelo orientado a objetos (Object)
-Basado en el paradigma de programación orientada a objetos.
+[[SQL]] es un lenguaje relacional.
 
-### Características
-- Manejo de objetos como entidades de la base de datos
-- Eficiente para acceder a un solo dato
-- Menos eficiente para grandes conjuntos de datos
+---
 
-## Modelo relacional (Relational)
-Surge para superar las limitaciones de los modelos anteriores.
+## Forma en que el usuario percibe los datos
 
-### Características principales
-- Acceso directo a los datos sin recorrer estructuras completas
-- Relaciones sin dependencia jerárquica
-- Flexibilidad para relacionar cualquier tabla
+### Aspecto estructural
+- Datos organizados en [[Tablas]]
 
-### Ventajas
-- Mayor flexibilidad
-- Facilidad para agregar tablas y relaciones
-- Menor complejidad estructural
+### Aspecto de integridad
+- Restricciones sobre los datos
+- Garantizan consistencia
 
+### Aspecto de manipulación
+- Operaciones sobre tablas
+- Devuelven tablas como resultado
+- Permiten encadenar operaciones
+
+---
+
+## Relación entre modelo y tablas
+- Entidades → registros
+- Atributos → campos
+- Conjunto de entidades → tabla
+
+---
+
+## Operaciones del modelo relacional
+- Operan sobre tablas
+- Devuelven tablas
+- Pueden encadenarse (salida → entrada de otra operación)

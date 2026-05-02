@@ -1,0 +1,4 @@
+- Binaria (2 tablas)
+- Ternaria (3 tablas)
+- N-aria (más de 3)
+- Lo más común: binaria
