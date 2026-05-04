@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de Datos/SQL.md",
+                "file": "DQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "DQL"
             }
           }
         ]
@@ -196,6 +196,7 @@
   "active": "becfcb0efdd2a814",
   "lastOpenFiles": [
     "Bases de Datos/SQL.md",
+    "DQL.md",
     "Bases de Datos/TCL.md",
     "Bases de Datos/Modelo entidad-relación (E-R).md",
     "Bases de Datos/Modelos de Bases de Datos.md",
@@ -220,7 +221,6 @@
     "Bases de Datos/Campo.md",
     "Bases de Datos/Dominio.md",
     "Bases de Datos/Modelo orientado a objetos (1980).md",
-    "Bases de Datos/Cardinalidad.md",
     "Bases de Datos/Tipos de relaciones ERD.png",
     "Bases de Datos/Diagrama ERD.png",
     "Pasted image 20260501201437.png",
