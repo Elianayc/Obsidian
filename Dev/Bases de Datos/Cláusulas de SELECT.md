@@ -1,7 +1,20 @@
 #### En orden lógico de uso
 
-1. **SELECT** → qué datos quiero ver
-2. [[WHERE]] → filtro de filas
-3. [[GROUP BY]] → agrupo datos
-4. [[HAVING]] → filtro grupos
-5. [[ORDER BY]] → orden final
+- [[FROM]] → de qué tabla vienen los datos
+- [[JOIN]] → combinación de tablas
+- [[WHERE]] → filtro de filas
+- [[GROUP BY]] → agrupar datos
+- [[HAVING]] → filtrar grupos
+- **SELECT** → qué columnas mostrar
+- [[ORDER BY]] → ordenar resultado
+- [[LIMIT]] → cantidad de resultados
+
+##### SELECT con alias
+```SQL
+SELECT nombre AS empleado FROM empleados;
+```
+
+##### SELECT con expresión
+```sql
+SELECT salario * 12 AS salario_anual FROM empleados;
+```

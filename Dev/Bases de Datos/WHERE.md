@@ -1,8 +1,12 @@
-Filtra registros según una condición.
+Se utiliza para **filtrar registros** antes de mostrar resultados.
 
-```
-SELECT * FROM pedidosWHERE monto > 2000;
+```SQL
+SELECT * FROM pedidos WHERE monto > 2000;
 ```
 
 ##### Resultado:  
 Devuelve solo los pedidos con monto mayor a 2000.
+
+[[BETWEEN]]
+[[LIKE]]
+[[IN - NOT IN]]

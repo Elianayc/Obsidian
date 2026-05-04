@@ -1,8 +1,13 @@
 Ordena los resultados de una consulta.
 
-```
-SELECT * FROM pedidosORDER BY monto DESC;
+```SQL
+SELECT * FROM pedidos ORDER BY monto DESC;
 ```
 
 ##### Resultado:  
 Ordena los pedidos de mayor a menor monto.
+
+[[DESC - ASC]]
+[[Múltiples criterios]]
+[[Orden por expresión]]
+[[NULL ordering]]

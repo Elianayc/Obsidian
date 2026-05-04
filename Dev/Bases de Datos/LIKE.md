@@ -7,3 +7,8 @@ Permite usar comodines como:
 ```sql
 SELECT * FROM empleados WHERE nombre LIKE 'M%';
 ```
+
+### LIKE
+```SQL
+WHERE nombre LIKE 'M%';
+```

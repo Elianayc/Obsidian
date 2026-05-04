@@ -1,0 +1,8 @@
+# INNER JOIN
+Devuelve solo coincidencias en ambas tablas.
+```SQL
+SELECT e.nombre, d.nombre_departamento
+FROM empleados e
+INNER JOIN departamentos d
+ON e.id_departamento = d.id_departamento;
+```
