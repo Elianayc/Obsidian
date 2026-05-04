@@ -1,2 +1,0 @@
-- También llamado fila o tupla.
-- Representa una entidad en la tabla.

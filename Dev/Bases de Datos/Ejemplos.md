@@ -1,4 +1,0 @@
-[[Consultas Simples]]
-[[Consultas Avanzadas]]
-
-

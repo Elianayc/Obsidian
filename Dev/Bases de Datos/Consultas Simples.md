@@ -1,3 +1,0 @@
--  [Estructura DB](https://github.com/Elianayc/SQL/blob/main/DBI/Practica_1%20(Consultas_Simples)/01_estructura_db.sql)
--  [Carga de datos](https://github.com/Elianayc/SQL/blob/main/DBI/Practica_1%20(Consultas_Simples)/02_carga_datos.sql)
--  [Consultas SQL](https://github.com/Elianayc/SQL/blob/main/DBI/Practica_1%20(Consultas_Simples)/03_consultas.sql)

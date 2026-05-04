@@ -2,5 +2,5 @@
 - Ejemplo: libro ↔ autor
 
 ##### [[Grado de la relación]]
-#### [[Restricciones en relaciones]]
+##### [[Restricciones en relaciones]]
 

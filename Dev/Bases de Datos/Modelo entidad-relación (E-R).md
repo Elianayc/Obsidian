@@ -7,11 +7,4 @@ Permite modelar cómo se organizan los datos antes de ser implementados en una b
 
 ---
 
-### Conceptos fundamentales
-- [[Cardinalidad]] → cantidad de asociaciones posibles entre entidades
-- [[Claves]] → identificadores que permiten relacionar y distinguir entidades
-
----
-
-### Representación gráfica
-- [[Entity Relationship Diagram (ERD)]]
+- De él se desprende el [[Modelo relacional (1970)]]

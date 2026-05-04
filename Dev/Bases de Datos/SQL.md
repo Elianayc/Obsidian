@@ -9,4 +9,3 @@ Se utiliza principalmente en el modelo relacional.
 - [[TCL]] → control de transacciones
 
 [[Tipos de datos en SQL]]
-[[Ejemplos]]
