@@ -1,4 +1,3 @@
-## MVCC con marcas temporales
 Cada transacción tiene una **marca temporal (timestamp)** asignada antes de empezar.
 
 Cada versión de un dato Q guarda:
@@ -6,6 +5,7 @@ Cada versión de un dato Q guarda:
 - timestamp de escritura
 - timestamp de última lectura
 
+---
 
 ### Reglas básicas
 Cuando una transacción Ti:
@@ -17,6 +17,7 @@ Cuando una transacción Ti:
 - Si otra transacción ya leyó esa versión → Ti se aborta.
 - Si no → se crea una nueva versión del dato.
 
+---
 
 #### Ventajas
 - Las lecturas **nunca esperan ni fallan**.

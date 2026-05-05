@@ -1,5 +1,3 @@
-## Bloqueo de dos fases multiversión (MV2PL)
-
 Combina:
 - MVCC
 - Protocolo de bloqueos de dos fases
