@@ -1,7 +1,7 @@
 Se utilizan para almacenar valores numéricos enteros o con decimales.
 
-| Tipo          | Descripción                    | Ejemplo                       |
-| ------------- | ------------------------------ | ----------------------------- |
+| Tipo              | Descripción                    | Ejemplo                       |
+| ----------------- | ------------------------------ | ----------------------------- |
 | **SMALLINT**      | Enteros pequeños               | edad SMALLINT = 25            |
 | **INTEGER**       | Enteros                        | stock INT = 50                |
 | **BIGINT**        | Enteros grandes                | poblacion BIGINT              |

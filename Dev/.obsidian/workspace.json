@@ -11,10 +11,14 @@
             "id": "3794fad1ab146897",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Bases de Datos I (1° parcial)/Numéricos.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Numéricos"
             }
           }
         ]
@@ -192,8 +196,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0a11f3bb414cead",
+  "active": "3794fad1ab146897",
   "lastOpenFiles": [
+    "Bases de Datos I (1° parcial)/Campos.md",
     "Bases de Datos I (1° parcial)/Tipos de datos.md",
     "Bases de Datos I (1° parcial)/Numéricos.md",
     "Bases de Datos I (1° parcial)/Sistemas de Bases de Datos (DBMS).md",
@@ -222,7 +227,6 @@
     "Sin título.canvas",
     "Sin título.md",
     "Sin nombre",
-    "Bases de Datos I (2° parcial)/PostgreSQL y MVCC.md",
     "Bases de Datos I (2° parcial)",
     "Bases de Datos I (1° parcial)/Tipos de relaciones ERD.png",
     "Bases de Datos I (1° parcial)/Diagrama ERD.png",
