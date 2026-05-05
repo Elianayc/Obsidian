@@ -1,4 +1,6 @@
 {
   "retroma-obsidian-theme@@theme-font-selection": "retroma-font-excalifont",
-  "retroma-obsidian-theme@@theme-color-scheme-selection": "Analogous"
+  "retroma-obsidian-theme@@theme-color-scheme-selection": "Analogous",
+  "retroma-obsidian-theme@@chroma-folder": 0.2,
+  "retroma-obsidian-theme@@window-border-radius": "12px"
 }

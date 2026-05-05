@@ -15,8 +15,7 @@ Sirve para **crear, modificar y eliminar objetos** como:
 CREATE INDEX
 ```
 
-💡 En PostgreSQL:
-
+En PostgreSQL:
 - Por defecto los índices son **B-Tree**
 - La información de índices se guarda en la tabla del sistema:
 

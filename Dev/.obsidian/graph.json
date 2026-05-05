@@ -11,14 +11,14 @@
       "query": "path:\"Bases de Datos I (1° parcial)\"  ",
       "color": {
         "a": 1,
-        "rgb": 15116214
+        "rgb": 15705014
       }
     },
     {
       "query": "path:\"Bases de Datos I (2° parcial)\"  ",
       "color": {
         "a": 1,
-        "rgb": 15780520
+        "rgb": 15382441
       }
     }
   ],
@@ -32,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 1.1192168717369337,
+  "scale": 1.1192168717369295,
   "close": true
 }

@@ -21,5 +21,3 @@ Concepto que especifica cómo van a estar organizados los datos y cómo se van a
 - [[Arquitectura de Sistemas de Bases de Datos ANSI SPARC]]
 
 - [[Transacciones]]
-- [[Control de concurrencia]]
-- [[Niveles de aislamiento]]

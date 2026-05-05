@@ -23,4 +23,5 @@ Objetivo: que ejecutar transacciones en paralelo sea equivalente a ejecutarlas *
 - Abortan transacciones problemáticas
 
 
-#### [[Fenómenos de concurrencia (problemas)]]
+ [[Fenómenos de concurrencia]]
+ [[Niveles de aislamiento]]

@@ -22,3 +22,7 @@ Esto justifica la necesidad del **aislamiento**.
 ---
 
 ### Uso básico de transacciones: ver TCL
+
+##### Temas Relacionados:
+- [[Control de concurrencia]]
+
