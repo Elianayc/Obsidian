@@ -1,9 +1,9 @@
 Una **transacción** es un conjunto de operaciones que forman una única unidad lógica de trabajo sobre la base de datos.
 
-Debe cumplirse que:
+###### Debe cumplirse que:
 - Se ejecuten **todas las operaciones** o **ninguna**.
-- Si ocurre un fallo, deben deshacerse los efectos parciales.
-- Si finaliza correctamente, sus cambios deben permanecer.
+- Si ocurre un fallo, deben **deshacerse los efectos parciales**.
+- Si finaliza **correctamente**, sus cambios deben **permanecer**.
 
 Las transacciones son iniciadas por programas de usuario (SQL, Java, C, etc.) y están delimitadas por instrucciones de inicio y fin de transacción.
 
