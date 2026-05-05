@@ -1,5 +1,6 @@
 Nivel de aislamiento más estricto.  
-Simula que las transacciones se ejecutan **una detrás de otra**.
+
+Garantiza que el resultado de ejecutar transacciones concurrentes sea equivalente a ejecutarlas **una detrás de otra (en algún orden)**.
 
 ### Evita
 - Dirty reads

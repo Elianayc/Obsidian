@@ -1,4 +1,4 @@
-Cada consulta ve un **snapshot de los datos al comenzar la consulta**.
+Cada consulta toma un **snapshot nuevo de los datos al comenzar.
 
 ### Evita
 - Dirty reads

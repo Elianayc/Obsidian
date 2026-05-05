@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4e6e880ad3e2266d",
+        "id": "60c85cedf4e8a811",
         "type": "tabs",
         "children": [
           {
-            "id": "11febffc17a5a40c",
+            "id": "3794fad1ab146897",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bases de Datos I (2° parcial)/Read Uncommitted.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Read Uncommitted"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "serial",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,7 +70,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -94,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos I (2° parcial)/Read Uncommitted.md",
+                "file": "Bases de Datos I (2° parcial)/MVCC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +101,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Read Uncommitted"
+              "title": "Enlaces entrantes de MVCC"
             }
           },
           {
@@ -113,12 +110,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos I (2° parcial)/Read Uncommitted.md",
+                "file": "Bases de Datos I (2° parcial)/MVCC.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Read Uncommitted"
+              "title": "Enlaces salientes de MVCC"
             }
           },
           {
@@ -156,13 +153,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bases de Datos I (2° parcial)/Read Uncommitted.md",
+                "file": "Bases de Datos I (2° parcial)/MVCC.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Read Uncommitted"
+              "title": "Esquema de MVCC"
             }
           },
           {
@@ -195,17 +192,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "11febffc17a5a40c",
+  "active": "f0a11f3bb414cead",
   "lastOpenFiles": [
-    "Bases de Datos I (2° parcial)/Read Committed.md",
-    "Bases de Datos I (2° parcial)/Read Uncommitted.md",
-    "Bases de Datos I (2° parcial)/Fenómenos de concurrencia.md",
+    "Bases de Datos I (1° parcial)/Tipos de datos.md",
+    "Bases de Datos I (1° parcial)/Numéricos.md",
+    "Bases de Datos I (1° parcial)/Sistemas de Bases de Datos (DBMS).md",
+    "Bases de Datos I (1° parcial)/TCL.md",
+    "Bases de Datos I (1° parcial)/END TRANSACTION.md",
+    "Bases de Datos I (1° parcial)/SET TRANSACTION.md",
+    "Bases de Datos I (1° parcial)/SAVEPOINT.md",
+    "Bases de Datos I (1° parcial)/ROLLBACK.md",
+    "Bases de Datos I (1° parcial)/COMMIT.md",
+    "Bases de Datos I (1° parcial)/BEGIN TRANSACTION.md",
     "Bases de Datos I (2° parcial)/Transacciones.md",
+    "Bases de Datos I (2° parcial)/Niveles de aislamiento.md",
+    "Bases de Datos I (2° parcial)/Serializable.md",
+    "Bases de Datos I (2° parcial)/Repeatable Read.md",
+    "Bases de Datos I (2° parcial)/Read Uncommitted.md",
+    "Bases de Datos I (2° parcial)/Read Committed.md",
+    "Bases de Datos I (2° parcial)/Serialization anomaly.md",
+    "Bases de Datos I (2° parcial)/Fenómenos de concurrencia.md",
     "Bases de Datos I (2° parcial)/Propiedades ACID.md",
     "Bases de Datos I (2° parcial)/Non-repeatable read.md",
     "Bases de Datos I (2° parcial)/Control de concurrencia.md",
-    "Bases de Datos I (1° parcial)/Sistemas de Bases de Datos (DBMS).md",
-    "Bases de Datos I (2° parcial)/Niveles de aislamiento.md",
     "Bases de Datos I (1° parcial)/UPDATE.md",
     "Bases de Datos I (2° parcial)/Dirty Read.md",
     "Sin título.base",
@@ -213,19 +222,7 @@
     "Sin título.canvas",
     "Sin título.md",
     "Sin nombre",
-    "Bases de Datos I (2° parcial)/Serializable.md",
-    "Bases de Datos I (2° parcial)/Serialization anomaly.md",
     "Bases de Datos I (2° parcial)/PostgreSQL y MVCC.md",
-    "Bases de Datos I (2° parcial)/MVCC.md",
-    "Bases de Datos I (2° parcial)/Repeatable Read.md",
-    "Bases de Datos I (1° parcial)/DDL.md",
-    "Bases de Datos I (1° parcial)/Crear índices en PostgreSQL.md",
-    "Bases de Datos I (1° parcial)/Índices.md",
-    "Bases de Datos I (2° parcial)/MVCC con marcas temporales.md",
-    "Bases de Datos I (2° parcial)/Bloqueo de dos fases multiversión (MV2PL).md",
-    "Bases de Datos I (1° parcial)/Drawing 2026-05-05 12.58.10.excalidraw.md",
-    "Bases de Datos I (1° parcial)/WHERE.md",
-    "Bases de Datos I (1° parcial)/Operadores de Filtrado.md",
     "Bases de Datos I (2° parcial)",
     "Bases de Datos I (1° parcial)/Tipos de relaciones ERD.png",
     "Bases de Datos I (1° parcial)/Diagrama ERD.png",
