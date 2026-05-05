@@ -11,6 +11,17 @@ Surge para superar las limitaciones de los modelos anteriores.
 - Facilidad para agregar tablas y relaciones
 - Menor complejidad estructural
 
+--- 
+##### Modelo Entidad-Relación
+Es un modelo conceptual en el que el mundo real se representa mediante:
+
+- [[Entidad]] → objeto del mundo real que se puede identificar de forma única
+- [[Relación]] → asociación entre entidades
+
+Permite modelar cómo se organizan los datos antes de ser implementados en una base de datos relacional.
+
+---
+
 ## [[SQL]]
 SQL es el lenguaje utilizado en el modelo relacional para consultar y manipular datos.
 

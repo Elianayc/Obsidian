@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "índice",
+                "query": "modelo rela",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -70,7 +70,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -191,10 +192,18 @@
   },
   "active": "d9310f90409ed85b",
   "lastOpenFiles": [
+    "Bases de Datos/DQL.md",
+    "Bases de Datos/SELECT.md",
+    "Bases de Datos/Arquitectura de Sistemas de Bases de Datos ANSI SPARC.md",
+    "Bases de Datos/Nivel interno (nivel físico).md",
+    "Bases de Datos/Nivel conceptual (visión lógica global).md",
+    "Bases de Datos/Nivel externo (vista del usuario).md",
+    "Bases de Datos/Modelos de Bases de Datos.md",
+    "Bases de Datos/Modelo relacional (1970).md",
+    "Bases de Datos/Modelo entidad-relación (E-R).md",
     "Bases de Datos/Procesador de consultas.md",
     "Bases de Datos/Índices.md",
     "Bases de Datos/Tipos de índices.md",
-    "Bases de Datos/Modelo relacional (1970).md",
     "Bases de Datos/Sistemas de Bases de Datos (DBMS).md",
     "Bases de Datos/Gestor de almacenamiento.md",
     "Bases de Datos/B-Tree.md",
@@ -209,14 +218,6 @@
     "Bases de Datos/Clave primaria.md",
     "Bases de Datos/Tabla.md",
     "Bases de Datos/One-to-Many (1 a N).md",
-    "Bases de Datos/Entidad.md",
-    "Registro.md",
-    "Bases de Datos/Conjunto de entidades.md",
-    "Bases de Datos/SQL.md",
-    "Bases de Datos/DQL.md",
-    "Bases de Datos/WHERE.md",
-    "Bases de Datos/Operadores de Filtrado.md",
-    "Bases de Datos/SELECT.md",
     "Bases de Datos/Tipos de relaciones ERD.png",
     "Bases de Datos/Diagrama ERD.png",
     "Pasted image 20260501201437.png",
