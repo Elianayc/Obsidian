@@ -20,6 +20,13 @@
         "a": 1,
         "rgb": 15382441
       }
+    },
+    {
+      "query": "path:\"Programación I\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 13484144
+      }
     }
   ],
   "collapse-display": false,
@@ -32,6 +39,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.40614966626214444,
+  "scale": 0.7132754626224008,
   "close": true
 }

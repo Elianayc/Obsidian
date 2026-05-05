@@ -1,0 +1,2 @@
+[[Pseudocódigo]]
+[[Diagrama de flujo]]
