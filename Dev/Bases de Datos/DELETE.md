@@ -1,4 +1,4 @@
-Se utiliza para eliminar registros de una tabla.
+El comando **DELETE** permite **eliminar uno o varios registros** de una tabla.
 
 ```sql
 DELETE FROM clientes WHERE id = 1;

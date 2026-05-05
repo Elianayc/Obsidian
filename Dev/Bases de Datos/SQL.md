@@ -7,5 +7,3 @@ Se utiliza principalmente en el modelo relacional.
 - [[DQL]] → consultas de datos (SELECT)
 - [[DCL]] → control de permisos y seguridad
 - [[TCL]] → control de transacciones
-
-[[Tipos de datos en SQL]]
