@@ -41,3 +41,5 @@ SQL es el lenguaje utilizado en el modelo relacional para consultar y manipular 
 
 ### Representación gráfica
 - [[Entity Relationship Diagram (ERD)]]
+
+---

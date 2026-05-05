@@ -10,26 +10,12 @@ Permite almacenar, recuperar y manipular datos.
 Concepto que especifica cómo van a estar organizados los datos y cómo se van a relacionar.
 
 
-## Componentes
-#### Gestor de almacenamiento
-Administra el almacenamiento físico de los datos.  
-Permite almacenar, recuperar y actualizar información.  
-Actúa como interfaz entre el nivel lógico y el almacenamiento físico.
-
-##### Conformado por:
-- **Gestor de archivos** → organiza datos en disco  
-- **Gestor de memoria** → gestiona RAM y caché  
-
-
-#### Procesador de consultas
-Interpreta y ejecuta las consultas del usuario.
-
-##### Componentes:
-- **Intérprete DDL** → define la estructura de la base de datos  
-- **Compilador DML** → traduce consultas a planes de ejecución  
-- **Motor de evaluación** → ejecuta las consultas
-
 [[Ventajas]]
 [[Modelos de Bases de Datos]]
 [[Tipos de Bases de Datos]]
 [[Arquitectura de Sistemas de Bases de Datos ANSI SPARC]]
+
+
+## Componentes
+- [[Gestor de almacenamiento]]
+- [[Procesador de consultas]]

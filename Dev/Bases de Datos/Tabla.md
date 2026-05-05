@@ -1,4 +1,4 @@
-Estructuras lógicas que organizan los datos en filas ([[Registro|registros]]) y columnas ([[Campos|campos]]).  
+Estructuras lógicas que organizan los datos en filas (registros de entidades) y columnas ([[Campos|campos]]).  
 
 ##### Conjunto de entidades
 Es la colección de todas las entidades del mismo tipo.  

@@ -1,0 +1,3 @@
+- Para datos complejos
+- Ideal para datos geográficos o estructuras no tradicionales
+- “Índice flexible” para casos especiales
