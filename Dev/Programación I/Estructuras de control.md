@@ -4,9 +4,6 @@ Deben ser las condiciones expresiones lógicas de verdadero o falso.
 - [[If]]
 - [[If-else]]
 - [[Switch]]
-- [[While]]
-- [[For]]
-
 
 #### Condicionales múltiples
 Podemos utilizar una condición que evalúe varias cosas.

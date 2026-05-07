@@ -4,24 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "27f26a3e13d4e691",
+        "id": "03fb5e492eaec42b",
         "type": "tabs",
         "children": [
           {
-            "id": "bd0e53559c63c4fb",
+            "id": "9d6d8f5f98a18f7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación I/Algoritmo.md",
+                "file": "Programación I/Elementos básicos de un programa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algoritmo"
+              "title": "Elementos básicos de un programa"
+            }
+          },
+          {
+            "id": "be9e2593c5ced394",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +64,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "modul",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -94,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos I (2° parcial)/MVCC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de MVCC"
+              "title": "Enlaces entrantes"
             }
           },
           {
@@ -156,13 +166,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bases de Datos I (2° parcial)/MVCC.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de MVCC"
+              "title": "Esquema"
             }
           },
           {
@@ -175,7 +184,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -195,37 +205,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd0e53559c63c4fb",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
-    "Programación I/Estructuras de control.md",
-    "Programación I/Switch.md",
-    "Programación I/switch.excalidraw.md",
-    "Programación I/If-else.md",
-    "Programación I/Int.md",
-    "Programación I/If.md",
-    "Programación I/if-else.excalidraw.md",
-    "Programación I/Diagrama de flujo.md",
-    "Programación I/diagramadeflujo.excalidraw.md",
-    "Programación I/Entrada - Salida.md",
-    "Programación I/if.excalidraw.md",
-    "Sin título.md",
-    "Programación I/if-else.excalidraw 1.md",
-    "Sin título.base",
-    "Excalidraw",
+    "Programación I/Modularidad.md",
+    "Programación I/Comunicación entre módulos.md",
+    "Programación I/Tipos de módulos.md",
+    "Programación I/Funciones.md",
+    "Programación I/Argumento.md",
+    "Programación I/Función.md",
+    "Programación I/Retorno.md",
+    "Programación I/Parámetro.md",
+    "Parámetros.md",
+    "Programación I/C++.md",
+    "Programación I/Programación Estructurada.md",
+    "Programación I/Paradigmas - Tipos de programación.md",
     "Programación I/Lenguajes de Programación.md",
-    "Programación I/Contadores y Acumuladores.md",
-    "Programación I/Operadores y Expresiones.md",
+    "Programación I/Elementos básicos de un programa.md",
+    "Programación I/Orientada a objetos (POO).md",
+    "Programación I/Tipos de instrucciones.md",
+    "Programación I/Flags.md",
+    "Programación I/Formas de traducir un programa.md",
+    "Programación I/Sistema de tipos.md",
+    "Programación I/Niveles de abstracción.md",
+    "Programación I/Control.md",
+    "Programación I/Alto nivel.md",
+    "Programación I/Lógica (hechos y relaciones).md",
+    "Programación I/Secuencial.md",
+    "Programación I/Cálculo.md",
+    "Programación I/Entrada - Salida.md",
+    "Excalidraw",
+    "Sin título.base",
     "entrada",
-    "Programación I/Datos de entrada.md",
-    "Programación I/Programar.md",
-    "Programación I/Variable.md",
-    "Programación I/Tipo de dato.md",
-    "Programación I/Nombre o identificador.md",
-    "Programación I/Algoritmo.md",
-    "Programación I/Pseudocódigo.md",
-    "Bases de Datos I (1° parcial)/Numéricos.md",
-    "Programación I/Representación de un algoritmo.md",
-    "Programación I/Constante.md",
     "Sin nombre",
     "Programación I",
     "Sin título.canvas",

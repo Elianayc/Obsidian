@@ -1,0 +1,4 @@
+- [[Secuencial]]
+- [[Programación Estructurada]]
+- [[Lógica (hechos y relaciones)]]
+- [[Orientada a objetos (POO)]]
