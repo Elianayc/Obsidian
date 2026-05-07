@@ -7,5 +7,11 @@ Incluyen operaciones como:
 [[Contadores y Acumuladores]]
 
 ```
-Proceso CalcularPromedio	Definir nota1, nota2, promedio como real;		Leer nota1;	Leer nota2;		promedio <- (nota1 + nota2) / 2;  <--- Cálculo		Mostrar "El promedio es: ", promedio;FinProceso
+Proceso CalcularPromedio	
+	Definir nota1, nota2, promedio como real;		
+	Leer nota1;	
+	Leer nota2;		
+	promedio <- (nota1 + nota2) / 2;  <--- Cálculo		
+	Mostrar "El promedio es: ", promedio;
+FinProceso
 ```

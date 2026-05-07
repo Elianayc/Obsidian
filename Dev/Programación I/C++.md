@@ -6,7 +6,7 @@ Se usa mucho en videojuegos, motores gráficos, sistemas, software de alto rendi
 ### **Sintaxis básica**
 
 ##### Estructura mínima de un programa:
-```C++
+```cpp
 #include <iostream>  
 using namespace std;  
   
@@ -23,14 +23,14 @@ int main() {
 - `return 0` → indica que el programa terminó correctamente.
 
 ##### Variables:
-```C++
+```cpp
 int edad = 20;  
 double altura = 1.70;  
 string nombre = "Ana";
 ```
 
 ##### Leer y escribir:
-```C++
+```cpp
 #include <iostream>  
 using namespace std;  
   
@@ -48,7 +48,7 @@ int main() {
 ```
 
 ##### If-Else:
-```C++
+```cpp
 if(condición){ //Si...
 	...
 }
@@ -61,7 +61,7 @@ else{ //Sino
 ```
 
 ##### Switch:
-```C++
+```cpp
 switch(var){
 	case 1: { //Cada caso lleva {}, opcional pero recomendado.
 	...
@@ -79,28 +79,28 @@ switch(var){
 ```
 
 ##### While:
-```C++
+```cpp
 while (condición){
 	...
 }
 ```
 
 ##### Do while:
-```C++
+```cpp
 do{ //Hace al menos una vez.
 	...
 }while (condición); //Se repite mientras se cumpla la condición.
 ```
 
 ##### For:
-```C++
+```cpp
 for(i=valorInicio; i<valorFin; i++){ //Inicio, fin, incremento.
 	...
 }
 ```
 
 ##### Clase básica:
-```C++
+```cpp
 class Persona {  
 	public:  
 	string nombre;  

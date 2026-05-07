@@ -1,6 +1,6 @@
 #### Asignación " = "
 Le asigna un valor a una variable.
-```c++
+```cpp
 numero = 4;
 ```
 
