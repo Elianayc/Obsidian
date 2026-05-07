@@ -1,0 +1,3 @@
+### Ordenamiento
+- [[Insertion Sort]]
+- [[Burbujeo]]

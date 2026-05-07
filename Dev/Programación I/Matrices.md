@@ -44,3 +44,7 @@ for (int i = 0; i < 2; i++) {
 	cout << endl;
 }
 ```
+
+---
+
+[[Matrices como parámetros en C y C++]]

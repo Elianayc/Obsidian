@@ -5,47 +5,54 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
+    {
+      "query": "path:\"Arquitectura de Sistemas\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14582420
+      }
+    },
     {
       "query": "path:\"Bases de Datos I (1° parcial)\"  ",
       "color": {
         "a": 1,
-        "rgb": 15705014
+        "rgb": 15774345
       }
     },
     {
       "query": "path:\"Bases de Datos I (2° parcial)\"  ",
       "color": {
         "a": 1,
-        "rgb": 15382441
-      }
-    },
-    {
-      "query": "path:\"Programación I\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 12251858
+        "rgb": 15261073
       }
     },
     {
       "query": "path:Excalidraw  ",
       "color": {
         "a": 1,
-        "rgb": 16380073
+        "rgb": 13236445
+      }
+    },
+    {
+      "query": "path:\"Programación I\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 8765945
       }
     }
   ],
   "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -1.4,
-  "nodeSizeMultiplier": 1.69782608695652,
-  "lineSizeMultiplier": 1.40489130434783,
-  "collapse-forces": false,
-  "centerStrength": 0.411022297013042,
-  "repelStrength": 9.56668068994531,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.67423923713364,
+  "lineSizeMultiplier": 1.38838872528397,
+  "collapse-forces": true,
+  "centerStrength": 0.873229561071379,
+  "repelStrength": 20,
   "linkStrength": 1,
-  "linkDistance": 158,
-  "scale": 0.40614966626214455,
+  "linkDistance": 30,
+  "scale": 0.7132754626224008,
   "close": true
 }

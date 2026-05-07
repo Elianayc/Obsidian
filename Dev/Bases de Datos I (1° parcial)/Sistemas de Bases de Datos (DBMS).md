@@ -18,6 +18,6 @@ Concepto que especifica cómo van a estar organizados los datos y cómo se van a
 
 - [[Modelos de Bases de Datos]]
 - [[Tipos de Bases de Datos]]
-- [[Arquitectura de Sistemas de Bases de Datos ANSI SPARC]]
+- [[ANSI SPARC]]
 
 - [[Transacciones]]
