@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1284f3760c099a2d",
+        "id": "0ec8fc842c1f8b69",
         "type": "tabs",
         "children": [
           {
-            "id": "fca39cb71281eff9",
+            "id": "0f5c76954b512587",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -190,8 +190,12 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "fca39cb71281eff9",
+  "active": "0f5c76954b512587",
   "lastOpenFiles": [
+    "Programación I/Programar.md",
+    "Programación I/Algoritmo.md",
+    "Programación I/Técnicas algorítmicas.md",
+    "Programación I/Representación de un algoritmo.md",
     "Programación II/Programación Orientada a objetos (POO).md",
     "Bases de Datos I (A)/B-Tree.md",
     "Bases de Datos I (A)/Bases de Datos I (A).md",
@@ -215,10 +219,6 @@
     "Bases de Datos I (A)/Tipos de datos DB.md",
     "Bases de Datos I (A)/Tipos de Bases de Datos.md",
     "Programación II/Estructuras de Datos (avanzadas).md",
-    "Programación II/Colecciones.md",
-    "Programación I/Tipo de dato (Prog).md",
-    "Programación I/Struct.md",
-    "Programación II/Miembros estáticos.md",
     "Programación II/coleccionesJava.png",
     "Sin nombre",
     "Programación II",
