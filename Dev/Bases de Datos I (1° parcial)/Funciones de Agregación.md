@@ -12,3 +12,4 @@ Permiten obtener **estadísticas** sobre los datos.
 - [[AVG()]]
 - [[MIN()]]
 - [[MAX()]]
+

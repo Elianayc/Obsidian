@@ -10,6 +10,5 @@ En este nivel de abstracción, el enfoque no se centra únicamente en la impleme
 - [[Interfaces de programación de aplicaciones (API)]]
 
 
-
 ### Relación con la implementación
-La Arquitectura de Sistemas define la estructura y organización del sistema, mientras que su implementación se realiza mediante [[Lenguajes de programación]].
+La Arquitectura de Sistemas define la estructura y organización del sistema, mientras que su implementación se realiza mediante [[Lenguajes de programación]] y la organización del código en [[Paquetes]].

@@ -8,7 +8,7 @@ Representan cada una de las características de las entidades y se repiten en to
 nombre_campo tipo_dato restricciones
 ```
 
-[[Tipos de datos]]
+[[Tipos de datos DB]]
 
 ---
 

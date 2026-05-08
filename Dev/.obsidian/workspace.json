@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "dc6b1d846c56fbc2",
+        "id": "693c9ec69157273c",
         "type": "tabs",
         "children": [
           {
-            "id": "78bf8413d685b1ab",
+            "id": "506c32b74b69b31d",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "modul",
+                "query": "poo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.5026054382324
+    "width": 395.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -184,40 +184,42 @@
       "canvas:Crear nuevo lienzo": false,
       "daily-notes:Abrir la nota de hoy": false,
       "templates:Insertar plantilla": false,
-      "command-palette:Abrir paleta de comandos": false,
       "bases:Crear nueva base": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "78bf8413d685b1ab",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
-    "Programación I/Burbujeo.md",
-    "Programación I/Burbujeo Mejorado.md",
-    "Programación I/Ordenamiento.md",
-    "Programación I/Insertion Sort.md",
-    "Programación I/Técnicas algorítmicas.md",
-    "Programación I/Búsquedas.md",
-    "Programación I/Búsqueda Binaria.md",
-    "Programación I/Posición Única Predecible (PUP).md",
-    "Programación I/Búsqueda Secuencial.md",
-    "Programación I/Algoritmo.md",
+    "Programación II/Programación Orientada a objetos (POO).md",
+    "Programación II/Estructuras de Datos (avanzadas).md",
+    "Programación I/Estructuras de Datos (básicas).md",
+    "Programación II/Colecciones.md",
+    "Programación I/Char.md",
     "Programación I/Elementos básicos de un programa.md",
-    "Programación I/Estructuras (struct).md",
-    "Programación I/Matrices.md",
-    "Programación I/Matrices como parámetros en C y C++.md",
-    "Programación I/Vectores.md",
-    "Programación I/Flags.md",
-    "Bases de Datos I (2° parcial)/Propiedades ACID.md",
     "Programación I/Lenguajes de Programación.md",
+    "Programación II/HashMap.md",
+    "Programación I/Niveles de abstracción.md",
     "Programación I/Formas de traducir un programa.md",
-    "Programación I/Programar.md",
-    "Bases de Datos I (1° parcial)/Sistemas de Bases de Datos (DBMS).md",
-    "Bases de Datos I (1° parcial)/Entity Relationship Diagram (ERD).md",
-    "Bases de Datos I (1° parcial)/ANSI SPARC.md",
-    "Bases de Datos I (1° parcial)/SET TRANSACTION.md",
-    "Bases de Datos I (1° parcial)/Ventajas.md",
-    "Bases de Datos I (1° parcial)/SQL.md",
+    "Programación I/Tipado.md",
+    "Programación I/Paradigmas - Tipos de programación.md",
+    "Programación I/Java.md",
+    "Programación II/TreeSet.md",
+    "Programación II/Set.md",
+    "Programación II/LinkedHashSet.md",
+    "Programación II/HashSet.md",
+    "Programación II/Map.md",
+    "Programación II/List.md",
+    "Programación II/TreeMap.md",
+    "Programación II/LinkedHashMap.md",
+    "Programación II/ArrayList.md",
+    "Programación II/LinkedList.md",
+    "Programación I/Tipo de dato (Prog).md",
+    "Bases de Datos I (1° parcial)/Tipos de datos DB.md",
+    "Bases de Datos I (1° parcial)/Numéricos.md",
+    "Sin nombre",
+    "Programación II",
     "Arquitectura de Sistemas",
     "Excalidraw",
     "Sin título.base",
@@ -232,7 +234,6 @@
     "Pasted image 20260501201026.png",
     "Bases de Datos/Sin nombre",
     "Bases de Datos/Introducción a Bases de Datos",
-    "Bases de Datos I (1° parcial)",
     "Sin título 1.canvas"
   ]
 }

@@ -1,7 +1,4 @@
 - [[Variable]]
 - [[Constante]]
-- **[[Vectores]]**
-- [[Matrices]]
-- **[[Estructuras (struct)]]**
 - [[Tipos de instrucciones]]
 - [[Flags]]
