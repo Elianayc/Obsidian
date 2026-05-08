@@ -1,4 +1,7 @@
 - [[Variable]]
 - [[Constante]]
+- [[Datos de entrada]]
 - [[Tipos de instrucciones]]
 - [[Flags]]
+- [[Estructuras de Datos]]
+- [[Técnicas algorítmicas]]

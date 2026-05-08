@@ -13,7 +13,7 @@ Permite crear programas modulares, reutilizables y fáciles de mantener.
 ### Conceptos Relacionados:
 - [[Polimorfismo]]
 - [[Principios S.O.L.I.D.]]
-- [[Estructuras de Datos (avanzadas)]]
+
 
 
 

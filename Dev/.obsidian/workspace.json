@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9bc47ffbac49aa61",
+        "id": "3d498917f79e7f59",
         "type": "tabs",
         "children": [
           {
-            "id": "2f1f31bb1bd5a0e8",
+            "id": "cb08f580b0a85959",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "datos",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -190,14 +190,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2f1f31bb1bd5a0e8",
+  "active": "cb08f580b0a85959",
   "lastOpenFiles": [
-    "Programación I/Técnicas algorítmicas.md",
-    "Programación I/Algoritmo.md",
-    "Programación I/Representación de un algoritmo.md",
-    "Programación I/Programar.md",
-    "Programación I/Programación Estructurada.md",
+    "Programación I/Búsquedas.md",
     "Programación II/Programación Orientada a objetos (POO).md",
+    "Programación I/Elementos básicos de un programa.md",
+    "Programación I/Nombre o identificador.md",
+    "Programación I/Tipo de dato (Prog).md",
+    "Programación I/Lenguajes de Programación.md",
+    "Programación I/Programar.md",
+    "Programación I/Algoritmo.md",
+    "Programación I/Estructuras de Datos.md",
+    "Programación II/Estructuras de Datos (avanzadas).md",
+    "Programación II/Colecciones.md",
+    "Programación I/Estructuras de Datos (básicas).md",
+    "Programación I/Búsqueda Secuencial.md",
+    "Programación I/Técnicas algorítmicas.md",
+    "Programación I/Representación de un algoritmo.md",
+    "Programación I/Programación Estructurada.md",
     "Bases de Datos I (A)/B-Tree.md",
     "Bases de Datos I (A)/Bases de Datos I (A).md",
     "Bases de Datos I (A)/Booleanos.md",
@@ -208,17 +218,7 @@
     "Bases de Datos I (A)/Sistemas de Bases de Datos (DBMS).md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Arquitectura de Sistemas/Persistencia de datos.md",
-    "Bases de Datos I (A)/TCL.md",
-    "Programación I/Lenguajes de Programación.md",
-    "Bases de Datos I (A)/Modelos de Bases de Datos.md",
-    "Bases de Datos I (A)/SQL.md",
     "Sin título.canvas",
-    "Excalidraw/diagramadeflujo.excalidraw.md",
-    "Excalidraw/for.excalidraw.md",
-    "Programación I/Estructuras de Datos (básicas).md",
-    "Programación II/Enumerador.md",
-    "Bases de Datos I (A)/Tipos de datos DB.md",
-    "Bases de Datos I (A)/Tipos de Bases de Datos.md",
     "Programación II/coleccionesJava.png",
     "Sin nombre",
     "Programación II",

@@ -5,7 +5,7 @@ Planificar las actividades para llevar a cabo una tarea o resolver un problema.
 	¿Cuál es?
 
 - **Analizar el problema**. 
-	¿Objetivo? ¿[[Datos de entrada]]? ¿Salida? Lote de prueba: Se usa para verificación.
+	¿Objetivo? ¿Datos de entrada? ¿Salida? Lote de prueba: Se usa para verificación.
 
 - **Diseño de [[Algoritmo]].** 
 	¿Cómo? Pseudocódigo o Diagrama de flujo.
@@ -14,5 +14,5 @@ Planificar las actividades para llevar a cabo una tarea o resolver un problema.
 	Prueba de escritorio.
 
 - **Codificación**
-  [[Lenguajes de Programación]]
+	Lenguajes de Programación
 
