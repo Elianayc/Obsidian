@@ -1,5 +1,6 @@
 - **[[Vector]]**
 - [[Matriz]]
 - **[[Struct]]**
+- [[Enumerador]]
 
 
