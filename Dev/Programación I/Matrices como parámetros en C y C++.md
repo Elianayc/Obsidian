@@ -1,5 +1,4 @@
-### Matrices como parámetros en C y C++
-Las matrices se pasan a funciones o procedimientos por referencia de forma implícita.  
+Las matrices se pasan a funciones o procedimientos por **referencia** de forma implícita.  
 
 En C++, al trabajar con matrices, el compilador **requiere que al menos la cantidad de columnas esté definida** para poder interpretar correctamente la estructura en memoria.
 

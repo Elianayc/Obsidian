@@ -2,14 +2,14 @@ Es un algoritmo de ordenamiento sencillo, pero poco eficiente para grandes volú
 
 Su funcionamiento es similar al ordenamiento de cartas en la mano: se toma un elemento y se lo inserta en la posición correcta dentro de los elementos ya ordenados.
 
-###  Idea del algoritmo
+#### Idea del algoritmo
 - Se considera que el primer elemento ya está ordenado.
 - Se toma el siguiente elemento.
 - Se compara con los elementos anteriores (subvector izquierdo).
 - Se desplaza hacia la izquierda hasta encontrar su posición correcta.
 - Se inserta en esa posición.
 
-###  Característica clave
+#### Característica clave
 Cada elemento se inserta en el subvector izquierdo, que representa la parte ya ordenada del arreglo.
 
 El arreglo se va construyendo de forma ordenada desde la izquierda hacia la derecha, insertando cada nuevo elemento en su posición correcta dentro de la parte ya ordenada.

@@ -19,6 +19,7 @@ Concepto que especifica cómo van a estar organizados los datos y cómo se van a
 
 ---
 ### Ventajas
+
 ##### Compartir datos
 Permite que múltiples aplicaciones y usuarios accedan a la misma información sin modificar la base de datos.
 

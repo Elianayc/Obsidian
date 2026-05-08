@@ -21,6 +21,7 @@ Proceso PrimerIngreso
         Si dato = -1 Entonces
             Salir
         FinSi
+        
     FinMientras
 FinProceso
 ```

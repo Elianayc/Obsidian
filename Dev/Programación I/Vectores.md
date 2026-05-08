@@ -87,7 +87,7 @@ int main() {
 ---
 
 ### Arrays como parámetros
-Los vectores siempre se pasan en C++ por referencia.
+Los vectores siempre se pasan en C++ por **referencia**.
 Lo que recibirá el procedimiento es la dirección de memoria del vector.
 
 `void funcion(int vector[], int cant){`

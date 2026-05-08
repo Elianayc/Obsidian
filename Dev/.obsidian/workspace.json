@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9d795454187bffe3",
+        "id": "dc6b1d846c56fbc2",
         "type": "tabs",
         "children": [
           {
-            "id": "194940e49872e7c5",
+            "id": "78bf8413d685b1ab",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -174,7 +174,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.5
+    "width": 374.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,34 +190,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "194940e49872e7c5",
+  "active": "78bf8413d685b1ab",
   "lastOpenFiles": [
-    "Bases de Datos I (1° parcial)/Sistemas de Bases de Datos (DBMS).md",
-    "Bases de Datos I (1° parcial)/ANSI SPARC.md",
-    "Bases de Datos I (1° parcial)/SET TRANSACTION.md",
-    "Bases de Datos I (1° parcial)/Ventajas.md",
-    "Bases de Datos I (1° parcial)/SQL.md",
-    "Programación I/calmelCase.md",
-    "Arquitectura de Sistemas/Arquitectura por capas.md",
-    "Programación I/Técnicas algorítmicas.md",
-    "Programación I/Apareo de Vectores Ordenados.md",
-    "Programación I/Corte de Control.md",
-    "Programación I/Ordenamiento.md",
     "Programación I/Burbujeo.md",
     "Programación I/Burbujeo Mejorado.md",
+    "Programación I/Ordenamiento.md",
     "Programación I/Insertion Sort.md",
+    "Programación I/Técnicas algorítmicas.md",
     "Programación I/Búsquedas.md",
     "Programación I/Búsqueda Binaria.md",
     "Programación I/Posición Única Predecible (PUP).md",
     "Programación I/Búsqueda Secuencial.md",
     "Programación I/Algoritmo.md",
-    "Programación I/Programar.md",
-    "Programación I/Lenguajes de Programación.md",
-    "Programación I/Representación de un algoritmo.md",
+    "Programación I/Elementos básicos de un programa.md",
     "Programación I/Estructuras (struct).md",
-    "Programación I/Entrada - Salida.md",
-    "Programación I/Tipos de instrucciones.md",
-    "Programación I/Tipo de dato.md",
+    "Programación I/Matrices.md",
+    "Programación I/Matrices como parámetros en C y C++.md",
+    "Programación I/Vectores.md",
+    "Programación I/Flags.md",
+    "Bases de Datos I (2° parcial)/Propiedades ACID.md",
+    "Programación I/Lenguajes de Programación.md",
+    "Programación I/Formas de traducir un programa.md",
+    "Programación I/Programar.md",
+    "Bases de Datos I (1° parcial)/Sistemas de Bases de Datos (DBMS).md",
+    "Bases de Datos I (1° parcial)/Entity Relationship Diagram (ERD).md",
+    "Bases de Datos I (1° parcial)/ANSI SPARC.md",
+    "Bases de Datos I (1° parcial)/SET TRANSACTION.md",
+    "Bases de Datos I (1° parcial)/Ventajas.md",
+    "Bases de Datos I (1° parcial)/SQL.md",
     "Arquitectura de Sistemas",
     "Excalidraw",
     "Sin título.base",
