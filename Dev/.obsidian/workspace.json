@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0ec8fc842c1f8b69",
+        "id": "9bc47ffbac49aa61",
         "type": "tabs",
         "children": [
           {
-            "id": "0f5c76954b512587",
+            "id": "2f1f31bb1bd5a0e8",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -90,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programación I/Técnicas algorítmicas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +100,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes"
+              "title": "Enlaces entrantes de Técnicas algorítmicas"
             }
           },
           {
@@ -186,16 +187,16 @@
       "bases:Crear nueva base": false,
       "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false,
-      "juggl:Juggl global graph": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0f5c76954b512587",
+  "active": "2f1f31bb1bd5a0e8",
   "lastOpenFiles": [
-    "Programación I/Programar.md",
-    "Programación I/Algoritmo.md",
     "Programación I/Técnicas algorítmicas.md",
+    "Programación I/Algoritmo.md",
     "Programación I/Representación de un algoritmo.md",
+    "Programación I/Programar.md",
+    "Programación I/Programación Estructurada.md",
     "Programación II/Programación Orientada a objetos (POO).md",
     "Bases de Datos I (A)/B-Tree.md",
     "Bases de Datos I (A)/Bases de Datos I (A).md",
@@ -218,7 +219,6 @@
     "Programación II/Enumerador.md",
     "Bases de Datos I (A)/Tipos de datos DB.md",
     "Bases de Datos I (A)/Tipos de Bases de Datos.md",
-    "Programación II/Estructuras de Datos (avanzadas).md",
     "Programación II/coleccionesJava.png",
     "Sin nombre",
     "Programación II",
