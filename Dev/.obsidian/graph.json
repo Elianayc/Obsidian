@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"Arquitectura de Sistemas\"  ",
@@ -15,14 +15,14 @@
       }
     },
     {
-      "query": "path:\"Bases de Datos I (1° parcial)\"  ",
+      "query": "path:\"Bases de Datos I (A)\"  ",
       "color": {
         "a": 1,
         "rgb": 15774345
       }
     },
     {
-      "query": "path:\"Bases de Datos I (2° parcial)\"  ",
+      "query": "path:\"Bases de Datos I (B)\"  ",
       "color": {
         "a": 1,
         "rgb": 15261073
@@ -43,16 +43,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.25645771981489,
   "lineSizeMultiplier": 1.45435422801851,
   "collapse-forces": false,
-  "centerStrength": 0.505434782608696,
-  "repelStrength": 12.7173913043478,
-  "linkStrength": 0.717391304347826,
+  "centerStrength": 0.78348057775908,
+  "repelStrength": 19.1698219043612,
+  "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.2588386735945556,
+  "scale": 0.14738659382682007,
   "close": true
 }

@@ -4,5 +4,6 @@
   "obsidian-git",
   "github-embeds",
   "node-factor",
-  "persistent-graph"
+  "persistent-graph",
+  "editing-toolbar"
 ]
