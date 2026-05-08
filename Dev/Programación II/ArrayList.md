@@ -1,5 +1,7 @@
 Es una implementación de la interfaz List en **Java**.
+
 Está basada en un arreglo dinámico, lo que permite acceso rápido a los elementos mediante **índice**.
+
 Es la implementación más utilizada cuando se necesita principalmente lectura y acceso por posición.
 
 ### Ejemplo

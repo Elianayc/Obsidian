@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "693c9ec69157273c",
+        "id": "b73e8eeab02f3b04",
         "type": "tabs",
         "children": [
           {
-            "id": "506c32b74b69b31d",
+            "id": "afefbceb451d5696",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programación II/Set (TypeScript).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Set (TypeScript)"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "poo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -190,16 +194,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "afefbceb451d5696",
   "lastOpenFiles": [
+    "Programación II/Map (TypeScript).md",
+    "Programación II/Set (TypeScript).md",
+    "Programación II/Array (TypeScript).md",
+    "Programación II/Colecciones en TypeScript.md",
+    "Programación II/Colecciones.md",
+    "Programación II/Map.md",
+    "Programación II/HashMap.md",
+    "Programación II/ArrayList.md",
+    "Programación II/coleccionesJava.png",
+    "Programación II/Composición.md",
     "Programación II/Programación Orientada a objetos (POO).md",
     "Programación II/Estructuras de Datos (avanzadas).md",
     "Programación I/Estructuras de Datos (básicas).md",
-    "Programación II/Colecciones.md",
     "Programación I/Char.md",
     "Programación I/Elementos básicos de un programa.md",
     "Programación I/Lenguajes de Programación.md",
-    "Programación II/HashMap.md",
     "Programación I/Niveles de abstracción.md",
     "Programación I/Formas de traducir un programa.md",
     "Programación I/Tipado.md",
@@ -209,15 +221,8 @@
     "Programación II/Set.md",
     "Programación II/LinkedHashSet.md",
     "Programación II/HashSet.md",
-    "Programación II/Map.md",
     "Programación II/List.md",
     "Programación II/TreeMap.md",
-    "Programación II/LinkedHashMap.md",
-    "Programación II/ArrayList.md",
-    "Programación II/LinkedList.md",
-    "Programación I/Tipo de dato (Prog).md",
-    "Bases de Datos I (1° parcial)/Tipos de datos DB.md",
-    "Bases de Datos I (1° parcial)/Numéricos.md",
     "Sin nombre",
     "Programación II",
     "Arquitectura de Sistemas",

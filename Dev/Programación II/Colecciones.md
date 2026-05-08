@@ -11,3 +11,11 @@ A diferencia de los arreglos tradicionales, pueden **ajustarse dinámicamente en
 - [[Set]]
 - [[List]]
 - [[Map]]
+
+---
+
+![[coleccionesJava.png|848]]
+
+---
+
+[[Colecciones en TypeScript]]
