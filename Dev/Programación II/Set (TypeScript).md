@@ -18,14 +18,46 @@ console.log(set);
 
 `agenda.forEach(unico)=>{console.log(unico);}` Recorrido.3
 
-Comparación de Sets
+---
 
-Los sets de Typescript se comparas en cuanto a igualdad por referencia a memoria siempre que sean string, boolean o number.
+### Comparación de Sets
+En TypeScript, un Set compara sus elementos de la siguiente manera:
 
-Para poder comparar por contenido se puede definir un id **getKey** y se puede usar una clase genérica **GenericSet<>** que:
+- Los valores primitivos (number, string, boolean) se comparan por **valor**.
 
-Reciba (x:T) => string para obtener la clave única.
+- Los objetos se comparan por **referencia**, es decir, dos objetos distintos en memoria nunca son iguales aunque tengan el mismo contenido.
 
-Usar esa clave para add, has, get, delete, evitando de estaforma dos objetos con el mismo id se consideren iguales.
 
-Nota: yo definiría un equals.
+#### Comparación por contenido (solución)
+Para comparar objetos por contenido (por ejemplo, por id), se debe implementar una estrategia externa, como:
+
+- Usar una clave única con Map.
+- O controlar duplicados manualmente antes de insertar.
+
+**Ejemplo con control por clave:**
+```ts
+// Creamos un Set de números.
+// Un Set solo permite valores únicos (no duplicados).
+const set = new Set<number>();
+
+// Función que agrega un número solo si todavía no existe en el Set
+function addIfNotExists(id: number) {
+
+    // Preguntamos si el valor YA está dentro del Set
+    // set.has(id) devuelve true si existe, false si no existe
+    if (!set.has(id)) {
+
+        // Si NO existe, lo agregamos al Set
+        set.add(id);
+    }
+}
+
+// Ejemplo de uso:
+
+addIfNotExists(10); // Se agrega porque no existe
+addIfNotExists(20); // Se agrega porque no existe
+addIfNotExists(10); // No se agrega porque ya está
+
+console.log(set); // Resultado: {10, 20}
+```
+
