@@ -170,12 +170,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 374.5,
-    "collapsed": true
+    "width": 374.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,6 +191,13 @@
   },
   "active": "194940e49872e7c5",
   "lastOpenFiles": [
+    "Bases de Datos I (1° parcial)/Sistemas de Bases de Datos (DBMS).md",
+    "Bases de Datos I (1° parcial)/ANSI SPARC.md",
+    "Bases de Datos I (1° parcial)/SET TRANSACTION.md",
+    "Bases de Datos I (1° parcial)/Ventajas.md",
+    "Bases de Datos I (1° parcial)/SQL.md",
+    "Programación I/calmelCase.md",
+    "Arquitectura de Sistemas/Arquitectura por capas.md",
     "Programación I/Técnicas algorítmicas.md",
     "Programación I/Apareo de Vectores Ordenados.md",
     "Programación I/Corte de Control.md",
@@ -211,13 +217,6 @@
     "Programación I/Entrada - Salida.md",
     "Programación I/Tipos de instrucciones.md",
     "Programación I/Tipo de dato.md",
-    "Programación I/Matrices.md",
-    "Programación I/Matrices como parámetros en C y C++.md",
-    "Programación I/Elementos básicos de un programa.md",
-    "Bases de Datos I (1° parcial)/ANSI SPARC.md",
-    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-    "Arquitectura de Sistemas/Arquitectura por capas.md",
-    "Arquitectura de Sistemas/Flujo de datos en un sistema.md",
     "Arquitectura de Sistemas",
     "Excalidraw",
     "Sin título.base",
