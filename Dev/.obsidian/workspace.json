@@ -11,10 +11,14 @@
             "id": "cb08f580b0a85959",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Errores y Excepciones.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Errores y Excepciones"
             }
           }
         ]
@@ -192,12 +196,13 @@
   },
   "active": "cb08f580b0a85959",
   "lastOpenFiles": [
+    "Programación I/Elementos básicos de un programa.md",
+    "Errores y Excepciones.md",
+    "Programación I/Lenguajes de Programación.md",
     "Programación I/Búsquedas.md",
     "Programación II/Programación Orientada a objetos (POO).md",
-    "Programación I/Elementos básicos de un programa.md",
     "Programación I/Nombre o identificador.md",
     "Programación I/Tipo de dato (Prog).md",
-    "Programación I/Lenguajes de Programación.md",
     "Programación I/Programar.md",
     "Programación I/Algoritmo.md",
     "Programación I/Estructuras de Datos.md",
@@ -217,7 +222,6 @@
     "Bases de Datos I (A)/Índices.md",
     "Bases de Datos I (A)/Sistemas de Bases de Datos (DBMS).md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-    "Arquitectura de Sistemas/Persistencia de datos.md",
     "Sin título.canvas",
     "Programación II/coleccionesJava.png",
     "Sin nombre",
