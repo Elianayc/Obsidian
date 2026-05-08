@@ -1,5 +1,5 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
@@ -29,13 +29,6 @@
       }
     },
     {
-      "query": "path:Excalidraw  ",
-      "color": {
-        "a": 1,
-        "rgb": 13236445
-      }
-    },
-    {
       "query": "path:\"Programación II\"  ",
       "color": {
         "a": 1,
@@ -50,16 +43,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.67423923713364,
-  "lineSizeMultiplier": 1.38838872528397,
+  "nodeSizeMultiplier": 1.25645771981489,
+  "lineSizeMultiplier": 1.45435422801851,
   "collapse-forces": false,
   "centerStrength": 0.505434782608696,
   "repelStrength": 12.7173913043478,
   "linkStrength": 0.717391304347826,
   "linkDistance": 30,
-  "scale": 0.11121731099261488,
+  "scale": 0.2588386735945556,
   "close": true
 }

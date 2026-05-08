@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a1d5ca3c25b84646",
+        "id": "23a8bb2dd8bdc111",
         "type": "tabs",
         "children": [
           {
-            "id": "b33e37a6129257ae",
+            "id": "a902b2bfc3938e43",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -186,11 +186,16 @@
       "bases:Crear nueva base": false,
       "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "juggl:Juggl global graph": false
     }
   },
-  "active": "b33e37a6129257ae",
+  "active": "a902b2bfc3938e43",
   "lastOpenFiles": [
+    "Sin título.canvas",
+    "Excalidraw/diagramadeflujo.excalidraw.md",
+    "Excalidraw/for.excalidraw.md",
+    "Bases de Datos I (1° parcial)/Booleanos.md",
     "Programación II/Programación Orientada a objetos (POO).md",
     "Programación I/Estructuras de Datos (básicas).md",
     "Programación II/Enumerador.md",
@@ -214,10 +219,6 @@
     "Programación II/Composición.md",
     "Programación I/Char.md",
     "Programación I/Elementos básicos de un programa.md",
-    "Programación I/Lenguajes de Programación.md",
-    "Programación I/Niveles de abstracción.md",
-    "Programación I/Formas de traducir un programa.md",
-    "Programación I/Tipado.md",
     "Sin nombre",
     "Programación II",
     "Arquitectura de Sistemas",
@@ -225,7 +226,6 @@
     "Sin título.base",
     "entrada",
     "Programación I",
-    "Sin título.canvas",
     "Bases de Datos I (2° parcial)",
     "Bases de Datos I (1° parcial)/Tipos de relaciones ERD.png",
     "Bases de Datos I (1° parcial)/Diagrama ERD.png",
