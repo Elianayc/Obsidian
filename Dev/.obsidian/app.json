@@ -1,4 +1,10 @@
 {
   "alwaysUpdateLinks": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "autoPairBrackets": false,
+  "autoPairMarkdown": false,
+  "trashOption": "local",
+  "userIgnoreFilters": [
+    "Excalidraw/"
+  ]
 }

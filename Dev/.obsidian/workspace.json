@@ -11,10 +11,14 @@
             "id": "dde45c8456a66b4e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programación I/Programar.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Programar"
             }
           }
         ]
@@ -75,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5,
-    "collapsed": true
+    "width": 395.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -92,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programación I/Técnicas algorítmicas.md",
+                "file": "Programación I/Programar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Técnicas algorítmicas"
+              "title": "Enlaces entrantes de Programar"
             }
           },
           {
@@ -111,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos I (2° parcial)/MVCC.md",
-                "linksCollapsed": true,
+                "file": "Programación I/Programar.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de MVCC"
+              "title": "Enlaces salientes de Programar"
             }
           },
           {
@@ -154,12 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "followCursor": false,
+                "file": "Programación I/Programar.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema"
+              "title": "Esquema de Programar"
             }
           },
           {
@@ -172,12 +176,12 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 374.5,
-    "collapsed": true
+    "width": 374.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,6 +198,9 @@
   },
   "active": "dde45c8456a66b4e",
   "lastOpenFiles": [
+    "Programación I/Algoritmo.md",
+    "Programación I/Datos de entrada.md",
+    "Programación I/Bool.md",
     "Bases de Datos I (A)/Sistemas de Bases de Datos (DBMS).md",
     "Programación I/Programar.md",
     "Programación I/Representación de un algoritmo.md",
@@ -215,12 +222,9 @@
     "Programación II/Mock Objects.md",
     "Programación II/Errores y Excepciones.md",
     "Programación I/Estructuras de Datos.md",
-    "Programación I/Algoritmo.md",
     "Programación I/Control de flujo.md",
     "Programación I/Niveles de abstracción.md",
     "Programación I/Estructura de un programa.md",
-    "Programación I/Declaraciones.md",
-    "Programación I/Datos de salida.md",
     "Sin título.canvas",
     "Programación II/coleccionesJava.png",
     "Programación II",
