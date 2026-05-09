@@ -11,14 +11,10 @@
             "id": "43721e26f8320355",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programación I/Programar.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Programar"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "programación",
+                "query": "s.o",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,7 +70,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -196,11 +193,20 @@
   },
   "active": "43721e26f8320355",
   "lastOpenFiles": [
+    "Programación II/Programación Orientada a objetos (POO).md",
+    "Programación I/Diagrama de flujo.md",
+    "Programación II/Testing.md",
+    "Programación II/Tipos de testing.md",
+    "Programación I/Programar.md",
+    "Programación II/Debugging.md",
+    "Programación II/Palabra `this`.md",
+    "Programación II/Testing automatizado.md",
+    "Programación II/Mock Objects.md",
+    "Programación II/Errores y Excepciones.md",
     "Programación I/Estructuras de Datos.md",
     "Programación I/Algoritmo.md",
     "Programación I/Fundamentos de la Programación.md",
     "Programación I/Lenguajes de Programación.md",
-    "Programación I/Programar.md",
     "Programación I/Control de flujo.md",
     "Programación I/Niveles de abstracción.md",
     "Programación I/Estructura de un programa.md",
@@ -209,19 +215,10 @@
     "Programación I/Procesamiento.md",
     "Programación I/Datos de entrada.md",
     "Programación I/Variable.md",
-    "Programación II/Errores y Excepciones.md",
     "Programación I/Búsquedas.md",
-    "Programación II/Programación Orientada a objetos (POO).md",
     "Programación I/Nombre o identificador.md",
     "Programación I/Tipo de dato (Prog).md",
     "Programación II/Estructuras de Datos (avanzadas).md",
-    "Programación II/Colecciones.md",
-    "Programación I/Estructuras de Datos (básicas).md",
-    "Programación I/Búsqueda Secuencial.md",
-    "Programación I/Técnicas algorítmicas.md",
-    "Programación I/Representación de un algoritmo.md",
-    "Programación I/Programación Estructurada.md",
-    "Bases de Datos I (A)/B-Tree.md",
     "Sin título.canvas",
     "Programación II/coleccionesJava.png",
     "Sin nombre",

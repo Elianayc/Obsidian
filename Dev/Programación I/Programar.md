@@ -16,5 +16,8 @@ Planificar las actividades para llevar a cabo una tarea o resolver un problema.
 - **Codificación**
 	[[Lenguajes de Programación]]
 
+- [[Debugging]]
+- [[Testing]]
+
 
 
