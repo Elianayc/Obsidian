@@ -1,2 +1,2 @@
 [[Pseudocódigo]]
-[[Diagrama de flujo]]
+[[Modelado de Sistemas]]

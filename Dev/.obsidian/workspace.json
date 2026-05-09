@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f50e29cab68942d9",
+        "id": "2f6d172636414077",
         "type": "tabs",
         "children": [
           {
-            "id": "43721e26f8320355",
+            "id": "dca949cd167c91fd",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "s.o",
+                "query": "diagrama",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -191,13 +191,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "43721e26f8320355",
+  "active": "dca949cd167c91fd",
   "lastOpenFiles": [
+    "Bases de Datos I (A)/Sistemas de Bases de Datos (DBMS).md",
+    "Programación I/Programar.md",
+    "Programación I/Representación de un algoritmo.md",
+    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
+    "Programación II/Colecciones.md",
+    "Modelado de Sistemas/Modelado de Sistemas.md",
+    "Modelado de Sistemas/UML.md",
+    "Modelado de Sistemas/Diagramas de clases.md",
+    "Modelado de Sistemas/Diagrama de flujo.md",
+    "Modelado de Sistemas",
+    "Programación I/Lenguajes de Programación.md",
+    "Programación I/Fundamentos de la Programación.md",
     "Programación II/Programación Orientada a objetos (POO).md",
-    "Programación I/Diagrama de flujo.md",
     "Programación II/Testing.md",
     "Programación II/Tipos de testing.md",
-    "Programación I/Programar.md",
     "Programación II/Debugging.md",
     "Programación II/Palabra `this`.md",
     "Programación II/Testing automatizado.md",
@@ -205,23 +215,13 @@
     "Programación II/Errores y Excepciones.md",
     "Programación I/Estructuras de Datos.md",
     "Programación I/Algoritmo.md",
-    "Programación I/Fundamentos de la Programación.md",
-    "Programación I/Lenguajes de Programación.md",
     "Programación I/Control de flujo.md",
     "Programación I/Niveles de abstracción.md",
     "Programación I/Estructura de un programa.md",
     "Programación I/Declaraciones.md",
     "Programación I/Datos de salida.md",
-    "Programación I/Procesamiento.md",
-    "Programación I/Datos de entrada.md",
-    "Programación I/Variable.md",
-    "Programación I/Búsquedas.md",
-    "Programación I/Nombre o identificador.md",
-    "Programación I/Tipo de dato (Prog).md",
-    "Programación II/Estructuras de Datos (avanzadas).md",
     "Sin título.canvas",
     "Programación II/coleccionesJava.png",
-    "Sin nombre",
     "Programación II",
     "Arquitectura de Sistemas",
     "Excalidraw",
