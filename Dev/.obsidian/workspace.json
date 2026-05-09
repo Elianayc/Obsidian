@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2f6d172636414077",
+        "id": "93e75049e79e50b7",
         "type": "tabs",
         "children": [
           {
-            "id": "dca949cd167c91fd",
+            "id": "dde45c8456a66b4e",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "diagrama",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -75,7 +75,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 395.5,
+    "collapsed": true
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -191,7 +192,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dca949cd167c91fd",
+  "active": "dde45c8456a66b4e",
   "lastOpenFiles": [
     "Bases de Datos I (A)/Sistemas de Bases de Datos (DBMS).md",
     "Programación I/Programar.md",
