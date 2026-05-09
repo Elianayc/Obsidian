@@ -3,7 +3,7 @@ tags:
   - Programación
   - ProgramaciónI
 ---
-- [[Lógica (hechos y relaciones)]]
+- [[Lógica]]
 - [[Programación Secuencial]]
 - [[Programación Estructurada]]
 - [[Programación Orientada a objetos (POO)]]

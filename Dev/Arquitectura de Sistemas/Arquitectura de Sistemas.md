@@ -19,7 +19,7 @@ En este nivel de abstracción, el enfoque no se centra únicamente en la impleme
 ---
 
 ### Relación con la implementación
-La Arquitectura de Sistemas define la estructura y organización global del sistema, mientras que su implementación se realiza mediante [[Lenguajes de programación]] y la organización del código en [[Paquetes]].
+La Arquitectura de Sistemas define la estructura y organización global del sistema, mientras que su implementación se realiza mediante [[Lenguajes de Programación]] y la organización del código en [[Paquetes]].
 
 ---
 

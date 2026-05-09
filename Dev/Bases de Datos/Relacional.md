@@ -3,6 +3,7 @@ tags:
   - DBI1erparcial
   - DB
 ---
+**1970**
 Surge para superar las limitaciones de los modelos anteriores.
 
 ### Características principales

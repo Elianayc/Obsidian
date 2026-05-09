@@ -3,6 +3,7 @@ tags:
   - DBI1erparcial
   - DB
 ---
+## Sistemas de Bases de Datos
 Un sistema de bases de datos es un conjunto de datos estructurados e interrelacionados, junto con el software que permite acceder, almacenar, recuperar y manipular dicha información.
 
 Permite la gestión eficiente de grandes volúmenes de datos, asegurando su organización, consistencia y disponibilidad.

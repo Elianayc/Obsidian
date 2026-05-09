@@ -7,6 +7,6 @@ Incluye el estudio de los mecanismos mediante los cuales la información es alma
 #### Elementos asociados:
 - Memoria RAM vs almacenamiento persistente
 - Sistemas de archivos
-- [[Sistemas de Bases de Datos (DBMS)]]
+- [[DBMS]]
 - Operaciones CRUD
 

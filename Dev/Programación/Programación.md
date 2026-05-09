@@ -3,7 +3,7 @@ tags:
   - Programación
   - ProgramaciónI
 ---
-Planificar las actividades para llevar a cabo una tarea o resolver un problema.
+Programar: planificar las actividades para llevar a cabo una tarea o resolver un problema.
 
 #### Resolución de un problema
 - **Comprender el problema.** 

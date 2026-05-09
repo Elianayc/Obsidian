@@ -4,7 +4,7 @@ tags:
   - DB
 ---
 - [[B-Tree]]
-- [[GIST (Generalized Search Tree)]]
-- [[GIN (Generalized Inverted Index)]]
+- [[GIST]]
+- [[GIN]]
 - [[Índices por expresión]]
 - [[Índices parciales]]

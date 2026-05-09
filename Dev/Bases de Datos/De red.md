@@ -3,10 +3,11 @@ tags:
   - DBI1erparcial
   - DB
 ---
+**1960**
+
 Es una evolución del modelo jerárquico.
 Permite que una tabla hijo tenga múltiples padres, lo que habilita relaciones más complejas entre datos.
 
----
 
 ## Definición
 Un sistema de base de datos de red es aquel que almacena los datos como una colección de registros conectados entre sí mediante enlaces, formando una estructura de red.

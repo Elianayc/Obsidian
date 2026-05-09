@@ -41,6 +41,6 @@ Dividir los problemas hasta alcanzar un grado de descomposición de las tareas q
 
 
 Se relaciona con:
-- [[Estructuras de datos]]
+- [[Estructuras de Datos]]
 - [[Representación de un algoritmo]]
 - [[Técnicas algorítmicas]]

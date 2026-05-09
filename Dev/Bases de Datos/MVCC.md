@@ -19,10 +19,10 @@ Varias versiones permiten que lecturas y escrituras convivan sin bloquearse.
 ---
 
 #### MVCC + Marcas temporales
-[[MVCC con marcas temporales]] 
+[[Con marcas temporales]] 
 
 #### MVCC + Bloqueo de dos fases
-[[Bloqueo de dos fases multiversión (MV2PL)]]
+[[MV2PL]]
 
 ---
 

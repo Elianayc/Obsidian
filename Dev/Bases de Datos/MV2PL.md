@@ -3,7 +3,9 @@ tags:
   - DBI2doparcial
   - DB
 ---
-Combina:
+## Bloqueo de dos fases multiversión
+
+**Combina:**
 - MVCC
 - Protocolo de bloqueos de dos fases
 

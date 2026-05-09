@@ -3,6 +3,7 @@ tags:
   - DBI1erparcial
   - DB
 ---
+**Pre-1950**
 Los datos se almacenan en archivos planos (texto o binarios) utilizando la estructura del sistema operativo.
 
 Cualquier acceso a los datos (lectura, escritura o validaciones) debe ser programado explícitamente.  
