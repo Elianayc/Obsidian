@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4fd2de87c6adf964",
+        "id": "d318ba9094484ad4",
         "type": "tabs",
         "children": [
           {
-            "id": "684f2a9dd6fcb7e1",
+            "id": "ffba712fcf69c92d",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -191,7 +191,7 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": false,
+                  "collapse-color-groups": true,
                   "colorGroups": [
                     {
                       "query": "tag:#Arquitecturadesistemas  ",
@@ -226,13 +226,13 @@
                   "showArrow": true,
                   "textFadeMultiplier": -3,
                   "nodeSizeMultiplier": 1.45435422801851,
-                  "lineSizeMultiplier": 1.45435422801851,
+                  "lineSizeMultiplier": 2.9495722900014,
                   "collapse-forces": true,
                   "centerStrength": 0.577057916140794,
                   "repelStrength": 15.5798625718693,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.7545958428437244,
+                  "scale": 0.5694148860370306,
                   "close": true
                 }
               },
@@ -261,8 +261,15 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "684f2a9dd6fcb7e1",
+  "active": "ffba712fcf69c92d",
   "lastOpenFiles": [
+    "Bases de Datos/UPDATE.md",
+    "Bases de Datos/DML.md",
+    "Bases de Datos/SQL.md",
+    "Bases de Datos/Relacional.md",
+    "Bases de Datos/Modelos de Bases de Datos.md",
+    "Bases de Datos/DBMS.md",
+    "Modelado de Sistemas/Diagramas de clases.md",
     "Bases de Datos/Con marcas temporales.md",
     "Programación/Agregación.md",
     "Bases de Datos/MV2PL.md",
@@ -270,12 +277,9 @@
     "Bases de Datos/GIST.md",
     "Bases de Datos/OLTP.md",
     "Bases de Datos/OLAP.md",
-    "Bases de Datos/DBMS.md",
-    "Bases de Datos/Modelos de Bases de Datos.md",
     "Bases de Datos/NoSQL.md",
     "Bases de Datos/Objeto-relacional.md",
     "Bases de Datos/Orientado a objetos.md",
-    "Bases de Datos/Relacional.md",
     "Bases de Datos/De red.md",
     "Bases de Datos/Jerárquico.md",
     "Bases de Datos/Sistema de archivos.md",
@@ -285,11 +289,7 @@
     "Programación/Lenguajes de Programación.md",
     "Programación/Paradigmas.md",
     "Programación/Lógica.md",
-    "Programación/Algoritmo.md",
     "Sin título.canvas",
-    "Programación/Búsquedas.md",
-    "Programación/Técnicas algorítmicas.md",
-    "Programación/Representación de un algoritmo.md",
     "Modelado de Sistemas",
     "Programación/coleccionesJava.png",
     "Programación II",

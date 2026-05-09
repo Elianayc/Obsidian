@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#Arquitecturadesistemas  ",
@@ -36,16 +36,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.25645771981489,
-  "lineSizeMultiplier": 1.45435422801851,
+  "lineSizeMultiplier": 2.41738185387744,
   "collapse-forces": true,
   "centerStrength": 0.756555882765391,
   "repelStrength": 15.6696115551816,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.19531858706163555,
+  "scale": 0.19531858706163552,
   "close": true
 }
