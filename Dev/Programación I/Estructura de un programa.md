@@ -1,0 +1,5 @@
+- [[Datos de entrada]]
+- [[Procesamiento]]
+- [[Datos de salida]]
+- [[Control de flujo]]
+- [[Declaraciones]]

@@ -3,6 +3,3 @@
 - **[[Struct]]**
 - [[Enumerador]]
 - [[Colecciones]]
-
-
-

@@ -34,4 +34,8 @@ Descomposición de un problema en subproblemas más simples y estos a su vez en 
 ##### Refinamiento
 Dividir los problemas hasta alcanzar un grado de descomposición de las tareas que se asemeje a instrucciones que puedan ser volcadas a una computadora.
 
-[[Representación de un algoritmo]]
+
+Se relaciona con:
+- [[Estructuras de datos]]
+- [[Representación de un algoritmo]]
+- [[Técnicas algorítmicas]]

@@ -14,5 +14,7 @@ Planificar las actividades para llevar a cabo una tarea o resolver un problema.
 	Prueba de escritorio.
 
 - **Codificación**
-	Lenguajes de Programación
+	[[Lenguajes de Programación]]
+
+
 
