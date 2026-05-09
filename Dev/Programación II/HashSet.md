@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Es una implementación de **Set** que **no garantiza ningún orden** de los elementos.
 Se enfoca en ser rápida para agregar, buscar y eliminar elementos.
 

@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Paradigma que organiza los programas en **[[Objeto|objetos]]** que representan entidades del mundo real.
 Agrupa instrucciones en [[Clase|clases]] (Modularidad).
 

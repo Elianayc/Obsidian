@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Se utilizan para almacenar cadenas de caracteres.
 
 | Tipo                           | Descripción               | Ejemplo                  |

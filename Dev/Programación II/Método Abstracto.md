@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Es un método que **se declara sin implementación** (sin cuerpo).
 
 Solo define la **firma del método**, pero no su comportamiento.

@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 **Mantiene el orden de inserción** de los elementos, es decir, respeta el orden en el que fueron agregados.
 **No permite duplicados**, pero recuerda la secuencia de ingreso.
 

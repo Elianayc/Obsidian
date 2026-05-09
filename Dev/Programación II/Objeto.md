@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Un objeto es una **instancia concreta de una clase**.  
 Representa una entidad del mundo real dentro del programa y posee un comportamiento definido por su clase.
 

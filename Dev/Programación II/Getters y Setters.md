@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Por convención, los atributos suelen declararse como **privados** y accederse mediante métodos públicos.  
 Estos métodos permiten **leer o modificar** el valor de una variable.
 

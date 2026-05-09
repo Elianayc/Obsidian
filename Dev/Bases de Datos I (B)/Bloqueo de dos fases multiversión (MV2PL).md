@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI2doparcial
+  - DB
+---
 Combina:
 - MVCC
 - Protocolo de bloqueos de dos fases

@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 ![[switch.excalidraw|300]]
 
 

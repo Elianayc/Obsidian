@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Se utiliza para hacer referencia a la **clase padre (superclase)** desde una clase hija.
 
 Permite acceder a:

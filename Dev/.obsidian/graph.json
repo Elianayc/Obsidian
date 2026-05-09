@@ -1,56 +1,42 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "path:\"Arquitectura de Sistemas\"  ",
+      "query": "tag:#Arquitecturadesistemas  ",
       "color": {
         "a": 1,
-        "rgb": 14582420
+        "rgb": 16351360
       }
     },
     {
-      "query": "path:\"Bases de Datos I (A)\"  ",
+      "query": "tag:#DB  ",
       "color": {
         "a": 1,
-        "rgb": 15774345
+        "rgb": 16107371
       }
     },
     {
-      "query": "path:\"Bases de Datos I (B)\"  ",
+      "query": "tag:#Programación  ",
       "color": {
         "a": 1,
-        "rgb": 15261073
+        "rgb": 12419831
       }
     },
     {
-      "query": "path:\"Programación II\"  ",
+      "query": "tag:#Modeladodesistemas  ",
       "color": {
         "a": 1,
-        "rgb": 10202099
-      }
-    },
-    {
-      "query": "path:\"Programación I\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 13870579
-      }
-    },
-    {
-      "query": "path:\"Modelado de Sistemas\"  ",
-      "color": {
-        "a": 1,
-        "rgb": 7325425
+        "rgb": 6978288
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.25645771981489,

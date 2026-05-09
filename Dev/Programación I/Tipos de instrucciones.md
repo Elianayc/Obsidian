@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 - [[Entrada - Salida]]
 - [[Cálculo]]
 - [[Estructuras de control]]

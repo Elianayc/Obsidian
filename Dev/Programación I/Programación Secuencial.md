@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 La programación secuencial es la forma más básica de programar:  
 las instrucciones se ejecutan **una después de la otra**, en el orden en que están escritas.
 

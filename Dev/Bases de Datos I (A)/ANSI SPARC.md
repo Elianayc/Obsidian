@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 La arquitectura ANSI/SPARC organiza las bases de datos en **3 niveles** para separar cómo se ve la información, cómo se organiza y cómo se guarda físicamente.
 
 | ANSI                                                                                                                | SPARC                                                                                                                                            |

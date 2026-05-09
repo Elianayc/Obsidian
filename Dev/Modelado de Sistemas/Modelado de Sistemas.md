@@ -1,3 +1,7 @@
+---
+tags:
+  - Modeladodesistemas
+---
 El modelado de sistemas es el proceso de representar un sistema de software de manera abstracta, antes o durante su implementación, con el objetivo de comprender, diseñar y comunicar su estructura y comportamiento.
 
 Permite visualizar cómo está compuesto un sistema, cómo interactúan sus partes y cómo fluye la información entre ellas.

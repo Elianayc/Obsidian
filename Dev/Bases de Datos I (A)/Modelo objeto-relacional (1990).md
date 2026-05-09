@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Combina el modelo relacional con características de orientación a objetos.
 
 ### Objetivo

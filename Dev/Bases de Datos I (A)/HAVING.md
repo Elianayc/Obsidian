@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Filtra resultados después de un GROUP BY.
 
 ```

@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 ## Crear índices en PostgreSQL
 Por defecto, PostgreSQL crea índices **B-Tree**, ya que sirven para la mayoría de los casos.
 

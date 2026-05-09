@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 - [[Datos de entrada]]
 - [[Procesamiento]]
 - [[Datos de salida]]

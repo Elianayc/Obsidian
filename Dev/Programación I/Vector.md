@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Un vector es una estructura de datos que almacena una **cantidad finita de elementos del mismo tipo**, accesibles mediante un índice.
 
 También se denomina **arreglo unidimensional o array**.

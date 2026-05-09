@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Los lenguajes de bajo nivel son una representación **más comprensible para humanos** del lenguaje máquina.  
 El principal ejemplo es [[Assembly]].
 

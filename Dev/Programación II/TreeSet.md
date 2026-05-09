@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Mantiene los elementos **ordenados** automáticamente según un criterio de orden (por ejemplo, numérico o alfabético).
 **No permite duplicados** y siempre organiza los datos.
 

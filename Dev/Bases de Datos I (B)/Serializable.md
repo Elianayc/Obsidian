@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI2doparcial
+  - DB
+---
 Nivel de aislamiento más estricto.  
 
 Garantiza que el resultado de ejecutar transacciones concurrentes sea equivalente a ejecutarlas **una detrás de otra (en algún orden)**.

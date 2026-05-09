@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI2doparcial
+  - DB
+---
 Toda la transacción ve **el mismo snapshot desde el inicio de la transacción**.
 
 Si otra transacción cambió un dato yo no lo veo. 

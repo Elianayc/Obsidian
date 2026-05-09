@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Define la obligatoriedad de una relación.
 
 Cero indica que la relación puede no existir.

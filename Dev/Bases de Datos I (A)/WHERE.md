@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Se utiliza para **filtrar registros** antes de mostrar resultados.
 
 ```SQL

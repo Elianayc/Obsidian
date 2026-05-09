@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 ### ¿Qué asegura?
 
 - Las Clave primaria|claves primarias no se repiten ni pueden ser NULL

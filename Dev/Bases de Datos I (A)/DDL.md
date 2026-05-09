@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 ### Data Definition Language
 DDL es el sublenguaje de SQL que permite **administrar la estructura de la base de datos**.
 

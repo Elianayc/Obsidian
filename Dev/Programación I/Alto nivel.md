@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Los lenguajes de alto nivel están diseñados para que los humanos puedan programar de forma más simple y segura.
 
 Se parecen más al lenguaje natural y ocultan los detalles del hardware.  

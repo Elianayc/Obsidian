@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Es un campo (o conjunto de campos) que también debe ser **único entre registros**, pero con diferencias respecto a la clave primaria.
 
 ### Características:

@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Assembly (o lenguaje ensamblador) es un lenguaje de **bajo nivel** que está muy cerca del lenguaje máquina.  
 Cada instrucción de Assembly corresponde casi directamente a una instrucción del procesador.
 

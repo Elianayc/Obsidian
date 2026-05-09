@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Una **función** es un módulo de un programa que recibe datos de entrada (parámetros), realiza un procesamiento y devuelve **un único valor de salida**.
 Contiene un grupo de instrucciones. Permite encapsular comportamiento. 
 

@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 ##### Diseño [[Modularidad|Modular]]
 - Cada módulo es diseñado de modo descendente.
 

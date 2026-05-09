@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 El elemento más representativo de la programación secuencial es la instrucción **goto**.
 
 `goto` permite saltar directamente a otra parte del programa, rompiendo el flujo normal de ejecución.

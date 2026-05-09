@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 #### En orden lógico de uso
 
 - [[FROM]] → de qué tabla vienen los datos

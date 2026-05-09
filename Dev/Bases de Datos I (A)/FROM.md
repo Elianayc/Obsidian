@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 La cláusula **FROM** se utiliza en SQL para indicar **de qué tabla o tablas se van a obtener los datos**.
 
 Es una parte fundamental del comando **SELECT**, ya que sin FROM no se puede acceder a una fuente de datos.

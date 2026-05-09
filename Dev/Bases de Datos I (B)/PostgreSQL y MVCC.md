@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI2doparcial
+  - DB
+---
 PostgreSQL implementa el control de concurrencia usando **MVCC**.
 
 Cada consulta SQL ve una **instantánea (snapshot)** de la base de datos:

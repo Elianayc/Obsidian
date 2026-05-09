@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Paradigma basado en la lógica formal y las matemáticas.  
 Un programa se construye definiendo **hechos**, **relaciones** y **reglas**, y el sistema se encarga de deducir las respuestas.
 

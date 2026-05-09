@@ -2,7 +2,7 @@
   "obsidian-excalidraw-plugin",
   "obsidian-style-settings",
   "obsidian-git",
-  "github-embeds",
   "node-factor",
-  "persistent-graph"
+  "persistent-graph",
+  "quick-tagger"
 ]

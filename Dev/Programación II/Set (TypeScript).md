@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Un Set es una colección de valores **únicos**.
 **No permite duplicados** y mantiene el **orden de inserción**.
 

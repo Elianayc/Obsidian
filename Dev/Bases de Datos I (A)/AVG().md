@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Calcula el promedio de una columna numérica.
 
 ```

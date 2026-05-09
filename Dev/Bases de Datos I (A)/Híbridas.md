@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Son una combinación de sistemas OLTP y OLAP.
 
 ### Características

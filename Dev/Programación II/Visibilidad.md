@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Nivel de exposición.
 Para que los objetos puedas interactuar entre sí debe explicitarse la visibilidad de sus miembros.
 

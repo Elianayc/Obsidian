@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 El testing es el proceso de verificar que un sistema (o parte de él) cumple con los requisitos funcionales y no funcionales.
 
 ### Objetivos del testing

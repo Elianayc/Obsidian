@@ -15,7 +15,8 @@
               "state": {
                 "file": "Programación I/Programar.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Programar"
@@ -74,8 +75,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -177,11 +177,83 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
+      },
+      {
+        "id": "7d43bd82675bbd45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a130ab169b97052f",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Programación I/Programar.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [
+                    {
+                      "query": "tag:#Arquitecturadesistemas  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16351360
+                      }
+                    },
+                    {
+                      "query": "tag:#DB  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 16107371
+                      }
+                    },
+                    {
+                      "query": "tag:#Programación  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 12419831
+                      }
+                    },
+                    {
+                      "query": "tag:#Modeladodesistemas  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 6978288
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": -3,
+                  "nodeSizeMultiplier": 1.45435422801851,
+                  "lineSizeMultiplier": 1.45435422801851,
+                  "collapse-forces": true,
+                  "centerStrength": 0.747580984434161,
+                  "repelStrength": 15.4003646052447,
+                  "linkStrength": 1,
+                  "linkDistance": 30,
+                  "scale": 0.7545958428437243,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Gráfico de Programar"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 374.5
+    "width": 323.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,38 +265,40 @@
       "bases:Crear nueva base": false,
       "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "quick-tagger:Add tag to current note": false,
+      "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "dde45c8456a66b4e",
+  "active": "42db857284b5fc3e",
   "lastOpenFiles": [
+    "Programación II/Agregación.md",
     "Programación I/Algoritmo.md",
+    "Modelado de Sistemas/Diagrama de flujo.md",
+    "Excalidraw/for.excalidraw.md",
+    "Bases de Datos I (B)/Bloqueo de dos fases multiversión (MV2PL).md",
+    "Bases de Datos I (A)/LIMIT.md",
+    "Bases de Datos I (A)/ALTER TABLE.md",
+    "Arquitectura de Sistemas/Arquitectura cliente-servidor.md",
+    "Bases de Datos I (A)/ANSI SPARC.md",
+    "Bases de Datos I (A)/Ternaria.md",
+    "Bases de Datos I (A)/SUM().md",
+    "Bases de Datos I (A)/Tabla.md",
+    "Bases de Datos I (A)/Sistemas de Bases de Datos (DBMS).md",
+    "Bases de Datos I (A)/Modelo relacional (1970).md",
+    "Programación I/Programar.md",
     "Programación I/Datos de entrada.md",
     "Programación I/Bool.md",
-    "Bases de Datos I (A)/Sistemas de Bases de Datos (DBMS).md",
-    "Programación I/Programar.md",
     "Programación I/Representación de un algoritmo.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Programación II/Colecciones.md",
     "Modelado de Sistemas/Modelado de Sistemas.md",
     "Modelado de Sistemas/UML.md",
     "Modelado de Sistemas/Diagramas de clases.md",
-    "Modelado de Sistemas/Diagrama de flujo.md",
     "Modelado de Sistemas",
     "Programación I/Lenguajes de Programación.md",
     "Programación I/Fundamentos de la Programación.md",
     "Programación II/Programación Orientada a objetos (POO).md",
-    "Programación II/Testing.md",
-    "Programación II/Tipos de testing.md",
-    "Programación II/Debugging.md",
-    "Programación II/Palabra `this`.md",
-    "Programación II/Testing automatizado.md",
-    "Programación II/Mock Objects.md",
-    "Programación II/Errores y Excepciones.md",
-    "Programación I/Estructuras de Datos.md",
-    "Programación I/Control de flujo.md",
-    "Programación I/Niveles de abstracción.md",
-    "Programación I/Estructura de un programa.md",
     "Sin título.canvas",
     "Programación II/coleccionesJava.png",
     "Programación II",

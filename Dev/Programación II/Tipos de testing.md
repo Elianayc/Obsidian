@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 
 #### Según el enfoque
 - **Caja negra**: se prueba el sistema como un todo sin conocer su implementación interna. Puede ser manual o automatizado.

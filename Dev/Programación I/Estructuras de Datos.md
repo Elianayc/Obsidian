@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 - **[[Vector]]**
 - [[Matriz]]
 - **[[Struct]]**

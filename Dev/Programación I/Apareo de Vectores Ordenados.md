@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Nos permite combinar dos vectores en un tercer vector que contendrá elementos de los vectores originales.
 `vecA + vecB = vecC`
 

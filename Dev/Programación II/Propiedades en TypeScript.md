@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Son una forma propia del lenguaje de declarar getters y setters utilizando las palabras clave `get` y `set`.
 Permiten acceder al atributo **como si fuera una propiedad normal**, manteniendo la encapsulación internamente.
 Esto mejora la **legibilidad y naturalidad del código**.

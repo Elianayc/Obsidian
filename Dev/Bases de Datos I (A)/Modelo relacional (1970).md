@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Surge para superar las limitaciones de los modelos anteriores.
 
 ### Características principales

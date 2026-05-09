@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Agrupa registros que tienen valores iguales en una o más columnas.
 
 ```

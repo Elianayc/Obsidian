@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Dividen el problema en subproblemas para simplificar el desarrollo de un programa.
 
 ---

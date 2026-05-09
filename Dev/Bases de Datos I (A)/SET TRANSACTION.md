@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Se utiliza para definir propiedades de la transacción, como el nivel de aislamiento.
 
 ```sql

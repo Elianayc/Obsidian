@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Consiste en tratar un objeto de la **clase base** como si fuera de una **clase derivada**.  
 Se usa cuando necesitamos acceder a comportamientos específicos de la clase hija.  
 

@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 El comando **UPDATE** permite **modificar uno o varios registros** de una tabla.
 
 ### Sintaxis básica

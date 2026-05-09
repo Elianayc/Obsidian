@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Es una relación **fuerte** entre objetos.
 
 Representa una relación de tipo **“está formado por”** (compuesto + componente).  

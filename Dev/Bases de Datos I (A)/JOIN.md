@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Permite combinar tablas relacionadas.
 ```SQL
 SELECT e.nombre, d.nombre_departamento 

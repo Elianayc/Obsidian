@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Un Set es una colección que almacena elementos **únicos**, es decir, no permite duplicados.
 
 Su objetivo principal es garantizar que cada elemento exista solo una vez dentro de la estructura.

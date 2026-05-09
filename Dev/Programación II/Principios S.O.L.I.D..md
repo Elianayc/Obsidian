@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 
 - ### Responsabilidad única
 	Cada clase debe tener **una única responsabilidad**, es decir, una sola razón para cambiar.

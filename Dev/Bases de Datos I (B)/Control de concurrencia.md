@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI2doparcial
+  - DB
+---
 Cuando varias transacciones se ejecutan al mismo tiempo:
 
 - Pueden interferirse

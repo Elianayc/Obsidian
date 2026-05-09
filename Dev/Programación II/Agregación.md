@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Es una relación **débil** entre objetos.
 
 Representa una relación de tipo **“puede tener”** (compuesto + componente).  

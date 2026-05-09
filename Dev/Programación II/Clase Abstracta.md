@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Una clase abstracta es una clase que **no puede ser instanciada directamente**.
 
 Su objetivo es servir como **base para otras clases**, definiendo una estructura común.

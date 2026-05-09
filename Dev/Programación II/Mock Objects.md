@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 # Mock Objects
 Un mock es un objeto simulado que reemplaza a un objeto real con comportamiento controlado.
 

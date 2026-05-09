@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Es la capacidad de una clase derivada de **redefinir un método heredado de la clase padre** para modificar su comportamiento.
 
 Esto permite que distintas clases hijas respondan de forma diferente al mismo método, lo cual es una base del **polimorfismo**.

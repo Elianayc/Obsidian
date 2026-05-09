@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Es una implementación de Map que **mantiene el orden** de inserción.
 Es decir, los elementos se almacenan en el orden en que fueron agregados.
 

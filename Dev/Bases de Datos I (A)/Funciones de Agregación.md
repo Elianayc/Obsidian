@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Las **funciones de agregado** realizan cálculos sobre **un conjunto de filas** y devuelven **un único valor**.
 
 Se usan generalmente junto con **GROUP BY** dentro de una consulta **SELECT**.

@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI2doparcial
+  - DB
+---
 ## Control de concurrencia multiversión
 
 En **MVCC**, cada vez que una transacción escribe un dato, no lo reemplaza:  

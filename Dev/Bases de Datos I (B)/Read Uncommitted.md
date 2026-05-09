@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI2doparcial
+  - DB
+---
 Nivel más bajo del estándar SQL.
 
 Permite, en teoría, leer datos que todavía **no fueron confirmados (COMMIT)** por otras transacciones.

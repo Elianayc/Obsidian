@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Módulo que puede devolver uno, muchos o ningún resultado. Puede modificar variables externas. No tiene `return`.
 
 

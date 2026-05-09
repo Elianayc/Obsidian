@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI2doparcial
+  - DB
+---
 Cada transacción tiene una **marca temporal (timestamp)** asignada antes de empezar.
 
 Cada versión de un dato Q guarda:

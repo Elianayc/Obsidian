@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Es una implementación de Map que **ordena automáticamente las claves**.
 El orden puede ser natural (alfabético o numérico) o definido por un criterio.
 

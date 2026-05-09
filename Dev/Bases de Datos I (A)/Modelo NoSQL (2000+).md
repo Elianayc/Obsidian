@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Modelos no relacionales que ganaron popularidad con la web 2.0.
 
 ### Características

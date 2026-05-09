@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Estructura de repetición que itera la cantidad de veces que yo decida.
 
 ![[for.excalidraw|300]]

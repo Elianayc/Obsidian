@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI2doparcial
+  - DB
+---
 Cada consulta toma un **snapshot nuevo de los datos al comenzar.
 
 ### Evita

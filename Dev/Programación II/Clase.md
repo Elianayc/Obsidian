@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Una **clase** es el molde a partir del cual se crean los objetos.  
 Define las **características (atributos)** y el **comportamiento (métodos)** que tendrán sus instancias.
 

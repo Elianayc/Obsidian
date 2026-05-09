@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI2doparcial
+  - DB
+---
 ### Lectura sucia
 Una transacción lee datos **n confirmados** de otra transacción.  
 

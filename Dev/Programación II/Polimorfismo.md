@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 El polimorfismo es la capacidad que tienen los objetos de **responder de distintas formas ante el mismo llamado o mensaje**. 
 
 Se basa en la idea de que una misma operación puede comportarse de manera diferente según el tipo de objeto que la ejecute.

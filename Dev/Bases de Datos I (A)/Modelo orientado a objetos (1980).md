@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Basado en el paradigma de programación orientada a objetos.
 
 ### Características

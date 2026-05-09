@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 ![[if-else.excalidraw|300]]
 
 ```pseudocódigo

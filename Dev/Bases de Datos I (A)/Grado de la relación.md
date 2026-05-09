@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 El grado de una relación indica la cantidad de **tabla** o **entidad** que participan en una **relación**.
 
 - [[Binaria]]

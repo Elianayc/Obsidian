@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 C++ es una evolución de C que agrega programación orientada a objetos sin perder eficiencia.  
 Permite programar en varios paradigmas: procedural, orientado a objetos y genérico.
 

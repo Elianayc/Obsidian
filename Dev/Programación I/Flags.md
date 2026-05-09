@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Se emplea una variable lógica (primeraVez) para detectar la primera iteración de un bucle. 
 Útil para inicializar variables con el primer dato ingresado.
 

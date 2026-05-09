@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 - [[Variable]]
 - [[Constante]]
 - [[Tipos de instrucciones]]

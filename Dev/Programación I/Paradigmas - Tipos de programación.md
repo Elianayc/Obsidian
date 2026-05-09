@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 - [[Lógica (hechos y relaciones)]]
 - [[Programación Secuencial]]
 - [[Programación Estructurada]]

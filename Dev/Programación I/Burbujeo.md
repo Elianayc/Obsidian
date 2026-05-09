@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Consiste en comparar cada par de valores adyacentes e intercambiarlos si no están en el orden buscado.
 
 ```cpp

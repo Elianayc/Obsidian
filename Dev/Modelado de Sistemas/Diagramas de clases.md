@@ -1,1 +1,5 @@
+---
+tags:
+  - Modeladodesistemas
+---
 Representan la estructura de un sistema orientado a objetos, mostrando clases, atributos, métodos y relaciones entre ellas.

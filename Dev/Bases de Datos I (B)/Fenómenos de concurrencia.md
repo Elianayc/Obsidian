@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI2doparcial
+  - DB
+---
 Son anomalías que aparecen cuando varias transacciones corren al mismo tiempo.
 
 - [[Dirty Read]]

@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Es la implementación más común de **Map**.
 No garantiza **ningún orden** en los elementos.
 Es muy eficiente para inserción, búsqueda y eliminación.

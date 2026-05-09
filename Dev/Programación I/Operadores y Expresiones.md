@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 #### Asignación " = "
 Le asigna un valor a una variable.
 ```cpp

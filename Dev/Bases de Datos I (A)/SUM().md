@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Suma todos los valores de una columna numérica.
 
 ```

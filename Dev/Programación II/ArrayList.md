@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Es una implementación de la interfaz List en **Java**.
 
 Está basada en un arreglo dinámico, lo que permite acceso rápido a los elementos mediante **índice**.

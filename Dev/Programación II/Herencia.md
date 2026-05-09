@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Es una relación de tipo **“es un” (is-a)**.  
 Permite crear una clase nueva a partir de otra ya existente.
 

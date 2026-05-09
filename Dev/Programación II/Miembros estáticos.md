@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Los miembros (métodos o atributos) estáticos son aquellos que pertenecen a la clase y no a una instancia.
 
 Se utilizan sin necesidad de instanciar la clase.

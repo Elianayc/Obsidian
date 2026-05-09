@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Es una implementación de la interfaz List basada en nodos enlazados (lista **doblemente** **enlazada**).
 
 Es más eficiente para inserciones y eliminaciones en el medio de la lista, pero más lenta para acceso por índice.

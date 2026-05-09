@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Los datos de entrada en su mayoría serán ingresados por un usuario a través del teclado, mouse, pantalla táctil.
 Las salidas serán información que el programa ofrecerá al usuario a través de la pantalla o una impresora.
 

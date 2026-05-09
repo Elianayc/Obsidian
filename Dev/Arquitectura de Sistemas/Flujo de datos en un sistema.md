@@ -1,3 +1,7 @@
+---
+tags:
+  - Arquitecturadesistemas
+---
 Describe el recorrido de la información dentro de un sistema:
 
 - Entrada de datos

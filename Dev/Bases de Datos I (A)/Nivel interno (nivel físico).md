@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Es “cómo se guardan realmente los datos”
 
 Es el nivel más bajo.

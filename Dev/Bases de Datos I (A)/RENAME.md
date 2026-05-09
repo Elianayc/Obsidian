@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Se utiliza para cambiar el nombre de una tabla.
 
 ```sql

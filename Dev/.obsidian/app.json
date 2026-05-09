@@ -6,5 +6,6 @@
   "trashOption": "local",
   "userIgnoreFilters": [
     "Excalidraw/"
-  ]
+  ],
+  "propertiesInDocument": "hidden"
 }

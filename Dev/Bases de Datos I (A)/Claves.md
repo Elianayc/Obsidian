@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 En una base de datos relacional, una **clave (key)** es un campo o conjunto de campos que permite **identificar registros y relacionar tablas**.
 
 También funciona como un **índice**, ya que sus valores se usan para búsquedas más eficientes.

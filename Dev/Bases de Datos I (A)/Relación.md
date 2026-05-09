@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 - Asociación entre entidades
 - Ejemplo: libro ↔ autor
 

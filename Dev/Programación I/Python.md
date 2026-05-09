@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Python es un lenguaje de programación de alto nivel, interpretado y de tipado dinámico.  
 
 Está diseñado para ser simple, legible y productivo, por lo que es muy usado en educación, desarrollo web, automatización, ciencia de datos, inteligencia artificial y scripting.

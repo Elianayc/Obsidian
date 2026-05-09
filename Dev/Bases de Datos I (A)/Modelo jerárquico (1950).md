@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 
 ## Definición general
 Un sistema de base de datos jerárquico es aquel que guarda la información en una estructura jerárquica en forma de árbol invertido.

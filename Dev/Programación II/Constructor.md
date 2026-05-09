@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 ### Constructor
 Es el método que se ejecuta automáticamente al crear una instancia de una clase.
 

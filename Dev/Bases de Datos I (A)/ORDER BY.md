@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Ordena los resultados de una consulta.
 
 ```SQL

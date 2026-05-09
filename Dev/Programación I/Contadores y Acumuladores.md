@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 ##### Contador
 Variable de tipo entero cuya función es contar cosas.
 ```pseudocódigo

@@ -1,3 +1,7 @@
+---
+tags:
+  - Arquitecturadesistemas
+---
 Modelo de organización que separa el sistema en niveles funcionales:
 
 - Capa de **presentación** (interfaz de usuario)

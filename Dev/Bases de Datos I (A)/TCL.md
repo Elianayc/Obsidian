@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Controla las [[Transacciones|transacciones]] (bloques de operaciones).
 Sirve para asegurar consistencia en operaciones múltiples.
 

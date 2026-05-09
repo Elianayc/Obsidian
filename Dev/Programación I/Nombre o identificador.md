@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 - Debe comenzar con cualquier letra o con guion bajo.
 - Luego del primer carácter solo puede contener letras (mayúsculas o minúsculas), números o guion bajo.
 - No puede tener espacios o cualquier otro carácter. 

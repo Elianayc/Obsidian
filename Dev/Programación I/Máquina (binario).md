@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Es el nivel más bajo de programación.  
 El lenguaje máquina está compuesto únicamente por **bits (0 y 1)** que el procesador entiende directamente.
 

@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Se utilizan para almacenar valores numéricos enteros o con decimales.
 
 | Tipo              | Descripción                    | Ejemplo                       |

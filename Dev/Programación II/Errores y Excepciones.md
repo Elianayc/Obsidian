@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 #### 1. Errores sintácticos y semánticos
 Errores de diseño. Son fáciles de detectar por el IDE o el compilador.
 

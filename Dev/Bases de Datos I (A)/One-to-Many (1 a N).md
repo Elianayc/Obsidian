@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Un registro de una tabla puede relacionarse con varios registros de otra tabla.
 Es la relación más común en bases de datos relacionales.
 

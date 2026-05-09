@@ -1,3 +1,7 @@
+---
+tags:
+  - Arquitecturadesistemas
+---
 Modelo de comunicación en el cual los sistemas se organizan en dos componentes principales:
 
 - **Cliente**: entidad que solicita servicios o recursos

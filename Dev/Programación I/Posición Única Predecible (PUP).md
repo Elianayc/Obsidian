@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Búsqueda directa.
 
 Creamos vectores asociados a lo que vamos a guardar para que al buscar podamos hacerlo directamente accediendo al elemento de la posición correspondiente.

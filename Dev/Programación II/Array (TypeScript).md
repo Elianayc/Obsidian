@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Un Array es una colección ordenada de elementos que **permite duplicados**.
 
 **Mantiene el orden de inserción** y permite acceder a los elementos por **índice**.

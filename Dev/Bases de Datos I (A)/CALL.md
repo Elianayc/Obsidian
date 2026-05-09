@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Se utiliza para ejecutar procedimientos almacenados.
 
 ```sql

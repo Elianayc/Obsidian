@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Las instrucciones de cálculo permiten realizar **operaciones matemáticas y lógicas** con los datos del programa.
 
 Se utilizan para procesar la información y obtener nuevos valores a partir de los datos de entrada.

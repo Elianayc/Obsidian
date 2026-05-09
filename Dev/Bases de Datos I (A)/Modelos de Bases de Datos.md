@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 
 - [[Modelo de sistema de archivos (Pre-1950)]]
 - [[Modelo jerárquico (1950)]]

@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Es “la base de datos como la ve el usuario”.
 
 - También se llama **nivel lógico de usuario**.

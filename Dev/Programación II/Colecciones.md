@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Son estructuras de datos que permiten agrupar múltiples elementos, generalmente del mismo tipo, llamados **elementos**.
 
 Incluyen **operaciones o funciones** para manipular dichos elementos.

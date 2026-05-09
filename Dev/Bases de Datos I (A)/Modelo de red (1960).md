@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 Es una evolución del modelo jerárquico.
 Permite que una tabla hijo tenga múltiples padres, lo que habilita relaciones más complejas entre datos.
 

@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Un Map es una estructura de datos que almacena pares **clave–valor**.
 Cada elemento está compuesto por una clave única (**key**) y un valor asociado (**value**).
 

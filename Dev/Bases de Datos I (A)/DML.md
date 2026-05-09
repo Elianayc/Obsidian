@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 ### Data Manipulation Language
 
 El **DML** es el sublenguaje de SQL que permite **manipular los datos** de la base de datos.

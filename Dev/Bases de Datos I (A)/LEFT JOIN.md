@@ -1,3 +1,8 @@
+---
+tags:
+  - DBI1erparcial
+  - DB
+---
 # LEFT JOIN
 Devuelve todo de la tabla izquierda + coincidencias.
 ```SQL

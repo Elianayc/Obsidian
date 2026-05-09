@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Es un algoritmo de ordenamiento sencillo, pero poco eficiente para grandes volúmenes de datos.
 
 Su funcionamiento es similar al ordenamiento de cartas en la mano: se toma un elemento y se lo inserta en la posición correcta dentro de los elementos ya ordenados.

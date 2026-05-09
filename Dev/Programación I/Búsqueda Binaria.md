@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónI
+---
 Requiere que el vector esté ordenado de forma ascendente.
 
 1. Se compara el elemento buscado con el elemento central del vector.

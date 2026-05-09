@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Una interfaz define el **comportamiento que deben cumplir las clases** que la implementan, estableciendo un **contrato común** entre distintas implementaciones.
 
 Describe únicamente las **firmas de los métodos**, sin incluir su implementación.

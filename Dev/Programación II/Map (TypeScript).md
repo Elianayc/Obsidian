@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Un Map es una colección de pares **clave–valor**.
 
 Cada clave es única y permite asociar un valor a una clave específica.

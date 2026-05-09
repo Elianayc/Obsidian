@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 En TypeScript no existen colecciones como en Java (LinkedList, TreeSet, etc.) porque el lenguaje usa estructuras más generales como Array, Set y Map basadas en JavaScript.
 
 ---

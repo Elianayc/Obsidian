@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Una List es una colección ordenada de elementos que **permite duplicados**.
 
 A diferencia de otras estructuras, una lista **mantiene el orden de inserción** y permite acceder a los elementos por posición (**índice**).

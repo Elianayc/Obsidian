@@ -1,3 +1,7 @@
+---
+tags:
+  - Arquitecturadesistemas
+---
 Incluye el estudio de los mecanismos mediante los cuales la información es almacenada y recuperada de forma permanente.
 
 #### Elementos asociados:

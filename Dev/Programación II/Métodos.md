@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 Los métodos son **funciones definidas dentro de una clase** que representan el **comportamiento del objeto**.
 
 Permiten que el objeto realice acciones, procese datos o interactúe con otros objetos.
