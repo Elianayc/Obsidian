@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d318ba9094484ad4",
+        "id": "75cadc00c56177f5",
         "type": "tabs",
         "children": [
           {
-            "id": "ffba712fcf69c92d",
+            "id": "71ee74d775a8617d",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -261,7 +261,7 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "ffba712fcf69c92d",
+  "active": "71ee74d775a8617d",
   "lastOpenFiles": [
     "Bases de Datos/UPDATE.md",
     "Bases de Datos/DML.md",
