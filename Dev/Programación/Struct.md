@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Son una forma de agrupar varias variables bajo un mismo nombre, pudiendo ser de distintos tipos de datos.  
 Se utilizan para crear tipos de datos personalizados.

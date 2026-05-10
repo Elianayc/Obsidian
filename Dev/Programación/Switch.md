@@ -2,8 +2,9 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
-![[switch.excalidraw|300]]
+![[Excalidraw/switch|300]]
 
 
 ```pseudocódigo

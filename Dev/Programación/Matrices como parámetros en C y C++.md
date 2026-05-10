@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Las matrices se pasan a funciones o procedimientos por **referencia** de forma implícita.  
 

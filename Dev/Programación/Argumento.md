@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Los **argumentos** son los valores reales que se envían a una función cuando es llamada. Esos valores “rellenan” los parámetros definidos en la función.
 

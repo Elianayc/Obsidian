@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Son instrucciones que permiten definir variables, constantes u otros elementos dentro de un programa antes de su uso.
 

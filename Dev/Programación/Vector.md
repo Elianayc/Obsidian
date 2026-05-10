@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Un vector es una estructura de datos que almacena una **cantidad finita de elementos del mismo tipo**, accesibles mediante un índice.
 

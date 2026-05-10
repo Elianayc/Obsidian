@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Cada módulo debe poder recibir la información necesaria para realizar su tarea y, al mismo tiempo tener otro mecanismo que informe el resultado obtenido.
 

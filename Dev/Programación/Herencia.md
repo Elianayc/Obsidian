@@ -9,6 +9,7 @@ Permite crear una clase nueva a partir de otra ya existente.
 La clase hija **hereda** los miembros públicos y protegidos de la clase padre y puede utilizarlos como propios.
 
 TypeScript permite **herencia simple** (una sola clase padre), al igual que Java.  
+
 C++ permite **herencia múltiple**.
 
 ##### Ejemplo de jerarquía:

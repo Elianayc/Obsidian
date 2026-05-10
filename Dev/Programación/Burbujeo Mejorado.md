@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 En el anterior algoritmo el problema es que si a la segunda pasada del vector ya está ordenado, nosotros igual hacemos n-1 iteraciones.
 Para evitar esto agregamos una bandera que nos permite saber si pudimos completar una pasada sin hacer cambios.

@@ -5,34 +5,34 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#Arquitecturadesistemas  ",
       "color": {
         "a": 1,
-        "rgb": 16351360
+        "rgb": 15643839
       }
     },
     {
       "query": "tag:#DB  ",
       "color": {
         "a": 1,
-        "rgb": 16107371
+        "rgb": 16304555
       }
     },
     {
       "query": "tag:#Programación  ",
       "color": {
         "a": 1,
-        "rgb": 7124473
+        "rgb": 11063541
       }
     },
     {
       "query": "tag:#Modeladodesistemas  ",
       "color": {
         "a": 1,
-        "rgb": 9096358
+        "rgb": 11921610
       }
     }
   ],
@@ -46,6 +46,6 @@
   "repelStrength": 15.6696115551816,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.19531858706163552,
+  "scale": 0.1953185870616348,
   "close": true
 }

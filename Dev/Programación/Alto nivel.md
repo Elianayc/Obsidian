@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Los lenguajes de alto nivel están diseñados para que los humanos puedan programar de forma más simple y segura.
 

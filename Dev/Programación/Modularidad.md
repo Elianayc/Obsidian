@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Dividen el problema en subproblemas para simplificar el desarrollo de un programa.
 

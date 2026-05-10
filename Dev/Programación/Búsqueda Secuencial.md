@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Recorremos cada elemento evaluando si es igual al buscado.
 Si lo encontramos devolvemos su posición, sino -1.

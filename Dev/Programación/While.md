@@ -2,10 +2,11 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Estructura de repetición que continúa mientras se cumple una condición.
 
-![[while.excalidraw|300]]
+![[Excalidraw/while|300]]
 
 ```pseudocódigo
 Mientras (condición) hacer

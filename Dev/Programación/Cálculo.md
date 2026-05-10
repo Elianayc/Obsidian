@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Las instrucciones de cálculo permiten realizar **operaciones matemáticas y lógicas** con los datos del programa.
 

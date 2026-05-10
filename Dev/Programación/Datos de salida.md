@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Son los resultados generados por un programa luego de procesar los datos de entrada.
 

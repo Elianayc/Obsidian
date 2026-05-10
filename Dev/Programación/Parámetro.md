@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Los **parámetros** son variables que se definen en la función y que sirven para recibir datos de entrada cuando la función es llamada. Actúan como “contenedores” que toman los valores enviados desde afuera ([[Argumento|argumentos]]) y permiten que la función trabaje con ellos.
 

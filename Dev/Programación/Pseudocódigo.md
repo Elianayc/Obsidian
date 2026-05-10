@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Lenguaje para especificar un algoritmo (no de programación).
 No puede ser ejecutado por una computadora.

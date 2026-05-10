@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Una matriz es una estructura de datos bidimensional que almacena elementos del mismo tipo organizados en filas y columnas. 
 

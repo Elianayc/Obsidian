@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 - [[Lógica]]
 - [[Programación Secuencial]]

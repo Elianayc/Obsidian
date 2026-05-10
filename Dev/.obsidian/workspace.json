@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "75cadc00c56177f5",
+        "id": "884953e6f8076861",
         "type": "tabs",
         "children": [
           {
-            "id": "71ee74d775a8617d",
+            "id": "118aa11bf3931d28",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programación/Patrones de Diseño.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Patrones de Diseño"
             }
           }
         ]
@@ -49,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "patrones",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -70,7 +75,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Programación/Patrones de Diseño.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema"
+              "title": "Esquema de Patrones de Diseño"
             }
           },
           {
@@ -181,6 +188,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Programación/Patrones de Diseño.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,34 +199,34 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": true,
+                  "collapse-color-groups": false,
                   "colorGroups": [
                     {
                       "query": "tag:#Arquitecturadesistemas  ",
                       "color": {
                         "a": 1,
-                        "rgb": 16351360
+                        "rgb": 15643839
                       }
                     },
                     {
                       "query": "tag:#DB  ",
                       "color": {
                         "a": 1,
-                        "rgb": 16107371
+                        "rgb": 16304555
                       }
                     },
                     {
                       "query": "tag:#Programación  ",
                       "color": {
                         "a": 1,
-                        "rgb": 7124473
+                        "rgb": 11063541
                       }
                     },
                     {
                       "query": "tag:#Modeladodesistemas  ",
                       "color": {
                         "a": 1,
-                        "rgb": 9096358
+                        "rgb": 11921610
                       }
                     }
                   ],
@@ -237,14 +245,15 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "title": "Gráfico de Patrones de Diseño"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 311.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -261,34 +270,41 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "71ee74d775a8617d",
+  "active": "118aa11bf3931d28",
   "lastOpenFiles": [
-    "Bases de Datos/UPDATE.md",
-    "Bases de Datos/DML.md",
-    "Bases de Datos/SQL.md",
-    "Bases de Datos/Relacional.md",
-    "Bases de Datos/Modelos de Bases de Datos.md",
-    "Bases de Datos/DBMS.md",
-    "Modelado de Sistemas/Diagramas de clases.md",
-    "Bases de Datos/Con marcas temporales.md",
+    "Programación/Polimorfismo.md",
+    "Programación/Alto nivel.md",
     "Programación/Agregación.md",
-    "Bases de Datos/MV2PL.md",
-    "Bases de Datos/GIN.md",
-    "Bases de Datos/GIST.md",
-    "Bases de Datos/OLTP.md",
-    "Bases de Datos/OLAP.md",
-    "Bases de Datos/NoSQL.md",
-    "Bases de Datos/Objeto-relacional.md",
-    "Bases de Datos/Orientado a objetos.md",
-    "Bases de Datos/De red.md",
-    "Bases de Datos/Jerárquico.md",
-    "Bases de Datos/Sistema de archivos.md",
-    "Modelado de Sistemas/Modelado de Sistemas.md",
-    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-    "Programación/Programación.md",
-    "Programación/Lenguajes de Programación.md",
-    "Programación/Paradigmas.md",
-    "Programación/Lógica.md",
+    "Abierto/cerrado.md",
+    "Programación/solid.png",
+    "Programación/Principios S.O.L.I.D..md",
+    "Programación/Single Responsibility Principle.md",
+    "Programación/Dependency Inversion Principle.md",
+    "Programación/Interface Segregation Principle.md",
+    "Programación/Liskov Substitution Principle.md",
+    "Programación/Open Close Principle.md",
+    "Abierto",
+    "Modelado de Sistemas/Diagrama de flujo.md",
+    "Excalidraw/while.md",
+    "Excalidraw/switch.md",
+    "Excalidraw/relacionesclases.md",
+    "Excalidraw/multiplicidadderelaciones.md",
+    "Excalidraw/if-else.md",
+    "Excalidraw/if.md",
+    "Excalidraw/for.md",
+    "Excalidraw/diagramadeflujo.md",
+    "Excalidraw/diagramadeclases.md",
+    "Modelado de Sistemas/diagramadesecuencia.png",
+    "Modelado de Sistemas/diagramadeactividad.png",
+    "Pasted image 20260510153635.png",
+    "Modelado de Sistemas/Diagramas de actividad.md",
+    "Modelado de Sistemas/Diagramas de secuencia.md",
+    "Modelado de Sistemas/UML.md",
+    "Modelado de Sistemas/diagramacasosdeuso.png",
+    "Modelado de Sistemas/Diagramas de casos de uso.md",
+    "Modelado de Sistemas/Diagramas de clases.md",
+    "Pasted image 20260510153749.png",
+    "Programación/Relaciones entre Clases.md",
     "Sin título.canvas",
     "Modelado de Sistemas",
     "Programación/coleccionesJava.png",
@@ -302,10 +318,7 @@
     "Bases de Datos/Tipos de relaciones ERD.png",
     "Bases de Datos/Diagrama ERD.png",
     "Pasted image 20260501201437.png",
-    "Pasted image 20260501201030.png",
-    "Pasted image 20260501201026.png",
     "Bases de Datos/Sin nombre",
-    "Bases de Datos/Introducción a Bases de Datos",
     "Sin título 1.canvas"
   ]
 }

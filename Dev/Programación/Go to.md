@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 El elemento más representativo de la programación secuencial es la instrucción **goto**.
 

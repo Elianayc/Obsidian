@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 
 |                                                                                     **Compilación (C, C++)**                                                                                     |                                                             **Interpretación (Python)**                                                             |                                                                  **Transpilación (TypeScript, Babel)**                                                                   |

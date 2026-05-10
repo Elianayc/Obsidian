@@ -2,8 +2,9 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
-![[if.excalidraw|300]]
+![[Excalidraw/if|300]]
 
 ```pseudocódigo
 Si(condición) entonces

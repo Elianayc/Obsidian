@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 C es un lenguaje de programación compilado, de tipado fuerte y orientado a la programación estructurada (procedural).  
 Se caracteriza por ser muy eficiente y permitir control directo de la memoria, por eso se usa mucho en sistemas operativos, drivers, firmware y software de alto rendimiento.

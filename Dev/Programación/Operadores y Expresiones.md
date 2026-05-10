@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 #### Asignación " = "
 Le asigna un valor a una variable.

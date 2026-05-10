@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Es un algoritmo de ordenamiento sencillo, pero poco eficiente para grandes volúmenes de datos.
 

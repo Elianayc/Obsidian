@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Define el rango de valores posibles y qué puedo hacer con una variable.
 - [[Int]]

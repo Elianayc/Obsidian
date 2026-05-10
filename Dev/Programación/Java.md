@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Java es un lenguaje orientado a objetos, compilado e interpretado mediante la JVM (Java Virtual Machine).  
 Su lema es _“Write once, run anywhere”_, porque el mismo programa puede ejecutarse en distintos sistemas operativos.

@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 - Debe comenzar con cualquier letra o con guion bajo.
 - Luego del primer carácter solo puede contener letras (mayúsculas o minúsculas), números o guion bajo.

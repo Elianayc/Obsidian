@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Python es un lenguaje de programación de alto nivel, interpretado y de tipado dinámico.  
 

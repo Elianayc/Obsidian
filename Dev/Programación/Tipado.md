@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 
 |                                           **Tipado fuerte**                                            |                              **Tipado débil**                              |

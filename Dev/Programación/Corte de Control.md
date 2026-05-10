@@ -2,6 +2,7 @@
 tags:
   - Programación
   - ProgramaciónI
+  - ProgramaciónII
 ---
 Técnica algorítmica que permite procesar información agrupada según un criterio de clasificación.
 Se utiliza para generar resúmenes o listados en una única recorrida del conjunto de datos.
