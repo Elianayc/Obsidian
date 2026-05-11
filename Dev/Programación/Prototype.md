@@ -76,12 +76,12 @@ Un ejemplo más cercano es la división celular: una célula se divide y genera 
 
 ## Pseudocódigo
 
-Ejemplo con figuras clonables sin depender de sus clases.
+Ejemplo con figuras [clonables]() sin depender de sus clases.
 
 <p align="center"> <img src="https://refactoring.guru/images/patterns/diagrams/prototype/example.png"> </p>
 
+**Clase Base: Prototipo Shape**
 ```ts
-// Clase base: Prototipo
 abstract class Shape {
   x: number;
   y: number;
@@ -98,8 +98,10 @@ abstract class Shape {
   // Método clave del patrón: clonar
   abstract clone(): Shape;
 }
+```
 
-// Prototipo concreto: Rectangle
+**Prototipo concreto: Rectangle**
+```ts
 class Rectangle extends Shape {
   width: number;
   height: number;
@@ -114,8 +116,10 @@ class Rectangle extends Shape {
     return new Rectangle(this);
   }
 }
+```
 
-// Prototipo concreto: Circle
+**Prototipo concreto: Circle**
+```ts
 class Circle extends Shape {
   radius: number;
 
@@ -128,8 +132,10 @@ class Circle extends Shape {
     return new Circle(this);
   }
 }
+```
 
-// Cliente
+**Cliente**
+```ts
 class Application {
   shapes: Shape[] = [];
 

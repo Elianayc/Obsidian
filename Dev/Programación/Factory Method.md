@@ -107,23 +107,18 @@ Para que esto funcione, el diálogo debe trabajar con **botones abstractos** (un
 
 Este mismo enfoque podría aplicarse a otros componentes de UI. Pero si agregás muchos métodos fábrica distintos, te empezás a acercar al patrón **Abstract Factory**, que es una evolución de esta idea.
 
+**Producto (Interfaz)**
+Esta interfaz define qué puede hacer cualquier botón. El cliente solo conoce ESTA interfaz, no las clases concretas.
 ```ts
-// =======================
-// PRODUCTO (INTERFAZ)
-// =======================
 
-// Esta interfaz define qué puede hacer cualquier botón.
-// El cliente solo conoce ESTA interfaz, no las clases concretas.
 interface Button {
   render(): void;                 // dibujar el botón
   onClick(fn: () => void): void;  // asignar acción al hacer click
 }
+````
 
-
-// =======================
-// PRODUCTOS CONCRETOS
-// =======================
-
+**Productos Concretos**
+```ts
 // Implementación concreta para Windows
 class WindowsButton implements Button {
 
@@ -152,21 +147,15 @@ class HTMLButton implements Button {
     fn();
   }
 }
+```
 
-
-// =======================
-// CREADOR ABSTRACTO
-// =======================
-
-// Esta es la clase CLAVE del patrón.
-// NO sabe qué botón concreto va a crear.
-// Solo define el método fábrica.
+**Creador Abstracto**
+Esta es la clase CLAVE del patrón. NO sabe qué botón concreto va a crear. Solo define el método fábrica.
+```ts
 abstract class Dialog {
-
   // Factory Method
   // Las subclases estarán obligadas a implementarlo.
   abstract createButton(): Button;
-
 
   // Lógica de negocio del diálogo
   // Usa botones, pero sin saber cuáles concretos.
@@ -186,14 +175,11 @@ abstract class Dialog {
     console.log("Cerrando diálogo...");
   }
 }
+```
 
-
-// =======================
-// CREADORES CONCRETOS
-// =======================
-
-// Cada subclase decide QUÉ botón crear
-
+**Creadores Concretos**
+Cada subclase decide QUÉ botón crear.
+```ts
 class WindowsDialog extends Dialog {
   createButton(): Button {
     // Devuelve botón específico de Windows
@@ -207,19 +193,16 @@ class WebDialog extends Dialog {
     return new HTMLButton();
   }
 }
+```
 
-
-// =======================
-// APLICACIÓN (CLIENTE)
-// =======================
-
+**Aplicación (Cliente)**
+```ts
 class Application {
   private dialog!: Dialog; 
   // Guarda una referencia al creador,
   // pero SOLO conoce el tipo abstracto Dialog.
 
   initialize(os: string) {
-
     // Decide qué creador usar según el entorno
     if (os === "Windows") {
       this.dialog = new WindowsDialog();
@@ -234,17 +217,14 @@ class Application {
 
   main(os: string) {
     this.initialize(os);
-
     // El cliente usa el creador sin saber cuál es concreto
     this.dialog.render();
   }
 }
+```
 
-
-// =======================
-// EJECUCIÓN
-// =======================
-
+**Ejecución**
+```ts
 const app = new Application();
 app.main("Windows"); // Probá cambiar por "Web"
 ```

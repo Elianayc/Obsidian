@@ -80,8 +80,7 @@ Un gobierno:
 
 ## Pseudocódigo
 
-Ejemplo clásico: conexión a base de datos.
-
+**Ejemplo clásico: conexión a base de datos.**
 ```ts
 class Database {
   // Instancia única (estática)

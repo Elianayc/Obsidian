@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7f9bdd9c2e2af13f",
+        "id": "90567c2d6cc04cfd",
         "type": "tabs",
         "children": [
           {
-            "id": "d8ae005fe62b0f51",
+            "id": "716ca79cf3d1108a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Adapter.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Adapter"
             }
           }
         ]
@@ -74,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 400.5,
+    "collapsed": true
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Adapter.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema"
+              "title": "Esquema de Adapter"
             }
           },
           {
@@ -181,6 +188,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Adapter.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -237,14 +245,15 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "title": "Gráfico de Adapter"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 423.5
+    "width": 423.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -261,45 +270,45 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "d8ae005fe62b0f51",
+  "active": "716ca79cf3d1108a",
   "lastOpenFiles": [
-    "Imagenes Patrones de Diseño/Pasted image 20260510173646.png",
-    "Imagenes Patrones de Diseño/Pasted image 20260510173551.png",
-    "Imagenes Patrones de Diseño/Pasted image 20260510173334.png",
-    "Imagenes Patrones de Diseño/Pasted image 20260510173315.png",
-    "Imagenes Patrones de Diseño/Pasted image 20260510173312.png",
-    "Imagenes Patrones de Diseño/Pasted image 20260510173308.png",
-    "Imagenes Patrones de Diseño/Pasted image 20260510173258.png",
-    "Imagenes Patrones de Diseño/Pasted image 20260510173254.png",
-    "Imagenes Patrones de Diseño/Pasted image 20260510172638.png",
-    "Imagenes Patrones de Diseño/Pasted image 20260510171018.png",
-    "Imagenes Patrones de Diseño/Pasted image 20260510164206.png",
-    "Programación/Sobreescritura.md",
-    "Programación/Abstract Factory.md",
-    "Programación/Programación Orientada a objetos (POO).md",
-    "Programación/Clase.md",
-    "Programación/Factory Method.md",
-    "Imagenes Patrones de Diseño",
-    "Programación/Interfaz.md",
-    "Programación/Clasificación de Patrones.md",
-    "Programación/Patrones de Comportamiento.md",
-    "Programación/Patrones de Diseño.md",
     "Programación/Patrones Estructurales.md",
+    "Adapter.md",
+    "Programación/Patrones de Diseño.md",
     "Programación/Patrones Creacionales.md",
     "Programación/Singleton.md",
     "Programación/Prototype.md",
     "Programación/Builder.md",
-    "Programación/Paradigmas de Programación.md",
-    "Programación/Lógica.md",
-    "Programación/Polimorfismo.md",
-    "Programación/Alto nivel.md",
+    "Programación/Abstract Factory.md",
+    "Programación/Factory Method.md",
+    "Programación/Patrones de Comportamiento.md",
     "Programación/Agregación.md",
-    "Abierto/cerrado.md",
-    "Programación/Principios S.O.L.I.D..md",
-    "Programación/Single Responsibility Principle.md",
-    "Programación/Dependency Inversion Principle.md",
-    "Programación/Interface Segregation Principle.md",
-    "Programación/Liskov Substitution Principle.md",
+    "Modelado de Sistemas/UML.md",
+    "Modelado de Sistemas/Modelado de Sistemas.md",
+    "Modelado de Sistemas/Diagramas de secuencia.md",
+    "Modelado de Sistemas/Diagramas de clases.md",
+    "Modelado de Sistemas/Diagramas de casos de uso.md",
+    "Modelado de Sistemas/Diagramas de actividad.md",
+    "Modelado de Sistemas/Diagrama de flujo.md",
+    "Imágenes/Diagrama ERD.png",
+    "Imágenes/Tipos de relaciones ERD.png",
+    "Imágenes/Pasted image 20260510164048.png",
+    "Imágenes/diagramadeactividad.png",
+    "Imágenes/diagramacasosdeuso.png",
+    "Imágenes/Pasted image 20260510173620.png",
+    "Imágenes/Pasted image 20260510173628.png",
+    "Imágenes/Pasted image 20260510173646.png",
+    "Imágenes/Pasted image 20260510173615.png",
+    "Imágenes/Pasted image 20260510171018.png",
+    "Bases de Datos/Fecha y hora.md",
+    "Bases de Datos/Objeto-relacional.md",
+    "Bases de Datos/MVCC.md",
+    "Excalidraw/diagramadeclases.md",
+    "Excalidraw/diagramadeflujo.md",
+    "Excalidraw/for.md",
+    "Excalidraw/if.md",
+    "Excalidraw/if-else.md",
+    "Imágenes",
     "Abierto",
     "Sin título.canvas",
     "Modelado de Sistemas",

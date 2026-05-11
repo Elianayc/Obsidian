@@ -5,6 +5,8 @@ tags:
 ---
 También llamado: Fábrica abstracta
 
+---
+
 ##  Propósito
 
 **Abstract Factory** es un patrón de diseño creacional que nos permite producir familias de objetos relacionados sin especificar sus clases concretas.
@@ -14,6 +16,7 @@ También llamado: Fábrica abstracta
 </p>
 
 ---
+
 ## Problema
 
 Imaginá que estás haciendo un simulador de tienda de muebles. El sistema tiene clases que representan:
@@ -66,7 +69,7 @@ Finalmente, las fábricas concretas se crean al inicio de la aplicación, según
 
 ---
 
-##  ## Estructura
+##  Estructura
 
 <p align="center"> <img src="https://refactoring.guru/images/patterns/diagrams/abstract-factory/structure-indexed.png"> </p>
 
@@ -88,7 +91,7 @@ Finalmente, las fábricas concretas se crean al inicio de la aplicación, según
 
 <p align="center"> <img src="https://refactoring.guru/images/patterns/diagrams/abstract-factory/example.png"> </p>
 
-Ejemplo de UI multiplataforma.
+**Ejemplo de UI multiplataforma.**
 
 La idea es crear elementos de interfaz que funcionen en distintos sistemas operativos sin acoplar el código a clases concretas. Los mismos componentes deben comportarse igual, aunque cambie su apariencia según el sistema.
 
@@ -100,22 +103,17 @@ El código cliente solo conoce interfaces abstractas, no clases concretas. Esto 
 
 En la práctica, cuando agregás una nueva familia de UI, solo creás una nueva fábrica concreta y ajustás la inicialización de la app. El resto del código no se toca.
 
+**Fábrica Abstracta**
 ```ts
-// =======================
-// FABRICA ABSTRACTA
-// =======================
-
 // Declara la familia de productos que se pueden crear
 interface GUIFactory {
   createButton(): Button;
   createCheckbox(): Checkbox;
 }
+```
 
-
-// =======================
-// FABRICAS CONCRETAS
-// =======================
-
+**Fábricas Concretas**
+```ts
 // Fabrica para Windows
 class WinFactory implements GUIFactory {
   createButton(): Button {
@@ -137,12 +135,10 @@ class MacFactory implements GUIFactory {
     return new MacCheckbox();
   }
 }
+```
 
-
-// =======================
-// PRODUCTOS ABSTRACTOS
-// =======================
-
+**Productos Abstractos**
+```ts
 // Botón genérico
 interface Button {
   paint(): void;
@@ -152,12 +148,10 @@ interface Button {
 interface Checkbox {
   paint(): void;
 }
+```
 
-
-// =======================
-// PRODUCTOS CONCRETOS
-// =======================
-
+**Productos Concretos**
+```ts
 // Botón Windows
 class WinButton implements Button {
   paint(): void {
@@ -185,12 +179,10 @@ class MacCheckbox implements Checkbox {
     console.log("Checkbox estilo Mac");
   }
 }
+```
 
-
-// =======================
-// CLIENTE (APPLICATION)
-// =======================
-
+**Cliente (Aplicación)**
+```ts
 class Application {
   private factory: GUIFactory;
   private button!: Button;
@@ -207,12 +199,10 @@ class Application {
     this.button.paint();
   }
 }
+```
 
-
-// =======================
-// CONFIGURADOR / MAIN
-// =======================
-
+**Configurador / Main**
+```ts
 class ApplicationConfigurator {
   static main(os: string) {
     let factory: GUIFactory;
@@ -230,12 +220,10 @@ class ApplicationConfigurator {
     app.paint();
   }
 }
+```
 
-
-// =======================
-// USO
-// =======================
-
+**Uso**
+```ts
 ApplicationConfigurator.main("Windows");
 // ApplicationConfigurator.main("Mac");
 ```
