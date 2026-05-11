@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "884953e6f8076861",
+        "id": "7f9bdd9c2e2af13f",
         "type": "tabs",
         "children": [
           {
-            "id": "118aa11bf3931d28",
+            "id": "d8ae005fe62b0f51",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programación/Patrones de Diseño.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Patrones de Diseño"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -54,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "patrones",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -75,12 +70,11 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 340.5026054382324
+    "width": 400.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -156,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/Patrones de Diseño.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Patrones de Diseño"
+              "title": "Esquema"
             }
           },
           {
@@ -188,7 +181,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programación/Patrones de Diseño.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -245,15 +237,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Patrones de Diseño"
+              "title": "Vista gráfica"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 311.5,
-    "collapsed": true
+    "width": 423.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,44 +261,48 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "118aa11bf3931d28",
+  "active": "d8ae005fe62b0f51",
   "lastOpenFiles": [
+    "Imagenes Patrones de Diseño/Pasted image 20260510173646.png",
+    "Imagenes Patrones de Diseño/Pasted image 20260510173551.png",
+    "Imagenes Patrones de Diseño/Pasted image 20260510173334.png",
+    "Imagenes Patrones de Diseño/Pasted image 20260510173315.png",
+    "Imagenes Patrones de Diseño/Pasted image 20260510173312.png",
+    "Imagenes Patrones de Diseño/Pasted image 20260510173308.png",
+    "Imagenes Patrones de Diseño/Pasted image 20260510173258.png",
+    "Imagenes Patrones de Diseño/Pasted image 20260510173254.png",
+    "Imagenes Patrones de Diseño/Pasted image 20260510172638.png",
+    "Imagenes Patrones de Diseño/Pasted image 20260510171018.png",
+    "Imagenes Patrones de Diseño/Pasted image 20260510164206.png",
+    "Programación/Sobreescritura.md",
+    "Programación/Abstract Factory.md",
+    "Programación/Programación Orientada a objetos (POO).md",
+    "Programación/Clase.md",
+    "Programación/Factory Method.md",
+    "Imagenes Patrones de Diseño",
+    "Programación/Interfaz.md",
+    "Programación/Clasificación de Patrones.md",
+    "Programación/Patrones de Comportamiento.md",
+    "Programación/Patrones de Diseño.md",
+    "Programación/Patrones Estructurales.md",
+    "Programación/Patrones Creacionales.md",
+    "Programación/Singleton.md",
+    "Programación/Prototype.md",
+    "Programación/Builder.md",
+    "Programación/Paradigmas de Programación.md",
+    "Programación/Lógica.md",
     "Programación/Polimorfismo.md",
     "Programación/Alto nivel.md",
     "Programación/Agregación.md",
     "Abierto/cerrado.md",
-    "Programación/solid.png",
     "Programación/Principios S.O.L.I.D..md",
     "Programación/Single Responsibility Principle.md",
     "Programación/Dependency Inversion Principle.md",
     "Programación/Interface Segregation Principle.md",
     "Programación/Liskov Substitution Principle.md",
-    "Programación/Open Close Principle.md",
     "Abierto",
-    "Modelado de Sistemas/Diagrama de flujo.md",
-    "Excalidraw/while.md",
-    "Excalidraw/switch.md",
-    "Excalidraw/relacionesclases.md",
-    "Excalidraw/multiplicidadderelaciones.md",
-    "Excalidraw/if-else.md",
-    "Excalidraw/if.md",
-    "Excalidraw/for.md",
-    "Excalidraw/diagramadeflujo.md",
-    "Excalidraw/diagramadeclases.md",
-    "Modelado de Sistemas/diagramadesecuencia.png",
-    "Modelado de Sistemas/diagramadeactividad.png",
-    "Pasted image 20260510153635.png",
-    "Modelado de Sistemas/Diagramas de actividad.md",
-    "Modelado de Sistemas/Diagramas de secuencia.md",
-    "Modelado de Sistemas/UML.md",
-    "Modelado de Sistemas/diagramacasosdeuso.png",
-    "Modelado de Sistemas/Diagramas de casos de uso.md",
-    "Modelado de Sistemas/Diagramas de clases.md",
-    "Pasted image 20260510153749.png",
-    "Programación/Relaciones entre Clases.md",
     "Sin título.canvas",
     "Modelado de Sistemas",
-    "Programación/coleccionesJava.png",
     "Programación II",
     "Arquitectura de Sistemas",
     "Excalidraw",
@@ -315,10 +310,6 @@
     "entrada",
     "Programación",
     "Bases de Datos I (B)",
-    "Bases de Datos/Tipos de relaciones ERD.png",
-    "Bases de Datos/Diagrama ERD.png",
-    "Pasted image 20260501201437.png",
-    "Bases de Datos/Sin nombre",
     "Sin título 1.canvas"
   ]
 }
