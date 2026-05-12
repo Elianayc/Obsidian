@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 También llamado: Adaptador, Envoltorio, Wrapper
 
 ---
@@ -89,11 +94,10 @@ Esta implementación utiliza la herencia, porque la clase adaptadora hereda inte
 Este ejemplo del patrón **Adapter** se basa en el clásico conflicto entre piezas cuadradas y agujeros redondos.
 
 <p align="center"> <img src="https://refactoring.guru/images/patterns/diagrams/adapter/example.png?id=9d2b6857ce256f2c669383ce4df3d0aa"> </p>
-
+  
 Adaptando piezas cuadradas a agujeros redondos.
 
-**Tenemos dos clases con interfaces compatibles:**
-**RoundHole (HoyoRedondo) y RoundPeg (PiezaRedonda).**
+**Tenemos dos clases con interfaces compatibles: RoundHole (HoyoRedondo) y RoundPeg (PiezaRedonda).**
 ```ts
 class RoundHole {
   constructor(private radius: number) {}

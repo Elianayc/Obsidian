@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "90567c2d6cc04cfd",
+        "id": "fbcc6c3c98f1e48e",
         "type": "tabs",
         "children": [
           {
-            "id": "716ca79cf3d1108a",
+            "id": "88d9c900a20a69a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Adapter.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Adapter"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -79,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5,
-    "collapsed": true
+    "width": 400.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -156,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Adapter.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Adapter"
+              "title": "Esquema"
             }
           },
           {
@@ -188,7 +181,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Adapter.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -199,7 +191,7 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": false,
+                  "collapse-color-groups": true,
                   "colorGroups": [
                     {
                       "query": "tag:#Arquitecturadesistemas  ",
@@ -233,27 +225,26 @@
                   "collapse-display": true,
                   "showArrow": true,
                   "textFadeMultiplier": -3,
-                  "nodeSizeMultiplier": 1.45435422801851,
+                  "nodeSizeMultiplier": 2.17717391304348,
                   "lineSizeMultiplier": 2.9495722900014,
                   "collapse-forces": true,
                   "centerStrength": 0.577057916140794,
                   "repelStrength": 15.5798625718693,
                   "linkStrength": 1,
-                  "linkDistance": 30,
-                  "scale": 0.5694148860370306,
+                  "linkDistance": 84,
+                  "scale": 0.7983099319630442,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Adapter"
+              "title": "Vista gráfica"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 423.5,
-    "collapsed": true
+    "width": 423.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,18 +261,22 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "716ca79cf3d1108a",
+  "active": "88d9c900a20a69a9",
   "lastOpenFiles": [
-    "Programación/Patrones Estructurales.md",
-    "Adapter.md",
+    "Programación/Programación Orientada a objetos (POO).md",
+    "Programación/Clase.md",
+    "Programación/Cuerpo de una clase.md",
+    "Programación/Métodos.md",
     "Programación/Patrones de Diseño.md",
+    "Programación/Patrones Estructurales.md",
+    "Programación/Adapter.md",
+    "Programación/Patrones de Comportamiento.md",
     "Programación/Patrones Creacionales.md",
     "Programación/Singleton.md",
     "Programación/Prototype.md",
     "Programación/Builder.md",
     "Programación/Abstract Factory.md",
     "Programación/Factory Method.md",
-    "Programación/Patrones de Comportamiento.md",
     "Programación/Agregación.md",
     "Modelado de Sistemas/UML.md",
     "Modelado de Sistemas/Modelado de Sistemas.md",
@@ -304,10 +299,6 @@
     "Bases de Datos/Objeto-relacional.md",
     "Bases de Datos/MVCC.md",
     "Excalidraw/diagramadeclases.md",
-    "Excalidraw/diagramadeflujo.md",
-    "Excalidraw/for.md",
-    "Excalidraw/if.md",
-    "Excalidraw/if-else.md",
     "Imágenes",
     "Abierto",
     "Sin título.canvas",
