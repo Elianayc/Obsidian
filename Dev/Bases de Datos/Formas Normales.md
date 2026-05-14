@@ -1,0 +1,12 @@
+---
+tags:
+  - DB
+  - DBI2doparcial
+---
+- [[Primera Forma Normal (1FN)]]
+- [[Segunda Forma Normal (2FN)]]
+- [[Tercera Forma Normal (3FN)]]
+- [[Forma Normal de Boyce-Codd (BCNF)]]
+- [[Cuarta Forma Normal (4FN)]]
+- [[Quinta Forma Normal (5FN)]]
+- [[Sexta Forma Normal (6FN)]]

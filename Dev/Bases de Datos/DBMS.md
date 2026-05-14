@@ -77,3 +77,4 @@ La base de datos puede crecer sin afectar a las aplicaciones que no utilizan los
 - [[Tipos de Bases de Datos]]
 - [[ANSI SPARC]]
 - [[Transacciones]]
+- [[Normalización]]
