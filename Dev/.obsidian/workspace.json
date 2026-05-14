@@ -11,10 +11,15 @@
             "id": "bb0a5e72c99a3967",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Bases de Datos/Control de concurrencia.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Control de concurrencia"
             }
           }
         ]
@@ -151,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Bases de Datos/Control de concurrencia.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema"
+              "title": "Esquema de Control de concurrencia"
             }
           },
           {
@@ -182,6 +188,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Bases de Datos/Control de concurrencia.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -233,20 +240,19 @@
                   "repelStrength": 15.5798625718693,
                   "linkStrength": 1,
                   "linkDistance": 84,
-                  "scale": 0.7983099319630442,
+                  "scale": 0.2896965910970982,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "title": "Gráfico de Control de concurrencia"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 337.5,
-    "collapsed": true
+    "width": 243.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -265,6 +271,18 @@
   },
   "active": "bb0a5e72c99a3967",
   "lastOpenFiles": [
+    "Bases de Datos/Transacciones.md",
+    "Bases de Datos/TCL.md",
+    "Bases de Datos/Control de concurrencia.md",
+    "Bases de Datos/Niveles de aislamiento.md",
+    "Bases de Datos/Repeatable Read.md",
+    "Bases de Datos/Read Committed.md",
+    "Bases de Datos/Propiedades ACID.md",
+    "Bases de Datos/Fenómenos de concurrencia.md",
+    "Bases de Datos/Serializable.md",
+    "Bases de Datos/Read Uncommitted.md",
+    "Bases de Datos/Serialization anomaly.md",
+    "Bases de Datos/Phantom read.md",
     "Programación/Patrones Estructurales.md",
     "Programación/Composite.md",
     "Programación/Bridge.md",
@@ -279,16 +297,6 @@
     "Programación/Singleton.md",
     "Programación/Prototype.md",
     "Programación/Builder.md",
-    "Programación/Abstract Factory.md",
-    "Programación/Factory Method.md",
-    "Programación/Agregación.md",
-    "Modelado de Sistemas/UML.md",
-    "Modelado de Sistemas/Modelado de Sistemas.md",
-    "Modelado de Sistemas/Diagramas de secuencia.md",
-    "Modelado de Sistemas/Diagramas de clases.md",
-    "Modelado de Sistemas/Diagramas de casos de uso.md",
-    "Modelado de Sistemas/Diagramas de actividad.md",
-    "Modelado de Sistemas/Diagrama de flujo.md",
     "Imágenes/Diagrama ERD.png",
     "Imágenes/Tipos de relaciones ERD.png",
     "Imágenes/Pasted image 20260510164048.png",
@@ -299,8 +307,6 @@
     "Imágenes/Pasted image 20260510173646.png",
     "Imágenes/Pasted image 20260510173615.png",
     "Imágenes/Pasted image 20260510171018.png",
-    "Bases de Datos/Fecha y hora.md",
-    "Bases de Datos/Objeto-relacional.md",
     "Imágenes",
     "Abierto",
     "Sin título.canvas",
