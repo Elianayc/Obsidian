@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fbcc6c3c98f1e48e",
+        "id": "e2f799c017104b53",
         "type": "tabs",
         "children": [
           {
-            "id": "88d9c900a20a69a9",
+            "id": "bb0a5e72c99a3967",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 400.5,
+    "collapsed": true
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -244,7 +245,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 423.5
+    "width": 423.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -261,14 +263,16 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "88d9c900a20a69a9",
+  "active": "bb0a5e72c99a3967",
   "lastOpenFiles": [
+    "Programación/Patrones Estructurales.md",
+    "Composite.md",
+    "Bridge.md",
+    "Programación/Patrones de Diseño.md",
     "Programación/Programación Orientada a objetos (POO).md",
     "Programación/Clase.md",
     "Programación/Cuerpo de una clase.md",
     "Programación/Métodos.md",
-    "Programación/Patrones de Diseño.md",
-    "Programación/Patrones Estructurales.md",
     "Programación/Adapter.md",
     "Programación/Patrones de Comportamiento.md",
     "Programación/Patrones Creacionales.md",
@@ -297,8 +301,6 @@
     "Imágenes/Pasted image 20260510171018.png",
     "Bases de Datos/Fecha y hora.md",
     "Bases de Datos/Objeto-relacional.md",
-    "Bases de Datos/MVCC.md",
-    "Excalidraw/diagramadeclases.md",
     "Imágenes",
     "Abierto",
     "Sin título.canvas",
