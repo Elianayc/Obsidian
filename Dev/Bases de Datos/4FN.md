@@ -3,6 +3,7 @@ tags:
   - DB
   - DBI2doparcial
 ---
+# Cuarta Forma Normal
 Elimina dependencias multivaluadas entre atributos.
 
 **Precondición**

@@ -3,6 +3,7 @@ tags:
   - DB
   - DBI2doparcial
 ---
+# Primera Forma Normal
 Elimina los grupos de campos repetidos, creando nuevas tablas y estableciendo una relación 1-N.
 
 **Precondición**

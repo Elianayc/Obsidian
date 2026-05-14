@@ -6,13 +6,13 @@ tags:
 
 |                Forma Normal                 | Precondición |                 Qué elimina                  |                                Idea clave                                 |
 | :-----------------------------------------: | :----------: | :------------------------------------------: | :-----------------------------------------------------------------------: |
-|     [[Primera Forma Normal (1FN)\|1FN]]     |      —       |     Grupos repetidos / datos no atómicos     |       Cada campo debe tener un solo valor y existir clave primaria        |
-|     [[Segunda Forma Normal (2FN)\|2FN]]     |     1FN      |            Dependencias parciales            |            Todo atributo no clave depende de la clave completa            |
-|     [[Tercera Forma Normal (3FN)\|3FN]]     |     2FN      |           Dependencias transitivas           |             Los atributos dependen solo de la clave primaria              |
-| [[Forma Normal de Boyce-Codd (BCNF)\|BCNF]] |     3FN      | Dependencias con múltiples claves candidatas |           Toda dependencia funcional debe tener una superclave            |
-|     [[Cuarta Forma Normal (4FN)\|4FN]]      |  3FN / BCNF  |          Dependencias multivaluadas          |             Se separan atributos multivaluados independientes             |
-|     [[Quinta Forma Normal (5FN)\|5FN]]      |     4FN      |            Dependencias cíclicas             |          Descomposición en tablas que se recombinan sin pérdida           |
-| [[Sexta Forma Normal (6FN-DKNF)\|6FN/DKNF]] |     5FN      |         Todas las anomalías posibles         | Modelo totalmente normalizado, cada dato depende directamente de la clave |
+|     [[1FN\|1FN]]     |      —       |     Grupos repetidos / datos no atómicos     |       Cada campo debe tener un solo valor y existir clave primaria        |
+|     [[2FN\|2FN]]     |     1FN      |            Dependencias parciales            |            Todo atributo no clave depende de la clave completa            |
+|     [[3FN\|3FN]]     |     2FN      |           Dependencias transitivas           |             Los atributos dependen solo de la clave primaria              |
+| [[3.5 - BCNF\|BCNF]] |     3FN      | Dependencias con múltiples claves candidatas |           Toda dependencia funcional debe tener una superclave            |
+|     [[4FN\|4FN]]      |  3FN / BCNF  |          Dependencias multivaluadas          |             Se separan atributos multivaluados independientes             |
+|     [[5FN\|5FN]]      |     4FN      |            Dependencias cíclicas             |          Descomposición en tablas que se recombinan sin pérdida           |
+| [[6FN - DKNF\|6FN/DKNF]] |     5FN      |         Todas las anomalías posibles         | Modelo totalmente normalizado, cada dato depende directamente de la clave |
 
 ---
 
@@ -36,19 +36,30 @@ Y 6FN sí se acerca a dividir todo en tablas mínimas, pero justamente por eso c
 
 
 **0FN**
-![[Pasted image 20260514152242.png]]
+
+![[0FN.png]]
+
 
 **1FN**
-![[Pasted image 20260514152301.png]]
+
+![[1FN.png]]
+
 
 **2FN**
-![[Pasted image 20260514152329.png]]
+
+![[2FN.png]]
+
 
 **3FN**
-![[Pasted image 20260514152430.png]]
+
+![[3FN.png]]
+
 
 **4FN**
-![[Pasted image 20260514152509.png]]
+
+![[4FN.png]]
+
 
 **5FN**
-![[Pasted image 20260514152527.png]]
+
+![[5FN.png]]

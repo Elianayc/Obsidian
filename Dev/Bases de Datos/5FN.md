@@ -3,6 +3,7 @@ tags:
   - DB
   - DBI2doparcial
 ---
+# Quinta Forma Normal
 Elimina dependencias cíclicas mediante descomposición en proyecciones.
 
 **Precondición**
