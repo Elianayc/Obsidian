@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de Datos/Normalización.md",
+                "file": "Bases de Datos/Segunda Forma Normal (2FN).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Normalización"
+              "title": "Segunda Forma Normal (2FN)"
             }
           }
         ]
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bases de Datos/Normalización.md",
+                "file": "Bases de Datos/Segunda Forma Normal (2FN).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Normalización"
+              "title": "Esquema de Segunda Forma Normal (2FN)"
             }
           },
           {
@@ -188,7 +188,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Bases de Datos/Normalización.md",
+                "file": "Bases de Datos/Segunda Forma Normal (2FN).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -245,7 +245,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Normalización"
+              "title": "Gráfico de Segunda Forma Normal (2FN)"
             }
           }
         ]
@@ -273,13 +273,13 @@
   "active": "bb0a5e72c99a3967",
   "lastOpenFiles": [
     "Bases de Datos/Formas Normales.md",
+    "Bases de Datos/Primera Forma Normal (1FN).md",
+    "Bases de Datos/Sexta Forma Normal (6FN-DKNF).md",
     "Bases de Datos/Normalización.md",
     "Bases de Datos/Anomalías en bases de datos.md",
-    "Bases de Datos/Sexta Forma Normal (6FN).md",
     "Bases de Datos/Quinta Forma Normal (5FN).md",
     "Bases de Datos/Cuarta Forma Normal (4FN).md",
     "Bases de Datos/Forma Normal de Boyce-Codd (BCNF).md",
-    "Bases de Datos/Primera Forma Normal (1FN).md",
     "Bases de Datos/Segunda Forma Normal (2FN).md",
     "Bases de Datos/Tercera Forma Normal (3FN).md",
     "Bases de Datos/DBMS.md",
