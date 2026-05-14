@@ -29,3 +29,26 @@ BCNF es más quirúrgico todavía: arregla casos donde “la regla de negocio”
 4FN y 5FN ya no son “hacer más tablas porque sí”, sino resolver tipos muy específicos de redundancia (listas independientes y combinaciones múltiples). Si no existe ese problema, no separás nada.
 
 Y 6FN sí se acerca a dividir todo en tablas mínimas, pero justamente por eso casi no se usa en la vida real: es tan granular que puede volverse impráctico.
+
+---
+
+### Ejemplo de clase
+
+
+**0FN**
+![[Pasted image 20260514152242.png]]
+
+**1FN**
+![[Pasted image 20260514152301.png]]
+
+**2FN**
+![[Pasted image 20260514152329.png]]
+
+**3FN**
+![[Pasted image 20260514152430.png]]
+
+**4FN**
+![[Pasted image 20260514152509.png]]
+
+**5FN**
+![[Pasted image 20260514152527.png]]

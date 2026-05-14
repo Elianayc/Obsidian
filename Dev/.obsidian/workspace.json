@@ -11,10 +11,15 @@
             "id": "df202978ec535788",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Bases de Datos/Formas Normales.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Formas Normales"
             }
           }
         ]
@@ -151,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Bases de Datos/Formas Normales.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema"
+              "title": "Esquema de Formas Normales"
             }
           },
           {
@@ -182,6 +188,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Bases de Datos/Formas Normales.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -238,7 +245,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "title": "Gráfico de Formas Normales"
             }
           }
         ]
@@ -265,14 +272,25 @@
   },
   "active": "df202978ec535788",
   "lastOpenFiles": [
-    "Bases de Datos/Sexta Forma Normal (6FN-DKNF).md",
+    "Pasted image 20260514152527.png",
+    "Pasted image 20260514152509.png",
+    "Pasted image 20260514152430.png",
+    "Pasted image 20260514152329.png",
+    "Pasted image 20260514152301.png",
+    "Pasted image 20260514152242.png",
+    "Pasted image 20260514152237.png",
+    "Pasted image 20260514151902.png",
+    "Pasted image 20260514151821.png",
+    "Pasted image 20260514151659.png",
+    "Pasted image 20260514151552.png",
+    "Bases de Datos/Primera Forma Normal (1FN).md",
     "Bases de Datos/Formas Normales.md",
+    "Bases de Datos/Sexta Forma Normal (6FN-DKNF).md",
     "Bases de Datos/Quinta Forma Normal (5FN).md",
     "Bases de Datos/Cuarta Forma Normal (4FN).md",
     "Bases de Datos/Forma Normal de Boyce-Codd (BCNF).md",
     "Bases de Datos/Tercera Forma Normal (3FN).md",
     "Bases de Datos/Segunda Forma Normal (2FN).md",
-    "Bases de Datos/Primera Forma Normal (1FN).md",
     "Bases de Datos/Normalización.md",
     "Bases de Datos/Anomalías en bases de datos.md",
     "Bases de Datos/DBMS.md",
@@ -290,17 +308,6 @@
     "Bases de Datos/Phantom read.md",
     "Programación/Patrones Estructurales.md",
     "Programación/Composite.md",
-    "Programación/Bridge.md",
-    "Imágenes/Diagrama ERD.png",
-    "Imágenes/Tipos de relaciones ERD.png",
-    "Imágenes/Pasted image 20260510164048.png",
-    "Imágenes/diagramadeactividad.png",
-    "Imágenes/diagramacasosdeuso.png",
-    "Imágenes/Pasted image 20260510173620.png",
-    "Imágenes/Pasted image 20260510173628.png",
-    "Imágenes/Pasted image 20260510173646.png",
-    "Imágenes/Pasted image 20260510173615.png",
-    "Imágenes/Pasted image 20260510171018.png",
     "Imágenes",
     "Abierto",
     "Sin título.canvas",
