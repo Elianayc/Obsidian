@@ -8,18 +8,7 @@ Elimina dependencias donde existan múltiples claves candidatas.
 **Precondición**
 - Estar en 3FN
 
-**Objetivos**
-- Resolver casos donde hay varias claves candidatas
-- Asegurar que cada determinante sea una superclave
-- Reducir anomalías en estructuras complejas
-
-**Pasos**
-1. Identificar claves candidatas
-2. Separar en nuevas tablas si existen múltiples claves candidatas
-3. Mantener relaciones entre tablas resultantes
-
 ---
-
 
 ### ❌ NO BCNF (problema)
 
@@ -29,15 +18,25 @@ Elimina dependencias donde existan múltiples claves candidatas.
 |Juan|Matemática|López|
 |María|Física|Pérez|
 
-Regla real: Cada **Curso tiene un solo Profesor**
-Entonces: Curso → Profesor
+**Regla real**: Cada **Curso tiene un solo Profesor** 
+**Entonces**: Curso → Profesor
+**Problema**: **Curso NO es clave, pero determina Profesor**
 
-**Problema**: **Curso NO es clave, pero determina Profesor**
+
+**Objetivos BCNF**
+- Resolver casos donde hay varias claves candidatas
+- Asegurar que cada determinante sea una superclave
+- Reducir anomalías en estructuras complejas
+
 
 ---
 
+### ✔ Se separa en dos tablas (BCNF)
 
-### ✔ Se separa en dos tablas
+**Pasos**
+1. Identificar claves candidatas
+2. Separar en nuevas tablas si existen múltiples claves candidatas
+3. Mantener relaciones entre tablas resultantes
 
 **Cursos**
 
@@ -56,3 +55,5 @@ Entonces: Curso → Profesor
 
 Idea clave BCNF:
 > si algo determina otra cosa, ese “algo” tiene que ser una clave
+
+---

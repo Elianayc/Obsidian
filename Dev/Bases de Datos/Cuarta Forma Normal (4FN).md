@@ -8,17 +8,6 @@ Elimina dependencias multivaluadas entre atributos.
 **Precondición**
 - Estar en 3FN o BCNF
 
-**Objetivos**
-- Eliminar valores multivaluados independientes
-- Reducir redundancia
-- Mejorar la organización de datos repetidos independientes
-
-**Pasos**
-1. Identificar atributos multivaluados
-2. Separar esos atributos en nuevas tablas
-3. Relacionar cada nueva tabla con la tabla original
-4. Mantener relaciones 1-N o N-M
-
 ---
 
 ### ❌ NO 4FN
@@ -34,9 +23,21 @@ Elimina dependencias multivaluadas entre atributos.
 - Idiomas y deportes son **independientes**
 - Se mezclan y generan combinaciones innecesarias (explosión de filas)
 
+
+**Objetivos 4FN**
+- Eliminar valores multivaluados independientes
+- Reducir redundancia
+- Mejorar la organización de datos repetidos independientes
+
 ---
 
 ### ✔ Se separa en dos tablas
+
+**Pasos**
+1. Identificar atributos multivaluados
+2. Separar esos atributos en nuevas tablas
+3. Relacionar cada nueva tabla con la tabla original
+4. Mantener relaciones 1-N o N-M
 
 **Idiomas**
 
@@ -54,3 +55,5 @@ Elimina dependencias multivaluadas entre atributos.
 
 Idea clave 4FN:
 > separar atributos multivaluados independientes para evitar combinaciones falsas
+
+---

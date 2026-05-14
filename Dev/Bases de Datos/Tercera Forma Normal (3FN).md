@@ -61,3 +61,5 @@ Elimina dependencias transitivas para que todos los atributos dependan directame
 
 ✔ Todo depende directamente de la clave  
 ✔ Sin redundancia obvia
+
+---

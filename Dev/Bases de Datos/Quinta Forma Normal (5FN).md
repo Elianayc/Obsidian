@@ -8,17 +8,7 @@ Elimina dependencias cíclicas mediante descomposición en proyecciones.
 **Precondición**
 - Estar en 4FN
 
-**Objetivos**
-- Eliminar redundancia compleja entre múltiples tablas
-- Evitar dependencias cíclicas
-- Garantizar reconstrucción de datos sin pérdida
-
-**Pasos**
-1. Detectar dependencias cíclicas
-2. Descomponer la tabla en varias proyecciones
-3. Asegurar que la unión de tablas reconstruye los datos originales
-4. Mantener integridad mediante joins
-
+---
 
 ### ❌ NO 5FN
 
@@ -34,9 +24,21 @@ Elimina dependencias cíclicas mediante descomposición en proyecciones.
 - Se pueden reconstruir desde relaciones más simples
 - Hay redundancia por combinaciones innecesarias
 
+
+**Objetivos 5FN**
+- Eliminar redundancia compleja entre múltiples tablas
+- Evitar dependencias cíclicas
+- Garantizar reconstrucción de datos sin pérdida
+
 ---
 
 ### ✔ Se descompone en 3 tablas
+
+**Pasos**
+1. Detectar dependencias cíclicas
+2. Descomponer la tabla en varias proyecciones
+3. Asegurar que la unión de tablas reconstruye los datos originales
+4. Mantener integridad mediante joins
 
 **Proveedor-Pieza**
 
@@ -64,3 +66,5 @@ Elimina dependencias cíclicas mediante descomposición en proyecciones.
 
 Idea clave 5FN:
 > separar relaciones complejas en partes más simples sin perder información al recombinar
+
+---

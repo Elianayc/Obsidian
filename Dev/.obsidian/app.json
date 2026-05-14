@@ -1,11 +1,13 @@
 {
   "alwaysUpdateLinks": true,
-  "readableLineLength": false,
+  "readableLineLength": true,
   "autoPairBrackets": false,
   "autoPairMarkdown": false,
   "trashOption": "local",
   "userIgnoreFilters": [
     "Excalidraw/"
   ],
-  "propertiesInDocument": "hidden"
+  "propertiesInDocument": "hidden",
+  "defaultViewMode": "preview",
+  "strictLineBreaks": true
 }
