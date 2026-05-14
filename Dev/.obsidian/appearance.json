@@ -3,6 +3,7 @@
   "cssTheme": "Retroma",
   "accentColor": "#7d369b",
   "enabledCssSnippets": [
-    "fix-tablas"
+    "fix-tablas",
+    "fix-aparciencia"
   ]
 }
