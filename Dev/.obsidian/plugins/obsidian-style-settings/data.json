@@ -1,6 +1,10 @@
 {
   "retroma-obsidian-theme@@theme-font-selection": "retroma-font-excalifont",
   "retroma-obsidian-theme@@theme-color-scheme-selection": "Analogous",
-  "retroma-obsidian-theme@@window-border-radius": "12px",
-  "retroma-obsidian-theme@@chroma-folder": 0.146
+  "retroma-obsidian-theme@@window-border-radius": "18px",
+  "retroma-obsidian-theme@@chroma-folder": 0.146,
+  "retroma-obsidian-theme@@theme-variant": "Groovy",
+  "retroma-obsidian-theme@@folder-border-stlye": "default",
+  "retroma-obsidian-theme@@img-alignment": "img-center",
+  "retroma-obsidian-theme@@table-border-spacing": 0
 }

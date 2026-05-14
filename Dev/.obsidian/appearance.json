@@ -5,5 +5,7 @@
   "enabledCssSnippets": [
     "fix-tablas",
     "fix-aparciencia"
-  ]
+  ],
+  "monospaceFontFamily": "Cascadia Code NF SemiLight",
+  "showRibbon": true
 }
