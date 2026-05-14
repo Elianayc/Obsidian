@@ -11,10 +11,10 @@
             "id": "bb0a5e72c99a3967",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5,
+    "width": 317.5,
     "collapsed": true
   },
   "right": {
@@ -245,7 +245,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 423.5,
+    "width": 337.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -266,8 +266,8 @@
   "active": "bb0a5e72c99a3967",
   "lastOpenFiles": [
     "Programación/Patrones Estructurales.md",
-    "Composite.md",
-    "Bridge.md",
+    "Programación/Composite.md",
+    "Programación/Bridge.md",
     "Programación/Patrones de Diseño.md",
     "Programación/Programación Orientada a objetos (POO).md",
     "Programación/Clase.md",
