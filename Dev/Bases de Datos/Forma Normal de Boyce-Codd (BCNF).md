@@ -17,3 +17,42 @@ Elimina dependencias donde existan múltiples claves candidatas.
 1. Identificar claves candidatas
 2. Separar en nuevas tablas si existen múltiples claves candidatas
 3. Mantener relaciones entre tablas resultantes
+
+---
+
+
+### ❌ NO BCNF (problema)
+
+|Estudiante|Curso|Profesor|
+|---|---|---|
+|Ana|Matemática|López|
+|Juan|Matemática|López|
+|María|Física|Pérez|
+
+Regla real: Cada **Curso tiene un solo Profesor**
+Entonces: Curso → Profesor
+
+**Problema**: **Curso NO es clave, pero determina Profesor**
+
+---
+
+
+### ✔ Se separa en dos tablas
+
+**Cursos**
+
+|Curso|Profesor|
+|---|---|
+|Matemática|López|
+|Física|Pérez|
+
+**Inscripción**
+
+|Estudiante|Curso|
+|---|---|
+|Ana|Matemática|
+|Juan|Matemática|
+|María|Física|
+
+Idea clave BCNF:
+> si algo determina otra cosa, ese “algo” tiene que ser una clave

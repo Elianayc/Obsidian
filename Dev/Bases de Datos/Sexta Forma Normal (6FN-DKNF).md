@@ -18,3 +18,48 @@ Modelo completamente normalizado donde no existen anomalías.
 2. Eliminar cualquier posible redundancia
 3. Validar que no existan anomalías de inserción, actualización o eliminación
 4. Centralizar toda validación en el modelo de datos
+
+----
+
+### ❌ Idea inicial (antes de 6FN)
+
+|Empleado|Proyecto|Horario|
+|---|---|---|
+|Ana|Sistema|Mañana|
+|Ana|App|Tarde|
+
+**Problema**:
+- Un mismo empleado puede tener distintos proyectos y horarios
+- Todo está mezclado en una sola estructura
+- Todavía hay dependencias implícitas
+
+---
+
+## ✔ En 6FN (DKNF)
+
+Se lleva todo al extremo: **cada hecho mínimo en su propia tabla**
+
+**Empleado-Proyecto**
+
+|Empleado|Proyecto|
+|---|---|
+|Ana|Sistema|
+|Ana|App|
+
+**Empleado-Horario**
+
+|Empleado|Horario|
+|---|---|
+|Ana|Mañana|
+|Ana|Tarde|
+
+
+Idea clave DKNF:
+> cada dato depende directamente de la clave, sin ninguna dependencia oculta ni combinaciones complejas
+
+---
+
+### ⚠️ Importante 
+- 6FN es más **teórica que práctica**
+- Se usa casi solo en **modelos muy formales o temporales**
+- En sistemas reales suele ser demasiado fragmentada
