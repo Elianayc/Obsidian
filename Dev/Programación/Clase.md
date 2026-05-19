@@ -8,9 +8,10 @@ Define las **características (atributos)** y el **comportamiento (métodos)** q
 
 Puede pensarse como una **plantilla** o **definición** de un tipo de objeto.
 
-##### Ejemplo: 
-clase **Puerta**  
-**Atributos**: altura, ancho, color, material.
+> [!example]
+> clase **Puerta**  
+> **Atributos**: altura, ancho, color, material.
+> 
 
 #### Es importante no confundir:
 - **Clase ≠ Objeto**

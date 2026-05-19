@@ -110,8 +110,8 @@ Además, la directora oculta completamente los detalles de construcción al clie
 5. El **Cliente** conecta un constructor con la directora. Normalmente esto se hace una sola vez mediante el constructor de la directora, que usa ese builder para todo el proceso. También existe la opción de pasar el builder al método de construcción de la directora, permitiendo usar distintos constructores cada vez.
 
 > [!example]
-> El uso del patrón Builder sólo tiene sentido cuando tus productos son bastante complejos y requieren una configuración extensiva. 
-> Los dos siguientes productos están relacionados, aunque no tienen una interfaz común.
+> - El uso del patrón Builder sólo tiene sentido cuando tus productos son bastante complejos y requieren una configuración extensiva. 
+> - Los dos siguientes productos están relacionados, aunque no tienen una interfaz común.
 > ```ts
 > class Auto {
 >     // Un auto puede tener un GPS, una computadora de
@@ -127,7 +127,7 @@ Además, la directora oculta completamente los detalles de construcción al clie
 > }
 > ```
 > 
-> **La interfaz constructora especifica métodos para crear las distintas partes de los objetos del producto.**
+> - La interfaz constructora especifica métodos para crear las distintas partes de los objetos del producto.
 > ```ts
 > interface Constructor {
 >     reiniciar(): void;
@@ -138,7 +138,7 @@ Además, la directora oculta completamente los detalles de construcción al clie
 > }
 > ```
 > 
-> **Las clases constructoras concretas siguen la interfaz constructora y proporcionan implementaciones específicas de los pasos de construcción.**
+> - Las clases constructoras concretas siguen la interfaz constructora y proporcionan implementaciones específicas de los pasos de construcción.
 > ```ts
 > class ConstructorAuto implements Constructor {
 >     private auto: Auto;
@@ -176,7 +176,7 @@ Además, la directora oculta completamente los detalles de construcción al clie
 > }
 > ```
 > 
-> **Builder también permite construir productos sin interfaz común.**
+> - Builder también permite construir productos sin interfaz común.
 > ```ts
 > class ConstructorManualAuto implements Constructor {
 >     private manual: Manual;
@@ -213,7 +213,7 @@ Además, la directora oculta completamente los detalles de construcción al clie
 > }
 > ```
 > 
-> **El director sólo es responsable de ejecutar los pasos de construcción en una secuencia particular.**
+> - El director sólo es responsable de ejecutar los pasos de construcción en una secuencia particular.
 > ```ts
 > class Director {
 >     constructAutoDeportivo(constructor: Constructor): void {
@@ -230,7 +230,7 @@ Además, la directora oculta completamente los detalles de construcción al clie
 > }
 > ```
 > 
-> **El código cliente crea un objeto constructor, lo pasa al director y después inicia el proceso de construcción.**
+> - El código cliente crea un objeto constructor, lo pasa al director y después inicia el proceso de construcción.
 > ```ts
 > class Aplicacion {
 >     makeCar(): void {

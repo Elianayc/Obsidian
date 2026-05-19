@@ -11,27 +11,28 @@ Si el objeto componente deja de existir, el objeto principal también deja de ex
 
 Se da cuando una clase tiene al menos un atributo cuyo tipo es otra clase (no primitivo), y ese componente es esencial para su existencia.
 
-**Ejemplo:**  
-Auto + Motor  
-El auto no puede existir sin su motor.
-
-```ts
-class Engine {
-  start(): void {
-    console.log("Motor encendido");
-  }
-}
-
-class Car {
-  private engine: Engine;
-
-  constructor() {
-    this.engine = new Engine();
-  }
-
-  startCar(): void {
-    this.engine.start();
-    console.log("Auto en marcha");
-  }
-}
-```
+> [!example]
+>
+> Auto + Motor  
+> El auto no puede existir sin su motor.
+> 
+> ```ts
+> class Engine {
+>   start(): void {
+>     console.log("Motor encendido");
+>   }
+> }
+> 
+> class Car {
+>   private engine: Engine;
+> 
+>   constructor() {
+>     this.engine = new Engine();
+>   }
+> 
+>   startCar(): void {
+>     this.engine.start();
+>     console.log("Auto en marcha");
+>   }
+> }
+> ```

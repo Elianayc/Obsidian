@@ -14,13 +14,11 @@ Su objetivo es servir como **base para otras clases**, definiendo una estructura
 
 Representa características comunes necesarias para las subclases, pero no lo suficientemente específicas como para existir como objeto por sí misma.
 
-#### Ejemplo
-
-**Vehículo (concepto general)**
-- Auto
-- Camión
-- Bicicleta
-- Moto
-
+> [!example]
+> **Vehículo (concepto general)**
+> - Auto
+> - Camión
+> - Bicicleta
+> - Moto
 
 > La palabra `super` se utiliza para acceder a la **clase padre desde una clase hija**, permitiendo invocar su **constructor** o sus **métodos heredados**.

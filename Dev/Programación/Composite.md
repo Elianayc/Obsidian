@@ -78,98 +78,100 @@ En este ejemplo, el patrón **Composite** te permite implementar el apilamient
 
 <p align="center"> <img src="https://refactoring.guru/images/patterns/diagrams/composite/example.png?id=98ba81d07c979038dd2ebf3c83a2e19f"> </p>
 
-Ejemplo del editor de formas geométricas.
-
-La clase `GráficoCompuesto` es un contenedor que puede incluir cualquier cantidad de subformas, incluyendo otras formas compuestas. Una forma compuesta tiene los mismos métodos que una forma simple. Sin embargo, en lugar de hacer algo por su cuenta, una forma compuesta pasa la solicitud de forma recursiva a todos sus hijos y “suma” el resultado.
-
-El código cliente trabaja con todas las formas a través de la interfaz común a todas las clases de forma. De este modo, el cliente no sabe si está trabajando con una forma simple o una compuesta. El cliente puede trabajar con estructuras de objetos muy complejas sin acoplarse a las clases concretas que forman esa estructura.
-
-La interfaz componente declara operaciones comunes para objetos simples y complejos de una composición.
-```ts
-interface Graphic {
-    move(x: number, y: number): void
-    draw(): void
-}
-```
-
-La clase hoja representa objetos finales de una composición.
-Un objeto hoja no puede tener ningún subobjeto. Normalmente, son los objetos hoja los que hacen el trabajo real, mientras que los objetos compuestos se limitan a delegar a sus subcomponentes.
-```ts
-class Dot implements Graphic {
-    protected x: number
-    protected y: number
-
-    constructor(x: number, y: number) {
-        this.x = x
-        this.y = y
-    }
-
-    move(x: number, y: number): void {
-        this.x += x
-        this.y += y
-    }
-
-    draw(): void {
-        // Dibuja un punto en X e Y.
-        console.log(`Dibujando punto en (${this.x}, ${this.y})`)
-    }
-}
-```
-
-Todas las clases de componente pueden extender otros componentes.
-```ts
-class Circle extends Dot {
-    private radius: number
-
-    constructor(x: number, y: number, radius: number) {
-        super(x, y)
-        this.radius = radius
-    }
-
-    draw(): void {
-        // Dibuja un círculo en X y Y con radio R.
-        console.log(`Dibujando círculo en (${this.x}, ${this.y}) con radio ${this.radius}`)
-    }
-}
-```
-
-La clase compuesta representa componentes complejos que pueden tener hijos. Normalmente los objetos compuestos delegan el trabajo real a sus hijos y después "recapitulan" el resultado.
-```ts
-class CompoundGraphic implements Graphic {
-    private children: Graphic[] = []
-
-    // Un objeto compuesto puede añadir o eliminar otros
-    // componentes (tanto simples como complejos) a o desde su
-    // lista hija.
-    add(child: Graphic): void {
-        // Añade un hijo a la matriz de hijos.
-        this.children.push(child)
-    }
-
-    remove(child: Graphic): void {
-        // Elimina un hijo de la matriz de hijos.
-        const index = this.children.indexOf(child)
-        if (index >= 0) {
-            this.children.splice(index, 1)
-        }
-    }
-
-    move(x: number, y: number): void {
-        for (const child of this.children) {
-            child.move(x, y)
-        }
-    }
-
-    // Un compuesto ejecuta su lógica primaria de una forma
-    // particular. Recorre recursivamente todos sus hijos,
-    // recopilando y recapitulando sus resultados.
-    draw(): void {
-        for (const child of this.children) {
-            child.draw()
-        }
-    }
-}
-```
+> [!example]
+> Ejemplo del editor de formas geométricas.
+> 
+> La clase `GráficoCompuesto` es un contenedor que puede incluir cualquier cantidad de subformas, incluyendo otras formas compuestas. Una forma compuesta tiene los mismos métodos que una forma simple. Sin embargo, en lugar de hacer algo por su cuenta, una forma compuesta pasa la solicitud de forma recursiva a todos sus hijos y “suma” el resultado.
+> 
+> El código cliente trabaja con todas las formas a través de la interfaz común a todas las clases de forma. De este modo, el cliente no sabe si está trabajando con una forma simple o una compuesta. El cliente puede trabajar con estructuras de objetos muy complejas sin acoplarse a las clases concretas que forman esa estructura.
+> 
+> La interfaz componente declara operaciones comunes para objetos simples y complejos de una composición.
+> ```ts
+> interface Graphic {
+>     move(x: number, y: number): void
+>     draw(): void
+> }
+> ```
+> 
+> La clase hoja representa objetos finales de una composición.
+> Un objeto hoja no puede tener ningún subobjeto. Normalmente, son los objetos hoja los que hacen el trabajo real, mientras que los objetos compuestos se limitan a delegar a sus subcomponentes.
+> ```ts
+> class Dot implements Graphic {
+>     protected x: number
+>     protected y: number
+> 
+>     constructor(x: number, y: number) {
+>         this.x = x
+>         this.y = y
+>     }
+> 
+>     move(x: number, y: number): void {
+>         this.x += x
+>         this.y += y
+>     }
+> 
+>     draw(): void {
+>         // Dibuja un punto en X e Y.
+>         console.log(`Dibujando punto en (${this.x}, ${this.y})`)
+>     }
+> }
+> ```
+> 
+> Todas las clases de componente pueden extender otros componentes.
+> ```ts
+> class Circle extends Dot {
+>     private radius: number
+> 
+>     constructor(x: number, y: number, radius: number) {
+>         super(x, y)
+>         this.radius = radius
+>     }
+> 
+>     draw(): void {
+>         // Dibuja un círculo en X y Y con radio R.
+>         console.log(`Dibujando círculo en (${this.x}, ${this.y}) con radio ${this.radius}`)
+>     }
+> }
+> ```
+> 
+> La clase compuesta representa componentes complejos que pueden tener hijos. Normalmente los objetos compuestos delegan el trabajo real a sus hijos y después "recapitulan" el resultado.
+> ```ts
+> class CompoundGraphic implements Graphic {
+>     private children: Graphic[] = []
+> 
+>     // Un objeto compuesto puede añadir o eliminar otros
+>     // componentes (tanto simples como complejos) a o desde su
+>     // lista hija.
+>     add(child: Graphic): void {
+>         // Añade un hijo a la matriz de hijos.
+>         this.children.push(child)
+>     }
+> 
+>     remove(child: Graphic): void {
+>         // Elimina un hijo de la matriz de hijos.
+>         const index = this.children.indexOf(child)
+>         if (index >= 0) {
+>             this.children.splice(index, 1)
+>         }
+>     }
+> 
+>     move(x: number, y: number): void {
+>         for (const child of this.children) {
+>             child.move(x, y)
+>         }
+>     }
+> 
+>     // Un compuesto ejecuta su lógica primaria de una forma
+>     // particular. Recorre recursivamente todos sus hijos,
+>     // recopilando y recapitulando sus resultados.
+>     draw(): void {
+>         for (const child of this.children) {
+>             child.draw()
+>         }
+>     }
+> }
+> ```
+> 
 
 --- 
 
