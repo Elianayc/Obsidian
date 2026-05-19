@@ -103,130 +103,132 @@ El código cliente solo conoce interfaces abstractas, no clases concretas. Esto 
 
 En la práctica, cuando agregás una nueva familia de UI, solo creás una nueva fábrica concreta y ajustás la inicialización de la app. El resto del código no se toca.
 
-**Fábrica Abstracta**
-```ts
-// Declara la familia de productos que se pueden crear
-interface GUIFactory {
-  createButton(): Button;
-  createCheckbox(): Checkbox;
-}
-```
-
-**Fábricas Concretas**
-```ts
-// Fabrica para Windows
-class WinFactory implements GUIFactory {
-  createButton(): Button {
-    return new WinButton();
-  }
-
-  createCheckbox(): Checkbox {
-    return new WinCheckbox();
-  }
-}
-
-// Fabrica para Mac
-class MacFactory implements GUIFactory {
-  createButton(): Button {
-    return new MacButton();
-  }
-
-  createCheckbox(): Checkbox {
-    return new MacCheckbox();
-  }
-}
-```
-
-**Productos Abstractos**
-```ts
-// Botón genérico
-interface Button {
-  paint(): void;
-}
-
-// Checkbox genérico
-interface Checkbox {
-  paint(): void;
-}
-```
-
-**Productos Concretos**
-```ts
-// Botón Windows
-class WinButton implements Button {
-  paint(): void {
-    console.log("Botón estilo Windows");
-  }
-}
-
-// Botón Mac
-class MacButton implements Button {
-  paint(): void {
-    console.log("Botón estilo Mac");
-  }
-}
-
-// Checkbox Windows
-class WinCheckbox implements Checkbox {
-  paint(): void {
-    console.log("Checkbox estilo Windows");
-  }
-}
-
-// Checkbox Mac
-class MacCheckbox implements Checkbox {
-  paint(): void {
-    console.log("Checkbox estilo Mac");
-  }
-}
-```
-
-**Cliente (Aplicación)**
-```ts
-class Application {
-  private factory: GUIFactory;
-  private button!: Button;
-
-  constructor(factory: GUIFactory) {
-    this.factory = factory;
-  }
-
-  createUI(): void {
-    this.button = this.factory.createButton();
-  }
-
-  paint(): void {
-    this.button.paint();
-  }
-}
-```
-
-**Configurador / Main**
-```ts
-class ApplicationConfigurator {
-  static main(os: string) {
-    let factory: GUIFactory;
-
-    if (os === "Windows") {
-      factory = new WinFactory();
-    } else if (os === "Mac") {
-      factory = new MacFactory();
-    } else {
-      throw new Error("Sistema operativo desconocido");
-    }
-
-    const app = new Application(factory);
-    app.createUI();
-    app.paint();
-  }
-}
-```
-
-**Uso**
-```ts
-ApplicationConfigurator.main("Windows");
-// ApplicationConfigurator.main("Mac");
-```
+> [!example]
+> **Fábrica Abstracta**
+> ```ts
+> // Declara la familia de productos que se pueden crear
+> interface GUIFactory {
+>   createButton(): Button;
+>   createCheckbox(): Checkbox;
+> }
+> ```
+> 
+> **Fábricas Concretas**
+> ```ts
+> // Fabrica para Windows
+> class WinFactory implements GUIFactory {
+>   createButton(): Button {
+>     return new WinButton();
+>   }
+> 
+>   createCheckbox(): Checkbox {
+>     return new WinCheckbox();
+>   }
+> }
+> 
+> // Fabrica para Mac
+> class MacFactory implements GUIFactory {
+>   createButton(): Button {
+>     return new MacButton();
+>   }
+> 
+>   createCheckbox(): Checkbox {
+>     return new MacCheckbox();
+>   }
+> }
+> ```
+> 
+> **Productos Abstractos**
+> ```ts
+> // Botón genérico
+> interface Button {
+>   paint(): void;
+> }
+> 
+> // Checkbox genérico
+> interface Checkbox {
+>   paint(): void;
+> }
+> ```
+> 
+> **Productos Concretos**
+> ```ts
+> // Botón Windows
+> class WinButton implements Button {
+>   paint(): void {
+>     console.log("Botón estilo Windows");
+>   }
+> }
+> 
+> // Botón Mac
+> class MacButton implements Button {
+>   paint(): void {
+>     console.log("Botón estilo Mac");
+>   }
+> }
+> 
+> // Checkbox Windows
+> class WinCheckbox implements Checkbox {
+>   paint(): void {
+>     console.log("Checkbox estilo Windows");
+>   }
+> }
+> 
+> // Checkbox Mac
+> class MacCheckbox implements Checkbox {
+>   paint(): void {
+>     console.log("Checkbox estilo Mac");
+>   }
+> }
+> ```
+> 
+> **Cliente (Aplicación)**
+> ```ts
+> class Application {
+>   private factory: GUIFactory;
+>   private button!: Button;
+> 
+>   constructor(factory: GUIFactory) {
+>     this.factory = factory;
+>   }
+> 
+>   createUI(): void {
+>     this.button = this.factory.createButton();
+>   }
+> 
+>   paint(): void {
+>     this.button.paint();
+>   }
+> }
+> ```
+> 
+> **Configurador / Main**
+> ```ts
+> class ApplicationConfigurator {
+>   static main(os: string) {
+>     let factory: GUIFactory;
+> 
+>     if (os === "Windows") {
+>       factory = new WinFactory();
+>     } else if (os === "Mac") {
+>       factory = new MacFactory();
+>     } else {
+>       throw new Error("Sistema operativo desconocido");
+>     }
+> 
+>     const app = new Application(factory);
+>     app.createUI();
+>     app.paint();
+>   }
+> }
+> ```
+> 
+> **Uso**
+> ```ts
+> ApplicationConfigurator.main("Windows");
+> // ApplicationConfigurator.main("Mac");
+> ```
+> 
 
 ---
 ## Aplicabilidad

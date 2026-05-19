@@ -97,82 +97,85 @@ Este ejemplo del patrón **Adapter** se basa en el clásico conflicto entre pi
   
 Adaptando piezas cuadradas a agujeros redondos.
 
-**Tenemos dos clases con interfaces compatibles: RoundHole (HoyoRedondo) y RoundPeg (PiezaRedonda).**
-```ts
-class RoundHole {
-  constructor(private radius: number) {}
-
-  // Devuelve el radio del agujero
-  public getRadius(): number {
-    return this.radius;
-  }
-
-  // Verifica si una pieza redonda encaja en el agujero
-  public fits(peg: RoundPeg): boolean {
-    return this.getRadius() >= peg.getRadius();
-  }
-}
-
-class RoundPeg {
-  constructor(private radius: number) {}
-
-  // Devuelve el radio de la pieza redonda
-  public getRadius(): number {
-    return this.radius;
-  }
-}
-```
-
-**Clase incompatible: SquarePeg (PiezaCuadrada)**
-```ts
-class SquarePeg {
-  constructor(private width: number) {}
-
-  // Devuelve la anchura de la pieza cuadrada
-  public getWidth(): number {
-    return this.width;
-  }
-}
-```
-
-**Adaptador: permite encajar piezas cuadradas en hoyos redondos.**
-```ts
-//Extiende RoundPeg para que el cliente lo trate como pieza redonda
-class SquarePegAdapter extends RoundPeg {
-  private peg: SquarePeg;
-
-  constructor(peg: SquarePeg) {
-    // Llamamos al constructor padre con un valor temporal
-    // porque el radio real lo calculamos dinámicamente.
-    super(0);
-    this.peg = peg;
-  }
-
-  // Convierte la anchura del cuadrado en un radio equivalente
-  // Fórmula: radio = (ancho * √2) / 2
-  public getRadius(): number {
-    return (this.peg.getWidth() * Math.sqrt(2)) / 2;
-  }
-}
-```
-
-**Cliente**
-```ts
-const hole = new RoundHole(5);
-const roundPeg = new RoundPeg(5);
-
-console.log("¿Encaja la pieza redonda?", hole.fits(roundPeg)); // true
-
-const smallSquarePeg = new SquarePeg(5);
-const largeSquarePeg = new SquarePeg(10);
-
-// Usamos adaptadores
-const smallSquareAdapter = new SquarePegAdapter(smallSquarePeg);
-const largeSquareAdapter = new SquarePegAdapter(largeSquarePeg);
-
-console.log("¿Encaja el cuadrado chico?", hole.fits(smallSquareAdapter)); // true
-console.log("¿Encaja el cuadrado grande?", hole.fits(largeSquareAdapter)); // false
-```
+> [!EXAMPLE]
+> 
+> **Tenemos dos clases con interfaces compatibles: RoundHole (HoyoRedondo) y RoundPeg (PiezaRedonda).**
+> ```ts
+> class RoundHole {
+>   constructor(private radius: number) {}
+> 
+>   // Devuelve el radio del agujero
+>   public getRadius(): number {
+>     return this.radius;
+>   }
+> 
+>   // Verifica si una pieza redonda encaja en el agujero
+>   public fits(peg: RoundPeg): boolean {
+>     return this.getRadius() >= peg.getRadius();
+>   }
+> }
+> 
+> class RoundPeg {
+>   constructor(private radius: number) {}
+> 
+>   // Devuelve el radio de la pieza redonda
+>   public getRadius(): number {
+>     return this.radius;
+>   }
+> }
+> ```
+> 
+> **Clase incompatible: SquarePeg (PiezaCuadrada)**
+> ```ts
+> class SquarePeg {
+>   constructor(private width: number) {}
+> 
+>   // Devuelve la anchura de la pieza cuadrada
+>   public getWidth(): number {
+>     return this.width;
+>   }
+> }
+> ```
+> 
+> **Adaptador: permite encajar piezas cuadradas en hoyos redondos.**
+> ```ts
+> //Extiende RoundPeg para que el cliente lo trate como pieza redonda
+> class SquarePegAdapter extends RoundPeg {
+>   private peg: SquarePeg;
+> 
+>   constructor(peg: SquarePeg) {
+>     // Llamamos al constructor padre con un valor temporal
+>     // porque el radio real lo calculamos dinámicamente.
+>     super(0);
+>     this.peg = peg;
+>   }
+> 
+>   // Convierte la anchura del cuadrado en un radio equivalente
+>   // Fórmula: radio = (ancho * √2) / 2
+>   public getRadius(): number {
+>     return (this.peg.getWidth() * Math.sqrt(2)) / 2;
+>   }
+> }
+> ```
+> 
+> **Cliente**
+> ```ts
+> const hole = new RoundHole(5);
+> const roundPeg = new RoundPeg(5);
+> 
+> console.log("¿Encaja la pieza redonda?", hole.fits(roundPeg)); // true
+> 
+> const smallSquarePeg = new SquarePeg(5);
+> const largeSquarePeg = new SquarePeg(10);
+> 
+> // Usamos adaptadores
+> const smallSquareAdapter = new SquarePegAdapter(smallSquarePeg);
+> const largeSquareAdapter = new SquarePegAdapter(largeSquarePeg);
+> 
+> console.log("¿Encaja el cuadrado chico?", hole.fits(smallSquareAdapter)); // true
+> console.log("¿Encaja el cuadrado grande?", hole.fits(largeSquareAdapter)); // false
+> ```
+> 
 
 ---
 

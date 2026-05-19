@@ -9,7 +9,7 @@ Representan cada una de las características de las entidades y se repiten en to
 
 ### Sintaxis de un campo
 
-```SQK
+```SQL
 nombre_campo tipo_dato restricciones
 ```
 

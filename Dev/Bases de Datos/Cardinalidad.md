@@ -14,4 +14,7 @@ Muchos indica que puede haber múltiples registros relacionados.
 - [[One-to-Many (1 a N)]]
 - [[Many-to-Many (N-N)]]
 
-![[Tipos de relaciones ERD.png]]
+> [!info]
+> 
+> ![[Tipos de relaciones ERD.png]]
+> 
