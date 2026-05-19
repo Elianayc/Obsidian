@@ -19,24 +19,15 @@ Las funciones encapsulan lógica reutilizable dentro de la base de datos. Se inv
 
 > [!example]
 > ```sql
-> CREATE FUNCTION sumar(a INT, b INT)
-> RETURNS INT
-> LANGUAGE plpgsql
+> CREATE OR REPLACE FUNCTION nombre([modo] arg1 tipo, ...,[modo] argN tipo) RETURNS tipo_retorno
 > AS $$
+> DECLARE
+ >   variable tipo;
 > BEGIN
->    RETURN a + b;
+>    -- lógica de la función
 > END;
-> $$;
+> $$ LANGUAGE lenguaje;
 > ```
->
-> - `a` y `b` → parámetros de entrada
-> - `RETURNS INT` → devuelve un número
-> - `plpgsql` → lenguaje usado
-> - `RETURN a + b` → resultado de la función
-
-
-
-
 
 ---
 
