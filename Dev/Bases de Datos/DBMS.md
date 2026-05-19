@@ -78,3 +78,4 @@ La base de datos puede crecer sin afectar a las aplicaciones que no utilizan los
 - [[ANSI SPARC]]
 - [[Transacciones]]
 - [[Normalización]]
+- [[Funciones]]

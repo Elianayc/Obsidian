@@ -66,6 +66,6 @@ Elimina dependencias cíclicas mediante descomposición en proyecciones.
 |Tuerca|Casa|
 
 **Idea clave 5FN:**
-> separar relaciones complejas en partes más simples sin perder información al recombinar
+> Separar relaciones complejas en partes más simples sin perder información al recombinar
 
 ---

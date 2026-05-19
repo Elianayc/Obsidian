@@ -9,5 +9,6 @@
   ],
   "propertiesInDocument": "hidden",
   "defaultViewMode": "preview",
-  "strictLineBreaks": true
+  "strictLineBreaks": false,
+  "useTab": true
 }

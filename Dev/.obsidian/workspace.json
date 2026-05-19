@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7f60075cee8ff821",
+        "id": "06e57162c6e907e0",
         "type": "tabs",
         "children": [
           {
-            "id": "df202978ec535788",
+            "id": "c43d60cb34bcf4ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Herencia.md",
-                "mode": "preview",
+                "file": "Funciones.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Herencia"
+              "title": "Funciones"
             }
           }
         ]
@@ -269,16 +269,21 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "df202978ec535788",
+  "active": "c43d60cb34bcf4ad",
   "lastOpenFiles": [
-    "Programación/Upcasting.md",
+    "Bases de Datos/DBMS.md",
+    "Funciones.md",
     "Bases de Datos/Formas Normales.md",
+    "Bases de Datos/5FN.md",
+    "Bases de Datos/2FN.md",
+    "Bases de Datos/Normalización.md",
+    "Programación/Abstract Factory.md",
+    "Programación/Herencia.md",
+    "Programación/Upcasting.md",
     "Bases de Datos/3.5 - BCNF.md",
     "Bases de Datos/6FN - DKNF.md",
-    "Bases de Datos/5FN.md",
     "Bases de Datos/4FN.md",
     "Bases de Datos/3FN.md",
-    "Bases de Datos/2FN.md",
     "Bases de Datos/1FN.md",
     "Imágenes/Pasted image 20260510164048.png",
     "Imágenes/0FN.png",
@@ -290,9 +295,7 @@
     "Imágenes/4FN.png",
     "Imágenes/5FN.png",
     "Pasted image 20260514151821.png",
-    "Bases de Datos/Normalización.md",
     "Bases de Datos/Anomalías en bases de datos.md",
-    "Bases de Datos/DBMS.md",
     "Bases de Datos/Control de concurrencia.md",
     "Bases de Datos/Transacciones.md",
     "Bases de Datos/TCL.md",
@@ -304,9 +307,6 @@
     "Bases de Datos/Serializable.md",
     "Bases de Datos/Read Uncommitted.md",
     "Bases de Datos/Serialization anomaly.md",
-    "Bases de Datos/Phantom read.md",
-    "Programación/Patrones Estructurales.md",
-    "Programación/Composite.md",
     "Imágenes",
     "Abierto",
     "Sin título.canvas",

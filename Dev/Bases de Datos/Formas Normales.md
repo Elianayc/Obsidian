@@ -16,7 +16,7 @@ tags:
 
 ---
 
-##### ¿Todo se basa en dividir tablas hasta lo mínimo?
+### ¿Todo se basa en dividir tablas hasta lo mínimo?
 
 En 1FN no estás “afinando relaciones”, solo estás eliminando cosas mal formadas (listas dentro de una celda). Es como ordenar la mesa antes de trabajar.
 
@@ -32,34 +32,46 @@ Y 6FN sí se acerca a dividir todo en tablas mínimas, pero justamente por eso c
 
 ---
 
+### Uso Práctico
+
+En la práctica, la mayoría de los modelos de bases de datos se normalizan hasta **3FN o BCNF**. Las formas superiores (**4FN y 5FN**) se aplican muy poco porque suelen aumentar la complejidad del diseño y de las consultas sin aportar beneficios significativos en la mayoría de los sistemas.
+
+La **5FN** rara vez se utiliza, ya que puede generar muchas tablas y consultas más complejas. Por eso, solo se aplica en casos muy específicos.
+
+La **6FN** casi no se usa en bases de datos tradicionales. Es una forma extremadamente estricta que divide los datos al máximo, produciendo una gran cantidad de tablas y consultas complejas. Se reserva para escenarios muy particulares, como **data warehouses avanzados, modelos temporales** o arquitecturas analíticas especializadas.
+
+En resumen, en la práctica se trabaja normalmente hasta **3FN o BCNF**, a veces **4FN**, rara vez **5FN**, y la **6FN** se considera casi teórica o de uso muy especializado. ✨
+
+---
+
 ### Ejemplo de clase
 
-
-**0FN**
-
+#### 0FN
 ![[0FN.png]]
 
+---
 
-**1FN**
-
+#### 1FN
 ![[1FN.png]]
 
+---
 
-**2FN**
-
+#### 2FN
 ![[2FN.png]]
 
+---
 
-**3FN**
-
+#### 3FN
 ![[3FN.png]]
 
+---
 
-**4FN**
-
+#### 4FN
 ![[4FN.png]]
 
+---
 
-**5FN**
-
+#### 5FN
 ![[5FN.png]]
+
+---

@@ -3,8 +3,7 @@
   "cssTheme": "Retroma",
   "accentColor": "#7d369b",
   "enabledCssSnippets": [
-    "fix-tablas",
-    "fix-aparciencia"
+    "fix-tablas"
   ],
   "monospaceFontFamily": "Cascadia Code NF SemiLight",
   "showRibbon": true
