@@ -16,23 +16,9 @@ Las funciones encapsulan lógica reutilizable dentro de la base de datos. Se inv
 - PostgreSQL permite escribir funciones en varios lenguajes: **SQL, PL/pgSQL, C y Python**.
 - **PL/pgSQL** es el lenguaje procedural nativo y permite agregar lógica de programación.
 
-
-> [!example]
-> ```sql
-> CREATE OR REPLACE FUNCTION nombre([modo] arg1 tipo, ...,[modo] argN tipo) RETURNS tipo_retorno
-> AS $$
-> DECLARE
- >   variable tipo;
-> BEGIN
->    -- lógica de la función
-> END;
-> $$ LANGUAGE lenguaje;
-> ```
-
 ---
 
 ### Qué se define al crear una función
-
 Cuando se crea una función hay que especificar tres cosas: **parámetros, retorno y lenguaje**.
 
 **1) Parámetros**  
@@ -51,6 +37,24 @@ El tipo de dato puede ser:
 
 **3) Lenguaje**  
 Se indica con `LANGUAGE`: `SQL`, `PLpgSQL` o `PLPythonu`.
+
+> [!example]
+> ```sql
+> CREATE OR REPLACE FUNCTION nombre(
+> 	[<modo>] <arg1> <tipo>,
+> 	...
+> 	[<modo>] <argN><tipo>
+> ) 
+> RETURNS <tipo_retorno> 
+> AS $$
+> DECLARE 
+> 	<nombre_var> <tipo_var>
+> BEGIN
+>   -- lógica de la función
+> END;
+> $$ LANGUAGE <lenguaje>;
+> ```
+
 
 ---
 

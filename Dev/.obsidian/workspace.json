@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Funciones.md",
+                "file": "Bases de Datos/ANSI SPARC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Funciones"
+              "title": "ANSI SPARC"
             }
           }
         ]
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -272,20 +271,22 @@
   },
   "active": "c43d60cb34bcf4ad",
   "lastOpenFiles": [
+    "Bases de Datos/Anomalías en bases de datos.md",
+    "Bases de Datos/ALTER TABLE.md",
+    "Bases de Datos/6FN - DKNF.md",
+    "Bases de Datos/5FN.md",
+    "Bases de Datos/4FN.md",
+    "Bases de Datos/3FN.md",
+    "Bases de Datos/3.5 - BCNF.md",
+    "Bases de Datos/2FN.md",
+    "Bases de Datos/1FN.md",
     "Bases de Datos/DBMS.md",
     "Funciones.md",
     "Bases de Datos/Formas Normales.md",
-    "Bases de Datos/5FN.md",
-    "Bases de Datos/2FN.md",
     "Bases de Datos/Normalización.md",
     "Programación/Abstract Factory.md",
     "Programación/Herencia.md",
     "Programación/Upcasting.md",
-    "Bases de Datos/3.5 - BCNF.md",
-    "Bases de Datos/6FN - DKNF.md",
-    "Bases de Datos/4FN.md",
-    "Bases de Datos/3FN.md",
-    "Bases de Datos/1FN.md",
     "Imágenes/Pasted image 20260510164048.png",
     "Imágenes/0FN.png",
     "Pasted image 20260514151318.png",
@@ -296,7 +297,6 @@
     "Imágenes/4FN.png",
     "Imágenes/5FN.png",
     "Pasted image 20260514151821.png",
-    "Bases de Datos/Anomalías en bases de datos.md",
     "Bases de Datos/Control de concurrencia.md",
     "Bases de Datos/Transacciones.md",
     "Bases de Datos/TCL.md",
@@ -307,7 +307,6 @@
     "Bases de Datos/Fenómenos de concurrencia.md",
     "Bases de Datos/Serializable.md",
     "Bases de Datos/Read Uncommitted.md",
-    "Bases de Datos/Serialization anomaly.md",
     "Imágenes",
     "Abierto",
     "Sin título.canvas",
