@@ -25,23 +25,25 @@ Assembly → procesador entiende fácil
 ---
 
 ### **Sintaxis básica**
-##### Un programa mínimo (conceptual):
-```Assembly
-section .data    
-	mensaje db "Hola mundo", 0
 
-section .text    
-	global _start
-
-_start:    
-	; instrucciones del programa
-```
-
-##### Conceptos importantes:
-- El programa se divide en **secciones**
-    - `.data` → datos/variables
-    - `.text` → instrucciones del programa
-
+> [!example]
+> 
+> ```Assembly
+> section .data    
+> 	mensaje db "Hola mundo", 0
+> 
+> section .text    
+> 	global _start
+> 
+> _start:    
+> 	; instrucciones del programa
+> ```
+> 
+> ##### Conceptos importantes:
+> - El programa se divide en **secciones**
+>     - `.data` → datos/variables
+>     - `.text` → instrucciones del programa
+> 
 
 ### Instrucciones básicas
 

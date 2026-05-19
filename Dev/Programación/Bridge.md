@@ -114,64 +114,68 @@ El código cliente vincula el tipo deseado de control remoto con un objeto espec
 
 ---
 
-La interfaz de "implementación" declara métodos comunes a todas las clases concretas de implementación. No tiene por qué coincidir con la interfaz de la abstracción. De hecho, las dos interfaces pueden ser completamente diferentes.
-Normalmente, la interfaz de implementación únicamente proporciona operaciones primitivas, mientras que la abstracción define operaciones de más alto nivel.
-
-```ts
-interface Device {
-  isEnabled(): boolean;
-  enable(): void;
-  disable(): void;
-  getVolume(): number;
-  setVolume(volume: number): void;
-  getChannel(): number;
-  setChannel(channel: number): void;
-}
-```
-
-La "abstracción" define la interfaz para la parte de "control" de las dos jerarquías de clase. Mantiene una referencia a un objeto de la jerarquía de "implementación" y delega todo el trabajo real a este objeto.
-```ts
-class RemoteControl {
-  protected device: Device;
-
-  constructor(device: Device) {
-    this.device = device;
-  }
-
-  togglePower(): void {
-    if (this.device.isEnabled()) {
-      this.device.disable();
-    } else {
-      this.device.enable();
-    }
-  }
-
-  volumeDown(): void {
-    this.device.setVolume(this.device.getVolume() - 10);
-  }
-
-  volumeUp(): void {
-    this.device.setVolume(this.device.getVolume() + 10);
-  }
-
-  channelDown(): void {
-    this.device.setChannel(this.device.getChannel() - 1);
-  }
-
-  channelUp(): void {
-    this.device.setChannel(this.device.getChannel() + 1);
-  }
-}
-```
-
-Puedes extender clases de la jerarquía de abstracción independientemente de las clases de dispositivo.
-```ts
-class AdvancedRemoteControl extends RemoteControl {
-  mute(): void {
-    this.device.setVolume(0);
-  }
-}
-```
+> [!example]
+> - La interfaz de "implementación" declara métodos comunes a todas las clases concretas de implementación. 
+> - No tiene por qué coincidir con la interfaz de la abstracción. De hecho, las dos interfaces pueden ser completamente diferentes.
+> - Normalmente, la interfaz de implementación únicamente proporciona operaciones primitivas, mientras que la abstracción define operaciones de más alto nivel.
+> 
+> ```ts
+> interface Device {
+>   isEnabled(): boolean;
+>   enable(): void;
+>   disable(): void;
+>   getVolume(): number;
+>   setVolume(volume: number): void;
+>   getChannel(): number;
+>   setChannel(channel: number): void;
+> }
+> ```
+> 
+> - La "abstracción" define la interfaz para la parte de "control" de las dos jerarquías de clase. 
+> - Mantiene una referencia a un objeto de la jerarquía de "implementación" y delega todo el trabajo real a este objeto.
+> ```ts
+> class RemoteControl {
+>   protected device: Device;
+> 
+>   constructor(device: Device) {
+>     this.device = device;
+>   }
+> 
+>   togglePower(): void {
+>     if (this.device.isEnabled()) {
+>       this.device.disable();
+>     } else {
+>       this.device.enable();
+>     }
+>   }
+> 
+>   volumeDown(): void {
+>     this.device.setVolume(this.device.getVolume() - 10);
+>   }
+> 
+>   volumeUp(): void {
+>     this.device.setVolume(this.device.getVolume() + 10);
+>   }
+> 
+>   channelDown(): void {
+>     this.device.setChannel(this.device.getChannel() - 1);
+>   }
+> 
+>   channelUp(): void {
+>     this.device.setChannel(this.device.getChannel() + 1);
+>   }
+> }
+> ```
+> 
+> - Puedes extender clases de la jerarquía de abstracción independientemente de las clases de dispositivo.
+> ```ts
+> class AdvancedRemoteControl extends RemoteControl {
+>   mute(): void {
+>     this.device.setVolume(0);
+>   }
+> }
+> ```
+> 
 
 --- 
 

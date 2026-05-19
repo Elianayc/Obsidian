@@ -109,142 +109,144 @@ Además, la directora oculta completamente los detalles de construcción al clie
 
 5. El **Cliente** conecta un constructor con la directora. Normalmente esto se hace una sola vez mediante el constructor de la directora, que usa ese builder para todo el proceso. También existe la opción de pasar el builder al método de construcción de la directora, permitiendo usar distintos constructores cada vez.
 
-**El uso del patrón Builder sólo tiene sentido cuando tus productos son bastante complejos y requieren una configuración extensiva. 
-Los dos siguientes productos están relacionados, aunque no tienen una interfaz común.**
-```ts
-class Auto {
-    // Un auto puede tener un GPS, una computadora de
-    // navegación y cierto número de asientos. Los distintos
-    // modelos de autos (deportivo, SUV, descapotable) pueden
-    // tener distintas características instaladas o habilitadas.
-}
-
-class Manual {
-    // Cada auto debe contar con un manual de usuario que se
-    // corresponda con la configuración del auto y explique
-    // todas sus características.
-}
-```
-
-**La interfaz constructora especifica métodos para crear las distintas partes de los objetos del producto.**
-```ts
-interface Constructor {
-    reiniciar(): void;
-    establecerAsientos(...args: any[]): void;
-    establecerMotor(...args: any[]): void;
-    establecerComputadoraViaje(...args: any[]): void;
-    establecerGPS(...args: any[]): void;
-}
-```
-
-**Las clases constructoras concretas siguen la interfaz constructora y proporcionan implementaciones específicas de los pasos de construcción.**
-```ts
-class ConstructorAuto implements Constructor {
-    private auto: Auto;
-
-    constructor() {
-        this.reiniciar();
-    }
-
-    // El método reiniciar despeja el objeto en construcción.
-    reiniciar(): void {
-        this.auto = new Auto();
-    }
-
-    establecerAsientos(...args: any[]): void {
-        // Establece la cantidad de asientos del auto.
-    }
-
-    establecerMotor(...args: any[]): void {
-        // Instala un motor específico.
-    }
-
-    establecerComputadoraViaje(...args: any[]): void {
-        // Instala una computadora de navegación.
-    }
-
-    establecerGPS(...args: any[]): void {
-        // Instala un GPS.
-    }
-
-    getProducto(): Auto {
-        const producto = this.auto;
-        this.reiniciar();
-        return producto;
-    }
-}
-```
-
-**Builder también permite construir productos sin interfaz común.**
-```ts
-class ConstructorManualAuto implements Constructor {
-    private manual: Manual;
-
-    constructor() {
-        this.reiniciar();
-    }
-
-    reiniciar(): void {
-        this.manual = new Manual();
-    }
-
-    establecerAsientos(...args: any[]): void {
-        // Documenta las características del asiento del auto.
-    }
-
-    establecerMotor(...args: any[]): void {
-        // Añade instrucciones del motor.
-    }
-
-    establecerComputadoraViaje(...args: any[]): void {
-        // Añade instrucciones de la computadora de navegación.
-    }
-
-    establecerGPS(...args: any[]): void {
-        // Añade instrucciones del GPS.
-    }
-
-    getProducto(): Manual {
-        const producto = this.manual;
-        this.reiniciar();
-        return producto;
-    }
-}
-```
-
-**El director sólo es responsable de ejecutar los pasos de construcción en una secuencia particular.**
-```ts
-class Director {
-    constructAutoDeportivo(constructor: Constructor): void {
-        constructor.reiniciar();
-        constructor.establecerAsientos(2);
-        constructor.establecerMotor({ tipo: "deportivo" });
-        constructor.establecerComputadoraViaje(true);
-        constructor.establecerGPS(true);
-    }
-
-    constructSUV(constructor: Constructor): void {
-        // ...
-    }
-}
-```
-
-**El código cliente crea un objeto constructor, lo pasa al director y después inicia el proceso de construcción.**
-```ts
-class Aplicacion {
-    makeCar(): void {
-        const director = new Director();
-
-        const constructorAuto = new ConstructorAuto();
-        director.constructAutoDeportivo(constructorAuto);
-        const auto = constructorAuto.getProducto();
-
-        const constructorManual = new ConstructorManualAuto();
-        director.constructAutoDeportivo(constructorManual);
-        const manual = constructorManual.getProducto();
-    }
-}
-```
+> [!example]
+> El uso del patrón Builder sólo tiene sentido cuando tus productos son bastante complejos y requieren una configuración extensiva. 
+> Los dos siguientes productos están relacionados, aunque no tienen una interfaz común.
+> ```ts
+> class Auto {
+>     // Un auto puede tener un GPS, una computadora de
+>     // navegación y cierto número de asientos. Los distintos
+>     // modelos de autos (deportivo, SUV, descapotable) pueden
+>     // tener distintas características instaladas o habilitadas.
+> }
+> 
+> class Manual {
+>     // Cada auto debe contar con un manual de usuario que se
+>     // corresponda con la configuración del auto y explique
+>     // todas sus características.
+> }
+> ```
+> 
+> **La interfaz constructora especifica métodos para crear las distintas partes de los objetos del producto.**
+> ```ts
+> interface Constructor {
+>     reiniciar(): void;
+>     establecerAsientos(...args: any[]): void;
+>     establecerMotor(...args: any[]): void;
+>     establecerComputadoraViaje(...args: any[]): void;
+>     establecerGPS(...args: any[]): void;
+> }
+> ```
+> 
+> **Las clases constructoras concretas siguen la interfaz constructora y proporcionan implementaciones específicas de los pasos de construcción.**
+> ```ts
+> class ConstructorAuto implements Constructor {
+>     private auto: Auto;
+> 
+>     constructor() {
+>         this.reiniciar();
+>     }
+> 
+>     // El método reiniciar despeja el objeto en construcción.
+>     reiniciar(): void {
+>         this.auto = new Auto();
+>     }
+> 
+>     establecerAsientos(...args: any[]): void {
+>         // Establece la cantidad de asientos del auto.
+>     }
+> 
+>     establecerMotor(...args: any[]): void {
+>         // Instala un motor específico.
+>     }
+> 
+>     establecerComputadoraViaje(...args: any[]): void {
+>         // Instala una computadora de navegación.
+>     }
+> 
+>     establecerGPS(...args: any[]): void {
+>         // Instala un GPS.
+>     }
+> 
+>     getProducto(): Auto {
+>         const producto = this.auto;
+>         this.reiniciar();
+>         return producto;
+>     }
+> }
+> ```
+> 
+> **Builder también permite construir productos sin interfaz común.**
+> ```ts
+> class ConstructorManualAuto implements Constructor {
+>     private manual: Manual;
+> 
+>     constructor() {
+>         this.reiniciar();
+>     }
+> 
+>     reiniciar(): void {
+>         this.manual = new Manual();
+>     }
+> 
+>     establecerAsientos(...args: any[]): void {
+>         // Documenta las características del asiento del auto.
+>     }
+> 
+>     establecerMotor(...args: any[]): void {
+>         // Añade instrucciones del motor.
+>     }
+> 
+>     establecerComputadoraViaje(...args: any[]): void {
+>         // Añade instrucciones de la computadora de navegación.
+>     }
+> 
+>     establecerGPS(...args: any[]): void {
+>         // Añade instrucciones del GPS.
+>     }
+> 
+>     getProducto(): Manual {
+>         const producto = this.manual;
+>         this.reiniciar();
+>         return producto;
+>     }
+> }
+> ```
+> 
+> **El director sólo es responsable de ejecutar los pasos de construcción en una secuencia particular.**
+> ```ts
+> class Director {
+>     constructAutoDeportivo(constructor: Constructor): void {
+>         constructor.reiniciar();
+>         constructor.establecerAsientos(2);
+>         constructor.establecerMotor({ tipo: "deportivo" });
+>         constructor.establecerComputadoraViaje(true);
+>         constructor.establecerGPS(true);
+>     }
+> 
+>     constructSUV(constructor: Constructor): void {
+>         // ...
+>     }
+> }
+> ```
+> 
+> **El código cliente crea un objeto constructor, lo pasa al director y después inicia el proceso de construcción.**
+> ```ts
+> class Aplicacion {
+>     makeCar(): void {
+>         const director = new Director();
+> 
+>         const constructorAuto = new ConstructorAuto();
+>         director.constructAutoDeportivo(constructorAuto);
+>         const auto = constructorAuto.getProducto();
+> 
+>         const constructorManual = new ConstructorManualAuto();
+>         director.constructAutoDeportivo(constructorManual);
+>         const manual = constructorManual.getProducto();
+>     }
+> }
+> ```
+> 
 
 ---
 
