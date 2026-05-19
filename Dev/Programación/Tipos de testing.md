@@ -5,10 +5,12 @@ tags:
 ---
 
 #### Según el enfoque
+
 - **Caja negra**: se prueba el sistema como un todo sin conocer su implementación interna. Puede ser manual o automatizado.
 - **Caja blanca**: se prueba el código interno del sistema. Requiere acceso al código fuente.
 - **QA (Quality Assurance / Aseguramiento de calidad)**: proceso global de control de calidad del software, no solo pruebas sino también prevención de errores.
 
+---
 
 #### Según nivel de granularidad
 

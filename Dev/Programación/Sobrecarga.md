@@ -3,7 +3,6 @@ tags:
   - Programación
   - ProgramaciónII
 ---
-### Sobrecarga
 La sobrecarga es cuando una clase tiene **varios métodos con el mismo nombre**, pero con **firmas distintas**.
 El tipo de retorno **NO cuenta** para la sobrecarga.
 

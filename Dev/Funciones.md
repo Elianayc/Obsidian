@@ -58,3 +58,123 @@ Se indica con `LANGUAGE`: `SQL`, `PLpgSQL` o `PLPythonu`.
 
 ---
 
+Te lo ordeno con el formato que venimos usando ✨ y seguimos desde donde quedó (excepciones + triggers).
+
+---
+
+### Tipos de funciones según lenguaje
+
+El tipo de función depende del **lenguaje utilizado para implementarla**.
+- **SQL**
+    - Solo permite ejecutar sentencias SQL.
+    - Útil para operaciones simples.
+
+- **PL/pgSQL**
+    - Permite lógica compleja.
+    - Soporta:
+        - condicionales (`IF`)
+        - bucles (`LOOP`, `WHILE`)
+        - variables
+        - manejo de errores
+
+- **PL/Python**
+    - Permite escribir funciones usando Python.
+    - Útil cuando se necesita mayor potencia de cálculo o librerías externas.
+    
+
+---
+
+### Manejo de excepciones (PL/pgSQL)
+PostgreSQL permite manejar errores dentro de las funciones.
+
+**Niveles de mensajes**
+- `DEBUG`
+- `LOG`
+- `INFO`
+- `NOTICE`
+- `WARNING`
+- `EXCEPTION`  (corta la ejecución)
+
+
+El archivo `postgresql.conf` permite definir qué mensajes se guardan:
+
+- `log_min_messages` → mensajes que van al log
+- `client_min_messages` → mensajes que ve el cliente
+
+> [!example]
+> 
+> ```sql
+> CREATE OR REPLACE FUNCTION dividir(a INT, b INT)
+> RETURNS INT
+> AS $$
+> BEGIN
+>    IF b = 0 THEN
+>       RAISE EXCEPTION 'No se puede dividir por cero';
+>    END IF;
+> 
+>    RETURN a / b;
+> END;
+> $$ LANGUAGE plpgsql;
+> ```
+> 
+> - `IF` → valida condición
+>     
+> - `RAISE EXCEPTION` → genera error
+>     
+> - Si ocurre el error, la función se detiene
+>     
+
+---
+
+## Triggers
+
+Un **trigger** es una indicación al motor de base de datos para que ejecute automáticamente una función cuando ocurre un evento.
+
+Es decir: la función se ejecuta **sola** sin que nadie la llame.
+
+Eventos típicos:
+- `INSERT`
+- `UPDATE`
+- `DELETE`
+
+Se usan para:
+- auditoría
+- validaciones automáticas
+- mantener consistencia de datos
+
+---
+
+### Cómo funciona un trigger
+
+Un trigger tiene dos partes:
+1. **Función trigger** → contiene la lógica
+2. **Trigger** → indica cuándo ejecutarla
+
+> [!example]
+> 
+> ```sql
+> -- 1) Función trigger
+> CREATE OR REPLACE FUNCTION avisar_insert()
+> RETURNS TRIGGER AS $$
+> BEGIN
+>    RAISE NOTICE 'Se insertó un registro';
+>    RETURN NEW;
+> END;
+> $$ LANGUAGE plpgsql;
+> 
+> -- 2) Trigger
+> CREATE TRIGGER trigger_insert
+> AFTER INSERT ON clientes
+> FOR EACH ROW
+> EXECUTE FUNCTION avisar_insert();
+> ```
+> 
+> - `RETURNS TRIGGER` → función especial para triggers
+>     
+> - `NEW` → registro recién insertado
+>     
+> - `AFTER INSERT` → se ejecuta después de insertar
+>     
+> - `FOR EACH ROW` → se ejecuta por cada fila
+>     
+

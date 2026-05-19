@@ -3,8 +3,6 @@ tags:
   - Programación
   - ProgramaciónII
 ---
-# Testing automatizado
-
 El testing automatizado consiste en programas que verifican otros programas.
 
 ### Características
