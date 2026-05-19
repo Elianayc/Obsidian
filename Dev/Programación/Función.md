@@ -43,28 +43,27 @@ Está compuesta por:
 
 No incluye el tipo de retorno en muchos lenguajes como C++ (esto depende del lenguaje).
 
----
-### Ejemplo
-
-Función que retorna el máximo entre dos valores:
-```cpp
-int maximo(int a, int b) {
-	int resultado; //Declaración de variable local: solo puede ser accedida desde el módulo dónde se declaran.
-	
-    if (a > b) {
-        result = a;
-    } else {
-        result = b;
-    }
-    
-    return result; //También podemos devolver directamente a o b, según corresponda.
-}
-```
-
-La función se declara antes del `main`, normalmente solo con su firma, y luego se define su implementación después. Esto permite que el compilador la reconozca desde el inicio y facilita separar el código en archivos `.h` (declaraciones) y `.cpp` (implementación), mejorando la organización y modularidad del programa.
-
-Uso:
-```cpp
-int resultado = maximo(5, 10);
-```
-
+> [!example]
+> Función que retorna el máximo entre dos valores:
+> ```cpp
+> int maximo(int a, int b) {
+> 	int resultado; //Declaración de variable local: solo puede ser accedida desde el módulo dónde se declaran.
+> 	
+>     if (a > b) {
+>         result = a;
+>     } else {
+>         result = b;
+>     }
+>     
+>     return result; //También podemos devolver directamente a o b, según corresponda.
+> }
+> ```
+> 
+> La función se declara antes del `main`, normalmente solo con su firma, y luego se define su implementación después. Esto permite que el compilador la reconozca desde el inicio y facilita separar el código en archivos `.h` (declaraciones) y `.cpp` (implementación), mejorando la organización y modularidad del programa.
+> 
+> **Uso:**
+> ```cpp
+> int resultado = maximo(5, 10);
+> ```
+> 
+> 

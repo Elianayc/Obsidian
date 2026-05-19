@@ -12,19 +12,21 @@ TypeScript permite **herencia simple** (una sola clase padre), al igual que Java
 
 C++ permite **herencia múltiple**.
 
-##### Ejemplo de jerarquía:
-```
-Person 
-├─ Employee 
-└─ ProviderEmployee
-```
-
-Para indicar herencia se usa la palabra reservada `extends`:
-
-```ts
-class Employee extends Person {}
-class ProviderEmployee extends Person {}
-```
+> [!example]
+> ##### Ejemplo de jerarquía:
+> ```
+> Person 
+> ├─ Employee 
+> └─ ProviderEmployee
+> ```
+> 
+> Para indicar herencia se usa la palabra reservada `extends`:
+> 
+> ```ts
+> class Employee extends Person {}
+> class ProviderEmployee extends Person {}
+> ```
+> 
 
 ##### La clase derivada puede:
 - reutilizar comportamiento del padre.
