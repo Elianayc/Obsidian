@@ -75,7 +75,6 @@ El tipo de función depende del **lenguaje utilizado para implementarla**.
 - **PL/Python**
     - Permite escribir funciones usando Python.
     - Útil cuando se necesita mayor potencia de cálculo o librerías externas.
-    
 
 
 [[Manejo de excepciones (PL - pgSQL)]]
