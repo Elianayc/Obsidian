@@ -4,6 +4,5 @@ tags:
   - ProgramaciónI
   - ProgramaciónII
 ---
-### Ordenamiento
 - [[Insertion Sort]]
 - [[Burbujeo]]

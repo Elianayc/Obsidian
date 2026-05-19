@@ -6,6 +6,7 @@ tags:
 ---
 Módulo que puede devolver uno, muchos o ningún resultado. Puede modificar variables externas. No tiene `return`.
 
+----
 
 #### Parámetros de salida / Pasaje por referencia
 Se declaran casi igual que los parámetros de entrada, solo se debe agregar el símbolo **&** al nombre del parámetro.
@@ -27,3 +28,6 @@ void calcularPromedio(int nota1, int nota2, float &promedio)
 ```
 
 En este ejemplo, `nota1` y `nota2` son parámetros de entrada, mientras que `promedio` es un parámetro de salida que será modificado por el procedimiento.
+
+----
+

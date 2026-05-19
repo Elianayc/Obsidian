@@ -1,3 +1,8 @@
+---
+tags:
+  - Programación
+  - ProgramaciónII
+---
 ### Ámbito de las variables
 Es el espacio donde una variable "vive" y puede ser utilizada. Este espacio se divide en ámbitos y cada parte de un programa (el principal o los módulos) tiene su propio ámbito.
 

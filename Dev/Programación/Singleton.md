@@ -76,48 +76,47 @@ Un gobierno:
 - El constructor es privado.
 - Solo se accede a la instancia a través del método estático.
 
----
 
-## Pseudocódigo
-
-**Ejemplo clásico: conexión a base de datos.**
-```ts
-class Database {
-  // Instancia única (estática)
-  private static instance: Database;
-
-  // Constructor privado: evita new desde afuera
-  private constructor() {
-    // Inicialización (conexión DB, etc.)
-  }
-
-  // Punto de acceso global
-  public static getInstance(): Database {
-    if (!Database.instance) {
-      Database.instance = new Database();
-    }
-    return Database.instance;
-  }
-
-  // Lógica de negocio
-  public query(sql: string): void {
-    // Ejecuta query a la base de datos
-  }
-}
-
-// Cliente
-class Application {
-  main() {
-    const foo = Database.getInstance();
-    foo.query("SELECT ...");
-
-    const bar = Database.getInstance();
-    bar.query("SELECT ...");
-
-    // foo y bar son el mismo objeto
-  }
-}
-```
+> [!example]
+> **Ejemplo clásico: conexión a base de datos.**
+> ```ts
+> class Database {
+>   // Instancia única (estática)
+>   private static instance: Database;
+> 
+>   // Constructor privado: evita new desde afuera
+>   private constructor() {
+>     // Inicialización (conexión DB, etc.)
+>   }
+> 
+>   // Punto de acceso global
+>   public static getInstance(): Database {
+>     if (!Database.instance) {
+>       Database.instance = new Database();
+>     }
+>     return Database.instance;
+>   }
+> 
+>   // Lógica de negocio
+>   public query(sql: string): void {
+>     // Ejecuta query a la base de datos
+>   }
+> }
+> 
+> // Cliente
+> class Application {
+>   main() {
+>     const foo = Database.getInstance();
+>     foo.query("SELECT ...");
+> 
+>     const bar = Database.getInstance();
+>     bar.query("SELECT ...");
+> 
+>     // foo y bar son el mismo objeto
+>   }
+> }
+> ```
+> 
 
 ---
 

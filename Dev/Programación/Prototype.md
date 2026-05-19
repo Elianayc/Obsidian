@@ -80,84 +80,86 @@ Ejemplo con figuras [clonables]() sin depender de sus clases.
 
 <p align="center"> <img src="https://refactoring.guru/images/patterns/diagrams/prototype/example.png"> </p>
 
-**Clase Base: Prototipo Shape**
-```ts
-abstract class Shape {
-  x: number;
-  y: number;
-  color: string;
-
-  constructor(source?: Shape) {
-    if (source) {
-      this.x = source.x;
-      this.y = source.y;
-      this.color = source.color;
-    }
-  }
-
-  // Método clave del patrón: clonar
-  abstract clone(): Shape;
-}
-```
-
-**Prototipo concreto: Rectangle**
-```ts
-class Rectangle extends Shape {
-  width: number;
-  height: number;
-
-  constructor(source: Rectangle) {
-    super(source);
-    this.width = source.width;
-    this.height = source.height;
-  }
-
-  clone(): Shape {
-    return new Rectangle(this);
-  }
-}
-```
-
-**Prototipo concreto: Circle**
-```ts
-class Circle extends Shape {
-  radius: number;
-
-  constructor(source: Circle) {
-    super(source);
-    this.radius = source.radius;
-  }
-
-  clone(): Shape {
-    return new Circle(this);
-  }
-}
-```
-
-**Cliente**
-```ts
-class Application {
-  shapes: Shape[] = [];
-
-  constructor() {
-    const circle = new Circle(undefined as any);
-    circle.x = 10;
-    circle.y = 10;
-    circle.radius = 20;
-
-    this.shapes.push(circle);
-    this.shapes.push(circle.clone());
-  }
-
-  businessLogic() {
-    const copy: Shape[] = [];
-
-    for (const s of this.shapes) {
-      copy.push(s.clone());
-    }
-  }
-}
-```
+> [!example]
+> **Clase Base: Prototipo Shape**
+> ```ts
+> abstract class Shape {
+>   x: number;
+>   y: number;
+>   color: string;
+> 
+>   constructor(source?: Shape) {
+>     if (source) {
+>       this.x = source.x;
+>       this.y = source.y;
+>       this.color = source.color;
+>     }
+>   }
+> 
+>   // Método clave del patrón: clonar
+>   abstract clone(): Shape;
+> }
+> ```
+> 
+> **Prototipo concreto: Rectangle**
+> ```ts
+> class Rectangle extends Shape {
+>   width: number;
+>   height: number;
+> 
+>   constructor(source: Rectangle) {
+>     super(source);
+>     this.width = source.width;
+>     this.height = source.height;
+>   }
+> 
+>   clone(): Shape {
+>     return new Rectangle(this);
+>   }
+> }
+> ```
+> 
+> **Prototipo concreto: Circle**
+> ```ts
+> class Circle extends Shape {
+>   radius: number;
+> 
+>   constructor(source: Circle) {
+>     super(source);
+>     this.radius = source.radius;
+>   }
+> 
+>   clone(): Shape {
+>     return new Circle(this);
+>   }
+> }
+> ```
+> 
+> **Cliente**
+> ```ts
+> class Application {
+>   shapes: Shape[] = [];
+> 
+>   constructor() {
+>     const circle = new Circle(undefined as any);
+>     circle.x = 10;
+>     circle.y = 10;
+>     circle.radius = 20;
+> 
+>     this.shapes.push(circle);
+>     this.shapes.push(circle.clone());
+>   }
+> 
+>   businessLogic() {
+>     const copy: Shape[] = [];
+> 
+>     for (const s of this.shapes) {
+>       copy.push(s.clone());
+>     }
+>   }
+> }
+> ```
+> 
 
 ---
 

@@ -4,11 +4,14 @@ tags:
   - ProgramaciónI
   - ProgramaciónII
 ---
+
 #### Asignación " = "
 Le asigna un valor a una variable.
 ```cpp
 numero = 4;
 ```
+
+---
 
 #### Aritméticos " + - * / "
 Operaciones.
@@ -18,6 +21,7 @@ Operaciones.
 - **/** división.
 - **%** resto de una división entera.
 
+---
 
 #### Lógicos y relacionales " > < >= <= == != AND OR"
 Devuelven un bool.
@@ -30,6 +34,7 @@ Devuelven un bool.
 - **&&** and
 - **||** or
 
+---
 
 #### Expresiones combinadas
 Si usamos varias operaciones y/o expresiones se aplicará un orden de procedencia.
@@ -45,3 +50,5 @@ Si usamos varias operaciones y/o expresiones se aplicará un orden de procedenci
 
 Si todos son del mismo nivel se evalúa de izquierda a derecha.
 Se puede usar paréntesis.
+
+---
