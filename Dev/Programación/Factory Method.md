@@ -95,139 +95,142 @@ Este ejemplo muestra cómo usar **Factory Method** para crear componentes de int
   <img src="https://refactoring.guru/images/patterns/diagrams/factory-method/example.png">
 </p>
 
-Ejemplo del diálogo multiplataforma.
-
-La clase base del diálogo usa distintos elementos de UI para mostrar su ventana. Según el sistema operativo, esos elementos pueden verse distintos, pero deben comportarse igual. Un botón sigue siendo un botón, aunque cambie su apariencia.
-
-Con Factory Method no hace falta reescribir toda la lógica del diálogo para cada sistema operativo. La clase base define un método fábrica que crea botones, y después cada subclase del diálogo puede sobrescribir ese método para devolver botones específicos (por ejemplo, estilo Windows).
-
-Así, la subclase reutiliza la mayor parte del código del diálogo original, pero cambia el tipo de botón que se muestra en pantalla gracias al método fábrica.
-
-Para que esto funcione, el diálogo debe trabajar con **botones abstractos** (una interfaz o clase base común). De esta forma, el código funciona sin importar qué tipo concreto de botón se use.
-
-Este mismo enfoque podría aplicarse a otros componentes de UI. Pero si agregás muchos métodos fábrica distintos, te empezás a acercar al patrón **Abstract Factory**, que es una evolución de esta idea.
-
-**Producto (Interfaz)**
-Esta interfaz define qué puede hacer cualquier botón. El cliente solo conoce ESTA interfaz, no las clases concretas.
-```ts
-
-interface Button {
-  render(): void;                 // dibujar el botón
-  onClick(fn: () => void): void;  // asignar acción al hacer click
-}
-````
-
-**Productos Concretos**
-```ts
-// Implementación concreta para Windows
-class WindowsButton implements Button {
-
-  // Cómo se dibuja el botón en Windows
-  render(): void {
-    console.log("Renderizando botón estilo Windows");
-  }
-
-  // Cómo se maneja el click en Windows
-  onClick(fn: () => void): void {
-    console.log("Evento click Windows vinculado");
-    fn(); // ejecuta la función que le pasamos
-  }
-}
-
-
-// Implementación concreta para Web
-class HTMLButton implements Button {
-
-  render(): void {
-    console.log("Renderizando botón HTML");
-  }
-
-  onClick(fn: () => void): void {
-    console.log("Evento click navegador vinculado");
-    fn();
-  }
-}
-```
-
-**Creador Abstracto**
-Esta es la clase CLAVE del patrón. NO sabe qué botón concreto va a crear. Solo define el método fábrica.
-```ts
-abstract class Dialog {
-  // Factory Method
-  // Las subclases estarán obligadas a implementarlo.
-  abstract createButton(): Button;
-
-  // Lógica de negocio del diálogo
-  // Usa botones, pero sin saber cuáles concretos.
-  render(): void {
-
-    //  Crea el botón usando el método fábrica
-    const okButton = this.createButton();
-
-    // Usa el botón sin conocer su clase real
-    okButton.onClick(this.closeDialog);
-
-    // Lo dibuja
-    okButton.render();
-  }
-
-  closeDialog() {
-    console.log("Cerrando diálogo...");
-  }
-}
-```
-
-**Creadores Concretos**
-Cada subclase decide QUÉ botón crear.
-```ts
-class WindowsDialog extends Dialog {
-  createButton(): Button {
-    // Devuelve botón específico de Windows
-    return new WindowsButton();
-  }
-}
-
-class WebDialog extends Dialog {
-  createButton(): Button {
-    // Devuelve botón específico de Web
-    return new HTMLButton();
-  }
-}
-```
-
-**Aplicación (Cliente)**
-```ts
-class Application {
-  private dialog!: Dialog; 
-  // Guarda una referencia al creador,
-  // pero SOLO conoce el tipo abstracto Dialog.
-
-  initialize(os: string) {
-    // Decide qué creador usar según el entorno
-    if (os === "Windows") {
-      this.dialog = new WindowsDialog();
-    } 
-    else if (os === "Web") {
-      this.dialog = new WebDialog();
-    } 
-    else {
-      throw new Error("Sistema operativo desconocido");
-    }
-  }
-
-  main(os: string) {
-    this.initialize(os);
-    // El cliente usa el creador sin saber cuál es concreto
-    this.dialog.render();
-  }
-}
-```
-
-**Ejecución**
-```ts
-const app = new Application();
-app.main("Windows"); // Probá cambiar por "Web"
-```
+> [!example]
+> 
+> ##### Ejemplo del diálogo multiplataforma.
+> 
+> La clase base del diálogo usa distintos elementos de UI para mostrar su ventana. Según el sistema operativo, esos elementos pueden verse distintos, pero deben comportarse igual. Un botón sigue siendo un botón, aunque cambie su apariencia.
+> 
+> Con Factory Method no hace falta reescribir toda la lógica del diálogo para cada sistema operativo. La clase base define un método fábrica que crea botones, y después cada subclase del diálogo puede sobrescribir ese método para devolver botones específicos (por ejemplo, estilo Windows).
+> 
+> Así, la subclase reutiliza la mayor parte del código del diálogo original, pero cambia el tipo de botón que se muestra en pantalla gracias al método fábrica.
+> 
+> Para que esto funcione, el diálogo debe trabajar con **botones abstractos** (una interfaz o clase base común). De esta forma, el código funciona sin importar qué tipo concreto de botón se use.
+> 
+> Este mismo enfoque podría aplicarse a otros componentes de UI. Pero si agregás muchos métodos fábrica distintos, te empezás a acercar al patrón **Abstract Factory**, que es una evolución de esta idea.
+> 
+> **Producto (Interfaz)**
+> Esta interfaz define qué puede hacer cualquier botón. El cliente solo conoce ESTA interfaz, no las clases concretas.
+> ```ts
+> 
+> interface Button {
+>   render(): void;                 // dibujar el botón
+>   onClick(fn: () => void): void;  // asignar acción al hacer click
+> }
+> ````
+> 
+> **Productos Concretos**
+> ```ts
+> // Implementación concreta para Windows
+> class WindowsButton implements Button {
+> 
+>   // Cómo se dibuja el botón en Windows
+>   render(): void {
+>     console.log("Renderizando botón estilo Windows");
+>   }
+> 
+>   // Cómo se maneja el click en Windows
+>   onClick(fn: () => void): void {
+>     console.log("Evento click Windows vinculado");
+>     fn(); // ejecuta la función que le pasamos
+>   }
+> }
+> 
+> 
+> // Implementación concreta para Web
+> class HTMLButton implements Button {
+> 
+>   render(): void {
+>     console.log("Renderizando botón HTML");
+>   }
+> 
+>   onClick(fn: () => void): void {
+>     console.log("Evento click navegador vinculado");
+>     fn();
+>   }
+> }
+> ```
+> 
+> **Creador Abstracto**
+> Esta es la clase CLAVE del patrón. NO sabe qué botón concreto va a crear. Solo define el método fábrica.
+> ```ts
+> abstract class Dialog {
+>   // Factory Method
+>   // Las subclases estarán obligadas a implementarlo.
+>   abstract createButton(): Button;
+> 
+>   // Lógica de negocio del diálogo
+>   // Usa botones, pero sin saber cuáles concretos.
+>   render(): void {
+> 
+>     //  Crea el botón usando el método fábrica
+>     const okButton = this.createButton();
+> 
+>     // Usa el botón sin conocer su clase real
+>     okButton.onClick(this.closeDialog);
+> 
+>     // Lo dibuja
+>     okButton.render();
+>   }
+> 
+>   closeDialog() {
+>     console.log("Cerrando diálogo...");
+>   }
+> }
+> ```
+> 
+> **Creadores Concretos**
+> Cada subclase decide QUÉ botón crear.
+> ```ts
+> class WindowsDialog extends Dialog {
+>   createButton(): Button {
+>     // Devuelve botón específico de Windows
+>     return new WindowsButton();
+>   }
+> }
+> 
+> class WebDialog extends Dialog {
+>   createButton(): Button {
+>     // Devuelve botón específico de Web
+>     return new HTMLButton();
+>   }
+> }
+> ```
+> 
+> **Aplicación (Cliente)**
+> ```ts
+> class Application {
+>   private dialog!: Dialog; 
+>   // Guarda una referencia al creador,
+>   // pero SOLO conoce el tipo abstracto Dialog.
+> 
+>   initialize(os: string) {
+>     // Decide qué creador usar según el entorno
+>     if (os === "Windows") {
+>       this.dialog = new WindowsDialog();
+>     } 
+>     else if (os === "Web") {
+>       this.dialog = new WebDialog();
+>     } 
+>     else {
+>       throw new Error("Sistema operativo desconocido");
+>     }
+>   }
+> 
+>   main(os: string) {
+>     this.initialize(os);
+>     // El cliente usa el creador sin saber cuál es concreto
+>     this.dialog.render();
+>   }
+> }
+> ```
+> 
+> **Ejecución**
+> ```ts
+> const app = new Application();
+> app.main("Windows"); // Probá cambiar por "Web"
+> ```
+> 
 
 ---
 

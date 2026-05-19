@@ -3,7 +3,6 @@ tags:
   - Programación
   - ProgramaciónII
 ---
-#### Debugging
 Proceso de encontrar y corregir errores en el código.
 
 ##### Problemas del debugging

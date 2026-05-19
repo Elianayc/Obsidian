@@ -7,4 +7,4 @@ tags:
 - [[Entrada - Salida]]
 - [[Cálculo]]
 - [[Estructuras de control]]
-- [[Estructuras de repetición]]
+- [[Estructuras de Repetición]]
