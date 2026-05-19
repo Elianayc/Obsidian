@@ -38,39 +38,38 @@ En vez de una interfaz gigante, conviene tener **interfaces pequeñas y específ
 > El robot está obligado a implementar `eat()` aunque no tiene sentido.  
 > La interfaz es demasiado grande.
 
----
 
-
-Separamos responsabilidades en interfaces chicas:
-
-```ts
-interface Workable {  
-	work(): void;
-}
-
-interface Eatable {  
-	eat(): void;
-}
-```
-
-Ahora cada clase implementa solo lo que necesita:
-```ts
-class Human implements Workable, Eatable {  
-	work(): void {    
-		console.log("Trabajando");  
-	}  
-	eat(): void {    
-		console.log("Comiendo");  
-	}
-}
-
-class Robot implements Workable {  
-	work(): void {    
-		console.log("Trabajando");  
-	}
-}
-```
-
-Ahora ninguna clase implementa cosas inútiles.
-
----
+> [!check]
+> 
+> Separamos responsabilidades en interfaces chicas:
+> 
+> ```ts
+> interface Workable {  
+> 	work(): void;
+> }
+> 
+> interface Eatable {  
+> 	eat(): void;
+> }
+> ```
+> 
+> Ahora cada clase implementa solo lo que necesita:
+> ```ts
+> class Human implements Workable, Eatable {  
+> 	work(): void {    
+> 		console.log("Trabajando");  
+> 	}  
+> 	eat(): void {    
+> 		console.log("Comiendo");  
+> 	}
+> }
+> 
+> class Robot implements Workable {  
+> 	work(): void {    
+> 		console.log("Trabajando");  
+> 	}
+> }
+> ```
+> 
+> Ahora ninguna clase implementa cosas inútiles.
+> 

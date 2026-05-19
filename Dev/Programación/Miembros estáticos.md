@@ -15,17 +15,12 @@ La palabra reservada **static** se utiliza para definir miembros de clase, lo qu
 
 ## Comportamiento
 Los miembros estáticos **no pertenecen a los objetos**, sino a la clase.
-
 No se “**clonan**” en cada instancia, porque no forman parte del objeto.
-
 Existe una única copia compartida por todas las instancias.
-
 
 #### Acceso entre miembros
 Un miembro de instancia puede acceder a miembros estáticos.
-
 Un miembro estático **no puede acceder directamente a miembros de instancia**, porque no existe un objeto asociado.
-
 
 #### Relación entre miembros estáticos
 Los miembros estáticos pueden interactuar entre sí libremente, ya que pertenecen al mismo contexto de clase.

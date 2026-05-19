@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Interface Segregation Principle.md",
+                "file": "Programación/Modularidad.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Interface Segregation Principle"
+              "title": "Modularidad"
             }
           }
         ]
@@ -269,8 +269,27 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "c43d60cb34bcf4ad",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
+    "Ámbito de las variables.md",
+    "Programación/Mock Objects.md",
+    "Programación/Miembros estáticos.md",
+    "Programación/Métodos.md",
+    "Programación/Método Abstracto.md",
+    "Programación/Matriz.md",
+    "Programación/Matrices como parámetros en C y C++.md",
+    "Programación/Máquina (binario).md",
+    "Programación/Map (TypeScript).md",
+    "Programación/Map.md",
+    "Programación/List.md",
+    "Programación/Liskov Substitution Principle.md",
+    "Programación/LinkedList.md",
+    "Programación/LinkedHashSet.md",
+    "Programación/LinkedHashMap.md",
+    "Programación/Lenguajes de Programación.md",
+    "Programación/Java.md",
+    "Programación/Interfaz.md",
+    "Programación/Interface Segregation Principle.md",
     "Programación/Int.md",
     "Programación/Insertion Sort.md",
     "Programación/Importación de Clases.md",
@@ -278,25 +297,6 @@
     "Programación/If.md",
     "Programación/Herencia.md",
     "Programación/HashSet.md",
-    "Programación/HashMap.md",
-    "Programación/Go to.md",
-    "Programación/Getters y Setters.md",
-    "Programación/Fundamentos de la Programación.md",
-    "Programación/Función.md",
-    "Programación/Formas de traducir un programa.md",
-    "Programación/For.md",
-    "Programación/Float.md",
-    "Programación/Flags.md",
-    "Programación/Factory Method.md",
-    "Programación/Estructuras de Repetición.md",
-    "Programación/Estructuras de Datos.md",
-    "Programación/Estructuras de control.md",
-    "Programación/Estructura de un programa.md",
-    "Programación/Errores y Excepciones.md",
-    "Programación/Enumerador.md",
-    "Programación/Entrada - Salida.md",
-    "Programación/Downcasting.md",
-    "Programación/Dependency Inversion Principle.md",
     "Programación/coleccionesJava.png",
     "Imágenes/Pasted image 20260510164048.png",
     "Imágenes/0FN.png",

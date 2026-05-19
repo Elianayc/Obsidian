@@ -22,37 +22,36 @@ Estos valores deben estar definidos en tiempo de compilación, por lo que no pue
 
 > **Java / C# / Python** → estructuras dinámicas, no necesitan `#define`
 
----
-
-##### Ejemplo de uso:
-```cpp
-#include <iostream>
-#define FILAS 2
-#define COLUMNAS 3
-
-using namespace std;
-
-void mostrarMatriz(int mat[FILAS][COLUMNAS]) {
-    for (int i = 0; i < FILAS; i++) {
-        for (int j = 0; j < COLUMNAS; j++) {
-            cout << mat[i][j] << " ";
-        }
-        cout << endl;
-    }
-}
-
-int main() {
-    int matriz[FILAS][COLUMNAS] = {
-        {1, 2, 3},
-        {4, 5, 6}
-    };
-
-    mostrarMatriz(matriz);
-
-    return 0;
-}
-```
-
-- `#define` fija filas y columnas antes de compilar
-- la matriz se pasa como parámetro usando esas dimensiones
-- el procedimiento puede recorrerla usando esos valores constantes
+> [!example]
+> 
+> ```cpp
+> #include <iostream>
+> #define FILAS 2
+> #define COLUMNAS 3
+> 
+> using namespace std;
+> 
+> void mostrarMatriz(int mat[FILAS][COLUMNAS]) {
+>     for (int i = 0; i < FILAS; i++) {
+>         for (int j = 0; j < COLUMNAS; j++) {
+>             cout << mat[i][j] << " ";
+>         }
+>         cout << endl;
+>     }
+> }
+> 
+> int main() {
+>     int matriz[FILAS][COLUMNAS] = {
+>         {1, 2, 3},
+>         {4, 5, 6}
+>     };
+> 
+>     mostrarMatriz(matriz);
+> 
+>     return 0;
+> }
+> ```
+> 
+> - `#define` fija filas y columnas antes de compilar
+> - la matriz se pasa como parámetro usando esas dimensiones
+> - el procedimiento puede recorrerla usando esos valores constantes
