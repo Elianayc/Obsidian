@@ -272,6 +272,10 @@
   },
   "active": "c43d60cb34bcf4ad",
   "lastOpenFiles": [
+    "Triggers.md",
+    "Funciones.md",
+    "Manejo de excepciones (PL/Manejo de excepciones (PL - pgSQL).md",
+    "Manejo de excepciones (PL",
     "Programación/While.md",
     "Programación/Visibilidad.md",
     "Programación/Vector.md",
@@ -296,9 +300,6 @@
     "Programación/Singleton.md",
     "Programación/Single Responsibility Principle.md",
     "Programación/Set (TypeScript).md",
-    "Programación/Set.md",
-    "Programación/Retorno.md",
-    "Programación/Representación de un algoritmo.md",
     "Programación/coleccionesJava.png",
     "Imágenes/Pasted image 20260510164048.png",
     "Imágenes/0FN.png",
@@ -318,7 +319,6 @@
     "Sin título.base",
     "entrada",
     "Programación",
-    "Bases de Datos I (B)",
     "Sin título 1.canvas"
   ]
 }
