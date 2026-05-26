@@ -11,10 +11,15 @@
             "id": "a6797a3e20989c4f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Bases de Datos/Triggers.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Triggers"
             }
           }
         ]
@@ -267,14 +272,14 @@
   },
   "active": "a6797a3e20989c4f",
   "lastOpenFiles": [
-    "Bases de Datos/Funciones.md",
-    "Bases de Datos/Manejo de excepciones (PL - pgSQL).md",
+    "Bases de Datos/Variables especiales.md",
     "Bases de Datos/Triggers.md",
     "Bases de Datos/Valores de retorno.md",
-    "Bases de Datos/Variables especiales.md",
+    "Bases de Datos/Tipos de funciones según lenguaje.md",
+    "Bases de Datos/Funciones.md",
+    "Bases de Datos/Manejo de excepciones (PL - pgSQL).md",
     "Bases de Datos/Triggers según alcance.md",
     "Bases de Datos/Triggers según momento de ejecución.md",
-    "Bases de Datos/Tipos de funciones según lenguaje.md",
     "Manejo de excepciones (PL",
     "Programación/While.md",
     "Programación/Visibilidad.md",

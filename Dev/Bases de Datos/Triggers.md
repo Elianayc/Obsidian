@@ -46,17 +46,18 @@ Un trigger tiene dos componentes:
 > FOR EACH ROW
 > EXECUTE FUNCTION avisar_insert();
 > ```
+> 
+> ##### Elementos importantes
+>- `RETURNS TRIGGER` Indica que la función será utilizada por un trigger. 
+> 	*ver [[Valores de retorno]]*
+>  
+>- `NEW` Contiene la nueva fila que se está insertando o actualizando.
+>- `OLD` Contiene la fila anterior en operaciones de actualización o eliminación.
+> 	 *ver [[Variables especiales]]*
+>  
+>- `FOR EACH ROW` Ejecuta la función una vez por cada fila afectada.
+>- `EXECUTE FUNCTION` Indica qué función trigger debe ejecutarse.
 
-
-### Elementos importantes
-- `RETURNS TRIGGER` Indica que la función será utilizada por un trigger.
-- `NEW` Contiene la nueva fila que se está insertando o actualizando.
-- `OLD` Contiene la fila anterior en operaciones de actualización o eliminación.
-- `FOR EACH ROW` Ejecuta la función una vez por cada fila afectada.
-- `EXECUTE FUNCTION` Indica qué función trigger debe ejecutarse.
-
-[[Variables especiales]]
-[[Valores de retorno]]
 
 ---
 ## Resumen rápido
