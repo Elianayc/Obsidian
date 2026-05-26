@@ -3,15 +3,20 @@ tags:
   - DB
   - DBI2doparcial
 ---
-Las funciones encapsulan lógica reutilizable dentro de la base de datos. Se invocan para obtener un resultado y permiten centralizar comportamiento para que otras aplicaciones lo reutilicen de forma consistente.
+Las funciones encapsulan lógica reutilizable dentro de la base de datos. 
+
+Se invocan para obtener un resultado y permiten centralizar comportamiento para que otras aplicaciones lo reutilicen de forma consistente.
 
 #### Características principales
-- Pueden recibir parámetros de entrada.
+- Pueden recibir parámetros de **entrada**.
+
 - Siempre devuelven **un único resultado**.
 - El resultado puede ser:
     - un tipo de dato simple (`INT`, `TEXT`, etc.)
     - un **registro** → lo que permite devolver una **tabla completa**.
+
 - PostgreSQL permite escribir funciones en varios lenguajes: **SQL, PL/pgSQL, C y Python**.
+
 - **PL/pgSQL** es el lenguaje procedural nativo y permite agregar lógica de programación.
 
 ---
