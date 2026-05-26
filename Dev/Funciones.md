@@ -3,11 +3,9 @@ tags:
   - DB
   - DBI2doparcial
 ---
-### Funciones en PostgreSQL
 Las funciones encapsulan lógica reutilizable dentro de la base de datos. Se invocan para obtener un resultado y permiten centralizar comportamiento para que otras aplicaciones lo reutilicen de forma consistente.
 
 #### Características principales
-
 - Pueden recibir parámetros de entrada.
 - Siempre devuelven **un único resultado**.
 - El resultado puede ser:
