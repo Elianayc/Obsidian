@@ -27,6 +27,8 @@ Todo trigger está compuesto por:
 
 > **La lógica está en la función; el trigger solamente define las condiciones de ejecución.**
 
+>En PostgreSQL, cuando existen varios triggers para la misma tabla, el mismo evento y el mismo momento (`BEFORE` o `AFTER`), se ejecutan **en orden alfabético según el nombre del trigger**.
+
 ---
 
 ## Sintaxis general
