@@ -1,3 +1,8 @@
+---
+tags:
+  - DB
+  - DBI2doparcial
+---
 PostgreSQL permite manejar errores dentro de las funciones.
 
 **Niveles de mensajes**

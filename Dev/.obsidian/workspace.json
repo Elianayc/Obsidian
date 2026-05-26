@@ -11,15 +11,10 @@
             "id": "a6797a3e20989c4f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Manejo de excepciones (PL/Manejo de excepciones (PL - pgSQL).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Manejo de excepciones (PL - pgSQL)"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -272,10 +267,14 @@
   },
   "active": "a6797a3e20989c4f",
   "lastOpenFiles": [
-    "Funciones.md",
-    "Tipos de funciones según lenguaje.md",
-    "Manejo de excepciones (PL/Manejo de excepciones (PL - pgSQL).md",
-    "Triggers.md",
+    "Bases de Datos/Funciones.md",
+    "Bases de Datos/Manejo de excepciones (PL - pgSQL).md",
+    "Bases de Datos/Triggers.md",
+    "Bases de Datos/Valores de retorno.md",
+    "Bases de Datos/Variables especiales.md",
+    "Bases de Datos/Triggers según alcance.md",
+    "Bases de Datos/Triggers según momento de ejecución.md",
+    "Bases de Datos/Tipos de funciones según lenguaje.md",
     "Manejo de excepciones (PL",
     "Programación/While.md",
     "Programación/Visibilidad.md",
@@ -296,10 +295,6 @@
     "Programación/Struct.md",
     "Programación/String.md",
     "Programación/solid.png",
-    "Programación/Sobreescritura.md",
-    "Programación/Sobrecarga.md",
-    "Programación/Singleton.md",
-    "Programación/Single Responsibility Principle.md",
     "Programación/coleccionesJava.png",
     "Imágenes/Pasted image 20260510164048.png",
     "Imágenes/0FN.png",
