@@ -10,7 +10,6 @@ PostgreSQL permite manejar errores dentro de las funciones.
 
 
 El archivo `postgresql.conf` permite definir qué mensajes se guardan:
-
 - `log_min_messages` → mensajes que van al log
 - `client_min_messages` → mensajes que ve el cliente
 

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Funciones.md",
+                "file": "Manejo de excepciones (PL/Manejo de excepciones (PL - pgSQL).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Funciones"
+              "title": "Manejo de excepciones (PL - pgSQL)"
             }
           }
         ]
@@ -272,8 +272,8 @@
   },
   "active": "a6797a3e20989c4f",
   "lastOpenFiles": [
-    "Tipos de funciones según lenguaje.md",
     "Funciones.md",
+    "Tipos de funciones según lenguaje.md",
     "Manejo de excepciones (PL/Manejo de excepciones (PL - pgSQL).md",
     "Triggers.md",
     "Manejo de excepciones (PL",
