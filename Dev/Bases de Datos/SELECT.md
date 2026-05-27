@@ -8,5 +8,5 @@ tags:
 SELECT * FROM pedidos;
 ```
 
-- [[Cláusulas de SELECT]]
+- [[Cláusulas]]
 - [[Funciones de Agregación]]

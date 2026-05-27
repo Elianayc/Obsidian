@@ -3,7 +3,6 @@ tags:
   - DBI1erparcial
   - DB
 ---
-#### Procesador de consultas
 Interpreta y ejecuta las consultas del usuario.
 
 ##### Componentes:

@@ -1,0 +1,32 @@
+---
+tags:
+  - DB
+  - DBI2doparcial
+---
+### Sort Aggregate / Group Aggregate
+
+El motor primero ordena los datos y luego agrupa los registros consecutivos.
+
+Conceptualmente:
+```text
+ordenar → agrupar
+```
+
+Generalmente se utiliza cuando:
+- los datos ya están ordenados,
+- existe un índice útil,
+- o el planner considera costoso utilizar hash.
+
+#### Ventajas
+- Menor consumo de memoria.
+- Funciona bien con grandes volúmenes de datos.
+
+#### Desventajas
+- El ordenamiento puede ser costoso.
+
+Ejemplo en `EXPLAIN`:
+
+```text
+Sort
+GroupAggregate
+```
