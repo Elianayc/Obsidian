@@ -8,4 +8,6 @@ tags:
 - Permite datos ordenados
 - Buen rendimiento general y concurrencia
 
-![[Pasted image 20260526162209.png]]
+![[Pasted image 20260527152926.png]]
+
+
