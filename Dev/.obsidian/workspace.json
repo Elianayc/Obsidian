@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "737f0c4aaf3bdb96",
+        "id": "ff4d78c8cc4d7bd7",
         "type": "tabs",
         "children": [
           {
-            "id": "a6797a3e20989c4f",
+            "id": "1bbb23b7ce95f022",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -273,7 +273,7 @@
       "quick-tagger:Remove tag from current note": false
     }
   },
-  "active": "a6797a3e20989c4f",
+  "active": "1bbb23b7ce95f022",
   "lastOpenFiles": [
     "Bases de Datos/Nivel interno (nivel físico).md",
     "Bases de Datos/Nivel externo (vista del usuario).md",
