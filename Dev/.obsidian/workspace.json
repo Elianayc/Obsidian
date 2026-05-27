@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Bases de Datos/Índices.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false,
                 "backlinks": false
               },
@@ -174,9 +174,21 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "96e34c53d794f004",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "Bases de Datos/Índices.md"
+              },
+              "icon": "lucide-info",
+              "title": "Propiedades de los archivos para Índices"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       },
       {
         "id": "7d43bd82675bbd45",
@@ -188,7 +200,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Merge Join.md",
+                "file": "Bases de Datos/Índices.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -245,7 +257,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Merge Join"
+              "title": "Gráfico de Índices"
             }
           }
         ]
@@ -272,14 +284,15 @@
   },
   "active": "a6797a3e20989c4f",
   "lastOpenFiles": [
-    "Bases de Datos/Join Methods.md",
+    "Bases de Datos/Crear índices en PostgreSQL.md",
+    "Bases de Datos/Índices.md",
     "Bases de Datos/Optimización de Consultas.md",
+    "Bases de Datos/Tipos de índices.md",
+    "Bases de Datos/Join Methods.md",
     "Imágenes/Pasted image 20260526162209.png",
     "Imágenes/Pasted image 20260526162245.png",
     "Imágenes/Pasted image 20260526162557.png",
     "Bases de Datos/Merge Join.md",
-    "Bases de Datos/Índices.md",
-    "Bases de Datos/Tipos de índices.md",
     "Bases de Datos/GIN.md",
     "Bases de Datos/GIST.md",
     "Bases de Datos/B-Tree.md",

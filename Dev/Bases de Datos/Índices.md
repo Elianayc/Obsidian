@@ -48,6 +48,7 @@ Cuando se ejecuta una consulta:
  No siempre el índice es mejor:
 - En tablas pequeñas suele ser más rápido el **escaneo completo**.
 
+
 ---
 
 ## Impacto en rendimiento
