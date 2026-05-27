@@ -7,3 +7,5 @@ tags:
 - Ideal para valores únicos
 - Permite datos ordenados
 - Buen rendimiento general y concurrencia
+
+![[Pasted image 20260526162209.png]]

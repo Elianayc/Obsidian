@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
   - DB
+  - DBI2doparcial
 ---
 - [[B-Tree]]
 - [[GIST]]

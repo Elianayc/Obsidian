@@ -37,6 +37,8 @@ No siempre el índice es mejor:
 Más índices ≠ mejor rendimiento.  
 Demasiados índices reducen el rendimiento de operaciones de alta/modificación/baja.
 
+---
+
 ## Cómo funcionan
 Cuando se ejecuta una consulta:
 - El [[Procesador de consultas]] decide si:
@@ -61,5 +63,11 @@ Más índices ≠ mejor rendimiento.
 
 Demasiados índices reducen el rendimiento de operaciones de alta/modificación/baja.
 
-#### [[Tipos de índices]]
-#### [[Crear índices en PostgreSQL]]
+---
+
+[[Tipos de índices]]
+[[Crear índices en PostgreSQL]]
+[[Clustering]]
+[[Optimización de Consultas]]
+[[Scan Methods]]
+[[Join Methods]]

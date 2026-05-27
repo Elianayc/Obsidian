@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de Datos/Triggers.md",
+                "file": "Join Methods.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Triggers"
+              "title": "Join Methods"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "índice",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -75,13 +75,11 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -157,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bases de Datos/Triggers.md",
+                "file": "Merge Join.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Triggers"
+              "title": "Esquema de Merge Join"
             }
           },
           {
@@ -189,7 +187,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Bases de Datos/Triggers.md",
+                "file": "Merge Join.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -246,7 +244,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Triggers"
+              "title": "Gráfico de Merge Join"
             }
           }
         ]
@@ -273,33 +271,35 @@
   },
   "active": "a6797a3e20989c4f",
   "lastOpenFiles": [
-    "Bases de Datos/Funciones.md",
-    "Bases de Datos/Manejo de excepciones (PL - pgSQL).md",
-    "Bases de Datos/Triggers.md",
-    "Bases de Datos/Variables especiales.md",
-    "Bases de Datos/Valores de retorno.md",
-    "Bases de Datos/Triggers según alcance.md",
-    "Bases de Datos/Triggers según momento de ejecución.md",
-    "Programación/Función.md",
-    "Bases de Datos/Tipos de funciones según lenguaje.md",
-    "Manejo de excepciones (PL",
-    "Programación/While.md",
-    "Programación/Visibilidad.md",
-    "Programación/Vector.md",
-    "Programación/Variable.md",
-    "Programación/Upcasting.md",
+    "Merge Join.md",
+    "Pasted image 20260526162557.png",
+    "Join Methods.md",
+    "Bases de Datos/Índices.md",
+    "Optimización de Consultas.md",
+    "Bases de Datos/Tipos de índices.md",
+    "Bases de Datos/GIN.md",
+    "Bases de Datos/GIST.md",
+    "Pasted image 20260526162245.png",
+    "Bases de Datos/B-Tree.md",
+    "Pasted image 20260526162209.png",
+    "Bases de Datos/Relacional.md",
+    "Bases de Datos/Entity Relationship Diagram (ERD).md",
+    "Bases de Datos/Claves.md",
+    "Bases de Datos/Modelos de Bases de Datos.md",
+    "Bases de Datos/Sistema de archivos.md",
+    "Bases de Datos/DBMS.md",
+    "Programación/Colecciones.md",
+    "Programación/Colecciones en TypeScript.md",
+    "Programación/Map (TypeScript).md",
+    "Programación/Set (TypeScript).md",
+    "Programación/Array (TypeScript).md",
+    "Programación/Set.md",
+    "Programación/HashSet.md",
+    "Programación/LinkedHashSet.md",
     "Programación/TreeSet.md",
-    "Programación/TreeMap.md",
-    "Programación/Tipos de testing.md",
-    "Programación/Tipos de módulos.md",
-    "Programación/Tipos de instrucciones.md",
-    "Programación/Tipo de dato (Prog).md",
-    "Programación/Tipado.md",
-    "Programación/Testing automatizado.md",
-    "Programación/Testing.md",
-    "Programación/Técnicas algorítmicas.md",
-    "Programación/Switch.md",
-    "Programación/Struct.md",
+    "Modelado de Sistemas/Diagramas de casos de uso.md",
+    "Bases de Datos/Campos.md",
+    "Manejo de excepciones (PL",
     "Programación/solid.png",
     "Programación/coleccionesJava.png",
     "Imágenes/Pasted image 20260510164048.png",
@@ -307,9 +307,6 @@
     "Pasted image 20260514151318.png",
     "Pasted image 20260514151354.png",
     "Imágenes/1FN.png",
-    "Imágenes/2FN.png",
-    "Imágenes/3FN.png",
-    "Imágenes/4FN.png",
     "Imágenes",
     "Abierto",
     "Sin título.canvas",
