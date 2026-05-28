@@ -22,6 +22,7 @@ EXPLAIN VERBOSE select * from table_dummy;
 > [!info]
 > https://www.querifylabs.com/blog/rule-based-query-optimization
 
+---
 
 ### Salida del Comando EXPLAIN
 
