@@ -18,11 +18,14 @@ El planner evalúa qué método resulta menos costoso según:
 - la cantidad estimada de registros,
 - y la existencia de índices.
 
-> No siempre un acceso indexado es más eficiente que uno secuencial.
+> **No siempre un acceso indexado es más eficiente que uno secuencial.**
+> 
+> Por ejemplo, si la consulta devuelve un porcentaje muy alto de filas de la tabla, el costo de utilizar el índice puede ser mayor que recorrer la tabla completa secuencialmente.
+> 
+> Si la consulta devuelve más del 40% del total de los registros conviene recorrerla de forma secuencial.
 
-Por ejemplo, si la consulta devuelve un porcentaje muy alto de filas de la tabla, el costo de utilizar el índice puede ser mayor que recorrer la tabla completa secuencialmente.
 
-Si la consulta devuelve más del 40% del total de los registros conviene recorrerla de forma secuencial.
+
 
 ---
 
