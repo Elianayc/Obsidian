@@ -7,7 +7,7 @@ El motor ordena ambas tablas según la clave del join y luego las recorre simult
 
 Es eficiente para grandes volúmenes de datos.
 
-Ventajas:
+**Ventajas**:
 - no requiere múltiples recorridos,
 - puede aprovechar índices ya ordenados,
 - y evita construir hashes en memoria.
