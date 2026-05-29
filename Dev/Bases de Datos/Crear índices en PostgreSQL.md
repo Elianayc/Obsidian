@@ -64,7 +64,7 @@ vacuum full analyze nombre_tabla;
     
 - **mejora el rendimiento:** optimiza de forma directa la velocidad de las consultas y la eficiencia de los índices.
 
->[!warning] **nota importante** 
+>[!warning] **Nota importante** 
 >`vacuum full` bloquea la tabla por completo (no se pueden hacer lecturas ni escrituras mientras corre). 
 >
 >En entornos en vivo con mucho tráfico, se suele usar la alternativa `vacuum analyze` (sin el `full`), que es más lenta pero no bloquea la tabla, o herramientas externas como `pg_repack`.
