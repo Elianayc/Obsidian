@@ -272,7 +272,6 @@
       "templates:Insertar plantilla": false,
       "bases:Crear nueva base": false,
       "command-palette:Abrir paleta de comandos": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
       "quick-tagger:Add tag to current note": false,
       "quick-tagger:Remove tag from current note": false,
