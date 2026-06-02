@@ -6,5 +6,8 @@
     "fix-tablas"
   ],
   "monospaceFontFamily": "Cascadia Code NF SemiLight",
-  "showRibbon": true
+  "showRibbon": true,
+  "interfaceFontFamily": "PakType Naskh Basic,Bodoni 72 Oldstyle",
+  "baseFontSize": 16,
+  "baseFontSizeAction": true
 }
