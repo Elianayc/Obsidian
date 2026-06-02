@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "autoPairBrackets": false,
   "autoPairMarkdown": false,
   "trashOption": "local",
@@ -10,5 +10,7 @@
   "propertiesInDocument": "hidden",
   "defaultViewMode": "preview",
   "strictLineBreaks": false,
-  "useTab": true
+  "useTab": true,
+  "promptDelete": false,
+  "showInlineTitle": true
 }

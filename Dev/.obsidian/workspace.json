@@ -11,10 +11,14 @@
             "id": "b546715401df8244",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Bases de Datos/Índices.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Índices"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 350.51103591918945
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Bases de Datos/Índices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes"
+              "title": "Enlaces entrantes de Índices"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Bases de Datos/Índices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes"
+              "title": "Enlaces salientes de Índices"
             }
           },
           {
@@ -150,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Merge Join.md",
+                "file": "Bases de Datos/Índices.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Merge Join"
+              "title": "Esquema de Índices"
             }
           },
           {
@@ -174,13 +180,15 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Bases de Datos/Índices.md"
+              },
               "icon": "lucide-info",
-              "title": "Propiedades del archivo"
+              "title": "Propiedades de los archivos para Índices"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "7d43bd82675bbd45",
@@ -192,6 +200,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Bases de Datos/Índices.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -243,20 +252,19 @@
                   "repelStrength": 15.5798625718693,
                   "linkStrength": 1,
                   "linkDistance": 84,
-                  "scale": 0.2896965910970982,
+                  "scale": 0.6073521249740923,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "title": "Gráfico de Índices"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 457.5,
-    "collapsed": true
+    "width": 329.5
   },
   "left-ribbon": {
     "hiddenItems": {
