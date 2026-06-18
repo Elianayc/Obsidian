@@ -5,14 +5,14 @@ tags:
 ---
 Son los métodos que utiliza el motor de base de datos para acceder a los datos de las tablas durante la ejecución de una consulta.
 
-Los principales tipos de acceso son:
+![[Pasted image 20260618120546.png|729]]
 
+**Los principales tipos de acceso son**:
 - [[Sequential Scan]]
 - [[Index Scan]]
 - [[Bitmap Index Scan]]
 
-El planner evalúa qué método resulta menos costoso según:
-
+**El planner evalúa qué método resulta menos costoso según**:
 - el tamaño de la tabla,
 - la distribución de los datos,
 - la cantidad estimada de registros,
@@ -23,9 +23,6 @@ El planner evalúa qué método resulta menos costoso según:
 > Por ejemplo, si la consulta devuelve un porcentaje muy alto de filas de la tabla, el costo de utilizar el índice puede ser mayor que recorrer la tabla completa secuencialmente.
 > 
 > Si la consulta devuelve más del 40% del total de los registros conviene recorrerla de forma secuencial.
-
-
-
 
 ---
 

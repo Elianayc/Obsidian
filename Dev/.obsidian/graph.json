@@ -41,11 +41,11 @@
   "textFadeMultiplier": -3,
   "nodeSizeMultiplier": 1.25645771981489,
   "lineSizeMultiplier": 2.41738185387744,
-  "collapse-forces": true,
-  "centerStrength": 0.756555882765391,
-  "repelStrength": 15.6696115551816,
+  "collapse-forces": false,
+  "centerStrength": 0.880434782608696,
+  "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.15947695852745516,
+  "scale": 0.1594769585274549,
   "close": true
 }

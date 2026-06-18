@@ -3,27 +3,27 @@ tags:
   - DB
   - DBI2doparcial
 ---
-### Hash Aggregate
-
 El motor crea una estructura hash en memoria para agrupar los registros.
 
-Conceptualmente:
-
+**Conceptualmente**:
 ```text
 clave_del_grupo → acumulador
 ```
 
-Ejemplo:
+> [!Example]
+> 
+> ```sql
+> SELECT categoria, COUNT(*)
+> FROM productos
+> GROUP BY categoria;
+> ```
+> 
 
-```sql
-SELECT categoria, COUNT(*)
-FROM productos
-GROUP BY categoria;
-```
-
-PostgreSQL puede crear un hash donde:
+**PostgreSQL puede crear un hash donde**:
 - la clave es `categoria`,
 - y el valor almacena el conteo acumulado.
+
+---
 
 #### Ventajas
 - Muy rápido.
@@ -33,8 +33,13 @@ PostgreSQL puede crear un hash donde:
 - Consume memoria.
 - Puede degradarse si el hash no entra completamente en RAM.
 
-Ejemplo en `EXPLAIN`:
+---
 
-```text
-HashAggregate
-```
+> [!Example]
+> 
+> **En `EXPLAIN`**:
+> 
+> ```text
+> HashAggregate
+> ```
+> 

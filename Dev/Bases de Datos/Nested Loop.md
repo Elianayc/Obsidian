@@ -5,6 +5,8 @@ tags:
 ---
 El motor recorre una tabla y, para cada fila encontrada, busca coincidencias en la otra tabla.
 
+![[Pasted image 20260618115956.png]]
+
 Conceptualmente funciona así:
 
 ```

@@ -7,6 +7,8 @@ El motor ordena ambas tablas según la clave del join y luego las recorre simult
 
 Es eficiente para grandes volúmenes de datos.
 
+![[Pasted image 20260618120233.png]]
+
 **Ventajas**:
 - no requiere múltiples recorridos,
 - puede aprovechar índices ya ordenados,

@@ -5,7 +5,7 @@ tags:
 ---
 Son los métodos que utiliza el motor de base de datos para realizar operaciones de [[Funciones de Agregación|agregación]] y agrupamiento de datos durante la ejecución de una consulta.
 
-Se utilizan principalmente en consultas con:
+**Se utilizan principalmente en consultas con**:
 - `GROUP BY`
 - `COUNT`
 - `SUM`
@@ -14,13 +14,13 @@ Se utilizan principalmente en consultas con:
 - `MAX`
 - `DISTINCT`
 
-El planner evalúa cuál método resulta más eficiente según:
+**El planner evalúa cuál método resulta más eficiente según**:
 - la cantidad de registros,
 - el uso de memoria,
 - el orden de los datos,
 - y el costo estimado de ejecución.
 
-Los principales métodos son:
+**Los principales métodos son**:
 - [[Hash Aggregate]]
 - [[Sort Aggregate - Group Aggregate]]
 

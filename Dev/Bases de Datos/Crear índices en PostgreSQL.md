@@ -4,19 +4,36 @@ tags:
   - DB
 ---
 
-### Sintaxis 
-```sql
-create [ unique ] index [ concurrently ] [ nombre ] 
-	on tabla 
-	[ using método ]
-	( 
-		{ columna | ( expresión ) } 
-		[ asc | desc ] 
-		[ nulls { first | last } ] 
-		[, ...] 
-	)
-	[ where predicado ]
-```
+> [!Sintaxis]
+> 
+> ```sql
+>  CREATE [ UNIQUE ] INDEX [ CONCURRENTLY ] [ nombre ] 
+> 	ON tabla 
+> 	[ USING método ]
+> 	( 
+> 		{ columna | ( expresión ) } 
+> 		[ ASC | DESC ] 
+> 		[ NULLS { FIRST | LAST } ] 
+> 		[, ...] 
+> 	)
+> 	[ WHERE predicado ]
+> ```
+> 
+
+> [!example]
+> 
+> ```sql
+> CREATE UNIQUE INDEX CONCURRENTLY idx_clientes_email
+> 	ON clientes
+> 	USING btree
+> 	( 
+> 		email 
+> 		ASC 
+> 		NULLS LAST 
+> 	)
+> 	WHERE activo = TRUE;
+> ```
+> 
 
 
 ####  Desglose de parámetros
@@ -69,3 +86,4 @@ vacuum full analyze nombre_tabla;
 >
 >En entornos en vivo con mucho tráfico, se suele usar la alternativa `vacuum analyze` (sin el `full`), que es más lenta pero no bloquea la tabla, o herramientas externas como `pg_repack`.
 
+---
