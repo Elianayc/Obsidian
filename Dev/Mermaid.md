@@ -117,24 +117,26 @@ y automáticamente se renderiza un diagrama.
 
 ## Clase abstracta
 
-**Sintaxis**
-```m e r m a i d
-classDiagram  
-  
-class Herramienta {  
-<<abstract>>  
-}
-```
-
-**Representación**
-
-```mermaid
-classDiagram  
-  
-class Herramienta {  
-<<abstract>>  
-}
-```
+> [!example]
+> **Sintaxis**
+> ```m e r m a i d
+> classDiagram  
+>   
+> class Herramienta {  
+> <<abstract>>  
+> }
+> ```
+> 
+> **Representación**
+> 
+> ```mermaid
+> classDiagram  
+>   
+> class Herramienta {  
+> <<abstract>>  
+> }
+> ```
+> 
 
 ---
 
