@@ -1,15 +1,17 @@
 Mermaid permite crear diagramas escribiendo texto.
 
 En Obsidian, GitHub y VS Code podés escribir:
+
 ```  m e r m a i d
 classDiagram  
 class Persona
 ```
+
 y automáticamente se renderiza un diagrama.
 
 ---
 
-### Estructura básica
+## Estructura básica
 
 > [!example]
 > 
@@ -37,9 +39,7 @@ y automáticamente se renderiza un diagrama.
 
 ---
 
-### Clase con atributos y métodos
-
-##### Privacidad:
+## Privacidad
 
 | **Símbolo** | **Significado** |
 | :---------: | :-------------: |
@@ -71,7 +71,7 @@ y automáticamente se renderiza un diagrama.
 
 ---
 
-# Constructor
+## Constructor
 
 > [!example]
 > **Ejemplo**:
@@ -95,7 +95,7 @@ y automáticamente se renderiza un diagrama.
 
 ---
 
-# Herencia
+## Herencia
 
 > [!example]
 > 
@@ -115,25 +115,38 @@ y automáticamente se renderiza un diagrama.
 
 ---
 
-# Clase abstracta
+## Clase abstracta
 
-## TypeScript
-
+**Sintaxis**
+```m e r m a i d
+classDiagram  
+  
+class Herramienta {  
+<<abstract>>  
+}
 ```
-abstract class Herramienta
+
+**Representación**
+
+```mermaid
+classDiagram  
+  
+class Herramienta {  
+<<abstract>>  
+}
 ```
 
 ---
 
-# Interfaces
+## Interfaces
 
 Implementación:
 
 ---
 
-# Relaciones
+## Relaciones
 
-## Asociación
+##### Asociación
 
 Una clase conoce o utiliza otra.
 
@@ -177,9 +190,9 @@ Lectura:
 
 ---
 
-# Multiplicidades
+## Multiplicidades
 
-## Uno a muchos
+### Uno a muchos
 
 Lectura:
 
@@ -187,19 +200,19 @@ Lectura:
 
 ---
 
-## Uno a uno
+### Uno a uno
 
 ---
 
-## Muchos a muchos
+### Muchos a muchos
 
 ---
 
-# Ejemplo completo
+## Ejemplo completo
 
 ---
 
-# Chuleta rápida
+## Chuleta rápida
 
 |Relación|Mermaid|
 |---|---|
@@ -212,7 +225,7 @@ Lectura:
 
 ---
 
-# Flujo recomendado para la facultad
+## Flujo recomendado para la facultad
 
 ```
 Análisis   ↓UML (Mermaid)   ↓TypeScript   ↓Testing
