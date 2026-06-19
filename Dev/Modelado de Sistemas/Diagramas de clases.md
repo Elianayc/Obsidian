@@ -72,3 +72,10 @@ Se representan con estereotipo:
 Indica **cuántos objetos** participan en la relación.
 
 ![[multiplicidadderelaciones|250]]
+
+---
+
+### [[Mermaid]]
+Se utiliza para generar diagramas UML a partir de código o escribiendo texto.
+
+--- 
