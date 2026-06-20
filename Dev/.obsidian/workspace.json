@@ -14,9 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "Mermaid.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "mode": "preview",
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Mermaid"
@@ -79,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -180,13 +178,15 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Mermaid.md"
+              },
               "icon": "lucide-info",
-              "title": "Propiedades del archivo"
+              "title": "Propiedades de los archivos para Mermaid"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       },
       {
         "id": "7d43bd82675bbd45",
@@ -198,6 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Mermaid.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -254,15 +255,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "title": "Gráfico de Mermaid"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 457.5,
-    "collapsed": true
+    "width": 381.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -277,10 +277,11 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "53704ea3c07c5958",
+  "active": "42db857284b5fc3e",
   "lastOpenFiles": [
-    "Modelado de Sistemas/Diagramas de clases.md",
+    "Excalidraw/Drawing 2026-06-20 18.50.56.excalidraw.md",
     "Mermaid.md",
+    "Modelado de Sistemas/Diagramas de clases.md",
     "Modelado de Sistemas/UML.md",
     "Programación/Cuerpo de una clase.md",
     "Programación/Getters y Setters.md",
@@ -314,7 +315,6 @@
     "Bases de Datos/Índices por expresión.md",
     "Bases de Datos/GIN.md",
     "Bases de Datos/GIST.md",
-    "Bases de Datos/B-Tree.md",
     "Manejo de excepciones (PL",
     "Imágenes",
     "Abierto",

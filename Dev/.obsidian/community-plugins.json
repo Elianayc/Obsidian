@@ -4,6 +4,5 @@
   "obsidian-git",
   "node-factor",
   "persistent-graph",
-  "quick-tagger",
-  "tag-wrangler"
+  "quick-tagger"
 ]
