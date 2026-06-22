@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Mermaid.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -186,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
         "id": "7d43bd82675bbd45",
@@ -262,7 +262,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 381.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -277,7 +278,7 @@
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "53704ea3c07c5958",
   "lastOpenFiles": [
     "Pasted image 20260618120546.png",
     "Mermaid.md",
