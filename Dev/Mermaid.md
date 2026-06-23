@@ -199,7 +199,7 @@ La parte pertenece completamente al todo.
 ```m e r m a i d
 classDiagram  
 
-Auto o-- Rueda
+Casa *-- Habitacion
 ```
 
 **Representación**
