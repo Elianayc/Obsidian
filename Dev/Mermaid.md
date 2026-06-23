@@ -154,10 +154,7 @@ y automáticamente se renderiza un diagrama.
 > 
 > ```mermaid
 > classDiagram  
->   
-> class Herramienta {  
-> <<abstract>>  
-> }
+> Volador <|.. Pajaro
 > ```
 > 
 
