@@ -146,7 +146,7 @@ y automáticamente se renderiza un diagrama.
 > **Sintaxis**
 > ```m e r m a i d
 > classDiagram  
->   
+
 > Volador <|.. Pajaro
 > ```
 > 
