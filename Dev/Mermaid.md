@@ -4,6 +4,7 @@ En Obsidian, GitHub y VS Code podés escribir:
 
 ```  m e r m a i d
 classDiagram  
+
 class Persona
 ```
 
@@ -13,29 +14,26 @@ y automáticamente se renderiza un diagrama.
 
 ## Estructura básica
 
-> [!example]
-> 
-> ``` m e r m a i d
-> classDiagram
-> 
-> class Persona {
->     - nombre: string
->     - edad: number
->     + saludar(): void
-> }
-> ```
-> 
-> **Resultado**:
-> ``` mermaid
-> classDiagram
-> 
-> class Persona {
->     - nombre: string
->     - edad: number
->     + saludar(): void
-> }
-> ```
-> 
+``` m e r m a i d
+classDiagram
+
+class Persona {
+	- nombre: string
+	- edad: number
+	+ saludar(): void
+}
+```
+
+**Resultado**:
+``` mermaid
+classDiagram
+
+class Persona {
+    - nombre: string
+    - edad: number
+    + saludar(): void
+}
+```
 
 ---
 
@@ -47,133 +45,103 @@ y automáticamente se renderiza un diagrama.
 |      -      |     private     |
 |      #      |    protected    |
 
-> [!example]
-> **Ejemplo**:
-> ``` m e r m a i d
-> classDiagram
-> 
-> class Persona {
->     - nombre: string
->     + saludar(): void
-> }
-> ```
-> 
-> **Se representa como**:
-> ```mermaid
-> classDiagram
-> 
-> class Persona {
->     - nombre: string
->     + saludar(): void
-> }
-> ```
-> 
-
 ---
 
 ## Constructor
 
-> [!example]
-> **Ejemplo**:
-> ``` m e r m a i d
-> classDiagram
-> 
-> class Persona {
->     + constructor(nombre: string)
-> }
-> ```
-> 
-> **Se representa como**:
-> ```mermaid
-> classDiagram
-> 
-> class Persona {
->     + constructor(nombre: string)
-> }
-> ```
+**Ejemplo**:
+``` m e r m a i d
+classDiagram
 
+class Persona {
+   + constructor(nombre: string)
+}
+```
+
+**Se representa como**:
+```mermaid
+classDiagram
+class Persona {
+   + constructor(nombre: string)
+}
+```
 
 ---
 
 ## Herencia
 
-> [!example]
-> 
-> **Sintaxis**
-> ```
-> Padre <|-- Hijo
-> ```
-> 
-> **Representación**
-> ```mermaid
-> classDiagram  
->   
-> Padre <|-- Hijo
-> ```
-> 
-> 
+**Sintaxis**
+``` m e r m a i d
+ClassDiagram
+
+Padre <|-- Hijo
+```
+
+**Representación**
+```mermaid
+classDiagram  
+Padre <|-- Hijo
+```
 
 ---
 
 ## Clase abstracta
 
-> [!example]
-> **Sintaxis**
-> ```m e r m a i d
-> classDiagram  
->   
-> class Herramienta {  
-> <<abstract>>  
-> }
-> ```
-> 
-> **Representación**
-> 
-> ```mermaid
-> classDiagram  
->   
-> class Herramienta {  
-> <<abstract>>  
-> }
-> ```
-> 
+**Sintaxis**
+```m e r m a i d
+classDiagram  
+
+class Herramienta {  
+<<abstract>>  
+}
+```
+
+**Representación**
+```mermaid
+classDiagram  
+  
+class Herramienta {  
+<<abstract>>  
+}
+```
 
 ---
 
 ## Interfaces
 
-> [!example]
-> **Sintaxis**
-> ```m e r m a i d
-> classDiagram  
-> Volador <|.. Pajaro
-> ```
-> 
-> **Representación**
-> 
-> ```mermaid
-> classDiagram  
-> Volador <|.. Pajaro
-> ```
-> 
+**Sintaxis**
+```m e r m a i d
+classDiagram  
 
+Volador <|.. Pajaro
+```
+
+
+**Representación**
+```mermaid
+classDiagram  
+Volador <|.. Pajaro
+```
 ---
 
 ## Relaciones
 
----
+--- 
 
-#### Asociación
+### Asociación
+Una clase conoce o utiliza otra.
 
 **Sintaxis**
 ```m e r m a i d
 classDiagram  
+
 Cliente --> Pedido
 ```
 
 **Representación**
 ```mermaid
 classDiagram  
+
 Cliente --> Pedido
 ```
 
@@ -181,24 +149,47 @@ Cliente --> Pedido
 
 ---
 
-## Dependencia
-
+### Dependencia
 Uso temporal.
 
-Lectura:
+**Sintaxis**
+```m e r m a i d
+classDiagram  
+
+Pedido ..> Impresora
+```
+
+**Representación**
+```mermaid
+classDiagram  
+
+Pedido ..> Impresora
+```
 
 > Pedido utiliza una Impresora.
 
 ---
 
 ## Agregación
-
 La parte puede existir sin el todo.
 
-Lectura:
+**Sintaxis**
+```m e r m a i d
+classDiagram  
+
+Pedido ..> Impresora
+```
+
+**Representación**
+```mermaid
+classDiagram  
+
+Pedido ..> Impresora
+```
+
+
 
 > Un Auto tiene Ruedas.
-> 
 > Las Ruedas pueden existir independientemente.
 
 ---
