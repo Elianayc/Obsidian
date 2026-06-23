@@ -163,7 +163,6 @@ y automáticamente se renderiza un diagrama.
 
 ##### Asociación
 
-> [!Asociación]
 > **Sintaxis**
 > ```m e r m a i d
 > classDiagram  
