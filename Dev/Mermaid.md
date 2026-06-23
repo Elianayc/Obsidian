@@ -223,7 +223,7 @@ Casa *-- Habitacion
 ```m e r m a i d
 classDiagram  
 
-Casa *-- Habitacion
+Cliente "1" --> "*" Pedido
 ```
 
 **Representación**
