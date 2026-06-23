@@ -164,6 +164,7 @@ y automáticamente se renderiza un diagrama.
 ##### Asociación
 
 > **Sintaxis**
+
 > ```m e r m a i d
 > classDiagram  
 > Cliente --> Pedido
