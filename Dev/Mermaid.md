@@ -171,9 +171,9 @@ Cliente --> Pedido
 
 **Representación**
 
-> ```mermaid
-> classDiagram  
-> Cliente --> Pedido
+```mermaid
+classDiagram  
+Cliente --> Pedido
 > ```
 > 
 
