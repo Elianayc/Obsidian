@@ -146,7 +146,6 @@ y automáticamente se renderiza un diagrama.
 > **Sintaxis**
 > ```m e r m a i d
 > classDiagram  
-
 > Volador <|.. Pajaro
 > ```
 > 
@@ -164,9 +163,20 @@ y automáticamente se renderiza un diagrama.
 
 ##### Asociación
 
-Una clase conoce o utiliza otra.
-
-Lectura:
+> [!Asociación]
+> **Sintaxis**
+> ```m e r m a i d
+> classDiagram  
+> Cliente --> Pedido
+> ```
+> 
+> **Representación**
+> 
+> ```mermaid
+> classDiagram  
+> Cliente --> Pedido
+> ```
+> 
 
 > Un Cliente tiene relación con un Pedido.
 
