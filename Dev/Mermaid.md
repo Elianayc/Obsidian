@@ -219,7 +219,6 @@ Casa *-- Habitacion
 ---
 
 ### Uno a muchos
-
 Lectura:
 
 > Un Cliente puede tener muchos Pedidos.
