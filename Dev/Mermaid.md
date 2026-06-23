@@ -210,7 +210,6 @@ Casa *-- Habitacion
 ```
 
 > Una Casa está compuesta por Habitaciones.
-
 > Si desaparece la Casa, desaparecen las Habitaciones.
 
 ---
