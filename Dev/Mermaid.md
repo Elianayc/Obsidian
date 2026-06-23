@@ -147,7 +147,7 @@ y automáticamente se renderiza un diagrama.
 > ```m e r m a i d
 > classDiagram  
 >   
-> Volador <|
+> Volador <|.. Pajaro
 > ```
 > 
 > **Representación**
