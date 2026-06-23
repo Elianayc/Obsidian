@@ -41,10 +41,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Pasted image 20260618120546.png"
+                "file": "Pasted image 20260618115515.png"
               },
               "icon": "lucide-image",
-              "title": "Pasted image 20260618120546"
+              "title": "Pasted image 20260618115515"
             }
           }
         ],
@@ -225,7 +225,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Pasted image 20260618120546.png",
+                "file": "Pasted image 20260618115515.png",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -282,7 +282,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Pasted image 20260618120546"
+              "title": "Gráfico de Pasted image 20260618115515"
             }
           }
         ]
@@ -307,6 +307,7 @@
   },
   "active": "b1deb67fff034ef5",
   "lastOpenFiles": [
+    "Pasted image 20260618120546.png",
     "Pasted image 20260618120510.png",
     "Pasted image 20260618120423.png",
     "Pasted image 20260618120342.png",
@@ -316,7 +317,6 @@
     "Pasted image 20260618115705.png",
     "Pasted image 20260618115528.png",
     "Pasted image 20260618115515.png",
-    "Pasted image 20260618120546.png",
     "Mermaid.md",
     "Excalidraw/Drawing 2026-06-20 18.50.56.excalidraw.md",
     "Modelado de Sistemas/Diagramas de clases.md",
