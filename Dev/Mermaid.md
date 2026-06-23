@@ -216,6 +216,8 @@ Casa *-- Habitacion
 
 ## Multiplicidades
 
+---
+
 ### Uno a muchos
 
 Lectura:
