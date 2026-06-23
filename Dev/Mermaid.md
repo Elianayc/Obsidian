@@ -147,9 +147,7 @@ y automáticamente se renderiza un diagrama.
 > ```m e r m a i d
 > classDiagram  
 >   
-> class Herramienta {  
-> <<abstract>>  
-> }
+> volador
 > ```
 > 
 > **Representación**
