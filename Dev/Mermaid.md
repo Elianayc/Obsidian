@@ -219,7 +219,19 @@ Casa *-- Habitacion
 ---
 
 ### Uno a muchos
-Lectura:
+**Sintaxis**
+```m e r m a i d
+classDiagram  
+
+Casa *-- Habitacion
+```
+
+**Representación**
+```mermaid
+classDiagram  
+
+Casa *-- Habitacion
+```
 
 > Un Cliente puede tener muchos Pedidos.
 
