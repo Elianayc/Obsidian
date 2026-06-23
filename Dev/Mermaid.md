@@ -161,7 +161,7 @@ y automáticamente se renderiza un diagrama.
 
 ## Relaciones
 
-##### Asociación
+#### Asociación
 
 **Sintaxis**
 ```m e r m a i d
