@@ -193,7 +193,6 @@ Auto o-- Rueda
 ---
 
 ## Composición
-
 La parte pertenece completamente al todo.
 
 Lectura:
