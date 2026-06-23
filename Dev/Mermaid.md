@@ -195,7 +195,20 @@ Auto o-- Rueda
 ## Composición
 La parte pertenece completamente al todo.
 
-Lectura:
+**Sintaxis**
+```m e r m a i d
+classDiagram  
+
+Auto o-- Rueda
+```
+
+**Representación**
+```mermaid
+classDiagram  
+
+Auto o-- Rueda
+```
+ra:
 
 > Una Casa está compuesta por Habitaciones.
 > 
