@@ -170,12 +170,11 @@ Cliente --> Pedido
 ```
 
 **Representación**
-
 ```mermaid
 classDiagram  
 Cliente --> Pedido
-> ```
-> 
+```
+
 
 > Un Cliente tiene relación con un Pedido.
 
