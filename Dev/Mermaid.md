@@ -167,10 +167,10 @@ y automáticamente se renderiza un diagrama.
 ```m e r m a i d
 classDiagram  
 Cliente --> Pedido
-> ```
+```
 
-> **Representación**
-> 
+**Representación**
+
 > ```mermaid
 > classDiagram  
 > Cliente --> Pedido
