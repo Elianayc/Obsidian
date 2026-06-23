@@ -238,14 +238,53 @@ Casa *-- Habitacion
 ---
 
 ### Uno a uno
+**Sintaxis**
+```m e r m a i d
+classDiagram  
+
+Casa *-- Habitacion
+```
+
+**Representación**
+```mermaid
+classDiagram  
+
+Casa *-- Habitacion
+```
 
 ---
 
 ### Muchos a muchos
+**Sintaxis**
+```m e r m a i d
+classDiagram  
+
+Casa *-- Habitacion
+```
+
+**Representación**
+```mermaid
+classDiagram  
+
+Casa *-- Habitacion
+```
 
 ---
 
 ## Ejemplo completo
+**Sintaxis**
+```m e r m a i d
+classDiagram  
+
+Casa *-- Habitacion
+```
+
+**Representación**
+```mermaid
+classDiagram  
+
+Casa *-- Habitacion
+```
 
 ---
 
