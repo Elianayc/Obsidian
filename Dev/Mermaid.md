@@ -242,14 +242,14 @@ Cliente "1" --> "*" Pedido
 ```m e r m a i d
 classDiagram  
 
-Casa *-- Habitacion
+Persona "1" --> "1" DNI
 ```
 
 **Representación**
 ```mermaid
 classDiagram  
 
-Casa *-- Habitacion
+Persona "1" --> "1" DNI
 ```
 
 ---
@@ -259,56 +259,108 @@ Casa *-- Habitacion
 ```m e r m a i d
 classDiagram  
 
-Casa *-- Habitacion
+Alumno "*" --> "*" Materia
 ```
 
 **Representación**
 ```mermaid
 classDiagram  
 
-Casa *-- Habitacion
+Alumno "*" --> "*" Materia
 ```
 
 ---
 
 ## Ejemplo completo
+
 **Sintaxis**
 ```m e r m a i d
-classDiagram  
+classDiagram
 
-Casa *-- Habitacion
+class Dron {
+    - velocidadBase: number
+    - alturaBase: number
+    - herramienta: Herramienta
+
+    + calcularVelocidad(): number
+    + calcularAltura(): number
+}
+
+class Herramienta {
+    <<abstract>>
+    + peso: number
+}
+
+class Taser
+class SensorInfrarrojo
+class BrazoRobotico
+
+Dron o-- Herramienta
+
+Herramienta <|-- Taser
+Herramienta <|-- SensorInfrarrojo
+Herramienta <|-- BrazoRobotico
 ```
 
 **Representación**
 ```mermaid
-classDiagram  
+classDiagram
 
-Casa *-- Habitacion
+class Dron {
+    - velocidadBase: number
+    - alturaBase: number
+    - herramienta: Herramienta
+
+    + calcularVelocidad(): number
+    + calcularAltura(): number
+}
+
+class Herramienta {
+    <<abstract>>
+    + peso: number
+}
+
+class Taser
+class SensorInfrarrojo
+class BrazoRobotico
+
+Dron o-- Herramienta
+
+Herramienta <|-- Taser
+Herramienta <|-- SensorInfrarrojo
+Herramienta <|-- BrazoRobotico
 ```
 
 ---
 
 ## Chuleta rápida
 
-|Relación|Mermaid|
-|---|---|
-|Herencia|`<|
-|Implementa interfaz|`<|
-|Asociación|`-->`|
-|Dependencia|`..>`|
-|Agregación|`o--`|
-|Composición|`*--`|
+|      Relación       | Mermaid |
+| :-----------------: | :-----: |
+|      Herencia       |   `<    |
+| Implementa interfaz |   `<    |
+|     Asociación      |  `-->`  |
+|     Dependencia     |  `..>`  |
+|     Agregación      |  `o--`  |
+|     Composición     |  `*--`  |
 
 ---
 
-## Flujo recomendado para la facultad
+## Flujo recomendado
 
 ```
-Análisis   ↓UML (Mermaid)   ↓TypeScript   ↓Testing
+Análisis   
+↓
+UML (Mermaid)   
+↓
+TypeScript   
+↓
+Testing
 ```
 
 Primero pensá las clases y relaciones.
-
 Después escribí el código.
+Eso suele hacer mucho más fácil detectar errores de diseño antes de programar. 
 
-Eso suele hacer mucho más fácil detectar errores de diseño antes de programar. 🚀
+---
+
