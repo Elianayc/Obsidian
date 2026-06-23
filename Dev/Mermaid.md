@@ -187,8 +187,6 @@ classDiagram
 Auto o-- Rueda
 ```
 
-
-
 > Un Auto tiene Ruedas.
 > Las Ruedas pueden existir independientemente.
 
