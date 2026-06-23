@@ -161,6 +161,8 @@ y automáticamente se renderiza un diagrama.
 
 ## Relaciones
 
+---
+
 #### Asociación
 
 **Sintaxis**
@@ -174,7 +176,6 @@ Cliente --> Pedido
 classDiagram  
 Cliente --> Pedido
 ```
-
 
 > Un Cliente tiene relación con un Pedido.
 
