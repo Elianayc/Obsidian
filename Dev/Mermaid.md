@@ -177,14 +177,14 @@ La parte puede existir sin el todo.
 ```m e r m a i d
 classDiagram  
 
-Pedido ..> Impresora
+Auto o-- Rueda
 ```
 
 **Representación**
 ```mermaid
 classDiagram  
 
-Pedido ..> Impresora
+Auto o-- Rueda
 ```
 
 
