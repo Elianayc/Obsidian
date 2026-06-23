@@ -20,8 +20,35 @@
               "icon": "lucide-file",
               "title": "Mermaid"
             }
+          },
+          {
+            "id": "a86bf7e8cfd42040",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mermaid.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mermaid"
+            }
+          },
+          {
+            "id": "b1deb67fff034ef5",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20260618120546.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260618120546"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,7 +225,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Mermaid.md",
+                "file": "Pasted image 20260618120546.png",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -255,7 +282,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Mermaid"
+              "title": "Gráfico de Pasted image 20260618120546"
             }
           }
         ]
@@ -278,10 +305,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "53704ea3c07c5958",
+  "active": "b1deb67fff034ef5",
   "lastOpenFiles": [
-    "Pasted image 20260618120546.png",
     "Mermaid.md",
+    "Pasted image 20260618120546.png",
     "Excalidraw/Drawing 2026-06-20 18.50.56.excalidraw.md",
     "Modelado de Sistemas/Diagramas de clases.md",
     "Modelado de Sistemas/UML.md",
