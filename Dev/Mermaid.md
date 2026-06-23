@@ -168,7 +168,7 @@ y automáticamente se renderiza un diagrama.
 > classDiagram  
 > Cliente --> Pedido
 > ```
-> 
+
 > **Representación**
 > 
 > ```mermaid
