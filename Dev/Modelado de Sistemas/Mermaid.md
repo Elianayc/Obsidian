@@ -1,3 +1,7 @@
+---
+tags:
+  - Modeladodesistemas
+---
 Mermaid permite crear diagramas escribiendo texto.
 
 En Obsidian, GitHub y VS Code podés escribir:

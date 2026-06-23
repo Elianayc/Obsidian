@@ -4,5 +4,6 @@
   "obsidian-git",
   "node-factor",
   "persistent-graph",
-  "quick-tagger"
+  "quick-tagger",
+  "multi-tag"
 ]
