@@ -230,7 +230,7 @@ Cliente "1" --> "*" Pedido
 ```mermaid
 classDiagram  
 
-Casa *-- Habitacion
+Cliente "1" --> "*" Pedido
 ```
 
 > Un Cliente puede tener muchos Pedidos.
