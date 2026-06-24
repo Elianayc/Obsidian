@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b83a0e913e5a6a5f",
+        "id": "25604df18663d1e2",
         "type": "tabs",
         "children": [
           {
-            "id": "fa9ef0a8af4b1487",
+            "id": "31e3b640b3f8cc37",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sin título.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Sin título"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -198,7 +194,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Modelado de Sistemas/Mermaid.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -255,15 +250,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Mermaid"
+              "title": "Vista gráfica"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 381.5,
-    "collapsed": true
+    "width": 381.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -278,8 +272,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "31e3b640b3f8cc37",
   "lastOpenFiles": [
+    "Programación/Método Abstracto.md",
+    "Programación/Miembros estáticos.md",
     "Sin título.md",
     "Modelado de Sistemas/Mermaid.md",
     "Imágenes/Pasted image 20260618115515.png",
@@ -314,8 +310,6 @@
     "Bases de Datos/Clustering.md",
     "Bases de Datos/Tipos de índices.md",
     "Bases de Datos/Índices parciales.md",
-    "Bases de Datos/Índices por expresión.md",
-    "Bases de Datos/GIN.md",
     "Manejo de excepciones (PL",
     "Imágenes",
     "Abierto",
