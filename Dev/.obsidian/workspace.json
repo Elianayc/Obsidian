@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "23ae4bfa649b5187",
+        "id": "b83a0e913e5a6a5f",
         "type": "tabs",
         "children": [
           {
-            "id": "09e1e40e9332ce66",
+            "id": "fa9ef0a8af4b1487",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Sin título.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sin título"
             }
           }
         ]
@@ -274,8 +278,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "09e1e40e9332ce66",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
+    "Sin título.md",
     "Modelado de Sistemas/Mermaid.md",
     "Imágenes/Pasted image 20260618115515.png",
     "Imágenes/Pasted image 20260618120546.png",
