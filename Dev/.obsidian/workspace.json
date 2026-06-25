@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura de Sistemas/Arquitectura cliente-servidor.md",
-                "mode": "preview",
+                "file": "Arquitectura de Sistemas/Arquitectura por capas.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arquitectura cliente-servidor"
+              "title": "Arquitectura por capas"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -280,6 +281,7 @@
   },
   "active": "1517ed134b215625",
   "lastOpenFiles": [
+    "Arquitectura de Sistemas/Arquitectura cliente-servidor.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Arquitectura de Sistemas/Arquitectura por capas.md",
     "Arquitectura de Sistemas/Flujo de datos en un sistema.md",
@@ -315,7 +317,6 @@
     "Bases de Datos/Sort Aggregate - Group Aggregate.md",
     "Bases de Datos/Hash Aggregate.md",
     "Bases de Datos/Join Methods.md",
-    "Bases de Datos/Scan Methods.md",
     "Manejo de excepciones (PL",
     "Imágenes",
     "Abierto",
