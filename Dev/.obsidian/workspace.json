@@ -11,10 +11,14 @@
             "id": "1517ed134b215625",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Arquitectura de Sistemas/Arquitectura cliente-servidor.md",
+                "mode": "preview",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Arquitectura cliente-servidor"
             }
           }
         ]
@@ -194,6 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Arquitectura de Sistemas/Arquitectura cliente-servidor.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -250,14 +255,15 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "title": "Gráfico de Arquitectura cliente-servidor"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 381.5
+    "width": 381.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -274,6 +280,13 @@
   },
   "active": "1517ed134b215625",
   "lastOpenFiles": [
+    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
+    "Arquitectura de Sistemas/Arquitectura por capas.md",
+    "Arquitectura de Sistemas/Flujo de datos en un sistema.md",
+    "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
+    "Arquitectura de Sistemas/Modelo frontend y backend.md",
+    "Arquitectura de Sistemas/Paquetes.md",
+    "Arquitectura de Sistemas/Persistencia de datos.md",
     "Programación/Agregación.md",
     "Programación/Relaciones entre Clases.md",
     "Programación/Método Abstracto.md",
@@ -303,13 +316,6 @@
     "Bases de Datos/Hash Aggregate.md",
     "Bases de Datos/Join Methods.md",
     "Bases de Datos/Scan Methods.md",
-    "Bases de Datos/Bitmap Index Scan.md",
-    "Bases de Datos/Index Scan.md",
-    "Bases de Datos/Sequential Scan.md",
-    "Bases de Datos/Merge Join.md",
-    "Bases de Datos/Hash Join.md",
-    "Bases de Datos/Nested Loop.md",
-    "Bases de Datos/Clustering.md",
     "Manejo de excepciones (PL",
     "Imágenes",
     "Abierto",
