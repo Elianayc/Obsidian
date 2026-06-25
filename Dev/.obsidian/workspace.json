@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "25604df18663d1e2",
+        "id": "263f9e6091a0794b",
         "type": "tabs",
         "children": [
           {
-            "id": "31e3b640b3f8cc37",
+            "id": "1517ed134b215625",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -272,8 +272,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "31e3b640b3f8cc37",
+  "active": "1517ed134b215625",
   "lastOpenFiles": [
+    "Programación/Agregación.md",
+    "Programación/Relaciones entre Clases.md",
     "Programación/Método Abstracto.md",
     "Programación/Miembros estáticos.md",
     "Sin título.md",
@@ -308,8 +310,6 @@
     "Bases de Datos/Hash Join.md",
     "Bases de Datos/Nested Loop.md",
     "Bases de Datos/Clustering.md",
-    "Bases de Datos/Tipos de índices.md",
-    "Bases de Datos/Índices parciales.md",
     "Manejo de excepciones (PL",
     "Imágenes",
     "Abierto",
