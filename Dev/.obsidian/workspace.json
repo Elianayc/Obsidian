@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "263f9e6091a0794b",
+        "id": "f6c7659cb464073d",
         "type": "tabs",
         "children": [
           {
-            "id": "1517ed134b215625",
+            "id": "ff066ce429e2e744",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura de Sistemas/Arquitectura por capas.md",
-                "mode": "source",
+                "file": "readonly en TypeScript.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arquitectura por capas"
+              "title": "readonly en TypeScript"
             }
           }
         ]
@@ -278,12 +278,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1517ed134b215625",
+  "active": "ff066ce429e2e744",
   "lastOpenFiles": [
+    "Visibilidad en Typescript.md",
+    "readonly en TypeScript.md",
+    "Programación/Visibilidad.md",
+    "Arquitectura de Sistemas/Flujo de datos en un sistema.md",
+    "Arquitectura de Sistemas/Arquitectura por capas.md",
     "Arquitectura de Sistemas/Arquitectura cliente-servidor.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-    "Arquitectura de Sistemas/Arquitectura por capas.md",
-    "Arquitectura de Sistemas/Flujo de datos en un sistema.md",
     "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
     "Arquitectura de Sistemas/Modelo frontend y backend.md",
     "Arquitectura de Sistemas/Paquetes.md",
@@ -313,9 +316,6 @@
     "Bases de Datos/Índices.md",
     "Bases de Datos/Optimización de Consultas.md",
     "Bases de Datos/Aggregation Methods.md",
-    "Bases de Datos/Sort Aggregate - Group Aggregate.md",
-    "Bases de Datos/Hash Aggregate.md",
-    "Bases de Datos/Join Methods.md",
     "Manejo de excepciones (PL",
     "Imágenes",
     "Abierto",
