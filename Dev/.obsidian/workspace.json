@@ -11,10 +11,14 @@
             "id": "ff066ce429e2e744",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Arquitectura de Sistemas/Flujo de datos en un sistema.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Flujo de datos en un sistema"
             }
           }
         ]
@@ -276,15 +280,21 @@
   },
   "active": "ff066ce429e2e744",
   "lastOpenFiles": [
-    "readonly en TypeScript.md",
-    "Visibilidad en Typescript.md",
-    "Programación/Visibilidad.md",
+    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
+    "Modelado de Sistemas/Diagrama de flujo.md",
+    "Excalidraw/multiplicidadderelaciones.md",
+    "Excalidraw/for.md",
+    "Imágenes/2FN.png",
+    "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
+    "Arquitectura de Sistemas/Modelo frontend y backend.md",
+    "Modelado de Sistemas/Diagramas de clases.md",
+    "Modelado de Sistemas/Diagramas de actividad.md",
     "Arquitectura de Sistemas/Flujo de datos en un sistema.md",
     "Arquitectura de Sistemas/Arquitectura por capas.md",
     "Arquitectura de Sistemas/Arquitectura cliente-servidor.md",
-    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-    "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
-    "Arquitectura de Sistemas/Modelo frontend y backend.md",
+    "readonly en TypeScript.md",
+    "Visibilidad en Typescript.md",
+    "Programación/Visibilidad.md",
     "Arquitectura de Sistemas/Paquetes.md",
     "Arquitectura de Sistemas/Persistencia de datos.md",
     "Programación/Agregación.md",
@@ -302,16 +312,10 @@
     "Imágenes/Pasted image 20260618115956.png",
     "Imágenes/Pasted image 20260618120035.png",
     "Imágenes/Pasted image 20260618115705.png",
-    "Imágenes/Pasted image 20260618115528.png",
     "Excalidraw/Drawing 2026-06-20 18.50.56.excalidraw.md",
-    "Modelado de Sistemas/Diagramas de clases.md",
     "Modelado de Sistemas/UML.md",
     "Programación/Cuerpo de una clase.md",
     "Programación/Getters y Setters.md",
-    "Programación/Propiedades en TypeScript.md",
-    "Bases de Datos/Índices.md",
-    "Bases de Datos/Optimización de Consultas.md",
-    "Bases de Datos/Aggregation Methods.md",
     "Manejo de excepciones (PL",
     "Imágenes",
     "Abierto",
