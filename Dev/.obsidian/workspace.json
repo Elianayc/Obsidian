@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura de Sistemas/Flujo de datos en un sistema.md",
+                "file": "Programación/Adapter.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flujo de datos en un sistema"
+              "title": "Adapter"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "patrones",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -74,11 +74,13 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -198,7 +200,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Arquitectura de Sistemas/Arquitectura cliente-servidor.md",
+                "file": "Programación/Adapter.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -255,7 +257,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Arquitectura cliente-servidor"
+              "title": "Gráfico de Adapter"
             }
           }
         ]
@@ -280,29 +282,33 @@
   },
   "active": "ff066ce429e2e744",
   "lastOpenFiles": [
+    "Programación/Patrones Estructurales.md",
+    "Decorator.md",
+    "Programación/Bridge.md",
+    "Programación/Adapter.md",
+    "Programación/Patrones de Diseño.md",
+    "Programación/Patrones Creacionales.md",
+    "Programación/Prototype.md",
+    "Programación/Abstract Factory.md",
+    "Programación/Factory Method.md",
+    "Modelado de Sistemas/Visibilidad en Typescript.md",
+    "Modelado de Sistemas/readonly en TypeScript.md",
+    "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
+    "Arquitectura de Sistemas/Flujo de datos en un sistema.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Modelado de Sistemas/Diagrama de flujo.md",
     "Excalidraw/multiplicidadderelaciones.md",
     "Excalidraw/for.md",
     "Imágenes/2FN.png",
-    "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
     "Arquitectura de Sistemas/Modelo frontend y backend.md",
     "Modelado de Sistemas/Diagramas de clases.md",
     "Modelado de Sistemas/Diagramas de actividad.md",
-    "Arquitectura de Sistemas/Flujo de datos en un sistema.md",
     "Arquitectura de Sistemas/Arquitectura por capas.md",
     "Arquitectura de Sistemas/Arquitectura cliente-servidor.md",
-    "readonly en TypeScript.md",
-    "Visibilidad en Typescript.md",
     "Programación/Visibilidad.md",
     "Arquitectura de Sistemas/Paquetes.md",
     "Arquitectura de Sistemas/Persistencia de datos.md",
     "Programación/Agregación.md",
-    "Programación/Relaciones entre Clases.md",
-    "Programación/Método Abstracto.md",
-    "Programación/Miembros estáticos.md",
-    "Sin título.md",
-    "Modelado de Sistemas/Mermaid.md",
     "Imágenes/Pasted image 20260618115515.png",
     "Imágenes/Pasted image 20260618120546.png",
     "Imágenes/Pasted image 20260618120510.png",
@@ -312,10 +318,6 @@
     "Imágenes/Pasted image 20260618115956.png",
     "Imágenes/Pasted image 20260618120035.png",
     "Imágenes/Pasted image 20260618115705.png",
-    "Excalidraw/Drawing 2026-06-20 18.50.56.excalidraw.md",
-    "Modelado de Sistemas/UML.md",
-    "Programación/Cuerpo de una clase.md",
-    "Programación/Getters y Setters.md",
     "Manejo de excepciones (PL",
     "Imágenes",
     "Abierto",

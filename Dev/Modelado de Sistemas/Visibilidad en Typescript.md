@@ -1,3 +1,7 @@
+---
+tags:
+  - Modeladodesistemas
+---
 En TypeScript, la visibilidad se maneja de forma diferente a otros lenguajes como Java o C#.
 
 ---
@@ -32,3 +36,4 @@ class Inmueble {
 ---
 
 [[readonly en TypeScript]]
+#Arquitecturadesistemas

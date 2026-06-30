@@ -1,3 +1,7 @@
+---
+tags:
+  - Modeladodesistemas
+---
 `readonly` se utiliza para indicar que una propiedad solo puede ser asignada una vez, generalmente en el constructor, y no puede modificarse después.
 
 Se usa para modelar datos inmutables dentro de un objeto.
@@ -80,3 +84,4 @@ Se usa cuando:
 ---
 
 > `readonly` ayuda a diseñar objetos más simples, seguros y predecibles, reduciendo la necesidad de setters y lógica de modificación externa.
+#Arquitecturadesistemas
