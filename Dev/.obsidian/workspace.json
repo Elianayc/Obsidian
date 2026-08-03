@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "263f9e6091a0794b",
+        "id": "764d09c9076d561f",
         "type": "tabs",
         "children": [
           {
-            "id": "1517ed134b215625",
+            "id": "6dd8ce8eba13fa73",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Arquitectura de Sistemas/Arquitectura por Capas.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Arquitectura por Capas"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -278,8 +274,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1517ed134b215625",
+  "active": "6dd8ce8eba13fa73",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Arquitectura de Sistemas/Arquitectura por Capas.md",
+    "Modelado de Sistemas/readonly en TypeScript.md",
+    "Modelado de Sistemas/Visibilidad en Typescript.md",
+    "Decorator.md",
     "Modelado de Sistemas/Modelado de Sistemas.md",
     "Modelado de Sistemas/UML.md",
     "Modelado de Sistemas/Mermaid.md",
@@ -288,7 +289,6 @@
     "Modelado de Sistemas/Diagramas de Casos de Uso.md",
     "Modelado de Sistemas/Diagramas de Actividad.md",
     "Modelado de Sistemas/Diagrama de Flujo.md",
-    "Arquitectura de Sistemas/Arquitectura por Capas.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Arquitectura de Sistemas/Paquetes.md",
     "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
@@ -312,10 +312,6 @@
     "Imágenes/Pasted image 20260618115705.png",
     "Imágenes/Pasted image 20260618115528.png",
     "Excalidraw/Drawing 2026-06-20 18.50.56.excalidraw.md",
-    "Programación/Cuerpo de una clase.md",
-    "Programación/Getters y Setters.md",
-    "Programación/Propiedades en TypeScript.md",
-    "Bases de Datos/Índices.md",
     "Manejo de excepciones (PL",
     "Imágenes",
     "Abierto",
