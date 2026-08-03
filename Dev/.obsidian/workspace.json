@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura de Sistemas/Arquitectura por capas.md",
-                "mode": "source",
+                "file": "Arquitectura de Sistemas/Arquitectura por Capas.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arquitectura por capas"
+              "title": "Arquitectura por Capas"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 313.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Merge Join.md",
+                "file": "Arquitectura de Sistemas/Arquitectura por Capas.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Merge Join"
+              "title": "Esquema de Arquitectura por Capas"
             }
           },
           {
@@ -186,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "7d43bd82675bbd45",
@@ -198,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Arquitectura de Sistemas/Arquitectura cliente-servidor.md",
+                "file": "Arquitectura de Sistemas/Arquitectura por Capas.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -250,12 +250,12 @@
                   "repelStrength": 15.5798625718693,
                   "linkStrength": 1,
                   "linkDistance": 84,
-                  "scale": 0.2896965910970982,
+                  "scale": 0.5694148860370303,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Gráfico de Arquitectura cliente-servidor"
+              "title": "Gráfico de Arquitectura por Capas"
             }
           }
         ]
@@ -280,20 +280,27 @@
   },
   "active": "1517ed134b215625",
   "lastOpenFiles": [
-    "Arquitectura de Sistemas/Arquitectura cliente-servidor.md",
+    "Modelado de Sistemas/Modelado de Sistemas.md",
+    "Modelado de Sistemas/UML.md",
+    "Modelado de Sistemas/Mermaid.md",
+    "Modelado de Sistemas/Diagramas de Secuencia.md",
+    "Modelado de Sistemas/Diagramas de Clases.md",
+    "Modelado de Sistemas/Diagramas de Casos de Uso.md",
+    "Modelado de Sistemas/Diagramas de Actividad.md",
+    "Modelado de Sistemas/Diagrama de Flujo.md",
+    "Arquitectura de Sistemas/Arquitectura por Capas.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-    "Arquitectura de Sistemas/Arquitectura por capas.md",
-    "Arquitectura de Sistemas/Flujo de datos en un sistema.md",
+    "Arquitectura de Sistemas/Paquetes.md",
     "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
     "Arquitectura de Sistemas/Modelo frontend y backend.md",
-    "Arquitectura de Sistemas/Paquetes.md",
+    "Arquitectura de Sistemas/Flujo de datos en un sistema.md",
+    "Arquitectura de Sistemas/Arquitectura cliente-servidor.md",
     "Arquitectura de Sistemas/Persistencia de datos.md",
     "Programación/Agregación.md",
     "Programación/Relaciones entre Clases.md",
     "Programación/Método Abstracto.md",
     "Programación/Miembros estáticos.md",
     "Sin título.md",
-    "Modelado de Sistemas/Mermaid.md",
     "Imágenes/Pasted image 20260618115515.png",
     "Imágenes/Pasted image 20260618120546.png",
     "Imágenes/Pasted image 20260618120510.png",
@@ -305,17 +312,10 @@
     "Imágenes/Pasted image 20260618115705.png",
     "Imágenes/Pasted image 20260618115528.png",
     "Excalidraw/Drawing 2026-06-20 18.50.56.excalidraw.md",
-    "Modelado de Sistemas/Diagramas de clases.md",
-    "Modelado de Sistemas/UML.md",
     "Programación/Cuerpo de una clase.md",
     "Programación/Getters y Setters.md",
     "Programación/Propiedades en TypeScript.md",
     "Bases de Datos/Índices.md",
-    "Bases de Datos/Optimización de Consultas.md",
-    "Bases de Datos/Aggregation Methods.md",
-    "Bases de Datos/Sort Aggregate - Group Aggregate.md",
-    "Bases de Datos/Hash Aggregate.md",
-    "Bases de Datos/Join Methods.md",
     "Manejo de excepciones (PL",
     "Imágenes",
     "Abierto",

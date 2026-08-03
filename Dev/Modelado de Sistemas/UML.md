@@ -11,14 +11,14 @@ Se utiliza principalmente durante el **análisis, diseño y documentación** del
 
 **Incluye distintos tipos de diagramas, entre ellos:**
 
-- [[Diagramas de clases]]  
+- [[Diagramas de Clases]]  
     Representan la estructura estática del sistema: clases, atributos, métodos y relaciones (herencia, asociación, composición, dependencia).
 
-- [[Diagramas de casos de uso]]
+- [[Diagramas de Casos de Uso]]
     Describen las funcionalidades del sistema desde el punto de vista del usuario y cómo interactúa con él.
 
-- [[Diagramas de secuencia]]
+- [[Diagramas de Secuencia]]
     Muestran la comunicación entre objetos a lo largo del tiempo y el orden en que se intercambian los mensajes.
 
-- [[Diagramas de actividad]]
+- [[Diagramas de Actividad]]
     Representan flujos de trabajo o procesos del sistema mediante actividades y decisiones.

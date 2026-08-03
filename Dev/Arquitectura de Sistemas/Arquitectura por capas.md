@@ -10,25 +10,25 @@ El objetivo principal de este enfoque es **reducir el acoplamiento entre compone
 
 Al separar responsabilidades, se evita que una misma parte del sistema se encargue simultáneamente de la **interfaz de usuario**, la **lógica de negocio** y el **almacenamiento de datos**.
 
+Este enfoque permite que cada capa pueda modificarse o evolucionarse con menor impacto en las demás, siempre que se respeten los contratos entre ellas.
+
 ---
 
-## Capas
+# Capas
 
-#### 1. Presentación: 
+### 1. Presentación
 Responsable de la interacción con el usuario y la entrada/salida de información.
 
-#### 2. Lógica de negocio: 
+### 2. Lógica de negocio
 Donde se aplican las reglas del dominio y se define el comportamiento del sistema.
 
-#### 3. Datos: 
+### 3. Datos
 Encargada de la persistencia y recuperación de información.
 
-### 4. Modelo: 
+### 4. Modelo
 Donde se definen las entidades y estructuras que representan el dominio del problema.
 
 ---
-
-Este enfoque permite que cada capa pueda modificarse o evolucionarse con menor impacto en las demás, siempre que se respeten los contratos entre ellas.
 
 > [!example]
 > #### Ejemplo aplicado al sistema de inmobiliaria

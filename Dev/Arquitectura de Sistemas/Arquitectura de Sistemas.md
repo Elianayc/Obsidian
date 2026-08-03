@@ -11,7 +11,7 @@ En este nivel de abstracción, el enfoque no se centra únicamente en la impleme
 ### Componentes y estilos arquitectónicos
 - [[Persistencia de datos]]
 - [[Arquitectura cliente-servidor]]
-- [[Arquitectura por capas]]
+- [[Arquitectura por Capas]]
 - [[Flujo de datos en un sistema]]
 - [[Modelo frontend y backend]]
 - [[Interfaces de programación de aplicaciones (API)]]
