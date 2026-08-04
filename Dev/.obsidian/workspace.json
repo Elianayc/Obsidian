@@ -11,10 +11,14 @@
             "id": "45ad300c5d51e0a9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Redes/Internet.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Internet"
             }
           }
         ]
@@ -277,6 +281,7 @@
   },
   "active": "45ad300c5d51e0a9",
   "lastOpenFiles": [
+    "Imágenes/Pasted image 20260804140343.png",
     "Redes/Method.md",
     "Redes/Estructura de una petición HTTP.md",
     "Redes/Peticiones HTTP (Requests).md",
@@ -287,10 +292,9 @@
     "Redes/URI.md",
     "Redes/URN.md",
     "Redes/URL.md",
-    "Pasted image 20260804140519.png",
-    "Pasted image 20260804140456.png",
-    "Pasted image 20260804140435.png",
-    "Pasted image 20260804140343.png",
+    "Imágenes/Pasted image 20260804140519.png",
+    "Imágenes/Pasted image 20260804140456.png",
+    "Imágenes/Pasted image 20260804140435.png",
     "Imágenes/Pasted image 20260804135748.png",
     "Redes/Internet.md",
     "Programación/Programación.md",
@@ -307,7 +311,6 @@
     "Redes/IPv4.md",
     "Redes/TCP.md",
     "Redes/IP.md",
-    "Redes/Body.md",
     "Imágenes/Pasted image 20260804125656.png",
     "Imágenes/Pasted image 20260804125503.png",
     "Imágenes/Pasted image 20260804124312.png",
