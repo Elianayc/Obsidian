@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4fc55b26a7192815",
+        "id": "1b97d81fc4c6b72f",
         "type": "tabs",
         "children": [
           {
-            "id": "13bf02f91d8ece8f",
+            "id": "45ad300c5d51e0a9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Redes/Method.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Method"
             }
           }
         ]
@@ -51,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "lenguajes",
+                "query": "tag:#Redes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -76,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -176,14 +181,14 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Mermaid.md"
+                "file": "Redes/Method.md"
               },
               "icon": "lucide-info",
-              "title": "Propiedades de los archivos para Mermaid"
+              "title": "Propiedades del archivo"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       },
       {
         "id": "7d43bd82675bbd45",
@@ -195,6 +200,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Redes/Method.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -251,7 +257,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "title": "Gráfico local"
             }
           }
         ]
@@ -274,46 +280,46 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "13bf02f91d8ece8f",
+  "active": "45ad300c5d51e0a9",
   "lastOpenFiles": [
-    "Arquitectura de Sistemas/Burndown Charts.md",
-    "Arquitectura de Sistemas/Arquitectura por capas.md",
-    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-    "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
-    "Arquitectura de Sistemas/Modelo frontend y backend.md",
-    "Arquitectura de Sistemas/Persistencia de datos.md",
-    "Modelo Cliente - Servidor.md",
-    "Redes/URL, URI y URN.md",
-    "Redes/URN.md",
-    "Redes/World Wide Web (WWW).md",
-    "Imágenes/Pasted image 20260804115734.png",
-    "Redes/HTTP.md",
-    "Redes/Internet.md",
-    "Redes/IP.md",
-    "Redes/IPv4.md",
-    "Redes/IPv6.md",
-    "Redes/TCP.md",
+    "Redes/Estructura de una petición HTTP.md",
+    "Redes/Peticiones HTTP (Requests).md",
     "Redes/TCP - IP.md",
+    "Redes/Ciclo de vida de una petición web.md",
+    "Redes/Protocolos.md",
+    "Redes/DNS.md",
+    "Redes/URI.md",
+    "Redes/URN.md",
     "Redes/URL.md",
-    "Programación/Desarrollo Web.md",
+    "Pasted image 20260804140519.png",
+    "Pasted image 20260804140456.png",
+    "Pasted image 20260804140435.png",
+    "Pasted image 20260804140343.png",
+    "Imágenes/Pasted image 20260804135748.png",
+    "Redes/Internet.md",
     "Programación/Programación.md",
     "Programación/Lenguajes de Programación.md",
-    "Programación/Niveles de abstracción.md",
-    "Programación/Alto nivel.md",
-    "Programación/Bajo nivel.md",
-    "Programación/Máquina (binario).md",
-    "Programación/Tipado.md",
+    "CSS.md",
+    "Bases de Datos/Join Methods.md",
+    "Redes/Modelo Cliente - Servidor.md",
+    "Redes/World Wide Web (WWW).md",
+    "Redes/Servidor Web.md",
+    "Redes/Funcionamiento de un Servidor Web.md",
+    "Redes/Tipos de Servidores.md",
+    "Redes/IPv6.md",
+    "Redes/HTTP - HTTPS.md",
+    "Redes/IPv4.md",
+    "Redes/TCP.md",
+    "Redes/IP.md",
+    "Redes/Body.md",
+    "Programación/Abstract Factory.md",
+    "Imágenes/Pasted image 20260804125656.png",
+    "Imágenes/Pasted image 20260804125503.png",
+    "Imágenes/Pasted image 20260804124312.png",
+    "Imágenes/Pasted image 20260804124245.png",
+    "Imágenes/Pasted image 20260804124100.png",
     "TCP",
     "Redes",
-    "Imágenes/Pasted image 20260803142449.png",
-    "Imágenes/Pasted image 20260803142937.png",
-    "Imágenes/Pasted image 20260803142926.png",
-    "Imágenes/Pasted image 20260803142907.png",
-    "Imágenes/Pasted image 20260803142815.png",
-    "Imágenes/Pasted image 20260803142749.png",
-    "Imágenes/Pasted image 20260803142725.png",
-    "Imágenes/Pasted image 20260803142607.png",
-    "Imágenes/Pasted image 20260803142541.png",
     "Metodología de Sistemas",
     "Manejo de excepciones (PL",
     "Imágenes",

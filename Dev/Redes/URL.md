@@ -2,6 +2,8 @@
 
 Una **URL** identifica un recurso indicando **dónde se encuentra y cómo acceder a él**.
 
+![[Pasted image 20260804140456.png]]
+
 **Ejemplo**:
 ```
 https://www.ejemplo.com/pagina
@@ -13,4 +15,6 @@ https://www.ejemplo.com/pagina
 - Ruta dentro del servidor.
 
 ---
-#Redes #ProgramaciónIII
+
+#ProgramaciónIII
+#Redes

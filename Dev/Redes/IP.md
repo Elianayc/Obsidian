@@ -1,9 +1,18 @@
 ## Internet Protocol
-El protocolo **IP** se encarga del **direccionamiento y enrutamiento** de los paquetes de datos, permitiendo su envío desde la red de origen hasta la red de destino.
 
-Es el componente principal de la **capa de Internet** y define dos sistemas de direccionamiento:
-- **[[IPv4]]**
-- **[[IPv6]]**
+Se encarga del **direccionamiento y envío de paquetes**.
+
+Sus funciones son:
+
+- Identificar dispositivos mediante direcciones IP.
+- Determinar cómo deben viajar los paquetes desde una red de origen hasta una red de destino.
+
+Utiliza los sistemas:
+
+- [[IPv4]]
+- [[IPv6]]
 
 ---
-#Redes  #ProgramaciónIII
+
+#ProgramaciónIII
+#Redes

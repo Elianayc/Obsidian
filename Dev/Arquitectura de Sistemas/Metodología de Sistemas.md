@@ -13,7 +13,6 @@ El objetivo es encontrar un equilibrio adecuado entre planificación, recursos, 
 
 - [[Ciclo de Vida del Desarrollo de Software (SDLC)]]
 - [[Diagrama de Flujo de Datos (DFD)]]
-- [[Arquitectura por capas]]
 
 ---
 #ArquitecturadeSistemas

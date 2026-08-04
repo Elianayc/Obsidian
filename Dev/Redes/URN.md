@@ -2,12 +2,16 @@
 
 Una **URN** identifica un recurso mediante un **nombre único**, sin indicar dónde está ubicado.
 
-![[Pasted image 20260804115734.png]]
+![[Pasted image 20260804115734.png|749]]
 
-Ejemplo:
+![[Pasted image 20260804140519.png]]
+
+**Ejemplo**:
 ```
-urn:isbn:978-3-16-148410-0
+urn : isbn : 978-3-16-148410-0
 ```
 
 ---
-#Redes #ProgramaciónIII
+
+#ProgramaciónIII
+#Redes

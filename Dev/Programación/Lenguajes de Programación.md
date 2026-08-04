@@ -11,6 +11,8 @@ Conjunto de instrucciones (acciones u operaciones) que pueden ser traducidas a l
 - [[Tipado]]
 - [[Niveles de abstracción]]
 - [[Formas de traducir un programa]]
+- [[Desarrollo Web]]
 
+---
 
 #Programación

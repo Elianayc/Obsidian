@@ -2,6 +2,7 @@
 > — Moss, *The IT Crowd*
 
 ## ¿Qué es Internet?
+
 Internet es una **red mundial de redes interconectadas** que permite la comunicación y el intercambio de información entre dispositivos y usuarios.
 
 **Conecta**:
@@ -13,17 +14,23 @@ Internet es una **red mundial de redes interconectadas** que permite la comunica
 ---
 
 ## Origen
+
 - Surge en la década de **1960**.
 - Fue desarrollado por el **Departamento de Defensa de Estados Unidos**.
-- Su primer antecedente fue **ARPANET**, una red que permitía compartir información entre universidades y centros de investigación militares y civiles. ARPANET fue la base del Internet actual.
+- Su primer antecedente fue **ARPANET**, una red que permitía compartir información entre universidades y centros de investigación militares y civiles.
+- **ARPANET** fue la base del Internet actual.
 
 ---
 
 ## Arquitectura de Internet
-Internet funciona mediante **protocolos de comunicación**.
 
-- [[TCP - IP]]
-- [[World Wide Web (WWW)]]
+Internet funciona gracias a una combinación de **infraestructura, protocolos y servicios**.
+
+- **Infraestructura:** es la red mundial de dispositivos y conexiones que permite la comunicación entre equipos.
+
+- **[[Protocolos]]:** son reglas que permiten que los dispositivos intercambien información. 
+
+- **[[World Wide Web (WWW)]]:** es un servicio que funciona sobre Internet y permite acceder a páginas y recursos web mediante protocolos como HTTP.
 
 ---
 
@@ -44,13 +51,5 @@ Internet funciona mediante **protocolos de comunicación**.
 
 ---
 
-## Resumen
-
-- Internet es una **red mundial de redes**.
-- Su origen fue **ARPANET** en los años 60.
-- Se basa en los protocolos **TCP/IP**.
-- La **WWW** es una aplicación que utiliza Internet y funciona con **HTTP** y **HTML**.
-- Comprender el funcionamiento de Internet es fundamental para desarrollar aplicaciones y servicios web eficientes y escalables.
-
----
-#Redes #ProgramaciónIII
+#ProgramaciónIII
+#Redes

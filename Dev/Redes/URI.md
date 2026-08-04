@@ -1,19 +1,14 @@
-Son formas de **identificar recursos** dentro de una red.
-
----
 
 ## URI (Uniform Resource Identifier)
-
 Una **URI** es una cadena de caracteres que permite **identificar un recurso de forma única**.
-
-Dentro de las URI existen dos tipos principales:
-- **[[URL]] (Uniform Resource Locator)**
-- **[[URN]] (Uniform Resource Name)**
 
 ---
 
-## Componentes de una URI
-Una URI puede estar formada por:
+### Componentes de una URI
+
+![[Pasted image 20260804135748.png]]
+
+**Una URI puede estar formada por**:
 
 - **Esquema:** indica cómo interpretar el identificador o el protocolo utilizado.
   - Ejemplos: `http`, `https`, `mailto`, `ftp`, `urn`.
@@ -33,4 +28,16 @@ Una URI puede estar formada por:
   - Ejemplo: `#contacto`
 
 ---
-#Redes #ProgramaciónIII
+### Tipos de URI
+
+- **[[URL]] (Uniform Resource Locator)**
+
+![[Pasted image 20260804140456.png]]
+![[Pasted image 20260804140435.png]]
+![[Pasted image 20260804140519.png]]
+
+- **[[URN]] (Uniform Resource Name)**
+
+---
+#ProgramaciónIII
+#Redes

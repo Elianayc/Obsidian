@@ -2,20 +2,31 @@
 tags:
   - Arquitecturadesistemas
 ---
-La Arquitectura de Sistemas constituye el área de estudio que analiza la organización, estructura e interacción de los distintos componentes que conforman un sistema de software, incluyendo programas, datos, usuarios y mecanismos de almacenamiento.
+La **Arquitectura de Sistemas** es el área que estudia la organización, estructura e interacción de los componentes que forman un sistema de software.
 
-En este nivel de abstracción, el enfoque no se centra únicamente en la implementación del código, sino en la visión integral del sistema y en la forma en que sus componentes se relacionan entre sí.
+Su objetivo es definir una visión integral del sistema, determinando cómo se relacionan sus distintas partes, más allá de la implementación específica del código.
 
-[[Metodología de Sistemas]]
+Dentro de la arquitectura de un sistema se analizan diferentes aspectos:
 
-[[Persistencia de datos]]
-[[Modelo frontend y backend]]
-[[Interfaces de programación de aplicaciones (API)]]
+- **Cómo se organiza el desarrollo del sistema:**
+  - [[Metodología de Sistemas]]
+
+- **Cómo se estructura la aplicación y se separan responsabilidades:**
+  - [[Arquitectura por Capas]]
+  - [[Modelo Frontend y Backend]]
+
+- **Cómo se comunican los componentes del sistema:**
+  - [[Modelo Cliente - Servidor]]
+  - [[Interfaces de programación de aplicaciones (API)]]
+
+- **Cómo se almacenan y gestionan los datos:**
+  - [[Persistencia de datos]]
 
 ---
 
-#### Relación con la implementación
-La Arquitectura de Sistemas define la estructura y organización global del sistema, mientras que su implementación se realiza mediante [[Lenguajes de Programación]] y la organización del código en [[Paquetes]].
+## Relación con la implementación
+
+La **Arquitectura de Sistemas** define la estructura y organización global del sistema, mientras que su implementación se realiza mediante [[Lenguajes de Programación]] y la organización del código en [[Paquetes]].
 
 ---
 #ArquitecturadeSistemas
