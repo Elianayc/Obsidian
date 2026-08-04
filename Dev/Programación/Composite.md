@@ -225,3 +225,4 @@ También sirve cuando querés que el código cliente trate **igual** a objetos s
 - Visitor permite ejecutar operaciones sobre todo el árbol.  
 
 - Flyweight puede usarse para compartir nodos hoja y ahorrar memoria.
+#Programación

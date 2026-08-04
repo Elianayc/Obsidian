@@ -34,3 +34,4 @@ persona.setName("Ana"); //Set
 
 
 [[Propiedades en TypeScript]]
+#Programación

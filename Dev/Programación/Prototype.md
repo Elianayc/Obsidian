@@ -209,3 +209,4 @@ Usalo cuando:
 - A veces reemplaza a Memento en casos simples.
 
 - Puede implementarse como Singleton junto a otros patrones creacionales.
+#Programación

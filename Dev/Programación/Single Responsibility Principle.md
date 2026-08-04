@@ -66,3 +66,5 @@ Si una clase mezcla varias tareas, cuando cambie cualquiera de ellas habrá que 
 > Si cambia la lámpara → tocás `Lamp`.
 > 
 
+
+#Programación

@@ -73,3 +73,5 @@ En vez de una interfaz gigante, conviene tener **interfaces pequeñas y específ
 > 
 > Ahora ninguna clase implementa cosas inútiles.
 > 
+
+#Programación

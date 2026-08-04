@@ -23,3 +23,4 @@ Incluyen operaciones como:
 > 	Mostrar "El promedio es: ", promedio;
 > FinProceso
 > ```
+#Programación

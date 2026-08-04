@@ -43,3 +43,4 @@ El flujo del programa saltaba por todos lados → esto se conoce como _spaghetti
 Por eso surgió la **programación estructurada**, que reemplaza los `goto` por estructuras de control, de repetición y funciones / módulos.
 
 Hoy el `goto` casi no se usa y en muchos cursos se enseña como antecedente histórico.
+#Programación

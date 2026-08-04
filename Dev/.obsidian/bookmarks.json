@@ -26,6 +26,808 @@
         }
       ],
       "title": "26 de mayo de 2026 14:02"
+    },
+    {
+      "type": "group",
+      "ctime": 1785774355832,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/WHERE.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/1FN.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/2FN.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/3.5 - BCNF.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/3FN.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/4FN.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/5FN.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/6FN - DKNF.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Aggregation Methods.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/ALTER TABLE.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Anomalías en bases de datos.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/ANSI SPARC.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Atributos.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/AVG().md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/B-Tree.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/BEGIN TRANSACTION.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/BETWEEN.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Binaria.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Bitmap Index Scan.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Booleanos.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/CALL.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Campos.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Cardinalidad.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Cláusulas.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Clave foránea.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Clave primaria.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Clave única.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Claves.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Clustering.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/COMMENT.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/COMMIT.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Con marcas temporales.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Conjunto de entidades.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Control de concurrencia.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/COUNT DISTINCT.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/COUNT().md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Crear índices en PostgreSQL.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/CREATE TABLE.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/DBMS.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/DCL.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/DDL.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/De red.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/DELETE.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/DENY.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/DESC - ASC.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Dirty Read.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/DML.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Dominio.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/DQL.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/DROP.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/END TRANSACTION.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Entidad.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Entity Relationship Diagram (ERD).md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Fecha y hora.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Fenómenos de concurrencia.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Formas Normales.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/FROM.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/FULL OUTER JOIN.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Funciones.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Funciones de Agregación.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Gestor de almacenamiento.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/GIN.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/GIST.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Grado de la relación.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/GRANT.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/GROUP BY.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Hash Aggregate.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Hash Join.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/HAVING.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Híbridas.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/IN.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Index Scan.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Índices.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Índices parciales.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Índices por expresión.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/INNER JOIN.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/INSERT INTO.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Integridad referencial.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Jerárquico.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/JOIN.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Join Methods.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/LEFT JOIN.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/LIKE.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/LIMIT.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Manejo de excepciones (PL - pgSQL).md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Many-to-Many (N-N).md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/MAX().md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/MERGE.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Merge Join.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/MIN().md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Modelos de Bases de Datos.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Múltiples criterios.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/MV2PL.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/MVCC.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/N-aria.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Nested Loop.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Nivel conceptual (visión lógica global).md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Nivel externo (vista del usuario).md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Nivel interno (nivel físico).md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Niveles de aislamiento.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Non-repeatable read.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Normalización.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/NoSQL.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/NOT IN.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/NULL ordering.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Numéricos.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Objeto-relacional.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/OFFSET.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/OLAP.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/OLTP.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/One-to-Many (1 a N).md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/One-to-One (1 a 1).md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Operadores de Filtrado.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Optimización de Consultas.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Orden por expresión.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/ORDER BY.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Orientado a objetos.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Phantom read.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/PostgreSQL y MVCC.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Procesador de consultas.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Propiedades ACID.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Read Committed.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Read Uncommitted.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Relación.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Relacional.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/RENAME.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Repeatable Read.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Restricciones en relaciones.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/REVOKE.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/RIGHT JOIN.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/ROLLBACK.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/SAVEPOINT.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Scan Methods.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/SELECT.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Sequential Scan.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Serializable.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Serialization anomaly.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/SET TRANSACTION.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Sistema de archivos.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Sort Aggregate - Group Aggregate.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/SQL.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/SUM().md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Tabla.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Tabla intermedia.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/TCL.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Ternaria.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Texto.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Tipos de Bases de Datos.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Tipos de datos DB.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Tipos de funciones según lenguaje.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Tipos de índices.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Transacciones.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Triggers.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Triggers según alcance.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Triggers según momento de ejecución.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/TRUNCATE.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/UPDATE.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Valores de retorno.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1785774349877,
+          "path": "Bases de Datos/Variables especiales.md"
+        }
+      ],
+      "title": "Bases de Datos"
     }
   ]
 }

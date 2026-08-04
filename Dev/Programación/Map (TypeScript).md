@@ -24,3 +24,4 @@ Cada clave es única y permite asociar un valor a una clave específica.
 > `.delete` Elimina el elemento.
 > 
 > `agenda.forEach((value, key)=>{console.log('nombre: ${key}, número: ${value}');` Recorrido.
+#Programación

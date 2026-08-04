@@ -47,3 +47,4 @@ Se relaciona con:
 - [[Estructuras de Datos]]
 - [[Representación de un algoritmo]]
 - [[Técnicas algorítmicas]]
+#Programación

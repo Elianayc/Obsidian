@@ -9,3 +9,4 @@ Espacio de memoria RAM a la cual desde nuestro programa le asociamos un nombre p
 Conformada por:
 - [[Tipo de dato (Prog)]]
 - [[Nombre o identificador]]
+#Programación

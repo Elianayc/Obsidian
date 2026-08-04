@@ -22,3 +22,6 @@ Se utiliza principalmente durante el **análisis, diseño y documentación** del
 
 - [[Diagramas de actividad]]
     Representan flujos de trabajo o procesos del sistema mediante actividades y decisiones.
+
+---
+#ArquitecturadeSistemas

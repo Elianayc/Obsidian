@@ -28,3 +28,4 @@ Es muy eficiente para inserción, búsqueda y eliminación.
 > 
 > ##### Resultado (ejemplo posible)
 > {Luis=30, Ana=40}
+#Programación

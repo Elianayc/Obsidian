@@ -12,3 +12,4 @@ En TypeScript no existen colecciones como en Java (LinkedList, TreeSet, etc.) po
 - [[Array (TypeScript)]] --> Ordenado, permite duplicados, acceso por índice.
 - [[Set (TypeScript)]] --> Valores únicos, sin duplicados.
 - [[Map (TypeScript)]] --> Clave–valor, claves únicas.
+#Programación

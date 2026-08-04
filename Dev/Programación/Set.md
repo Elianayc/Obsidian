@@ -16,3 +16,4 @@ Su objetivo principal es garantizar que cada elemento exista solo una vez dentro
 - [[HashSet]] --> Rápido, sin orden garantizado.
 - [[LinkedHashSet]] --> Mantiene orden de inserción.
 - [[TreeSet]] --> Ordena automáticamente por valor (orden natural o definido).
+#Programación

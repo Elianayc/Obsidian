@@ -235,3 +235,4 @@ Aunque es opcional, Bridge te deja reemplazar el objeto de implementación dentr
 - Bridge, State, Strategy (y en parte Adapter) tienen estructuras muy parecidas porque todos se basan en composición y delegan trabajo a otros objetos. Aun así, cada patrón resuelve problemas distintos. Un patrón no es solo una forma de estructurar código, también sirve para comunicar a otros devs qué problema está resolviendo.
 
 - Podés usar Abstract Factory junto con Bridge. Esta combinación es útil cuando algunas abstracciones del Bridge solo pueden funcionar con implementaciones específicas.
+#Programación

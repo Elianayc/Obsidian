@@ -27,3 +27,4 @@ Es decir, los elementos se almacenan en el orden en que fueron agregados.
 > 
 > ##### Resultado
 > {Ana=25, Luis=30, Pedro=40}
+#Programación

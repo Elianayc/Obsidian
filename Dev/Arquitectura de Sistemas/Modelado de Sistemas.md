@@ -21,3 +21,6 @@ Se utiliza para reducir la complejidad del sistema y facilitar su análisis, dis
 
 #### Relación con el desarrollo de software
 El modelado de sistemas se utiliza como etapa previa o paralela a la implementación, ayudando a definir la estructura del sistema antes de codificarlo.
+
+---
+#ArquitecturadeSistemas

@@ -14,3 +14,4 @@ Se utiliza cuando queremos acceder rápidamente a un dato a través de una clave
 - [[HashMap]] --> Rápido, sin orden.
 - [[LinkedHashMap]] --> respeta orden de inserción.
 - [[TreeMap]] --> Ordena por clave.
+#Programación

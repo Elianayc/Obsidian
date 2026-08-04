@@ -11,3 +11,5 @@ import Person from "path/ts/PersonClass";
 ```
 
 De esta forma, la clase queda disponible para poder crear objetos, heredarla o utilizar sus métodos dentro del archivo actual.
+
+#Programación

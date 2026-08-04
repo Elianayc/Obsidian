@@ -16,3 +16,5 @@ Variable del tipo que se requiera que irá sumando valores a los que tenía guar
 ```pseudocódigo
 sumaParcial = sumaParcial + nota_1;
 sumaParcial = sumaParcial + nota_2;
+
+#Programación

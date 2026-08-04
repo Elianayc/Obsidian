@@ -77,3 +77,4 @@ jmp etiqueta  ; salto incondicional
 
 Los programas en Assembly trabajan mucho con **registros del procesador**:
 - eax, ebx, ecx, edx (ejemplo en x86)
+#Programación

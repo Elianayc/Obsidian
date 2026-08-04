@@ -18,3 +18,4 @@ Un mock es un objeto simulado que reemplaza a un objeto real con comportamiento 
 
 #### Ejemplo conceptual
 Un reloj mock puede simular la hora del sistema para probar alarmas sin esperar al tiempo real.
+#Programación

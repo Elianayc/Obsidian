@@ -25,3 +25,5 @@ super.sayHi(); //Ejecuta sayHi() de la clase padre.
 ```
 
 > En TypeScript, las clases hijas **deben llamar obligatoriamente a `super()` en su constructor** antes de poder usar `this`.
+
+#Programación

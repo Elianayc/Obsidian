@@ -312,3 +312,4 @@ Por eso necesitás un método separado que pueda **crear o reutilizar** objetos 
 - **Prototype** no usa herencia, por eso evita los problemas típicos de la herencia, pero requiere una inicialización más compleja del objeto clonado. **Factory Method**, en cambio, sí usa herencia pero no necesita ese paso extra de inicialización.
 
 - **Factory Method** es una especialización de **Template Method**. De hecho, un Factory Method puede ser uno de los pasos dentro de un Template Method más grande.
+#Programación

@@ -19,3 +19,4 @@ En otras palabras: los parámetros son la definición, y los argumentos son lo q
 > int resultado = suma(5, 10);  // 5 y 10 son argumentos
 > ```
 > 
+#Programación

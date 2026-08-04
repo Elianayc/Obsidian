@@ -22,3 +22,5 @@ public set name(value: string) {this._name = value;}
 persona.name; //Get
 persona.name = "Ana"; //Set
 ```
+
+#Programación

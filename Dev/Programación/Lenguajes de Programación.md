@@ -12,3 +12,5 @@ Conjunto de instrucciones (acciones u operaciones) que pueden ser traducidas a l
 - [[Niveles de abstracción]]
 - [[Formas de traducir un programa]]
 
+
+#Programación

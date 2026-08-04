@@ -26,3 +26,4 @@ El orden puede ser natural (alfabético o numérico) o definido por un criterio.
 > 
 > ##### Resultado
 > {Ana=25, Luis=30, Pedro=40}
+#Programación

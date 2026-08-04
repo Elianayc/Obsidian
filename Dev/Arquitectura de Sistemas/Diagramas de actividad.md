@@ -50,3 +50,6 @@ Permite mostrar tareas que ocurren al mismo tiempo.
 Ejemplo:
 - Procesar pago
 - Enviar email de confirmación
+
+---
+#ArquitecturadeSistemas

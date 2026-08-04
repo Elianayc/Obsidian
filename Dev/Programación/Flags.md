@@ -41,3 +41,4 @@ Se emplea una variable lógica (primeraVez) para detectar la primera iteración 
 >     - cambia la flag a `Falso`
 > - Después ya no vuelve a entrar en ese caso
  
+#Programación

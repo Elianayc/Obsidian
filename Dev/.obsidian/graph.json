@@ -11,28 +11,21 @@
       "query": "tag:#Arquitecturadesistemas  ",
       "color": {
         "a": 1,
-        "rgb": 15907551
+        "rgb": 15124703
       }
     },
     {
       "query": "tag:#DB  ",
       "color": {
         "a": 1,
-        "rgb": 16103858
+        "rgb": 15518677
       }
     },
     {
       "query": "tag:#Programación  ",
       "color": {
         "a": 1,
-        "rgb": 12761333
-      }
-    },
-    {
-      "query": "tag:#Modeladodesistemas  ",
-      "color": {
-        "a": 1,
-        "rgb": 10545646
+        "rgb": 12575445
       }
     }
   ],
@@ -46,6 +39,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.273833318678195,
+  "scale": 0.19531858706162675,
   "close": true
 }

@@ -27,3 +27,5 @@ Cada carpeta es un **paquete** que agrupa clases relacionadas con una misma func
 
 La organización del código fuente suele definirse según los lineamientos de arquitectura establecidos para el proyecto.
 
+---
+#ArquitecturadeSistemas

@@ -166,3 +166,4 @@ También podés limitarlo a más de una instancia si querés, cambiando `getInst
     - Singleton puede ser mutable, Flyweight no.
 
 - También puede implementarse con Abstract Factory, Builder y Prototype.
+#Programación

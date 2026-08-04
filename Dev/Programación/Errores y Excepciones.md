@@ -64,3 +64,4 @@ Si se lanza una excepción dentro de un bloque `try`, esta será capturada inmed
 
 #### Excepciones personalizadas
 Se crean extendiendo la clase `Error`.
+#Programación

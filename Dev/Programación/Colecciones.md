@@ -24,3 +24,4 @@ A diferencia de los arreglos tradicionales, pueden **ajustarse dinámicamente en
 ---
 
 [[Colecciones en TypeScript]]
+#Programación

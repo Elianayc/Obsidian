@@ -68,3 +68,5 @@ Es comportamiento opcional.
 Un actor o caso de uso puede heredar de otro.  
 Ejemplo: Administrador hereda de Usuario.
 
+---
+#ArquitecturadeSistemas

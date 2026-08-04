@@ -35,3 +35,5 @@ También puede existir un constructor sin parámetros:
 ```ts
 miVariable: Person = new Person();
 ``````
+
+#Programación

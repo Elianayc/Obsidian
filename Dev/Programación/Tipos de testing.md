@@ -24,3 +24,5 @@ tags:
     - **Functional testing**: pruebas de casos de uso o flujos específicos.
 
 - **Regression testing (pruebas de regresión)**: aseguran que cambios en el código no rompan funcionalidades que ya funcionaban correctamente. Aplica a todos los niveles de integración.
+
+#Programación

@@ -12,3 +12,5 @@ tags:
 	- **Estructuras de control**: condiciones if, switch, etc.
 	- **Estructuras de repetición**: repite un bloque por condición while, for, etc.
 
+
+#Programación

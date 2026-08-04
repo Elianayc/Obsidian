@@ -43,3 +43,4 @@ La información de un módulo no es de interés para el resto, por lo que queda 
 [[Comunicación entre módulos]]
 [[Tipos de módulos]]
 [[Ámbito de las variables]]
+#Programación

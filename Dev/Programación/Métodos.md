@@ -54,3 +54,4 @@ setName(name: string): void {this.name = name;}
 #### Conceptos relacionados:
 - [[Sobreescritura]]
 - [[Sobrecarga]]
+#Programación

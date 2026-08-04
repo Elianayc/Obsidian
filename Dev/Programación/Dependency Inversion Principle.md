@@ -78,3 +78,4 @@ Dicho en criollo: la lógica importante no debería depender de “cosas concret
 > 
 > Ahora **Interruptor** es flexible y reutilizable.
 > Puede trabajar con cualquier dispositivo que implemente `Encendible` sin necesidad de modificar la clase.
+#Programación

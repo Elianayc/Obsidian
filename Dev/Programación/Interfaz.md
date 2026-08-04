@@ -61,3 +61,4 @@ También es posible tratar un objeto según una interfaz utilizando `as`.
 ```ts
 const obj = engine as ITurnable;
 ```
+#Programación

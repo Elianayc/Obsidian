@@ -334,3 +334,4 @@ El Builder no expone el objeto mientras se está construyendo. O sea, el cliente
 - Builder también se puede combinar con Bridge: la clase directora funciona como la abstracción, y los distintos builders como las implementaciones.
 
 - Abstract Factory, Builder y Prototype pueden implementarse como Singletons.
+#Programación

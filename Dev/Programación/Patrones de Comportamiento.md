@@ -12,3 +12,5 @@ Se enfocan en **cómo se comunican los objetos** y cómo reparten responsabilida
 |           [[Observer]]<br>           |            [[State]]<br>             |           [[Strategy]]<br>           |       [[Template Method]]<br>        |             [[Visitor]]              |
 | :----------------------------------: | :----------------------------------: | :----------------------------------: | :----------------------------------: | :----------------------------------: |
 | ![[Pasted image 20260510173623.png]] | ![[Pasted image 20260510173628.png]] | ![[Pasted image 20260510173631.png]] | ![[Pasted image 20260510173636.png]] | ![[Pasted image 20260510173646.png]] |
+
+#Programación

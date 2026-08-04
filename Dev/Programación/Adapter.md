@@ -207,3 +207,4 @@ Usalo cuando:
     - Facade simplifica una interfaz compleja.
     - Adapter **convierte** una interfaz en otra.
 - Puede combinarse con **Decorator** o **Proxy** si necesitás agregar comportamiento además de adaptar.
+#Programación

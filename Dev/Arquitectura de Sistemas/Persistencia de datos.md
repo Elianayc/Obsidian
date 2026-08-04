@@ -10,3 +10,5 @@ Incluye el estudio de los mecanismos mediante los cuales la información es alma
 - [[DBMS]]
 - Operaciones CRUD
 
+---
+#ArquitecturadeSistemas

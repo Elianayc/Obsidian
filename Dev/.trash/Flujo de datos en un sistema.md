@@ -10,3 +10,6 @@ Describe el recorrido de la información dentro de un sistema:
 - Salida de resultados
 
 Este concepto permite comprender la interacción entre los distintos módulos del sistema.
+
+---
+#ArquitecturadeSistemas

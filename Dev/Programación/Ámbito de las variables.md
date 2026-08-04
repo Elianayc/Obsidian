@@ -54,3 +54,4 @@ También son locales los parámetros de una función.
 - Permite la modularización.
 - Evita errores por uso indebido de variables externas.
 - Hace que el código sea más legible y fácil de mantener.
+#Programación

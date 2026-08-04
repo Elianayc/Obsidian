@@ -94,3 +94,5 @@ Este enfoque permite que cada capa pueda modificarse o evolucionarse con menor i
 > ```
 > 
  
+---
+#ArquitecturadeSistemas

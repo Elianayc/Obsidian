@@ -68,3 +68,4 @@ En enfoques modernos de programación orientada a objetos:
 ---
 
 [[Visibilidad en Typescript]]
+#Programación

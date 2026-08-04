@@ -16,3 +16,5 @@ Cada instrucción es una secuencia binaria que representa operaciones básicas c
 - Depende totalmente de la arquitectura del procesador.
 
 Hoy casi no se programa directamente en binario, porque es complejo y propenso a errores.
+
+#Programación

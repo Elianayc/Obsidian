@@ -10,3 +10,4 @@ Define el rango de valores posibles y qué puedo hacer con una variable.
 - [[Char]]
 - [[String]]
 - [[Bool]]
+#Programación

@@ -7,3 +7,4 @@ tags:
 - [[Máquina (binario)]]
 - [[Bajo nivel]]
 - [[Alto nivel]]
+#Programación

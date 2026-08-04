@@ -283,3 +283,4 @@ También tiene sentido usarlo cuando una clase tiene muchos métodos de fábrica
 - Se puede combinar con **Bridge** cuando ciertas abstracciones solo funcionan con implementaciones específicas; Abstract Factory ayuda a encapsular esas combinaciones.
 
 - Abstract Factory, Builder y Prototype pueden implementarse usando **Singleton** si se necesita una única instancia global de cada fábrica.
+#Programación

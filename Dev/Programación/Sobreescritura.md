@@ -12,3 +12,5 @@ La sobreescritura debe respetar la **misma firma del método** (nombre, parámet
 > En TypeScript, la palabra clave `override` no es obligatoria, pero se recomienda usarla para mayor claridad y seguridad.
 
 Incluso cuando se aplica **upcasting**, si un método fue sobrescrito, se ejecutará la versión de la clase hija en tiempo de ejecución por polimorfismo.
+
+#Programación
