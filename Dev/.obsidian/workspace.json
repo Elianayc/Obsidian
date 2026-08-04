@@ -11,14 +11,10 @@
             "id": "45ad300c5d51e0a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Redes/Method.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Method"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -80,8 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 317.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -282,6 +277,7 @@
   },
   "active": "45ad300c5d51e0a9",
   "lastOpenFiles": [
+    "Redes/Method.md",
     "Redes/Estructura de una petición HTTP.md",
     "Redes/Peticiones HTTP (Requests).md",
     "Redes/TCP - IP.md",
@@ -312,7 +308,6 @@
     "Redes/TCP.md",
     "Redes/IP.md",
     "Redes/Body.md",
-    "Programación/Abstract Factory.md",
     "Imágenes/Pasted image 20260804125656.png",
     "Imágenes/Pasted image 20260804125503.png",
     "Imágenes/Pasted image 20260804124312.png",
