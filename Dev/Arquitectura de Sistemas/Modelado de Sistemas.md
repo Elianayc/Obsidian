@@ -17,7 +17,7 @@ Se utiliza para reducir la complejidad del sistema y facilitar su análisis, dis
 
 #### Tipos de representación
 - [[UML]]
-- [[Diagrama de flujo]]
+- [[Diagrama de Flujo]]
 
 #### Relación con el desarrollo de software
 El modelado de sistemas se utiliza como etapa previa o paralela a la implementación, ayudando a definir la estructura del sistema antes de codificarlo.
