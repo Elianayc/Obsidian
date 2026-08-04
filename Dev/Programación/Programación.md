@@ -4,28 +4,32 @@ tags:
   - ProgramaciónI
   - ProgramaciónII
 ---
-Programar: planificar las actividades para llevar a cabo una tarea o resolver un problema.
+**Programar**: planificar las actividades para llevar a cabo una tarea o resolver un problema.
 
-#### Resolución de un problema
-- **Comprender el problema.** 
-	¿Cuál es?
+---
 
-- **Analizar el problema**. 
-	¿Objetivo? ¿Datos de entrada? ¿Salida? Lote de prueba: Se usa para verificación.
+## Resolución de un problema
 
-- **Diseño de [[Algoritmo]].** 
-	¿Cómo? Pseudocódigo o Diagrama de flujo.
+- **Comprender el problema.**
+  ¿Cuál es?
 
-- **Verificación de solución.**
-	Prueba de escritorio.
+- **Analizar el problema.**
+  ¿Objetivo? ¿Datos de entrada? ¿Salida?
+  **Lote de prueba:** se usa para la verificación.
+
+- **Diseño del [[Algoritmo]].**
+  ¿Cómo? Pseudocódigo o diagrama de flujo.
+
+- **Verificación de la solución.**
+  Prueba de escritorio.
 
 - **Codificación**
-	[[Lenguajes de Programación]]
+  - [[Lenguajes de Programación]]
+  - [[Desarrollo Web]]
 
 - [[Debugging]]
+
 - [[Testing]]
 
-
-
-
+---
 #Programación

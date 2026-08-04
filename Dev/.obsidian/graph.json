@@ -27,6 +27,13 @@
         "a": 1,
         "rgb": 12575445
       }
+    },
+    {
+      "query": "tag:#Redes  ",
+      "color": {
+        "a": 1,
+        "rgb": 13028079
+      }
     }
   ],
   "collapse-display": false,
@@ -39,6 +46,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.19531858706162675,
-  "close": true
+  "scale": 0.38390962962809844,
+  "close": false
 }
