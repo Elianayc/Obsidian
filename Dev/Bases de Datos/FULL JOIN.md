@@ -4,7 +4,7 @@ tags:
   
 ---
 Devuelve todo de ambas tablas.
-![[Pasted image 20260806142922.png]]
+![[Pasted image 20260806144622.png]]
 
 ```SQL
 SELECT e.nombre, d.nombre_departamento

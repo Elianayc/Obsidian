@@ -5,7 +5,7 @@ tags:
 ---
 Devuelve solo coincidencias en ambas tablas.
 
-![[Pasted image 20260806142649.png]]
+![[Pasted image 20260806144602.png]]
 
 ```SQL
 SELECT e.nombre, d.nombre_departamento

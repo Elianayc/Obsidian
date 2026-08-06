@@ -12,10 +12,9 @@ JOIN departamentos d
 ON e.id_departamento = d.id_departamento;
 ```
 
-[[INNER JOIN]] | [[LEFT JOIN]] | [[RIGHT JOIN]] | [[FULL JOIN]]
+[[INNER JOIN]] | [[FULL JOIN]] | [[LEFT JOIN]] | [[RIGHT JOIN]]
 
-![[Pasted image 20260806142354.png|570]]
-
+![[Pasted image 20260806144539.png]]
 
 
 #BasesdeDatos

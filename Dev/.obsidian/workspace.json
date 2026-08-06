@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Bases de Datos/JOIN.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -79,7 +79,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -285,24 +286,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "bac2685af29843f4",
   "lastOpenFiles": [
+    "Bases de Datos/RIGHT JOIN.md",
+    "Pasted image 20260806144800.png",
+    "Bases de Datos/JOIN.md",
+    "Bases de Datos/FULL JOIN.md",
+    "Bases de Datos/LEFT JOIN.md",
+    "Pasted image 20260806144723.png",
+    "Pasted image 20260806144706.png",
+    "Pasted image 20260806144622.png",
+    "Bases de Datos/INNER JOIN.md",
+    "Pasted image 20260806144602.png",
+    "Pasted image 20260806144539.png",
+    "Pasted image 20260806144534.png",
     "Imágenes/Tipos de relaciones ERD.png",
     "Imágenes/Pasted image 20260804140519.png",
     "Imágenes/Pasted image 20260804140456.png",
-    "Imágenes/Pasted image 20260804140435.png",
-    "Imágenes/Pasted image 20260806142834.png",
-    "Imágenes/Pasted image 20260806142830.png",
-    "Imágenes/Pasted image 20260806142922.png",
-    "Imágenes/Pasted image 20260806142816.png",
-    "Imágenes/Pasted image 20260806142649.png",
-    "Imágenes/Pasted image 20260806142354.png",
-    "Imágenes/Pasted image 20260510173623.png",
-    "Bases de Datos/JOIN.md",
-    "Bases de Datos/INNER JOIN.md",
-    "Bases de Datos/FULL JOIN.md",
-    "Bases de Datos/LEFT JOIN.md",
-    "Bases de Datos/RIGHT JOIN.md",
     "Bases de Datos/INSERT INTO.md",
     "Bases de Datos/Join Methods.md",
     "Bases de Datos/Crear índices en PostgreSQL.md",
