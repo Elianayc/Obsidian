@@ -3,8 +3,10 @@ tags:
   - 
   
 ---
-# LEFT JOIN
 Devuelve todo de la tabla izquierda + coincidencias.
+
+![[Pasted image 20260806142834.png]]
+
 ```SQL
 SELECT e.nombre, d.nombre_departamento
 FROM empleados e
