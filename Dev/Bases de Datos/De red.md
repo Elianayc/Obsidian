@@ -54,3 +54,5 @@ Los sets representan las relaciones entre los datos y deben ser definidos en el 
 - Los cambios estructurales afectan la aplicación
 - La navegación de datos sigue siendo rígida
 - Las relaciones son físicas y no lógicas, lo que reduce flexibilidad
+
+#BasesdeDatos

@@ -32,3 +32,4 @@ Si existe un índice sobre las columnas del join, el motor puede utilizarlo para
 Esto mejora significativamente el **rendimiento**.
 
 ---
+#BasesdeDatos

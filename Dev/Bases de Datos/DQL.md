@@ -14,3 +14,4 @@ Su comando principal es:
 - Se apoya principalmente en SELECT
 - Permite filtros, agrupaciones y ordenamientos
 - Devuelve siempre un conjunto de resultados (tabla virtual)
+#BasesdeDatos

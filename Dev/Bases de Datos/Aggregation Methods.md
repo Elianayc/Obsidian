@@ -30,3 +30,5 @@ Son los métodos que utiliza el motor de base de datos para realizar operaciones
 
 > Los _Aggregation Methods_ son las estrategias internas que utiliza PostgreSQL para ejecutar dichas operaciones.
 
+
+#BasesdeDatos

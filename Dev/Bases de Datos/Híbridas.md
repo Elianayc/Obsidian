@@ -11,3 +11,4 @@ Son una combinación de sistemas OLTP y OLAP.
 - Útiles cuando el volumen de datos no es muy grande
 
 Se utilizan como solución intermedia entre rendimiento y análisis.
+#BasesdeDatos

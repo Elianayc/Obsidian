@@ -8,3 +8,4 @@ Se utiliza para finalizar una transacción (en algunos motores es implícito con
 ```sql
 END TRANSACTION;
 ```
+#BasesdeDatos

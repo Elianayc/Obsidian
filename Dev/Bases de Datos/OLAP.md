@@ -17,3 +17,5 @@ Son sistemas diseñados para el análisis de grandes volúmenes de datos.
 - Genera reportes y estadísticas
 
 Su objetivo es analizar información, no operar sobre datos en tiempo real.
+
+#BasesdeDatos

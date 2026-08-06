@@ -9,3 +9,4 @@ Cuenta valores únicos.
 SELECT COUNT(DISTINCT id_departamento)
 FROM empleados;
 ```
+#BasesdeDatos

@@ -42,3 +42,4 @@ Proporciona un equilibrio más fuerte hacia la consistencia:
 - Garantiza lecturas estables dentro de la transacción.
 - Reduce anomalías de concurrencia.
 - Mantiene buen rendimiento, aunque con más riesgo de conflictos que Read Committed.
+#BasesdeDatos

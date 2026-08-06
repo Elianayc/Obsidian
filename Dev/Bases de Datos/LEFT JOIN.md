@@ -11,3 +11,5 @@ FROM empleados e
 LEFT JOIN departamentos d
 ON e.id_departamento = d.id_departamento;
 ```
+
+#BasesdeDatos

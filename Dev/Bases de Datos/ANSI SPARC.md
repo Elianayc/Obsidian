@@ -19,3 +19,5 @@ La arquitectura se llama **ANSI/SPARC** porque fue un **modelo propuesto en conj
 
  El nivel conceptual es el puente entre los otros dos.
 
+
+#BasesdeDatos

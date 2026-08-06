@@ -31,3 +31,5 @@ Cuando una transacción Ti:
 #### Desventajas
 - Leer implica actualizar metadata (más accesos a disco).
 - Los conflictos se resuelven con **abortos**, no con esperas (puede ser costoso).
+
+#BasesdeDatos

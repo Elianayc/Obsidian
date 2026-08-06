@@ -58,3 +58,4 @@ Idea clave 4FN:
 > separar atributos multivaluados independientes para evitar combinaciones falsas
 
 ---
+#BasesdeDatos

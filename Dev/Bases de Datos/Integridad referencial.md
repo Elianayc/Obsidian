@@ -12,3 +12,4 @@ tags:
 ### ¿Qué evita?
 - Registros sin correspondencia en la tabla relacionada
 - Eliminaciones o modificaciones que rompan relaciones entre tablas
+#BasesdeDatos

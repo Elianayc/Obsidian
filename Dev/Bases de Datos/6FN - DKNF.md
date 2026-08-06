@@ -66,3 +66,4 @@ Idea clave DKNF:
 - 6FN es más **teórica que práctica**
 - Se usa casi solo en **modelos muy formales o temporales**
 - En sistemas reales suele ser demasiado fragmentada
+#BasesdeDatos

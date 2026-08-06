@@ -14,3 +14,4 @@ Es un campo que **referencia la clave primaria de otra tabla**, creando una rela
 
 ### Ejemplo:
 - `pais_id` en tabla Provincias → referencia a Países
+#BasesdeDatos

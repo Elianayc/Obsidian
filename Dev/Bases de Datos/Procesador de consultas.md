@@ -11,3 +11,4 @@ Interpreta y ejecuta las consultas del usuario.
 - **Motor de evaluación** → ejecuta las consultas
 
 [[Índices]]
+#BasesdeDatos

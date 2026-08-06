@@ -38,3 +38,5 @@ Proporciona un muy buen equilibrio entre rendimiento y consistencia porque:
 - pero acepta pequeñas inconsistencias temporales dentro de la misma transacción.
 
 ---
+
+#BasesdeDatos

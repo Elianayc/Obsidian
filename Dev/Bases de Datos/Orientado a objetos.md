@@ -11,3 +11,5 @@ Basado en el paradigma de programación orientada a objetos.
 - Eficiente para acceder a un solo dato
 - Menos eficiente para grandes conjuntos de datos
 
+
+#BasesdeDatos

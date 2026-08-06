@@ -38,3 +38,4 @@ Transferir $50 de la cuenta A a la cuenta B:
 **Gracias a ACID:**
 - O se ejecuta toda la transferencia
 - O se revierte completamente
+#BasesdeDatos

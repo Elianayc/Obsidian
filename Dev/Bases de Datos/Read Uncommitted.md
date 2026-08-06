@@ -47,3 +47,5 @@ Proporciona el mejor rendimiento posible, pero con riesgos muy altos:
 Importante en PostgreSQL: este nivel **no se implementa de verdad**. Si lo configurás, PostgreSQL lo trata como **Read Committed**, porque su modelo MVCC no permite dirty reads.
 
 ---
+
+#BasesdeDatos

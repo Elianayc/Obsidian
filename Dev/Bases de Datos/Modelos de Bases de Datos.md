@@ -11,3 +11,4 @@ tags:
 5. [[Orientado a objetos]]
 6. [[Objeto-relacional]]
 7. [[NoSQL]]
+#BasesdeDatos

@@ -29,3 +29,5 @@ Distingue dos tipos de transacciones:
 - Se mantiene serialización según orden de commit.
 
 Este protocolo se usa en **DB comerciales reales**.
+
+#BasesdeDatos

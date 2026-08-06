@@ -18,3 +18,4 @@ Muchos indica que puede haber múltiples registros relacionados.
 > 
 > ![[Tipos de relaciones ERD.png]]
 > 
+#BasesdeDatos

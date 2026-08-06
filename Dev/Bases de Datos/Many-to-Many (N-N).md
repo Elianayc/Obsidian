@@ -10,3 +10,4 @@ Este tipo de relación se resuelve mediante una tabla intermedia o tabla de uni�
 - Se resuelve con:
     - [[Tabla intermedia]]
     - Dos relaciones 1–N
+#BasesdeDatos

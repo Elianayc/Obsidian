@@ -55,3 +55,5 @@ Elimina valores estáticos o repetidos creando nuevas tablas con relaciones N-1.
 ❌ Aún puede haber dependencias transitivas
 
 ---
+
+#BasesdeDatos

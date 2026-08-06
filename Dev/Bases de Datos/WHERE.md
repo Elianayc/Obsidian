@@ -13,3 +13,4 @@ SELECT * FROM pedidos WHERE monto > 2000;
 Devuelve solo los pedidos con monto mayor a 2000.
 
 [[Operadores de Filtrado]]
+#BasesdeDatos

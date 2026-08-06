@@ -11,3 +11,4 @@ SELECT id_cliente, SUM(monto)FROM pedidosGROUP BY id_clienteHAVING SUM(monto) > 
 
 ##### Resultado:  
 Muestra solo clientes cuyo total de compras supera 3000.
+#BasesdeDatos

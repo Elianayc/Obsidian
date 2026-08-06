@@ -75,3 +75,4 @@ En resumen, en la práctica se trabaja normalmente hasta **3FN o BCNF**, a veces
 ![[5FN.png]]
 
 ---
+#BasesdeDatos

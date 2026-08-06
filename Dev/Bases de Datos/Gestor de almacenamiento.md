@@ -11,3 +11,4 @@ Actúa como interfaz entre el nivel lógico y el almacenamiento físico.
 ##### Conformado por:
 - **Gestor de archivos** → organiza datos en disco  
 - **Gestor de memoria** → gestiona RAM y caché  
+#BasesdeDatos

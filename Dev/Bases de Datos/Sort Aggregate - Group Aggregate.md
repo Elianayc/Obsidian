@@ -34,3 +34,4 @@ ordenar → agrupar
 > GroupAggregate
 > ```
 > 
+#BasesdeDatos

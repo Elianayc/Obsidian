@@ -87,3 +87,5 @@ vacuum full analyze nombre_tabla;
 >En entornos en vivo con mucho tráfico, se suele usar la alternativa `vacuum analyze` (sin el `full`), que es más lenta pero no bloquea la tabla, o herramientas externas como `pg_repack`.
 
 ---
+
+#BasesdeDatos

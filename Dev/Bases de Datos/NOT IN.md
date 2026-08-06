@@ -10,3 +10,4 @@ SELECT * FROM empleados
 WHERE id_departamento 
 NOT IN (1, 2);
 ```
+#BasesdeDatos

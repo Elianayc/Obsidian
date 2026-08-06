@@ -11,3 +11,5 @@ Su objetivo principal es **eliminar la duplicación de datos** y reducir la info
 
 Como resultado, se logra una **mejor organización de los datos** y un **uso más eficiente del espacio de almacenamiento**.
 
+
+#BasesdeDatos

@@ -13,3 +13,4 @@ SELECT COUNT(*) FROM pedidos;
 Devuelve la cantidad total de pedidos.
 
 [[COUNT DISTINCT]]
+#BasesdeDatos

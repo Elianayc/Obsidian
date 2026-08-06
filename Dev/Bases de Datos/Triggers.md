@@ -140,3 +140,5 @@ Todo trigger está compuesto por:
 [[Triggers según alcance]]
 
 ---
+
+#BasesdeDatos

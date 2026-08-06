@@ -26,3 +26,5 @@ A nivel funcional, los tipos de bases de datos se clasifican en:
 |   **Backup y recuperación**    |              Crítico y frecuente              |              Menos estricto               |
 
 No existe un único sistema ideal. La elección depende de las necesidades de procesamiento y requerimientos de análisis y toma de decisiones.
+
+#BasesdeDatos

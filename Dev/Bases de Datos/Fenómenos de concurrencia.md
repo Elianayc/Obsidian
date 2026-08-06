@@ -10,3 +10,5 @@ Son anomalías que aparecen cuando varias transacciones corren al mismo tiempo.
 - [[Phantom read]]
 - [[Serialization anomaly]]
 
+
+#BasesdeDatos

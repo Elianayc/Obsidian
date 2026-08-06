@@ -11,3 +11,5 @@ FROM empleados e
 INNER JOIN departamentos d
 ON e.id_departamento = d.id_departamento;
 ```
+
+#BasesdeDatos

@@ -8,3 +8,5 @@ Se utiliza para definir propiedades de la transacción, como el nivel de aislami
 ```sql
 SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
 ```
+
+#BasesdeDatos

@@ -42,3 +42,5 @@ Permite comportamiento equivalente a ejecución serial sin perder rendimiento.
 Aunque usa MVCC:
 - PostgreSQL también ofrece **bloqueos de tabla y fila**.
 - Se usan cuando la aplicación necesita controlar conflictos explícitamente.
+
+#BasesdeDatos

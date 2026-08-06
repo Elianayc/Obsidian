@@ -63,3 +63,4 @@ Se indica con `LANGUAGE`: `SQL`, `PLpgSQL` o `PLPythonu`.
 [[Tipos de funciones según lenguaje]]
 [[Manejo de excepciones (PL - pgSQL)]]
 [[Triggers]]
+#BasesdeDatos

@@ -22,3 +22,4 @@ Combina el modelo relacional con características de orientación a objetos.
 ### Características
 - Extiende el modelo relacional con capacidades de objetos
 - Mayor flexibilidad en estructuras complejas
+#BasesdeDatos

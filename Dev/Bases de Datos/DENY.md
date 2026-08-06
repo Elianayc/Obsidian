@@ -8,3 +8,4 @@ Se utiliza para negar explícitamente permisos a un usuario, incluso si fueron o
 ```sql
 DENY DELETE ON clientes TO usuario1;
 ```
+#BasesdeDatos

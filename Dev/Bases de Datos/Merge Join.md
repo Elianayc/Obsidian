@@ -17,3 +17,4 @@ Es eficiente para grandes volúmenes de datos.
 Si las tablas ya están ordenadas mediante índices, PostgreSQL puede evitar la etapa de ordenamiento previo.
 
 ![[Pasted image 20260526162557.png]]
+#BasesdeDatos

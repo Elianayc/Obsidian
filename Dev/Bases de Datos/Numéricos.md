@@ -15,3 +15,5 @@ Se utilizan para almacenar valores numéricos enteros o con decimales.
 | **BIGSERIAL**     | Entero autoincremental grande  | id BIGSERIAL                  |
 | **DECIMAL(p, s)** | Decimales exactos              | precio DECIMAL(8,2) = 1999.99 |
 | **DOUBLE**        | Decimales aproximados          | altura FLOAT = 1.732          |
+
+#BasesdeDatos

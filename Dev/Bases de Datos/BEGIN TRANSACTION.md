@@ -8,3 +8,4 @@ Se utiliza para iniciar una transacción, agrupando varias operaciones como una 
 ```SQL
 BEGIN TRANSACTION;
 ```
+#BasesdeDatos

@@ -42,3 +42,5 @@ Proporciona la máxima consistencia:
 - Ideal para sistemas financieros o críticos.
 - Elimina anomalías de concurrencia.
 - A cambio, tiene mayor costo y puede provocar abortos y reintentos de transacciones.
+
+#BasesdeDatos

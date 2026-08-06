@@ -53,3 +53,4 @@ ALTER TABLE usuarios ALTER COLUMN comments SET NOT NULL;
 ```SQL
 ALTER TABLE usuarios ALTER COLUMN comments DROP NOT NULL;
 ```
+#BasesdeDatos

@@ -7,3 +7,5 @@ tags:
 ```SQL
 ORDER BY salario DESC;
 ```
+
+#BasesdeDatos

@@ -12,3 +12,5 @@ OFFSET 10;
 ```
 
 Salta los primeros 10 registros y muestra los siguientes 5.
+
+#BasesdeDatos

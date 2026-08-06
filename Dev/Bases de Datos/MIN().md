@@ -11,3 +11,4 @@ SELECT MIN(monto) FROM pedidos;
 
 ##### Resultado:  
 Devuelve el pedido con menor monto.
+#BasesdeDatos

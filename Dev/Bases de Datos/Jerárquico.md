@@ -87,3 +87,5 @@ A diferencia del modelo relacional, las relaciones entre datos se representan a 
 - Difícil mantenimiento del modelo
 - Cambios en la estructura afectan todo el sistema
 - Agregar nuevas relaciones puede implicar rediseño completo
+
+#BasesdeDatos

@@ -18,3 +18,4 @@ El motor recorre toda la tabla fila por fila buscando los registros solicitados.
 > Seq Scan on table_dummy
 > ```
 > 
+#BasesdeDatos

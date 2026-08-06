@@ -11,3 +11,4 @@ SELECT SUM(monto) FROM pedidos;
 
 ##### Resultado:  
 Devuelve el total de dinero vendido.
+#BasesdeDatos

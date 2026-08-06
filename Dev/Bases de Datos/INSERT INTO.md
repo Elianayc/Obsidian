@@ -37,3 +37,4 @@ Permite insertar datos obtenidos desde otra tabla o consulta.
 INSERT INTO tabla_destino (campo1, campo2, ..., campoN)
 SELECT campoA, campoB, ..., campoNFROM tabla_origen;
 ```
+#BasesdeDatos

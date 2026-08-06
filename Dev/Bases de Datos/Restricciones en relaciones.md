@@ -15,3 +15,4 @@ tags:
 
 ### Obligatorias + únicas
 - No permiten NULL ni repetición
+#BasesdeDatos

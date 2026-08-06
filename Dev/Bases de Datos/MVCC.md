@@ -28,3 +28,5 @@ Varias versiones permiten que lecturas y escrituras convivan sin bloquearse.
 
 [[PostgreSQL y MVCC]]
 
+
+#BasesdeDatos

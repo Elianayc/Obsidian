@@ -13,3 +13,4 @@ También funciona como un **índice**, ya que sus valores se usan para búsqueda
 - [[Clave única]]
 
 La [[Integridad referencial]] garantiza que las relaciones entre tablas sean **consistentes y válidas**.
+#BasesdeDatos

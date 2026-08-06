@@ -1,7 +1,7 @@
 {
   "collapse-filter": false,
   "search": "",
-  "showTags": false,
+  "showTags": true,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
@@ -15,7 +15,7 @@
       }
     },
     {
-      "query": "tag:#DB  ",
+      "query": "tag:#Basesdedatos",
       "color": {
         "a": 1,
         "rgb": 15518677
@@ -36,16 +36,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
-  "textFadeMultiplier": -3,
-  "nodeSizeMultiplier": 1.25645771981489,
-  "lineSizeMultiplier": 2.41738185387744,
-  "collapse-forces": true,
+  "textFadeMultiplier": -0.8,
+  "nodeSizeMultiplier": 1.55277403297729,
+  "lineSizeMultiplier": 0.774652631578947,
+  "collapse-forces": false,
   "centerStrength": 0.880434782608696,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.3839096296280926,
+  "scale": 0.19531858706162272,
   "close": true
 }

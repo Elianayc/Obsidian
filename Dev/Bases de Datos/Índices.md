@@ -45,3 +45,5 @@ Demasiados índices reducen el rendimiento de operaciones de alta/modificación/
 [[Tipos de índices]]
 [[Clustering]]
 [[Optimización de Consultas]]
+
+#BasesdeDatos

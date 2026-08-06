@@ -13,3 +13,4 @@ Los principales métodos son:
 - [[Nested Loop]]
 - [[Hash Join]]
 - [[Merge Join]]
+#BasesdeDatos

@@ -8,3 +8,4 @@ Se utiliza para eliminar todos los registros de una tabla sin eliminar su estruc
 ```sql
 TRUNCATE TABLE clientes;
 ```
+#BasesdeDatos

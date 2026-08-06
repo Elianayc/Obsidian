@@ -79,3 +79,5 @@ La base de datos puede crecer sin afectar a las aplicaciones que no utilizan los
 - [[Transacciones]]
 - [[Normalización]]
 - [[Funciones]]
+
+#BasesdeDatos

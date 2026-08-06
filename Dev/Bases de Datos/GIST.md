@@ -9,3 +9,4 @@ tags:
 - “Índice flexible” para casos especiales
 
 ![[Pasted image 20260526162245.png]]
+#BasesdeDatos

@@ -17,3 +17,4 @@ Son bases de datos que se enfocan en operaciones pequeñas y frecuentes sobre lo
 - Eliminar datos
 
  Su objetivo es mantener la base de datos siempre consistente en tiempo real.
+#BasesdeDatos

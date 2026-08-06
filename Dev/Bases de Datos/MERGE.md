@@ -14,3 +14,4 @@ UPDATE SET c.nombre = n.nombre
 WHEN NOT MATCHED THEN  
 INSERT (id, nombre) VALUES (n.id, n.nombre);
 ```
+#BasesdeDatos

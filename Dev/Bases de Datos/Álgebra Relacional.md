@@ -1,5 +1,3 @@
-# Álgebra Relacional
-
 Es el fundamento formal del modelo relacional y la base para la optimización de consultas en los SGBD relacionales.
 
 ## Operaciones unarias
@@ -53,3 +51,7 @@ Cuando no existe coincidencia, los atributos faltantes se completan con **NULL**
 Permite responder consultas del tipo:
 
 > "Obtener las entidades que cumplen con **todos** los criterios especificados."
+
+#BasesdeDatos
+#BasesdeDatosII
+#BasesdeDatos

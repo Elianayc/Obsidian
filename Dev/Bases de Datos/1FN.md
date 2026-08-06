@@ -47,3 +47,5 @@ Elimina los grupos de campos repetidos, creando nuevas tablas y estableciendo un
 ❌ Pero sigue repitiendo datos
 
 ----
+
+#BasesdeDatos

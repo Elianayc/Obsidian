@@ -37,3 +37,4 @@ age smallint CHECK (age > 0),
 type char DEFAULT ('C')
 );
 ```
+#BasesdeDatos

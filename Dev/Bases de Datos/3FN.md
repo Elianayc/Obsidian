@@ -64,3 +64,5 @@ Elimina dependencias transitivas para que todos los atributos dependan directame
 ✔ Sin redundancia obvia
 
 ---
+
+#BasesdeDatos

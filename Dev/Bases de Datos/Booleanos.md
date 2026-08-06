@@ -7,3 +7,5 @@ tags:
 | ----------- | ----------------- | --------------------- |
 | **BOOLEAN** | Verdadero / Falso | activo BOOLEAN = TRUE |
 
+
+#BasesdeDatos

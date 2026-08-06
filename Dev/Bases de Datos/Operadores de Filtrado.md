@@ -10,3 +10,5 @@ No son cláusulas completas, sino expresiones que se combinan con `WHERE` u otra
  - [[BETWEEN]]
  - [[IN]]
  - [[NOT IN]]
+
+#BasesdeDatos

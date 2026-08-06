@@ -15,3 +15,4 @@ SELECT * FROM empleados LIMIT 5;
  Devuelve solo los primeros 5 registros.
 
 [[OFFSET]]
+#BasesdeDatos

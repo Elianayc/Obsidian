@@ -15,3 +15,4 @@ Es el campo (o conjunto de campos) que **identifica de forma única cada registr
 - DNI en una tabla de personas
 -
 Es la identificación principal de la entidad.
+#BasesdeDatos

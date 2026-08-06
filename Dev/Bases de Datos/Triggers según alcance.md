@@ -29,3 +29,5 @@ Si el mismo `UPDATE` modifica 100 registros, el trigger se ejecutará una sola v
 ```sql
 FOR EACH STATEMENT
 ```
+
+#BasesdeDatos

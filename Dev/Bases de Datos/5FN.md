@@ -69,3 +69,5 @@ Elimina dependencias cíclicas mediante descomposición en proyecciones.
 > Separar relaciones complejas en partes más simples sin perder información al recombinar
 
 ---
+
+#BasesdeDatos

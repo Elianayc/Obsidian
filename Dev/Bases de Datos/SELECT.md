@@ -10,3 +10,5 @@ SELECT * FROM pedidos;
 
 - [[Cláusulas]]
 - [[Funciones de Agregación]]
+
+#BasesdeDatos

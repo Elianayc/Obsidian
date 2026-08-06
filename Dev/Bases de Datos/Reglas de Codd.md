@@ -1,5 +1,3 @@
-## Reglas de Codd
-
 Las **12 reglas de Codd** definen cuándo un sistema puede considerarse verdaderamente relacional.
 
 ### Reglas más importantes
@@ -21,3 +19,6 @@ Las **12 reglas de Codd** definen cuándo un sistema puede considerarse verdader
 
 **Regla 12 — No Subversión**
 - Ningún lenguaje de bajo nivel puede evitar las restricciones de integridad del modelo relacional.
+#BasesdeDatos
+#BasesdeDatosII
+#BasesdeDatos

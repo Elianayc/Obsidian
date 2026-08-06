@@ -8,3 +8,4 @@ Se utiliza para crear puntos intermedios dentro de una transacción, permitiendo
 ```SQL
 SAVEPOINT punto1;
 ```
+#BasesdeDatos

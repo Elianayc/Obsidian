@@ -11,3 +11,4 @@ SELECT AVG(monto) FROM pedidos;
 
 ##### Resultado:  
 Devuelve el promedio de los montos de pedidos.
+#BasesdeDatos

@@ -8,3 +8,4 @@ Se utiliza para guardar permanentemente los cambios realizados dentro de una tra
 ```sql
 COMMIT;
 ```
+#BasesdeDatos

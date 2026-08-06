@@ -15,3 +15,4 @@ ON e.id_departamento = d.id_departamento;
 [[LEFT JOIN]]
 [[RIGHT JOIN]]
 [[FULL OUTER JOIN]]
+#BasesdeDatos

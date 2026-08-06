@@ -50,3 +50,5 @@ Aunque exista un índice, PostgreSQL puede decidir no utilizarlo si:
 - o la condición del `WHERE` no utiliza columnas indexadas.
 
 ---
+
+#BasesdeDatos

@@ -40,3 +40,5 @@ Cuando varias transacciones se ejecutan al mismo tiempo:
 Por eso el DBMS usa **mecanismos de [[Control de concurrencia]].
 
 Objetivo: que ejecutar transacciones en paralelo sea equivalente a ejecutarlas **una detrás de otra**.
+
+#BasesdeDatos

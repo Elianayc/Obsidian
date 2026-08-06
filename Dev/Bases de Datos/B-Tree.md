@@ -11,3 +11,5 @@ tags:
 ![[Pasted image 20260527152926.png]]
 
 
+
+#BasesdeDatos

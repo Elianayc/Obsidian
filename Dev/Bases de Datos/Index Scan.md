@@ -18,3 +18,4 @@ El motor utiliza un índice para localizar directamente los registros necesarios
 > Index Scan using idx_nombre on table_dummy
 > ```
 > 
+#BasesdeDatos

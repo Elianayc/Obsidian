@@ -27,3 +27,5 @@ Es “la base de datos como la ve el usuario”.
 - Interfaces gráficas o consultas SQL.
 - Lenguajes de programación (Java, C++, PHP, etc.)
 - Uso de DDL y DML.
+
+#BasesdeDatos

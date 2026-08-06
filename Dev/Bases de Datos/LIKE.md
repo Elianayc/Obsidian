@@ -17,3 +17,5 @@ SELECT * FROM empleados WHERE nombre LIKE 'M%';
 ```SQL
 WHERE nombre LIKE 'M%';
 ```
+
+#BasesdeDatos

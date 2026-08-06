@@ -18,3 +18,5 @@ Permiten obtener **estadísticas** sobre los datos.
 - [[MIN()]]
 - [[MAX()]]
 
+
+#BasesdeDatos

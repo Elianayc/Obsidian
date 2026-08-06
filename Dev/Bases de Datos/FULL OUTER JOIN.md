@@ -11,3 +11,4 @@ FROM empleados e
 FULL OUTER JOIN departamentos d
 ON e.id_departamento = d.id_departamento;
 ```
+#BasesdeDatos
