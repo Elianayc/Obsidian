@@ -11,14 +11,12 @@
             "id": "bac2685af29843f4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Bases de Datos/JOIN.md",
-                "mode": "source",
-                "source": false
+                "file": "Imágenes/Pasted image 20260806144539.png"
               },
-              "icon": "lucide-file",
-              "title": "JOIN"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260806144539"
             }
           }
         ]
@@ -285,20 +283,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bac2685af29843f4",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
-    "Bases de Datos/RIGHT JOIN.md",
+    "Imágenes/Pasted image 20260806144602.png",
+    "Imágenes/Pasted image 20260806144622.png",
+    "Pasted image 20260806144706.png",
+    "Imágenes/Pasted image 20260806144723.png",
+    "Imágenes/Pasted image 20260806144800.png",
+    "Pasted image 20260806144534.png",
+    "Imágenes/Pasted image 20260806144539.png",
     "Bases de Datos/JOIN.md",
+    "Bases de Datos/RIGHT JOIN.md",
     "Bases de Datos/LEFT JOIN.md",
     "Bases de Datos/INNER JOIN.md",
     "Bases de Datos/FULL JOIN.md",
-    "Pasted image 20260806144800.png",
-    "Pasted image 20260806144723.png",
-    "Pasted image 20260806144706.png",
-    "Pasted image 20260806144622.png",
-    "Pasted image 20260806144602.png",
-    "Pasted image 20260806144539.png",
-    "Pasted image 20260806144534.png",
     "Imágenes/Tipos de relaciones ERD.png",
     "Imágenes/Pasted image 20260804140519.png",
     "Imágenes/Pasted image 20260804140456.png",
