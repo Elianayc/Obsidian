@@ -7,7 +7,7 @@
   ],
   "monospaceFontFamily": "Cascadia Code NF SemiLight",
   "showRibbon": true,
-  "interfaceFontFamily": "PakType Naskh Basic,Bodoni 72 Oldstyle",
-  "baseFontSize": 19,
+  "interfaceFontFamily": "Bodoni 72 Oldstyle",
+  "baseFontSize": 16,
   "baseFontSizeAction": true
 }

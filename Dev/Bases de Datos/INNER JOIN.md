@@ -3,7 +3,6 @@ tags:
   - 
   
 ---
-# INNER JOIN
 Devuelve solo coincidencias en ambas tablas.
 ```SQL
 SELECT e.nombre, d.nombre_departamento
