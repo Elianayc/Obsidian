@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -282,7 +282,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0a11f3bb414cead",
+  "active": "72bba810bddba45b",
   "lastOpenFiles": [
     "Bases de Datos/1FN.md",
     "Bases de Datos/Álgebra Relacional.md",
