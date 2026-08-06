@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6b0713463ecd8b0e",
+        "id": "50d8b54ff43d1edc",
         "type": "tabs",
         "children": [
           {
-            "id": "43898d1c9273826d",
+            "id": "bac2685af29843f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,8 +55,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#BasesdeDatos",
-                "matchingCase": true,
+                "query": "join",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -285,16 +285,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "43898d1c9273826d",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
-    "Imágenes/Pasted image 20260806142922.png",
-    "Imágenes/Pasted image 20260806142354.png",
-    "Imágenes/Pasted image 20260806142649.png",
-    "Imágenes/Pasted image 20260806142816.png",
-    "Imágenes/Pasted image 20260806142830.png",
+    "Imágenes/Tipos de relaciones ERD.png",
+    "Imágenes/Pasted image 20260804140519.png",
+    "Imágenes/Pasted image 20260804140456.png",
+    "Imágenes/Pasted image 20260804140435.png",
     "Imágenes/Pasted image 20260806142834.png",
-    "Pasted image 20260806142751.png",
-    "Pasted image 20260806142645.png",
+    "Imágenes/Pasted image 20260806142830.png",
+    "Imágenes/Pasted image 20260806142922.png",
+    "Imágenes/Pasted image 20260806142816.png",
+    "Imágenes/Pasted image 20260806142649.png",
+    "Imágenes/Pasted image 20260806142354.png",
+    "Imágenes/Pasted image 20260510173623.png",
     "Bases de Datos/JOIN.md",
     "Bases de Datos/INNER JOIN.md",
     "Bases de Datos/FULL JOIN.md",
@@ -320,8 +323,6 @@
     "Bases de Datos/Nivel externo (vista del usuario).md",
     "Bases de Datos/Triggers.md",
     "Excalidraw/Drawing 2026-08-05 15.42.45.excalidraw.md",
-    "Imágenes/Pasted image 20260804140343.png",
-    "Imágenes/Pasted image 20260804140519.png",
     "TCP",
     "Redes",
     "Metodología de Sistemas",
