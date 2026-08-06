@@ -79,8 +79,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -289,14 +288,14 @@
   "active": "bac2685af29843f4",
   "lastOpenFiles": [
     "Bases de Datos/RIGHT JOIN.md",
-    "Pasted image 20260806144800.png",
     "Bases de Datos/JOIN.md",
-    "Bases de Datos/FULL JOIN.md",
     "Bases de Datos/LEFT JOIN.md",
+    "Bases de Datos/INNER JOIN.md",
+    "Bases de Datos/FULL JOIN.md",
+    "Pasted image 20260806144800.png",
     "Pasted image 20260806144723.png",
     "Pasted image 20260806144706.png",
     "Pasted image 20260806144622.png",
-    "Bases de Datos/INNER JOIN.md",
     "Pasted image 20260806144602.png",
     "Pasted image 20260806144539.png",
     "Pasted image 20260806144534.png",

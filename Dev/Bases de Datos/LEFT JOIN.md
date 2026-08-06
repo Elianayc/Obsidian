@@ -4,7 +4,6 @@ tags:
   
 ---
 Devuelve todo de la tabla izquierda + coincidencias.
-
 ![[Pasted image 20260806144723.png]]
 
 

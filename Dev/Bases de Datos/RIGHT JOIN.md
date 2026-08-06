@@ -4,7 +4,6 @@ tags:
   
 ---
 Devuelve todo de la tabla derecha + coincidencias.
-
 ![[Pasted image 20260806144800.png]]
 
 ```SQL

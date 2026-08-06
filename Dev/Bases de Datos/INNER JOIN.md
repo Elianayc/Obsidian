@@ -4,7 +4,6 @@ tags:
   
 ---
 Devuelve solo coincidencias en ambas tablas.
-
 ![[Pasted image 20260806144602.png]]
 
 ```SQL
