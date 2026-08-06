@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#DB",
+                "query": "tag:#DB  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
