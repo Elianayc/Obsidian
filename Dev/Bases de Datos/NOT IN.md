@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Se utiliza para excluir valores de una lista.
 

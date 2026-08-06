@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Es un objeto del mundo real que puede identificarse de forma única dentro de un contexto.  
 Ejemplos: una persona, un libro, una cuenta bancaria.

@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 
 1. [[Sistema de archivos]]

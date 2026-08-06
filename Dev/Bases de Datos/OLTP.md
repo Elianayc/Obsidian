@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 También conocidas como **Online Transaction Processing (OLTP)**.
 Son bases de datos que se enfocan en operaciones pequeñas y frecuentes sobre los datos.

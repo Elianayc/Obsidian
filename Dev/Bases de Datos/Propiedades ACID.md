@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI2doparcial
-  - DB
+  - 
+  
 ---
 Las transacciones garantizan las propiedades **ACID**:
 

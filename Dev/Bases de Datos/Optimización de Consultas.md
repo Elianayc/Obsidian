@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 SQL es un lenguaje declarativo, esto significa que podemos decirle **qué** hacer pero no **cómo**.
 

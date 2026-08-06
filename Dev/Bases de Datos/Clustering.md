@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 Consiste en reordenar los datos de una tabla de acuerdo a un índice creado previamente y reescribirla en disco.
 

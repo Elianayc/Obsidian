@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 También conocidos como **Online Analytical Processing (OLAP)**.
 Son sistemas diseñados para el análisis de grandes volúmenes de datos.

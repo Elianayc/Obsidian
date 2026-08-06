@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 ### OFFSET
 Permite saltar registros antes de empezar a mostrar resultados.

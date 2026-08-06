@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 ### Data Control Language
 Controla permisos y seguridad de la base de datos.

@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI2doparcial
-  - DB
+  - 
+  
 ---
 La transacción trabaja con un **snapshot fijo tomado al comenzar la transacción**.  
 A diferencia de Read Committed, todas las consultas dentro de la misma transacción ven exactamente la **misma versión de los datos**, aunque otras transacciones confirmen cambios mientras tanto.

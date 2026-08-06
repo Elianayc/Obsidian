@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 El comando **ALTER TABLE** permite modificar una tabla ya existente sin eliminarla.  
 Se usa para cambiar su estructura:

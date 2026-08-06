@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI2doparcial
-  - DB
+  - 
+  
 ---
 PostgreSQL implementa el control de concurrencia usando **MVCC**.
 

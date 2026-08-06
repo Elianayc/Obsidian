@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 El tipo de función depende del **lenguaje utilizado para implementarla**.
 

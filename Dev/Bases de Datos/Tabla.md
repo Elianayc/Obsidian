@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Estructuras lógicas que organizan los datos en filas (registros de entidades) y columnas ([[Campos|campos]]).  
 

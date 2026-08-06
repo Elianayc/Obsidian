@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Cuenta la cantidad de filas o valores no nulos en una columna.
 

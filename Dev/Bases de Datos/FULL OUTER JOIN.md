@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 # FULL OUTER JOIN
 Devuelve todo de ambas tablas.

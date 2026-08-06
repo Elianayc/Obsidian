@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 - [[B-Tree]]
 - [[GIST]]

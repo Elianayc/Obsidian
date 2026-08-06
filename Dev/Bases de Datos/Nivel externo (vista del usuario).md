@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Es “la base de datos como la ve el usuario”.
 
@@ -20,7 +20,7 @@ Es “la base de datos como la ve el usuario”.
 ###  Quién lo usa:
 - Usuarios finales.
 - Desarrolladores.
-- DBA.
+A.
 
 
 ###  Tecnologías/lenguajes:

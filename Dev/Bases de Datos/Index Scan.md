@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 El motor utiliza un índice para localizar directamente los registros necesarios sin recorrer toda la tabla.
 

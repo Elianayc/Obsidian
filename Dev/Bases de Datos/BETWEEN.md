@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Se utiliza para filtrar valores dentro de un rango.
 Incluye los valores límite.

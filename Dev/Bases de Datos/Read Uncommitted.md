@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI2doparcial
-  - DB
+  - 
+  
 ---
 Cada consulta podría leer **datos sin confirmar de otras transacciones**.  
 En este nivel, una transacción puede ver cambios que otra todavía no confirmó con COMMIT. Eso significa que podrías leer información que luego **desaparece** si la otra transacción hace ROLLBACK.

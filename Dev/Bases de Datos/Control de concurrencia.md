@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI2doparcial
-  - DB
+  - 
+  
 ---
 #### Mecanismos de control de concurrencia
 

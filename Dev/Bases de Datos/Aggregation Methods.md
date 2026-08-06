@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 Son los métodos que utiliza el motor de base de datos para realizar operaciones de [[Funciones de Agregación|agregación]] y agrupamiento de datos durante la ejecución de una consulta.
 

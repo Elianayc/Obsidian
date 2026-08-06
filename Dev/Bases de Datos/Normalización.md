@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 La normalización es un proceso en el que se mejora y organiza un modelo de base de datos relacional a través de una serie de pasos.
 

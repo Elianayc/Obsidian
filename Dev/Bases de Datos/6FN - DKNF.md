@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 # Sexta Forma Normal
 Modelo completamente normalizado donde no existen anomalías.

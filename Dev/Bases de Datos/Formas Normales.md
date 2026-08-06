@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 
 |                Forma Normal                 | Precondición |                 Qué elimina                  |                                Idea clave                                 |

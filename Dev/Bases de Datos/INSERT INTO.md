@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 El comando **INSERT INTO** permite **agregar registros** a una tabla.
 

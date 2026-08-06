@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Se utiliza para agregar comentarios descriptivos a tablas o columnas.
 

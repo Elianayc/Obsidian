@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 Un **trigger** (disparador) es un objeto de la base de datos que permite ejecutar automáticamente una función cuando ocurre un determinado evento sobre una tabla o vista.
 

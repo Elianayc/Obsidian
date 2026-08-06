@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Se utiliza para otorgar permisos a usuarios sobre objetos de la base de datos.
 

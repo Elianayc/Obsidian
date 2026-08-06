@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#DB  ",
+                "query": "tag:#",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -76,7 +76,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -190,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "7d43bd82675bbd45",
@@ -202,7 +202,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Bases de Datos/SQL.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -266,8 +265,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 381.5,
-    "collapsed": true
+    "width": 381.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -282,7 +280,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "72bba810bddba45b",
+  "active": "f0a11f3bb414cead",
   "lastOpenFiles": [
     "Bases de Datos/1FN.md",
     "Bases de Datos/Álgebra Relacional.md",

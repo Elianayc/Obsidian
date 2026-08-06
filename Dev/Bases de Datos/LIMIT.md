@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 La cláusula **LIMIT** se utiliza en SQL para **restringir la cantidad de filas que devuelve una consulta**.
 

@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 Las anomalías aparecen cuando la base de datos no está bien normalizada, generando inconsistencias entre tablas padre e hijas.
 

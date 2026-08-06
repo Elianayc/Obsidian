@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Una **tabla intermedia** se usa para resolver relaciones de tipo **muchos a muchos (N-M)** entre dos tablas. 
 Su función es evitar la redundancia y transformar la relación en dos relaciones **1-N**.

@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Se utiliza para quitar permisos previamente otorgados a un usuario.
 

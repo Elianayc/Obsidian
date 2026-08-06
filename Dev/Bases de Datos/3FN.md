@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 # Tercera Forma Normal
 Elimina dependencias transitivas para que todos los atributos dependan directamente de la clave primaria.

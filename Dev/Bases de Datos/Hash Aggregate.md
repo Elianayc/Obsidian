@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 El motor crea una estructura hash en memoria para agrupar los registros.
 

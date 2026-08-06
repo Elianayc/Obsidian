@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 ## NEW
 Representa la nueva versión de la fila.

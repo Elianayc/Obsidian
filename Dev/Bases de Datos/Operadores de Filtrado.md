@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 ##### Operadores de Filtrado
 Los operadores de filtrado se utilizan dentro de consultas **SELECT** para restringir los resultados según condiciones específicas.

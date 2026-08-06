@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 Las funciones encapsulan lógica reutilizable dentro de la base de datos. 
 

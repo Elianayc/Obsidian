@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Es el campo (o conjunto de campos) que **identifica de forma única cada registro** dentro de una tabla.
 

@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 # Segunda Forma Normal
 Elimina valores estáticos o repetidos creando nuevas tablas con relaciones N-1.

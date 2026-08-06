@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI2doparcial
-  - DB
+  - 
+  
 ---
 Una **transacción** es un conjunto de operaciones que forman una única unidad lógica de trabajo sobre la base de datos.
 

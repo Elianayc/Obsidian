@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI2doparcial
-  - DB
+  - 
+  
 ---
 Es el nivel de aislamiento **más alto** del estándar SQL.  
 Garantiza que el resultado de ejecutar transacciones concurrentes sea exactamente el mismo que si se hubieran ejecutado **una después de la otra en serie**.

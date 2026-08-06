@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Es un campo que **referencia la clave primaria de otra tabla**, creando una relación entre ellas.
 

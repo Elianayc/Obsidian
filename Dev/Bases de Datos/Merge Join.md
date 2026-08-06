@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 El motor ordena ambas tablas según la clave del join y luego las recorre simultáneamente comparando los valores.
 

@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 Son los métodos que utiliza el motor de base de datos para acceder a los datos de las tablas durante la ejecución de una consulta.
 

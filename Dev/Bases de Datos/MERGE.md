@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Se utiliza para combinar operaciones de inserción, actualización o eliminación según si el registro existe o no.
 

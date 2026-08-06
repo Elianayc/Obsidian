@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 SQL (Structured Query Language) es un lenguaje de consulta estructurado utilizado para comunicarse con bases de datos.
 

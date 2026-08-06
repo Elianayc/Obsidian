@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI2doparcial
-  - DB
+  - 
+  
 ---
 El estándar SQL define **4 niveles de aislamiento** de transacciones:
 

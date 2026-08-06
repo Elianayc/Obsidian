@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 #### Gestor de almacenamiento
 Administra el almacenamiento físico de los datos.  

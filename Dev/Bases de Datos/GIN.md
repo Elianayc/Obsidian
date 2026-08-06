@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 ## Generalized Inverted Index
 - Ideal para datos con muchos duplicados

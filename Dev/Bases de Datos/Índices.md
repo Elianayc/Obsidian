@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Un **índice** es una estructura que **mejora la velocidad de búsqueda de datos** en una tabla, copiando valores de uno o más campos.
 

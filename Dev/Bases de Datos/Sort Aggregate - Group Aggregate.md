@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 El motor primero ordena los datos y luego agrupa los registros consecutivos.
 

@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 El motor recorre una tabla y, para cada fila encontrada, busca coincidencias en la otra tabla.
 

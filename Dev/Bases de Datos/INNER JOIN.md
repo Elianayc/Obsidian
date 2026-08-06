@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 # INNER JOIN
 Devuelve solo coincidencias en ambas tablas.

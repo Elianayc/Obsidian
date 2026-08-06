@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Se utiliza para iniciar una transacción, agrupando varias operaciones como una unidad lógica.
 

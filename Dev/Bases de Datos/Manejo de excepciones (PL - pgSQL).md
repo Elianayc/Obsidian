@@ -1,7 +1,5 @@
 ---
 tags:
-  - DB
-  - DBI2doparcial
 ---
 
 PostgreSQL permite manejar errores dentro de las funciones mediante la instrucción `RAISE`.

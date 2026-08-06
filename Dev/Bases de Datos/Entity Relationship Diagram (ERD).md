@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Un ERD es un diagrama que representa:
 - **Entidad (tablas)**

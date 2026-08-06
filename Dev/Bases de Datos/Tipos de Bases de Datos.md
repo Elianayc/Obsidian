@@ -1,7 +1,7 @@
 ---
 tags:
-  - DBI1erparcial
-  - DB
+  - 
+  
 ---
 Cuando se diseña y desarrolla una aplicación, el objetivo principal es proveer una interfaz amigable para el usuario final. Los requerimientos de la aplicación definen restricciones que determinan el tipo de base de datos a utilizar.
 
