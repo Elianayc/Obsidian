@@ -5,7 +5,7 @@ El **desarrollo web** es la disciplina dedicada al diseño, construcción, mante
 
 - [[HTML]]: estructura y contenido de las páginas web.
 - [[CSS]]: presentación y diseño visual.
-- [[JavaScript]]: comportamiento e interactividad.
+- [[JavaScript]] / [[Typescript]]: comportamiento e interactividad.
 
 Estas tecnologías trabajan de manera complementaria para construir interfaces modernas, interactivas y atractivas.
 

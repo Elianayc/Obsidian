@@ -35,7 +35,7 @@ class Inmueble {
 
 ---
 
-[[readonly en TypeScript]]
+[[Readonly en TypeScript]]
 
 
 
