@@ -30,6 +30,6 @@ Un desarrollador Front-end debe ser capaz de crear interfaces:
 
 ---
 
-- ### [[Front-end Web]]
+- ### [[Desarrollo Web]]
 
 ---

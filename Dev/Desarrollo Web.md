@@ -1,10 +1,11 @@
-# Front-end Web
 
-En el desarrollo Front-end web existen tres tecnologías fundamentales:
+El **desarrollo web** es la disciplina dedicada al diseño, construcción, mantenimiento y funcionamiento de sitios y aplicaciones web accesibles a través de Internet.
 
-1. **[[HTML]]**
-2. **[[CSS]]**
-3. **[[JavaScript]]**
+## Tecnologías principales
+
+- [[HTML]]: estructura y contenido de las páginas web.
+- [[CSS]]: presentación y diseño visual.
+- [[JavaScript]]: comportamiento e interactividad.
 
 Estas tecnologías trabajan de manera complementaria para construir interfaces modernas, interactivas y atractivas.
 
@@ -28,3 +29,8 @@ Un botón en una página web:
 - **HTML** crea el botón.
 - **CSS** define su apariencia.
 - **JavaScript** establece qué ocurre cuando el usuario hace clic.
+
+---
+
+#Programación 
+#ProgramaciónIII 
