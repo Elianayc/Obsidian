@@ -3,7 +3,7 @@ El **desarrollo web** es la disciplina dedicada al diseño, construcción, mante
 
 ## Tecnologías principales
 
-- [[HTML]]: estructura y contenido de las páginas web.
+- [[HTML (HyperText Markup Language)]]: estructura y contenido de las páginas web.
 - [[CSS]]: presentación y diseño visual.
 - [[JavaScript]] / [[Typescript]]: comportamiento e interactividad.
 
