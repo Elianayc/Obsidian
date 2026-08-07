@@ -2,9 +2,9 @@
   "obsidian-excalidraw-plugin",
   "obsidian-style-settings",
   "obsidian-git",
-  "node-factor",
   "persistent-graph",
   "quick-tagger",
   "multi-tag",
-  "tag-wrangler"
+  "tag-wrangler",
+  "node-factor"
 ]
