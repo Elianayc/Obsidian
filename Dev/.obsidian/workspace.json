@@ -79,13 +79,11 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 304.5,
-    "collapsed": true
+    "width": 304.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -287,7 +285,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a744f6baa0eb5d3",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
     "Programación/Elementos contenedores HTML.md",
     "Programación/HTML5.md",
