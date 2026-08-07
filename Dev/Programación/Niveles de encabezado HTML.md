@@ -1,4 +1,3 @@
-# Niveles de encabezado
 Los encabezados HTML no representan solamente un cambio visual de tamaño o negrita.
 
 Los niveles de encabezado representan una **jerarquía dentro del documento**.
