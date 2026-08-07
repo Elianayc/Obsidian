@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dde93704ee5587eb",
+        "id": "28a927a93995ec47",
         "type": "tabs",
         "children": [
           {
-            "id": "60ede7b45fd0246a",
+            "id": "6a744f6baa0eb5d3",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -282,8 +282,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "60ede7b45fd0246a",
+  "active": "6a744f6baa0eb5d3",
   "lastOpenFiles": [
+    "Backend.md",
     "Frontend.md",
     "Desarrollo Web.md",
     "Typescript.md",
@@ -303,7 +304,6 @@
     "Programación/Máquina (binario).md",
     "Arquitectura de Sistemas/Modelo Frontend y Backend.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-    "Backend.md",
     "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
     "Imágenes/Pasted image 20260806144539.png",
     "Imágenes/Pasted image 20260806144602.png",

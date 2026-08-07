@@ -10,11 +10,11 @@ Se encuentra detrás de la interfaz y contiene la lógica necesaria para gestion
 - Garantizar la seguridad de la información.
 
 **Puede estar desarrollado con tecnologías como**:
-- C# / .NET.
-- Java.
-- Node.js.
-- Python.
-- PHP.
+- [[C#]] / [[.NET]].
+- [[Java]].
+- [[Node.js]].
+- [[Python]].
+- [[PHP]].
 
 **Ejemplo**:
 Cuando el usuario inicia sesión, el Backend verifica las credenciales contra la base de datos y devuelve el resultado al Frontend.
