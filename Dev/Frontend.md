@@ -1,18 +1,23 @@
-# Introducción al desarrollo Front-end
+El **Frontend** es la capa de la aplicación encargada de la interacción directa con el usuario.
 
-## ¿Qué es el Front-end?
+Su función es presentar la información y permitir que el usuario pueda comunicarse con el sistema mediante una interfaz gráfica.
 
-El **Front-end** es la parte del desarrollo de software encargada de construir la interfaz con la que interactúa el usuario.
+**Se ocupa de**:
+- Mostrar información al usuario.
+- Capturar acciones e ingresar datos.
+- Validar información del lado del cliente.
+- Actualizar la interfaz según las acciones realizadas.
 
-Su objetivo es crear la capa visual y funcional de una aplicación, permitiendo que los usuarios puedan comunicarse con el sistema mediante elementos gráficos, controles e interacciones.
+En aplicaciones web, el Frontend se ejecuta principalmente en el navegador y utiliza tecnologías como:
 
-Aunque suele asociarse principalmente al desarrollo web, el Front-end también está presente en aplicaciones móviles y de escritorio.
+- **HTML** → estructura de la interfaz.
+- **CSS** → diseño y presentación visual.
+- **JavaScript / TypeScript** → comportamiento e interacción.
+- Frameworks como Angular, React o Vue.
 
-**El Front-end funciona como un puente entre**:
+**Ejemplo**:
+Un formulario de inicio de sesión donde el usuario ingresa correo y contraseña pertenece al Frontend.
 
-- El diseño visual de una aplicación.
-- La experiencia del usuario.
-- La lógica y funcionalidad que permite la interacción con el sistema.
 
 ---
 
@@ -21,7 +26,6 @@ Aunque suele asociarse principalmente al desarrollo web, el Front-end también e
 El dominio de las tecnologías Front-end permite desarrollar aplicaciones modernas centradas en la experiencia del usuario.
 
 Un desarrollador Front-end debe ser capaz de crear interfaces:
-
 - Funcionales.
 - Accesibles.
 - Responsivas.
