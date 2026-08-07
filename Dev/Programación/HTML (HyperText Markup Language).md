@@ -8,37 +8,47 @@ HTML no es un lenguaje de programación, sino un **lenguaje de marcado**, ya que
 ---
 
 ## Función principal
-Define la **estructura y el contenido** de una página web.
 
-HTML funciona como el **esqueleto** de una aplicación web, organizando los diferentes elementos que forman la interfaz.
+Define la **estructura y organización del contenido** de un documento web.
 
-**Permite crear**:
-- Títulos.
-- Párrafos.
-- Imágenes.
-- Enlaces.
-- Formularios.
-- Secciones de contenido.
-- Componentes estructurales.
+HTML es un lenguaje de marcado que permite que los navegadores interpreten una estructura formada por identificadores llamados **etiquetas**, generando como resultado un documento web.
 
-HTML proporciona la base sobre la cual se aplican los estilos y comportamientos de la aplicación.
+HTML funciona como la base estructural de una página, organizando sus diferentes elementos.
 
 ---
 
 ## Concepto de hipertexto
 
-El término **hipertexto** hace referencia a la capacidad de un documento HTML de relacionarse con otros contenidos mediante enlaces.
+El concepto de **hipertexto** hace referencia a las características que permiten relacionar un documento con otros contenidos.
 
-Aunque visualmente una página pueda parecer un documento simple, internamente está formada por instrucciones que permiten:
+Aunque una página web pueda verse como un documento simple para el usuario, internamente está formada por instrucciones que permiten agregar funcionalidades como:
 
-- Navegar dentro del mismo documento.
-- Acceder a otros documentos web.
-- Crear vínculos entre diferentes recursos.
+- Navegación dentro del mismo documento.
+- Enlaces hacia otros documentos web.
+- Vinculación entre diferentes recursos.
+
+---
+
+## Etiquetas HTML
+
+Las etiquetas HTML son identificadores que permiten definir la estructura del documento.
+
+Se escriben utilizando **corchetes angulares**:
+`<etiqueta>`
+
+Generalmente deben utilizarse en pares:
+`<etiqueta>Contenido</etiqueta>`
+
+Este mecanismo permite:
+- Delimitar cadenas de texto.
+- Contener otros elementos.
+- Crear estructuras anidadas.
+- Formar jerarquías dentro del documento.
 
 ---
 
 ## Elementos HTML
-Un par de etiquetas HTML de apertura y cierre forman un **elemento HTML**.
+Cada par de etiquetas se conoce como un **elemento HTML**.
 
 Los elementos pueden contener:
 - Texto.
@@ -48,16 +58,17 @@ Los elementos pueden contener:
 **Ejemplo**:
 ```html
 <h1>Título principal</h1>
-````
+```
 
 En este caso:
-- `<h1>` es la etiqueta de apertura.
+- `<h1>` indica que el contenido es un encabezado.
 - `Título principal` es el contenido del elemento.
-- `</h1>` es la etiqueta de cierre.
+- `</h1>` indica el cierre del elemento.
 
 ---
 
 ## Anidamiento y jerarquía
+
 HTML permite colocar elementos dentro de otros elementos, formando una estructura jerárquica.
 
 **Ejemplo**:
@@ -67,70 +78,43 @@ HTML permite colocar elementos dentro de otros elementos, formando una estructur
 </div>
 ```
 
-En este caso, el elemento `<p>` se encuentra dentro del elemento `<div>`.
+En este caso, el elemento `<p>` está contenido dentro del elemento `<div>`.
 
-Esta organización permite construir la estructura del documento web y representar la relación entre sus diferentes partes.
+Esta posibilidad permite crear subestructuras dentro del documento web.
 
 ---
 
 ## Atributos HTML
-Los elementos HTML pueden incluir **atributos**, que agregan información adicional o modifican ciertas características del elemento.
+Los elementos HTML suelen presentar **atributos**, que agregan características adicionales al elemento.
 
-**Ejemplo**:
-```html
-<a href="https://www.google.com">Ir a Google</a>
-```
+Los atributos son interpretados por el navegador y pueden afectar aspectos como:
+- Posición.
+- Tamaño.
+- Visibilidad.
+- Comportamiento del elemento.
 
-El atributo `href` indica la dirección a la que apunta el enlace.
-
-Los atributos pueden definir:
-- Identificación de elementos.
-- Comportamiento.
-- Relación con otros recursos.
-- Características del elemento.
+El modo en que un atributo modifica un elemento depende del tipo de etiqueta utilizada.
 
 ---
 
 ## HTML y la presentación visual
-Aunque algunas etiquetas pueden influir en la apariencia del contenido, el objetivo principal de HTML es **estructurar la información**.
+Aunque existen etiquetas que pueden modificar ciertos aspectos visuales, el objetivo principal de HTML es **estructurar los datos**.
 
-La presentación visual debe realizarse principalmente mediante **CSS**.
+El uso correcto de las etiquetas permite que otras tecnologías, como CSS, puedan disponer de las distintas partes del documento HTML sin generar efectos indeseados.
 
-Una correcta estructura HTML permite que otras tecnologías puedan acceder y modificar diferentes partes del documento de manera organizada.
+Por ejemplo, es posible indicarle a HTML que una cadena de texto representa un encabezado mediante la etiqueta correspondiente.
 
-Ejemplo:
-```html
-<h1>Mi título</h1>
-```
+Esto no solo modifica su apariencia, sino que también le da un significado dentro de la estructura del documento.
 
-HTML indica que el texto representa un encabezado.
-
-Luego CSS puede modificar:
-- Color.
-- Tamaño.
-- Tipografía.
-- Posición.
-
----
-
-## Importancia del uso correcto de etiquetas
-Utilizar las etiquetas adecuadas permite que el documento tenga una estructura semántica correcta.
-
-Por ejemplo, un texto que visualmente parece un título pero que no está definido con una etiqueta de encabezado (`<h1>`, `<h2>`, etc.) no será reconocido correctamente como un encabezado por otras herramientas.
-
-Esto afecta:
-- Accesibilidad.
-- Organización del documento.
-- Mantenimiento del código.
-- Interpretación por parte de navegadores y herramientas externas.
+Si un texto solamente tiene apariencia de encabezado pero no fue definido como tal mediante una etiqueta, otras herramientas no podrán identificarlo correctamente.
 
 ---
 
 ## Estructura básica de un documento HTML
-Un documento HTML posee una estructura jerárquica donde se incluyen el contenido y las diferentes etiquetas que forman la página.
+Un documento HTML básico presenta una estructura jerárquica donde pueden escribirse textos y anidarse otras etiquetas.
 
 **Ejemplo**:
-```
+```html
 <!DOCTYPE html>
 <html>
 
@@ -139,7 +123,7 @@ Un documento HTML posee una estructura jerárquica donde se incluyen el contenid
 </head>
 
 <body>
-    Aquí se escribe texto y se agregan otras etiquetas.
+    Aquí se escribe texto y/o se anidan otras etiquetas.
 </body>
 
 </html>
@@ -151,13 +135,13 @@ Un documento HTML posee una estructura jerárquica donde se incluyen el contenid
 
 |Concepto|Función|
 |---|---|
-|**HTML**|Define la estructura y contenido de una página web|
-|**Etiquetas**|Indican la función de cada elemento|
-|**Elementos**|Son conjuntos formados por etiquetas y contenido|
-|**Atributos**|Agregan información adicional a los elementos|
-|**CSS**|Define la presentación visual|
-|**JavaScript**|Agrega comportamiento e interacción|
+|**HTML**|Define la estructura de un documento web|
+|**Etiquetas**|Identifican y organizan los elementos del documento|
+|**Elementos**|Formados por etiquetas y contenido|
+|**Atributos**|Agregan características adicionales a los elementos|
+|**Anidamiento**|Permite crear estructuras jerárquicas|
 
 ---
-#Programación 
-#ProgramaciónIII 
+
+#Programación  
+#ProgramaciónIII
