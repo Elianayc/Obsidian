@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1b97d81fc4c6b72f",
+        "id": "f44eeb61dcfe7058",
         "type": "tabs",
         "children": [
           {
-            "id": "45ad300c5d51e0a9",
+            "id": "1a28dc7df7427b34",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Redes/Internet.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Internet"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -279,8 +275,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "45ad300c5d51e0a9",
+  "active": "1a28dc7df7427b34",
   "lastOpenFiles": [
+    "Redes/Internet.md",
     "Programación/Enlaces HTML.md",
     "Programación/Elementos contenedores HTML.md",
     "Programación/Elementos HTML.md",
@@ -313,7 +310,6 @@
     "Imágenes/Pasted image 20260804140519.png",
     "Imágenes/Pasted image 20260804140456.png",
     "Imágenes/Pasted image 20260804140435.png",
-    "Redes/Internet.md",
     "Programación/Programación.md",
     "Programación/Lenguajes de Programación.md",
     "CSS.md",
