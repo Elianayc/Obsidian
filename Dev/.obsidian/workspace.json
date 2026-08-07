@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f44eeb61dcfe7058",
+        "id": "f6818f9cf89fc04f",
         "type": "tabs",
         "children": [
           {
-            "id": "1a28dc7df7427b34",
+            "id": "f022146093bfc30e",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Redes",
+                "query": "net",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -72,7 +72,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -275,8 +276,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1a28dc7df7427b34",
+  "active": "f022146093bfc30e",
   "lastOpenFiles": [
+    "Programación/Backend.md",
+    "puntoNET.md",
+    "PHP.md",
+    "Node.js.md",
+    "Programación/Niveles de encabezado HTML.md",
     "Redes/Internet.md",
     "Programación/Enlaces HTML.md",
     "Programación/Elementos contenedores HTML.md",
@@ -285,7 +291,6 @@
     "Programación/Concepto de hipertexto.md",
     "Programación/CSS.md",
     "Programación/Botones de un formulario HTML.md",
-    "Programación/Backend.md",
     "Programación/Atributos principales de un formulario HTML.md",
     "Programación/Atributos de las etiquetas.md",
     "Programación/Atributos HTML.md",
@@ -306,13 +311,9 @@
     "Redes/DNS.md",
     "Redes/URI.md",
     "Redes/URN.md",
-    "Redes/URL.md",
     "Imágenes/Pasted image 20260804140519.png",
     "Imágenes/Pasted image 20260804140456.png",
     "Imágenes/Pasted image 20260804140435.png",
-    "Programación/Programación.md",
-    "Programación/Lenguajes de Programación.md",
-    "CSS.md",
     "TCP",
     "Redes",
     "Metodología de Sistemas",
