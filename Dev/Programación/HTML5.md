@@ -11,6 +11,8 @@ HTML5 incorpora etiquetas semánticas que permiten describir mejor la estructura
 
 A diferencia de los elementos contenedores tradicionales como `<div>`, estas etiquetas indican qué tipo de contenido contienen.
 
+![[Pasted image 20260807160335.png]]
+
 ---
 
 ## `<section>`
