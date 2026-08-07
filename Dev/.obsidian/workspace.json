@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/HTML (HyperText Markup Language).md",
+                "file": "HTML5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTML (HyperText Markup Language)"
+              "title": "HTML5"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "html",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5,
-    "collapsed": true
+    "width": 304.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -207,7 +206,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programación/HTML (HyperText Markup Language).md",
+                "file": "HTML5.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -289,28 +288,33 @@
   },
   "active": "6a744f6baa0eb5d3",
   "lastOpenFiles": [
-    "Pasted image 20260807152803.png",
-    "Desarrollo Web.md",
-    "Frontend.md",
-    "Arquitectura de Sistemas/Modelo Frontend y Backend.md",
-    "Backend.md",
-    "Typescript.md",
     "Programación/HTML (HyperText Markup Language).md",
-    "CSS.md",
-    "JavaScript.md",
+    "HTML5.md",
+    "Programación/Uso del signo barra.md",
+    "Programación/Typescript.md",
+    "Programación/Tipos de elementos HTML.md",
+    "Programación/JavaScript.md",
+    "Programación/HTML y la presentación visual.md",
+    "Programación/Frontend.md",
+    "Programación/Etiquetas HTML.md",
+    "Programación/Etiquetas abiertas y cerradas.md",
+    "Programación/Estructura básica de un documento HTML.md",
+    "Programación/Elementos HTML.md",
+    "Programación/Elementos contenedores.md",
+    "Programación/Desarrollo Web.md",
+    "Programación/CSS.md",
+    "Programación/Concepto de hipertexto.md",
+    "Programación/Backend.md",
+    "Programación/Atributos HTML.md",
+    "Programación/Atributos de las etiquetas.md",
+    "Programación/Anidamiento y jerarquía.md",
+    "Imágenes/Pasted image 20260807152803.png",
+    "Programación/Niveles de encabezado.md",
+    "Arquitectura de Sistemas/Modelo Frontend y Backend.md",
     "Programación/Readonly en TypeScript.md",
     "Programación/Alto nivel.md",
     "Programación/C Sharp.md",
     "Programación/Desarrollo Web.md",
-    "Programación/Lenguajes de Programación.md",
-    "Programación/Fundamentos de la Programación.md",
-    "Programación/Tipos de instrucciones.md",
-    "Programación/Constante.md",
-    "Programación/Niveles de abstracción.md",
-    "Programación/Bajo nivel.md",
-    "Programación/Máquina (binario).md",
-    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-    "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
     "Imágenes/Pasted image 20260806144539.png",
     "Imágenes/Pasted image 20260806144602.png",
     "Imágenes/Pasted image 20260806144622.png",
@@ -318,13 +322,8 @@
     "Imágenes/Pasted image 20260806144723.png",
     "Imágenes/Pasted image 20260806144800.png",
     "Pasted image 20260806144534.png",
-    "Bases de Datos/JOIN.md",
-    "Bases de Datos/RIGHT JOIN.md",
-    "Bases de Datos/LEFT JOIN.md",
-    "Bases de Datos/INNER JOIN.md",
     "Imágenes/Tipos de relaciones ERD.png",
     "Imágenes/Pasted image 20260804140519.png",
-    "Imágenes/Pasted image 20260804140456.png",
     "TCP",
     "Redes",
     "Metodología de Sistemas",
