@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f6818f9cf89fc04f",
+        "id": "8370375b68f63519",
         "type": "tabs",
         "children": [
           {
-            "id": "f022146093bfc30e",
+            "id": "4f87eb64b9971b6e",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -51,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "net",
+                "query": "tag:#ProgramaciónIII",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -72,8 +72,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -276,12 +275,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f022146093bfc30e",
+  "active": "4f87eb64b9971b6e",
   "lastOpenFiles": [
+    "Programación/Node.js.md",
+    "Programación/Procesamiento.md",
     "Programación/Backend.md",
-    "puntoNET.md",
-    "PHP.md",
-    "Node.js.md",
+    "Programación/puntoNET.md",
+    "Programación/PHP.md",
     "Programación/Niveles de encabezado HTML.md",
     "Redes/Internet.md",
     "Programación/Enlaces HTML.md",
@@ -310,7 +310,6 @@
     "Redes/Protocolos.md",
     "Redes/DNS.md",
     "Redes/URI.md",
-    "Redes/URN.md",
     "Imágenes/Pasted image 20260804140519.png",
     "Imágenes/Pasted image 20260804140456.png",
     "Imágenes/Pasted image 20260804140435.png",
