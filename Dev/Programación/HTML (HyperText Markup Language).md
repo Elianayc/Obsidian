@@ -50,6 +50,8 @@ Este mecanismo permite:
 ## Elementos HTML
 Cada par de etiquetas se conoce como un **elemento HTML**.
 
+![[Pasted image 20260807152803.png]]
+
 Los elementos pueden contener:
 - Texto.
 - Otros elementos HTML.
