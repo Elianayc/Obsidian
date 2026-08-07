@@ -2,110 +2,34 @@
 
 ## ¿Qué es el Front-end?
 
-El **desarrollo Front-end** es la parte del desarrollo web encargada de crear la interfaz con la que los usuarios interactúan directamente.
+El **Front-end** es la parte del desarrollo de software encargada de construir la interfaz con la que interactúa el usuario.
 
-Su objetivo es transformar un diseño conceptual en una experiencia digital funcional, permitiendo que los usuarios puedan navegar e interactuar con sitios web y aplicaciones.
+Su objetivo es crear la capa visual y funcional de una aplicación, permitiendo que los usuarios puedan comunicarse con el sistema mediante elementos gráficos, controles e interacciones.
 
-El Front-end funciona como un puente entre:
+Aunque suele asociarse principalmente al desarrollo web, el Front-end también está presente en aplicaciones móviles y de escritorio.
+
+**El Front-end funciona como un puente entre**:
+
 - El diseño visual de una aplicación.
 - La experiencia del usuario.
-- La funcionalidad que se ejecuta en el navegador.
-
----
-
-# Componentes fundamentales del Front-end
-
-El desarrollo Front-end se basa principalmente en tres tecnologías:
-
-1. **HTML**
-2. **CSS**
-3. **JavaScript**
-
-Estas tecnologías trabajan juntas para construir sitios web modernos, interactivos y atractivos.
-
----
-
-## HTML (HyperText Markup Language)
-
-### Función principal:
-Define la **estructura y el contenido** de una página web.
-
-HTML funciona como el **esqueleto** del sitio, organizando los elementos que forman la página.
-
-Permite crear:
-- Títulos.
-- Párrafos.
-- Imágenes.
-- Enlaces.
-- Formularios.
-- Secciones de contenido.
-
-Sin HTML no existe una estructura sobre la cual aplicar diseño o comportamiento.
-
----
-
-## CSS (Cascading Style Sheets)
-
-### Función principal:
-Define la **apariencia visual y presentación** de una página web.
-
-Mientras HTML establece la estructura, CSS se encarga de cómo se ve esa estructura.
-
-Permite controlar:
-
-- Colores.
-- Tipografías.
-- Espaciados.
-- Distribución de elementos.
-- Diseños responsivos.
-- Animaciones.
-
-CSS transforma una página básica en una experiencia visual atractiva y profesional.
-
----
-
-## JavaScript
-
-### Función principal:
-Agrega **interactividad y comportamiento dinámico** a una página web.
-
-JavaScript permite que una aplicación responda a las acciones del usuario y pueda modificar su contenido en tiempo real.
-
-Permite:
-
-- Responder a eventos del usuario.
-- Validar formularios.
-- Modificar elementos de la página dinámicamente.
-- Comunicarse con servidores.
-- Crear interfaces complejas e interactivas.
-
----
-
-# Sinergia entre HTML, CSS y JavaScript
-
-Las tres tecnologías trabajan de manera complementaria:
-
-| Tecnología | Función |
-|---|---|
-| **HTML** | Define el contenido y la estructura |
-| **CSS** | Define el diseño y la presentación visual |
-| **JavaScript** | Agrega comportamiento e interacción |
-
-Ejemplo:
-
-- HTML crea un botón.
-- CSS le da estilo.
-- JavaScript define qué sucede cuando el usuario hace clic.
+- La lógica y funcionalidad que permite la interacción con el sistema.
 
 ---
 
 # Importancia del Front-end
 
-Dominar HTML, CSS y JavaScript es fundamental para desarrollar aplicaciones web modernas.
+El dominio de las tecnologías Front-end permite desarrollar aplicaciones modernas centradas en la experiencia del usuario.
 
-Un desarrollador Front-end debe ser capaz de crear experiencias:
+Un desarrollador Front-end debe ser capaz de crear interfaces:
 
 - Funcionales.
 - Accesibles.
 - Responsivas.
+- Intuitivas.
 - Atractivas para el usuario.
+
+---
+
+- ### [[Front-end Web]]
+
+---
