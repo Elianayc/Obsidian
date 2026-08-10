@@ -18,20 +18,34 @@
       "query": "tag:#BasesdeDatos  ",
       "color": {
         "a": 1,
-        "rgb": 14069084
+        "rgb": 15518677
+      }
+    },
+    {
+      "query": "tag:#Programación  ",
+      "color": {
+        "a": 1,
+        "rgb": 11134698
+      }
+    },
+    {
+      "query": "tag:#Redes  ",
+      "color": {
+        "a": 1,
+        "rgb": 13028079
       }
     }
   ],
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -0.5,
-  "nodeSizeMultiplier": 1.2565912393606,
-  "lineSizeMultiplier": 1.40693641618497,
+  "nodeSizeMultiplier": 1.81979515262144,
+  "lineSizeMultiplier": 2.60712166172107,
   "collapse-forces": false,
-  "centerStrength": 1,
-  "repelStrength": 10,
+  "centerStrength": 0.703578947368421,
+  "repelStrength": 12.0488379565171,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.3213363860503554,
+  "linkDistance": 30,
+  "scale": 0.8854989543150161,
   "close": false
 }

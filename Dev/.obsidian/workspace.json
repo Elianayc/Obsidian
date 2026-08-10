@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8370375b68f63519",
+        "id": "a718b1cc123ff0d7",
         "type": "tabs",
         "children": [
           {
-            "id": "4f87eb64b9971b6e",
+            "id": "705abf48740c2bfe",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -275,18 +275,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4f87eb64b9971b6e",
+  "active": "705abf48740c2bfe",
   "lastOpenFiles": [
+    "Arquitectura de Sistemas/Persistencia de datos.md",
+    "Programación/Backend.md",
+    "Arquitectura de Sistemas/Scrum.md",
+    "Programación/Elementos HTML.md",
+    "Arquitectura de Sistemas/Diagrama de Flujo de Datos (DFD).md",
+    "Bases de Datos/2FN.md",
     "Programación/Node.js.md",
     "Programación/Procesamiento.md",
-    "Programación/Backend.md",
     "Programación/puntoNET.md",
     "Programación/PHP.md",
     "Programación/Niveles de encabezado HTML.md",
     "Redes/Internet.md",
     "Programación/Enlaces HTML.md",
     "Programación/Elementos contenedores HTML.md",
-    "Programación/Elementos HTML.md",
     "Programación/Controles de formulario HTML.md",
     "Programación/Concepto de hipertexto.md",
     "Programación/CSS.md",
@@ -306,10 +310,6 @@
     "Redes/Estructura de una petición HTTP.md",
     "Redes/Peticiones HTTP (Requests).md",
     "Redes/TCP - IP.md",
-    "Redes/Ciclo de vida de una petición web.md",
-    "Redes/Protocolos.md",
-    "Redes/DNS.md",
-    "Redes/URI.md",
     "Imágenes/Pasted image 20260804140519.png",
     "Imágenes/Pasted image 20260804140456.png",
     "Imágenes/Pasted image 20260804140435.png",
