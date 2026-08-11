@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5,
-    "collapsed": true
+    "width": 281.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -279,7 +278,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 317.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -294,8 +293,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a130ab169b97052f",
+  "active": "7bd47dfe0205fe85",
   "lastOpenFiles": [
+    "Arquitectura de Sistemas/Burndown Charts.md",
+    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
+    "Arq. de Sistemas.pdf.md",
+    "Programación/CSS.md",
+    "Programación/Desarrollo Web.md",
+    "Programación/HTML (HyperText Markup Language).md",
+    "Programación/Formularios HTML.md",
+    "Programación/Botones de un formulario HTML.md",
+    "Arquitectura de Sistemas/Modelos de Ciclo de Vida.md",
+    "Arquitectura de Sistemas/Modelo Ágil de Software.md",
+    "Arquitectura de Sistemas/Modelo en Cascada.md",
+    "Arquitectura de Sistemas/Ciclo de Vida del Desarrollo de Software (SDLC).md",
+    "Arquitectura de Sistemas/Etapas del SDLC.md",
+    "Arquitectura de Sistemas/Metodología de Sistemas.md",
+    "Redes/Modelo Cliente - Servidor.md",
     "Redes/Ciclo de vida de una petición web.md",
     "Redes/Body.md",
     "Modelado de Sistemas/UML.md",
@@ -307,21 +321,6 @@
     "Modelado de Sistemas/Diagramas de actividad.md",
     "Modelado de Sistemas/Diagrama de flujo.md",
     "Arquitectura de Sistemas/Sprint Review.md",
-    "Arquitectura de Sistemas/Sprint Retrospective.md",
-    "Arquitectura de Sistemas/Sprint Planning.md",
-    "Arquitectura de Sistemas/Sprint Backlog.md",
-    "Arquitectura de Sistemas/Scrum Master.md",
-    "Arquitectura de Sistemas/Scrum.md",
-    "Arquitectura de Sistemas/Product Owner.md",
-    "Arquitectura de Sistemas/Product Backlog.md",
-    "Arquitectura de Sistemas/Persistencia de datos.md",
-    "Arquitectura de Sistemas/Paquetes.md",
-    "Arquitectura de Sistemas/Modelos de Ciclo de Vida.md",
-    "Arquitectura de Sistemas/Modelo Frontend y Backend.md",
-    "Arquitectura de Sistemas/Modelo en Cascada.md",
-    "Arquitectura de Sistemas/Modelo Ágil de Software.md",
-    "Arquitectura de Sistemas/Modelado y Gestión de Datos.md",
-    "Arquitectura de Sistemas/Metodología de Sistemas.md",
     "Sin título.base",
     "Modelado de Sistemas",
     "Programación/Pasted image 20260807160335.png",
