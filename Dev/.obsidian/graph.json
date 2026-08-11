@@ -3,7 +3,7 @@
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
@@ -22,17 +22,10 @@
       }
     },
     {
-      "query": "tag:#Programación  ",
-      "color": {
-        "a": 1,
-        "rgb": 13028079
-      }
-    },
-    {
       "query": "tag:#Redes  ",
       "color": {
         "a": 1,
-        "rgb": 12575445
+        "rgb": 14801845
       }
     },
     {
@@ -40,6 +33,27 @@
       "color": {
         "a": 1,
         "rgb": 11134698
+      }
+    },
+    {
+      "query": "tag:#ProgramaciónI  ",
+      "color": {
+        "a": 1,
+        "rgb": 13028079
+      }
+    },
+    {
+      "query": "tag:#ProgramaciónII  ",
+      "color": {
+        "a": 1,
+        "rgb": 13028079
+      }
+    },
+    {
+      "query": "tag:#ProgramaciónIII  ",
+      "color": {
+        "a": 1,
+        "rgb": 12575445
       }
     }
   ],
@@ -53,6 +67,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.11660891579456949,
+  "scale": 0.22920135941748565,
   "close": true
 }
