@@ -1,5 +1,3 @@
-## SMTP (Simple Mail Transfer Protocol)
-
 Protocolo utilizado para el **envío de correos electrónicos**.
 
 Se encarga de enviar mensajes:

@@ -1,5 +1,3 @@
-# Atributos principales de un formulario
-
 Un formulario requiere principalmente tres atributos:
 
 ---

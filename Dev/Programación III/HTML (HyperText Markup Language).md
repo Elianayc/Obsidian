@@ -1,4 +1,3 @@
-
 **HTML** es un lenguaje de marcado utilizado para definir la **estructura y organización del contenido de una página web**.
 
 Fue creado bajo la especificación de la **W3C (World Wide Web Consortium)** y permite que los navegadores interpreten una estructura formada por identificadores llamados **etiquetas (tags)** para generar un documento web.

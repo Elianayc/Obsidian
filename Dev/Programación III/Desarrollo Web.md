@@ -1,4 +1,3 @@
-
 El **desarrollo web** es la disciplina dedicada al diseño, construcción, mantenimiento y funcionamiento de sitios y aplicaciones web accesibles a través de Internet.
 
 ## Tecnologías principales

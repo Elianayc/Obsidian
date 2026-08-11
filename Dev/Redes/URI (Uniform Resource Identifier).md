@@ -1,5 +1,3 @@
-
-## URI (Uniform Resource Identifier)
 Una **URI** es una cadena de caracteres que permite **identificar un recurso de forma única**.
 
 ---
@@ -30,13 +28,13 @@ Una **URI** es una cadena de caracteres que permite **identificar un recurso de 
 ---
 ### Tipos de URI
 
-- **[[URL]] (Uniform Resource Locator)**
+- **[[URL (Uniform Resource Locator)]] (Uniform Resource Locator)**
 
 ![[Pasted image 20260804140456.png]]
 ![[Pasted image 20260804140435.png]]
 ![[Pasted image 20260804140519.png]]
 
-- **[[URN]] (Uniform Resource Name)**
+- **[[URN (Uniform Resource Name)]] (Uniform Resource Name)**
 
 ---
 #ProgramaciónIII

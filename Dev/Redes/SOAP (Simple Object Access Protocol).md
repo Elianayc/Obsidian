@@ -1,5 +1,3 @@
-## SOAP (Simple Object Access Protocol)
-
 Protocolo que permite la comunicación entre sistemas mediante el intercambio de mensajes en formato **XML**.
 
 Características:

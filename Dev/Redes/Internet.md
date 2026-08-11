@@ -27,9 +27,7 @@ Internet es una **red mundial de redes interconectadas** que permite la comunica
 Internet funciona gracias a una combinación de **infraestructura, protocolos y servicios**.
 
 - **Infraestructura:** es la red mundial de dispositivos y conexiones que permite la comunicación entre equipos.
-
 - **[[Protocolos]]:** son reglas que permiten que los dispositivos intercambien información. 
-
 - **[[World Wide Web (WWW)]]:** es un servicio que funciona sobre Internet y permite acceder a páginas y recursos web mediante protocolos como HTTP.
 
 ---

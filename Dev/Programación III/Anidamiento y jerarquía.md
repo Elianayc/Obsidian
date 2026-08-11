@@ -1,5 +1,3 @@
-## Anidamiento y jerarquía
-
 HTML permite colocar elementos dentro de otros elementos, formando una estructura jerárquica.
 
 **Ejemplo**:
