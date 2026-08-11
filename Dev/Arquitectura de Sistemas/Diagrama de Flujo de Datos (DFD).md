@@ -1,6 +1,5 @@
 ---
 tags:
-  - ArquitecturadeSistemas
 ---
 El **Diagrama de Flujo de Datos (DFD)** es una técnica de análisis estructurado que permite ensamblar una representación gráfica de los procesos de datos a lo largo de una organización. 
 

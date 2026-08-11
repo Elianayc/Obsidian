@@ -1,6 +1,5 @@
 ---
 tags:
-  - Modeladodesistemas
 ---
 #### Unified Modeling Language
 Lenguaje estándar de modelado visual utilizado para **describir, diseñar y documentar sistemas de software** mediante distintos tipos de diagramas.
@@ -24,4 +23,5 @@ Se utiliza principalmente durante el **análisis, diseño y documentación** del
     Representan flujos de trabajo o procesos del sistema mediante actividades y decisiones.
 
 ---
-#ArquitecturadeSistemas
+
+#ModeladodeSistemas

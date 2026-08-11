@@ -1,6 +1,5 @@
 ---
 tags:
-  - ArquitecturadeSistemas
 ---
 Facilita el trabajo del equipo y elimina obstáculos.
 

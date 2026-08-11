@@ -1,6 +1,5 @@
 ---
 tags:
-  - Arquitecturadesistemas
 ---
 Mecanismos que permiten la comunicación entre distintos sistemas o componentes de software.
 

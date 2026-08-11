@@ -1,6 +1,5 @@
 ---
 tags:
-  - ArquitecturadeSistemas
 ---
 Equipo multidisciplinario encargado de construir el producto.
 
@@ -14,4 +13,5 @@ Equipo multidisciplinario encargado de construir el producto.
 - Equipos autoorganizados.
 - Generalmente entre 3 y 9 personas.
 - Entregan incrementos funcionales de software.
+
 #ArquitecturadeSistemas

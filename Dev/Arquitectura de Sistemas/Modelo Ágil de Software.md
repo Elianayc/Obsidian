@@ -1,6 +1,5 @@
 ---
 tags:
-  - ArquitecturadeSistemas
 ---
 Enfoque de desarrollo incremental e iterativo basado en la colaboración de equipos autoorganizados y multidisciplinarios.
 Su objetivo es producir rápidamente software útil mediante entregas frecuentes.
@@ -82,6 +81,5 @@ Cada iteración genera un incremento del producto.
 [[Scrum]]
 
 ---
-
 
 #ArquitecturadeSistemas

@@ -1,6 +1,5 @@
 ---
 tags:
-  - ArquitecturadeSistemas
 ---
 Reunión para analizar qué funcionó y qué puede mejorarse.
 
@@ -11,4 +10,5 @@ Participan:
 - Otros involucrados.
 
 Busca mejorar continuamente la forma de trabajo.
+
 #ArquitecturadeSistemas

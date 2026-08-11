@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura de Sistemas/Diccionario de Datos.md",
+                "file": "Arquitectura de Sistemas/Sprint Review.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diccionario de Datos"
+              "title": "Sprint Review"
             }
           }
         ]
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Arquitectura de Sistemas/Diccionario de Datos.md",
+                "file": "Arquitectura de Sistemas/Sprint Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Arquitectura de Sistemas/Diccionario de Datos.md",
+                "file": "Arquitectura de Sistemas/Sprint Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Arquitectura de Sistemas/Diccionario de Datos.md",
+                "file": "Arquitectura de Sistemas/Sprint Review.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -187,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Arquitectura de Sistemas/Diccionario de Datos.md"
+                "file": "Arquitectura de Sistemas/Sprint Review.md"
               },
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
@@ -207,7 +207,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Arquitectura de Sistemas/Diccionario de Datos.md",
+                "file": "Arquitectura de Sistemas/Sprint Review.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -288,11 +288,6 @@
   },
   "active": "681f7dd1e4d5f7a0",
   "lastOpenFiles": [
-    "Arquitectura de Sistemas/Equipo de Desarrollo.md",
-    "Arquitectura de Sistemas/Diferencias entre Enfoque Tradicional y Agile.md",
-    "Arquitectura de Sistemas/Etapas del SDLC.md",
-    "Arquitectura de Sistemas/Historias de Usuario (User Stories).md",
-    "Arquitectura de Sistemas/Sprint Review.md",
     "Arquitectura de Sistemas/Sprint Retrospective.md",
     "Arquitectura de Sistemas/Sprint Planning.md",
     "Arquitectura de Sistemas/Sprint Backlog.md",
@@ -303,18 +298,23 @@
     "Arquitectura de Sistemas/Persistencia de datos.md",
     "Arquitectura de Sistemas/Paquetes.md",
     "Arquitectura de Sistemas/Modelos de Ciclo de Vida.md",
+    "Arquitectura de Sistemas/Modelo Frontend y Backend.md",
     "Arquitectura de Sistemas/Modelo en Cascada.md",
     "Arquitectura de Sistemas/Modelo Ágil de Software.md",
     "Arquitectura de Sistemas/Modelado y Gestión de Datos.md",
     "Arquitectura de Sistemas/Metodología de Sistemas.md",
     "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
     "Arquitectura de Sistemas/Human Computer Interaction (HCI).md",
-    "Arquitectura de Sistemas/Modelo Frontend y Backend.md",
-    "Modelado de Sistemas/Modelado de Sistemas.md",
-    "Modelado de Sistemas/UML.md",
-    "Modelado de Sistemas/Mermaid.md",
+    "Arquitectura de Sistemas/Historias de Usuario (User Stories).md",
+    "Arquitectura de Sistemas/Etapas del SDLC.md",
+    "Arquitectura de Sistemas/Equipo de Desarrollo.md",
+    "Arquitectura de Sistemas/Diferencias entre Enfoque Tradicional y Agile.md",
+    "Arquitectura de Sistemas/Diccionario de Datos.md",
+    "Arquitectura de Sistemas/Diagramas de casos de uso.md",
+    "Arquitectura de Sistemas/Diagrama Entidad-Relación (DER).md",
+    "Arquitectura de Sistemas/Diagrama de Flujo de Datos (DFD).md",
+    "Arquitectura de Sistemas/Daily Scrum.md",
     "Modelado de Sistemas",
-    "Arquitectura de Sistemas/Diagrama de flujo.md",
     "Programación/Pasted image 20260807160335.png",
     "Imágenes/Pasted image 20260807152803.png",
     "Imágenes/Pasted image 20260806144539.png",

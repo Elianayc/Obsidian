@@ -1,6 +1,5 @@
 ---
 tags:
-  - ArquitecturadeSistemas
 ---
 Disciplina que estudia la interacción entre las personas y la tecnología, incorporando factores humanos en el desarrollo de sistemas.
 
@@ -21,4 +20,5 @@ Crear sistemas más útiles, comprensibles y adaptados a las necesidades de los 
 - Evita rechazo o abandono del sistema.
 
 Puede aplicarse en todas las etapas del SDLC.
+
 #ArquitecturadeSistemas

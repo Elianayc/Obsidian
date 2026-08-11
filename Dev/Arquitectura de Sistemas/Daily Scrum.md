@@ -1,6 +1,5 @@
 ---
 tags:
-  - ArquitecturadeSistemas
 ---
 ## Daily Scrum
 
@@ -17,4 +16,5 @@ Preguntas principales:
 - ¿Tengo obstáculos?
 
 No es un reporte al Scrum Master, sino un compromiso frente al equipo.
+
 #ArquitecturadeSistemas

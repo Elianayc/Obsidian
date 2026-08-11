@@ -1,6 +1,5 @@
 ---
 tags:
-  - Modeladodesistemas
 ---
 Mermaid permite crear diagramas escribiendo texto.
 
@@ -367,4 +366,5 @@ Después escribí el código.
 Eso suele hacer mucho más fácil detectar errores de diseño antes de programar. 
 
 ---
-#ArquitecturadeSistemas
+
+#ModeladodeSistemas

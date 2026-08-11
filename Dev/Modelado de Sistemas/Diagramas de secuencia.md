@@ -1,6 +1,5 @@
 ---
 tags:
-  - Modeladodesistemas
 ---
 Muestran cómo se comunican los objetos en el tiempo.  
 Lo importante es el **orden de los mensajes**.  
@@ -47,4 +46,5 @@ Usuario → Sistema → Base de datos → Sistema → Usuario.
 Son ideales para entender flujos de interacción.
 
 ---
-#ArquitecturadeSistemas
+
+#ModeladodeSistemas

@@ -1,6 +1,5 @@
 ---
 tags:
-  - ArquitecturadeSistemas
 ---
 Marco metodológico que organiza el desarrollo de software en etapas para planificar, analizar, diseñar, construir, probar, implementar y mantener un sistema.
 

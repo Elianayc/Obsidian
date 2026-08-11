@@ -1,6 +1,5 @@
 ---
 tags:
-  - ArquitecturadeSistemas
 ---
 Conjunto de elementos seleccionados del Product Backlog que serán trabajados durante un Sprint. 
 
@@ -10,4 +9,5 @@ Conjunto de elementos seleccionados del Product Backlog que serán trabajados du
 - Tareas necesarias para completar el trabajo. 
 
 Es responsabilidad del equipo de desarrollo gestionarlo durante el Sprint.
+
 #ArquitecturadeSistemas

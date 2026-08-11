@@ -1,6 +1,5 @@
 ---
 tags:
-  - ArquitecturadeSistemas
 ---
 Gráfico utilizado para visualizar el progreso de un Sprint o proyecto. 
 
@@ -10,4 +9,5 @@ Gráfico utilizado para visualizar el progreso de un Sprint o proyecto.
 - Tiempo disponible. 
 
 Permite identificar si el equipo está avanzando según lo planificado.
+
 #ArquitecturadeSistemas

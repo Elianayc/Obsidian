@@ -1,6 +1,5 @@
 ---
 tags:
-  - Arquitecturadesistemas
 ---
 La **Arquitectura de Sistemas** es el área que estudia la organización, estructura e interacción de los componentes que forman un sistema de software.
 

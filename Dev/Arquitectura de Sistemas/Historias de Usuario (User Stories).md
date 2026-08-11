@@ -1,6 +1,5 @@
 ---
 tags:
-  - ArquitecturadeSistemas
 ---
 # Historias de Usuario (User Stories)
 Elemento clave de las metodologías ágiles utilizado para definir funcionalidades desde la perspectiva del usuario.

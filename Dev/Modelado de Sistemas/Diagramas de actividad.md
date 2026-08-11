@@ -1,6 +1,5 @@
 ---
 tags:
-  - Modeladodesistemas
 ---
 Representan **flujos de trabajo o procesos**.  
 Son parecidos a los diagramas de flujo tradicionales.  
@@ -52,4 +51,5 @@ Ejemplo:
 - Enviar email de confirmación
 
 ---
-#ArquitecturadeSistemas
+
+#ModeladodeSistemas

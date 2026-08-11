@@ -1,6 +1,5 @@
 ---
 tags:
-  - Modeladodesistemas
 ---
 Representan la **estructura estática** de un sistema orientado a objetos.  
 Muestran clases, atributos, métodos y las relaciones entre ellas.
@@ -79,4 +78,5 @@ Indica **cuántos objetos** participan en la relación.
 Se utiliza para generar diagramas UML a partir de código o escribiendo texto.
 
 --- 
-#ArquitecturadeSistemas
+
+#ModeladodeSistemas
