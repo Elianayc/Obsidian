@@ -1,5 +1,6 @@
 ---
 tags:
+  - ArquitecturadeSistemas
 ---
 La arquitectura en capas es un modelo de organización del software que divide un sistema en **niveles con responsabilidades claramente separadas**. 
 

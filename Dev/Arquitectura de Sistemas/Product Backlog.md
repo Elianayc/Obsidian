@@ -1,5 +1,6 @@
 ---
 tags:
+  - ArquitecturadeSistemas
 ---
 Lista ordenada de todas las funcionalidades, mejoras, requisitos y tareas pendientes del producto. 
 

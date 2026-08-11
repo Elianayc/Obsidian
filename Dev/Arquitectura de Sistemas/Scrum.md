@@ -1,5 +1,6 @@
 ---
 tags:
+  - ArquitecturadeSistemas
 ---
 Scrum es el framework ágil más utilizado para desarrollar productos mediante un proceso iterativo e incremental.
 

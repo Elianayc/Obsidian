@@ -1,5 +1,6 @@
 ---
 tags:
+  - ArquitecturadeSistemas
 ---
 El modelo **[[Frontend]] y [[Backend]]** es una forma de organizar una aplicación separando responsabilidades entre la parte que interactúa con el usuario y la parte que procesa la información del sistema.
 

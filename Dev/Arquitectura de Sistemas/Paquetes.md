@@ -1,5 +1,6 @@
 ---
 tags:
+  - ArquitecturadeSistemas
 ---
 Son **carpetas o subdirectorios** que agrupan archivos relacionados bajo un mismo criterio.
 

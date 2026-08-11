@@ -1,5 +1,6 @@
 ---
 tags:
+  - ArquitecturadeSistemas
 ---
 Conjunto de elementos seleccionados del Product Backlog que serán trabajados durante un Sprint. 
 

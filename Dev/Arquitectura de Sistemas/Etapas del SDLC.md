@@ -1,5 +1,6 @@
 ---
 tags:
+  - ArquitecturadeSistemas
 ---
 ![[Pasted image 20260803133932.png]]
 

@@ -1,5 +1,6 @@
 ---
 tags:
+  - ArquitecturadeSistemas
 ---
 Representa la voz del cliente y asegura que el producto entregue valor de negocio.
 

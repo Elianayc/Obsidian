@@ -1,5 +1,6 @@
 ---
 tags:
+  - ArquitecturadeSistemas
 ---
 Gráfico utilizado para visualizar el progreso de un Sprint o proyecto. 
 

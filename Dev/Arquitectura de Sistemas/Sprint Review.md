@@ -1,5 +1,6 @@
 ---
 tags:
+  - ArquitecturadeSistemas
 ---
 Revisión del trabajo realizado durante el Sprint.
 

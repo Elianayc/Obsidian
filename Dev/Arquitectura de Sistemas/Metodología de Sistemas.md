@@ -1,5 +1,6 @@
 ---
 tags:
+  - ArquitecturadeSistemas
 ---
 Una metodología establece un orden de trabajo y un lenguaje común entre los miembros del equipo de desarrollo, facilitando la organización, comunicación y seguimiento del proyecto.
 

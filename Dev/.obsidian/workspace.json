@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura de Sistemas/Sprint Review.md",
+                "file": "Bases de Datos/1FN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sprint Review"
+              "title": "1FN"
             }
           }
         ]
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 281.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Arquitectura de Sistemas/Sprint Review.md",
+                "file": "Bases de Datos/1FN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Arquitectura de Sistemas/Sprint Review.md",
+                "file": "Bases de Datos/1FN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Arquitectura de Sistemas/Sprint Review.md",
+                "file": "Bases de Datos/1FN.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -187,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Arquitectura de Sistemas/Sprint Review.md"
+                "file": "Bases de Datos/1FN.md"
               },
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
@@ -207,7 +207,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Arquitectura de Sistemas/Sprint Review.md",
+                "file": "Bases de Datos/1FN.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -218,7 +218,7 @@
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
-                  "collapse-color-groups": true,
+                  "collapse-color-groups": false,
                   "colorGroups": [
                     {
                       "query": "tag:#Arquitecturadesistemas  ",
@@ -238,14 +238,21 @@
                       "query": "tag:#Programación  ",
                       "color": {
                         "a": 1,
-                        "rgb": 11134698
+                        "rgb": 13028079
                       }
                     },
                     {
                       "query": "tag:#Redes  ",
                       "color": {
                         "a": 1,
-                        "rgb": 13028079
+                        "rgb": 12575445
+                      }
+                    },
+                    {
+                      "query": "tag:#ModeladodeSistemas  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 11134698
                       }
                     }
                   ],
@@ -260,7 +267,7 @@
                   "linkStrength": 1,
                   "linkDistance": 30,
                   "scale": 0.4061496662621675,
-                  "close": true
+                  "close": false
                 }
               },
               "icon": "lucide-git-fork",
@@ -271,7 +278,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 297.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -286,9 +293,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "681f7dd1e4d5f7a0",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
+    "Modelado de Sistemas/Diagramas de casos de uso.md",
     "Arquitectura de Sistemas/Sprint Retrospective.md",
+    "Arquitectura de Sistemas/Sprint Review.md",
     "Arquitectura de Sistemas/Sprint Planning.md",
     "Arquitectura de Sistemas/Sprint Backlog.md",
     "Arquitectura de Sistemas/Scrum Master.md",
@@ -307,13 +316,11 @@
     "Arquitectura de Sistemas/Human Computer Interaction (HCI).md",
     "Arquitectura de Sistemas/Historias de Usuario (User Stories).md",
     "Arquitectura de Sistemas/Etapas del SDLC.md",
-    "Arquitectura de Sistemas/Equipo de Desarrollo.md",
-    "Arquitectura de Sistemas/Diferencias entre Enfoque Tradicional y Agile.md",
-    "Arquitectura de Sistemas/Diccionario de Datos.md",
-    "Arquitectura de Sistemas/Diagramas de casos de uso.md",
     "Arquitectura de Sistemas/Diagrama Entidad-Relación (DER).md",
+    "Arquitectura de Sistemas/Diccionario de Datos.md",
+    "Arquitectura de Sistemas/Diferencias entre Enfoque Tradicional y Agile.md",
+    "Arquitectura de Sistemas/Equipo de Desarrollo.md",
     "Arquitectura de Sistemas/Diagrama de Flujo de Datos (DFD).md",
-    "Arquitectura de Sistemas/Daily Scrum.md",
     "Modelado de Sistemas",
     "Programación/Pasted image 20260807160335.png",
     "Imágenes/Pasted image 20260807152803.png",
