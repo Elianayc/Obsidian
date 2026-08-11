@@ -1,5 +1,7 @@
-## Sprint Retrospective
-
+---
+tags:
+  - ArquitecturadeSistemas
+---
 Reunión para analizar qué funcionó y qué puede mejorarse.
 
 Participan:

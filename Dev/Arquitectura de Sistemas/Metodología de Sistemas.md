@@ -1,3 +1,7 @@
+---
+tags:
+  - ArquitecturadeSistemas
+---
 Una metodología establece un orden de trabajo y un lenguaje común entre los miembros del equipo de desarrollo, facilitando la organización, comunicación y seguimiento del proyecto.
 
 Independientemente de la metodología utilizada, existen etapas y objetivos fundamentales que el Analista de Sistemas debe cumplir durante el desarrollo.

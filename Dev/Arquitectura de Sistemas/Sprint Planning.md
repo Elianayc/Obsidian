@@ -1,5 +1,7 @@
-## Sprint Planning
-
+---
+tags:
+  - ArquitecturadeSistemas
+---
 Reunión donde se define el objetivo del Sprint.
 
 Incluye:

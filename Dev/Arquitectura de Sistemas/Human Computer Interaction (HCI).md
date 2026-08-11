@@ -1,3 +1,7 @@
+---
+tags:
+  - ArquitecturadeSistemas
+---
 Disciplina que estudia la interacción entre las personas y la tecnología, incorporando factores humanos en el desarrollo de sistemas.
 
 ## Objetivo

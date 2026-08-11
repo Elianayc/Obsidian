@@ -1,3 +1,7 @@
+---
+tags:
+  - ArquitecturadeSistemas
+---
 Repositorio que documenta todos los elementos de información utilizados por un sistema.
 
 **Incluye**:

@@ -1,3 +1,7 @@
+---
+tags:
+  - ArquitecturadeSistemas
+---
 Enfoque de desarrollo incremental e iterativo basado en la colaboración de equipos autoorganizados y multidisciplinarios.
 Su objetivo es producir rápidamente software útil mediante entregas frecuentes.
 El sistema no se desarrolla como una única unidad, sino mediante incrementos que agregan nuevas funcionalidades.

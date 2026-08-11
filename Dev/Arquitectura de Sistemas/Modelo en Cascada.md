@@ -1,3 +1,7 @@
+---
+tags:
+  - ArquitecturadeSistemas
+---
 Modelo tradicional de desarrollo donde las etapas se realizan de forma secuencial. Cada fase debe completarse antes de comenzar la siguiente.
 
 ## Características

@@ -1,3 +1,7 @@
+---
+tags:
+  - ArquitecturadeSistemas
+---
 Equipo multidisciplinario encargado de construir el producto.
 
 **Puede incluir:**
