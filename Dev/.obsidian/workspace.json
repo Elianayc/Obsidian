@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Herencia en CSS.md",
+                "file": "Programación III/CSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Herencia en CSS"
+              "title": "CSS"
             }
           }
         ]
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Herencia en CSS.md",
+                "file": "Programación III/CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Herencia en CSS.md",
+                "file": "Programación III/CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Herencia en CSS.md",
+                "file": "Programación III/CSS.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,7 +188,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Herencia en CSS.md"
+                "file": "Programación III/CSS.md"
               },
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
@@ -208,7 +208,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Herencia en CSS.md",
+                "file": "Programación III/CSS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -311,8 +311,9 @@
   },
   "active": "7bd47dfe0205fe85",
   "lastOpenFiles": [
+    "Herencia CSS.md",
+    "Pasted image 20260811142303.png",
     "Programación III/CSS.md",
-    "Herencia en CSS.md",
     "Selectores CSS.md",
     "Insertar CSS en HTML.md",
     "Reglas CSS.md",
@@ -336,7 +337,6 @@
     "Programación III/Desarrollo Web.md",
     "Programación III/JavaScript.md",
     "Programación III/Frontend.md",
-    "Redes/World Wide Web (WWW).md",
     "Programación III/Pasted image 20260807160335.png",
     "Programación/coleccionesJava.png",
     "Programación/solid.png",
@@ -349,7 +349,6 @@
     "Imágenes/Pasted image 20260806144622.png",
     "Pasted image 20260806144706.png",
     "Imágenes/Pasted image 20260806144723.png",
-    "Imágenes/Pasted image 20260806144800.png",
     "TCP",
     "Redes",
     "Metodología de Sistemas",
