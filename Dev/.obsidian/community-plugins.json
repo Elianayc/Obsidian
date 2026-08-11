@@ -6,5 +6,6 @@
   "quick-tagger",
   "multi-tag",
   "tag-wrangler",
-  "node-factor"
+  "node-factor",
+  "better-export-pdf"
 ]
