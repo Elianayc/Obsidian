@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Iconos en CSS.md",
+                "file": "Programación III/CSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Iconos en CSS"
+              "title": "CSS"
             }
           }
         ]
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Iconos en CSS.md",
+                "file": "Programación III/CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Iconos en CSS.md",
+                "file": "Programación III/CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Iconos en CSS.md",
+                "file": "Programación III/CSS.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,7 +188,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Iconos en CSS.md"
+                "file": "Programación III/CSS.md"
               },
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
@@ -208,7 +208,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Iconos en CSS.md",
+                "file": "Programación III/CSS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -311,7 +311,11 @@
   },
   "active": "7bd47dfe0205fe85",
   "lastOpenFiles": [
+    "Grid vs Flexbox CSS.md",
     "Programación III/CSS.md",
+    "Grillas (CSS Grid).md",
+    "Flexbox CSS.md",
+    "Box Model o Modelo de Caja CSS.md",
     "Iconos en CSS.md",
     "Unidades de Medida CSS.md",
     "W3Schools - CSS.md",
@@ -334,10 +338,6 @@
     "Redes/Funcionamiento de un Servidor Web.md",
     "Redes/FTP (File Transfer Protocol).md",
     "Redes/DNS.md",
-    "Redes/Ciclo de vida de una petición web.md",
-    "Programación III/Concepto de hipertexto.md",
-    "Programación III/Typescript.md",
-    "Programación III/Desarrollo Web.md",
     "Programación III/Pasted image 20260807160335.png",
     "Programación/coleccionesJava.png",
     "Programación/solid.png",
