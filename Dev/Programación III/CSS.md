@@ -35,7 +35,7 @@ Cuando declaramos un estilo, este contiene **propiedades y sus valores**, que de
 - [[Insertar CSS en HTML]]
 - [[Selectores CSS]]
 - [[Herencia CSS]]
-- [[Unidades de Medida CSS
+- [[Unidades de Medida CSS]]
 
 
 
