@@ -32,6 +32,7 @@ Cuando declaramos un estilo, este contiene **propiedades y sus valores**, que de
 ---
 
 - [[Reglas CSS]]
+- [[Insertar CSS en HTML]]
 
 
 

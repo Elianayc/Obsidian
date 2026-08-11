@@ -99,7 +99,9 @@ p strong {
 }
 ```
 
-En este caso:
+**En este caso**:
 - `p` → se aplica a todos los elementos `<p>`.
 - `strong` → se aplica a todos los elementos `<strong>`.
 - `p strong` → se aplica a los elementos `<strong>` que se encuentran dentro de un `<p>`.
+
+---
