@@ -11,10 +11,14 @@
             "id": "7bd47dfe0205fe85",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Reglas CSS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reglas CSS"
             }
           }
         ]
@@ -36,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -79,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 280.5,
+    "collapsed": true
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -96,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Reglas CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Reglas CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -156,6 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Reglas CSS.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -179,7 +187,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Reglas CSS.md"
+              },
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
             }
@@ -198,6 +208,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Reglas CSS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -282,7 +293,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 317.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -299,6 +311,8 @@
   },
   "active": "7bd47dfe0205fe85",
   "lastOpenFiles": [
+    "Programación III/CSS.md",
+    "Reglas CSS.md",
     "Programación/Backend.md",
     "Programación/C.md",
     "Programación/puntoNET.md",
@@ -318,13 +332,11 @@
     "Programación III/Typescript.md",
     "Programación III/Desarrollo Web.md",
     "Programación III/JavaScript.md",
-    "Programación III/CSS.md",
     "Programación III/Frontend.md",
     "Redes/World Wide Web (WWW).md",
     "Redes/TCP - IP.md",
     "Redes/IPv6.md",
     "Redes/IPv4.md",
-    "Redes/State.md",
     "Programación III/Pasted image 20260807160335.png",
     "Programación/coleccionesJava.png",
     "Programación/solid.png",
