@@ -25,14 +25,21 @@
       "query": "tag:#Programación  ",
       "color": {
         "a": 1,
-        "rgb": 11134698
+        "rgb": 13028079
       }
     },
     {
       "query": "tag:#Redes  ",
       "color": {
         "a": 1,
-        "rgb": 13028079
+        "rgb": 12575445
+      }
+    },
+    {
+      "query": "tag:#ModeladodeSistemas  ",
+      "color": {
+        "a": 1,
+        "rgb": 11134698
       }
     }
   ],
@@ -46,6 +53,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.1634837056721999,
+  "scale": 0.11660891579456953,
   "close": true
 }
