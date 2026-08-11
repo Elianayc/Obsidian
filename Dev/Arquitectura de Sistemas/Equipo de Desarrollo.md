@@ -15,4 +15,5 @@ Equipo multidisciplinario encargado de construir el producto.
 - Generalmente entre 3 y 9 personas.
 - Entregan incrementos funcionales de software.
 
+---
 #ArquitecturadeSistemas

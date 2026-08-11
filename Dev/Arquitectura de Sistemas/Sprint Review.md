@@ -10,4 +10,5 @@ Características:
 - Participa todo el equipo.
 - Se obtiene feedback.
 
+---
 #ArquitecturadeSistemas

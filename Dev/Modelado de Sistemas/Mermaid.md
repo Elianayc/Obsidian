@@ -366,5 +366,4 @@ Después escribí el código.
 Eso suele hacer mucho más fácil detectar errores de diseño antes de programar. 
 
 ---
-
 #ModeladodeSistemas

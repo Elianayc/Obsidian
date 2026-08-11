@@ -22,4 +22,5 @@ Crear sistemas más útiles, comprensibles y adaptados a las necesidades de los 
 
 Puede aplicarse en todas las etapas del SDLC.
 
+---
 #ArquitecturadeSistemas

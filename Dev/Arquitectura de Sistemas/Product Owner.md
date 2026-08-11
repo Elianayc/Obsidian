@@ -11,4 +11,5 @@ Responsabilidades:
 - Gestiona la rentabilidad del producto.
 - Acepta o rechaza resultados.
 
+---
 #ArquitecturadeSistemas

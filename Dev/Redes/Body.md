@@ -12,6 +12,5 @@ Generalmente se utiliza con:
 > En una respuesta HTTP, el body puede contener el recurso solicitado, como HTML, imágenes o datos en formato JSON.
 
 ---
-
 #ProgramaciónIII
 #Redes

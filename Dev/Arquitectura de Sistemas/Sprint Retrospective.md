@@ -12,4 +12,5 @@ Participan:
 
 Busca mejorar continuamente la forma de trabajo.
 
+---
 #ArquitecturadeSistemas

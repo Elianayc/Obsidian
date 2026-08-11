@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -93,7 +93,7 @@
       {
         "id": "02ef5b01b17d0f8f",
         "type": "tabs",
-        "dimension": 26.091269841269842,
+        "dimension": 37.301587301587304,
         "children": [
           {
             "id": "92567c25d3dc2c80",
@@ -200,7 +200,7 @@
       {
         "id": "7d43bd82675bbd45",
         "type": "tabs",
-        "dimension": 73.90873015873017,
+        "dimension": 62.698412698412696,
         "children": [
           {
             "id": "a130ab169b97052f",
@@ -267,7 +267,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.4061496662621675,
+                  "scale": 0.4061496662621674,
                   "close": true
                 }
               },
@@ -294,15 +294,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "96e34c53d794f004",
+  "active": "a130ab169b97052f",
   "lastOpenFiles": [
-    "2026-08-11.md",
-    "Sin título.base",
-    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-    "Bases de Datos/1FN.md",
+    "Redes/Ciclo de vida de una petición web.md",
+    "Redes/Body.md",
+    "Modelado de Sistemas/UML.md",
+    "Modelado de Sistemas/Modelado de Sistemas.md",
+    "Modelado de Sistemas/Mermaid.md",
+    "Modelado de Sistemas/Diagramas de secuencia.md",
+    "Modelado de Sistemas/Diagramas de clases.md",
     "Modelado de Sistemas/Diagramas de casos de uso.md",
-    "Arquitectura de Sistemas/Sprint Retrospective.md",
+    "Modelado de Sistemas/Diagramas de actividad.md",
+    "Modelado de Sistemas/Diagrama de flujo.md",
     "Arquitectura de Sistemas/Sprint Review.md",
+    "Arquitectura de Sistemas/Sprint Retrospective.md",
     "Arquitectura de Sistemas/Sprint Planning.md",
     "Arquitectura de Sistemas/Sprint Backlog.md",
     "Arquitectura de Sistemas/Scrum Master.md",
@@ -317,11 +322,7 @@
     "Arquitectura de Sistemas/Modelo Ágil de Software.md",
     "Arquitectura de Sistemas/Modelado y Gestión de Datos.md",
     "Arquitectura de Sistemas/Metodología de Sistemas.md",
-    "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
-    "Arquitectura de Sistemas/Human Computer Interaction (HCI).md",
-    "Arquitectura de Sistemas/Historias de Usuario (User Stories).md",
-    "Arquitectura de Sistemas/Etapas del SDLC.md",
-    "Arquitectura de Sistemas/Diagrama Entidad-Relación (DER).md",
+    "Sin título.base",
     "Modelado de Sistemas",
     "Programación/Pasted image 20260807160335.png",
     "Imágenes/Pasted image 20260807152803.png",

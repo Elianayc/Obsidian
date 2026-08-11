@@ -82,5 +82,4 @@ Cada iteración genera un incremento del producto.
 [[Scrum]]
 
 ---
-
 #ArquitecturadeSistemas

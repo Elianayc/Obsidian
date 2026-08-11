@@ -13,5 +13,4 @@ Facilita el trabajo del equipo y elimina obstáculos.
 No es un líder del equipo, ya que los equipos Scrum son autoorganizados.
 
 --- 
-
 #ArquitecturadeSistemas

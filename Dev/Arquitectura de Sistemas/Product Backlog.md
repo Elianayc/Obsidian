@@ -9,4 +9,5 @@ Lista ordenada de todas las funcionalidades, mejoras, requisitos y tareas pendie
 - Contiene las necesidades del producto. 
 - Se actualiza continuamente según las necesidades del negocio.
 
+---
 #ArquitecturadeSistemas

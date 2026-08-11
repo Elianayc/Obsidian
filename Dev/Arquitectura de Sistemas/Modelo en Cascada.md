@@ -15,5 +15,5 @@ Modelo tradicional de desarrollo donde las etapas se realizan de forma secuencia
 ![[Pasted image 20260803134523.png]]
 
 
-
+---
 #ArquitecturadeSistemas

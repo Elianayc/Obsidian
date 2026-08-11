@@ -76,4 +76,5 @@ Etapa posterior a la puesta en producción.
 - Nuevos requerimientos.
 - Evolución del software.
 
+---
 #ArquitecturadeSistemas

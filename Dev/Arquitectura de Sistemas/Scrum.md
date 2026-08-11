@@ -25,5 +25,5 @@ El término proviene del rugby, donde representa una forma de reiniciar el juego
 - [[Sprint Backlog]]
 - [[Burndown Charts]]
 
-
+---
 #ArquitecturadeSistemas

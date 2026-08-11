@@ -74,4 +74,5 @@ Deben cubrir todos los requisitos funcionales.
 - Facilitan la estimación del esfuerzo.
 - Son útiles en proyectos con requisitos cambiantes.
 
+---
 #ArquitecturadeSistemas
