@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación III/CSS.md",
+                "file": "Iconos en CSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSS"
+              "title": "Iconos en CSS"
             }
           }
         ]
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programación III/CSS.md",
+                "file": "Iconos en CSS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programación III/CSS.md",
+                "file": "Iconos en CSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación III/CSS.md",
+                "file": "Iconos en CSS.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,7 +188,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Programación III/CSS.md"
+                "file": "Iconos en CSS.md"
               },
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
@@ -208,7 +208,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programación III/CSS.md",
+                "file": "Iconos en CSS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -311,9 +311,10 @@
   },
   "active": "7bd47dfe0205fe85",
   "lastOpenFiles": [
+    "Programación III/CSS.md",
+    "Iconos en CSS.md",
     "Unidades de Medida CSS.md",
     "W3Schools - CSS.md",
-    "Programación III/CSS.md",
     "Herencia CSS.md",
     "Pasted image 20260811142303.png",
     "Selectores CSS.md",
@@ -337,7 +338,6 @@
     "Programación III/Concepto de hipertexto.md",
     "Programación III/Typescript.md",
     "Programación III/Desarrollo Web.md",
-    "Programación III/JavaScript.md",
     "Programación III/Pasted image 20260807160335.png",
     "Programación/coleccionesJava.png",
     "Programación/solid.png",

@@ -36,6 +36,7 @@ Cuando declaramos un estilo, este contiene **propiedades y sus valores**, que de
 - [[Selectores CSS]]
 - [[Herencia CSS]]
 - [[Unidades de Medida CSS]]
+- [[Iconos en CSS]]
 
 
 
