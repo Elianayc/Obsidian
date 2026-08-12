@@ -85,6 +85,8 @@ Valores:
 
 Determina si los elementos pueden distribuirse en **múltiples líneas** cuando no existe suficiente espacio.
 
+![[Pasted image 20260812201233.png]]
+
 ```css
 .container {
     flex-wrap: nowrap | wrap | wrap-reverse;
@@ -96,13 +98,15 @@ Determina si los elementos pueden distribuirse en **múltiples líneas** cuando 
 | `nowrap`       | Todos los elementos permanecen en una sola línea.          |
 | `wrap`         | Los elementos pasan a una nueva línea cuando es necesario. |
 | `wrap-reverse` | Los elementos pasan a nuevas líneas en dirección inversa.  |
-![[Pasted image 20260812201004.png|257]]
+
 
 ---
 
 # `justify-content`
 
 Permite alinear y distribuir los elementos sobre el **eje principal**.
+
+![[Pasted image 20260812201253.png]]
 
 ```css
 .container {
@@ -125,6 +129,8 @@ Valores principales:
 
 Permite establecer la alineación de los elementos sobre el **eje cruzado**, es decir, el eje perpendicular al principal.
 
+![[Pasted image 20260812201311.png]]
+
 ```css
 .container {
     align-items: stretch | flex-start | flex-end | center | baseline;
@@ -144,6 +150,9 @@ Valores:
 # `align-content`
 
 Alinea las **líneas de elementos** cuando existe más de una línea y estas no ocupan todo el espacio disponible en el eje cruzado.
+
+![[Pasted image 20260812201329.png]]
+
 
 ```css
 .container {
