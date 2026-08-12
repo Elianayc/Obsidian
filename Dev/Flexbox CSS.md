@@ -212,8 +212,9 @@ Define el **tamaño inicial** de un elemento antes de distribuir el espacio disp
 # `order`
 
 Permite modificar el **orden de aparición** de los Flex items sin modificar el orden de los elementos en el HTML.
-
 Recibe valores numéricos enteros.
+
+![[Pasted image 20260812201453.png]]
 
 ```css
 .item {
