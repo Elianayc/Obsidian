@@ -68,7 +68,8 @@ Valores:
 | `column-reverse` | Elementos en una columna, en orden inverso.    |
 
 ![[Pasted image 20260812200741.png]]
-![[Pasted image 20260812200813.png]]
+![[Pasted image 20260812200844.png]]
+
 ---
 
 # `flex-wrap`
@@ -86,6 +87,7 @@ Determina si los elementos pueden distribuirse en **múltiples líneas** cuando 
 | `nowrap`       | Todos los elementos permanecen en una sola línea.          |
 | `wrap`         | Los elementos pasan a una nueva línea cuando es necesario. |
 | `wrap-reverse` | Los elementos pasan a nuevas líneas en dirección inversa.  |
+![[Pasted image 20260812200907.png]]
 
 ---
 
