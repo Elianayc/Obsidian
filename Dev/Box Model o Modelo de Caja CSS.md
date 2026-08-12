@@ -104,6 +104,8 @@ El navegador ajusta automáticamente el tamaño del área de contenido para mant
 
 Esto facilita la creación de diseños con tamaños más precisos y predecibles.
 
+![[Pasted image 20260812200626.png]]
+
 ---
 
 # Área de relleno — Padding
@@ -192,9 +194,7 @@ Entre sus posibilidades se encuentran:
 - ### `none`
 	Hace que el elemento **no se muestre**.
 
-
-
-
+![[Pasted image 20260812200706.png]]
 
 ---
 
