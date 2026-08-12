@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "grid line",
+                "query": "grid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +79,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -310,6 +311,10 @@
   "active": "7bd47dfe0205fe85",
   "lastOpenFiles": [
     "Flexbox CSS.md",
+    "Box Model o Modelo de Caja CSS.md",
+    "Reglas CSS.md",
+    "Programación III/CSS Cascading Style Sheets.md",
+    "Grillas (CSS Grid).md",
     "Pasted image 20260812201124.png",
     "Pasted image 20260812201138.png",
     "Pasted image 20260812200907.png",
@@ -320,11 +325,7 @@
     "Pasted image 20260812200626.png",
     "Pasted image 20260812195808.png",
     "Pasted image 20260812195734.png",
-    "Grillas (CSS Grid).md",
     "Grid vs Flexbox CSS.md",
-    "Programación III/CSS.md",
-    "Box Model o Modelo de Caja CSS.md",
-    "Reglas CSS.md",
     "W3Schools - CSS.md",
     "Unidades de Medida CSS.md",
     "Selectores CSS.md",

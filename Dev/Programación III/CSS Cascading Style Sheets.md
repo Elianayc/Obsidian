@@ -2,6 +2,8 @@
 El término **"en cascada"** hace referencia a la forma en que se aplican las reglas definidas. Estas reglas se aplican de manera **jerarquizada**.
 Esta característica es importante porque un sitio web complejo puede contener miles de reglas CSS.
 
+[**Guías**](https://css-tricks.com/guides/)
+
 ---
 
 ### Función principal
