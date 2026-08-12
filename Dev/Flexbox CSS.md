@@ -168,10 +168,10 @@ Si todos los elementos se encuentran en una única línea, esta propiedad no tie
 # `flex-grow`
 
 Define la capacidad de un elemento para **crecer** cuando existe espacio disponible dentro del contenedor.
-
 Recibe un valor numérico.
-
 Su valor predeterminado es `0`, por lo que el elemento no crece para ocupar el espacio disponible.
+
+![[Pasted image 20260812201510.png]]
 
 ```css
 .item {

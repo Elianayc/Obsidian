@@ -223,6 +223,8 @@ Permiten posicionar los elementos **dentro de sus respectivas celdas**.
 
 Permiten modificar la posición de **un elemento individual** dentro de su celda.
 
+![[Pasted image 20260812201558.png]]
+
 ```css
 .item {
     justify-self: start | center | end | stretch;

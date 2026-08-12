@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Flexbox CSS.md",
+                "file": "Grillas (CSS Grid).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flexbox CSS"
+              "title": "Grillas (CSS Grid)"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "order",
+                "query": "align-self",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -188,7 +188,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Flexbox CSS.md"
+                "file": "Grillas (CSS Grid).md"
               },
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
@@ -208,7 +208,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Flexbox CSS.md",
+                "file": "Grillas (CSS Grid).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -310,10 +310,12 @@
   },
   "active": "7bd47dfe0205fe85",
   "lastOpenFiles": [
+    "Pasted image 20260812201558.png",
+    "Flexbox CSS.md",
+    "Pasted image 20260812201510.png",
     "Pasted image 20260812201453.png",
     "Grillas (CSS Grid).md",
     "Pasted image 20260812201406.png",
-    "Flexbox CSS.md",
     "Pasted image 20260812201329.png",
     "Pasted image 20260812201311.png",
     "Pasted image 20260812201253.png",
@@ -323,8 +325,6 @@
     "Pasted image 20260812201124.png",
     "Box Model o Modelo de Caja CSS.md",
     "Reglas CSS.md",
-    "Pasted image 20260812201004.png",
-    "Pasted image 20260812200907.png",
     "W3Schools - CSS.md",
     "Unidades de Medida CSS.md",
     "Selectores CSS.md",
