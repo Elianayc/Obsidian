@@ -44,7 +44,6 @@ Cuando declaramos un estilo, este contiene **propiedades y sus valores**, que de
 
 
 
-
 ---
 #Programación  
 #ProgramaciónIII

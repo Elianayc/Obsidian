@@ -224,5 +224,9 @@ Recibe valores numéricos enteros.
 
 Los elementos se ordenan de acuerdo con el valor de `order`. Cuanto menor sea el valor, antes aparecerá el elemento.
 
+
+---
+![[Pasted image 20260812201744.png]]
+
 ---
 #ProgramaciónIII

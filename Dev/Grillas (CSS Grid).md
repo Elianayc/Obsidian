@@ -26,12 +26,25 @@ CSS Grid permite:
 Para trabajar con CSS Grid es importante conocer los siguientes conceptos:
 
 - **Grid container:** elemento padre que establece el contexto de la cuadrícula.
+	![[Pasted image 20260812201124.png|256]]
+
 - **Grid item:** cualquier hijo directo del Grid container.
+	![[Pasted image 20260812201138.png|255]]
+	
 - **Grid line:** líneas divisorias horizontales y verticales que forman la estructura de la cuadrícula.
+	![[Pasted image 20260812202017.png|194]]
+
 - **Grid track:** espacio comprendido entre dos líneas adyacentes, ya sea una fila o una columna.
+	![[Pasted image 20260812202040.png|194]]
+
 - **Grid cell:** unidad más pequeña de la cuadrícula, formada por la intersección de una fila y una columna.
+  ![[Pasted image 20260812202202.png|201]]
+  
 - **Grid area:** área rectangular formada por cuatro Grid lines y que puede abarcar múltiples celdas.
+  ![[Pasted image 20260812202147.png|201]]
+  
 - **Gap:** espacio existente entre filas y/o columnas.
+
 
 ---
 
@@ -57,6 +70,7 @@ Para crear una cuadrícula, primero debemos convertir un elemento en un **Grid c
 ```
 
 En este ejemplo se define una grilla con **tres columnas**:
+
 - La primera tiene un ancho fijo de `200px`.
 - La segunda ocupa `1fr` del espacio disponible.
 - La tercera ocupa `2fr` del espacio disponible.
@@ -244,6 +258,10 @@ También existe la propiedad abreviada `place-self`, que permite establecer amba
 ```
 
 `place-self` permite establecer simultáneamente `align-self` y `justify-self`.
+
+
+---
+![[Pasted image 20260812201857.png]]
 
 ---
 #ProgramaciónIII

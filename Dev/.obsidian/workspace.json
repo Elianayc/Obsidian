@@ -55,8 +55,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "css",
-                "matchingCase": true,
+                "query": "grid line",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -79,8 +79,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -216,9 +215,9 @@
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
+                  "showTags": true,
+                  "showAttachments": true,
+                  "hideUnresolved": true,
                   "collapse-color-groups": false,
                   "colorGroups": [
                     {
@@ -308,21 +307,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0a11f3bb414cead",
+  "active": "7bd47dfe0205fe85",
   "lastOpenFiles": [
-    "Pasted image 20260812201558.png",
     "Flexbox CSS.md",
-    "Pasted image 20260812201510.png",
-    "Pasted image 20260812201453.png",
-    "Grillas (CSS Grid).md",
-    "Pasted image 20260812201406.png",
-    "Pasted image 20260812201329.png",
-    "Pasted image 20260812201311.png",
-    "Pasted image 20260812201253.png",
-    "Pasted image 20260812201233.png",
-    "Pasted image 20260812201217.png",
-    "Pasted image 20260812201138.png",
     "Pasted image 20260812201124.png",
+    "Pasted image 20260812201138.png",
+    "Pasted image 20260812200907.png",
+    "Pasted image 20260812200844.png",
+    "Pasted image 20260812200813.png",
+    "Pasted image 20260812200741.png",
+    "Pasted image 20260812200706.png",
+    "Pasted image 20260812200626.png",
+    "Pasted image 20260812195808.png",
+    "Pasted image 20260812195734.png",
+    "Grillas (CSS Grid).md",
+    "Grid vs Flexbox CSS.md",
+    "Programación III/CSS.md",
     "Box Model o Modelo de Caja CSS.md",
     "Reglas CSS.md",
     "W3Schools - CSS.md",
@@ -331,9 +331,7 @@
     "Insertar CSS en HTML.md",
     "Iconos en CSS.md",
     "Herencia CSS.md",
-    "Grid vs Flexbox CSS.md",
     "Programación III/Typescript.md",
-    "Programación III/CSS.md",
     "Programación/Backend.md",
     "Programación/C.md",
     "Programación/puntoNET.md",
