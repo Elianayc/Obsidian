@@ -67,6 +67,8 @@ Valores:
 | `column`         | Elementos en una columna.                      |
 | `column-reverse` | Elementos en una columna, en orden inverso.    |
 
+![[Pasted image 20260812200741.png]]
+![[Pasted image 20260812200813.png]]
 ---
 
 # `flex-wrap`
