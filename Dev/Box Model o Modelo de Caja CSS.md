@@ -7,25 +7,18 @@ Los elementos de tipo **línea (inline)** ocupan el ancho necesario según su co
 ## Width y Height
 
 CSS permite controlar el tamaño de la caja mediante:
-
 - `width`: define el **ancho**.
-    
 - `height`: define el **alto**.
-    
 
 Estas propiedades:
-
 - No admiten valores negativos.
-    
 - Cuando se expresan en porcentaje, se calculan en relación con el elemento padre.
-    
+
 
 Cuando un elemento tiene un ancho o alto fijo y su contenido supera las dimensiones de la caja, el contenido puede desbordarse y superponerse con otros elementos.
-
 Para controlar este comportamiento se utiliza la propiedad `overflow`.
 
 ### Overflow
-
 Permite controlar qué sucede cuando el contenido excede las dimensiones de la caja.
 
 |Valor|Descripción|
@@ -40,21 +33,16 @@ Permite controlar qué sucede cuando el contenido excede las dimensiones de la c
 # Áreas del Box Model
 
 Cada caja está compuesta por cuatro áreas:
-
 1. **Contenido (content)**
-    
 2. **Relleno (padding)**
-    
 3. **Borde (border)**
-    
 4. **Margen (margin)**
-    
 
 ```text
 ┌──────────────────────────────────────┐
-│               Margin                 │
-│  ┌────────────────────────────────┐  │
-│  │             Border             │  │
+│               Margin                                             │
+│  ┌────────────────────────────────┐     │
+│  │             Border                                       │  │
 │  │  ┌──────────────────────────┐  │  │
 │  │  │          Padding         │  │  │
 │  │  │  ┌────────────────────┐  │  │  │
