@@ -11,14 +11,10 @@
             "id": "7bd47dfe0205fe85",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programación III/HTML (HyperText Markup Language).md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "HTML (HyperText Markup Language)"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -186,9 +182,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Programación III/HTML (HyperText Markup Language).md"
-              },
+              "state": {},
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
             }
@@ -207,7 +201,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programación III/HTML (HyperText Markup Language).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -215,7 +208,7 @@
                   "localBacklinks": true,
                   "localForelinks": true,
                   "localInterlinks": true,
-                  "showTags": true,
+                  "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": true,
                   "collapse-color-groups": true,
@@ -281,7 +274,7 @@
                   "linkStrength": 1,
                   "linkDistance": 30,
                   "scale": 0.4061496662621673,
-                  "close": false
+                  "close": true
                 }
               },
               "icon": "lucide-git-fork",
@@ -307,8 +300,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a130ab169b97052f",
+  "active": "7bd47dfe0205fe85",
   "lastOpenFiles": [
+    "Programación III/Reglas CSS.md",
+    "Programación III/HTML (HyperText Markup Language).md",
     "Programación III/Flexbox CSS.md",
     "Programación III/Box Model o Modelo de Caja CSS.md",
     "Programación III/Unidades de Medida CSS.md",
@@ -325,7 +320,6 @@
     "Imágenes/Pasted image 20260812201744.png",
     "Imágenes/Pasted image 20260812201558.png",
     "Imágenes/Pasted image 20260812201510.png",
-    "Programación III/Reglas CSS.md",
     "Programación III/CSS Cascading Style Sheets.md",
     "W3Schools - CSS.md",
     "Programación III/Selectores CSS.md",
@@ -340,7 +334,6 @@
     "Redes/TCP.md",
     "Redes/Estructura de una petición HTTP.md",
     "Redes/Body.md",
-    "Programación III/HTML (HyperText Markup Language).md",
     "Redes/Internet.md",
     "Redes/HTTP - HTTPS.md",
     "Redes/Funcionamiento de un Servidor Web.md",
