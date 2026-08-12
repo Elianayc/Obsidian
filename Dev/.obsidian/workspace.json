@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación III/CSS.md",
+                "file": "Box Model o Modelo de Caja CSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSS"
+              "title": "Box Model o Modelo de Caja CSS"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5,
-    "collapsed": true
+    "width": 280.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -311,8 +310,8 @@
   },
   "active": "7bd47dfe0205fe85",
   "lastOpenFiles": [
-    "Grid vs Flexbox CSS.md",
     "Programación III/CSS.md",
+    "Grid vs Flexbox CSS.md",
     "Grillas (CSS Grid).md",
     "Flexbox CSS.md",
     "Box Model o Modelo de Caja CSS.md",
