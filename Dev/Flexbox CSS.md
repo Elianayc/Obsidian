@@ -153,7 +153,6 @@ Alinea las **líneas de elementos** cuando existe más de una línea y estas no 
 
 ![[Pasted image 20260812201329.png]]
 
-
 ```css
 .container {
     align-content: center;
