@@ -1,7 +1,5 @@
 **CSS** (_Cascading Style Sheets_ o **Hojas de Estilo en Cascada**) es un **lenguaje declarativo** que controla el aspecto de las páginas web en el navegador.
-
 El término **"en cascada"** hace referencia a la forma en que se aplican las reglas definidas. Estas reglas se aplican de manera **jerarquizada**.
-
 Esta característica es importante porque un sitio web complejo puede contener miles de reglas CSS.
 
 ---
