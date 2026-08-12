@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "align-self",
+                "query": "css",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -308,7 +308,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7bd47dfe0205fe85",
+  "active": "f0a11f3bb414cead",
   "lastOpenFiles": [
     "Pasted image 20260812201558.png",
     "Flexbox CSS.md",
