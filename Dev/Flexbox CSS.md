@@ -32,6 +32,12 @@ Para trabajar con Flexbox es necesario conocer algunos conceptos:
 * **Main start / Main end:** puntos de inicio y fin del eje principal.
 * **Cross start / Cross end:** puntos de inicio y fin del eje cruzado.
 
+![[Pasted image 20260812201124.png]]
+
+![[Pasted image 20260812201138.png]]
+
+
+
 ---
 
 # Implementación de Flexbox
@@ -57,6 +63,9 @@ Determina la dirección en la que se organizan los elementos sobre el **eje prin
     flex-direction: row | row-reverse | column | column-reverse;
 }
 ```
+
+![[Pasted image 20260812201217.png]]
+
 
 Valores:
 
