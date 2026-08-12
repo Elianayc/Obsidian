@@ -77,7 +77,6 @@ La regla se aplica tanto a los elementos `<th>` como a los elementos `<td>`.
 
 # Jerarquía
 Las reglas CSS pueden aplicarse teniendo en cuenta la relación entre los elementos **padre e hijo**.
-
 El selector descendiente permite particularizar el estilo de los elementos hijos sin alterar los atributos del elemento padre.
 
 **Ejemplo**:

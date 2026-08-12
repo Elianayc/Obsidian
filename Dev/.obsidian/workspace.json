@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Reglas CSS.md",
+                "file": "Box Model o Modelo de Caja CSS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reglas CSS"
+              "title": "Box Model o Modelo de Caja CSS"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ProgramaciónIII  ",
+                "query": "tag:#ProgramaciónIII",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -187,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Reglas CSS.md"
+                "file": "Box Model o Modelo de Caja CSS.md"
               },
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
@@ -207,7 +207,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Reglas CSS.md",
+                "file": "Box Model o Modelo de Caja CSS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -309,19 +309,22 @@
   },
   "active": "7bd47dfe0205fe85",
   "lastOpenFiles": [
-    "Programación III/CSS.md",
-    "Box Model o Modelo de Caja CSS.md",
-    "Grid vs Flexbox CSS.md",
-    "Grillas (CSS Grid).md",
-    "Flexbox CSS.md",
-    "Iconos en CSS.md",
-    "Unidades de Medida CSS.md",
+    "Pasted image 20260812195808.png",
+    "Pasted image 20260812195734.png",
     "W3Schools - CSS.md",
-    "Herencia CSS.md",
-    "Pasted image 20260811142303.png",
+    "Unidades de Medida CSS.md",
     "Selectores CSS.md",
-    "Insertar CSS en HTML.md",
     "Reglas CSS.md",
+    "Pasted image 20260811142303.png",
+    "Insertar CSS en HTML.md",
+    "Iconos en CSS.md",
+    "Herencia CSS.md",
+    "Grillas (CSS Grid).md",
+    "Grid vs Flexbox CSS.md",
+    "Flexbox CSS.md",
+    "Box Model o Modelo de Caja CSS.md",
+    "Programación III/Typescript.md",
+    "Programación III/CSS.md",
     "Programación/Backend.md",
     "Programación/C.md",
     "Programación/puntoNET.md",
@@ -334,8 +337,6 @@
     "Redes/Internet.md",
     "Redes/HTTP - HTTPS.md",
     "Redes/Funcionamiento de un Servidor Web.md",
-    "Redes/FTP (File Transfer Protocol).md",
-    "Redes/DNS.md",
     "Programación III/Pasted image 20260807160335.png",
     "Programación/coleccionesJava.png",
     "Programación/solid.png",
@@ -346,8 +347,6 @@
     "Imágenes/Pasted image 20260806144539.png",
     "Imágenes/Pasted image 20260806144602.png",
     "Imágenes/Pasted image 20260806144622.png",
-    "Pasted image 20260806144706.png",
-    "Imágenes/Pasted image 20260806144723.png",
     "TCP",
     "Redes",
     "Metodología de Sistemas",

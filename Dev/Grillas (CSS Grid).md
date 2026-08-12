@@ -1,7 +1,6 @@
 ## Introducción
 
 **CSS Grid** es un sistema de diseño **bidimensional** que permite estructurar páginas web trabajando simultáneamente con **filas y columnas**.
-
 A diferencia de métodos anteriores, como las tablas HTML, Grid permite crear diseños complejos de forma más sencilla y precisa.
 
 ---
@@ -9,26 +8,16 @@ A diferencia de métodos anteriores, como las tablas HTML, Grid permite crear di
 ## ¿Por qué usar CSS Grid y no tablas?
 
 Aunque las tablas HTML fueron utilizadas históricamente para crear diseños, presentan algunas limitaciones:
-
 - **Semántica incorrecta:** las tablas están diseñadas para representar datos tabulares, no para estructurar páginas.
-    
 - **Accesibilidad reducida:** los lectores de pantalla interpretan las tablas como datos, lo que puede generar confusión.
-    
 - **Rendimiento inferior:** las tablas requieren que el navegador cargue toda la estructura antes de mostrar el contenido.
-    
 - **Mantenimiento complicado:** modificar diseños basados en tablas implica realizar cambios extensos en el HTML.
-    
 
 CSS Grid permite:
-
 - Separar claramente el **contenido (HTML)** de la **presentación (CSS)**.
-    
 - Crear diseños responsivos con mayor flexibilidad.
-    
 - Controlar la alineación y el espaciado.
-    
 - Reorganizar visualmente los elementos sin modificar el HTML.
-    
 
 ---
 
@@ -37,28 +26,19 @@ CSS Grid permite:
 Para trabajar con CSS Grid es importante conocer los siguientes conceptos:
 
 - **Grid container:** elemento padre que establece el contexto de la cuadrícula.
-    
 - **Grid item:** cualquier hijo directo del Grid container.
-    
 - **Grid line:** líneas divisorias horizontales y verticales que forman la estructura de la cuadrícula.
-    
 - **Grid track:** espacio comprendido entre dos líneas adyacentes, ya sea una fila o una columna.
-    
 - **Grid cell:** unidad más pequeña de la cuadrícula, formada por la intersección de una fila y una columna.
-    
 - **Grid area:** área rectangular formada por cuatro Grid lines y que puede abarcar múltiples celdas.
-    
 - **Gap:** espacio existente entre filas y/o columnas.
-    
 
 ---
 
 # Implementación de una grilla
-
 Para crear una cuadrícula, primero debemos convertir un elemento en un **Grid container** utilizando `display: grid`.
 
 ### HTML
-
 ```html
 <div class="container">
     <div class="a">Item 1</div>
@@ -68,7 +48,6 @@ Para crear una cuadrícula, primero debemos convertir un elemento en un **Grid c
 ```
 
 ### CSS
-
 ```css
 .container {
     display: grid;
@@ -78,20 +57,15 @@ Para crear una cuadrícula, primero debemos convertir un elemento en un **Grid c
 ```
 
 En este ejemplo se define una grilla con **tres columnas**:
-
 - La primera tiene un ancho fijo de `200px`.
-    
 - La segunda ocupa `1fr` del espacio disponible.
-    
 - La tercera ocupa `2fr` del espacio disponible.
-    
 
 Las filas tienen un tamaño determinado automáticamente mediante `auto`.
 
 ---
 
 # Unidades de medida para Grid
-
 CSS Grid permite utilizar diferentes unidades para definir el tamaño de filas y columnas:
 
 |Unidad|Descripción|
@@ -109,7 +83,6 @@ CSS Grid permite utilizar diferentes unidades para definir el tamaño de filas y
 # Función `repeat()`
 
 La función `repeat()` permite definir patrones repetitivos de manera más sencilla.
-
 ```css
 .container {
     display: grid;
@@ -119,25 +92,21 @@ La función `repeat()` permite definir patrones repetitivos de manera más senci
 ```
 
 La siguiente definición:
-
 ```css
 grid-template-columns: repeat(3, 1fr);
 ```
 
 equivale a:
-
 ```css
 grid-template-columns: 1fr 1fr 1fr;
 ```
 
 Mientras que:
-
 ```css
 grid-template-rows: repeat(2, 100px 50px);
 ```
 
 equivale a:
-
 ```css
 grid-template-rows: 100px 50px 100px 50px;
 ```
@@ -147,11 +116,9 @@ grid-template-rows: 100px 50px 100px 50px;
 # Grillas por áreas
 
 **Grid Areas** permite nombrar diferentes secciones de la cuadrícula y asignar elementos a ellas.
-
 Esto facilita la creación y el mantenimiento de layouts complejos.
 
 ### HTML
-
 ```html
 <div class="layout-areas">
     <div class="header">Header</div>
@@ -162,7 +129,6 @@ Esto facilita la creación y el mantenimiento de layouts complejos.
 ```
 
 ### CSS
-
 ```css
 .layout-areas {
     display: grid;
@@ -200,9 +166,7 @@ La cantidad de áreas definidas mediante `grid-template-areas` debe corresponder
 Para establecer espacios entre las celdas de una cuadrícula se pueden utilizar:
 
 - `column-gap`: espacio entre columnas.
-    
 - `row-gap`: espacio entre filas.
-    
 
 ```css
 .grid {
@@ -212,11 +176,8 @@ Para establecer espacios entre las celdas de una cuadrícula se pueden utilizar:
 ```
 
 En este ejemplo:
-
 - Hay `100px` de espacio entre columnas.
-    
 - Hay `10px` de espacio entre filas.
-    
 
 ---
 
@@ -236,9 +197,7 @@ Permiten modificar la distribución de **todo el contenido de la cuadrícula en 
 ```
 
 - `justify-content`: controla la distribución sobre el **eje horizontal**.
-    
 - `align-content`: controla la distribución sobre el **eje vertical**.
-    
 
 ---
 
@@ -254,9 +213,7 @@ Permiten posicionar los elementos **dentro de sus respectivas celdas**.
 ```
 
 - `justify-items`: controla la alineación horizontal de los elementos dentro de sus celdas.
-    
 - `align-items`: controla la alineación vertical de los elementos dentro de sus celdas.
-    
 
 ---
 
@@ -272,9 +229,7 @@ Permiten modificar la posición de **un elemento individual** dentro de su celda
 ```
 
 - `justify-self`: controla la alineación horizontal del elemento.
-    
 - `align-self`: controla la alineación vertical del elemento.
-    
 
 También existe la propiedad abreviada `place-self`, que permite establecer ambas:
 
@@ -285,3 +240,6 @@ También existe la propiedad abreviada `place-self`, que permite establecer amba
 ```
 
 `place-self` permite establecer simultáneamente `align-self` y `justify-self`.
+
+---
+#ProgramaciónIII

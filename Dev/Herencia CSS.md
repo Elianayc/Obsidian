@@ -9,17 +9,17 @@ Por ejemplo, si definimos un estilo de fuente en un elemento `body`, los element
 No todas las propiedades CSS son heredables.
 
 Algunas propiedades, como:
-
 - `color`
 - `font-family`
-
 son heredables. Su valor se transmite desde los elementos HTML **padres hacia los elementos hijos**, reemplazando el valor que estos tendrían por defecto.
 
 Esto ocurre con prácticamente todas las propiedades relacionadas con **texto y tipografía**, como:
-
 - `font-*`
 - `text-*`
 
 Además, existen algunas propiedades específicas que también son heredables.
-
 ![[Pasted image 20260811142303.png]]
+
+
+---
+#ProgramaciónIII

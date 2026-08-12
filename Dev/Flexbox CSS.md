@@ -1,15 +1,12 @@
 ## Introducción
 
 **CSS Flexbox (Flexible Box Layout)** es un modelo de diseño **unidimensional**.
-
 A diferencia de **CSS Grid**, que trabaja en dos dimensiones, Flexbox está optimizado para distribuir elementos a lo largo de **un solo eje**, ya sea horizontal o vertical.
-
 Permite controlar la **alineación, orden y tamaño** de los elementos dentro de un contenedor.
 
 ---
 
 ## ¿Por qué usar Flexbox?
-
 Antes de Flexbox, se utilizaban técnicas como:
 
 * **Floats:** originalmente diseñados para envolver texto alrededor de imágenes, no para crear estructuras completas de páginas.
@@ -17,7 +14,6 @@ Antes de Flexbox, se utilizaban técnicas como:
 * **Tablas HTML:** pueden generar problemas de semántica y accesibilidad.
 
 Flexbox permite:
-
 * Controlar la alineación vertical y horizontal.
 * Ordenar visualmente elementos sin modificar el HTML.
 * Distribuir proporcionalmente el espacio disponible.
@@ -29,7 +25,6 @@ Flexbox permite:
 # Conceptos básicos
 
 Para trabajar con Flexbox es necesario conocer algunos conceptos:
-
 * **Flex container:** elemento padre que utiliza `display: flex` y establece el contexto Flexbox.
 * **Flex items:** elementos hijos directos del Flex container.
 * **Main axis:** eje principal del contenedor. Es horizontal por defecto.
@@ -206,3 +201,6 @@ Recibe valores numéricos enteros.
 ```
 
 Los elementos se ordenan de acuerdo con el valor de `order`. Cuanto menor sea el valor, antes aparecerá el elemento.
+
+---
+#ProgramaciónIII
