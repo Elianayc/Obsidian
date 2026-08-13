@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes/HTTP - HTTPS.md",
-                "mode": "source",
+                "file": "Redes/HTTP (HyperText Transfer Protocol).md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP - HTTPS"
+              "title": "HTTP (HyperText Transfer Protocol)"
             }
           }
         ]
@@ -187,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Redes/HTTP - HTTPS.md"
+                "file": "Redes/HTTP (HyperText Transfer Protocol).md"
               },
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
@@ -207,7 +207,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Redes/HTTP - HTTPS.md",
+                "file": "Redes/HTTP (HyperText Transfer Protocol).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -311,6 +311,7 @@
   "active": "7bd47dfe0205fe85",
   "lastOpenFiles": [
     "Redes/Protocolos.md",
+    "Redes/HTTP (HyperText Transfer Protocol).md",
     "Redes/DNS (Domain Name System).md",
     "Redes/TCP (Transmission Control Protocol) - IP (Internet Protocol).md",
     "Redes/IP (Internet Protocol).md",
@@ -345,7 +346,6 @@
     "Programación/C.md",
     "Programación/puntoNET.md",
     "Programación III/Node.js.md",
-    "Programación/PHP.md",
     "Programación III",
     "Sin título.base",
     "Modelado de Sistemas",

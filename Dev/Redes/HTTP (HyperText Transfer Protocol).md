@@ -14,9 +14,8 @@ Es la base de la comunicación entre **clientes** y **servidores** para intercam
 La comunicación HTTP se realiza mediante el intercambio de mensajes:
 
 - **[[Peticiones HTTP (Requests)]]:** mensajes enviados por el cliente, normalmente un navegador web, solicitando un recurso.
--
-- **Respuestas:** mensajes enviados por el servidor con el recurso solicitado o información sobre el resultado de la solicitud.
 
+- **Respuestas:** mensajes enviados por el servidor con el recurso solicitado o información sobre el resultado de la solicitud.
 
 A diferencia de otros sistemas de comunicación que utilizan flujos continuos de datos (*streams*), HTTP trabaja mediante mensajes individuales de solicitud y respuesta.
 

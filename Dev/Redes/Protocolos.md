@@ -8,7 +8,7 @@ Para organizar la comunicación entre sistemas existen modelos de referencia com
 
 - [[TCP (Transmission Control Protocol) - IP (Internet Protocol)]]
 - [[DNS (Domain Name System)]]
-- [[HTTP - HTTPS]]
+- [[HTTP (HyperText Transfer Protocol)]]
 
 ---
 
