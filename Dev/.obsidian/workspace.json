@@ -11,10 +11,14 @@
             "id": "f911e59b69f5b18f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "CSS/Flexbox.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Flexbox"
             }
           }
         ]
@@ -79,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 278.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -182,7 +186,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "CSS/_TOC_.md"
+              },
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
             }
@@ -301,8 +307,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f911e59b69f5b18f",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
+    "CSS/Flexbox.md",
+    "CSS/_TOC_.md",
+    "Bases de Datos/DBMS.md",
     "2026-08-13.md",
     "CSS/Reglas de CSS.md",
     "Imágenes/coleccionesJava.png",
@@ -328,9 +337,6 @@
     "Programación/Frontend.md",
     "Programación/Desarrollo Web.md",
     "Typescript",
-    "Programación/JavaScript.md",
-    "HTML/Concepto de hipertexto.md",
-    "CSS/Flexbox.md",
     "CSS",
     "Imágenes/Pasted image 20260807160335.png",
     "Imágenes/Pasted image 20260811142303.png",
