@@ -11,10 +11,14 @@
             "id": "7bd47dfe0205fe85",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Redes/HTTP - HTTPS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "HTTP - HTTPS"
             }
           }
         ]
@@ -79,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 277.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -182,7 +186,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "Redes/HTTP - HTTPS.md"
+              },
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
             }
@@ -201,6 +207,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Redes/HTTP - HTTPS.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -303,6 +310,13 @@
   },
   "active": "7bd47dfe0205fe85",
   "lastOpenFiles": [
+    "Redes/Protocolos.md",
+    "Redes/DNS (Domain Name System).md",
+    "Redes/TCP (Transmission Control Protocol) - IP (Internet Protocol).md",
+    "Redes/IP (Internet Protocol).md",
+    "Redes/IPv4.md",
+    "Redes/TCP (Transmission Control Protocol).md",
+    "Redes/Internet.md",
     "Programación III/Reglas CSS.md",
     "Programación III/HTML (HyperText Markup Language).md",
     "Programación III/Flexbox CSS.md",
@@ -332,12 +346,6 @@
     "Programación/puntoNET.md",
     "Programación III/Node.js.md",
     "Programación/PHP.md",
-    "Redes/TCP.md",
-    "Redes/Estructura de una petición HTTP.md",
-    "Redes/Body.md",
-    "Redes/Internet.md",
-    "Redes/HTTP - HTTPS.md",
-    "Redes/Funcionamiento de un Servidor Web.md",
     "Programación III",
     "Sin título.base",
     "Modelado de Sistemas",

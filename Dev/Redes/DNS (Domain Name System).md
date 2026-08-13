@@ -1,5 +1,3 @@
-## Domain Name System
-
 El **DNS (Domain Name System)** es un sistema que permite traducir nombres de dominio fáciles de recordar por las personas en **direcciones IP** que utilizan los dispositivos para comunicarse en una red.
 
 **Por ejemplo**:

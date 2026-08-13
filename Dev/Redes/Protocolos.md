@@ -6,9 +6,9 @@ Para organizar la comunicación entre sistemas existen modelos de referencia com
 
 **Algunos protocolos importantes son:**
 
-- [[TCP - IP]]
+- [[TCP (Transmission Control Protocol) - IP (Internet Protocol)]]
+- [[DNS (Domain Name System)]]
 - [[HTTP - HTTPS]]
-- [[DNS]]
 
 ---
 

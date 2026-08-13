@@ -1,5 +1,3 @@
-## Transmission Control Protocol
-
 Se encarga de garantizar una comunicación confiable.
 
 Sus funciones son:
