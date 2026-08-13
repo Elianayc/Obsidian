@@ -36,20 +36,19 @@ Cuando declaramos un estilo, este contiene **propiedades y sus valores**, que de
 
 ---
 
-- [[Reglas CSS]]
+### Temas Relacionados
+
+- [[Reglas de CSS]]
 - [[Insertar CSS en HTML]]
-- [[Selectores CSS]]
-- [[Herencia CSS]]
+- [[Selectores en CSS]]
+- [[Herencia en CSS]]
 - [[Unidades de Medida CSS]]
 - [[Iconos en CSS]]
 
 - [[Box Model o Modelo de Caja CSS]]
-- [[Flexbox CSS]]
+- [[Flexbox]]
 - [[Grillas (CSS Grid)]]
-- [[Grid vs Flexbox CSS]]
-
-
-
+- [[Grid vs Flexbox]]
 
 ---
 #Programación  

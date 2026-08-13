@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Programación III/CSS (Cascading Style Sheets).md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 277.5
+    "width": 313.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -310,9 +310,19 @@
   },
   "active": "7bd47dfe0205fe85",
   "lastOpenFiles": [
+    "Programación III/Flexbox.md",
+    "Programación III/Elementos HTML.md",
+    "Programación III/Reglas de CSS.md",
+    "Programación III/Selectores en CSS.md",
+    "Programación III/Tablas HTML.md",
+    "Programación III/Insertar CSS en HTML.md",
+    "Programación III/HTML y la presentación visual.md",
+    "Programación III/Herencia en CSS.md",
+    "Programación III/Grillas (CSS Grid).md",
+    "Programación III/Grid vs Flexbox.md",
     "Programación III/CSS (Cascading Style Sheets).md",
+    "Programación III/HTML (HyperText Markup Language).md",
     "Programación III/HTML5.md",
-    "Programación III/Flexbox CSS.md",
     "Redes/Concepto de hipertexto.md",
     "Redes/State.md",
     "Redes/Parameters.md",
@@ -326,16 +336,6 @@
     "Redes/SOAP (Simple Object Access Protocol).md",
     "Redes/MQTT (Message Queuing Telemetry Transport).md",
     "Redes/OAuth 2.0 (Open Authorization).md",
-    "Redes/IMAP (Internet Message Access Protocol).md",
-    "Redes/SMTP (Simple Mail Transfer Protocol).md",
-    "Redes/SFTP (SSH File Transfer Protocol).md",
-    "Redes/FTP (File Transfer Protocol).md",
-    "Redes/Modelo OSI.md",
-    "Redes/Protocolos.md",
-    "Redes/Funcionamiento de un Servidor Web.md",
-    "Redes/Tipos de Servidores.md",
-    "Redes/Servidor Web.md",
-    "Redes/Modelo Cliente - Servidor.md",
     "Imágenes/Pasted image 20260807160335.png",
     "Imágenes/Pasted image 20260811142303.png",
     "Imágenes/Pasted image 20260812195734.png",

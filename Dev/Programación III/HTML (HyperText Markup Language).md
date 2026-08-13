@@ -16,6 +16,8 @@ HTML funciona como la base estructural de una página, organizando sus diferente
 
 ---
 
+### Temas Relacionados
+
 - [[Concepto de hipertexto]]
 - [[Etiquetas HTML]]
 - [[Elementos HTML]]
@@ -26,4 +28,4 @@ HTML funciona como la base estructural de una página, organizando sus diferente
 - [[HTML5]]
 
 ---
-#Redes 
+#ProgramaciónIII 
