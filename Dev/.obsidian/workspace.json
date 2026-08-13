@@ -11,28 +11,13 @@
             "id": "7bd47dfe0205fe85",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/Grid vs Flexbox.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Grid vs Flexbox"
-            }
-          },
-          {
-            "id": "dfbdbeba82a6bf4f",
-            "type": "leaf",
-            "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Vista gráfica"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "css",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -316,34 +301,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dfbdbeba82a6bf4f",
+  "active": "7bd47dfe0205fe85",
   "lastOpenFiles": [
-    "CSS/Flexbox.md",
     "CSS/Grid vs Flexbox.md",
     "CSS/CSS (Cascading Style Sheets).md",
     "CSS/Box Model o Modelo de Caja CSS.md",
-    "Programación/Typescript.md",
+    "Modelado de Sistemas/Mermaid.md",
+    "Programación/Adapter.md",
+    "Programación/Colecciones.md",
+    "Programación/Constructor.md",
+    "Programación/Downcasting.md",
+    "Programación/Formas de traducir un programa.md",
+    "Programación/Getters y Setters.md",
+    "Programación/Herencia.md",
+    "Programación/Interfaz.md",
+    "Programación/List.md",
+    "Programación/Miembros estáticos.md",
+    "Programación/Palabra super.md",
+    "Programación/Sobrecarga.md",
+    "Programación/Sobreescritura.md",
+    "Programación/Visibilidad.md",
+    "Programación/Frontend.md",
+    "Programación/Desarrollo Web.md",
+    "Typescript",
+    "Programación/JavaScript.md",
+    "HTML/Concepto de hipertexto.md",
+    "CSS/Flexbox.md",
+    "Typescript/Typescript.md",
     "Redes/URN (Uniform Resource Name).md",
     "Redes/World Wide Web (WWW).md",
-    "Programación/Frontend.md",
-    "HTML/Formularios HTML.md",
-    "HTML/Favicon.md",
-    "HTML/Etiquetas HTML.md",
-    "HTML/Etiquetas abiertas y cerradas.md",
-    "HTML/Estructura básica de un documento HTML.md",
-    "HTML/Enlaces HTML.md",
-    "HTML/Elementos contenedores HTML.md",
-    "HTML/Elementos HTML.md",
-    "HTML/Desarrollo Web.md",
-    "HTML/Controles de formulario HTML.md",
-    "HTML/Botones de un formulario HTML.md",
-    "HTML/Atributos principales de un formulario HTML.md",
-    "HTML/Atributos HTML.md",
-    "HTML/Atributos de las etiquetas.md",
-    "HTML/Anidamiento y jerarquía.md",
-    "CSS/Insertar CSS en HTML.md",
-    "CSS/Grillas (CSS Grid).md",
-    "Redes/Ciclo de vida de una petición web.md",
     "CSS",
     "Imágenes/Pasted image 20260807160335.png",
     "Imágenes/Pasted image 20260811142303.png",
@@ -363,7 +349,6 @@
     "Metodología de Sistemas",
     "Manejo de excepciones (PL",
     "Imágenes",
-    "Abierto",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]
