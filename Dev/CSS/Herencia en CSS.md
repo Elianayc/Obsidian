@@ -22,4 +22,3 @@ Además, existen algunas propiedades específicas que también son heredables.
 
 
 ---
-#ProgramaciónIII

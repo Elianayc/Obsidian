@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Flexbox.md",
-                "mode": "preview",
+                "file": "CSS/CSS (Cascading Style Sheets).md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flexbox"
+              "title": "CSS (Cascading Style Sheets)"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#ProgramaciónIII",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -187,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "CSS/_TOC_.md"
+                "file": "CSS/CSS (Cascading Style Sheets).md"
               },
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
@@ -207,6 +207,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "CSS/CSS (Cascading Style Sheets).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -307,35 +308,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "f911e59b69f5b18f",
   "lastOpenFiles": [
+    "CSS/Grid vs Flexbox.md",
+    "CSS/CSS (Cascading Style Sheets).md",
+    "CSS/Grillas (CSS Grid).md",
     "CSS/Flexbox.md",
+    "CSS/Box Model o Modelo de Caja CSS.md",
+    "CSS/Borde (border).md",
+    "CSS/Margen (margin).md",
+    "CSS/Contenido (content).md",
+    "CSS/Relleno (padding).md",
+    "CSS/Iconos en CSS.md",
+    "CSS/Unidades de Medida CSS.md",
+    "CSS/Unidades relativas.md",
+    "CSS/Unidades absolutas.md",
+    "CSS/Herencia en CSS.md",
+    "CSS/Selectores en CSS.md",
+    "CSS/IDs.md",
+    "CSS/Clases.md",
+    "CSS/Etiquetas.md",
+    "CSS/Insertar CSS en HTML.md",
+    "CSS/Reglas de CSS.md",
     "CSS/_TOC_.md",
     "Bases de Datos/DBMS.md",
     "2026-08-13.md",
-    "CSS/Reglas de CSS.md",
     "Imágenes/coleccionesJava.png",
     "Programación/Adapter.md",
     "Programación/Abstract Factory.md",
-    "CSS/Grid vs Flexbox.md",
-    "CSS/CSS (Cascading Style Sheets).md",
-    "CSS/Box Model o Modelo de Caja CSS.md",
     "Modelado de Sistemas/Mermaid.md",
-    "Programación/Colecciones.md",
-    "Programación/Constructor.md",
-    "Programación/Downcasting.md",
-    "Programación/Formas de traducir un programa.md",
-    "Programación/Getters y Setters.md",
-    "Programación/Herencia.md",
-    "Programación/Interfaz.md",
-    "Programación/List.md",
-    "Programación/Miembros estáticos.md",
-    "Programación/Palabra super.md",
-    "Programación/Sobrecarga.md",
-    "Programación/Sobreescritura.md",
-    "Programación/Visibilidad.md",
-    "Programación/Frontend.md",
-    "Programación/Desarrollo Web.md",
     "Typescript",
     "CSS",
     "Imágenes/Pasted image 20260807160335.png",

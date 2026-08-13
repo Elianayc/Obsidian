@@ -51,5 +51,3 @@ Entre las comillas del atributo se pueden definir reglas CSS para formatear **ú
 
 
 ---
-
-#ProgramaciónIII

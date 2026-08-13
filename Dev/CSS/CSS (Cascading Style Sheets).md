@@ -36,6 +36,11 @@ Cuando declaramos un estilo, este contiene **propiedades y sus valores**, que de
 
 ---
 
+Para consultar una guía completa de las propiedades que se pueden aplicar a cada elemento:
+**[W3Schools - CSS](https://www.w3schools.com/css/default.asp)**
+
+---
+
 ### Temas Relacionados
 
 - [[Reglas de CSS]]
@@ -51,5 +56,3 @@ Cuando declaramos un estilo, este contiene **propiedades y sus valores**, que de
 - [[Grid vs Flexbox]]
 
 ---
-#Programación  
-#ProgramaciónIII

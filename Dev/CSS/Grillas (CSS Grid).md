@@ -1,5 +1,3 @@
-## Introducción
-
 **CSS Grid** es un sistema de diseño **bidimensional** que permite estructurar páginas web trabajando simultáneamente con **filas y columnas**.
 A diferencia de métodos anteriores, como las tablas HTML, Grid permite crear diseños complejos de forma más sencilla y precisa.
 

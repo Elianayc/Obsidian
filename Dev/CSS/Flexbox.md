@@ -1,5 +1,3 @@
-## Introducción
-
 **CSS Flexbox (Flexible Box Layout)** es un modelo de diseño **unidimensional**.
 A diferencia de **CSS Grid**, que trabaja en dos dimensiones, Flexbox está optimizado para distribuir elementos a lo largo de **un solo eje**, ya sea horizontal o vertical.
 Permite controlar la **alineación, orden y tamaño** de los elementos dentro de un contenedor.
@@ -229,4 +227,3 @@ Los elementos se ordenan de acuerdo con el valor de `order`. Cuanto menor sea el
 ![[Pasted image 20260812201744.png]]
 
 ---
-#ProgramaciónIII
