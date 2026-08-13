@@ -17,7 +17,7 @@ Una **URI** es una cadena de caracteres que permite **identificar un recurso de 
 - **Ruta:** indica la ubicación del recurso dentro del servidor.
   - Ejemplo: `/productos/index.html`
 
-- **Consulta:** información adicional enviada al recurso, generalmente en formato clave=valor.
+- **Consulta:** información adicional enviada al recurso, generalmente en formato *clave=valor*.
   - Comienza con `?`
   - Ejemplo: `?usuario=juan`
 
