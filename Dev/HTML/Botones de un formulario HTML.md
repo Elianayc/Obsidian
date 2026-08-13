@@ -101,5 +101,3 @@ y las opciones mediante:
 Por defecto permite seleccionar una sola opción.
 
 ---
-#Programación 
-#ProgramaciónIII 

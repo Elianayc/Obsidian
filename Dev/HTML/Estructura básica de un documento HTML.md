@@ -127,5 +127,3 @@ Ejemplo:
 |`<body>`|Contiene el contenido visible de la página|
 
 ---
-#Programación  
-#ProgramaciónIII

@@ -54,5 +54,3 @@ id="formulario"
 dentro del documento `contacto.html`.
 
 ---
-#Programación 
-#ProgramaciónIII 

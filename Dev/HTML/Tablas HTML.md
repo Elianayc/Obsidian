@@ -49,5 +49,3 @@ HTML dispone de varias etiquetas para definir la estructura de una tabla.
 |Mouse|$25|20|
 
 ---
-#Programación 
-#ProgramaciónIII 

@@ -73,5 +73,3 @@ Está formada por:
 ```
 
 ---
-#Programación 
-#ProgramaciónIII 

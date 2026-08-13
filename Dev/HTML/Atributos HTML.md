@@ -9,5 +9,3 @@ Los atributos son interpretados por el navegador y pueden afectar aspectos como:
 El modo en que un atributo modifica un elemento depende del tipo de etiqueta utilizada.
 
 ---
-#Programación 
-#ProgramaciónIII 

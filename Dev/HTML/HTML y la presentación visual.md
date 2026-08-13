@@ -9,5 +9,3 @@ Esto no solo modifica su apariencia, sino que también le da un significado dent
 Si un texto solamente tiene apariencia de encabezado pero no fue definido como tal mediante una etiqueta, otras herramientas no podrán identificarlo correctamente.
 
 ---
-#Programación 
-#ProgramaciónIII 

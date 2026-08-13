@@ -46,6 +46,3 @@ Los elementos pueden contener:
 - [[Formularios HTML]]
 
 ---
-
-#Programación  
-#ProgramaciónIII

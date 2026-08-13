@@ -27,5 +27,4 @@ Las etiquetas abiertas no contienen contenido y se utilizan para insertar elemen
 La etiqueta `<hr>` permite insertar una línea horizontal.
 
 ---
-#Programación 
-#ProgramaciónIII 
+ 

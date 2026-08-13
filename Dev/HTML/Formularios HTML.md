@@ -36,5 +36,3 @@ Un formulario funciona como un contenedor de diferentes controles de entrada, co
 |`<option>`|Define opciones de selección|
 
 ---
-#Programación  
-#ProgramaciónIII

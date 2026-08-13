@@ -44,5 +44,3 @@ Debe ser:
 Este texto es importante para accesibilidad y para casos donde la imagen no pueda cargarse.
 
 ---
-#Programación 
-#ProgramaciónIII 

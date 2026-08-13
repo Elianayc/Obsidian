@@ -15,6 +15,3 @@ Se declara dentro del elemento:
 ```
 
 ---
-
-#Programación 
-#ProgramaciónIII 

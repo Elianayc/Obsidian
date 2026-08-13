@@ -12,5 +12,3 @@ En este caso, el elemento `<p>` está contenido dentro del elemento `<div>`.
 Esta posibilidad permite crear subestructuras dentro del documento web.
 
 ---
-#Programación 
-#ProgramaciónIII 

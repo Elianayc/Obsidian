@@ -24,5 +24,3 @@ En este caso:
 - [[Atributos de las etiquetas]]
 
 ---
-#Programación 
-#ProgramaciónIII 

@@ -29,5 +29,3 @@ y
 son equivalentes.
 
 ---
-#Programación 
-#ProgramaciónIII 

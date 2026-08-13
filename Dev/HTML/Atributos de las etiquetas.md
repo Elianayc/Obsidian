@@ -37,5 +37,3 @@ Cuando existen varios atributos:
 Los atributos `src`, `width` y `height` pertenecen a la etiqueta de apertura `<img>`.
 
 ---
-#Programación 
-#ProgramaciónIII 

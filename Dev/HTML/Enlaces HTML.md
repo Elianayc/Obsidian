@@ -21,5 +21,3 @@ El atributo `href` indica la dirección del recurso al que apunta el enlace.
 - [[Tipos de enlaces]]
 
 ---
-#Programación 
-#ProgramaciónIII 

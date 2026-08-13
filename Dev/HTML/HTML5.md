@@ -181,5 +181,3 @@ Otros valores posibles son:
 - `text/plain`
 
 ---
-#Programación 
-#ProgramaciónIII 

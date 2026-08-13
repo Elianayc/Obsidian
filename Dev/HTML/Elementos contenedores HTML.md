@@ -48,6 +48,3 @@ Ejemplo:
 Puede utilizarse para cambiar estilos como color, tamaño o formato de una parte de un texto.
 
 ---
-
-#Programación 
-#ProgramaciónIII 
