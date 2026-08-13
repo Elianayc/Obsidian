@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes/FTP (File Transfer Protocol).md",
+                "file": "Redes/MQTT (Message Queuing Telemetry Transport).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FTP (File Transfer Protocol)"
+              "title": "MQTT (Message Queuing Telemetry Transport)"
             }
           }
         ]
@@ -307,6 +307,7 @@
   },
   "active": "c81fa0e1b89292e0",
   "lastOpenFiles": [
+    "Redes/FTP (File Transfer Protocol).md",
     "Redes/Internet.md",
     "Redes/State.md",
     "Redes/Parameters.md",
@@ -323,7 +324,6 @@
     "Redes/IMAP (Internet Message Access Protocol).md",
     "Redes/SMTP (Simple Mail Transfer Protocol).md",
     "Redes/SFTP (SSH File Transfer Protocol).md",
-    "Redes/FTP (File Transfer Protocol).md",
     "Redes/Modelo OSI.md",
     "Redes/Protocolos.md",
     "Redes/Funcionamiento de un Servidor Web.md",

@@ -1,5 +1,3 @@
-## MQTT (Message Queuing Telemetry Transport)
-
 Protocolo de mensajería ligero utilizado principalmente en dispositivos con pocos recursos o conexiones limitadas.
 
 Utiliza un modelo de:
