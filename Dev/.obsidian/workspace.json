@@ -13,15 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación III/CSS (Cascading Style Sheets).md",
+                "file": "CSS/Grid vs Flexbox.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSS (Cascading Style Sheets)"
+              "title": "Grid vs Flexbox"
+            }
+          },
+          {
+            "id": "dfbdbeba82a6bf4f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -55,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "css",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -186,9 +197,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Programación III/CSS (Cascading Style Sheets).md"
-              },
+              "state": {},
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
             }
@@ -207,7 +216,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programación III/CSS (Cascading Style Sheets).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -308,34 +316,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7bd47dfe0205fe85",
+  "active": "dfbdbeba82a6bf4f",
   "lastOpenFiles": [
-    "Programación III/Flexbox.md",
-    "Programación III/Elementos HTML.md",
-    "Programación III/Reglas de CSS.md",
-    "Programación III/Selectores en CSS.md",
-    "Programación III/Tablas HTML.md",
-    "Programación III/Insertar CSS en HTML.md",
-    "Programación III/HTML y la presentación visual.md",
-    "Programación III/Herencia en CSS.md",
-    "Programación III/Grillas (CSS Grid).md",
-    "Programación III/Grid vs Flexbox.md",
-    "Programación III/CSS (Cascading Style Sheets).md",
-    "Programación III/HTML (HyperText Markup Language).md",
-    "Programación III/HTML5.md",
-    "Redes/Concepto de hipertexto.md",
-    "Redes/State.md",
-    "Redes/Parameters.md",
-    "Redes/Body.md",
-    "Redes/Method.md",
-    "Redes/Header.md",
-    "Redes/Estructura de una petición HTTP.md",
+    "CSS/Flexbox.md",
+    "CSS/Grid vs Flexbox.md",
+    "CSS/CSS (Cascading Style Sheets).md",
+    "CSS/Box Model o Modelo de Caja CSS.md",
+    "Programación/Typescript.md",
+    "Redes/URN (Uniform Resource Name).md",
+    "Redes/World Wide Web (WWW).md",
+    "Programación/Frontend.md",
+    "HTML/Formularios HTML.md",
+    "HTML/Favicon.md",
+    "HTML/Etiquetas HTML.md",
+    "HTML/Etiquetas abiertas y cerradas.md",
+    "HTML/Estructura básica de un documento HTML.md",
+    "HTML/Enlaces HTML.md",
+    "HTML/Elementos contenedores HTML.md",
+    "HTML/Elementos HTML.md",
+    "HTML/Desarrollo Web.md",
+    "HTML/Controles de formulario HTML.md",
+    "HTML/Botones de un formulario HTML.md",
+    "HTML/Atributos principales de un formulario HTML.md",
+    "HTML/Atributos HTML.md",
+    "HTML/Atributos de las etiquetas.md",
+    "HTML/Anidamiento y jerarquía.md",
+    "CSS/Insertar CSS en HTML.md",
+    "CSS/Grillas (CSS Grid).md",
     "Redes/Ciclo de vida de una petición web.md",
-    "Redes/Peticiones HTTP (Requests).md",
-    "Redes/DNS (Domain Name System).md",
-    "Redes/SOAP (Simple Object Access Protocol).md",
-    "Redes/MQTT (Message Queuing Telemetry Transport).md",
-    "Redes/OAuth 2.0 (Open Authorization).md",
+    "CSS",
     "Imágenes/Pasted image 20260807160335.png",
     "Imágenes/Pasted image 20260811142303.png",
     "Imágenes/Pasted image 20260812195734.png",
@@ -346,7 +355,7 @@
     "Imágenes/Pasted image 20260812201857.png",
     "Imágenes/Pasted image 20260812201744.png",
     "Imágenes/Pasted image 20260812201558.png",
-    "Programación III",
+    "HTML",
     "Sin título.base",
     "Modelado de Sistemas",
     "TCP",
@@ -356,7 +365,6 @@
     "Imágenes",
     "Abierto",
     "Sin título.canvas",
-    "Modelado de Sistemas",
     "Sin título 1.canvas"
   ]
 }

@@ -8,52 +8,10 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#ArquitecturadeSistemas  ",
+      "query": "file:CSS",
       "color": {
         "a": 1,
-        "rgb": 15124703
-      }
-    },
-    {
-      "query": "tag:#BasesdeDatos  ",
-      "color": {
-        "a": 1,
-        "rgb": 15518677
-      }
-    },
-    {
-      "query": "tag:#Redes  ",
-      "color": {
-        "a": 1,
-        "rgb": 14801845
-      }
-    },
-    {
-      "query": "tag:#ModeladodeSistemas  ",
-      "color": {
-        "a": 1,
-        "rgb": 11134698
-      }
-    },
-    {
-      "query": "tag:#ProgramaciónI  ",
-      "color": {
-        "a": 1,
-        "rgb": 13028079
-      }
-    },
-    {
-      "query": "tag:#ProgramaciónII  ",
-      "color": {
-        "a": 1,
-        "rgb": 13028079
-      }
-    },
-    {
-      "query": "tag:#ProgramaciónIII  ",
-      "color": {
-        "a": 1,
-        "rgb": 12575445
+        "rgb": 14048348
       }
     }
   ],
@@ -68,5 +26,5 @@
   "linkStrength": 1,
   "linkDistance": 30,
   "scale": 0.16348370567219958,
-  "close": true
+  "close": false
 }
