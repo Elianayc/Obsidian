@@ -1,5 +1,3 @@
-## FTP (File Transfer Protocol)
-
 Protocolo utilizado para transferir archivos entre un cliente y un servidor.
 
 Permite:
