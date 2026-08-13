@@ -17,6 +17,4 @@ Permiten transportar información como:
 
 
 ---
-
-#ProgramaciónIII
 #Redes

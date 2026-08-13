@@ -13,6 +13,4 @@ https://www.ejemplo.com/pagina
 - Ruta dentro del servidor.
 
 ---
-
-#ProgramaciónIII
 #Redes

@@ -21,6 +21,4 @@
 - Menor soporte nativo para seguridad y autoconfiguración que IPv6.
 
 ---
-
-#ProgramaciónIII
 #Redes

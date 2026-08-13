@@ -7,5 +7,4 @@ Aunque una página web pueda verse como un documento simple para el usuario, int
 - Vinculación entre diferentes recursos.
 
 ---
-#Programación 
-#ProgramaciónIII 
+#Redes 

@@ -10,6 +10,4 @@ Se basa en:
 > La Web es una aplicación que utiliza Internet.
 
 ---
-
-#ProgramaciónIII
 #Redes

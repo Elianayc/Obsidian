@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes/Tipos de Servidores.md",
+                "file": "Programación III/CSS (Cascading Style Sheets).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tipos de Servidores"
+              "title": "CSS (Cascading Style Sheets)"
             }
           }
         ]
@@ -187,7 +187,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Redes/Tipos de Servidores.md"
+                "file": "Programación III/CSS (Cascading Style Sheets).md"
               },
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
@@ -207,7 +207,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Redes/Tipos de Servidores.md",
+                "file": "Programación III/CSS (Cascading Style Sheets).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -308,34 +308,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "7bd47dfe0205fe85",
   "lastOpenFiles": [
-    "Redes/Servidor Web.md",
-    "Redes/Funcionamiento de un Servidor Web.md",
-    "Redes/Modelo Cliente - Servidor.md",
-    "Redes/URI (Uniform Resource Identifier).md",
-    "Redes/Tipos de Servidores.md",
-    "Redes/Estructura de una petición HTTP.md",
-    "Redes/Peticiones HTTP (Requests).md",
-    "Programación/Backend.md",
-    "Redes/SOAP (Simple Object Access Protocol).md",
-    "Redes/IPv6.md",
-    "Redes/IPv4.md",
-    "Arquitectura de Sistemas/Etapas del SDLC.md",
-    "Bases de Datos/DCL.md",
-    "Bases de Datos/DBMS.md",
-    "Arquitectura de Sistemas/Arquitectura por Capas.md",
-    "Redes/Internet.md",
-    "Redes/URL (Uniform Resource Locator).md",
+    "Programación III/CSS (Cascading Style Sheets).md",
+    "Programación III/HTML5.md",
+    "Programación III/Flexbox CSS.md",
+    "Redes/Concepto de hipertexto.md",
     "Redes/State.md",
     "Redes/Parameters.md",
     "Redes/Body.md",
     "Redes/Method.md",
     "Redes/Header.md",
+    "Redes/Estructura de una petición HTTP.md",
     "Redes/Ciclo de vida de una petición web.md",
-    "Redes/HTTP (HyperText Transfer Protocol).md",
-    "Redes/World Wide Web (WWW).md",
+    "Redes/Peticiones HTTP (Requests).md",
+    "Redes/DNS (Domain Name System).md",
+    "Redes/SOAP (Simple Object Access Protocol).md",
+    "Redes/MQTT (Message Queuing Telemetry Transport).md",
+    "Redes/OAuth 2.0 (Open Authorization).md",
+    "Redes/IMAP (Internet Message Access Protocol).md",
+    "Redes/SMTP (Simple Mail Transfer Protocol).md",
+    "Redes/SFTP (SSH File Transfer Protocol).md",
+    "Redes/FTP (File Transfer Protocol).md",
+    "Redes/Modelo OSI.md",
     "Redes/Protocolos.md",
+    "Redes/Funcionamiento de un Servidor Web.md",
+    "Redes/Tipos de Servidores.md",
+    "Redes/Servidor Web.md",
+    "Redes/Modelo Cliente - Servidor.md",
+    "Imágenes/Pasted image 20260807160335.png",
     "Imágenes/Pasted image 20260811142303.png",
     "Imágenes/Pasted image 20260812195734.png",
     "Imágenes/Pasted image 20260812202202.png",
@@ -345,7 +346,6 @@
     "Imágenes/Pasted image 20260812201857.png",
     "Imágenes/Pasted image 20260812201744.png",
     "Imágenes/Pasted image 20260812201558.png",
-    "Imágenes/Pasted image 20260812201510.png",
     "Programación III",
     "Sin título.base",
     "Modelado de Sistemas",

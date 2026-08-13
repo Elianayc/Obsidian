@@ -37,6 +37,4 @@ Utiliza protocolos como:
 - **RTMP (Real-Time Messaging Protocol).**
 
 ---
-
-#ProgramaciónIII
 #Redes

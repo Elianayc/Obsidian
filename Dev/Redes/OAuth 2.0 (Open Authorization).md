@@ -8,6 +8,4 @@ Ejemplos:
 - Acceso a APIs externas.
 
 ---
-
-#ProgramaciónIII
 #Redes

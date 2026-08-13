@@ -11,6 +11,4 @@ Está formado por **7 capas o niveles de abstracción**, donde cada capa tiene f
 ![[Pasted image 20260804125503.png]]
 
 ---
-
-#ProgramaciónIII
 #Redes

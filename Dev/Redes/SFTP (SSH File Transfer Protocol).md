@@ -9,6 +9,4 @@ Puerto utilizado:
 - **22**
 
 ---
-
-#ProgramaciónIII
 #Redes

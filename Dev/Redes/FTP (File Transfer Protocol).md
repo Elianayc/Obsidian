@@ -14,6 +14,4 @@ Puertos utilizados:
 - **21:** comandos de control.
 
 ---
-
-#ProgramaciónIII
 #Redes

@@ -48,6 +48,4 @@ Internet funciona gracias a una combinación de **infraestructura, protocolos y 
 - Democratización del acceso a la información.
 
 ---
-
-#ProgramaciónIII
 #Redes

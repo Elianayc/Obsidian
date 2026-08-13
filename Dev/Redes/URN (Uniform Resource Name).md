@@ -10,6 +10,4 @@ urn : isbn : 978-3-16-148410-0
 ```
 
 ---
-
-#ProgramaciónIII
 #Redes

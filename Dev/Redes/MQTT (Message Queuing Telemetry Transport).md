@@ -16,5 +16,4 @@ Puertos:
 - **8883:** con TLS.
 
 ---
-#ProgramaciónIII
 #Redes

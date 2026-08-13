@@ -24,6 +24,4 @@ Además de TCP/IP y HTTP, existen otros protocolos utilizados para diferentes ti
 - [[SOAP (Simple Object Access Protocol)]]
 
 ---
-
-#ProgramaciónIII
 #Redes

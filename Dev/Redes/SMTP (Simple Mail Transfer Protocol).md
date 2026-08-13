@@ -11,6 +11,4 @@ Puertos:
 No está diseñado para recuperar mensajes, sino para enviarlos.
 
 ---
-
-#ProgramaciónIII
 #Redes
