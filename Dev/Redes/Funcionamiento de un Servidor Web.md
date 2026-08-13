@@ -34,6 +34,7 @@ Según el recurso solicitado puede:
 ### 3. Generación de la respuesta HTTP
 
 El servidor crea una respuesta que incluye:
+
 - El recurso solicitado.
 - Código de estado HTTP.
 - Información adicional sobre la respuesta.
