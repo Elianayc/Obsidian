@@ -25,6 +25,3 @@ Lo ideal es **combinar ambos sistemas** cuando sea necesario:
 - **Flexbox** → para organizar los componentes internos de esa estructura.
 
 ---
-
-
-#ProgramaciónIII
