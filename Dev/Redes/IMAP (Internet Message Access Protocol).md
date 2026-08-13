@@ -12,4 +12,3 @@ A diferencia de POP3, mantiene los mensajes en el servidor y permite sincronizac
 - **993:** conexión segura.
 
 ---
-#Redes

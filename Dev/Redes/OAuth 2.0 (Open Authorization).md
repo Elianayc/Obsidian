@@ -8,4 +8,3 @@ Ejemplos:
 - Acceso a APIs externas.
 
 ---
-#Redes

@@ -40,4 +40,3 @@ Gracias a la caché, si varios usuarios consultan el mismo dominio, la respuesta
 El DNS facilita el uso de Internet porque permite acceder a recursos mediante nombres legibles para humanos en lugar de recordar direcciones IP numéricas.
 
 ---
-#Redes

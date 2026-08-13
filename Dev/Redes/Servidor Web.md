@@ -28,4 +28,3 @@ Además de entregar páginas estáticas, algunos servidores web pueden ejecutar 
 - [[Funcionamiento de un Servidor Web]]
 
 ---
-#Redes

@@ -72,4 +72,3 @@ Finalmente, el navegador muestra el contenido solicitado al usuario.
 Este proceso se repite cada vez que un usuario solicita un recurso web.
 
 ---
-#Redes

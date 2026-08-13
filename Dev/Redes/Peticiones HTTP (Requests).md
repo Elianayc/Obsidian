@@ -10,4 +10,3 @@ El proceso implica una comunicación entre el **cliente** y el **servidor**, don
 - [[Estructura de una petición HTTP]]
 
 ---
-#Redes

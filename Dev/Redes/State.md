@@ -9,4 +9,3 @@ Para mantener información entre solicitudes se utilizan mecanismos adicionales 
 Estos permiten mantener información del usuario durante una interacción con una aplicación web.
 
 ---
-#Redes

@@ -8,4 +8,3 @@ Características:
 Es utilizado principalmente en sistemas empresariales y aplicaciones heredadas.
 
 ---
-#Redes

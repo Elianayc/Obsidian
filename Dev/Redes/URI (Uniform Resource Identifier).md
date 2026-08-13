@@ -37,4 +37,3 @@ Una **URI** es una cadena de caracteres que permite **identificar un recurso de 
 - **[[URN (Uniform Resource Name)]] (Uniform Resource Name)**
 
 ---
-#Redes

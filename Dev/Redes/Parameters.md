@@ -18,4 +18,3 @@ Los parámetros permiten enviar información adicional dentro de una URL.
 Estos datos permiten identificar o filtrar información solicitada al servidor.
 
 ---
-#Redes

@@ -56,4 +56,3 @@ Los servidores web pueden incluir funcionalidades como:
 - **Comunicación con otros servidores:** permite obtener recursos que no están disponibles localmente.
 
 ---
-#Redes

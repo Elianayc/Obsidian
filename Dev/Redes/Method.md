@@ -11,4 +11,3 @@ Los principales son:
 El método representa una intención, pero la acción final depende de la lógica implementada en el servidor.
 
 ---
-#Redes

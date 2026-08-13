@@ -9,4 +9,3 @@ Se encarga del **direccionamiento y envío de paquetes**.
 - [[IPv6]]
 
 ---
-#Redes

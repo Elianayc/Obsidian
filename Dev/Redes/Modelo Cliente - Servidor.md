@@ -62,8 +62,6 @@ Para una explicación más detallada de la separación de responsabilidades por 
 
 - **Consumo de recursos:** los servidores necesitan recursos suficientes para atender múltiples clientes, aumentando los costos de infraestructura.
 
-
 ---
-#Redes 
 
 

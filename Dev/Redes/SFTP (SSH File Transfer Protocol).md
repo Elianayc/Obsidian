@@ -9,4 +9,3 @@ Puerto utilizado:
 - **22**
 
 ---
-#Redes

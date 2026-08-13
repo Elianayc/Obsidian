@@ -12,4 +12,3 @@ Tanto las peticiones como las respuestas utilizan una estructura similar basada 
 - **[[State]] (estado):** información relacionada con el estado de la comunicación.
 
 ---
-#Redes

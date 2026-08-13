@@ -16,4 +16,3 @@ Durante la comunicación intervienen principalmente dos protocolos:
  - [[TCP (Transmission Control Protocol)]]
 
 ---
-#Redes

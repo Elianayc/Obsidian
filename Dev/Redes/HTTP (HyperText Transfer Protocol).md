@@ -50,4 +50,3 @@ Ejemplos:
 - **404 Not Found:** el recurso solicitado no fue encontrado.
 
 ---
-#Redes
