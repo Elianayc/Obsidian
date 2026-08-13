@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9aedc65d72d8b6bc",
+        "id": "6174ee79c804fdfa",
         "type": "tabs",
         "children": [
           {
-            "id": "7bd47dfe0205fe85",
+            "id": "f432926776f9424f",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -301,13 +301,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7bd47dfe0205fe85",
+  "active": "f432926776f9424f",
   "lastOpenFiles": [
+    "Imágenes/coleccionesJava.png",
+    "Programación/Adapter.md",
+    "Programación/Abstract Factory.md",
     "CSS/Grid vs Flexbox.md",
     "CSS/CSS (Cascading Style Sheets).md",
     "CSS/Box Model o Modelo de Caja CSS.md",
     "Modelado de Sistemas/Mermaid.md",
-    "Programación/Adapter.md",
     "Programación/Colecciones.md",
     "Programación/Constructor.md",
     "Programación/Downcasting.md",
@@ -328,8 +330,6 @@
     "HTML/Concepto de hipertexto.md",
     "CSS/Flexbox.md",
     "Typescript/Typescript.md",
-    "Redes/URN (Uniform Resource Name).md",
-    "Redes/World Wide Web (WWW).md",
     "CSS",
     "Imágenes/Pasted image 20260807160335.png",
     "Imágenes/Pasted image 20260811142303.png",
