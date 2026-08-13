@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6174ee79c804fdfa",
+        "id": "2c14cd5b885dfc65",
         "type": "tabs",
         "children": [
           {
-            "id": "f432926776f9424f",
+            "id": "f911e59b69f5b18f",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -301,8 +301,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f432926776f9424f",
+  "active": "f911e59b69f5b18f",
   "lastOpenFiles": [
+    "2026-08-13.md",
+    "CSS/Reglas de CSS.md",
     "Imágenes/coleccionesJava.png",
     "Programación/Adapter.md",
     "Programación/Abstract Factory.md",
@@ -329,7 +331,6 @@
     "Programación/JavaScript.md",
     "HTML/Concepto de hipertexto.md",
     "CSS/Flexbox.md",
-    "Typescript/Typescript.md",
     "CSS",
     "Imágenes/Pasted image 20260807160335.png",
     "Imágenes/Pasted image 20260811142303.png",
@@ -340,7 +341,6 @@
     "Imágenes/Pasted image 20260812202017.png",
     "Imágenes/Pasted image 20260812201857.png",
     "Imágenes/Pasted image 20260812201744.png",
-    "Imágenes/Pasted image 20260812201558.png",
     "HTML",
     "Sin título.base",
     "Modelado de Sistemas",
