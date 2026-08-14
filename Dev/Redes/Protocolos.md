@@ -1,13 +1,12 @@
 Los **protocolos de comunicación** son un conjunto de reglas que permiten que distintos dispositivos y sistemas puedan comunicarse e intercambiar información dentro de una red.
 
-Para organizar la comunicación entre sistemas existen modelos de referencia como el **[[Modelo OSI]]**, que divide las funciones de red en diferentes capas.
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gIye5ECo06E" frameborder="0" allowfullscreen></iframe>
 
 ---
 
-**Algunos protocolos importantes son:**
+Para organizar la comunicación entre sistemas existen modelos de referencia como el **[[Modelo OSI]]**, que divide las funciones de red en diferentes capas.
 
+**Algunos protocolos importantes son:**
 - [[TCP (Transmission Control Protocol) - IP (Internet Protocol)]]
 - [[DNS (Domain Name System)]]
 - [[HTTP (HyperText Transfer Protocol)]]
