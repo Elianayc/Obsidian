@@ -5,9 +5,10 @@
   "enabledCssSnippets": [
     "fix-tablas"
   ],
-  "monospaceFontFamily": "Cascadia Code NF SemiLight",
+  "monospaceFontFamily": "KG Primary Penmanship Alt",
   "showRibbon": true,
-  "interfaceFontFamily": "KG Primary Penmanship",
-  "baseFontSize": 16,
-  "baseFontSizeAction": true
+  "interfaceFontFamily": "KG Primary Penmanship Alt",
+  "baseFontSize": 21,
+  "baseFontSizeAction": true,
+  "textFontFamily": "KG Primary Penmanship Alt"
 }
