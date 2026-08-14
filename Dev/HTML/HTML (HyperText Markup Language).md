@@ -26,5 +26,7 @@ HTML funciona como la base estructural de una página, organizando sus diferente
 - [[HTML y la presentación visual]]
 - [[Estructura básica de un documento HTML]]
 - [[HTML5]]
+- [[Metatags]]
+
 
 ---

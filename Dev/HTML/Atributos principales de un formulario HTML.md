@@ -1,5 +1,7 @@
 Un formulario requiere principalmente tres atributos:
 
+![[Pasted image 20260814150251.png]]
+
 ---
 
 ## `action`

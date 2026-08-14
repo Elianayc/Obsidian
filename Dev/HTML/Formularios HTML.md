@@ -19,6 +19,9 @@ Un formulario funciona como un contenedor de diferentes controles de entrada, co
 - [[Botones de un formulario HTML]]
 
 ---
+![[Pasted image 20260814150224.png]]
+
+---
 
 # Resumen
 

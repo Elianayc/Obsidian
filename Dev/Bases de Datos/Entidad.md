@@ -16,4 +16,5 @@ También llamado fila o tupla.
 Es la representación de una entidad dentro de una **Tabla**, es decir, una instancia concreta con valores específicos.
 
 [[Conjunto de entidades]]
+
 #BasesdeDatos
