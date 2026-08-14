@@ -15,6 +15,10 @@ A diferencia de los elementos contenedores tradicionales como `<div>`, estas eti
 
 ---
 
+![[Pasted image 20260814151718.png]]
+
+---
+
 ## `<section>`
 
 Define una sección dentro de un documento.
