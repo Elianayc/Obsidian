@@ -5,6 +5,12 @@ La **arquitectura cliente-servidor** es un modelo donde dos componentes de softw
 
 La capacidad de procesamiento se distribuye entre clientes y servidores, permitiendo una mejor organización del sistema y una separación clara de responsabilidades.
 
+<div style="text-align: center;">
+
+<iframe width="315" height="560" src="https://www.youtube.com/embed/Bv0W8IoS78I" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
 ---
 
 ## Ejemplos
