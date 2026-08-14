@@ -2,8 +2,6 @@
 tags:
   - ArquitecturadeSistemas
 ---
-## Daily Scrum
-
 Reunión diaria de 15 minutos.
 
 Objetivo:
