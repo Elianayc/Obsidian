@@ -11,56 +11,56 @@
       "query": "path:\"Arquitectura de Sistemas\"  ",
       "color": {
         "a": 1,
-        "rgb": 14848694
+        "rgb": 14518447
       }
     },
     {
       "query": "path:\"Bases de Datos\"  ",
       "color": {
         "a": 1,
-        "rgb": 14780814
+        "rgb": 14516825
       }
     },
     {
-      "query": "path:CSS  ",
+      "query": "path:CSS",
       "color": {
         "a": 1,
-        "rgb": 14856584
+        "rgb": 14654263
       }
     },
     {
       "query": "path:HTML  ",
       "color": {
         "a": 1,
-        "rgb": 8440772
+        "rgb": 9288864
       }
     },
     {
       "query": "path:\"Modelado de Sistemas\"  ",
       "color": {
         "a": 1,
-        "rgb": 10276520
+        "rgb": 13663942
       }
     },
     {
       "query": "path:Programación  ",
       "color": {
         "a": 1,
-        "rgb": 16375445
+        "rgb": 7450715
       }
     },
     {
       "query": "path:Redes  ",
       "color": {
         "a": 1,
-        "rgb": 15906274
+        "rgb": 7569612
       }
     },
     {
       "query": "path:Typescript  ",
       "color": {
         "a": 1,
-        "rgb": 12973470
+        "rgb": 10905059
       }
     }
   ],

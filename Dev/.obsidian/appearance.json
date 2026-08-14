@@ -5,10 +5,10 @@
   "enabledCssSnippets": [
     "fix-tablas"
   ],
-  "monospaceFontFamily": "KG Primary Penmanship Alt",
+  "monospaceFontFamily": "",
   "showRibbon": true,
-  "interfaceFontFamily": "KG Primary Penmanship Alt",
-  "baseFontSize": 21,
+  "interfaceFontFamily": "",
+  "baseFontSize": 16,
   "baseFontSizeAction": true,
-  "textFontFamily": "KG Primary Penmanship Alt"
+  "textFontFamily": ""
 }
