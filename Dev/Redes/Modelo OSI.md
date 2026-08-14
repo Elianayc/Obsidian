@@ -4,7 +4,11 @@ Su objetivo es dividir el proceso de comunicación de una red en partes más sim
 
 Está formado por **7 capas o niveles de abstracción**, donde cada capa tiene funciones específicas y permite la interacción entre distintos protocolos.
 
+<div style="text-align: center;">
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/MqpIJLmMny8" frameborder="0" allowfullscreen></iframe>
+
+</div>
 
 ![[Pasted image 20260804124100.png]]
 

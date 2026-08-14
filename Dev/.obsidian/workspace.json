@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes/Protocolos.md",
-                "mode": "preview",
+                "file": "Redes/Modelo Cliente - Servidor.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Protocolos"
+              "title": "Modelo Cliente - Servidor"
             }
           }
         ]
@@ -307,10 +307,11 @@
   },
   "active": "c81fa0e1b89292e0",
   "lastOpenFiles": [
-    "Redes/Modelo OSI.md",
     "Redes/Protocolos.md",
+    "Redes/Modelo OSI.md",
     "Redes/TCP (Transmission Control Protocol) - IP (Internet Protocol).md",
     "Redes/Internet.md",
+    "Redes/DNS (Domain Name System).md",
     "Redes/Servidor Web.md",
     "Redes/Modelo Cliente - Servidor.md",
     "Arquitectura de Sistemas/Modelo en Cascada.md",
@@ -332,7 +333,6 @@
     "Redes/Method.md",
     "Redes/Header.md",
     "Redes/URI (Uniform Resource Identifier).md",
-    "Redes/URN (Uniform Resource Name).md",
     "Imágenes/coleccionesJava.png",
     "Typescript",
     "CSS",

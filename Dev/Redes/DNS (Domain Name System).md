@@ -8,6 +8,12 @@ www.google.com → 142.250.xxx.xxx
 
 Los usuarios utilizan nombres de dominio, pero las computadoras necesitan direcciones IP para localizar los servidores.
 
+<div style="text-align: center;">
+
+<iframe width="315" height="560" src="https://www.youtube.com/embed/fGkdNo8qs-k" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
 ---
 
 ## Funcionamiento del DNS
