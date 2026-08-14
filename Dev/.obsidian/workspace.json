@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/HTML y la presentación visual.md",
+                "file": "HTML/Atributos principales de un formulario HTML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTML y la presentación visual"
+              "title": "Atributos principales de un formulario HTML"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "texto html",
+                "query": "formulario",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -308,6 +308,14 @@
   },
   "active": "c81fa0e1b89292e0",
   "lastOpenFiles": [
+    "HTML/Formularios HTML.md",
+    "HTML/Tablas HTML.md",
+    "Pasted image 20260814151340.png",
+    "HTML/Listas HTML.md",
+    "Pasted image 20260814151300.png",
+    "HTML/HTML y la presentación visual.md",
+    "Pasted image 20260814151240.png",
+    "Pasted image 20260814151210.png",
     "HTML/Tipos de elementos HTML.md",
     "HTML/HTML (HyperText Markup Language).md",
     "Pasted image 20260814151049.png",
@@ -321,7 +329,6 @@
     "HTML/Metatags.md",
     "Pasted image 20260814145450.png",
     "Imágenes/Pasted image 20260814150434.png",
-    "HTML/Formularios HTML.md",
     "HTML/Botones de un formulario HTML.md",
     "Bases de Datos/Sistema de archivos.md",
     "Bases de Datos/Triggers.md",
@@ -329,21 +336,14 @@
     "HTML/Controles de formulario HTML.md",
     "HTML/Atributos principales de un formulario HTML.md",
     "Imágenes/Pasted image 20260814150251.png",
-    "Imágenes/Pasted image 20260814150224.png",
     "HTML/Atributos HTML.md",
-    "Imágenes/Pasted image 20260814150118.png",
     "HTML/Etiquetas HTML.md",
-    "Imágenes/Pasted image 20260814150040.png",
     "HTML/HTML5.md",
     "HTML/Elementos HTML.md",
-    "Imágenes/Pasted image 20260814145849.png",
     "Arquitectura de Sistemas/Diagrama Entidad-Relación (DER).md",
     "Arquitectura de Sistemas/Modelado y Gestión de Datos.md",
     "Bases de Datos/Álgebra Relacional.md",
     "Programación/Programación Orientada a objetos (POO).md",
-    "Arquitectura de Sistemas/Diagrama de Flujo de Datos (DFD).md",
-    "Bases de Datos/Entidad.md",
-    "Redes/Internet.md",
     "Typescript",
     "CSS",
     "HTML",

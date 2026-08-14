@@ -4,6 +4,8 @@ Una tabla está formada por un conjunto de celdas donde se pueden almacenar dife
 
 HTML dispone de varias etiquetas para definir la estructura de una tabla.
 
+![[Pasted image 20260814151340.png]]
+
 ---
 
 ## Elementos principales de una tabla

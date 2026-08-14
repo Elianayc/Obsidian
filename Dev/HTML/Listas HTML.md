@@ -1,5 +1,7 @@
 HTML permite crear diferentes tipos de listas:
 
+![[Pasted image 20260814151300.png]]
+
 ---
 
 ## Lista ordenada
