@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Multimedia en HTML5.md",
-                "mode": "preview",
+                "file": "HTML/HTML y la presentación visual.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multimedia en HTML5"
+              "title": "HTML y la presentación visual"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "html mult",
+                "query": "texto html",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +79,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -307,34 +308,35 @@
   },
   "active": "c81fa0e1b89292e0",
   "lastOpenFiles": [
-    "Metatags.md",
-    "Iframe.md",
-    "Mejoras en formularios HTML5.md",
-    "HTML Entities.md",
+    "HTML/Tipos de elementos HTML.md",
+    "HTML/HTML (HyperText Markup Language).md",
+    "Pasted image 20260814151049.png",
+    "HTML/Validaciones automáticas.md",
+    "HTML/Simbolos y Emojis.md",
+    "HTML/Multimedia en HTML5.md",
+    "HTML/Mejoras en formularios HTML5.md",
+    "HTML/Iframe.md",
+    "HTML/HTML Entities.md",
+    "Imágenes/Pasted image 20260814145556.png",
+    "HTML/Metatags.md",
     "Pasted image 20260814145450.png",
-    "Pasted image 20260814150434.png",
-    "Pasted image 20260814145556.png",
-    "Multimedia en HTML5.md",
+    "Imágenes/Pasted image 20260814150434.png",
     "HTML/Formularios HTML.md",
     "HTML/Botones de un formulario HTML.md",
     "Bases de Datos/Sistema de archivos.md",
     "Bases de Datos/Triggers.md",
-    "Validaciones automáticas.md",
-    "Pasted image 20260814150353.png",
+    "Imágenes/Pasted image 20260814150353.png",
     "HTML/Controles de formulario HTML.md",
     "HTML/Atributos principales de un formulario HTML.md",
-    "Pasted image 20260814150251.png",
-    "Pasted image 20260814150224.png",
+    "Imágenes/Pasted image 20260814150251.png",
+    "Imágenes/Pasted image 20260814150224.png",
     "HTML/Atributos HTML.md",
-    "Pasted image 20260814150118.png",
+    "Imágenes/Pasted image 20260814150118.png",
     "HTML/Etiquetas HTML.md",
-    "HTML/HTML (HyperText Markup Language).md",
-    "Pasted image 20260814150040.png",
+    "Imágenes/Pasted image 20260814150040.png",
     "HTML/HTML5.md",
     "HTML/Elementos HTML.md",
-    "Simbolos y Emojis.md",
-    "Pasted image 20260814145849.png",
-    "Pasted image 20260814145731.png",
+    "Imágenes/Pasted image 20260814145849.png",
     "Arquitectura de Sistemas/Diagrama Entidad-Relación (DER).md",
     "Arquitectura de Sistemas/Modelado y Gestión de Datos.md",
     "Bases de Datos/Álgebra Relacional.md",

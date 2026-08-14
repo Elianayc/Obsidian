@@ -4,6 +4,8 @@ Fue creado bajo la especificación de la **W3C (World Wide Web Consortium)** y p
 
 HTML no es un lenguaje de programación, sino un **lenguaje de marcado**, ya que utiliza etiquetas para describir cómo está organizado el contenido.
 
+![[Pasted image 20260814151049.png]]
+
 ---
 
 ## Función principal
