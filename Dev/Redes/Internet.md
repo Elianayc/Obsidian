@@ -11,6 +11,7 @@ Internet es una **red mundial de redes interconectadas** que permite la comunica
 - Dispositivos móviles.
 - Infraestructuras de telecomunicaciones.
 
+
 ---
 
 ## Origen
