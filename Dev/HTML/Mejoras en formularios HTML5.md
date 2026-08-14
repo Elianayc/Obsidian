@@ -14,6 +14,8 @@ También incorpora mejoras como:
 - Nuevos tipos de controles.
 - Nuevos atributos para facilitar el ingreso de datos.
 
+![[Pasted image 20260814151530.png]]
+
 ---
 
 ## Enctype text/plain
