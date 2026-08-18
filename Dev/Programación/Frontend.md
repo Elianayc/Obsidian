@@ -1,41 +1,40 @@
-El **Frontend** es la capa de la aplicación encargada de la interacción directa con el usuario.
+El **Frontend** es la capa de una aplicación encargada de la interacción directa con el usuario.
 
-Su función es presentar la información y permitir que el usuario pueda comunicarse con el sistema mediante una interfaz gráfica.
+Su función es presentar la información y permitir que el usuario pueda interactuar con el sistema mediante una interfaz.
 
 **Se ocupa de**:
 - Mostrar información al usuario.
 - Capturar acciones e ingresar datos.
 - Validar información del lado del cliente.
 - Actualizar la interfaz según las acciones realizadas.
+- Gestionar la presentación y el comportamiento de la interfaz.
 
-En aplicaciones web, el Frontend se ejecuta principalmente en el navegador y utiliza tecnologías como:
+El Frontend puede estar presente en diferentes tipos de aplicaciones:
 
-- **HTML** → estructura de la interfaz.
-- **CSS** → diseño y presentación visual.
-- **JavaScript / TypeScript** → comportamiento e interacción.
-- Frameworks como Angular, React o Vue.
+- **Aplicaciones web** → se ejecutan principalmente en navegadores. 
+  [[Desarrollo Web]]
+  
+- **Aplicaciones móviles** → se ejecutan en dispositivos móviles. 
+  [[Desarrollo de Aplicaciones Móviles]]
+  
+- **Aplicaciones de escritorio** → se ejecutan en computadoras.
+  [[Desarrollo de Aplicaciones de Escritorio]]
 
 **Ejemplo**:
-Un formulario de inicio de sesión donde el usuario ingresa correo y contraseña pertenece al Frontend.
-
+La pantalla de inicio de sesión de una aplicación, donde el usuario ingresa su correo y contraseña, pertenece al Frontend.
 
 ---
 
-# Importancia del Front-end
+# Importancia del Frontend
 
-El dominio de las tecnologías Front-end permite desarrollar aplicaciones modernas centradas en la experiencia del usuario.
+El desarrollo Frontend permite crear interfaces centradas en la experiencia del usuario.
 
-Un desarrollador Front-end debe ser capaz de crear interfaces:
+Un desarrollador Frontend debe ser capaz de crear interfaces:
+
 - Funcionales.
 - Accesibles.
-- Responsivas.
 - Intuitivas.
+- Responsivas cuando corresponda.
 - Atractivas para el usuario.
 
 ---
-
-- ### [[Desarrollo Web]]
-
----
-#Programación 
-#ProgramaciónIII 

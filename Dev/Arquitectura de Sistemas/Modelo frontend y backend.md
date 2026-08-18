@@ -2,18 +2,19 @@
 tags:
   - ArquitecturadeSistemas
 ---
-El modelo **[[Frontend]] y [[Backend]]** es una forma de organizar una aplicación separando responsabilidades entre la parte que interactúa con el usuario y la parte que procesa la información del sistema.
+El modelo [**Frontend**](Frontend) **y** [**Backend**](Backend) es una forma de organizar una aplicación separando responsabilidades entre la parte que interactúa con el usuario y la parte que procesa la información del sistema.
 
 Esta separación permite desarrollar sistemas más ordenados, escalables y fáciles de mantener.
 
 ---
 
 # Comunicación entre Frontend y Backend
+
 El Frontend y Backend trabajan de manera complementaria y se comunican mediante solicitudes y respuestas.
 
 **Generalmente utilizan**:
 - **HTTP/HTTPS** como protocolo de comunicación.
-- **APIs** como medio de intercambio de información.
+- **APIs** como medio de comunicación.
 - Formatos como **JSON** para enviar datos.
 
 **Ejemplo de flujo**:
@@ -38,9 +39,9 @@ El Frontend y Backend trabajan de manera complementaria y se comunican mediante 
 ---
 
 # Relación con Arquitectura de Sistemas
-Dentro de una **Arquitectura de Sistemas**, el modelo Frontend y Backend representa una forma de dividir la aplicación en componentes con responsabilidades específicas.
+
+Dentro de una **Arquitectura de Sistemas**, el modelo Frontend y Backend representa una forma de dividir una aplicación en componentes con responsabilidades específicas.
 
 El Frontend se enfoca en la experiencia del usuario, mientras que el Backend se enfoca en la lógica, procesamiento y gestión de datos.
 
 ---
-#ArquitecturadeSistemas

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Frontend.md",
+                "file": "Desarrollo de Aplicaciones de Escritorio.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Frontend"
+              "title": "Desarrollo de Aplicaciones de Escritorio"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "react",
+                "query": "front",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -206,7 +206,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programación/Frontend.md",
+                "file": "Desarrollo de Aplicaciones de Escritorio.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -309,10 +309,19 @@
   },
   "active": "2979927bac98e2b6",
   "lastOpenFiles": [
-    "Programación/Desarrollo Web.md",
+    "Electron.md",
+    "Desarrollo de Aplicaciones de Escritorio.md",
     "Programación/Frontend.md",
+    "Desarrollo de Aplicaciones Móviles.md",
+    "React Native.md",
+    "Programación/Desarrollo Web.md",
+    "Angular.md",
+    "Vue.md",
+    "React.md",
     "Programación/Backend.md",
     "Node.js.md",
+    "Arquitectura de Sistemas/Modelo Frontend y Backend.md",
+    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Arquitectura de Sistemas/Funcionamiento de un Servidor Web.md",
     "Arquitectura de Sistemas/Servidor Web.md",
     "Javascript/JavaScript.md",
@@ -326,15 +335,6 @@
     "Redes/URI (Uniform Resource Identifier).md",
     "Redes/Peticiones HTTP (Requests).md",
     "Redes/Estructura de una petición HTTP.md",
-    "Redes/Method.md",
-    "Redes/Header.md",
-    "Redes/Protocolos.md",
-    "Redes/Internet.md",
-    "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
-    "Redes/IPv6.md",
-    "Redes/IPv4.md",
-    "Redes/IP (Internet Protocol).md",
-    "Redes/IMAP (Internet Message Access Protocol).md",
     "Javascript",
     "Imágenes/Pasted image 20260814151049.png",
     "Imágenes/Pasted image 20260814151718.png",
