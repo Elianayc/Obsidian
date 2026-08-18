@@ -32,7 +32,7 @@
       "query": "path:HTML  ",
       "color": {
         "a": 1,
-        "rgb": 9288864
+        "rgb": 4233290
       }
     },
     {
@@ -46,21 +46,28 @@
       "query": "path:Programación  ",
       "color": {
         "a": 1,
-        "rgb": 7450715
+        "rgb": 7569612
       }
     },
     {
       "query": "path:Redes  ",
       "color": {
         "a": 1,
-        "rgb": 7569612
+        "rgb": 10905059
       }
     },
     {
       "query": "path:Typescript  ",
       "color": {
         "a": 1,
-        "rgb": 10905059
+        "rgb": 14381941
+      }
+    },
+    {
+      "query": "path:Javascript  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048429
       }
     }
   ],
@@ -75,5 +82,5 @@
   "linkStrength": 1,
   "linkDistance": 30,
   "scale": 0.16348370567219853,
-  "close": true
+  "close": false
 }

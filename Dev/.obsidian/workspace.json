@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 261.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -285,7 +285,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 406.5
+    "width": 406.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -300,8 +301,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4604bb1ca3ec23c0",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
+    "Javascript",
     "Arquitectura de Sistemas/Diagrama de Flujo de Datos (DFD).md",
     "Arquitectura de Sistemas/Diferencias entre Enfoque Tradicional y Agile.md",
     "Arquitectura de Sistemas/Daily Scrum.md",
@@ -331,7 +333,6 @@
     "HTML/Formularios HTML.md",
     "HTML/Tablas HTML.md",
     "Imágenes/Pasted image 20260814151340.png",
-    "HTML/Listas HTML.md",
     "Imágenes/Pasted image 20260814151300.png",
     "Imágenes/Pasted image 20260814151240.png",
     "Imágenes/Pasted image 20260814151210.png",
