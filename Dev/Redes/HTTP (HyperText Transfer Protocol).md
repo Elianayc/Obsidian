@@ -25,7 +25,7 @@ A diferencia de otros sistemas de comunicación que utilizan flujos continuos de
 
 HTTP funciona sobre el protocolo **TCP**, que permite la comunicación confiable entre dispositivos.
 
-Cuando la comunicación utiliza **TLS** para cifrar los datos aparece **HTTPS**, una versión segura de HTTP.
+Cuando la comunicación utiliza **TLS** para cifrar los datos aparece **[[HTTPS]]**, una versión segura de HTTP.
 
 ---
 
