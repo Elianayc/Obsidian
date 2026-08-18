@@ -23,7 +23,7 @@ El origen de JavaScript se remonta a mediados de la década de los noventa, cuan
 
 En 1996, **Internet Explorer** lanza una versión propia llamada **JScript**, con muchas similitudes y compatibilidad con JavaScript.
 
-Esto llevó a que la **W3C** tomara cartas en el asunto y creara el **DOM (Document Object Model)** como instrumento guía para que los lenguajes pudieran explotar las características de los documentos HTML y del navegador.
+Esto llevó a que la **W3C** tomara cartas en el asunto y creara el **[[DOM (Document Object Model)]]** como instrumento guía para que los lenguajes pudieran explotar las características de los documentos HTML y del navegador.
 
 En 1997, la **European Computer Manufacturers Association (ECMA)** adopta JavaScript como base para definir las especificaciones que deben cumplir los lenguajes de scripting, dando lugar al estándar llamado **ECMAScript**.
 
@@ -57,7 +57,6 @@ El resultado final depende de:
 
 - [[Uso de JavaScript]]
 - [[Propiedades `async` y `defer`]]
-- [[DOM]]
 - [[Procesamiento Asincrónico en JavaScript]]
 
 ---

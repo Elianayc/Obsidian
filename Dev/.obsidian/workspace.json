@@ -11,10 +11,14 @@
             "id": "2979927bac98e2b6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Javascript/JavaScript.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "JavaScript"
             }
           }
         ]
@@ -79,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 268.5,
+    "collapsed": true
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -201,6 +206,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Javascript/JavaScript.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -303,6 +309,8 @@
   },
   "active": "2979927bac98e2b6",
   "lastOpenFiles": [
+    "Javascript/DOM (Document Object Model).md",
+    "Javascript/JavaScript.md",
     "Sin título.md",
     "Redes/HTTPS.md",
     "Redes/HTTP (HyperText Transfer Protocol).md",
@@ -322,9 +330,7 @@
     "Redes/IP (Internet Protocol).md",
     "Redes/IMAP (Internet Message Access Protocol).md",
     "Redes/FTP (File Transfer Protocol).md",
-    "Javascript/JavaScript.md",
     "Javascript/Procesamiento Asincrónico en JavaScript.md",
-    "Javascript/DOM.md",
     "Javascript/Uso de JavaScript.md",
     "Javascript/Propiedades `async` y `defer`.md",
     "Javascript",
