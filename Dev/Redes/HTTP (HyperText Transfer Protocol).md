@@ -33,10 +33,11 @@ Cuando la comunicación utiliza **TLS** para cifrar los datos aparece **HTTPS**,
 
 Los mensajes HTTP pueden utilizar distintos métodos según la acción que se quiera realizar:
 
-- **GET:** solicita información al servidor.
-- **POST:** envía información al servidor.
-- **PUT:** actualiza información existente.
-- **DELETE:** elimina información.
+- **GET:** solicita o consulta información del servidor.
+- **POST:** crea o da de alta un nuevo recurso enviando información al servidor.
+- **PUT:** reemplaza o actualiza **completamente** un recurso existente.
+- **PATCH:** modifica **parcialmente** un recurso existente.
+- **DELETE:** elimina un recurso.
 
 ---
 
