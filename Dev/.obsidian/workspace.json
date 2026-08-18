@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9ef82f145dd933ea",
+        "id": "8847effa01a103bf",
         "type": "tabs",
         "children": [
           {
-            "id": "c76340d4e7e70153",
+            "id": "2979927bac98e2b6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -301,8 +301,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c76340d4e7e70153",
+  "active": "2979927bac98e2b6",
   "lastOpenFiles": [
+    "Sin título.md",
     "Redes/HTTPS.md",
     "Redes/HTTP (HyperText Transfer Protocol).md",
     "Redes/Ciclo de vida de una petición web.md",
@@ -329,7 +330,6 @@
     "Javascript",
     "Arquitectura de Sistemas/Diagrama de Flujo de Datos (DFD).md",
     "Arquitectura de Sistemas/Diferencias entre Enfoque Tradicional y Agile.md",
-    "Arquitectura de Sistemas/Daily Scrum.md",
     "Imágenes/Pasted image 20260814151049.png",
     "Imágenes/Pasted image 20260814151718.png",
     "Imágenes/Pasted image 20260814151530.png",
