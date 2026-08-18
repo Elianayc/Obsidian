@@ -39,7 +39,7 @@
       "query": "path:\"Modelado de Sistemas\"  ",
       "color": {
         "a": 1,
-        "rgb": 13663942
+        "rgb": 7450715
       }
     },
     {
@@ -67,7 +67,7 @@
       "query": "path:Javascript  ",
       "color": {
         "a": 1,
-        "rgb": 14048429
+        "rgb": 13663942
       }
     }
   ],
@@ -82,5 +82,5 @@
   "linkStrength": 1,
   "linkDistance": 30,
   "scale": 0.16348370567219853,
-  "close": false
+  "close": true
 }

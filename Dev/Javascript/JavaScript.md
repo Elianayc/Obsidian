@@ -11,5 +11,3 @@ JavaScript permite que la interfaz responda a las acciones del usuario y pueda m
 - Crear interfaces complejas e interactivas.
 
 ---
-#Programación 
-#ProgramaciónIII 
