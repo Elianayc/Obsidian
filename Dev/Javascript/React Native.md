@@ -2,7 +2,7 @@
 
 Permite desarrollar aplicaciones para **Android e iOS** utilizando una misma base de código.
 
-A diferencia de [[React]], que se utiliza principalmente para aplicaciones web, React Native está orientado al desarrollo de aplicaciones móviles.
+A diferencia de **React**, que se utiliza principalmente para aplicaciones web, React Native está orientado al desarrollo de aplicaciones móviles.
 
 **Características principales**:
 - Utiliza React y JavaScript/TypeScript.

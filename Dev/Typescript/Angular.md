@@ -13,3 +13,5 @@ Se utiliza principalmente para crear aplicaciones Frontend completas y estructur
 
 **Ejemplo**:
 Una aplicación empresarial puede utilizar Angular para crear las distintas pantallas, formularios, navegación y comunicación con las APIs del Backend.
+
+---
