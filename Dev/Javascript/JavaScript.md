@@ -60,3 +60,6 @@ El resultado final depende de:
 - La capacidad de interpretación que posea el navegador.
    
 ---
+
+- [[Uso de Javascript]]
+- 
