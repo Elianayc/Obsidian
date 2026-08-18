@@ -219,3 +219,5 @@ Tener todos los scripts en el `<head>` con `defer` puede facilitar el mantenimie
 Los scripts al final de `<body>` son una solución simple que funciona en todos los navegadores, mientras que `defer` ofrece una optimización adicional al permitir que las descargas comiencen antes.
 
 Ambas técnicas mejoran la performance, pero `defer` es generalmente superior en términos de eficiencia de carga.
+
+---
