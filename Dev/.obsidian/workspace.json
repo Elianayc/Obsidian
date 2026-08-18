@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Propiedades `async` y `defer`.md",
+                "file": "Javascript/DOM.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Propiedades `async` y `defer`"
+              "title": "DOM"
             }
           }
         ]
@@ -205,7 +205,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Javascript/Propiedades `async` y `defer`.md",
+                "file": "Javascript/DOM.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -308,9 +308,10 @@
   },
   "active": "c81fa0e1b89292e0",
   "lastOpenFiles": [
-    "Javascript/Uso de Javascript.md",
-    "Javascript/Propiedades `async` y `defer`.md",
     "Javascript/JavaScript.md",
+    "Javascript/Uso de JavaScript.md",
+    "Javascript/DOM.md",
+    "Javascript/Propiedades `async` y `defer`.md",
     "Javascript",
     "Arquitectura de Sistemas/Diagrama de Flujo de Datos (DFD).md",
     "Arquitectura de Sistemas/Diferencias entre Enfoque Tradicional y Agile.md",
@@ -337,7 +338,6 @@
     "HTML/Mejoras en formularios HTML5.md",
     "Imágenes/Pasted image 20260814151530.png",
     "HTML/Validaciones automáticas.md",
-    "HTML/Atributos principales de un formulario HTML.md",
     "Imágenes/Pasted image 20260814151340.png",
     "Imágenes/Pasted image 20260814151300.png",
     "Imágenes/Pasted image 20260814151240.png",

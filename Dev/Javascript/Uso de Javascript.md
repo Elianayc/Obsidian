@@ -90,6 +90,3 @@ Separar el código JavaScript en un archivo externo permite:
 
 ---
 
-- [[Propiedades `async` y `defer`]]
-
----

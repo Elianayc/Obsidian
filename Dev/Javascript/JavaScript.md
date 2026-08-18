@@ -61,5 +61,6 @@ El resultado final depende de:
    
 ---
 
-- [[Uso de Javascript]]
-- 
+- [[Uso de JavaScript]]
+- [[Propiedades `async` y `defer`]]
+- [[DOM]]
