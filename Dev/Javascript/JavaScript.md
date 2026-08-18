@@ -58,5 +58,8 @@ El resultado final depende de:
 - [[Uso de JavaScript]]
 - [[Propiedades `async` y `defer`]]
 - [[Procesamiento Asincrónico en JavaScript]]
+- [[React]]
+- [[Vue]]
+- [[Node.js]].
 
 ---

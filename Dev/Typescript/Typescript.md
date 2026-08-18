@@ -41,6 +41,7 @@ function sumar(a: number, b: number): number {
 - [[Visibilidad en Typescript]]
 - [[Propiedades en TypeScript]]
 - [[Colecciones en TypeScript]]
+- [[Angular]]
 
 ---
 #Programación

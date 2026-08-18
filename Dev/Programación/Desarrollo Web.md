@@ -29,13 +29,3 @@ Un botón en una página web:
 - **JavaScript** establece qué ocurre cuando el usuario hace clic.
 
 ---
-
-## Frameworks y bibliotecas
-
-Para desarrollar aplicaciones web también pueden utilizarse bibliotecas y frameworks que facilitan la construcción de interfaces:
-
-- [[React]]
-- [[Vue]]
-- [[Angular]]
-
----

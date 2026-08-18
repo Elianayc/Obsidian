@@ -18,7 +18,7 @@ Se encuentra detrás de la interfaz y se ocupa de gestionar la información, apl
 **Puede estar desarrollado con tecnologías como**:
 - [[C Sharp]] / [[puntoNET]].
 - [[Java]].
-- [[Node.js]].
+- Node.js.
 - [[Python]].
 - [[PHP]].
 

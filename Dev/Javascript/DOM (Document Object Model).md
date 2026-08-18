@@ -22,6 +22,8 @@ Cuando el navegador carga una página web, crea un modelo de la página en memor
 
 ![[Pasted image 20260818151418.png|739]]
 
+![[Pasted image 20260818151717.png]]
+
 ---
 
 ## Utilización del DOM con JavaScript
@@ -49,13 +51,14 @@ const botones = document.getElementsByTagName('button');
 ---
 ### Selectores modernos
 
-También se pueden utilizar selectores modernos:
+También se pueden utilizar selectores modernos, comunmente más usados:
 
 ```JavaScript
 const miElemento = document.querySelector('#miId');
 ```
 
 `querySelector()` devuelve el **primer elemento** que coincida con el selector.
+
 
 ```JavaScript
 const todosLosParrafos = document.querySelectorAll('p');

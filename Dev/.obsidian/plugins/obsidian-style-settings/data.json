@@ -71,5 +71,6 @@
   "retroma-obsidian-theme@@folder-color-14@@light": "#D88F20",
   "retroma-obsidian-theme@@folder-color-14@@dark": "#CBB397",
   "retroma-obsidian-theme@@folder-color-15@@light": "#6C8ADB",
-  "retroma-obsidian-theme@@folder-color-15@@dark": "#7085B4"
+  "retroma-obsidian-theme@@folder-color-15@@dark": "#7085B4",
+  "retroma-obsidian-theme@@text-alignment": "text-justify"
 }
