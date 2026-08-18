@@ -5,7 +5,6 @@ Ambos ayudan a mejorar el rendimiento de carga de la página, pero funcionan de 
 ---
 
 ## Script normal
-
 Cuando se carga un script sin estos atributos, el comportamiento predeterminado es:
 
 1. El navegador detiene el análisis del HTML.
@@ -18,7 +17,6 @@ Esto puede ralentizar significativamente la carga de la página porque bloquea e
 ---
 
 ## Atributo `defer`
-
 Cuando se carga un script con el atributo `defer`:
 
 1. El navegador descarga el script en paralelo mientras continúa analizando el HTML.
@@ -38,7 +36,6 @@ En resumen, `defer` indica al navegador:
 ---
 
 ## Atributo `async`
-
 Cuando se carga un script con el atributo `async`:
 
 1. El navegador descarga el script en paralelo mientras continúa analizando el HTML.
