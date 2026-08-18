@@ -16,6 +16,12 @@ Cuando el navegador carga una página web, crea un modelo de la página en memor
 - Añadidos.
 - Eliminados.
 
+|                                           |                                           |
+| ----------------------------------------- | ----------------------------------------- |
+| ![[Pasted image 20260818151212.png\|350]] | ![[Pasted image 20260818151233.png\|363]] |
+
+![[Pasted image 20260818151418.png|739]]
+
 ---
 
 ## Utilización del DOM con JavaScript
