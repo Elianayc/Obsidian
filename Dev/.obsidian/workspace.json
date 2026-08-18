@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/DOM.md",
+                "file": "Javascript/Procesamiento Asincrónico en JavaScript.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DOM"
+              "title": "Procesamiento Asincrónico en JavaScript"
             }
           }
         ]
@@ -205,7 +205,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Javascript/DOM.md",
+                "file": "Javascript/Procesamiento Asincrónico en JavaScript.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -309,8 +309,9 @@
   "active": "c81fa0e1b89292e0",
   "lastOpenFiles": [
     "Javascript/JavaScript.md",
-    "Javascript/Uso de JavaScript.md",
+    "Javascript/Procesamiento Asincrónico en JavaScript.md",
     "Javascript/DOM.md",
+    "Javascript/Uso de JavaScript.md",
     "Javascript/Propiedades `async` y `defer`.md",
     "Javascript",
     "Arquitectura de Sistemas/Diagrama de Flujo de Datos (DFD).md",
@@ -337,7 +338,6 @@
     "Redes/Header.md",
     "HTML/Mejoras en formularios HTML5.md",
     "Imágenes/Pasted image 20260814151530.png",
-    "HTML/Validaciones automáticas.md",
     "Imágenes/Pasted image 20260814151340.png",
     "Imágenes/Pasted image 20260814151300.png",
     "Imágenes/Pasted image 20260814151240.png",

@@ -1,5 +1,3 @@
-## Introducción
-
 **JavaScript** es un lenguaje de programación interpretado y orientado a objetos, aunque basado en **prototipos**.
 
 Esto significa que conceptos como **encapsulamiento, herencia y polimorfismo** se implementan de un modo diferente al de lenguajes como Java, Python y C#.
@@ -7,7 +5,6 @@ Esto significa que conceptos como **encapsulamiento, herencia y polimorfismo** s
 ---
 
 ## Función principal
-
 Agrega **interactividad y comportamiento dinámico** a una aplicación web.
 
 JavaScript permite que la interfaz responda a las acciones del usuario y pueda modificar información sin necesidad de recargar toda la página.
@@ -22,7 +19,6 @@ JavaScript permite que la interfaz responda a las acciones del usuario y pueda m
 ---
 
 ## Origen de JavaScript
-
 El origen de JavaScript se remonta a mediados de la década de los noventa, cuando **Netscape** desarrolla un lenguaje de scripting con un nombre muy similar al ya conocido Java.
 
 En 1996, **Internet Explorer** lanza una versión propia llamada **JScript**, con muchas similitudes y compatibilidad con JavaScript.
@@ -36,7 +32,6 @@ Actualmente, **JavaScript es una implementación de ECMAScript**, pero incorpora
 ---
 
 ## JavaScript en páginas web
-
 El empleo de JavaScript en los documentos HTML permite que las páginas web **no sean estáticas**.
 
 Mediante la manipulación del **DOM**, es posible:
@@ -49,7 +44,6 @@ Mediante la manipulación del **DOM**, es posible:
 ---
 
 ## Tecnologías de una página web
-
 La página web que muestra el navegador y las acciones que podemos realizar sobre ella son el resultado del análisis e interpretación que realiza el **browser** sobre el contenido de las distintas tecnologías que componen el documento web.
 
 El resultado final depende de:
@@ -64,3 +58,6 @@ El resultado final depende de:
 - [[Uso de JavaScript]]
 - [[Propiedades `async` y `defer`]]
 - [[DOM]]
+- [[Procesamiento Asincrónico en JavaScript]]
+
+---
