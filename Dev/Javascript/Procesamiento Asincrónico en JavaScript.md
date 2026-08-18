@@ -34,8 +34,6 @@ const miPromesa = new Promise((resolve, reject) => {
     }
 });
 
-  
-
 miPromesa
     .then((resultado) => {
         console.log(resultado);
