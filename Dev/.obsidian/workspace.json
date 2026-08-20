@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/DOM (Document Object Model).md",
+                "file": "Javascript/JavaScript.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DOM (Document Object Model)"
+              "title": "JavaScript"
             }
           }
         ]
@@ -205,7 +205,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Javascript/DOM (Document Object Model).md",
+                "file": "Javascript/JavaScript.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -290,8 +290,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 406.5,
-    "collapsed": true
+    "width": 406.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -308,11 +307,11 @@
   },
   "active": "2979927bac98e2b6",
   "lastOpenFiles": [
+    "Javascript/DOM (Document Object Model).md",
     "Javascript/JavaScript.md",
     "Javascript/Propiedades `async` y `defer`.md",
     "Javascript/Uso de JavaScript.md",
     "Programación/React Native.md",
-    "Javascript/DOM (Document Object Model).md",
     "Programación/Backend.md",
     "Javascript/Node.js.md",
     "Programación/Desarrollo Web.md",
