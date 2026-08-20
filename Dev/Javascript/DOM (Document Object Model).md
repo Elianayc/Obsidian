@@ -16,6 +16,15 @@ Cuando el navegador carga una página web, crea un modelo de la página en memor
 - Añadidos.
 - Eliminados.
 
+
+
+<div style="text-align: center;">
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4ILE0y58J00" frameborder="0" allowfullscreen></iframe>
+
+</div>
+
+
 |                                           |                                           |
 | ----------------------------------------- | ----------------------------------------- |
 | ![[Pasted image 20260818151212.png\|350]] | ![[Pasted image 20260818151233.png\|363]] |
