@@ -4,7 +4,7 @@ Fue definido por **Roy Fielding** en su tesis doctoral de 2000.
 
 REST organiza la comunicación alrededor de **recursos**, que pueden ser identificados mediante una URL, y permite transferir representaciones de esos recursos utilizando una **interfaz uniforme**, generalmente mediante **HTTP**.
 
-![[Pasted image 20260821121851.png]]
+![[Pasted image 20260821122155.png]]
 
 ---
 
