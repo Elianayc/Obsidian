@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura Monolítica.md",
+                "file": "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arquitectura Monolítica"
+              "title": "Arquitectura de Sistemas"
             }
           }
         ]
@@ -305,15 +305,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "2979927bac98e2b6",
   "lastOpenFiles": [
-    "Arquitectura de Microservicios.md",
-    "Arquitectura Monolítica.md",
     "Arquitectura de Sistemas/Patrones Arquitecturales.md",
+    "Arquitectura de Sistemas/Arquitectura de Microservicios.md",
+    "Arquitectura de Sistemas/Arquitectura Monolítica.md",
+    "Arquitectura de Sistemas/Arquitectura REST.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Arquitectura de Sistemas/Arquitectura en Capas.md",
     "Imágenes/Pasted image 20260821122513.png",
-    "Arquitectura REST.md",
     "Imágenes/Pasted image 20260821121524.png",
     "Imágenes/Pasted image 20260821122410.png",
     "Imágenes/Pasted image 20260821122155.png",
