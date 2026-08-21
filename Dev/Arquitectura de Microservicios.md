@@ -4,6 +4,8 @@ Cada servicio funciona como una pequeña aplicación y es responsable de una **f
 
 Los servicios se comunican mediante **APIs bien definidas**, generalmente utilizando **HTTP/HTTPS**, APIs REST o **mensajería asíncrona**.
 
+![[Pasted image 20260821121733.png]]
+
 ---
 
 ## Características
