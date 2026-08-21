@@ -2,33 +2,136 @@
 tags:
   - ArquitecturadeSistemas
 ---
-La arquitectura en capas es un modelo de organización del software que divide un sistema en **niveles con responsabilidades claramente separadas**. 
+La **Arquitectura en Capas** organiza el software en diferentes niveles de abstracción, donde cada capa tiene una **responsabilidad específica** y se comunica principalmente con las capas adyacentes.
 
-Cada capa se encarga de una parte específica del funcionamiento del sistema y solo interactúa con las capas necesarias según su posición en la estructura.
+Su objetivo es **separar responsabilidades**, reducir el acoplamiento y facilitar el mantenimiento y evolución del sistema.
 
-El objetivo principal de este enfoque es **reducir el acoplamiento entre componentes**, mejorar la **mantenibilidad** del código y facilitar su **evolución**. 
-
-Al separar responsabilidades, se evita que una misma parte del sistema se encargue simultáneamente de la **interfaz de usuario**, la **lógica de negocio** y el **almacenamiento de datos**.
-
-Este enfoque permite que cada capa pueda modificarse o evolucionarse con menor impacto en las demás, siempre que se respeten los contratos entre ellas.
+A diferencia de la arquitectura monolítica, existe una **regla de comunicación entre capas**: una capa debe solicitar servicios a la capa inmediatamente inferior y no acceder directamente a capas más alejadas.
 
 ---
 
-# Capas
+## Características
+
+- **Organización jerárquica:** cada capa tiene responsabilidades específicas.
+- **Comunicación restringida:** las capas se comunican principalmente con las adyacentes.
+- **Abstracciones progresivas:** cada capa proporciona servicios a la capa superior.
+- **Despliegue flexible:** puede implementarse como un monolito o distribuirse en diferentes servicios.
+
+---
+
+## Capas típicas
 
 ### 1. Presentación
-Responsable de la interacción con el usuario y la entrada/salida de información.
+Se encarga de la **interacción con el usuario** y de presentar la información.
 
-### 2. Lógica de negocio
-Donde se aplican las reglas del dominio y se define el comportamiento del sistema.
+**Responsabilidades:**
 
-### 3. Datos
-Encargada de la persistencia y recuperación de información.
+- Capturar entradas del usuario.
+- Mostrar información.
+- Realizar validaciones básicas.
+- Comunicarse con la capa de aplicación.
 
-### 4. Modelo
-Donde se definen las entidades y estructuras que representan el dominio del problema.
+Debe evitar contener lógica de negocio.
 
 ---
+
+### 2. Aplicación
+
+Coordina las operaciones y **orquesta los casos de uso** de la aplicación.
+
+**Responsabilidades:**
+
+- Coordinar flujos de trabajo.
+- Implementar casos de uso.
+- Transformar datos entre capas.
+- Coordinar diferentes servicios o componentes.
+
+Debe mantenerse relativamente delgada y delegar las reglas de negocio a la capa de dominio.
+
+---
+
+### 3. Dominio / Negocio
+
+Contiene la **lógica de negocio central**, las reglas y las entidades principales del sistema.
+
+**Responsabilidades:**
+
+- Implementar reglas de negocio.
+- Definir comportamientos y estados válidos.
+- Aplicar validaciones complejas.
+- Representar el dominio del problema.
+
+Debe ser independiente de frameworks, bases de datos y tecnologías de interfaz.
+
+---
+
+### 4. Acceso a Datos
+
+Se encarga de la **persistencia y recuperación de información**.
+
+**Responsabilidades:**
+
+- Guardar y recuperar datos.
+- Gestionar operaciones con bases de datos.
+- Traducir entre el modelo de dominio y el modelo de datos.
+- Ocultar los detalles de almacenamiento.
+
+Puede utilizar repositorios, ORM o DAO.
+
+---
+
+### 5. Infraestructura
+
+Proporciona servicios técnicos que utiliza el resto de la aplicación.
+
+Puede encargarse de:
+
+- Logging.
+- Autenticación y autorización.
+- Comunicación con APIs y sistemas externos.
+- Configuración.
+- Serialización y otros servicios técnicos.
+
+Su objetivo es **aislar los detalles tecnológicos** del resto de la aplicación.
+
+---
+
+## Ejemplo aplicado a un sistema de inmobiliaria
+
+En un sistema de gestión de inmuebles:
+
+**Presentación:**
+
+- `index.ts`
+- Inicia el sistema y muestra resultados.
+
+**Aplicación / Lógica de negocio:**
+
+- `InmobiliariaService.ts`
+- Coordina operaciones y aplica las reglas del sistema.
+
+**Acceso a datos:**
+
+- `InmuebleRepository.ts`
+- Almacena y recupera los inmuebles.
+
+**Dominio / Modelo:**
+
+- `Inmueble`
+- `Casa`
+- `Departamento`
+- `Contacto`
+- `Dirección`
+- `Ambiente`
+
+Representan las entidades y conceptos del dominio.
+
+**Infraestructura:**
+
+- Componentes encargados de servicios técnicos externos, configuración, logging, etc.
+
+
+### Flujo general
 
 > [!example]
 > #### Ejemplo aplicado al sistema de inmobiliaria
@@ -95,4 +198,3 @@ Donde se definen las entidades y estructuras que representan el dominio del prob
 > 
  
 ---
-#ArquitecturadeSistemas
