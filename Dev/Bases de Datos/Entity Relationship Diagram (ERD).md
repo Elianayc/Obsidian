@@ -13,5 +13,4 @@ Se utiliza para **diseñar la estructura de una base de datos antes de implement
 
 ![[Diagrama ERD.png|927]]
 
-
-#BasesdeDatos
+---
