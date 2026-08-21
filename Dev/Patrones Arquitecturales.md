@@ -17,15 +17,13 @@ Esta decisión debe considerar factores como:
 - Equipo de desarrollo disponible.
 - Tecnologías utilizadas.
     
+---
 
-En esta unidad se analizan tres patrones arquitectónicos comunes:
+## Principales patrones arquitectónicos
 
-1. **[[Arquitectura Monolítica]]** → toda la aplicación se construye como una única unidad.
-    
-2. **[[Arquitectura en Capas]]** → organiza el código en diferentes niveles de abstracción, cada uno con una responsabilidad específica.
-    
-3. **[[Arquitectura de Microservicios]]** → divide la aplicación en servicios pequeños, independientes y especializados.
-    
+- [[Arquitectura Monolítica]]
+- [[Arquitectura en Capas]]
+- [[Arquitectura de Microservicios]]
 
 Cada arquitectura presenta **ventajas, desventajas y casos de uso** diferentes.
 
