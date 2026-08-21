@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-                "mode": "preview",
+                "file": "Bases de Datos/Tipos de datos DB.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arquitectura de Sistemas"
+              "title": "Tipos de datos DB"
             }
           }
         ]
@@ -205,7 +205,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
+                "file": "Bases de Datos/Tipos de datos DB.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -290,7 +290,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 406.5
+    "width": 406.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -307,11 +308,28 @@
   },
   "active": "2979927bac98e2b6",
   "lastOpenFiles": [
+    "Bases de Datos/Texto.md",
+    "Bases de Datos/Relacional.md",
+    "Bases de Datos/Entidad.md",
+    "Bases de Datos/Conjunto de entidades.md",
+    "Bases de Datos/SQL (Structured Query Language).md",
+    "Bases de Datos/TCL (Transaction Control Language).md",
+    "Bases de Datos/DCL (Data Control Language).md",
+    "Bases de Datos/DQL (Data Query Language).md",
+    "Bases de Datos/DML (Data Manipulation Language).md",
+    "Bases de Datos/DDL (Data Definition Language).md",
+    "Bases de Datos/Reglas de Codd.md",
+    "Bases de Datos/Modelos de Bases de Datos.md",
+    "Bases de Datos/Sistema de archivos.md",
+    "Bases de Datos/DBMS.md",
+    "Bases de Datos/Claves.md",
+    "Bases de Datos/Clave foránea.md",
+    "Bases de Datos/Binaria.md",
+    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Arquitectura de Sistemas/Patrones Arquitecturales.md",
     "Arquitectura de Sistemas/Arquitectura de Microservicios.md",
     "Arquitectura de Sistemas/Arquitectura Monolítica.md",
     "Arquitectura de Sistemas/Arquitectura REST.md",
-    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Arquitectura de Sistemas/Arquitectura en Capas.md",
     "Imágenes/Pasted image 20260821122513.png",
     "Imágenes/Pasted image 20260821121524.png",
@@ -326,22 +344,6 @@
     "Arquitectura de Sistemas/Persistencia de datos.md",
     "Arquitectura de Sistemas/Metodología de Sistemas.md",
     "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
-    "Javascript/Procesamiento Asincrónico en JavaScript.md",
-    "Javascript/JavaScript.md",
-    "Javascript/DOM (Document Object Model).md",
-    "Javascript/Propiedades `async` y `defer`.md",
-    "Javascript/Uso de JavaScript.md",
-    "Programación/React Native.md",
-    "Programación/Backend.md",
-    "Javascript/Node.js.md",
-    "Programación/Desarrollo Web.md",
-    "CSS/Box Model o Modelo de Caja CSS.md",
-    "CSS/Grillas (CSS Grid).md",
-    "Typescript/Angular.md",
-    "Typescript/Typescript.md",
-    "Javascript/Vue.md",
-    "Javascript/React.md",
-    "Programación/C Sharp.md",
     "Javascript",
     "Typescript",
     "CSS",

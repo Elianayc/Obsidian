@@ -11,4 +11,3 @@ Se utilizan para almacenar cadenas de caracteres.
 | **VARCHAR(n) / CHARACTER VARYING** | Longitud variable         | nombre VARCHAR(50)       |
 | **TEXT**                           | Texto sin límite práctico | descripcion TEXT         |
 
-#BasesdeDatos

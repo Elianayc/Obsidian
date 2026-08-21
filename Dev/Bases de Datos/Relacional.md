@@ -3,8 +3,8 @@ tags:
   - 
   
 ---
-
 **1970**
+
 Propuesto por **Edgar Frank Codd** para superar las limitaciones de los modelos anteriores.
 
 Se basa en:
@@ -12,24 +12,27 @@ Se basa en:
 - Teoría de conjuntos
 
 ## Características principales
+
 - Acceso directo a los datos sin recorrer estructuras completas
 - Relaciones sin dependencia jerárquica
 - Flexibilidad para relacionar cualquier tabla
 - Concepto de Modelo Entidad-Relación (E-R)
 
 ### Componentes de una relación
+
 - **Registros (Tuplas)** → filas que representan una instancia de la entidad.
 - **Campos (Atributos)** → columnas que describen propiedades de la entidad.
 - **Dominios** → conjunto de valores válidos que puede tomar un atributo.
 
 ## Ventajas
+
 - Mayor flexibilidad
 - Facilidad para agregar tablas y relaciones
 - Menor complejidad estructural
 
 ---
 
-[[Reglas de Codd]]
+## [[Reglas de Codd]]
 
 ---
 
@@ -44,7 +47,7 @@ Permite modelar cómo se organizan los datos antes de implementarlos en una base
 
 ---
 
-## [[SQL]]
+## [[SQL (Structured Query Language)]]
 
 SQL es el lenguaje utilizado en el modelo relacional para consultar y manipular datos.
 
@@ -75,6 +78,3 @@ SQL es el lenguaje utilizado en el modelo relacional para consultar y manipular 
 - [[Entity Relationship Diagram (ERD)]]
 
 ---
-
-
-#BasesdeDatos

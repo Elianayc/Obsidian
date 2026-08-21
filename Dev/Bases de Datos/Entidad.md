@@ -7,6 +7,7 @@ Es un objeto del mundo real que puede identificarse de forma única dentro de un
 Ejemplos: una persona, un libro, una cuenta bancaria.
 
 Posee:
+
 - [[Atributos]]
 - Identificación única
 - Dominio
@@ -17,4 +18,3 @@ Es la representación de una entidad dentro de una **Tabla**, es decir, una inst
 
 [[Conjunto de entidades]]
 
-#BasesdeDatos

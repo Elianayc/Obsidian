@@ -73,6 +73,7 @@ La base de datos puede crecer sin afectar a las aplicaciones que no utilizan los
 ---
 
 #### Apartados Relacionados:
+
 - [[Modelos de Bases de Datos]]
 - [[Tipos de Bases de Datos]]
 - [[ANSI SPARC]]
@@ -80,4 +81,5 @@ La base de datos puede crecer sin afectar a las aplicaciones que no utilizan los
 - [[Normalización]]
 - [[Funciones]]
 
-#BasesdeDatos
+---
+

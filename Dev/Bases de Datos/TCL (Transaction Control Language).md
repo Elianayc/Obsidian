@@ -14,6 +14,7 @@ Sirve para asegurar consistencia en operaciones múltiples.
 - [[END TRANSACTION]]
 
 ##### Ejemplo de uso:
+
 ```sql
 BEGIN TRANSACTION;
 
@@ -44,4 +45,6 @@ COMMIT;
 
 END TRANSACTION;
 ```
-#BasesdeDatos
+
+---
+
