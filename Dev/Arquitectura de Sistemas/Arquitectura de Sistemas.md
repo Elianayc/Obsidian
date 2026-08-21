@@ -12,6 +12,7 @@ Dentro de la arquitectura de un sistema se analizan diferentes aspectos:
   - [[Metodología de Sistemas]]
 
 - **Cómo se estructura la aplicación y se separan responsabilidades:**
+  - [[Patrones Arquitecturales]]
   - [[Arquitectura por Capas]]
   - [[Modelo Frontend y Backend]]
 
@@ -29,4 +30,3 @@ Dentro de la arquitectura de un sistema se analizan diferentes aspectos:
 La **Arquitectura de Sistemas** define la estructura y organización global del sistema, mientras que su implementación se realiza mediante [[Lenguajes de Programación]] y la organización del código en [[Paquetes]].
 
 ---
-#ArquitecturadeSistemas
