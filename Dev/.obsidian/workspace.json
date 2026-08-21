@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura REST.md",
+                "file": "Patrones Arquitecturales.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arquitectura REST"
+              "title": "Patrones Arquitecturales"
             }
           }
         ]
@@ -307,9 +307,10 @@
   },
   "active": "2979927bac98e2b6",
   "lastOpenFiles": [
+    "Arquitectura de Microservicios.md",
+    "Patrones Arquitecturales.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Arquitectura REST.md",
-    "Patrones Arquitecturales.md",
     "Arquitectura de Sistemas/Arquitectura en Capas.md",
     "Arquitectura Monolítica.md",
     "Arquitectura de Sistemas/Metodología de Sistemas.md",
@@ -336,7 +337,6 @@
     "Imágenes/Pasted image 20260818151233.png",
     "Programación/Electron.md",
     "Programación/Desarrollo de Aplicaciones Móviles.md",
-    "Programación/Desarrollo de Aplicaciones de Escritorio.md",
     "Javascript",
     "Imágenes/Pasted image 20260814151049.png",
     "Imágenes/Pasted image 20260814151718.png",
