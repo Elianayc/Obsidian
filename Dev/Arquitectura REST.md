@@ -83,6 +83,8 @@ Se utilizan correctamente los **métodos HTTP** y los **códigos de estado HTTP*
 ### Nivel 3 — HATEOAS
 Las respuestas incluyen **hipermedia**, proporcionando enlaces que indican posibles acciones o recursos relacionados.
 
+![[Pasted image 20260821122410.png]]
+
 ---
 
 # Casos de uso
@@ -98,6 +100,9 @@ REST resulta especialmente adecuado para:
 ---
 
 > [!example]
+> 
+> ![[Pasted image 20260821122513.png]]
+> 
 > Una API de una biblioteca podría organizar sus recursos de la siguiente manera:
 > 
 > /books
