@@ -2,7 +2,7 @@ La **Arquitectura Monolítica** es un enfoque en el que todos los componentes de
 
 Los módulos pertenecen a la misma aplicación y pueden comunicarse entre sí.
 
-![[Pasted image 20260821121028.png]]
+![[Pasted image 20260821121618.png]]
 
 ---
 
