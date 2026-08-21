@@ -25,7 +25,6 @@ A diferencia de la arquitectura monolítica, existe una **regla de comunicación
 Se encarga de la **interacción con el usuario** y de presentar la información.
 
 **Responsabilidades:**
-
 - Capturar entradas del usuario.
 - Mostrar información.
 - Realizar validaciones básicas.
@@ -36,11 +35,9 @@ Debe evitar contener lógica de negocio.
 ---
 
 ### 2. Aplicación
-
 Coordina las operaciones y **orquesta los casos de uso** de la aplicación.
 
 **Responsabilidades:**
-
 - Coordinar flujos de trabajo.
 - Implementar casos de uso.
 - Transformar datos entre capas.
@@ -51,11 +48,9 @@ Debe mantenerse relativamente delgada y delegar las reglas de negocio a la capa 
 ---
 
 ### 3. Dominio / Negocio
-
 Contiene la **lógica de negocio central**, las reglas y las entidades principales del sistema.
 
 **Responsabilidades:**
-
 - Implementar reglas de negocio.
 - Definir comportamientos y estados válidos.
 - Aplicar validaciones complejas.
@@ -66,11 +61,9 @@ Debe ser independiente de frameworks, bases de datos y tecnologías de interfaz.
 ---
 
 ### 4. Acceso a Datos
-
 Se encarga de la **persistencia y recuperación de información**.
 
 **Responsabilidades:**
-
 - Guardar y recuperar datos.
 - Gestionar operaciones con bases de datos.
 - Traducir entre el modelo de dominio y el modelo de datos.
@@ -81,11 +74,9 @@ Puede utilizar repositorios, ORM o DAO.
 ---
 
 ### 5. Infraestructura
-
 Proporciona servicios técnicos que utiliza el resto de la aplicación.
 
 Puede encargarse de:
-
 - Logging.
 - Autenticación y autorización.
 - Comunicación con APIs y sistemas externos.
@@ -97,26 +88,21 @@ Su objetivo es **aislar los detalles tecnológicos** del resto de la aplicación
 ---
 
 ## Ejemplo aplicado a un sistema de inmobiliaria
-
 En un sistema de gestión de inmuebles:
 
 **Presentación:**
-
 - `index.ts`
 - Inicia el sistema y muestra resultados.
 
 **Aplicación / Lógica de negocio:**
-
 - `InmobiliariaService.ts`
 - Coordina operaciones y aplica las reglas del sistema.
 
 **Acceso a datos:**
-
 - `InmuebleRepository.ts`
 - Almacena y recupera los inmuebles.
 
 **Dominio / Modelo:**
-
 - `Inmueble`
 - `Casa`
 - `Departamento`
@@ -127,7 +113,6 @@ En un sistema de gestión de inmuebles:
 Representan las entidades y conceptos del dominio.
 
 **Infraestructura:**
-
 - Componentes encargados de servicios técnicos externos, configuración, logging, etc.
 
 
@@ -198,3 +183,43 @@ Representan las entidades y conceptos del dominio.
 > 
  
 ---
+
+## Ventajas
+
+1. **Separación de responsabilidades:** cada capa tiene una función definida.
+2. **Facilidad de mantenimiento:** los cambios pueden quedar aislados en una capa.
+3. **Desarrollo en paralelo:** diferentes equipos pueden trabajar en distintas capas.
+4. **Reutilización:** las capas inferiores pueden ser utilizadas por varias capas superiores.
+
+---
+
+## Desventajas
+
+1. **Complejidad inicial:** requiere mayor planificación y estructura.
+2. **Sobrecarga de comunicación:** los datos deben atravesar varias capas.
+3. **Rigidez potencial:** una mala definición de las capas puede dificultar algunos flujos.
+4. **Riesgo de acoplamiento:** pueden aparecer dependencias incorrectas entre capas no adyacentes.
+
+---
+
+## Casos de uso
+
+- Aplicaciones empresariales complejas.
+- Sistemas con lógica de negocio compleja.
+- Proyectos con equipos grandes y diversos.
+- Aplicaciones que requieren alta mantenibilidad.
+
+---
+
+## Ejemplo
+
+Una **aplicación bancaria** puede utilizar:
+
+- **Presentación:** formularios de transacciones.
+- **Aplicación:** coordinación de una transferencia.
+- **Dominio:** reglas como límites de transferencia.
+- **Datos:** persistencia de las operaciones.
+- **Infraestructura:** autenticación, logging y comunicación con servicios externos.
+
+---
+
