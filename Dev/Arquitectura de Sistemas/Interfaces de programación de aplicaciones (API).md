@@ -9,4 +9,3 @@ Mecanismos que permiten la comunicación entre distintos sistemas o componentes 
 - Permiten el acceso controlado a funcionalidades o datos
 
 ---
-#ArquitecturadeSistemas

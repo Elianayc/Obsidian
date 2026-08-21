@@ -19,4 +19,3 @@ El objetivo es encontrar un equilibrio adecuado entre planificación, recursos, 
 - [[Diagrama de Flujo de Datos (DFD)]]
 
 ---
-#ArquitecturadeSistemas
