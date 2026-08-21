@@ -56,3 +56,30 @@ PRIMARY KEY (idAlumno, idCurso)
 
 
 ---
+
+### Autoincremento vs. UUID
+
+Ambas son estrategias para generar identificadores únicos, pero tienen características y usos diferentes.
+
+|      Criterio       |                    Autoincremento                    |                                                      UUID                                                      |
+| :-----------------: | :--------------------------------------------------: | :------------------------------------------------------------------------------------------------------------: |
+|     **Tamaño**      |                 Ocupa menos espacio                  |                                               Ocupa más espacio                                                |
+|  **Orden físico**   | Los valores son secuenciales, favoreciendo el orden  |                            Los valores son aleatorios y no siguen un orden natural                             |
+|   **Generación**    |       Generalmente la realiza la base de datos       |                             Puede generarse en la aplicación o en la base de datos                             |
+| **Predictibilidad** |           Es predecible: `1`, `2`, `3`...            |                                             Es difícil de predecir                                             |
+| **Escenario ideal** | Aplicaciones donde se busca simplicidad y eficiencia | Sistemas distribuidos o donde se necesita generar identificadores únicos sin depender de una secuencia central |
+
+**Autoincremento:**
+
+```sql
+id INT AUTO_INCREMENT PRIMARY KEY
+```
+
+**UUID:**
+
+```sql
+id CHAR(36) PRIMARY KEY
+```
+
+
+---
