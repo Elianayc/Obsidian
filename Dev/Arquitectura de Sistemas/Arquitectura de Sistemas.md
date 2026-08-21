@@ -9,18 +9,19 @@ Su objetivo es definir una visión integral del sistema, determinando cómo se r
 Dentro de la arquitectura de un sistema se analizan diferentes aspectos:
 
 - **Cómo se organiza el desarrollo del sistema:**
-    - [[Metodología de Sistemas]]
-   
+  - [[Metodología de Sistemas]]
+
 - **Cómo se estructura la aplicación y se separan responsabilidades:**
-    - [[Patrones Arquitecturales]]
-    - [[Modelo Frontend y Backend]]
-    
+  - [[Patrones Arquitecturales]]
+  - [[Modelo Frontend y Backend]]
+
 - **Cómo se comunican los componentes del sistema:**
-    - [[Modelo Cliente - Servidor]]
-    - [[Interfaces de programación de aplicaciones (API)]]
-    
+  - [[Modelo Cliente - Servidor]]
+  - [[Interfaces de programación de aplicaciones (API)]]
+  - [[Arquitectura REST]]
+
 - **Cómo se almacenan y gestionan los datos:**
-    - [[Persistencia de datos]]
+  - [[Persistencia de datos]]
 
 ---
 
