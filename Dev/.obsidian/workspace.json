@@ -205,6 +205,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -289,8 +290,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 406.5,
-    "collapsed": true
+    "width": 406.5
   },
   "left-ribbon": {
     "hiddenItems": {
