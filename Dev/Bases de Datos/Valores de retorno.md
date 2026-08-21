@@ -30,4 +30,3 @@ o
 RETURN NULL;
 ```
 
-#BasesdeDatos

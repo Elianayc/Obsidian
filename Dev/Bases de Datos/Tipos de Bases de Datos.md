@@ -6,12 +6,10 @@ tags:
 Cuando se diseña y desarrolla una aplicación, el objetivo principal es proveer una interfaz amigable para el usuario final. Los requerimientos de la aplicación definen restricciones que determinan el tipo de base de datos a utilizar.
 
 A nivel funcional, los tipos de bases de datos se clasifican en:
+
 - [[OLTP]]
 - [[OLAP]]
 - [[Híbridas]]
-
-
-#### Comparación OLTP vs OLAP
 
 |         Característica         |                     OLTP                      |                   OLAP                    |
 | :----------------------------: | :-------------------------------------------: | :---------------------------------------: |
@@ -27,4 +25,5 @@ A nivel funcional, los tipos de bases de datos se clasifican en:
 
 No existe un único sistema ideal. La elección depende de las necesidades de procesamiento y requerimientos de análisis y toma de decisiones.
 
-#BasesdeDatos
+
+---

@@ -7,4 +7,3 @@ tags:
 - [[Índices por expresión]]
 - [[Índices parciales]]
 
-#BasesdeDatos

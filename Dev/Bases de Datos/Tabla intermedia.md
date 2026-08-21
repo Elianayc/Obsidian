@@ -19,4 +19,4 @@ ON a.id_alumno = i.id_alumnoJOIN materias m
 ON i.id_materia = m.id_materia;
 ```
 La tabla intermedia permite conectar dos tablas que no se pueden relacionar directamente en el modelo relacional.
-#BasesdeDatos
+

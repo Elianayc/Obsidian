@@ -67,4 +67,3 @@ En PostgreSQL, una función que será utilizada por un trigger:
 > porque los datos se acceden mediante `NEW` y `OLD`, que el motor pone a disposición automáticamente.
 
 
-#BasesdeDatos
