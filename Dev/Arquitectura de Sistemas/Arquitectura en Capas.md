@@ -10,6 +10,8 @@ A diferencia de la arquitectura monolítica, existe una **regla de comunicación
 
 El procesamiento de una solicitud puede involucrar a **todas o casi todas las capas**, ya que cada una utiliza los servicios de la capa inmediatamente inferior para completar la operación.
 
+sin
+
 ---
 
 ## Características
