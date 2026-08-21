@@ -6,7 +6,9 @@ La **Arquitectura en Capas** organiza el software en diferentes niveles de abstr
 
 Su objetivo es **separar responsabilidades**, reducir el acoplamiento y facilitar el mantenimiento y evolución del sistema.
 
-A diferencia de la arquitectura monolítica, existe una **regla de comunicación entre capas**: una capa debe solicitar servicios a la capa inmediatamente inferior y no acceder directamente a capas más alejadas.
+A diferencia de la arquitectura monolítica, existe una **regla de comunicación entre capas**: una capa debe solicitar servicios a la capa inmediatamente inferior y **no puede acceder directamente a capas inferiores no adyacentes**.
+
+El procesamiento de una solicitud puede involucrar a **todas o casi todas las capas**, ya que cada una utiliza los servicios de la capa inmediatamente inferior para completar la operación.
 
 ---
 
