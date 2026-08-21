@@ -8,9 +8,12 @@ En una base de datos relacional, una **clave (key)** es un campo o conjunto de c
 También funciona como un **índice**, ya que sus valores se usan para búsquedas más eficientes.
 
 ##### Tipos principales:
-- [[Clave primaria]]
-- [[Clave foránea]]
+- [[Bases de Datos/# Clave primaria (Primary Key)]]
+- [[Clave foránea (Foreign Key)]]
 - [[Clave única]]
 
 La [[Integridad referencial]] garantiza que las relaciones entre tablas sean **consistentes y válidas**.
-#BasesdeDatos
+
+---
+
+
