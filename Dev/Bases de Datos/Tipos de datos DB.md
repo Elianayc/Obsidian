@@ -7,9 +7,7 @@ Los tipos de datos determinan qué clase de información puede almacenarse en un
 
 ---
 
-## Tipos de datos generales
-
-### Numéricos
+## Numéricos
 Se utilizan para almacenar valores numéricos enteros o con decimales.
 
 |           Tipo            |                    Descripción                    |      Ejemplo       |
@@ -20,7 +18,7 @@ Se utilizan para almacenar valores numéricos enteros o con decimales.
 
 ---
 
-### Texto
+## Texto
 Se utilizan para almacenar cadenas de caracteres.
 
 |      Tipo      |    Descripción    |       Ejemplo        |
@@ -31,7 +29,7 @@ Se utilizan para almacenar cadenas de caracteres.
 
 ---
 
-### Fecha y hora
+## Fecha y hora
 Permiten almacenar fechas y horarios.
 
 |       Tipo       |       Descripción        |               Ejemplo               |
@@ -41,7 +39,7 @@ Permiten almacenar fechas y horarios.
 
 ---
 
-### Booleanos
+## Booleanos
 Permiten representar valores de verdadero o falso.
 
 |Tipo|Descripción|Ejemplo|
@@ -50,7 +48,7 @@ Permiten representar valores de verdadero o falso.
 
 ---
 
-## PostgreSQL
+### PostgreSQL
 PostgreSQL agrega algunos tipos específicos y variantes:
 
 |      Tipo       |          Descripción           |      Ejemplo       |
@@ -63,7 +61,7 @@ PostgreSQL agrega algunos tipos específicos y variantes:
 |  **BIGSERIAL**  | Entero autoincremental grande  |   `id BIGSERIAL`   |
 |  **TIMESTAMP**  |          Fecha y hora          | `creado TIMESTAMP` |
 
-### Autoincremento
+#### Autoincremento
 PostgreSQL puede utilizar `SERIAL`, `SMALLSERIAL` o `BIGSERIAL` para generar automáticamente valores consecutivos.
 
 ```sql
@@ -73,7 +71,7 @@ id SERIAL
 
 ---
 
-## MySQL
+### MySQL
 MySQL agrega algunos tipos y características específicas:
 
 |     Tipo     |   Descripción    |      Ejemplo      |
@@ -81,7 +79,7 @@ MySQL agrega algunos tipos y características específicas:
 | **TINYINT**  | Enteros pequeños | `activo TINYINT`  |
 | **DATETIME** |   Fecha y hora   | `creado DATETIME` |
 
-### Autoincremento
+#### Autoincremento
 En MySQL se utiliza **`AUTO_INCREMENT`** junto con un tipo entero.
 
 ```sql
