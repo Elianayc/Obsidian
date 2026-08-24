@@ -15,6 +15,9 @@ Dentro de la arquitectura de un sistema se analizan diferentes aspectos:
   - [[Patrones Arquitecturales]]
   - [[Modelo Frontend y Backend]]
 
+- **Cómo se desarrolla la interfaz de usuario:**
+  - [[Desarrollo Frontend Moderno]]
+    
 - **Cómo se comunican los componentes del sistema:**
   - [[Modelo Cliente - Servidor]]
   - [[Interfaces de programación de aplicaciones (API)]]
