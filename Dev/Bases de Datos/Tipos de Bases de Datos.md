@@ -11,6 +11,48 @@ A nivel funcional, los tipos de bases de datos se clasifican en:
 - [[OLAP]]
 - [[Híbridas]]
 
+
+## Online Transaction Processing (OLTP)
+
+También conocidas como .
+Son bases de datos que se enfocan en operaciones pequeñas y frecuentes sobre los datos.
+
+### Características
+- Operaciones atómicas (transacciones)
+- Alta consistencia de datos
+- Manipulación de pequeñas cantidades de información
+
+### Operaciones principales
+- Insertar datos
+- Modificar datos
+- Eliminar datos
+
+ Su objetivo es mantener la base de datos siempre consistente en tiempo real.
+
+
+---
+
+## Online Analytical Processing (OLAP)
+
+Son sistemas diseñados para el análisis de grandes volúmenes de datos.
+
+### Características
+- Basados en análisis de información histórica
+- Orientados a la toma de decisiones
+- Manejan grandes volúmenes de datos
+
+### Data Warehouse
+- Recibe datos desde sistemas OLTP
+- Almacena información histórica
+- Genera reportes y estadísticas
+
+Su objetivo es analizar información, no operar sobre datos en tiempo real.
+
+
+---
+
+
+
 |         Característica         |                     OLTP                      |                   OLAP                    |
 | :----------------------------: | :-------------------------------------------: | :---------------------------------------: |
 |      **Fuente de datos**       | Datos operacionales (aplicaciones de usuario) | Datos consolidados (varios sistemas OLTP) |
