@@ -46,4 +46,3 @@ Elimina los grupos de campos repetidos, creando nuevas tablas y estableciendo un
 
 ----
 
-#BasesdeDatos

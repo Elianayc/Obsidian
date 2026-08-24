@@ -23,4 +23,6 @@ UPDATE usuarios
 SET description = 'hola mundo'
 WHERE id < 10;
 ```
-#BasesdeDatos
+
+---
+

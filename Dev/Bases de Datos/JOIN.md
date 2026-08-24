@@ -17,4 +17,5 @@ ON e.id_departamento = d.id_departamento;
 ![[Pasted image 20260806144539.png]]
 
 
-#BasesdeDatos
+---
+

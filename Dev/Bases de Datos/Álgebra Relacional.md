@@ -52,6 +52,4 @@ Permite responder consultas del tipo:
 
 > "Obtener las entidades que cumplen con **todos** los criterios especificados."
 
-#BasesdeDatos
-#BasesdeDatosII
-#BasesdeDatos
+---

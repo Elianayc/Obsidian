@@ -11,4 +11,5 @@ Las anomalías aparecen cuando la base de datos no está bien normalizada, gener
 
 - **Anomalía de actualización (Update)**
   Ocurre cuando se modifica un dato en una tabla y ese cambio no se propaga correctamente a todas las tablas relacionadas, generando **inconsistencias o datos desactualizados**.
-#BasesdeDatos
+
+---

@@ -6,12 +6,55 @@ tags:
 Controla las [[Transacciones|transacciones]] (bloques de operaciones).
 Sirve para asegurar consistencia en operaciones múltiples.
 
-- [[BEGIN TRANSACTION]]
-- [[COMMIT]]
-- [[ROLLBACK]]
-- [[SAVEPOINT]]
-- [[SET TRANSACTION]]
-- [[END TRANSACTION]]
+### BEGIN TRANSACTION
+Se utiliza para iniciar una transacción, agrupando varias operaciones como una unidad lógica.
+
+```SQL
+BEGIN TRANSACTION;
+```
+
+
+### COMMIT
+Se utiliza para guardar permanentemente los cambios realizados dentro de una transacción.
+
+```sql
+COMMIT;
+```
+
+
+### ROLLBACK
+Se utiliza para deshacer todos los cambios realizados dentro de una transacción no confirmada.
+
+```sql
+ROLLBACK;
+```
+
+
+### SAVEPOINT
+Se utiliza para crear puntos intermedios dentro de una transacción, permitiendo volver a ese punto si es necesario.
+
+```SQL
+SAVEPOINT punto1;
+```
+
+
+### SET TRANSACTION
+Se utiliza para definir propiedades de la transacción, como el nivel de aislamiento.
+
+```sql
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
+```
+
+
+### END TRANSACTION
+Se utiliza para finalizar una transacción (en algunos motores es implícito con COMMIT o ROLLBACK).
+
+```sql
+END TRANSACTION;
+```
+
+
+---
 
 ##### Ejemplo de uso:
 

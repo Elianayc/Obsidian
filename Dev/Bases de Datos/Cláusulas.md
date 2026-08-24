@@ -3,7 +3,7 @@ tags:
   - 
   
 ---
-![[Pasted image 20260527160648.png]]
+![[Pasted image 20260527160648.png|474]]
 
 > [!info]
 > 
@@ -37,4 +37,6 @@ SELECT nombre AS empleadoFROM empleados;
 ```
 SELECT salario * 12 AS salario_anualFROM empleados;
 ```
-#BasesdeDatos
+
+---
+

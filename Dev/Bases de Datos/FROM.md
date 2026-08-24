@@ -38,5 +38,4 @@ SELECT e.nombre, d.nombre_departamento FROM empleados e, departamentos d;
 
 Aunque hoy se usa más JOIN, esto muestra que FROM puede incluir varias tablas.
 
-
-#BasesdeDatos
+---
