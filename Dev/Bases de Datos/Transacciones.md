@@ -26,7 +26,8 @@ Esto justifica la necesidad del **aislamiento**.
 
 ---
 
-### Uso básico de transacciones: [[TCL (Transaction Control Language)]]
+### Uso básico de transacciones: 
+### [[TCL (Transaction Control Language)]]
 
 ---
 

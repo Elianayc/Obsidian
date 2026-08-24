@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de Datos/Tipos de datos DB.md",
+                "file": "Bases de Datos/Claves.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tipos de datos DB"
+              "title": "Claves"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byModifiedTime",
                 "autoReveal": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -308,18 +308,18 @@
   },
   "active": "2979927bac98e2b6",
   "lastOpenFiles": [
-    "Bases de Datos/Relacional.md",
-    "Bases de Datos/Ternaria.md",
-    "Bases de Datos/Many-to-Many (N-N).md",
-    "Bases de Datos/Tipos de Bases de Datos.md",
-    "Bases de Datos/Tipos de datos DB.md",
-    "Bases de Datos/Tipos de funciones según lenguaje.md",
-    "Bases de Datos/Tipos de índices.md",
-    "Bases de Datos/WHERE.md",
-    "Bases de Datos/Variables especiales.md",
-    "Bases de Datos/Valores de retorno.md",
     "Bases de Datos/Transacciones.md",
     "Bases de Datos/TCL (Transaction Control Language).md",
+    "Bases de Datos/Ternaria.md",
+    "Bases de Datos/Valores de retorno.md",
+    "Bases de Datos/Variables especiales.md",
+    "Bases de Datos/WHERE.md",
+    "Bases de Datos/Tipos de índices.md",
+    "Bases de Datos/Tipos de funciones según lenguaje.md",
+    "Bases de Datos/Tipos de Bases de Datos.md",
+    "Bases de Datos/Tipos de datos DB.md",
+    "Bases de Datos/Relacional.md",
+    "Bases de Datos/Many-to-Many (N-N).md",
     "Bases de Datos/Tabla intermedia.md",
     "Bases de Datos/Tabla.md",
     "Bases de Datos/Dirty Read.md",
