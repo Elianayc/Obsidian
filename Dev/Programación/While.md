@@ -6,7 +6,7 @@ tags:
 ---
 Estructura de repetición que continúa mientras se cumple una condición.
 
-![[Excalidraw/while|300]]
+![[Z_Excalidraw/while|300]]
 
 > [!example]
 > 

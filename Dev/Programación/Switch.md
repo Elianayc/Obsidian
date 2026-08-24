@@ -4,7 +4,7 @@ tags:
   - ProgramaciónI
   - ProgramaciónII
 ---
-![[Excalidraw/switch|300]]
+![[Z_Excalidraw/switch|300]]
 
 > [!example]
 > 

@@ -29,6 +29,13 @@
       }
     },
     {
+      "query": "path:Frameworks  ",
+      "color": {
+        "a": 1,
+        "rgb": 4827034
+      }
+    },
+    {
       "query": "path:HTML  ",
       "color": {
         "a": 1,
@@ -36,42 +43,21 @@
       }
     },
     {
-      "query": "path:\"Modelado de Sistemas\"  ",
+      "query": "path: Javascript  ",
       "color": {
         "a": 1,
-        "rgb": 7450715
+        "rgb": 11244069
       }
     },
     {
-      "query": "path:Programación  ",
+      "query": "path: \"Modelado de Sistemas\"  ",
       "color": {
         "a": 1,
-        "rgb": 7569612
-      }
-    },
-    {
-      "query": "path:Redes  ",
-      "color": {
-        "a": 1,
-        "rgb": 10905059
-      }
-    },
-    {
-      "query": "path:Typescript  ",
-      "color": {
-        "a": 1,
-        "rgb": 14381941
-      }
-    },
-    {
-      "query": "path:Javascript  ",
-      "color": {
-        "a": 1,
-        "rgb": 13663942
+        "rgb": 6053078
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -0.9,
   "nodeSizeMultiplier": 1.58732996502138,
@@ -82,5 +68,5 @@
   "linkStrength": 1,
   "linkDistance": 30,
   "scale": 0.16348370567219686,
-  "close": true
+  "close": false
 }
