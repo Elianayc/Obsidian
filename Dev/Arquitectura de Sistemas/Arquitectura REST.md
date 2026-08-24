@@ -146,5 +146,26 @@ Aunque suelen utilizarse como sinónimos, existe una diferencia:
 
 En la práctica, muchas APIs comerciales denominadas **REST** o **RESTful** no implementan HATEOAS.
 
+
+---
+
+# Códigos de estado HTTP
+
+Los códigos de estado indican el resultado de una solicitud:
+
+| Código | Significado | Uso |
+|---|---|---|
+| **200** | OK | Operación exitosa |
+| **201** | Created | Recurso creado |
+| **204** | No Content | Éxito sin contenido |
+| **400** | Bad Request | Datos inválidos |
+| **401** | Unauthorized | Falta autenticación |
+| **403** | Forbidden | Sin permisos |
+| **404** | Not Found | Recurso inexistente |
+| **500** | Internal Server Error | Error del servidor |
+
+Los códigos de estado forman parte del **contrato de la API** y permiten al cliente conocer el resultado de la solicitud.
+
+
 ---
 
