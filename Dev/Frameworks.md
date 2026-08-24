@@ -1,17 +1,35 @@
-## ¿Por qué existen los frameworks de frontend?
+Un **framework** es una estructura de software que proporciona herramientas, componentes, reglas y convenciones para facilitar y organizar el desarrollo de aplicaciones.
 
-Con **HTML, CSS y JavaScript puro** se pueden construir interfaces, pero a medida que una aplicación crece aparecen problemas:
+Su objetivo es ofrecer una **base predefinida** sobre la cual construir una aplicación, evitando tener que resolver desde cero problemas comunes de estructura, organización y funcionamiento.
 
-- Hay que actualizar manualmente el **DOM** cuando cambian los datos.
-- Se mezclan **lógica, presentación y manipulación del DOM**.
-- Reutilizar elementos implica copiar y pegar HTML.
-- Es difícil mantener sincronizados los datos con lo que se muestra.
+---
 
-Los frameworks resuelven estos problemas proporcionando:
+## ¿Por qué utilizar un framework?
 
-- **Estructura:** una forma clara de organizar el código.
-- **Componentes:** unidades reutilizables que encapsulan HTML, lógica y estilo.
-- **Reactividad:** la interfaz se actualiza automáticamente cuando cambian los datos.
+A medida que una aplicación crece, desarrollar únicamente con las herramientas básicas del lenguaje puede generar problemas de organización, reutilización y mantenimiento.
+
+Los frameworks proporcionan:
+
+- **Estructura:** una forma organizada de distribuir el código.
+- **Componentes:** elementos reutilizables que permiten dividir la aplicación.
+- **Reactividad:** actualización de la interfaz cuando cambian los datos, en frameworks de frontend.
+- **Convenciones:** reglas y formas recomendadas de trabajar.
+- **Herramientas:** funcionalidades que simplifican tareas habituales.
+- **Mantenibilidad:** facilitan que proyectos grandes puedan evolucionar de manera organizada.
+
+---
+
+## Frameworks de Frontend
+
+Los frameworks de frontend permiten construir interfaces web mediante **componentes reutilizables**, manejar datos y actualizar la interfaz de forma reactiva.
+
+Entre las tecnologías utilizadas para este propósito se encuentran:
+
+- [**Angular**](Angular.md) → framework de frontend desarrollado por Google.
+- [**React**](React.md) → biblioteca de JavaScript para construir interfaces mediante componentes.
+- [**Vue**](Vue.md) → framework progresivo de JavaScript para construir interfaces.
+
+> **Nota:** React suele estudiarse junto con Angular y Vue como tecnología de frontend, aunque técnicamente React es una **biblioteca (library)**, mientras que Angular y Vue se consideran frameworks.
 
 ---
 
@@ -19,7 +37,7 @@ Los frameworks resuelven estos problemas proporcionando:
 
 Un **componente** es una pieza reutilizable e independiente de la interfaz que encapsula **estructura, lógica y, opcionalmente, estilo**.
 
-Una aplicación puede organizarse como un **árbol de componentes**:
+Una aplicación puede dividirse en un **árbol de componentes**, donde componentes grandes contienen componentes más pequeños.
 
 ```
 App
@@ -37,19 +55,19 @@ App
 ### Características de un buen componente
 
 - **Una responsabilidad:** hace una cosa y la hace bien.
-- **Reutilizable:** funciona en distintos contextos y con distintos datos.
+- **Reutilizable:** puede utilizarse en distintos contextos y con distintos datos.
 - **Encapsulado:** sus detalles internos no afectan a quien lo utiliza.
-- **Predecible:** ante el mismo input produce el mismo output.
+- **Predecible:** ante el mismo input produce el mismo resultado.
 
-Un componente funciona de manera similar a una **función**: recibe parámetros (_props_), ejecuta lógica interna y devuelve una interfaz renderizada.
+Un componente puede entenderse de forma similar a una **función**: recibe datos de entrada, ejecuta lógica interna y produce un resultado visible en la interfaz.
 
 ---
 
-# Props: datos de padre a hijo
+# Props: comunicación de padre a hijo
 
-Las **props** permiten pasar datos de un componente padre a uno hijo.
+Las **props** son el mecanismo utilizado para pasar datos desde un componente padre hacia un componente hijo.
 
-El flujo es **unidireccional**, de arriba hacia abajo:
+El flujo de datos es **unidireccional**, de arriba hacia abajo:
 
 ```
 App
@@ -65,127 +83,72 @@ Esto permite:
 - Rastrear fácilmente de dónde proviene cada dato.
 - Evitar que los componentes hijos modifiquen directamente los datos del padre.
 
-Si un hijo necesita comunicar algo al padre, utiliza **eventos**.
+Una **prop no debería modificarse desde el hijo**.
 
-Esta filosofía es compartida por **Angular, React y Vue**.
+Si un hijo necesita comunicar información o una acción al padre, utiliza **eventos**.
+
+Esta filosofía es compartida por Angular, React y Vue.
 
 ---
 
-# Componentes en Angular, React y Vue
+# Renderizado de listas
 
-|Framework|Forma de definir un componente|
+El **renderizado de listas** consiste en generar un componente o elemento de interfaz por cada elemento de un array.
+
+Los tres frameworks proporcionan mecanismos para realizarlo:
+
+|Framework|Mecanismo|
 |---|---|
-|**Angular**|Clase con decorador `@Component`|
-|**React**|Función que devuelve JSX|
-|**Vue**|Single File Component (`.vue`)|
-
-### Angular
-
-```
-@Component({
-  selector: 'app-mensaje',
-  template: `
-    <div class="mensaje">
-      <span>{{ autor }}</span>
-      <p>{{ contenido }}</p>
-    </div>
-  `
-})
-export class MensajeComponent {
-  @Input() autor: string = '';
-  @Input() contenido: string = '';
-}
-```
-
-### React
-
-```
-function Mensaje({
-  autor,
-  contenido
-}: {
-  autor: string;
-  contenido: string
-}) {
-  return (
-    <div className="mensaje">
-      <span>{autor}</span>
-      <p>{contenido}</p>
-    </div>
-  );
-}
-```
-
-### Vue
-
-```
-<template>
-  <div class="mensaje">
-    <span>{{ autor }}</span>
-    <p>{{ contenido }}</p>
-  </div>
-</template>
-
-<script setup lang="ts">
-defineProps<{
-  autor: string;
-  contenido: string;
-}>();
-</script>
-```
-
----
-
-# Renderizado de listas y condicionales
-
-Son patrones presentes prácticamente en cualquier componente.
-
-### Renderizado de listas
-
-Permite mostrar un elemento por cada elemento de un array.
-
-- **Angular:** `*ngFor` + `trackBy`
-- **React:** `.map()` + `key`
-- **Vue:** `v-for` + `:key`
-
-
-### Renderizado condicional
-
-Permite mostrar elementos únicamente cuando se cumple una condición.
-
-- **Angular:** `*ngIf`
-- **React:** `if` / operador ternario
-- **Vue:** `v-if` / `v-else`
+|**Angular**|`*ngFor` + `trackBy`|
+|**React**|`.map()` + `key`|
+|**Vue**|`v-for` + `:key`|
 
 ### `key` / `trackBy`
 
-Permite al framework identificar qué elemento de una lista cambió y actualizar solamente ese nodo del DOM, evitando volver a renderizar toda la lista.
+Permite al framework identificar qué elemento de una lista cambió y actualizar solamente ese nodo del DOM, en lugar de volver a renderizar toda la lista.
+
+---
+
+# Renderizado condicional
+
+Permite mostrar determinados elementos de la interfaz únicamente cuando se cumple una condición.
+
+|Framework|Mecanismo|
+|---|---|
+|**Angular**|`*ngIf`|
+|**React**|`if` / operador ternario|
+|**Vue**|`v-if` / `v-else`|
+
+Por ejemplo, se puede mostrar:
+
+- Un mensaje de **“Cargando...”** mientras se obtienen datos.
+- Un mensaje de **“Sin resultados”** cuando una lista está vacía.
+- Una sección determinada únicamente cuando el usuario está autenticado.
 
 ---
 
 # ¿Cuándo crear un componente?
 
-Conviene extraer un componente cuando:
+Conviene extraer una parte de la interfaz a un componente separado cuando:
 
 - **Se repite:** el mismo bloque HTML aparece varias veces.
-- **Es demasiado grande:** más de aproximadamente 150 líneas puede indicar varias responsabilidades.
-- **Tiene lógica propia:** posee estado o comportamiento propio.
-- **Es reutilizable:** puede utilizarse en distintos contextos con diferentes datos.
-
+- **Es demasiado grande:** puede contener más de una responsabilidad.
+- **Tiene lógica propia:** posee estado o comportamiento independiente.
+- **Es reutilizable:** puede utilizarse en diferentes contextos con distintos datos.
 
 ### Ejemplo
 
-En lugar de un único `ChatComponent` que haga todo:
+Un componente de chat que hace todo:
 
 ```
 ChatComponent
 ├── lista de conversaciones
-├── cada ítem
+├── cada ítem de conversación
 ├── buscador
 └── panel de mensajes
 ```
 
-Se separan responsabilidades:
+Puede dividirse en componentes con responsabilidades específicas:
 
 ```
 ChatComponent
@@ -195,47 +158,44 @@ ChatComponent
 └── MensajesPanelComponent
 ```
 
-**Regla práctica:** si para describir lo que hace un componente necesitás decir que hace una cosa **“y”** otra, probablemente convenga dividirlo.
+**Regla práctica:** si para describir lo que hace un componente necesitás utilizar la palabra **“y”**, probablemente tenga más de una responsabilidad y convenga dividirlo.
 
 ---
 
-# Routing en una SPA
+# Routing
 
-Una **Single Page Application (SPA)** permite navegar entre pantallas sin recargar toda la página.
+El **routing** permite determinar qué componente debe mostrarse según la URL.
 
-El **router** cambia el componente mostrado según la URL sin realizar una nueva carga completa desde el servidor.
+En una **Single Page Application (SPA)**, la navegación entre pantallas normalmente no requiere recargar toda la página. El router cambia el componente mostrado según la ruta.
 
-La URL sigue siendo importante porque permite:
+### ¿Por qué la URL sigue siendo importante?
+
+Permite:
 
 - Compartir enlaces a pantallas específicas.
 - Utilizar correctamente el botón **Atrás** del navegador.
-- Recargar una pantalla manteniendo su ruta.
-
----
+- Mantener una ruta específica al recargar la página.
 
 ### Conceptos principales
 
-|        Concepto        |                     Descripción                      |
-| :--------------------: | :--------------------------------------------------: |
-|        **Ruta**        |       Asociación entre una URL y un componente       |
-|   **Router outlet**    |      Lugar donde se monta el componente activo       |
-|  **Link / navigate**   |        Cambiar de ruta sin recargar la página        |
-| **Parámetros de ruta** | Valores dinámicos, por ejemplo `/conversaciones/:id` |
-|       **Guard**        | Lógica que determina si se puede acceder a una ruta  |
+|Concepto|Descripción|
+|---|---|
+|**Ruta**|Asociación entre una URL y un componente|
+|**Router outlet**|Lugar donde se monta el componente activo|
+|**Link / navigate**|Permite cambiar de ruta sin recargar la página|
+|**Parámetros de ruta**|Valores dinámicos dentro de la URL, por ejemplo `/conversaciones/:id`|
+|**Guard**|Lógica que determina si se permite acceder a una ruta|
 
 ---
 
-# Routing en Angular, React y Vue
+# Routing en los principales frameworks
 
-|     Concepto      |       Angular        |         React         |        Vue        |
-| :---------------: | :------------------: | :-------------------: | :---------------: |
-| **Definir rutas** |      `Routes[]`      |    `<Routes>` JSX     | Array de objetos  |
-|    **Navegar**    | `router.navigate()`  |    `useNavigate()`    |  `router.push()`  |
-| **Parámetro URL** |   `ActivatedRoute`   |     `useParams()`     |   `useRoute()`    |
-|  **Componente**   |     `@Component`     |     Función + JSX     |    `.vue` SFC     |
-|     **Props**     |      `@Input()`      | Parámetros de función |  `defineProps()`  |
-|     **Lista**     | `*ngFor` + `trackBy` |   `.map()` + `key`    | `v-for` + `:key`  |
-|  **Condicional**  |       `*ngIf`        |    `if` / ternario    | `v-if` / `v-else` |
+Cada framework proporciona su propia forma de definir y utilizar rutas:
+
+|Concepto|Angular|React|Vue|
+|---|---|---|---|
+|**Definir rutas**|`Routes[]`|`<Routes>`|Array de objetos|
+|**Navegar**|`router.navigate()`|`useNavigate()`|`router.push()`|
+|**Leer parámetros**|`ActivatedRoute`|`useParams()`|`useRoute()`|
 
 ---
-
