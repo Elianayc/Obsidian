@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8847effa01a103bf",
+        "id": "b7e2958a073908a7",
         "type": "tabs",
         "children": [
           {
-            "id": "2979927bac98e2b6",
+            "id": "2f27f81ef6dad228",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -301,8 +301,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2979927bac98e2b6",
+  "active": "2f27f81ef6dad228",
   "lastOpenFiles": [
+    "Bases de Datos/Clave primaria (Primary Key).md",
     "Bases de Datos/DBMS.md",
     "Bases de Datos/Anomalías en bases de datos.md",
     "Bases de Datos/1FN.md",
@@ -328,7 +329,6 @@
     "Bases de Datos/DCL (Data Control Language).md",
     "Bases de Datos/DDL (Data Definition Language).md",
     "Bases de Datos/DENY.md",
-    "Bases de Datos/REVOKE.md",
     "Imágenes/Pasted image 20260821122513.png",
     "Imágenes/Pasted image 20260821121524.png",
     "Imágenes/Pasted image 20260821122410.png",
