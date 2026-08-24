@@ -1,37 +1,48 @@
-**HTTP (HyperText Transfer Protocol)** es un protocolo de la **capa de aplicación** que permite realizar solicitudes y transferir recursos en la Web.
+**HTTP (HyperText Transfer Protocol)** es un protocolo de la **capa de aplicación** que permite realizar solicitudes y transferir recursos a través de la Web.
 
-Es la base de la comunicación entre **clientes** y **servidores** para intercambiar información como:
+Es la base de la comunicación entre **clientes y servidores** para intercambiar información como:
 
 - Documentos HTML.
 - Imágenes.
 - Videos.
 - Datos enviados mediante formularios.
+- Datos en formatos como JSON.
 
 ---
 
 ## Funcionamiento
 
-La comunicación HTTP se realiza mediante el intercambio de mensajes:
+La comunicación HTTP se realiza mediante un intercambio de **mensajes**:
 
-- **[[Peticiones HTTP (Requests)]]:** mensajes enviados por el cliente, normalmente un navegador web, solicitando un recurso.
+- **Peticiones HTTP (Requests)**: mensajes enviados por el cliente, normalmente solicitando un recurso o una operación.
+- **Respuestas HTTP (Responses):** mensajes enviados por el servidor con el recurso solicitado o información sobre el resultado de la solicitud.
 
-- **Respuestas:** mensajes enviados por el servidor con el recurso solicitado o información sobre el resultado de la solicitud.
+El funcionamiento básico es:
 
-A diferencia de otros sistemas de comunicación que utilizan flujos continuos de datos (*streams*), HTTP trabaja mediante mensajes individuales de solicitud y respuesta.
+```
+Cliente → Petición HTTP → Servidor
+Cliente ← Respuesta HTTP ← Servidor
+```
+
+HTTP trabaja mediante mensajes individuales de **solicitud y respuesta**, en lugar de mantener un flujo continuo de datos (_stream_).
 
 ---
 
 ## Relación con otros protocolos
 
-HTTP funciona sobre el protocolo **TCP**, que permite la comunicación confiable entre dispositivos.
+HTTP funciona sobre protocolos de transporte como **TCP**, que proporciona una comunicación confiable entre dispositivos.
 
-Cuando la comunicación utiliza **TLS** para cifrar los datos aparece **[[HTTPS]]**, una versión segura de HTTP.
+Cuando HTTP utiliza **TLS** para cifrar la comunicación, se obtiene **HTTPS (HTTP Secure)**.
+
+```
+HTTP + TLS = HTTPS
+```
 
 ---
 
 ## Métodos HTTP
 
-Los mensajes HTTP pueden utilizar distintos métodos según la acción que se quiera realizar:
+Los mensajes HTTP utilizan distintos métodos según la acción que se desea realizar:
 
 - **GET:** solicita o consulta información del servidor.
 - **POST:** crea o da de alta un nuevo recurso enviando información al servidor.
@@ -43,11 +54,26 @@ Los mensajes HTTP pueden utilizar distintos métodos según la acción que se qu
 
 ## Códigos de respuesta
 
-HTTP utiliza códigos de estado para indicar el resultado de una solicitud.
+HTTP utiliza **códigos de estado** para indicar el resultado de una solicitud.
 
-Ejemplos:
+|Código|Significado|Uso|
+|---|---|---|
+|**200 OK**|Éxito|Operación realizada correctamente|
+|**201 Created**|Creado|Recurso creado correctamente|
+|**204 No Content**|Sin contenido|Éxito sin contenido en la respuesta|
+|**400 Bad Request**|Solicitud incorrecta|Datos inválidos o mal formados|
+|**401 Unauthorized**|No autenticado|Faltan credenciales o autenticación|
+|**403 Forbidden**|Prohibido|El cliente está autenticado pero no tiene permisos|
+|**404 Not Found**|No encontrado|El recurso solicitado no existe|
+|**500 Internal Server Error**|Error interno|Error no controlado en el servidor|
 
-- **200 OK:** la solicitud se realizó correctamente.
-- **404 Not Found:** el recurso solicitado no fue encontrado.
+Los códigos se agrupan en cinco categorías:
+
+- **1xx** → respuestas informativas.
+- **2xx** → solicitudes exitosas.
+- **3xx** → redirecciones.
+- **4xx** → errores del cliente.
+- **5xx** → errores del servidor.
 
 ---
+

@@ -20,12 +20,7 @@ Por ejemplo:
 /authors/3
 
 ### Interfaz uniforme
-Utiliza los métodos HTTP estándar con significados bien definidos:
-
-- **GET** → consultar información.
-- **POST** → crear un nuevo recurso.
-- **PUT** → reemplazar o actualizar un recurso completo.
-- **DELETE** → eliminar un recurso.
+Utiliza los métodos [[HTTP (HyperText Transfer Protocol)]] estándar con significados bien definidos:
 
 ### Sin estado (_Stateless_)
 Cada solicitud debe contener toda la información necesaria para que el servidor pueda procesarla.
@@ -145,26 +140,6 @@ Aunque suelen utilizarse como sinónimos, existe una diferencia:
 - **API RESTful:** sigue algunos de los principios de REST, generalmente los niveles **1 y 2**, pero no necesariamente todos.
 
 En la práctica, muchas APIs comerciales denominadas **REST** o **RESTful** no implementan HATEOAS.
-
-
----
-
-# Códigos de estado HTTP
-
-Los códigos de estado indican el resultado de una solicitud:
-
-| Código | Significado | Uso |
-|---|---|---|
-| **200** | OK | Operación exitosa |
-| **201** | Created | Recurso creado |
-| **204** | No Content | Éxito sin contenido |
-| **400** | Bad Request | Datos inválidos |
-| **401** | Unauthorized | Falta autenticación |
-| **403** | Forbidden | Sin permisos |
-| **404** | Not Found | Recurso inexistente |
-| **500** | Internal Server Error | Error del servidor |
-
-Los códigos de estado forman parte del **contrato de la API** y permiten al cliente conocer el resultado de la solicitud.
 
 
 ---
