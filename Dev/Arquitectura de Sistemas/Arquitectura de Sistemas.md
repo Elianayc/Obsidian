@@ -24,8 +24,12 @@ Dentro de la arquitectura de un sistema se analizan diferentes aspectos:
   - [[Persistencia de datos]]
 
 ---
-
 ## Relación con la implementación
-La **Arquitectura de Sistemas** define la estructura y organización global del sistema, mientras que su implementación se realiza mediante [[Lenguajes de Programación]] y la organización del código en [[Paquetes]].
+
+La **Arquitectura de Sistemas** define la estructura y organización global del sistema, mientras que su implementación se realiza mediante:
+
+- [[Lenguajes de Programación]]
+- [[Frameworks]]
+- [[Paquetes]]
 
 ---

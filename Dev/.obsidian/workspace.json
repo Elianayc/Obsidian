@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-                "mode": "preview",
+                "file": "Frameworks.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arquitectura de Sistemas"
+              "title": "Frameworks"
             }
           }
         ]
@@ -307,7 +307,10 @@
   },
   "active": "2f27f81ef6dad228",
   "lastOpenFiles": [
+    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
+    "Arquitectura de Sistemas/Paquetes.md",
     "Frameworks.md",
+    "Programación/Lenguajes de Programación.md",
     "Javascript/Vue.md",
     "Typescript/Angular.md",
     "Arquitectura de Sistemas/Scrum.md",
@@ -317,7 +320,6 @@
     "Programación/Electron.md",
     "Programación/puntoNET.md",
     "Arquitectura de Sistemas/Arquitectura Monolítica.md",
-    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Arquitectura de Sistemas/Arquitectura de Microservicios.md",
     "Redes/HTTP (HyperText Transfer Protocol).md",
     "Arquitectura de Sistemas/Arquitectura REST.md",
@@ -331,8 +333,6 @@
     "Bases de Datos/ORDER BY.md",
     "Bases de Datos/SELECT.md",
     "Bases de Datos/Funciones de Agregación.md",
-    "Bases de Datos/HAVING.md",
-    "Bases de Datos/GROUP BY.md",
     "Imágenes/Pasted image 20260821122513.png",
     "Imágenes/Pasted image 20260821121524.png",
     "Imágenes/Pasted image 20260821122410.png",

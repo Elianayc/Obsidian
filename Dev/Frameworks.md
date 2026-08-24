@@ -148,6 +148,7 @@ Permite mostrar un elemento por cada elemento de un array.
 - **React:** `.map()` + `key`
 - **Vue:** `v-for` + `:key`
 
+
 ### Renderizado condicional
 
 Permite mostrar elementos únicamente cuando se cumple una condición.
@@ -170,6 +171,7 @@ Conviene extraer un componente cuando:
 - **Es demasiado grande:** más de aproximadamente 150 líneas puede indicar varias responsabilidades.
 - **Tiene lógica propia:** posee estado o comportamiento propio.
 - **Es reutilizable:** puede utilizarse en distintos contextos con diferentes datos.
+
 
 ### Ejemplo
 
@@ -209,26 +211,31 @@ La URL sigue siendo importante porque permite:
 - Utilizar correctamente el botón **Atrás** del navegador.
 - Recargar una pantalla manteniendo su ruta.
 
+---
+
 ### Conceptos principales
 
-|Concepto|Descripción|
-|---|---|
-|**Ruta**|Asociación entre una URL y un componente|
-|**Router outlet**|Lugar donde se monta el componente activo|
-|**Link / navigate**|Cambiar de ruta sin recargar la página|
-|**Parámetros de ruta**|Valores dinámicos, por ejemplo `/conversaciones/:id`|
-|**Guard**|Lógica que determina si se puede acceder a una ruta|
+|        Concepto        |                     Descripción                      |
+| :--------------------: | :--------------------------------------------------: |
+|        **Ruta**        |       Asociación entre una URL y un componente       |
+|   **Router outlet**    |      Lugar donde se monta el componente activo       |
+|  **Link / navigate**   |        Cambiar de ruta sin recargar la página        |
+| **Parámetros de ruta** | Valores dinámicos, por ejemplo `/conversaciones/:id` |
+|       **Guard**        | Lógica que determina si se puede acceder a una ruta  |
 
 ---
 
 # Routing en Angular, React y Vue
 
-|Concepto|Angular|React|Vue|
-|---|---|---|---|
-|**Definir rutas**|`Routes[]`|`<Routes>` JSX|Array de objetos|
-|**Navegar**|`router.navigate()`|`useNavigate()`|`router.push()`|
-|**Parámetro URL**|`ActivatedRoute`|`useParams()`|`useRoute()`|
-|**Componente**|`@Component`|Función + JSX|`.vue` SFC|
-|**Props**|`@Input()`|Parámetros de función|`defineProps()`|
-|**Lista**|`*ngFor` + `trackBy`|`.map()` + `key`|`v-for` + `:key`|
-|**Condicional**|`*ngIf`|`if` / ternario|`v-if` / `v-else`|
+|     Concepto      |       Angular        |         React         |        Vue        |
+| :---------------: | :------------------: | :-------------------: | :---------------: |
+| **Definir rutas** |      `Routes[]`      |    `<Routes>` JSX     | Array de objetos  |
+|    **Navegar**    | `router.navigate()`  |    `useNavigate()`    |  `router.push()`  |
+| **Parámetro URL** |   `ActivatedRoute`   |     `useParams()`     |   `useRoute()`    |
+|  **Componente**   |     `@Component`     |     Función + JSX     |    `.vue` SFC     |
+|     **Props**     |      `@Input()`      | Parámetros de función |  `defineProps()`  |
+|     **Lista**     | `*ngFor` + `trackBy` |   `.map()` + `key`    | `v-for` + `:key`  |
+|  **Condicional**  |       `*ngIf`        |    `if` / ternario    | `v-if` / `v-else` |
+
+---
+
