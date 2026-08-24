@@ -53,20 +53,55 @@
       "query": "path: \"Modelado de Sistemas\"  ",
       "color": {
         "a": 1,
-        "rgb": 6053078
+        "rgb": 13663942
+      }
+    },
+    {
+      "query": "path: Programación  ",
+      "color": {
+        "a": 1,
+        "rgb": 7450715
+      }
+    },
+    {
+      "query": "path:Redes  ",
+      "color": {
+        "a": 1,
+        "rgb": 7569612
+      }
+    },
+    {
+      "query": "path:Typescript  ",
+      "color": {
+        "a": 1,
+        "rgb": 10905059
+      }
+    },
+    {
+      "query": "path: Z_Imágenes  ",
+      "color": {
+        "a": 1,
+        "rgb": 5552298
+      }
+    },
+    {
+      "query": "path: Z_Excalidraw  ",
+      "color": {
+        "a": 1,
+        "rgb": 14381941
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": true,
   "textFadeMultiplier": -0.9,
   "nodeSizeMultiplier": 1.58732996502138,
   "lineSizeMultiplier": 2.55724709130349,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 1,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.16348370567219686,
-  "close": false
+  "scale": 0.16348370567219667,
+  "close": true
 }
