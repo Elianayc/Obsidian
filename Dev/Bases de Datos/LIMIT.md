@@ -14,5 +14,18 @@ SELECT * FROM empleados LIMIT 5;
 
  Devuelve solo los primeros 5 registros.
 
-[[OFFSET]]
-#BasesdeDatos
+---
+
+### OFFSET
+
+Permite saltar registros antes de empezar a mostrar resultados.
+```sql
+SELECT *FROM empleados 
+LIMIT 5 
+OFFSET 10;
+```
+
+Salta los primeros 10 registros y muestra los siguientes 5.
+
+---
+

@@ -3,7 +3,7 @@ tags:
   - 
   
 ---
-![[Pasted image 20260527160648.png|474]]
+![[Pasted image 20260527160648.png|414]]
 
 > [!info]
 > 
