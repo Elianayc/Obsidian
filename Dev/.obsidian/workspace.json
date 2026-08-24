@@ -285,7 +285,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 406.5
+    "width": 406.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -302,6 +303,7 @@
   },
   "active": "2979927bac98e2b6",
   "lastOpenFiles": [
+    "Bases de Datos/DBMS.md",
     "Bases de Datos/Anomalías en bases de datos.md",
     "Bases de Datos/1FN.md",
     "Bases de Datos/Cláusulas.md",
@@ -327,7 +329,6 @@
     "Bases de Datos/DDL (Data Definition Language).md",
     "Bases de Datos/DENY.md",
     "Bases de Datos/REVOKE.md",
-    "Bases de Datos/GRANT.md",
     "Imágenes/Pasted image 20260821122513.png",
     "Imágenes/Pasted image 20260821121524.png",
     "Imágenes/Pasted image 20260821122410.png",
