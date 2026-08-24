@@ -6,16 +6,31 @@ Su objetivo es ofrecer una **base predefinida** sobre la cual construir una apli
 
 ## ¿Por qué utilizar un framework?
 
-A medida que una aplicación crece, desarrollar únicamente con las herramientas básicas del lenguaje puede generar problemas de organización, reutilización y mantenimiento.
+Con **HTML, CSS y JavaScript puro** se pueden construir interfaces web, pero a medida que una aplicación crece aparecen problemas:
 
-Los frameworks proporcionan:
+- El **DOM debe actualizarse manualmente** cuando cambian los datos.
+    
+- La lógica, la presentación y la manipulación del DOM pueden terminar mezcladas.
+    
+- Reutilizar partes de la interfaz puede implicar copiar y pegar código.
+    
+- Mantener sincronizados los datos con lo que se muestra se vuelve más difícil de controlar.
+    
+
+Los frameworks ayudan a solucionar estos problemas proporcionando:
 
 - **Estructura:** una forma organizada de distribuir el código.
+    
 - **Componentes:** elementos reutilizables que permiten dividir la aplicación.
-- **Reactividad:** actualización de la interfaz cuando cambian los datos, en frameworks de frontend.
+    
+- **Reactividad:** actualización automática de la interfaz cuando cambian los datos, especialmente en frameworks de frontend.
+    
 - **Convenciones:** reglas y formas recomendadas de trabajar.
+    
 - **Herramientas:** funcionalidades que simplifican tareas habituales.
+    
 - **Mantenibilidad:** facilitan que proyectos grandes puedan evolucionar de manera organizada.
+    
 
 ---
 
@@ -25,9 +40,12 @@ Los frameworks de frontend permiten construir interfaces web mediante **componen
 
 Entre las tecnologías utilizadas para este propósito se encuentran:
 
-- [**Angular**](Angular.md) → framework de frontend desarrollado por Google.
-- [**React**](React.md) → biblioteca de JavaScript para construir interfaces mediante componentes.
-- [**Vue**](Vue.md) → framework progresivo de JavaScript para construir interfaces.
+- [**Angular**](https://chatgpt.com/g/g-p-68bdace4bdb48191b89bbf59cd86a304/c/Angular.md) → framework de frontend desarrollado por Google.
+    
+- [**React**](https://chatgpt.com/g/g-p-68bdace4bdb48191b89bbf59cd86a304/c/React.md) → biblioteca de JavaScript para construir interfaces mediante componentes.
+    
+- [**Vue**](https://chatgpt.com/g/g-p-68bdace4bdb48191b89bbf59cd86a304/c/Vue.md) → framework progresivo de JavaScript para construir interfaces.
+    
 
 > **Nota:** React suele estudiarse junto con Angular y Vue como tecnología de frontend, aunque técnicamente React es una **biblioteca (library)**, mientras que Angular y Vue se consideran frameworks.
 
@@ -39,7 +57,7 @@ Un **componente** es una pieza reutilizable e independiente de la interfaz que e
 
 Una aplicación puede dividirse en un **árbol de componentes**, donde componentes grandes contienen componentes más pequeños.
 
-```
+```text
 App
 ├── Header
 │   ├── Logo
@@ -55,9 +73,13 @@ App
 ### Características de un buen componente
 
 - **Una responsabilidad:** hace una cosa y la hace bien.
+    
 - **Reutilizable:** puede utilizarse en distintos contextos y con distintos datos.
+    
 - **Encapsulado:** sus detalles internos no afectan a quien lo utiliza.
+    
 - **Predecible:** ante el mismo input produce el mismo resultado.
+    
 
 Un componente puede entenderse de forma similar a una **función**: recibe datos de entrada, ejecuta lógica interna y produce un resultado visible en la interfaz.
 
@@ -69,7 +91,7 @@ Las **props** son el mecanismo utilizado para pasar datos desde un componente pa
 
 El flujo de datos es **unidireccional**, de arriba hacia abajo:
 
-```
+```text
 App
  ↓ props
 ConversacionList
@@ -80,8 +102,11 @@ ConversacionItem
 Esto permite:
 
 - Hacer el código más predecible.
+    
 - Rastrear fácilmente de dónde proviene cada dato.
+    
 - Evitar que los componentes hijos modifiquen directamente los datos del padre.
+    
 
 Una **prop no debería modificarse desde el hijo**.
 
@@ -97,11 +122,11 @@ El **renderizado de listas** consiste en generar un componente o elemento de int
 
 Los tres frameworks proporcionan mecanismos para realizarlo:
 
-|Framework|Mecanismo|
-|---|---|
-|**Angular**|`*ngFor` + `trackBy`|
-|**React**|`.map()` + `key`|
-|**Vue**|`v-for` + `:key`|
+|  Framework  |      Mecanismo       |
+| :---------: | :------------------: |
+| **Angular** | `*ngFor` + `trackBy` |
+|  **React**  |   `.map()` + `key`   |
+|   **Vue**   |   `v-for` + `:key`   |
 
 ### `key` / `trackBy`
 
@@ -113,17 +138,20 @@ Permite al framework identificar qué elemento de una lista cambió y actualizar
 
 Permite mostrar determinados elementos de la interfaz únicamente cuando se cumple una condición.
 
-|Framework|Mecanismo|
-|---|---|
-|**Angular**|`*ngIf`|
-|**React**|`if` / operador ternario|
-|**Vue**|`v-if` / `v-else`|
+|  Framework  |        Mecanismo         |
+| :---------: | :----------------------: |
+| **Angular** |         `*ngIf`          |
+|  **React**  | `if` / operador ternario |
+|   **Vue**   |    `v-if` / `v-else`     |
 
 Por ejemplo, se puede mostrar:
 
 - Un mensaje de **“Cargando...”** mientras se obtienen datos.
+    
 - Un mensaje de **“Sin resultados”** cuando una lista está vacía.
+    
 - Una sección determinada únicamente cuando el usuario está autenticado.
+    
 
 ---
 
@@ -132,15 +160,19 @@ Por ejemplo, se puede mostrar:
 Conviene extraer una parte de la interfaz a un componente separado cuando:
 
 - **Se repite:** el mismo bloque HTML aparece varias veces.
+    
 - **Es demasiado grande:** puede contener más de una responsabilidad.
+    
 - **Tiene lógica propia:** posee estado o comportamiento independiente.
+    
 - **Es reutilizable:** puede utilizarse en diferentes contextos con distintos datos.
+    
 
 ### Ejemplo
 
 Un componente de chat que hace todo:
 
-```
+```text
 ChatComponent
 ├── lista de conversaciones
 ├── cada ítem de conversación
@@ -150,7 +182,7 @@ ChatComponent
 
 Puede dividirse en componentes con responsabilidades específicas:
 
-```
+```text
 ChatComponent
 ├── ConversacionListComponent
 │   └── ConversacionItemComponent
@@ -173,18 +205,21 @@ En una **Single Page Application (SPA)**, la navegación entre pantallas normalm
 Permite:
 
 - Compartir enlaces a pantallas específicas.
+    
 - Utilizar correctamente el botón **Atrás** del navegador.
+    
 - Mantener una ruta específica al recargar la página.
+    
 
 ### Conceptos principales
 
-|Concepto|Descripción|
-|---|---|
-|**Ruta**|Asociación entre una URL y un componente|
-|**Router outlet**|Lugar donde se monta el componente activo|
-|**Link / navigate**|Permite cambiar de ruta sin recargar la página|
-|**Parámetros de ruta**|Valores dinámicos dentro de la URL, por ejemplo `/conversaciones/:id`|
-|**Guard**|Lógica que determina si se permite acceder a una ruta|
+|        Concepto        |                              Descripción                              |
+| :--------------------: | :-------------------------------------------------------------------: |
+|        **Ruta**        |               Asociación entre una URL y un componente                |
+|   **Router outlet**    |               Lugar donde se monta el componente activo               |
+|  **Link / navigate**   |            Permite cambiar de ruta sin recargar la página             |
+| **Parámetros de ruta** | Valores dinámicos dentro de la URL, por ejemplo `/conversaciones/:id` |
+|       **Guard**        |         Lógica que determina si se permite acceder a una ruta         |
 
 ---
 
@@ -192,10 +227,10 @@ Permite:
 
 Cada framework proporciona su propia forma de definir y utilizar rutas:
 
-|Concepto|Angular|React|Vue|
-|---|---|---|---|
-|**Definir rutas**|`Routes[]`|`<Routes>`|Array de objetos|
-|**Navegar**|`router.navigate()`|`useNavigate()`|`router.push()`|
-|**Leer parámetros**|`ActivatedRoute`|`useParams()`|`useRoute()`|
+|      Concepto       |       Angular       |      React      |       Vue        |
+| :-----------------: | :-----------------: | :-------------: | :--------------: |
+|  **Definir rutas**  |     `Routes[]`      |   `<Routes>`    | Array de objetos |
+|     **Navegar**     | `router.navigate()` | `useNavigate()` | `router.push()`  |
+| **Leer parámetros** |  `ActivatedRoute`   |  `useParams()`  |   `useRoute()`   |
 
 ---

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frameworks.md",
+                "file": "Frameworks/Frameworks.md",
                 "mode": "source",
                 "source": false
               },
@@ -307,10 +307,11 @@
   },
   "active": "2f27f81ef6dad228",
   "lastOpenFiles": [
-    "React.md",
-    "Vue.md",
-    "Frameworks.md",
-    "Angular.md",
+    "Frameworks/Angular.md",
+    "Frameworks/Frameworks.md",
+    "Frameworks",
+    "Frameworks/React.md",
+    "Frameworks/Vue.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Arquitectura de Sistemas/Paquetes.md",
     "Programación/Lenguajes de Programación.md",
@@ -332,7 +333,6 @@
     "Bases de Datos/Cláusulas.md",
     "Bases de Datos/LIMIT.md",
     "Bases de Datos/ORDER BY.md",
-    "Bases de Datos/SELECT.md",
     "Imágenes/Pasted image 20260821122513.png",
     "Imágenes/Pasted image 20260821121524.png",
     "Imágenes/Pasted image 20260821122410.png",
@@ -352,7 +352,6 @@
     "TCP",
     "Redes",
     "Metodología de Sistemas",
-    "Manejo de excepciones (PL",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]
