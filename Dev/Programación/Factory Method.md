@@ -247,6 +247,7 @@ Usalo cuando quieras permitir que otros **extiendan un framework o librería**.
 La herencia permite modificar comportamientos, pero el framework necesita saber cuándo usar tu versión. La solución es centralizar la creación en un Factory Method y dejar que cualquiera lo sobrescriba.
 
 Ejemplo: el framework solo tiene botones cuadrados.  
+
 Vos creás `BotónRedondo` y una subclase `UIConBotonesRedondos` que sobrescribe `crearBotón` para devolver ese nuevo botón. Luego usás esa subclase en vez del framework original. Listo.
 
 ---

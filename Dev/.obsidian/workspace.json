@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Desarrollo Frontend Moderno.md",
-                "mode": "source",
+                "file": "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Desarrollo Frontend Moderno"
+              "title": "Arquitectura de Sistemas"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "404",
+                "query": "framework",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.5,
-    "collapsed": true
+    "width": 383.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -308,8 +307,17 @@
   },
   "active": "2f27f81ef6dad228",
   "lastOpenFiles": [
+    "Frameworks.md",
+    "Javascript/Vue.md",
+    "Typescript/Angular.md",
+    "Arquitectura de Sistemas/Scrum.md",
+    "Arquitectura de Sistemas/Arquitectura en Capas.md",
+    "Programación/Factory Method.md",
+    "Programación/React Native.md",
+    "Programación/Electron.md",
+    "Programación/puntoNET.md",
+    "Arquitectura de Sistemas/Arquitectura Monolítica.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-    "Desarrollo Frontend Moderno.md",
     "Arquitectura de Sistemas/Arquitectura de Microservicios.md",
     "Redes/HTTP (HyperText Transfer Protocol).md",
     "Arquitectura de Sistemas/Arquitectura REST.md",
@@ -325,15 +333,6 @@
     "Bases de Datos/Funciones de Agregación.md",
     "Bases de Datos/HAVING.md",
     "Bases de Datos/GROUP BY.md",
-    "Bases de Datos/WHERE.md",
-    "Bases de Datos/JOIN.md",
-    "Bases de Datos/FROM.md",
-    "Bases de Datos/RIGHT JOIN.md",
-    "Bases de Datos/LEFT JOIN.md",
-    "Bases de Datos/FULL JOIN.md",
-    "Bases de Datos/INNER JOIN.md",
-    "Bases de Datos/OFFSET.md",
-    "Bases de Datos/DESC - ASC.md",
     "Imágenes/Pasted image 20260821122513.png",
     "Imágenes/Pasted image 20260821121524.png",
     "Imágenes/Pasted image 20260821122410.png",
