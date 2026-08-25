@@ -1,4 +1,4 @@
-Un **[[servidor web]]** funciona atendiendo solicitudes de clientes (por ejemplo, navegadores) y enviando respuestas con los recursos solicitados, como páginas web, imágenes o archivos.
+Un **servidor web** funciona atendiendo solicitudes de clientes (por ejemplo, navegadores) y enviando respuestas con los recursos solicitados, como páginas web, imágenes o archivos.
 
 ---
 
@@ -25,7 +25,7 @@ Según el recurso solicitado puede:
   - Ejemplo: HTML, CSS, JSON.
 
 - **Recurso dinámico:** ejecuta código en el servidor para generar la respuesta.
-  - Ejemplo: PHP, [[Python]], [[Node.js]].
+  - Ejemplo: PHP, Python, Node.js.
 
 - **Recurso protegido:** solicita y valida credenciales antes de permitir el acceso.
 
