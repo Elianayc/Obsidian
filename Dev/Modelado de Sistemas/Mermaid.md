@@ -361,7 +361,7 @@ TypeScript
 Testing
 ```
 
-Primero pensá las clases y relaciones.
+Primero pensá las [[clases]] y relaciones.
 Después escribí el código.
 Eso suele hacer mucho más fácil detectar errores de diseño antes de programar. 
 

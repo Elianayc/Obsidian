@@ -11,7 +11,7 @@ Se utiliza principalmente durante el **análisis, diseño y documentación** del
 **Incluye distintos tipos de diagramas, entre ellos:**
 
 - [[Diagramas de clases]]  
-    Representan la estructura estática del sistema: clases, atributos, métodos y relaciones (herencia, asociación, composición, dependencia).
+    Representan la estructura estática del sistema: [[clases]], [[atributos]], [[métodos]] y relaciones ([[herencia]], asociación, [[composición]], dependencia).
 
 - [[Diagramas de casos de uso]]
     Describen las funcionalidades del sistema desde el punto de vista del usuario y cómo interactúa con él.
