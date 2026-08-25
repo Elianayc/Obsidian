@@ -22,4 +22,3 @@ Se utiliza para reducir la complejidad del sistema y facilitar su análisis, dis
 El modelado de sistemas se utiliza como etapa previa o paralela a la implementación, ayudando a definir la estructura del sistema antes de codificarlo.
 
 ---
-#ModeladodeSistemas
