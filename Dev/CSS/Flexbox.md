@@ -9,7 +9,7 @@ Antes de Flexbox, se utilizaban técnicas como:
 
 * **Floats:** originalmente diseñados para envolver texto alrededor de imágenes, no para crear estructuras completas de páginas.
 * **Posicionamiento absoluto:** saca elementos del flujo normal del documento, lo que puede complicar la creación de diseños responsivos.
-* **[[Tablas HTML]]:** pueden generar problemas de semántica y accesibilidad.
+* **Tablas HTML:** pueden generar problemas de semántica y accesibilidad.
 
 Flexbox permite:
 * Controlar la alineación vertical y horizontal.

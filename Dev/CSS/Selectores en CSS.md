@@ -1,4 +1,4 @@
-Los **selectores CSS** se utilizan para aplicar estilos a determinados [[elementos HTML]].
+Los **selectores CSS** se utilizan para aplicar estilos a determinados elementos HTML.
 
 Existen tres tipos principales de selectores:
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de Datos/1FN.md",
+                "file": "HTML/HTML5.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1FN"
+              "title": "HTML5"
             }
           }
         ]
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bases de Datos/1FN.md",
+                "file": "HTML/HTML5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bases de Datos/1FN.md",
+                "file": "HTML/HTML5.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
@@ -205,7 +205,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Bases de Datos/1FN.md",
+                "file": "HTML/HTML5.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -257,32 +257,32 @@
   },
   "active": "027ff966f0737317",
   "lastOpenFiles": [
-    "CSS/Borde (border).md",
-    "CSS/Box Model o Modelo de Caja CSS.md",
-    "CSS/Clases.md",
-    "CSS/Contenido (content).md",
-    "CSS/CSS (Cascading Style Sheets).md",
-    "CSS/Etiquetas.md",
-    "CSS/Flexbox.md",
-    "CSS/Grid vs Flexbox.md",
-    "CSS/Grillas (CSS Grid).md",
-    "CSS/Herencia en CSS.md",
-    "CSS/Iconos en CSS.md",
-    "CSS/IDs.md",
-    "CSS/Insertar CSS en HTML.md",
-    "CSS/Margen (margin).md",
-    "CSS/Reglas de CSS.md",
-    "CSS/Relleno (padding).md",
-    "CSS/Selectores en CSS.md",
-    "CSS/Unidades absolutas.md",
-    "CSS/Unidades de Medida CSS.md",
-    "CSS/Unidades relativas.md",
-    "HTML/Validaciones automáticas.md",
-    "HTML/Uso del signo barra.md",
-    "HTML/Tipos de enlaces.md",
-    "HTML/Tipos de elementos HTML.md",
-    "HTML/Tablas HTML.md",
-    "HTML/Simbolos y Emojis.md",
+    "HTML/HTML y la presentación visual.md",
+    "HTML/HTML Entities.md",
+    "HTML/HTML (HyperText Markup Language).md",
+    "HTML/Formularios HTML.md",
+    "HTML/Favicon.md",
+    "HTML/Etiquetas HTML.md",
+    "HTML/Etiquetas abiertas y cerradas.md",
+    "HTML/Estructura básica de un documento HTML.md",
+    "HTML/Enlaces HTML.md",
+    "HTML/Elementos HTML.md",
+    "HTML/Elementos contenedores HTML.md",
+    "HTML/Controles de formulario HTML.md",
+    "HTML/Concepto de hipertexto.md",
+    "HTML/Botones de un formulario HTML.md",
+    "HTML/Atributos principales de un formulario HTML.md",
+    "HTML/Atributos HTML.md",
+    "HTML/Atributos de las etiquetas.md",
+    "HTML/Anidamiento y jerarquía.md",
+    "Metodología de Sistemas/Ciclo de Vida del Desarrollo de Software (SDLC).md",
+    "Metodología de Sistemas/Burndown Charts.md",
+    "Javascript/Uso de JavaScript.md",
+    "Javascript/Propiedades `async` y `defer`.md",
+    "Javascript/Procesamiento Asincrónico en JavaScript.md",
+    "Javascript/Node.js.md",
+    "Javascript/JavaScript.md",
+    "Javascript/DOM (Document Object Model).md",
     "Metodología de Sistemas",
     "Frameworks",
     "Z_Imágenes/Pasted image 20260821122513.png",

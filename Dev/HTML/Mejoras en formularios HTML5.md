@@ -1,4 +1,4 @@
-[[HTML5]] incorpora nuevas funcionalidades para los formularios.
+HTML5 incorpora nuevas funcionalidades para los formularios.
 
 ## Nuevos valores de atributos
 
@@ -20,7 +20,7 @@ También incorpora mejoras como:
 
 ## Enctype text/plain
 
-[[HTML5]] incorpora el valor:
+HTML5 incorpora el valor:
 ```html
 text/plain
 ```
