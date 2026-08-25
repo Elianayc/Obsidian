@@ -78,7 +78,7 @@ Cada iteración genera un incremento del producto.
 
 ---
 
-[[Historias de Usuario (User Stories)]]
+[[Historias de Usuario y Backlog]]
 [[Scrum]]
 
 ---

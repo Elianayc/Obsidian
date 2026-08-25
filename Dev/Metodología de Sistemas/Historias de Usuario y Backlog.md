@@ -1,10 +1,10 @@
-Las **Historias de Usuario** permiten transformar necesidades del negocio en funcionalidades concretas que aporten **valor entregable y medible** al usuario.
+---
+tags:
+  - ArquitecturadeSistemas
+---
+Las **Historias de Usuario** son un elemento clave de las metodologías ágiles. Permiten transformar necesidades del negocio en funcionalidades concretas que aporten **valor al usuario**.
 
-No son simples frases: son **vehículos de entendimiento compartido** entre el negocio y el equipo técnico. Son dinámicas y evolucionan mediante conversaciones, refinamiento y validación.
-
-> Una buena historia de usuario es una conversación que evoluciona hacia un compromiso concreto entre lo que el negocio necesita y lo que el equipo puede entregar.
-> 
-> — Mike Cohn (2004)
+No son simples frases: son **vehículos de entendimiento compartido** entre el negocio y el equipo técnico. Evolucionan mediante conversaciones, refinamiento y validación.
 
 ---
 
@@ -14,144 +14,127 @@ El formato básico es:
 
 > **Como [rol], quiero [funcionalidad], para [beneficio].**
 
-Una historia efectiva debe incluir:
+Permite identificar:
 
-- **Descripción:** qué necesita el usuario.
-- **Reglas de negocio:** condiciones o reglas que deben respetarse.
-- **[[Criterios de aceptación]]:** condiciones que deben cumplirse para considerar terminada la historia.
-- **Criterios de rechazo:** condiciones que indican que la funcionalidad no debe aceptarse.
+- **Quién:** el usuario o rol que necesita la funcionalidad.
+- **Qué:** la acción o funcionalidad que necesita.
+- **Para qué:** el beneficio o valor esperado.
+
+**Ejemplo:**
+
+> **Como cliente, quiero poder buscar transacciones, para detectar gastos innecesarios en mi cuenta.**
+
+Una historia puede complementarse con:
+
+- **Descripción:** contexto y detalles de la necesidad.
+- **Reglas de negocio:** condiciones que deben respetarse.
+- [[Criterios de Aceptación]]: condiciones que permiten verificar que la funcionalidad fue implementada correctamente.
+- Diseños o mockups.
+- User flows.
+- Limitaciones.
 
 ---
 
 ## Criterios INVEST
 
-INVEST es una guía para evaluar la calidad de una Historia de Usuario y determinar si está lista para ser trabajada por el equipo.
+**INVEST** es una guía para evaluar la calidad de una Historia de Usuario y determinar si está lista para ser trabajada.
 
 - **I — Independent (Independiente):** debe poder desarrollarse y entregarse sin depender de otras historias.
-- **N — Negotiable (Negociable):** no es un contrato fijo. Su detalle y alcance pueden ajustarse mediante conversación entre el equipo y el cliente/Product Owner.
+- **N — Negotiable (Negociable):** no es un contrato fijo. Su detalle puede ajustarse mediante conversación entre el equipo y el Product Owner.
 - **V — Valuable (Valiosa):** debe aportar valor real al usuario o al negocio.
-- **E — Estimable (Estimable):** el equipo debe poder estimar el esfuerzo necesario. Si no puede, puede ser demasiado grande, ambigua o faltar conocimiento técnico o de negocio.
-- **S — Small (Pequeña):** debe ser lo suficientemente pequeña para completarse en un sprint. Las historias demasiado grandes o épicas deben dividirse.
-- **T — Testable (Testeable):** debe poder verificarse si está completa o no, mediante criterios de aceptación claros.
+- **E — Estimable (Estimable):** el equipo debe poder estimar el esfuerzo necesario. Si no puede, puede ser demasiado grande, ambigua o faltar conocimiento.
+- **S — Small (Pequeña):** debe ser suficientemente pequeña para completarse en un sprint. Las historias demasiado grandes deben dividirse.
+- **T — Testable (Testeable):** debe poder verificarse mediante criterios de aceptación claros.
 
-### ¿Por qué INVEST es una buena práctica?
+### Beneficios de INVEST
 
 - Mejora la calidad del backlog.
-- Reduce malentendidos, retrabajo y bloqueos.
+- Reduce malentendidos y retrabajo.
 - Facilita la planificación de los sprints.
-- Fomenta la colaboración entre negocio y desarrollo.
-- Reduce el desperdicio al evitar funcionalidades innecesarias o imposibles de verificar.
-
-### Ejemplo
-
-> **Como usuario registrado, quiero poder restablecer mi contraseña por email, para recuperar el acceso a mi cuenta si la olvido.**
-
-- **Independent:** no depende de otras historias.
-- **Negotiable:** el flujo exacto puede ajustarse.
-- **Valuable:** permite recuperar el acceso.
-- **Estimable:** el equipo puede dimensionar el trabajo.
-- **Small:** puede completarse en un sprint.
-- **Testable:** se puede verificar que el email llegue y que el enlace funcione.
+- Favorece la colaboración entre negocio y desarrollo.
+- Evita funcionalidades difíciles de verificar o innecesarias.
 
 ---
 
 ## Refinamiento de una Historia de Usuario
 
-La historia evoluciona mediante un proceso de conversación y validación:
+Una historia evoluciona mediante conversación y validación:
 
 1. **Capturar la necesidad.**
-2. **Explorarla conjuntamente.**
+2. **Explorarla** conjuntamente.
 3. **Reformularla** como historia + reglas + criterios.
-4. **Validarla** entre negocio, equipo y líder.
-5. **Revisarla después de la entrega.**
+4. **Validarla** entre negocio y equipo.
+5. **Revisarla y ajustarla** a medida que aumenta el conocimiento.
 
-> Las historias de usuario son promesas de conversación.
-> 
-> — Alistair Cockburn (2002)
+> Las historias de usuario son promesas de conversación.  
+> — Alistair Cockburn
 
 ---
 
 ## Roles y vínculos
 
-En el desarrollo de una Historia de Usuario participan distintos roles:
+En el desarrollo de una Historia de Usuario participan diferentes roles:
 
 - **Usuario experto de negocio:** expresa la necesidad y las reglas del negocio.
-- **Product Owner (PO):** representa al negocio, traduce la necesidad en valor y prioriza.
+- **Product Owner (PO):** representa al negocio, prioriza y busca maximizar el valor del producto.
 - **Equipo técnico:** analiza, estima y construye la solución.
-- **Líder de proyecto / Scrum Master:** facilita el proceso y la comunicación.
-- **QA / Tester:** realiza las pruebas y valida los criterios de aceptación y rechazo.
+- **Scrum Master:** facilita la colaboración y ayuda a eliminar impedimentos.
+- **QA / Tester:** verifica la funcionalidad mediante pruebas y criterios de aceptación.
 
-La **sinergia entre estos roles** genera motivación, foco y una cultura orientada al valor.
+La **colaboración entre estos roles** permite comprender la necesidad, construir la solución y validar que entregue el valor esperado.
 
 ---
 
-## Product Backlog
+# Product Backlog
 
-El **Product Backlog** es un instrumento vivo que contiene y organiza el trabajo que el equipo debe realizar para generar valor.
+El **Product Backlog** es un instrumento vivo que contiene y organiza el trabajo necesario para desarrollar y mejorar el producto.
 
 No es simplemente una lista de tareas: evoluciona a medida que aumenta el conocimiento del negocio y del equipo.
 
-El **Product Owner** es responsable de mantenerlo actualizado y priorizado.
+El **Product Owner** es responsable de su gestión y priorización.
 
-Los elementos del backlog pueden incluir:
+Puede contener:
 
 - Épicas.
 - Features.
 - Historias de Usuario.
-
-### Del requerimiento al Product Backlog
-
-El proceso parte de una necesidad o problema del negocio:
-
-**Requerimiento → Épica → Feature → Historia de Usuario**
-
-Estos elementos se organizan dentro del **Product Backlog**, que es el contenedor de todo el trabajo.
-
-Cada nivel descompone al anterior, aumentando el detalle y reduciendo la abstracción hasta llegar a algo construible en un sprint.
+- Otros elementos necesarios para desarrollar y mantener el producto.
 
 ---
 
-## Niveles de backlog
+## Del requerimiento al Product Backlog
+
+Una necesidad del negocio puede descomponerse progresivamente:
+
+**Requerimiento → Épica → Feature → Historia de Usuario → Product Backlog**
+
+Cada nivel reduce la abstracción y aumenta el detalle hasta llegar a funcionalidades que puedan construirse y probarse.
 
 ### Requerimiento de negocio
 
-Es la **necesidad original** del cliente o stakeholder.
-
-Ejemplo:
+Representa la **necesidad original** del cliente o stakeholder.
 
 > "Necesitamos que los usuarios puedan autenticarse de forma segura."
 
-Indica **qué necesita lograr la organización**, pero no cómo construirlo.
+Indica qué necesita lograr la organización, pero no cómo construirlo.
 
 ### Épica
 
-Es una necesidad o funcionalidad demasiado grande para completarse en un solo sprint.
-
-Representa un objetivo funcional de alto nivel que puede requerir meses de trabajo.
-
-Ejemplo:
+Es una funcionalidad o necesidad **demasiado grande para completarse en un solo sprint** y debe dividirse en elementos más pequeños.
 
 > "Gestión completa de autenticación de usuarios."
 
 ### Feature
 
-Es una **capacidad concreta y entregable** que se desprende de una épica.
-
-Suele completarse en semanas y agrega valor tangible.
-
-Ejemplo:
+Es una **capacidad concreta del producto** que se desprende de una épica.
 
 > "Autenticación con redes sociales."
 
 ### Historia de Usuario
 
-Es una funcionalidad pequeña y concreta que puede completarse en un sprint.
-
-Ejemplo:
+Es una funcionalidad pequeña y concreta que puede desarrollarse y probarse dentro de un sprint.
 
 > "Como usuario, quiero iniciar sesión con mi cuenta de Google, para no tener que recordar una contraseña nueva."
-
-La Historia de Usuario es la **unidad mínima de valor testeable**.
 
 ---
 
@@ -175,7 +158,7 @@ La Historia de Usuario es la **unidad mínima de valor testeable**.
 
 > "Como analista, quiero recibir notificaciones cuando el pago esté listo."
 
-Estas historias pueden distribuirse en diferentes **sprints**.
+Las historias pueden distribuirse en diferentes **sprints**.
 
 ---
 
@@ -186,7 +169,8 @@ El backlog debe:
 - Revisarse constantemente.
 - Ajustarse y detallarse.
 - Mantenerse alineado con los objetivos del negocio.
-- Generar espacios de conversación y aprendizaje conjunto.
+- Incorporar nuevos conocimientos y cambios.
+- Priorizar los elementos según su valor.
 
 ---
 
@@ -194,24 +178,24 @@ El backlog debe:
 
 Entregar valor no significa simplemente entregar una funcionalidad.
 
-El objetivo es generar un **impacto positivo para el usuario o el proceso**.
+El objetivo es generar un **impacto positivo para el usuario o el negocio**.
 
 Por ejemplo:
 
 > Una validación automática puede reducir errores y aumentar la confianza en el sistema.
 
-La definición del valor se consensúa entre **usuario, Product Owner y Scrum Master**.
+El **Product Owner** busca maximizar el valor del producto teniendo en cuenta las necesidades de usuarios y stakeholders.
 
 ---
 
 ## Sprint
 
-Un **Sprint** es un ciclo de trabajo en el que el equipo desarrolla un conjunto de funcionalidades con el objetivo de entregar un **incremento funcional y útil** al finalizarlo.
+Un **Sprint** es un ciclo de trabajo en el que el equipo desarrolla un conjunto de funcionalidades con el objetivo de entregar un **incremento funcional y útil**.
 
-- Duración recomendada: **2 semanas**, para mantener el equilibrio entre foco y feedback.
-- En proyectos más complejos puede extenderse hasta **3 semanas**.
-- Cada sprint debe generar un incremento funcional y útil.
-- Las historias seleccionadas deben poder completarse dentro del sprint.
+- Tiene una duración fija de hasta **un mes**.
+- Es habitual utilizar Sprints de **1 a 4 semanas**.
+- Las historias seleccionadas deben poder completarse dentro del Sprint.
+- Al finalizar, debe existir un incremento que cumpla con la **Definition of Done**.
 
 ---
 
@@ -220,19 +204,22 @@ Un **Sprint** es un ciclo de trabajo en el que el equipo desarrolla un conjunto 
 - Tratar el backlog como una simple lista de tareas.
 - Confundir deseos con requerimientos.
 - No validar el valor entregado con el negocio.
-- No realizar revisiones ni aprendizajes.
 - Crear historias demasiado grandes.
 - Crear historias sin criterios claros.
+- No revisar ni actualizar el backlog.
+- Escribir historias desde la perspectiva del sistema en lugar de la del usuario.
 
 ---
 
 ## Buenas prácticas
 
-- Mantener el backlog visible y compartido.
-- Redactar los ítems con propósito y lenguaje común.
-- Promover el feedback continuo del usuario.
+- Mantener el backlog visible y actualizado.
+- Utilizar lenguaje común entre negocio y desarrollo.
+- Promover el feedback continuo.
 - Mantener las historias pequeñas, claras y testeables.
+- Definir criterios de aceptación claros.
 - Mantener el backlog alineado con los objetivos del negocio.
-- Reconocer los logros del equipo para reforzar la motivación.
+- Refinar las historias antes de incorporarlas a un Sprint.
 
 ---
+
