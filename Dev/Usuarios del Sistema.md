@@ -13,6 +13,8 @@ La identificación de los distintos tipos de usuarios permite:
 - Evitar errores de interpretación.
 - Reducir el riesgo de rechazo del sistema.
 
+---
+
 ## Tipos de usuarios
 
 ### Usuarios operativos o finales
@@ -23,6 +25,7 @@ Utilizan el sistema para realizar sus tareas habituales.
 - Capacitación.
 - Soporte.
 
+
 ### Supervisores o mandos medios
 Supervisan y controlan las actividades y procesos.
 
@@ -30,6 +33,7 @@ Supervisan y controlan las actividades y procesos.
 - Reportes.
 - Trazabilidad.
 - Control.
+
 
 ### Usuarios expertos o Key Users
 Poseen un conocimiento profundo de los procesos y reglas del negocio.
@@ -39,12 +43,14 @@ Poseen un conocimiento profundo de los procesos y reglas del negocio.
 - Validación de las reglas del negocio.
 - Fidelidad entre el sistema y los procesos reales.
 
+
 ### Usuarios estratégicos o directivos
 Utilizan la información del sistema para la toma de decisiones.
 
 **Necesitan:**
 - Información para la toma de decisiones.
 - Alineación con los objetivos estratégicos de la organización.
+
 
 ### Usuarios técnicos o de soporte
 Se ocupan de los aspectos técnicos y del mantenimiento del sistema.
@@ -53,6 +59,8 @@ Se ocupan de los aspectos técnicos y del mantenimiento del sistema.
 - Estabilidad.
 - Mantenimiento.
 - Documentación.
+
+---
 
 ## Problemáticas en la comunicación
 
@@ -114,3 +122,5 @@ Favorece la comunicación y colaboración entre el equipo de desarrollo y las de
 Un profesional empático también considera a quienes trabajarán con el código posteriormente.
 
 Por eso, escribir código legible y bien documentado facilita el trabajo en equipo y el mantenimiento a largo plazo.
+
+---
