@@ -99,4 +99,3 @@ Se utiliza una combinación de solo cuatro símbolos para crear una descripción
 7. **Particionar:** Agrupar partes para facilitar la programación e implementación.
 
 ---
-#ArquitecturadeSistemas

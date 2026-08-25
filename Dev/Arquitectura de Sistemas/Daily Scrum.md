@@ -17,4 +17,3 @@ Preguntas principales:
 No es un reporte al Scrum Master, sino un compromiso frente al equipo.
 
 ---
-#ArquitecturadeSistemas

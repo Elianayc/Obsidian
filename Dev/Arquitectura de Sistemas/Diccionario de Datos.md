@@ -13,4 +13,3 @@ Repositorio que documenta todos los elementos de información utilizados por un 
 Su finalidad es mantener consistencia, facilitar la documentación y mejorar la trazabilidad de la información.
 
 ---
-#ArquitecturadeSistemas

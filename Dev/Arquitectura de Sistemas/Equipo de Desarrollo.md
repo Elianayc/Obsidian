@@ -16,4 +16,3 @@ Equipo multidisciplinario encargado de construir el producto.
 - Entregan incrementos funcionales de software.
 
 ---
-#ArquitecturadeSistemas

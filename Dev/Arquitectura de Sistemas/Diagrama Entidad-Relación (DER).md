@@ -11,4 +11,3 @@ Modelo utilizado para representar la estructura lógica de los datos de un siste
 
 
 ---
-#ArquitecturadeSistemas

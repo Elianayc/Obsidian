@@ -77,4 +77,3 @@ Etapa posterior a la puesta en producción.
 - Evolución del software.
 
 ---
-#ArquitecturadeSistemas
