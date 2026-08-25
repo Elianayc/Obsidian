@@ -11,4 +11,3 @@ Incluye:
 - Estimación de tareas.
 
 ---
-#ArquitecturadeSistemas

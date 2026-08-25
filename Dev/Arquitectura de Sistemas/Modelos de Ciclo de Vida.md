@@ -7,4 +7,3 @@ tags:
 - [[Diferencias entre Enfoque Tradicional y Agile]]
 
 ---
-#ArquitecturadeSistemas

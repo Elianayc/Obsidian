@@ -75,4 +75,3 @@ Deben cubrir todos los requisitos funcionales.
 - Son útiles en proyectos con requisitos cambiantes.
 
 ---
-#ArquitecturadeSistemas

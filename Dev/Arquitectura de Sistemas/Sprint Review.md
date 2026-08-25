@@ -11,4 +11,3 @@ Características:
 - Se obtiene feedback.
 
 ---
-#ArquitecturadeSistemas

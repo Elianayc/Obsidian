@@ -11,4 +11,3 @@ Incluye el estudio de los mecanismos mediante los cuales la información es alma
 - Operaciones CRUD
 
 ---
-#ArquitecturadeSistemas

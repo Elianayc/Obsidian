@@ -12,4 +12,3 @@ Conjunto de elementos seleccionados del Product Backlog que serán trabajados du
 Es responsabilidad del equipo de desarrollo gestionarlo durante el Sprint.
 
 ---
-#ArquitecturadeSistemas

@@ -10,4 +10,3 @@ Lista ordenada de todas las funcionalidades, mejoras, requisitos y tareas pendie
 - Se actualiza continuamente según las necesidades del negocio.
 
 ---
-#ArquitecturadeSistemas

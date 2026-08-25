@@ -12,4 +12,3 @@ Responsabilidades:
 - Acepta o rechaza resultados.
 
 ---
-#ArquitecturadeSistemas
