@@ -42,6 +42,6 @@ El Frontend y Backend trabajan de manera complementaria y se comunican mediante 
 
 Dentro de una **Arquitectura de Sistemas**, el modelo Frontend y Backend representa una forma de dividir una aplicación en componentes con responsabilidades específicas.
 
-El Frontend se enfoca en la experiencia del usuario, mientras que el Backend se enfoca en la lógica, procesamiento y gestión de datos.
+El [[Frontend]] se enfoca en la experiencia del usuario, mientras que el Backend se enfoca en la lógica, procesamiento y gestión de datos.
 
 ---
