@@ -60,35 +60,35 @@
       "query": "path: Programación  ",
       "color": {
         "a": 1,
-        "rgb": 11186661
+        "rgb": 7569612
       }
     },
     {
       "query": "path:Redes  ",
       "color": {
         "a": 1,
-        "rgb": 7569612
+        "rgb": 10905059
       }
     },
     {
       "query": "path:Typescript  ",
       "color": {
         "a": 1,
-        "rgb": 10905059
+        "rgb": 14381941
       }
     },
     {
       "query": "path: Z_Imágenes  ",
       "color": {
         "a": 1,
-        "rgb": 5552298
+        "rgb": 8280233
       }
     },
     {
       "query": "path: Z_Excalidraw  ",
       "color": {
         "a": 1,
-        "rgb": 14381941
+        "rgb": 5552298
       }
     },
     {
@@ -109,6 +109,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.2292013594174809,
-  "close": false
+  "scale": 0.8854989543149923,
+  "close": true
 }

@@ -40,11 +40,11 @@ Los frameworks de frontend permiten construir interfaces web mediante **componen
 
 Entre las tecnologías utilizadas para este propósito se encuentran:
 
-- [**Angular**](https://chatgpt.com/g/g-p-68bdace4bdb48191b89bbf59cd86a304/c/Angular.md) → framework de frontend desarrollado por Google.
+- [[Angular]] → framework de frontend desarrollado por Google.
     
-- [**React**](https://chatgpt.com/g/g-p-68bdace4bdb48191b89bbf59cd86a304/c/React.md) → biblioteca de JavaScript para construir interfaces mediante componentes.
+- [[React]]→ biblioteca de JavaScript para construir interfaces mediante componentes.
     
-- [**Vue**](https://chatgpt.com/g/g-p-68bdace4bdb48191b89bbf59cd86a304/c/Vue.md) → framework progresivo de JavaScript para construir interfaces.
+- [[Vue]] → framework progresivo de JavaScript para construir interfaces.
     
 
 > **Nota:** React suele estudiarse junto con Angular y Vue como tecnología de frontend, aunque técnicamente React es una **biblioteca (library)**, mientras que Angular y Vue se consideran frameworks.

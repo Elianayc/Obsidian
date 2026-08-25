@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b7e2958a073908a7",
+        "id": "2846444c14e5e0df",
         "type": "tabs",
         "children": [
           {
-            "id": "2f27f81ef6dad228",
+            "id": "027ff966f0737317",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 383.5
+    "width": 383.5,
+    "collapsed": true
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -301,8 +302,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2f27f81ef6dad228",
+  "active": "027ff966f0737317",
   "lastOpenFiles": [
+    "Frameworks/Frameworks.md",
+    "CSS/Borde (border).md",
     "Redes/HTTP (HyperText Transfer Protocol).md",
     "Redes/HTTPS.md",
     "Metodología de Sistemas/Historias de Usuario.md",
@@ -327,8 +330,6 @@
     "Metodología de Sistemas/Diccionario de Datos.md",
     "Arquitectura de Sistemas/Paquetes.md",
     "Metodología de Sistemas/Metodología de Sistemas.md",
-    "Metodología de Sistemas/Scrum Master.md",
-    "Metodología de Sistemas/Product Owner.md",
     "Metodología de Sistemas",
     "Frameworks",
     "Z_Imágenes/Pasted image 20260821122513.png",
