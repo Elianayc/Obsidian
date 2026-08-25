@@ -46,4 +46,3 @@ Usuario → Sistema → Base de datos → Sistema → Usuario.
 Son ideales para entender flujos de interacción.
 
 ---
-#ModeladodeSistemas

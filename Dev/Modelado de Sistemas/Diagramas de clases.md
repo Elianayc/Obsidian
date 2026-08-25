@@ -78,4 +78,3 @@ Indica **cuántos objetos** participan en la relación.
 Se utiliza para generar diagramas UML a partir de código o escribiendo texto.
 
 --- 
-#ModeladodeSistemas

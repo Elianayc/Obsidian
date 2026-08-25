@@ -4,7 +4,7 @@ tags:
 ---
 `readonly` se utiliza para indicar que una propiedad solo puede ser asignada una vez, generalmente en el constructor, y no puede modificarse después.
 
-Se usa para modelar datos inmutables dentro de un objeto.
+Se usa para modelar datos inmutables dentro de un [[objeto]].
 
 ```ts
 class Inmueble {

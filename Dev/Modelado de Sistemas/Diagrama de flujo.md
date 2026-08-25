@@ -7,4 +7,3 @@ Se unen por líneas o flechas, denominadas líneas de flujo, que indican la secu
 ![[diagramadeflujo|800]]
 
 ---
-#ModeladodeSistemas
