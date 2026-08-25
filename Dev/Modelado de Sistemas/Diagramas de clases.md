@@ -40,18 +40,18 @@ Indican desde dónde se puede acceder los [[métodos]] y [[atributos]].
 
 ---
 
-## Relaciones entre [[clases]]
-Las [[clases]] se conectan mediante líneas con distintos símbolos.
+## Relaciones entre clases
+Las clases se conectan mediante líneas con distintos símbolos.
 
 ![[relacionesclases|300]]
 
 ---
 
-## [[Clases]] abstractas
+## Clases abstractas
 No se pueden instanciar.  
-Sirven como base para otras [[clases]].
+Sirven como base para otras clases.
 
-En [[UML]] se representan de dos formas:
+En UML se representan de dos formas:
 • Nombre de la [[clase]] en _cursiva_ 
 • O usando estereotipo:
 		<<*ClaseAbstracta*>>

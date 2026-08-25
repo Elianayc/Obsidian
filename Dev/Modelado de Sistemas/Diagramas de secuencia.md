@@ -11,10 +11,10 @@ Se usan para entender qué ocurre paso a paso cuando sucede una acción.
 ### Elementos principales
 
 #### Línea de vida (Lifeline)
-Representa un [[objeto]] participante.
+Representa un objeto participante.
 
 ###### **Se dibuja como:**
-- Nombre del [[objeto]] arriba
+- Nombre del objeto arriba
 - Línea vertical punteada hacia abajo
 
 El tiempo avanza **de arriba hacia abajo**.
@@ -22,7 +22,7 @@ El tiempo avanza **de arriba hacia abajo**.
 
 #### Activación
 Rectángulo vertical sobre la línea de vida.  
-Indica que el [[objeto]] está ejecutando una acción.
+Indica que el objeto está ejecutando una acción.
 
 
 #### Mensajes
@@ -37,7 +37,7 @@ Flechas entre objetos.
 	El emisor no espera respuesta (flecha abierta).  
 	Ejemplo: enviar notificación.
 
-- **Mensaje de [[retorno]]**  
+- **Mensaje de retorno**  
 	Respuesta a una llamada (línea punteada).
 
 
