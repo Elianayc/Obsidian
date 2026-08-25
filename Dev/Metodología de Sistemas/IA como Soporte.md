@@ -1,4 +1,4 @@
-La **Inteligencia Artificial (IA)** puede utilizarse como herramienta de apoyo durante la gestión de requerimientos, el testing y la documentación de un proyecto de software.
+La **Inteligencia Artificial (IA)** puede utilizarse como herramienta de apoyo durante la gestión de [[Requerimientos]], la elaboración de [[Historias de Usuario y Backlog]], la definición de [[Criterios de Aceptación]], el [[Pruebas de Software|testing]] y la documentación de un proyecto de software.
 
 La IA permite **acelerar tareas y generar propuestas**, pero el criterio profesional del analista sigue siendo necesario para validar que la información sea correcta y corresponda al contexto real del negocio.
 
