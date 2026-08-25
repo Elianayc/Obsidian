@@ -32,7 +32,7 @@ A diferencia del enfoque ágil:
 
 # Principios ágiles
 - Satisfacer al cliente mediante la entrega temprana y continua de software con valor.
-- Aceptar cambios en los [[requerimientos]], incluso en etapas avanzadas.
+- Aceptar cambios en los requerimientos, incluso en etapas avanzadas.
 - Entregar software frecuentemente.
 - Mantener colaboración diaria entre responsables del negocio y desarrolladores.
 - Construir proyectos con profesionales motivados.

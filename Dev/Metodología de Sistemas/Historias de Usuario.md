@@ -22,13 +22,13 @@ Permite identificar:
 
 **Ejemplo:**
 
-> **Como cliente, quiero poder buscar [[transacciones]], para detectar gastos innecesarios en mi cuenta.**
+> **Como cliente, quiero poder buscar transacciones, para detectar gastos innecesarios en mi cuenta.**
 
 Una historia puede complementarse con:
 
 - **Descripción:** contexto y detalles de la necesidad.
 - **Reglas de negocio:** condiciones que deben respetarse.
-- **[[Criterios de Aceptación]]**: condiciones que permiten verificar que la funcionalidad fue implementada correctamente.
+- **Criterios de Aceptación**: condiciones que permiten verificar que la funcionalidad fue implementada correctamente.
 - Diseños o mockups.
 - User flows.
 - Limitaciones.
@@ -40,11 +40,11 @@ Una historia puede complementarse con:
 **INVEST** es una guía para evaluar la calidad de una Historia de Usuario y determinar si está lista para ser trabajada.
 
 - **I — Independent (Independiente):** debe poder desarrollarse y entregarse sin depender de otras historias.
-- **N — Negotiable (Negociable):** no es un contrato fijo. Su detalle puede ajustarse mediante conversación entre el equipo y el [[Product Owner]].
+- **N — Negotiable (Negociable):** no es un contrato fijo. Su detalle puede ajustarse mediante conversación entre el equipo y el Product Owner.
 - **V — Valuable (Valiosa):** debe aportar valor real al usuario o al negocio.
 - **E — Estimable (Estimable):** el equipo debe poder estimar el esfuerzo necesario. Si no puede, puede ser demasiado grande, ambigua o faltar conocimiento.
 - **S — Small (Pequeña):** debe ser suficientemente pequeña para completarse en un Sprint. Las historias demasiado grandes deben dividirse.
-- **T — Testable (Testeable):** debe poder verificarse mediante [[criterios de aceptación]] claros.
+- **T — Testable (Testeable):** debe poder verificarse mediante criterios de aceptación claros.
 
 ### Beneficios de INVEST
 
@@ -76,10 +76,10 @@ Una historia evoluciona mediante conversación y validación:
 En el desarrollo de una Historia de Usuario participan diferentes roles:
 
 - **Usuario experto de negocio:** expresa la necesidad y las reglas del negocio.
-- **[[Product Owner]] (PO):** representa al negocio, prioriza y busca maximizar el valor del producto.
+- **Product Owner (PO):** representa al negocio, prioriza y busca maximizar el valor del producto.
 - **Equipo técnico:** analiza, estima y construye la solución.
-- **[[Scrum Master]]:** facilita la colaboración y ayuda a eliminar impedimentos.
-- **QA / Tester:** verifica la funcionalidad mediante pruebas y [[criterios de aceptación]].
+- **Scrum Master:** facilita la colaboración y ayuda a eliminar impedimentos.
+- **QA / Tester:** verifica la funcionalidad mediante pruebas y criterios de aceptación.
 
 La **colaboración entre estos roles** permite comprender la necesidad, construir la solución y validar que entregue el valor esperado.
 

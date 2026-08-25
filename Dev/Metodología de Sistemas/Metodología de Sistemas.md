@@ -2,7 +2,7 @@
 tags:
   - ArquitecturadeSistemas
 ---
-Una metodología establece un orden de trabajo y un lenguaje común entre los miembros del [[equipo de desarrollo]], facilitando la organización, comunicación y seguimiento del proyecto.
+Una metodología establece un orden de trabajo y un lenguaje común entre los miembros del equipo de desarrollo, facilitando la organización, comunicación y seguimiento del proyecto.
 
 Independientemente de la metodología utilizada, existen etapas y objetivos fundamentales que el Analista de Sistemas debe cumplir durante el desarrollo.
 
@@ -20,6 +20,6 @@ El objetivo es encontrar un equilibrio adecuado entre planificación, recursos, 
 - [[Ciclo de Vida del Desarrollo de Software (SDLC)]]
 - [[Diagrama de Flujo de Datos (DFD)]]
 - [[Usuarios del Sistema]]
-- [[Modelado y Gestión de Datos]]<[[Modelado y Gestión de Datos]]>)
+- [[Modelado y Gestión de Datos]]<Modelado y Gestión de Datos>)
 
 ---

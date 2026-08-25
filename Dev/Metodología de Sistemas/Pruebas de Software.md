@@ -38,7 +38,7 @@ Las pruebas son especialmente importantes al integrar software de terceros en si
 
 ### Depuración y control de calidad
 
-Inicialmente, la **depuración ([[debugging]])** era el principal método para encontrar y corregir errores.
+Inicialmente, la **depuración (debugging)** era el principal método para encontrar y corregir errores.
 
 Durante la década de 1980, las pruebas comenzaron a adoptar una visión más amplia, incorporando el **control y la garantía de calidad** como parte fundamental del desarrollo.
 
@@ -59,11 +59,11 @@ Durante los años 80 y 90 aparecieron herramientas de automatización para poder
 
 ### Agile y TDD
 
-Con el **Manifiesto Ágil de 2001**, desarrollo y [[testing]] dejaron de verse como etapas completamente separadas.
+Con el **Manifiesto Ágil de 2001**, desarrollo y testing dejaron de verse como etapas completamente separadas.
 
 Kent Beck formalizó el **Test-Driven Development (TDD)**, donde se escribe primero la prueba y luego el código necesario para hacerla pasar.
 
-### DevOps y [[testing]] continuo
+### DevOps y testing continuo
 
 Con **CI/CD (Integración Continua y Entrega o Despliegue Continuo)**, las pruebas pasaron a formar parte de un flujo permanente.
 
@@ -78,7 +78,7 @@ Actualmente las pruebas pueden ser:
 
 ## Inteligencia artificial en las pruebas
 
-La IA generativa utiliza aprendizaje automático, [[procesamiento]] del lenguaje natural y análisis predictivo para optimizar las pruebas.
+La IA generativa utiliza aprendizaje automático, procesamiento del lenguaje natural y análisis predictivo para optimizar las pruebas.
 
 Algunos usos son:
 
@@ -87,7 +87,7 @@ Algunos usos son:
 Puede generar casos a partir de:
 
 - Requisitos.
-- [[Historias de usuario]].
+- Historias de usuario.
 - Código fuente.
 
 También puede detectar escenarios límite (_edge cases_) que podrían pasar desapercibidos.
@@ -156,7 +156,7 @@ Validan que cada **unidad de software**, es decir, el componente comprobable má
 
 ### Pruebas de integración
 
-Verifican que diferentes componentes o [[funciones]] funcionen correctamente **en conjunto**.
+Verifican que diferentes componentes o funciones funcionen correctamente **en conjunto**.
 
 ### Pruebas de sistema
 
@@ -166,7 +166,7 @@ Pueden incluir:
 
 - Pruebas funcionales.
 - Pruebas no funcionales.
-- Pruebas de [[interfaz]].
+- Pruebas de interfaz.
 - Pruebas de estrés.
 - Pruebas de recuperación.
 
@@ -200,7 +200,7 @@ Se intenta encontrar errores sin seguir casos de prueba o documentación previam
 
 Son improvisadas y pueden utilizar variaciones de pruebas existentes.
 
-La evidencia debe documentarse después de la ejecución, explicando cómo se encontró el defecto para facilitar el feedback al [[equipo de desarrollo]].
+La evidencia debe documentarse después de la ejecución, explicando cómo se encontró el defecto para facilitar el feedback al equipo de desarrollo.
 
 ### Pruebas de API
 
@@ -222,7 +222,7 @@ Se pueden dividir en tres actividades relacionadas:
 
 Buscan responder preguntas como:
 
-- ¿La aplicación realiza la [[función]] para la que fue diseñada?
+- ¿La aplicación realiza la función para la que fue diseñada?
 - ¿Funciona en diferentes escenarios?
 - ¿Tiene un rendimiento adecuado?
 - ¿Qué errores potenciales existen?
@@ -281,7 +281,7 @@ Analizan:
 - Estabilidad.
 - Consumo de recursos.
 
-Permiten detectar cuellos de botella y verificar que el sistema soporte la cantidad esperada de usuarios o [[transacciones]].
+Permiten detectar cuellos de botella y verificar que el sistema soporte la cantidad esperada de usuarios o transacciones.
 
 ### Pruebas de compatibilidad
 
@@ -290,7 +290,7 @@ Comprueban que el software funcione correctamente en diferentes:
 - Navegadores.
 - Sistemas operativos.
 - Hardware.
-- Configuraciones [[de red]].
+- Configuraciones de red.
 - Dispositivos.
 
 ---
@@ -299,7 +299,7 @@ Comprueban que el software funcione correctamente en diferentes:
 
 ### Pruebas de carga
 
-Verifican que el sistema pueda manejar la **cantidad esperada de usuarios, datos o [[transacciones]]** sin degradar su rendimiento.
+Verifican que el sistema pueda manejar la **cantidad esperada de usuarios, datos o transacciones** sin degradar su rendimiento.
 
 Permiten evaluar:
 
@@ -343,7 +343,7 @@ Permiten identificar:
 
 Buscan detectar vulnerabilidades y garantizar la protección del sistema.
 
-### Application Security [[Testing]] (AST)
+### Application Security Testing (AST)
 
 Se enfoca específicamente en las **aplicaciones**, incluyendo aplicaciones web, móviles y APIs.
 
@@ -361,7 +361,7 @@ Busca amenazas como:
 - Configuraciones incorrectas.
 - Exposición de información confidencial.
 
-### Software Security [[Testing]] (SST)
+### Software Security Testing (SST)
 
 Tiene un alcance más amplio e incluye componentes como:
 
@@ -387,7 +387,7 @@ Ambos enfoques pueden combinarse para obtener una protección integral.
 
 ## Pruebas de usabilidad
 
-Evalúan qué tan correctamente un usuario puede utilizar la [[interfaz]] para completar una tarea de manera eficaz.
+Evalúan qué tan correctamente un usuario puede utilizar la interfaz para completar una tarea de manera eficaz.
 
 Buscan:
 
@@ -434,7 +434,7 @@ Permiten analizar patrones, comparar resultados y trabajar con muestras grandes.
 
 ---
 
-## Buenas prácticas de [[testing]]
+## Buenas prácticas de testing
 
 Una estrategia de pruebas debe comenzar con un **plan de pruebas sólido** que defina:
 
@@ -475,15 +475,15 @@ Los dashboards pueden reunir estas métricas y facilitar el seguimiento del proy
 
 ---
 
-## [[Relación]] con otros conceptos
+## Relación con otros conceptos
 
 Las pruebas verifican que lo definido en los **[Requerimientos](Requerimientos.md)** se cumpla correctamente.
 
-En metodologías ágiles, los **[[Criterios de Aceptación]]** permiten definir qué debe verificarse para considerar terminada una historia de usuario.
+En metodologías ágiles, los **Criterios de Aceptación** permiten definir qué debe verificarse para considerar terminada una historia de usuario.
 
 Por eso, una cadena lógica sería:
 
-**[[Requerimientos]] → [[Historias de Usuario]] → [[Criterios de Aceptación]] → Pruebas → Validación**
+**Requerimientos → Historias de Usuario → Criterios de Aceptación → Pruebas → Validación**
 
 Y dentro de las pruebas:
 

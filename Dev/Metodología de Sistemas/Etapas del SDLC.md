@@ -6,7 +6,7 @@ tags:
 
 ---
 
-### 1. Análisis y definición de [[requerimientos]]
+### 1. Análisis y definición de requerimientos
 Etapa donde se identifican las necesidades de los usuarios, problemas, oportunidades y objetivos del sistema.
 
 **Incluye**:
@@ -22,7 +22,7 @@ Etapa donde se identifican las necesidades de los usuarios, problemas, oportunid
 ---
 
 ### 2. Diseño del sistema y software
-Etapa donde los [[requerimientos]] se transforman en una solución técnica.
+Etapa donde los requerimientos se transforman en una solución técnica.
 
 **Incluye**:
 - Arquitectura del sistema.
@@ -40,7 +40,7 @@ Etapa donde los [[requerimientos]] se transforman en una solución técnica.
 Etapa donde se construyen los componentes del sistema.
 
 **Incluye**:
-- [[Programación]].
+- Programación.
 - Configuración de componentes.
 - Pruebas iniciales.
 - Documentación técnica y de usuario.
@@ -48,7 +48,7 @@ Etapa donde se construyen los componentes del sistema.
 ---
 
 ### 4. Pruebas
-Proceso para verificar que el sistema cumple con los [[requerimientos]] definidos.
+Proceso para verificar que el sistema cumple con los requerimientos definidos.
 
 - **Prueba unitaria**: verifica cada componente individual.
 - **Prueba de integración**: verifica la interacción entre componentes.
@@ -73,7 +73,7 @@ Etapa posterior a la puesta en producción.
 **Incluye**:
 - Corrección de errores.
 - Mejoras del sistema.
-- Nuevos [[requerimientos]].
+- Nuevos requerimientos.
 - Evolución del software.
 
 ---

@@ -2,7 +2,7 @@
 tags:
   - ArquitecturadeSistemas
 ---
-El **[[Diagrama de Flujo]] de Datos (DFD)** es una técnica de análisis estructurado que permite ensamblar una representación gráfica de los procesos de datos a lo largo de una organización. 
+El **Diagrama de Flujo de Datos (DFD)** es una técnica de análisis estructurado que permite ensamblar una representación gráfica de los procesos de datos a lo largo de una organización. 
 
 Se utiliza una combinación de solo cuatro símbolos para crear una descripción ilustrada y elaborar una documentación sólida del sistema.
 
@@ -18,7 +18,7 @@ Se utiliza una combinación de solo cuatro símbolos para crear una descripción
 
 ![[Pasted image 20260803142449.png]]
 
-* **[[Entidad]] Externa:** Representa una fuente o destino de datos fuera del sistema 
+* **Entidad Externa:** Representa una fuente o destino de datos fuera del sistema 
 	(ej. *Estudiante*).
 	
 * **Flujo de Datos:** Flechas que indican el movimiento de la información 
@@ -36,7 +36,7 @@ Se utiliza una combinación de solo cuatro símbolos para crear una descripción
 
 * Debe existir al menos un proceso en el diagrama.
 * No debe haber objetos aislados o independientes.
-* Un proceso debe recibir al menos un flujo de [[datos de entrada]] y producir al menos uno de salida.
+* Un proceso debe recibir al menos un flujo de datos de entrada y producir al menos uno de salida.
 * Un almacén de datos debe conectarse siempre con al menos un proceso.
 * Las entidades externas **no** se conectan directamente entre sí.
 
@@ -86,16 +86,16 @@ Se utiliza una combinación de solo cuatro símbolos para crear una descripción
 2. **Diagrama de Contexto:** Nivel más alto; muestra entidades externas y flujos principales sin procesos detallados ni almacenes.
 	![[Pasted image 20260803142725.png]]
 
-3. **Diagrama 0 ([[Alto nivel]]):** Muestra los procesos generales y almacenes de datos.
+3. **Diagrama 0 (Alto nivel):** Muestra los procesos generales y almacenes de datos.
 	![[Pasted image 20260803142749.png]]
 
 4. **Diagramas Hijos (Detalle):** Descomposición detallada de cada proceso del Diagrama 0.
 	![[Pasted image 20260803142815.png]]
 
-5. **Verificación:** Revisar errores y consistencia de [[etiquetas]].
+5. **Verificación:** Revisar errores y consistencia de etiquetas.
 
 6. **Desarrollar DFD Físico:** Diferenciar procesos manuales/automatizados y agregar controles de error
 
-7. **Particionar:** Agrupar partes para facilitar la [[programación]] e implementación.
+7. **Particionar:** Agrupar partes para facilitar la programación e implementación.
 
 ---

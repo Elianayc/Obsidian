@@ -8,12 +8,12 @@ Puede contener:
 
 - Épicas.
 - Features.
-- [[Historias de Usuario]].
+- Historias de Usuario.
 - Mejoras.
 - Correcciones.
 - Otros requisitos o trabajos necesarios para el producto.
 
-El **[[Product Owner]]** es responsable de su gestión y priorización.
+El **Product Owner** es responsable de su gestión y priorización.
 
 ## Características
 
@@ -59,7 +59,7 @@ Es una funcionalidad pequeña y concreta que puede desarrollarse y probarse dent
 
 > "Como usuario, quiero iniciar sesión con mi cuenta de Google, para no tener que recordar una contraseña nueva."
 
-Las [[Historias de Usuario]], junto con otros elementos, forman parte del **Product Backlog**.
+Las Historias de Usuario, junto con otros elementos, forman parte del **Product Backlog**.
 
 ---
 
@@ -77,7 +77,7 @@ Las [[Historias de Usuario]], junto con otros elementos, forman parte del **Prod
 
 ↓
 
-**[[Historias de Usuario]]:**
+**Historias de Usuario:**
 
 > "Como supervisor, quiero aprobar desde el móvil."
 
@@ -109,7 +109,7 @@ Por ejemplo:
 
 > Una validación automática puede reducir errores y aumentar la confianza en el sistema.
 
-El **[[Product Owner]]** busca maximizar el valor del producto teniendo en cuenta las necesidades de usuarios y stakeholders.
+El **Product Owner** busca maximizar el valor del producto teniendo en cuenta las necesidades de usuarios y stakeholders.
 
 ---
 
@@ -143,6 +143,6 @@ Un **Sprint** es un ciclo de trabajo en el que el equipo desarrolla un conjunto 
 - Priorizar según el valor para el producto.
 - Refinar los elementos antes de incorporarlos a un Sprint.
 - Mantener las historias pequeñas, claras y testeables.
-- Definir [[criterios de aceptación]] claros.
+- Definir criterios de aceptación claros.
 
 ---

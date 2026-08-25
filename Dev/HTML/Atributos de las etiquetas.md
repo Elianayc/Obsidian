@@ -1,4 +1,4 @@
-Todas las [[etiquetas HTML]] pueden aceptar **atributos**.
+Todas las etiquetas HTML pueden aceptar **atributos**.
 
 Un atributo es una característica adicional que permite modificar o agregar información a un elemento.
 

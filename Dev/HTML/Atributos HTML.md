@@ -1,4 +1,4 @@
-Los [[elementos HTML]] suelen presentar **atributos**, que agregan características adicionales al elemento.
+Los elementos HTML suelen presentar **atributos**, que agregan características adicionales al elemento.
 
 Los atributos son interpretados por el navegador y pueden afectar aspectos como:
 

@@ -8,11 +8,11 @@ Los principales son:
 
 **Tipo:** Bloque
 
-Es un divisor o contenedor de [[elementos HTML]].
+Es un divisor o contenedor de elementos HTML.
 
 Características:
 
-- Puede contener otros [[elementos HTML]].
+- Puede contener otros elementos HTML.
 - Puede incluir incluso otros elementos `<div>`.
 - No produce una salida visual por sí mismo.
 - Se utiliza para definir áreas o secciones dentro de una página.

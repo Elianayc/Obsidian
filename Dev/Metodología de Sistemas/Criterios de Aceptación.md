@@ -10,7 +10,7 @@ Los criterios de aceptación, junto con la historia de usuario, deben definir cl
 
 Describen el **resultado final esperado**, no el proceso técnico utilizado para conseguirlo.
 
-Deben definirse **antes de que el [[equipo de desarrollo]] comience a trabajar** en la historia.
+Deben definirse **antes de que el equipo de desarrollo comience a trabajar** en la historia.
 
 ---
 
@@ -32,7 +32,7 @@ Los criterios de aceptación son **únicos para cada Historia de Usuario** y def
 
 ## Historia de Usuario vs. Criterios de Aceptación
 
-La **Historia de Usuario** expresa la necesidad de [[alto nivel]].
+La **Historia de Usuario** expresa la necesidad de alto nivel.
 
 Los **criterios de aceptación** especifican las condiciones que deben cumplirse para considerar satisfecha esa necesidad.
 
@@ -108,7 +108,7 @@ Los criterios de aceptación describen **qué resultado debe obtenerse**, pero n
 **Criterios de rechazo:**
 
 - No existen registros disponibles.
-- Se produce un error de [[backend]].
+- Se produce un error de backend.
 
 ---
 

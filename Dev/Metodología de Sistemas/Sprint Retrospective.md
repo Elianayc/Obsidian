@@ -5,8 +5,8 @@ tags:
 Reunión para analizar qué funcionó y qué puede mejorarse.
 
 Participan:
-- [[Scrum Master]].
-- [[Product Owner]].
+- Scrum Master.
+- Product Owner.
 - Equipo.
 - Otros involucrados.
 
