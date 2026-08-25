@@ -18,7 +18,7 @@ Una historia efectiva debe incluir:
 
 - **Descripción:** qué necesita el usuario.
 - **Reglas de negocio:** condiciones o reglas que deben respetarse.
-- **Criterios de aceptación:** condiciones que deben cumplirse para considerar terminada la historia.
+- **[[Criterios de aceptación]]:** condiciones que deben cumplirse para considerar terminada la historia.
 - **Criterios de rechazo:** condiciones que indican que la funcionalidad no debe aceptarse.
 
 ---
