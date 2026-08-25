@@ -1,6 +1,6 @@
 El **usuario** ocupa un rol central en el desarrollo de software, ya que comprender sus necesidades es fundamental para crear sistemas útiles, confiables y aceptados por la organización.
 
-Un usuario es una persona que **interactúa directa o indirectamente con el sistema**. No necesariamente es quien encarga el software, sino quien debe utilizarlo y evaluar su utilidad.
+Un usuario es una persona que **interactúa directa o indirectamente con el sistema**. No necesariamente es quien encarga el software, sino quien debe utilizarlo y **juzgar su utilidad**.
 
 ---
 
@@ -85,8 +85,14 @@ Las [[Historias de Usuario y Backlog]] permiten expresar las necesidades del usu
 
 La [[Empatía en Ingeniería de Software]] consiste en comprender las perspectivas, necesidades y dificultades de los usuarios finales.
 
-Permite diseñar soluciones basadas en la experiencia real de los usuarios y no solamente en suposiciones técnicas.
+Permite:
+
+- Diseñar centrados en el usuario.
+- Identificar necesidades ocultas.
+- Mejorar la colaboración con los stakeholders.
+- Crear código más legible y documentado, facilitando el trabajo de futuros colaboradores.
 
 ---
 
-[[Gestión de Requisitos]]
+[[Requerimientos]]
+
