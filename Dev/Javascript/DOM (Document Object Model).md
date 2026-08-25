@@ -1,9 +1,9 @@
 ## ¿Qué es el DOM?
-El **DOM (Document Object Model)** es una de las piezas fundamentales para trabajar con JavaScript en el desarrollo web frontend.
+El **DOM (Document Object Model)** es una de las piezas fundamentales para trabajar con [[JavaScript]] en el [[desarrollo web]] [[frontend]].
 
-El DOM es una **representación estructurada del documento HTML como un árbol de objetos** que puede ser manipulado utilizando JavaScript.
+El DOM es una **representación estructurada del documento HTML como un árbol de objetos** que puede ser manipulado utilizando [[JavaScript]].
 
-En esencia, es una interfaz de programación que permite a JavaScript acceder y modificar:
+En esencia, es una [[interfaz]] de [[programación]] que permite a [[JavaScript]] acceder y modificar:
 
 - El contenido.
 - La estructura.
@@ -35,12 +35,12 @@ Cuando el navegador carga una página web, crea un modelo de la página en memor
 
 ---
 
-## Utilización del DOM con JavaScript
+## Utilización del DOM con [[JavaScript]]
 
 ### 1. Selección de elementos
-Para manipular elementos HTML, primero es necesario seleccionarlos.
+Para manipular [[elementos HTML]], primero es necesario seleccionarlos.
 
-Para ello se pueden utilizar funciones del objeto DOM como `getElementById`, `getElementsByClassName`, entre otras.
+Para ello se pueden utilizar [[funciones]] del objeto DOM como `getElementById`, `getElementsByClassName`, entre otras.
 
 **Seleccionar por ID:**
 ```JavaScript

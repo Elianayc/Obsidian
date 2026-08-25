@@ -14,6 +14,6 @@ Preguntas principales:
 - ¿Qué voy a hacer hoy?
 - ¿Tengo obstáculos?
 
-No es un reporte al Scrum Master, sino un compromiso frente al equipo.
+No es un reporte al [[Scrum Master]], sino un compromiso frente al equipo.
 
 ---

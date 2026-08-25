@@ -14,7 +14,7 @@ Definen los **servicios y comportamientos** que debe proporcionar el sistema. Ta
 Pueden involucrar:
 
 - Entradas.
-- Procesamiento.
+- [[Procesamiento]].
 - Salidas.
 - Interacciones con otros sistemas.
 - Eventos o estímulos externos.
@@ -58,7 +58,7 @@ También deben aclararse aspectos como si puede omitirse, repetirse o consultars
 
 ## Requerimientos no funcionales
 
-Definen **propiedades, restricciones o condiciones** del sistema y se enfocan en **cómo** debe realizar sus funciones.
+Definen **propiedades, restricciones o condiciones** del sistema y se enfocan en **cómo** debe realizar sus [[funciones]].
 
 Pueden referirse a:
 
@@ -79,7 +79,7 @@ Pueden surgir de necesidades de usuarios, restricciones presupuestarias, políti
 
 **Requisitos del producto:** especifican propiedades y comportamiento del producto, como rendimiento, velocidad, memoria, fiabilidad, portabilidad y usabilidad.
 
-**Requisitos organizativos:** derivan de políticas, estándares y procedimientos de la organización, como procesos, lenguajes de programación, implementación, fechas de entrega y documentación.
+**Requisitos organizativos:** derivan de políticas, estándares y procedimientos de la organización, como procesos, lenguajes de [[programación]], implementación, fechas de entrega y documentación.
 
 **Necesidades externas:** derivan de factores externos e incluyen:
 
@@ -117,9 +117,9 @@ Es preciso porque define:
 
 ---
 
-## Relación con las Historias de Usuario
+## [[Relación]] con las [[Historias de Usuario]]
 
-Las **Historias de Usuario** expresan necesidades del usuario y pueden dar origen a requisitos funcionales y no funcionales.
+Las **[[Historias de Usuario]]** expresan necesidades del usuario y pueden dar origen a requisitos funcionales y no funcionales.
 
 Por ejemplo:
 
@@ -134,10 +134,10 @@ Plantea un posible **RNF de usabilidad**, pero debe especificarse para determina
 
 ---
 
-## Relación con los usuarios
+## [[Relación]] con los usuarios
 
 Los requisitos surgen de las **necesidades de los usuarios y otras partes interesadas**, por lo que deben identificarse y validarse mediante la comunicación entre usuarios, analistas y equipo técnico.
 
-→ **Usuarios del Sistema**
+→ **[[Usuarios del Sistema]]**
 
 ---

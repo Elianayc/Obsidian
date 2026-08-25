@@ -39,17 +39,17 @@ Por esto, la comunicación y participación del usuario durante el desarrollo so
 
 ---
 
-## Gestión de requerimientos
+## Gestión de [[requerimientos]]
 
-Los **requerimientos** describen lo que el sistema debe hacer y las restricciones que debe cumplir.
+Los **[[requerimientos]]** describen lo que el sistema debe hacer y las restricciones que debe cumplir.
 
-### Requerimientos funcionales
+### [[Requerimientos]] funcionales
 
 Definen **qué debe hacer el sistema**, como operaciones, cálculos o comportamientos esperados.
 
 Suelen surgir de usuarios operativos y analistas de negocio.
 
-### Requerimientos no funcionales
+### [[Requerimientos]] no funcionales
 
 Definen **restricciones o características que debe cumplir el sistema**, como:
 
@@ -81,7 +81,7 @@ Las [[Historias de Usuario]] permiten expresar las necesidades del usuario de fo
 
 ---
 
-## Empatía en Ingeniería de Software
+## [[Empatía en Ingeniería de Software]]
 
 La [[Empatía en Ingeniería de Software]] consiste en comprender las perspectivas, necesidades y dificultades de los usuarios finales.
 

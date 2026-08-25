@@ -22,7 +22,7 @@ Permite descubrir necesidades que los usuarios no son capaces de expresar claram
 
 ## Colaboración con stakeholders
 
-La empatía favorece la comunicación y colaboración entre el equipo de desarrollo y las demás partes interesadas.
+La empatía favorece la comunicación y colaboración entre el [[equipo de desarrollo]] y las demás partes interesadas.
 
 ---
 

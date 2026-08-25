@@ -8,7 +8,7 @@ Marco metodológico que organiza el desarrollo de software en etapas para planif
 
 **Su objetivo es**:
 - Garantizar la calidad del software.
-- Mantener la trazabilidad de los requerimientos.
+- Mantener la trazabilidad de los [[requerimientos]].
 - Organizar el proceso de desarrollo.
 - Alinear la solución tecnológica con las necesidades del negocio.
 

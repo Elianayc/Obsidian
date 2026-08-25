@@ -1,13 +1,13 @@
-**JavaScript** es un lenguaje de programación interpretado y orientado a objetos, aunque basado en **prototipos**.
+**JavaScript** es un lenguaje de [[programación]] interpretado y [[orientado a objetos]], aunque basado en **prototipos**.
 
-Esto significa que conceptos como **encapsulamiento, herencia y polimorfismo** se implementan de un modo diferente al de lenguajes como Java, Python y C#.
+Esto significa que conceptos como **encapsulamiento, [[herencia]] y [[polimorfismo]]** se implementan de un modo diferente al de lenguajes como [[Java]], [[Python]] y [[C]]#.
 
 ---
 
-## Función principal
+## [[Función]] principal
 Agrega **interactividad y comportamiento dinámico** a una aplicación web.
 
-JavaScript permite que la interfaz responda a las acciones del usuario y pueda modificar información sin necesidad de recargar toda la página.
+JavaScript permite que la [[interfaz]] responda a las acciones del usuario y pueda modificar información sin necesidad de recargar toda la página.
 
 **Permite**:
 - Gestionar eventos del usuario.
@@ -19,9 +19,9 @@ JavaScript permite que la interfaz responda a las acciones del usuario y pueda m
 ---
 
 ## Origen de JavaScript
-El origen de JavaScript se remonta a mediados de la década de los noventa, cuando **Netscape** desarrolla un lenguaje de scripting con un nombre muy similar al ya conocido Java.
+El origen de JavaScript se remonta a mediados de la década de los noventa, cuando **Netscape** desarrolla un lenguaje de scripting con un nombre muy similar al ya conocido [[Java]].
 
-En 1996, **Internet Explorer** lanza una versión propia llamada **JScript**, con muchas similitudes y compatibilidad con JavaScript.
+En 1996, **[[Internet]] Explorer** lanza una versión propia llamada **JScript**, con muchas similitudes y compatibilidad con JavaScript.
 
 Esto llevó a que la **W3C** tomara cartas en el asunto y creara el **[[DOM (Document Object Model)]]** como instrumento guía para que los lenguajes pudieran explotar las características de los documentos HTML y del navegador.
 
@@ -48,7 +48,7 @@ La página web que muestra el navegador y las acciones que podemos realizar sobr
 
 El resultado final depende de:
 
-- El contenido, tipo y disposición de las etiquetas **HTML**.
+- El contenido, tipo y disposición de las [[etiquetas]] **HTML**.
 - Las directivas de las hojas de estilo **CSS**.
 - Los comandos **JavaScript**.
 - La capacidad de interpretación que posea el navegador.

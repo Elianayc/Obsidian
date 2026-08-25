@@ -1,4 +1,4 @@
-Las propiedades `async` y `defer` son atributos del elemento `<script>` que modifican la forma en que el navegador carga y ejecuta los archivos JavaScript.
+Las propiedades `async` y `defer` son atributos del elemento `<script>` que modifican la forma en que el navegador carga y ejecuta los archivos [[JavaScript]].
 
 Ambos ayudan a mejorar el rendimiento de carga de la página, pero funcionan de manera diferente.
 

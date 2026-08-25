@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodología de Sistemas/Metodología de Sistemas.md",
+                "file": "HTML/HTML5.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Metodología de Sistemas"
+              "title": "HTML5"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5,
-    "collapsed": true
+    "width": 303.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -93,7 +92,7 @@
       {
         "id": "02ef5b01b17d0f8f",
         "type": "tabs",
-        "dimension": 37.301587301587304,
+        "dimension": 57.24206349206349,
         "children": [
           {
             "id": "92567c25d3dc2c80",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodología de Sistemas/Metodología de Sistemas.md",
+                "file": "HTML/HTML5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,8 +119,8 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programación III/CSS.md",
-                "linksCollapsed": false,
+                "file": "HTML/HTML5.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
@@ -192,12 +191,13 @@
               "title": "Propiedades del archivo"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "7d43bd82675bbd45",
         "type": "tabs",
-        "dimension": 62.698412698412696,
+        "dimension": 42.757936507936506,
         "children": [
           {
             "id": "a130ab169b97052f",
@@ -205,7 +205,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Metodología de Sistemas/Metodología de Sistemas.md",
+                "file": "HTML/HTML5.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -240,7 +240,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -257,32 +257,32 @@
   },
   "active": "027ff966f0737317",
   "lastOpenFiles": [
-    "Metodología de Sistemas/Usuarios del Sistema.md",
-    "Metodología de Sistemas/Metodología de Sistemas.md",
+    "HTML/HTML y la presentación visual.md",
+    "HTML/HTML Entities.md",
+    "HTML/HTML (HyperText Markup Language).md",
+    "HTML/Formularios HTML.md",
+    "HTML/Favicon.md",
+    "HTML/Etiquetas HTML.md",
+    "HTML/Etiquetas abiertas y cerradas.md",
+    "HTML/Estructura básica de un documento HTML.md",
+    "HTML/Enlaces HTML.md",
+    "HTML/Elementos HTML.md",
+    "HTML/Elementos contenedores HTML.md",
+    "HTML/Controles de formulario HTML.md",
+    "HTML/Concepto de hipertexto.md",
+    "HTML/Botones de un formulario HTML.md",
+    "HTML/Atributos principales de un formulario HTML.md",
+    "HTML/Atributos HTML.md",
+    "HTML/Atributos de las etiquetas.md",
+    "HTML/Anidamiento y jerarquía.md",
     "Metodología de Sistemas/Ciclo de Vida del Desarrollo de Software (SDLC).md",
-    "Metodología de Sistemas/Modelos de Ciclo de Vida.md",
-    "Metodología de Sistemas/Modelo Ágil de Software.md",
-    "Metodología de Sistemas/Scrum.md",
-    "Metodología de Sistemas/IA como Soporte.md",
-    "Frameworks/Frameworks.md",
-    "CSS/Borde (border).md",
-    "Redes/HTTP (HyperText Transfer Protocol).md",
-    "Redes/HTTPS.md",
-    "Metodología de Sistemas/Historias de Usuario.md",
-    "Metodología de Sistemas/Product Backlog.md",
-    "Arquitectura de Sistemas/Arquitectura de Microservicios.md",
-    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-    "Arquitectura de Sistemas/Arquitectura en Capas.md",
-    "Arquitectura de Sistemas/Arquitectura Monolítica.md",
-    "Arquitectura de Sistemas/Arquitectura REST.md",
-    "Arquitectura de Sistemas/Funcionamiento de un Servidor Web.md",
-    "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
-    "Arquitectura de Sistemas/Modelo Frontend y Backend.md",
-    "Arquitectura de Sistemas/Patrones Arquitecturales.md",
-    "Arquitectura de Sistemas/Persistencia de datos.md",
-    "Arquitectura de Sistemas/Servidor Web.md",
-    "Arquitectura de Sistemas/Tipos de Servidores.md",
-    "Metodología de Sistemas/Human Computer Interaction (HCI).md",
+    "Metodología de Sistemas/Burndown Charts.md",
+    "Javascript/Uso de JavaScript.md",
+    "Javascript/Propiedades `async` y `defer`.md",
+    "Javascript/Procesamiento Asincrónico en JavaScript.md",
+    "Javascript/Node.js.md",
+    "Javascript/JavaScript.md",
+    "Javascript/DOM (Document Object Model).md",
     "Metodología de Sistemas",
     "Frameworks",
     "Z_Imágenes/Pasted image 20260821122513.png",

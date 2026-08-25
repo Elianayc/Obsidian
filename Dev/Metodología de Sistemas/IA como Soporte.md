@@ -4,28 +4,28 @@ La IA permite **acelerar tareas y generar propuestas**, pero el criterio profesi
 
 ---
 
-## IA en la gestión de requerimientos
+## IA en la gestión de [[requerimientos]]
 
 La IA puede ayudar a:
 
-- Generar borradores de **historias de usuario**.
+- Generar borradores de **[[historias de usuario]]**.
 - Detectar ambigüedades.
-- Sugerir **criterios de aceptación**.
+- Sugerir **[[criterios de aceptación]]**.
 - Reformular requisitos mal escritos.
 - Resumir reuniones de relevamiento.
-- Generar plantillas de requerimientos.
+- Generar plantillas de [[requerimientos]].
 - Traducir necesidades técnicas.
 - Organizar el backlog.
 
 ### Ejemplo de prompt
 
-> "Soy analista de sistemas. Tengo este requerimiento: [texto]. Reescribilo como historia de usuario con criterios de aceptación claros y medibles. Indicá si hay ambigüedades que deba resolver antes."
+> "Soy analista de sistemas. Tengo este requerimiento: [texto]. Reescribilo como historia de usuario con [[criterios de aceptación]] claros y medibles. Indicá si hay ambigüedades que deba resolver antes."
 
 La IA puede:
 
 - Reformular el requerimiento como historia de usuario.
 - Identificar términos vagos como **"seguro", "rápido" o "fácil"**.
-- Proponer criterios de aceptación concretos y medibles.
+- Proponer [[criterios de aceptación]] concretos y medibles.
 
 Pero la IA **no puede hacer por sí sola**:
 
@@ -40,20 +40,20 @@ Por eso, el resultado generado por IA debe ser **revisado y validado por el anal
 
 ## IA en la generación de casos de prueba
 
-La IA también puede utilizarse para generar propuestas de pruebas a partir de requisitos o historias de usuario.
+La IA también puede utilizarse para generar propuestas de pruebas a partir de requisitos o [[historias de usuario]].
 
 Puede ayudar a:
 
 - Generar casos de prueba funcionales.
 - Proponer escenarios difíciles de predecir.
-- Crear escenarios de **UAT (User Acceptance Testing)**.
+- Crear escenarios de **UAT (User Acceptance [[Testing]])**.
 - Detectar vulnerabilidades conocidas.
-- Generar casos de validación de campos y formatos.
+- Generar casos de validación de [[campos]] y formatos.
 - Proponer escenarios básicos desde la perspectiva del usuario.
 
 ### Ejemplo de prompt
 
-> "Generá casos de prueba para este requerimiento: [texto]. Incluí casos funcionales, al menos un caso no funcional de rendimiento y dos escenarios difíciles de predecir que podrían pasarse por alto en un testing básico."
+> "Generá casos de prueba para este requerimiento: [texto]. Incluí casos funcionales, al menos un caso no funcional de rendimiento y dos escenarios difíciles de predecir que podrían pasarse por alto en un [[testing]] básico."
 
 Sin embargo, la IA puede omitir:
 
@@ -142,7 +142,7 @@ Necesita:
 
 **Contexto:** el sistema debe convivir con el teléfono durante el período de transición.
 
-El objetivo es utilizar IA para **relevar requerimientos y generar casos de prueba**, pero posteriormente analizar y validar los resultados.
+El objetivo es utilizar IA para **relevar [[requerimientos]] y generar casos de prueba**, pero posteriormente analizar y validar los resultados.
 
 ---
 
@@ -168,11 +168,11 @@ El resultado puede clasificarse como:
 
 ---
 
-## Relación con los requerimientos y testing
+## [[Relación]] con los [[requerimientos]] y [[testing]]
 
 La IA puede intervenir en diferentes momentos del proceso:
 
-**Requerimientos → Historias de Usuario → Pruebas de Software → IA como soporte**
+**[[Requerimientos]] → [[Historias de Usuario]] → [[Pruebas de Software]] → IA como soporte**
 
 La IA puede ayudar a **generar, analizar y mejorar** los elementos de cada etapa, pero no reemplaza la validación humana.
 

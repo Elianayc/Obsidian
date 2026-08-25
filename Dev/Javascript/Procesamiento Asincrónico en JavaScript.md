@@ -1,8 +1,8 @@
-JavaScript es un lenguaje de programación de un solo hilo (**single-threaded**), lo que significa que solo puede ejecutar una instrucción a la vez.
+[[JavaScript]] es un lenguaje de [[programación]] de un solo hilo (**single-threaded**), lo que significa que solo puede ejecutar una instrucción a la vez.
 
-Sin embargo, para no bloquear la ejecución del código durante operaciones que pueden llevar mucho tiempo, como solicitudes de red o lectura/escritura de archivos, JavaScript utiliza un **modelo de programación asincrónica**.
+Sin embargo, para no bloquear la ejecución del código durante operaciones que pueden llevar mucho tiempo, como solicitudes [[de red]] o lectura/escritura de archivos, [[JavaScript]] utiliza un **modelo de [[programación]] asincrónica**.
 
-El procesamiento asincrónico permite que el código continúe ejecutándose mientras se completan estas operaciones potencialmente lentas en segundo plano.
+El [[procesamiento]] asincrónico permite que el código continúe ejecutándose mientras se completan estas operaciones potencialmente lentas en segundo plano.
 
 Cuando estas operaciones finalizan, se ejecuta un **callback** o se resuelve una **promesa** para manejar el resultado.
 
