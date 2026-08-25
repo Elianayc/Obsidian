@@ -31,7 +31,7 @@ INVEST es una guía para evaluar la calidad de una Historia de Usuario y determi
 - **N — Negotiable (Negociable):** no es un contrato fijo. Su detalle y alcance pueden ajustarse mediante conversación entre el equipo y el cliente/Product Owner.
 - **V — Valuable (Valiosa):** debe aportar valor real al usuario o al negocio.
 - **E — Estimable (Estimable):** el equipo debe poder estimar el esfuerzo necesario. Si no puede, puede ser demasiado grande, ambigua o faltar conocimiento técnico o de negocio.
-- **S — Small (Pequeña):** debe ser lo suficientemente pequeña para completarse en un sprint. Las historias demasiado grandes (**épicas**) deben dividirse.
+- **S — Small (Pequeña):** debe ser lo suficientemente pequeña para completarse en un sprint. Las historias demasiado grandes o épicas deben dividirse.
 - **T — Testable (Testeable):** debe poder verificarse si está completa o no, mediante criterios de aceptación claros.
 
 ### ¿Por qué INVEST es una buena práctica?
@@ -52,57 +52,6 @@ INVEST es una guía para evaluar la calidad de una Historia de Usuario y determi
 - **Estimable:** el equipo puede dimensionar el trabajo.
 - **Small:** puede completarse en un sprint.
 - **Testable:** se puede verificar que el email llegue y que el enlace funcione.
-
----
-
-## Criterios de aceptación
-
-Los **criterios de aceptación** son las condiciones que debe cumplir una funcionalidad para ser aceptada por el usuario, cliente u otros sistemas.
-
-Describen el **resultado final esperado**, no el proceso técnico utilizado para conseguirlo.
-
-Deben:
-
-- Definirse antes de comenzar a desarrollar la historia.
-- Ser claros.
-- Ser concisos.
-- Ser verificables.
-- Estar orientados a resultados.
-- Permitir determinar si la historia fue completada correctamente.
-
-Los criterios de aceptación son **únicos para cada historia de usuario** y definen el comportamiento esperado desde la perspectiva del usuario final.
-
-### Historia de Usuario vs. Criterios de Aceptación
-
-La **Historia de Usuario** expresa la necesidad de alto nivel.
-
-Los **criterios de aceptación** especifican las condiciones que deben cumplirse para considerar satisfecha esa necesidad.
-
----
-
-### Ejemplo
-
-**Historia:**
-
-> Como analista de pagos, quiero importar órdenes desde Excel, para reducir errores.
-
-**Reglas de negocio:**
-
-- El archivo debe utilizar el formato oficial.
-- Los montos deben ser positivos.
-- El proveedor debe existir.
-
-**Criterios de aceptación:**
-
-- Validar los datos del archivo.
-- Mostrar una vista previa.
-- Generar un reporte de errores.
-
-**Criterios de rechazo:**
-
-- Formato inválido.
-- Proveedor inexistente.
-- Montos negativos.
 
 ---
 
@@ -156,11 +105,9 @@ El proceso parte de una necesidad o problema del negocio:
 
 **Requerimiento → Épica → Feature → Historia de Usuario**
 
-Estos elementos se organizan dentro del:
+Estos elementos se organizan dentro del **Product Backlog**, que es el contenedor de todo el trabajo.
 
-**Product Backlog**
-
-El Product Backlog es el **contenedor de todo el trabajo** y se ordena según su prioridad.
+Cada nivel descompone al anterior, aumentando el detalle y reduciendo la abstracción hasta llegar a algo construible en un sprint.
 
 ---
 
@@ -205,8 +152,6 @@ Ejemplo:
 > "Como usuario, quiero iniciar sesión con mi cuenta de Google, para no tener que recordar una contraseña nueva."
 
 La Historia de Usuario es la **unidad mínima de valor testeable**.
-
-Cada nivel **descompone al anterior**, aumentando el detalle y reduciendo la abstracción hasta llegar a algo construible en un sprint.
 
 ---
 
@@ -291,4 +236,3 @@ Un **Sprint** es un ciclo de trabajo en el que el equipo desarrolla un conjunto 
 - Reconocer los logros del equipo para reforzar la motivación.
 
 ---
-
