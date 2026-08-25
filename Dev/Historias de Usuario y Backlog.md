@@ -1,8 +1,9 @@
-Las **Historias de Usuario** permiten transformar necesidades del negocio en funcionalidades concretas que aporten valor al usuario.
+Las **Historias de Usuario** permiten transformar necesidades del negocio en funcionalidades concretas que aporten **valor entregable y medible** al usuario.
 
 No son simples frases: son **vehículos de entendimiento compartido** entre el negocio y el equipo técnico. Son dinámicas y evolucionan mediante conversaciones, refinamiento y validación.
 
 > Una buena historia de usuario es una conversación que evoluciona hacia un compromiso concreto entre lo que el negocio necesita y lo que el equipo puede entregar.
+> 
 > — Mike Cohn (2004)
 
 ---
@@ -29,8 +30,8 @@ INVEST es una guía para evaluar la calidad de una Historia de Usuario y determi
 - **I — Independent (Independiente):** debe poder desarrollarse y entregarse sin depender de otras historias.
 - **N — Negotiable (Negociable):** no es un contrato fijo. Su detalle y alcance pueden ajustarse mediante conversación entre el equipo y el cliente/Product Owner.
 - **V — Valuable (Valiosa):** debe aportar valor real al usuario o al negocio.
-- **E — Estimable (Estimable):** el equipo debe poder estimar el esfuerzo necesario. Si no puede, puede ser demasiado grande, ambigua o faltar conocimiento.
-- **S — Small (Pequeña):** debe ser lo suficientemente pequeña para completarse en un sprint. Las historias grandes o épicas deben dividirse.
+- **E — Estimable (Estimable):** el equipo debe poder estimar el esfuerzo necesario. Si no puede, puede ser demasiado grande, ambigua o faltar conocimiento técnico o de negocio.
+- **S — Small (Pequeña):** debe ser lo suficientemente pequeña para completarse en un sprint. Las historias demasiado grandes (**épicas**) deben dividirse.
 - **T — Testable (Testeable):** debe poder verificarse si está completa o no, mediante criterios de aceptación claros.
 
 ### ¿Por qué INVEST es una buena práctica?
@@ -69,13 +70,15 @@ Deben:
 - Estar orientados a resultados.
 - Permitir determinar si la historia fue completada correctamente.
 
+Los criterios de aceptación son **únicos para cada historia de usuario** y definen el comportamiento esperado desde la perspectiva del usuario final.
+
 ### Historia de Usuario vs. Criterios de Aceptación
 
 La **Historia de Usuario** expresa la necesidad de alto nivel.
 
 Los **criterios de aceptación** especifican las condiciones que deben cumplirse para considerar satisfecha esa necesidad.
 
-Una historia puede dividirse en diferentes criterios de aceptación que permitan comprobar su cumplimiento.
+---
 
 ### Ejemplo
 
@@ -114,6 +117,7 @@ La historia evoluciona mediante un proceso de conversación y validación:
 5. **Revisarla después de la entrega.**
 
 > Las historias de usuario son promesas de conversación.
+> 
 > — Alistair Cockburn (2002)
 
 ---
@@ -128,7 +132,7 @@ En el desarrollo de una Historia de Usuario participan distintos roles:
 - **Líder de proyecto / Scrum Master:** facilita el proceso y la comunicación.
 - **QA / Tester:** realiza las pruebas y valida los criterios de aceptación y rechazo.
 
-La colaboración entre estos roles permite mantener el foco en el valor que se quiere entregar.
+La **sinergia entre estos roles** genera motivación, foco y una cultura orientada al valor.
 
 ---
 
@@ -150,9 +154,13 @@ Los elementos del backlog pueden incluir:
 
 El proceso parte de una necesidad o problema del negocio:
 
-**Requerimiento → Épica → Feature → Historia de Usuario → Product Backlog**
+**Requerimiento → Épica → Feature → Historia de Usuario**
 
-Cada nivel reduce la abstracción y aumenta el detalle hasta llegar a algo que pueda construirse y probarse.
+Estos elementos se organizan dentro del:
+
+**Product Backlog**
+
+El Product Backlog es el **contenedor de todo el trabajo** y se ordena según su prioridad.
 
 ---
 
@@ -172,7 +180,7 @@ Indica **qué necesita lograr la organización**, pero no cómo construirlo.
 
 Es una necesidad o funcionalidad demasiado grande para completarse en un solo sprint.
 
-Representa un objetivo funcional de alto nivel.
+Representa un objetivo funcional de alto nivel que puede requerir meses de trabajo.
 
 Ejemplo:
 
@@ -181,6 +189,8 @@ Ejemplo:
 ### Feature
 
 Es una **capacidad concreta y entregable** que se desprende de una épica.
+
+Suele completarse en semanas y agrega valor tangible.
 
 Ejemplo:
 
@@ -196,6 +206,8 @@ Ejemplo:
 
 La Historia de Usuario es la **unidad mínima de valor testeable**.
 
+Cada nivel **descompone al anterior**, aumentando el detalle y reduciendo la abstracción hasta llegar a algo construible en un sprint.
+
 ---
 
 ## Ejemplo de descomposición
@@ -204,13 +216,13 @@ La Historia de Usuario es la **unidad mínima de valor testeable**.
 
 > "Necesitamos agilizar las aprobaciones."
 
-↓  
+↓
 
 **Épica:**
 
 > "Automatización de flujos de aprobación."
 
-↓  
+↓
 
 **Historias de Usuario:**
 
@@ -243,7 +255,7 @@ Por ejemplo:
 
 > Una validación automática puede reducir errores y aumentar la confianza en el sistema.
 
-La definición del valor se consensúa entre los participantes correspondientes del proceso, como usuario, Product Owner y Scrum Master.
+La definición del valor se consensúa entre **usuario, Product Owner y Scrum Master**.
 
 ---
 
@@ -251,9 +263,9 @@ La definición del valor se consensúa entre los participantes correspondientes 
 
 Un **Sprint** es un ciclo de trabajo en el que el equipo desarrolla un conjunto de funcionalidades con el objetivo de entregar un **incremento funcional y útil** al finalizarlo.
 
-- Duración recomendada: **2 semanas**.
+- Duración recomendada: **2 semanas**, para mantener el equilibrio entre foco y feedback.
 - En proyectos más complejos puede extenderse hasta **3 semanas**.
-- Cada sprint debe generar un incremento de valor.
+- Cada sprint debe generar un incremento funcional y útil.
 - Las historias seleccionadas deben poder completarse dentro del sprint.
 
 ---
@@ -279,3 +291,4 @@ Un **Sprint** es un ciclo de trabajo en el que el equipo desarrolla un conjunto 
 - Reconocer los logros del equipo para reforzar la motivación.
 
 ---
+

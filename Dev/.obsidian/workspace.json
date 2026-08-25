@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Historias de Usuario y Backlog.md",
+                "file": "Criterios de Aceptación.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Historias de Usuario y Backlog"
+              "title": "Criterios de Aceptación"
             }
           }
         ]
@@ -205,7 +205,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Historias de Usuario y Backlog.md",
+                "file": "Criterios de Aceptación.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -308,6 +308,7 @@
   },
   "active": "2f27f81ef6dad228",
   "lastOpenFiles": [
+    "Historias de Usuario y Backlog.md",
     "Usuarios del Sistema.md",
     "Arquitectura de Sistemas/Metodología de Sistemas.md",
     "Requerimientos.md",
@@ -315,7 +316,6 @@
     "Arquitectura de Sistemas/Diagrama de Flujo de Datos (DFD).md",
     "IA como Soporte.md",
     "Pruebas de Software.md",
-    "Historias de Usuario y Backlog.md",
     "Arquitectura de Sistemas/Modelado y Gestión de Datos.md",
     "Empatía en Ingeniería de Software.md",
     "Criterios de Aceptación.md",
