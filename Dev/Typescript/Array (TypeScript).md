@@ -24,4 +24,3 @@ Es la estructura más utilizada en [[TypeScript]].
 > `.pop()` Borra el último elemento.
 > 
 > `for(const numero of numeros){console.log(numero);}` Recorrido.
-#Programación

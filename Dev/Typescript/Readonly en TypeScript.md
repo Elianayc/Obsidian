@@ -85,7 +85,3 @@ Se usa cuando:
 
 > `readonly` ayuda a diseñar objetos más simples, seguros y predecibles, reduciendo la necesidad de setters y lógica de modificación externa.
 
-
-
-
-#Programación

@@ -65,5 +65,3 @@ Para comparar objetos por contenido (por ejemplo, por id), se debe implementar u
 > console.log(set); // Resultado: {10, 20}
 > ```
 > 
-> 
-#Programación

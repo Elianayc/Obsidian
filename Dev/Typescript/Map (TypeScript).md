@@ -3,7 +3,7 @@ tags:
   - Programación
   - ProgramaciónII
 ---
-Un Map es una colección de pares **clave–valor**.
+Un [[Map]] es una colección de pares **clave–valor**.
 
 Cada clave es única y permite asociar un valor a una clave específica.
 
@@ -24,4 +24,3 @@ Cada clave es única y permite asociar un valor a una clave específica.
 > `.delete` Elimina el elemento.
 > 
 > `agenda.forEach((value, key)=>{console.log('nombre: ${key}, número: ${value}');` Recorrido.
-#Programación
