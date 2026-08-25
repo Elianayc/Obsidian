@@ -23,4 +23,3 @@ Se utiliza principalmente durante el **análisis, diseño y documentación** del
     Representan flujos de trabajo o procesos del sistema mediante actividades y decisiones.
 
 ---
-#ModeladodeSistemas

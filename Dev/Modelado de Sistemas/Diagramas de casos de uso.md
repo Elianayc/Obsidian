@@ -47,7 +47,7 @@ Se nombran con verbos:
 
 
 
-#### Relación Actor – Caso de uso
+#### [[Relación]] Actor – Caso de uso
 Una **línea simple** indica que el actor interactúa con esa funcionalidad.
 
 ---
@@ -64,7 +64,7 @@ Un caso de uso **a veces extiende** a otro.
 Ejemplo: Comprar producto → puede extender → Aplicar descuento.  
 Es comportamiento opcional.
 
-**Generalización (herencia de actores o casos)**  
+**Generalización ([[herencia]] de actores o casos)**  
 Un actor o caso de uso puede heredar de otro.  
 Ejemplo: Administrador hereda de Usuario.
 
