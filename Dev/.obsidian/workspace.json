@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura de Sistemas/Burndown Charts.md",
+                "file": "Metodología de Sistemas/Historias de Usuario (User Stories).md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Burndown Charts"
+              "title": "Historias de Usuario (User Stories)"
             }
           }
         ]
@@ -205,7 +205,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Arquitectura de Sistemas/Burndown Charts.md",
+                "file": "Metodología de Sistemas/Historias de Usuario (User Stories).md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -306,9 +306,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "2f27f81ef6dad228",
   "lastOpenFiles": [
+    "Metodología de Sistemas/Historias de Usuario y Backlog.md",
+    "Metodología de Sistemas/Historias de Usuario (User Stories).md",
+    "Arquitectura de Sistemas/Funcionamiento de un Servidor Web.md",
+    "Arquitectura de Sistemas/Etapas del SDLC.md",
     "Arquitectura de Sistemas/Arquitectura REST.md",
+    "Metodología de Sistemas/Daily Scrum.md",
+    "Metodología de Sistemas/Diferencias entre Enfoque Tradicional y Agile.md",
+    "Metodología de Sistemas/Diccionario de Datos.md",
+    "Metodología de Sistemas/Diagrama Entidad-Relación (DER).md",
+    "Metodología de Sistemas/Diagrama de Flujo de Datos (DFD).md",
+    "Metodología de Sistemas/Burndown Charts.md",
     "Arquitectura de Sistemas/Arquitectura Monolítica.md",
     "Arquitectura de Sistemas/Arquitectura en Capas.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
@@ -316,19 +326,9 @@
     "Metodología de Sistemas/IA como Soporte.md",
     "Metodología de Sistemas/Pruebas de Software.md",
     "Metodología de Sistemas/Criterios de Aceptación.md",
-    "Metodología de Sistemas/Historias de Usuario y Backlog.md",
     "Metodología de Sistemas/Usuarios del Sistema.md",
     "Metodología de Sistemas/Requerimientos.md",
-    "Arquitectura de Sistemas/Burndown Charts.md",
-    "Arquitectura de Sistemas/Daily Scrum.md",
-    "Arquitectura de Sistemas/Diagrama de Flujo de Datos (DFD).md",
-    "Arquitectura de Sistemas/Diagrama Entidad-Relación (DER).md",
-    "Arquitectura de Sistemas/Diccionario de Datos.md",
-    "Arquitectura de Sistemas/Diferencias entre Enfoque Tradicional y Agile.md",
     "Arquitectura de Sistemas/Equipo de Desarrollo.md",
-    "Arquitectura de Sistemas/Etapas del SDLC.md",
-    "Arquitectura de Sistemas/Funcionamiento de un Servidor Web.md",
-    "Arquitectura de Sistemas/Historias de Usuario (User Stories).md",
     "Arquitectura de Sistemas/Human Computer Interaction (HCI).md",
     "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
     "Arquitectura de Sistemas/Metodología de Sistemas.md",
