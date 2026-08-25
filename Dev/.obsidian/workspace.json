@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modelado de Sistemas/Diagramas de clases.md",
+                "file": "Modelado de Sistemas/Mermaid.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diagramas de clases"
+              "title": "Mermaid"
             }
           }
         ]
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modelado de Sistemas/Diagramas de clases.md",
+                "file": "Modelado de Sistemas/Mermaid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modelado de Sistemas/Diagramas de clases.md",
+                "file": "Modelado de Sistemas/Mermaid.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               },
@@ -205,7 +205,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Modelado de Sistemas/Diagramas de clases.md",
+                "file": "Modelado de Sistemas/Mermaid.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -255,16 +255,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fdc6a8c4fde104a1",
+  "active": "027ff966f0737317",
   "lastOpenFiles": [
+    "Modelado de Sistemas/Diagramas de secuencia.md",
+    "Modelado de Sistemas/Diagramas de clases.md",
     "Modelado de Sistemas/Diagramas de casos de uso.md",
     "Modelado de Sistemas/Diagramas de actividad.md",
     "Modelado de Sistemas/Diagrama de flujo.md",
-    "Modelado de Sistemas/Modelado de Sistemas.md",
-    "Modelado de Sistemas/UML.md",
-    "Modelado de Sistemas/Mermaid.md",
-    "Modelado de Sistemas/Diagramas de secuencia.md",
-    "Modelado de Sistemas/Diagramas de clases.md",
     "Typescript/Typescript.md",
     "Typescript/Set (TypeScript).md",
     "Typescript/Readonly en TypeScript.md",
@@ -283,6 +280,9 @@
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Arquitectura de Sistemas/Arquitectura de Microservicios.md",
     "Bases de Datos/4FN.md",
+    "Bases de Datos/3FN.md",
+    "Bases de Datos/3.5 - BCNF.md",
+    "Bases de Datos/2FN.md",
     "Metodología de Sistemas",
     "Frameworks",
     "Z_Imágenes/Pasted image 20260821122513.png",
