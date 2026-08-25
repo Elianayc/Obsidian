@@ -7,7 +7,7 @@ Un Array es una colección ordenada de elementos que **permite duplicados**.
 
 **Mantiene el orden de inserción** y permite acceder a los elementos por **índice**.
 
-Es la estructura más utilizada en [[TypeScript]].
+Es la estructura más utilizada en TypeScript.
 
 > [!example]
 > 
