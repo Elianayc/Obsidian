@@ -12,9 +12,10 @@ Marco metodológico que organiza el desarrollo de software en etapas para planif
 - Organizar el proceso de desarrollo.
 - Alinear la solución tecnológica con las necesidades del negocio.
 
-[[Etapas del SDLC]]
-[[Modelos de Ciclo de Vida]]
-[[Human Computer Interaction (HCI)]]
+---
+
+- [[Etapas del SDLC]]
+- [[Modelos de Ciclo de Vida]]
+- [[Human Computer Interaction (HCI)]]
 
 ---
-#ArquitecturadeSistemas
