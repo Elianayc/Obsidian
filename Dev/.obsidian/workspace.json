@@ -114,11 +114,25 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "linksCollapsed": true,
+                "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
               "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "5f2b1b55306572f4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
             }
           },
           {
@@ -134,20 +148,6 @@
               },
               "icon": "lucide-tags",
               "title": "Etiquetas"
-            }
-          },
-          {
-            "id": "5f2b1b55306572f4",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "Todas las propiedades"
             }
           },
           {
@@ -232,8 +232,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 321.5,
-    "collapsed": true
+    "width": 321.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,7 +247,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "027ff966f0737317",
+  "active": "4604bb1ca3ec23c0",
   "lastOpenFiles": [
     "Programación/Visibilidad.md",
     "Programación/While.md",
