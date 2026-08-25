@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Historias de Usuario y Backlog.md",
+                "file": "Arquitectura de Sistemas/Sprint Review.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Historias de Usuario y Backlog"
+              "title": "Sprint Review"
             }
           }
         ]
@@ -205,7 +205,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Historias de Usuario y Backlog.md",
+                "file": "Arquitectura de Sistemas/Sprint Review.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -308,18 +308,25 @@
   },
   "active": "2f27f81ef6dad228",
   "lastOpenFiles": [
-    "Empatía en Ingeniería de Software.md",
-    "Criterios de Aceptación.md",
-    "Historias de Usuario y Backlog.md",
-    "Usuarios del Sistema.md",
-    "Arquitectura de Sistemas/Metodología de Sistemas.md",
-    "Requerimientos.md",
-    "Arquitectura de Sistemas/Ciclo de Vida del Desarrollo de Software (SDLC).md",
-    "Arquitectura de Sistemas/Diagrama de Flujo de Datos (DFD).md",
-    "IA como Soporte.md",
-    "Pruebas de Software.md",
-    "Arquitectura de Sistemas/Modelado y Gestión de Datos.md",
+    "Arquitectura de Sistemas/Tipos de Servidores.md",
+    "Metodología de Sistemas/Ciclo de Vida del Desarrollo de Software (SDLC).md",
+    "Arquitectura de Sistemas/Burndown Charts.md",
+    "Arquitectura de Sistemas/Arquitectura REST.md",
+    "Arquitectura de Sistemas/Arquitectura Monolítica.md",
+    "Arquitectura de Sistemas/Arquitectura en Capas.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
+    "Arquitectura de Sistemas/Arquitectura de Microservicios.md",
+    "Metodología de Sistemas/Criterios de Aceptación.md",
+    "Metodología de Sistemas/Empatía en Ingeniería de Software.md",
+    "Metodología de Sistemas",
+    "Metodología de Sistemas/Historias de Usuario y Backlog.md",
+    "Metodología de Sistemas/Usuarios del Sistema.md",
+    "Arquitectura de Sistemas/Metodología de Sistemas.md",
+    "Metodología de Sistemas/Requerimientos.md",
+    "Arquitectura de Sistemas/Diagrama de Flujo de Datos (DFD).md",
+    "Metodología de Sistemas/IA como Soporte.md",
+    "Metodología de Sistemas/Pruebas de Software.md",
+    "Arquitectura de Sistemas/Modelado y Gestión de Datos.md",
     "Bases de Datos/GRANT.md",
     "Z_Excalidraw/if.md",
     "Frameworks/Frameworks.md",
@@ -329,12 +336,6 @@
     "Frameworks/Vue.md",
     "Arquitectura de Sistemas/Paquetes.md",
     "Programación/Lenguajes de Programación.md",
-    "Arquitectura de Sistemas/Scrum.md",
-    "Arquitectura de Sistemas/Arquitectura en Capas.md",
-    "Programación/Factory Method.md",
-    "Programación/React Native.md",
-    "Programación/Electron.md",
-    "Programación/puntoNET.md",
     "Z_Imágenes/Pasted image 20260821122513.png",
     "Z_Imágenes/Pasted image 20260821121524.png",
     "Z_Imágenes/Pasted image 20260821122410.png",
@@ -353,7 +354,6 @@
     "Modelado de Sistemas",
     "TCP",
     "Redes",
-    "Metodología de Sistemas",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]

@@ -477,7 +477,7 @@ Los dashboards pueden reunir estas métricas y facilitar el seguimiento del proy
 
 ## Relación con otros conceptos
 
-Las pruebas verifican que lo definido en los **[Requerimientos](Requerimientos)** se cumpla correctamente.
+Las pruebas verifican que lo definido en los **[Requerimientos](Requerimientos.md)** se cumpla correctamente.
 
 En metodologías ágiles, los **Criterios de Aceptación** permiten definir qué debe verificarse para considerar terminada una historia de usuario.
 

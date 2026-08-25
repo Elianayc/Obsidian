@@ -12,4 +12,3 @@ Gráfico utilizado para visualizar el progreso de un Sprint o proyecto.
 Permite identificar si el equipo está avanzando según lo planificado.
 
 ---
-#ArquitecturadeSistemas
