@@ -21,6 +21,6 @@ El objetivo es encontrar un equilibrio adecuado entre planificación, recursos, 
 - [[Ciclo de Vida del Desarrollo de Software (SDLC)]]
 - [[Diagrama de Flujo de Datos (DFD)]]
 - [[Usuarios del Sistema]]
-- [[Gestión de Requerimientos]]
+- [[Modelado y Gestión de Datos]]
 
 ---
