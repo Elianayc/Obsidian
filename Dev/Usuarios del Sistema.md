@@ -1,5 +1,3 @@
-# Usuarios del Sistema
-
 El usuario ocupa un rol central en el desarrollo de software, ya que comprender sus necesidades permite desarrollar sistemas útiles, confiables y aceptados por la organización.
 
 Un usuario es una persona que interactúa directa o indirectamente con el sistema. No necesariamente es quien encarga el software, sino quien debe utilizarlo y evaluar su utilidad.
