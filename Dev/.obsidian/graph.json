@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "path:\"Arquitectura de Sistemas\"  ",
@@ -53,14 +53,14 @@
       "query": "path: \"Modelado de Sistemas\"  ",
       "color": {
         "a": 1,
-        "rgb": 13663942
+        "rgb": 7450715
       }
     },
     {
       "query": "path: Programación  ",
       "color": {
         "a": 1,
-        "rgb": 7450715
+        "rgb": 11186661
       }
     },
     {
@@ -90,6 +90,13 @@
         "a": 1,
         "rgb": 14381941
       }
+    },
+    {
+      "query": "path:\"Metodología de Sistemas\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 13663942
+      }
     }
   ],
   "collapse-display": false,
@@ -102,6 +109,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.16348370567219636,
-  "close": true
+  "scale": 0.2292013594174809,
+  "close": false
 }

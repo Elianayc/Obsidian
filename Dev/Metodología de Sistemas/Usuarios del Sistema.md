@@ -77,7 +77,7 @@ El **usuario aporta el conocimiento del negocio**, mientras que el **equipo téc
 
 El líder del proyecto debe facilitar la comunicación efectiva entre ambos.
 
-Las [[Historias de Usuario y Backlog]] permiten expresar las necesidades del usuario de forma simple e incremental.
+Las [[Historias de Usuario]] permiten expresar las necesidades del usuario de forma simple e incremental.
 
 ---
 
