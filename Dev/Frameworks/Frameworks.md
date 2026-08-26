@@ -21,7 +21,7 @@ Los frameworks ayudan a solucionar estos problemas proporcionando:
 
 - **Estructura:** una forma organizada de distribuir el código.
     
-- **Componentes:** elementos reutilizables que permiten dividir la aplicación.
+- **[[Componentes]]:** elementos reutilizables que permiten dividir la aplicación.
     
 - **Reactividad:** actualización automática de la interfaz cuando cambian los datos, especialmente en frameworks de frontend.
     
@@ -49,11 +49,4 @@ Entre las tecnologías utilizadas para este propósito se encuentran:
 
 > **Nota:** React suele estudiarse junto con Angular y Vue como tecnología de frontend, aunque técnicamente React es una **biblioteca (library)**, mientras que Angular y Vue se consideran frameworks.
 
----
-
-- [[Componentes]]
-- [[Routing]]
-- [[Ciclo de Vida de los Componentes]]
-- [[Binding y Eventos]]
-
----
+----

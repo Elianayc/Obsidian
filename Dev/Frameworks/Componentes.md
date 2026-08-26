@@ -30,11 +30,6 @@ Un componente puede entenderse de forma similar a una **función**: recibe datos
 
 ---
 
-- [[Props]] 
-- [[Renderizado de listas]]
-
----
-
 # ¿Cuándo crear un componente?
 
 Conviene extraer una parte de la interfaz a un componente separado cuando:
@@ -71,5 +66,13 @@ ChatComponent
 ```
 
 **Regla práctica:** si para describir lo que hace un componente necesitás utilizar la palabra **“y”**, probablemente tenga más de una responsabilidad y convenga dividirlo.
+
+---
+
+- [[Props]] 
+- [[Renderizado de listas]]
+- [[Routing]]
+- [[Ciclo de Vida de los Componentes]]
+- [[Binding y Eventos]]
 
 ---
