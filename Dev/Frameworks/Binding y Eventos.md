@@ -198,3 +198,5 @@ const busqueda = ref('');
 ---
 
 **Idea clave:** Angular y Vue ofrecen una sintaxis específica para two-way binding (`[(ngModel)]` y `v-model`), mientras que React lo implementa explícitamente mediante **estado + eventos**.
+
+---
