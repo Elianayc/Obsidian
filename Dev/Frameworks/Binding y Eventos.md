@@ -103,7 +103,7 @@ Permite responder a acciones del usuario, como hacer clic, presionar una tecla o
 <button (click)="enviar()">Enviar</button>
 ```
 
-```Typecript
+```TypeScript
 enviar() {
   console.log('Mensaje enviado');
 }
