@@ -20,11 +20,11 @@ Los frameworks proporcionan **hooks de ciclo de vida**, que permiten ejecutar c�
 
 ### Hooks principales
 
-|     **Etapa**     |      **Angular**       |
-| :---------------: | :--------------------: |
-|    **Montaje**    |      `ngOnInit()`      |
-| **Actualización** | `ngOnChanges(changes)` |
-|  **Desmontaje**   |    `ngOnDestroy()`     |
+|     **Etapa**     |   **Angular**   |
+| :---------------: | :-------------: |
+|    **Montaje**    |  `ngOnInit()`   |
+| **Actualización** | `ngOnChanges()` |
+|  **Desmontaje**   | `ngOnDestroy()` |
 
 |     **Etapa**     |                                           **React**                                           |
 | :---------------: | :-------------------------------------------------------------------------------------------: |
@@ -38,7 +38,7 @@ Los frameworks proporcionan **hooks de ciclo de vida**, que permiten ejecutar c�
 | **Actualización** | `watch(() => props.productoId, (nuevoId) => { cargarProducto(nuevoId); });` |
 |  **Desmontaje**   |            `onUnmounted(() => { subscription.unsubscribe(); });`            |
 
-hooks permiten ejecutar cada operación en el momento adecuado del ciclo de vida del componente.
+Los hooks permiten ejecutar cada operación en el momento adecuado del ciclo de vida del componente.
 
 ---
 

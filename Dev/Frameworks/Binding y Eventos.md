@@ -4,12 +4,12 @@ El **binding** es el mecanismo que permite sincronizar los datos del componente 
 
 ### Tipos de binding
 
-| Tipo | Dirección | Función |
-|---|---|---|
-| **Interpolación** | Estado → DOM | Mostrar valores como texto. |
+|         Tipo         |  Dirección   |                            Función                             |
+| :------------------: | :----------: | :------------------------------------------------------------: |
+|  **Interpolación**   | Estado → DOM |                  Mostrar valores como texto.                   |
 | **Property binding** | Estado → DOM | Asignar valores dinámicos a propiedades del DOM o componentes. |
-| **Event binding** | DOM → Estado | Ejecutar código cuando ocurre una acción del usuario. |
-| **Two-way binding** | Estado ↔ DOM | Sincronizar bidireccionalmente el estado y la interfaz. |
+|  **Event binding**   | DOM → Estado |     Ejecutar código cuando ocurre una acción del usuario.      |
+| **Two-way binding**  | Estado ↔ DOM |    Sincronizar bidireccionalmente el estado y la interfaz.     |
 
 ---
 
