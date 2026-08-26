@@ -1,5 +1,7 @@
 Un componente tiene un **ciclo de vida**: se crea, se renderiza, puede actualizarse varias veces y finalmente puede eliminarse.
 
+---
+
 ### Etapas principales
 
 - **Montaje:** el componente se crea, se renderiza y aparece en el DOM.
@@ -13,6 +15,8 @@ Los frameworks proporcionan **hooks de ciclo de vida**, que permiten ejecutar c�
 |    **Montaje**    |      Obtener datos de una API o inicializar recursos.      |
 | **Actualización** |    Recargar datos cuando cambia un filtro o parámetro.     |
 |  **Desmontaje**   | Cancelar suscripciones, limpiar timers y liberar recursos. |
+
+---
 
 ### Hooks principales
 
