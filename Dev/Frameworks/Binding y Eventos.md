@@ -17,8 +17,34 @@ El **binding** es el mecanismo que permite sincronizar los datos del componente 
 
 Permite mostrar el valor de una variable dentro de la interfaz.
 
-```html
+**Angular:**
+
+```HTML
 <h2>{{ titulo }}</h2>
+```
+
+```Javascript
+titulo = 'Lista de productos';
+```
+
+**React:**
+
+```HTML
+const titulo = 'Lista de productos';
+
+return (
+  <h2>{titulo}</h2>
+);
+```
+
+**Vue:**
+
+```HTML
+<h2>{{ titulo }}</h2>
+```
+
+```Javascript
+const titulo = ref('Lista de productos');
 ```
 
 ---
@@ -27,23 +53,43 @@ Permite mostrar el valor de una variable dentro de la interfaz.
 
 Permite asignar valores dinámicos a propiedades de elementos HTML o componentes.
 
-```HTML
-<img [src]="usuario.avatar">
-```
-
-La diferencia es:
-
-```HTML
-<img src="usuario.avatar">
-```
-
-→ `"usuario.avatar"` se interpreta como texto literal.
+**Angular:**
 
 ```HTML
 <img [src]="usuario.avatar">
 ```
 
-→ `usuario.avatar` se interpreta como un valor dinámico.
+```Typescript
+usuario = {
+  avatar: 'foto.jpg'
+};
+```
+
+**React:**
+
+```Javascript
+const usuario = {
+  avatar: 'foto.jpg'
+};
+
+return (
+  <img src={usuario.avatar} />
+);
+```
+
+**Vue:**
+
+```HTML
+<img :src="usuario.avatar">
+```
+
+```Javascript
+const usuario = {
+  avatar: 'foto.jpg'
+};
+```
+
+La diferencia importante es que el valor se obtiene de una **variable** y no se interpreta como texto literal.
 
 ---
 
@@ -51,11 +97,43 @@ La diferencia es:
 
 Permite responder a acciones del usuario, como hacer clic, presionar una tecla o modificar un campo.
 
+**Angular:**
+
 ```HTML
 <button (click)="enviar()">Enviar</button>
 ```
 
-El evento del DOM ejecuta una función del componente.
+```Typecript
+enviar() {
+  console.log('Mensaje enviado');
+}
+```
+
+**React:**
+
+```Javascript
+function enviar() {
+  console.log('Mensaje enviado');
+}
+
+return (
+  <button onClick={enviar}>Enviar</button>
+);
+```
+
+**Vue:**
+
+```HTML
+<button @click="enviar">Enviar</button>
+```
+
+```Javascript
+function enviar() {
+  console.log('Mensaje enviado');
+}
+```
+
+En los tres casos, el evento del usuario ejecuta una función del componente.
 
 ---
 
@@ -67,30 +145,56 @@ Permite sincronizar el estado y la interfaz en ambas direcciones:
 
 **UI → Estado:** las acciones del usuario actualizan el estado.
 
-En Angular se utiliza, por ejemplo:
+#### Angular
 
 ```HTML
 <input [(ngModel)]="busqueda">
+
+<p>Buscando: {{ busqueda }}</p>
 ```
 
-Esto combina **property binding + event binding**.
+```Typescript
+busqueda = '';
+```
 
-En React se utiliza habitualmente un **controlled component**, donde el estado es la fuente de verdad:
+`[(ngModel)]` realiza la sincronización en ambas direcciones.
+
+#### React
+
+React no tiene una sintaxis específica de two-way binding. Se utiliza un **controlled component**, donde el estado es la fuente de verdad:
 
 ```Javascript
-<input
-  value={busqueda}
-  onChange={e => setBusqueda(e.target.value)}
-/>
+const [busqueda, setBusqueda] = useState('');
+
+return (
+  <>
+    <input
+      value={busqueda}
+      onChange={e => setBusqueda(e.target.value)}
+    />
+
+    <p>Buscando: {busqueda}</p>
+  </>
+);
 ```
 
-En Vue se utiliza:
+- `value={busqueda}` → **Estado → UI**
+- `onChange={...}` → **UI → Estado**
+
+#### Vue
 
 ```HTML
 <input v-model="busqueda">
+
+<p>Buscando: {{ busqueda }}</p>
 ```
 
-React no utiliza una sintaxis específica de two-way binding, sino que mantiene explícitamente el flujo de datos mediante estado y eventos.
+```Javascript
+const busqueda = ref('');
+```
+
+`v-model` combina ambas direcciones en una sola expresión.
 
 ---
 
+**Idea clave:** Angular y Vue ofrecen una sintaxis específica para two-way binding (`[(ngModel)]` y `v-model`), mientras que React lo implementa explícitamente mediante **estado + eventos**.
