@@ -58,16 +58,23 @@ Se utiliza una combinación de solo cuatro símbolos para crear una descripción
 
 * **Descomposición desbalanceada:** Los diagramas hijos deben mantener exactamente los mismos flujos de entrada y salida que el proceso padre.
 
+---
+
 ### Diagrama Correcto:
+
 ![[Pasted image 20260803142607.png]]
 
 ---
 
 ## DFD Lógico vs. DFD Físico
 
+
 * **DFD Lógico:** Se enfoca en el negocio y en cómo opera (independiente de la tecnología).
+
 	![[Pasted image 20260803142907.png]]
-	
+
+
+
 * **DFD Físico:** Muestra la implementación del sistema (hardware, software, archivos y personas involucradas).
 	![[Pasted image 20260803142926.png]]
 	
@@ -83,19 +90,29 @@ Se utiliza una combinación de solo cuatro símbolos para crear una descripción
 
 1. **Listar actividades:** Identificar entidades, flujos, procesos y almacenes.
 
+
 2. **Diagrama de Contexto:** Nivel más alto; muestra entidades externas y flujos principales sin procesos detallados ni almacenes.
+
 	![[Pasted image 20260803142725.png]]
 
+
 3. **Diagrama 0 (Alto nivel):** Muestra los procesos generales y almacenes de datos.
+
 	![[Pasted image 20260803142749.png]]
 
+
 4. **Diagramas Hijos (Detalle):** Descomposición detallada de cada proceso del Diagrama 0.
+
 	![[Pasted image 20260803142815.png]]
+
 
 5. **Verificación:** Revisar errores y consistencia de etiquetas.
 
+
 6. **Desarrollar DFD Físico:** Diferenciar procesos manuales/automatizados y agregar controles de error
 
+
 7. **Particionar:** Agrupar partes para facilitar la programación e implementación.
+
 
 ---
