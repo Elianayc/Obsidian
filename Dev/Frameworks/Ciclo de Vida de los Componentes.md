@@ -20,11 +20,11 @@ Los frameworks proporcionan **hooks de ciclo de vida**, que permiten ejecutar c�
 
 ### Hooks principales
 
-|       Etapa       |     Angular     |                React                 |       Vue       |
-| :---------------: | :-------------: | :----------------------------------: | :-------------: |
-|    **Montaje**    |  `ngOnInit()`   |         `useEffect(..., [])`         |  `onMounted()`  |
-| **Actualización** | `ngOnChanges()` |   `useEffect(..., [dependencia])`    |    `watch()`    |
-|  **Desmontaje**   | `ngOnDestroy()` | función de limpieza de `useEffect()` | `onUnmounted()` |
+|     **Etapa**     |      **Angular**       | **React**                                                                                     | **Vue**                                                                     |
+| :---------------: | :--------------------: | :-------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
+|    **Montaje**    |      `ngOnInit()`      | `useEffect(() => { cargarProductos(); }, []);`                                                | `onMounted(() => { cargarProductos(); });`                                  |
+| **Actualización** | `ngOnChanges(changes)` | `useEffect(() => { cargarProducto(productoId); }, [productoId]);`                             | `watch(() => props.productoId, (nuevoId) => { cargarProducto(nuevoId); });` |
+|  **Desmontaje**   |    `ngOnDestroy()`     | `useEffect(() => { const sub = servicio.subscribe(); return () => sub.unsubscribe(); }, []);` | `onUnmounted(() => { subscription.unsubscribe(); });`                       |
 
 Los hooks permiten ejecutar cada operación en el momento adecuado del ciclo de vida del componente.
 
