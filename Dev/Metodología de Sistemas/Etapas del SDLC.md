@@ -31,8 +31,7 @@ Etapa donde los requerimientos se transforman en una solución técnica.
 - Diseño de entradas y salidas.
 - Seguridad y controles.
 - Especificaciones para desarrollo.
-
-[[Modelado y Gestión de Datos]]
+- [[Modelado y Gestión de Datos]]
 
 ---
 
