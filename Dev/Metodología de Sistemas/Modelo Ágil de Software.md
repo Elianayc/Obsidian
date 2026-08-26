@@ -78,7 +78,7 @@ Cada iteración genera un incremento del producto.
 
 ---
 
-[[Historias de Usuario]]
-[[Scrum]]
+- [[Historias de Usuario]]
+- [[Scrum]]
 
 ---
