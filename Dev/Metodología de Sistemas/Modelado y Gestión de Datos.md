@@ -26,7 +26,7 @@ Su finalidad es mantener consistencia, facilitar la documentación y mejorar la 
 
 ---
 
-## 3. Diagrama Entidad-Relación (DER)
+## 3. [[Diagrama Entidad - Relación (DER)]]
 - Modelo utilizado para representar la estructura lógica de los datos de un sistema.
 
 **Incluye**:

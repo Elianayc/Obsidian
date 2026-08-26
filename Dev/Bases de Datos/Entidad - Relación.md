@@ -75,6 +75,6 @@ SQL es el lenguaje utilizado en el modelo relacional para consultar y manipular 
 
 ## Representación gráfica
 
-- [[Diagrama Entidad Relación (DER)]]
+- [[Diagrama Entidad - Relación (DER)]]
 
 ---
