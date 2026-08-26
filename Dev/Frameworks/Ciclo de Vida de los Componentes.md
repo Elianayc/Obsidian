@@ -20,13 +20,25 @@ Los frameworks proporcionan **hooks de ciclo de vida**, que permiten ejecutar c�
 
 ### Hooks principales
 
-|     **Etapa**     |      **Angular**       | **React**                                                                                     | **Vue**                                                                     |
-| :---------------: | :--------------------: | :-------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------- |
-|    **Montaje**    |      `ngOnInit()`      | `useEffect(() => { cargarProductos(); }, []);`                                                | `onMounted(() => { cargarProductos(); });`                                  |
-| **Actualizaci처n** | `ngOnChanges(changes)` | `useEffect(() => { cargarProducto(productoId); }, [productoId]);`                             | `watch(() => props.productoId, (nuevoId) => { cargarProducto(nuevoId); });` |
-|  **Desmontaje**   |    `ngOnDestroy()`     | `useEffect(() => { const sub = servicio.subscribe(); return () => sub.unsubscribe(); }, []);` | `onUnmounted(() => { subscription.unsubscribe(); });`                       |
+|     **Etapa**     |      **Angular**       |
+| :---------------: | :--------------------: |
+|    **Montaje**    |      `ngOnInit()`      |
+| **Actualizaci처n** | `ngOnChanges(changes)` |
+|  **Desmontaje**   |    `ngOnDestroy()`     |
 
-Los hooks permiten ejecutar cada operaci처n en el momento adecuado del ciclo de vida del componente.
+|     **Etapa**     |                                           **React**                                           |
+| :---------------: | :-------------------------------------------------------------------------------------------: |
+|    **Montaje**    |                        `useEffect(() => { cargarProductos(); }, []);`                         |
+| **Actualizaci처n** |               `useEffect(() => { cargarProducto(productoId); }, [productoId]);`               |
+|  **Desmontaje**   | `useEffect(() => { const sub = servicio.subscribe(); return () => sub.unsubscribe(); }, []);` |
+
+|     **Etapa**     |                                   **Vue**                                   |
+| :---------------: | :-------------------------------------------------------------------------: |
+|    **Montaje**    |                 `onMounted(() => { cargarProductos(); });`                  |
+| **Actualizaci처n** | `watch(() => props.productoId, (nuevoId) => { cargarProducto(nuevoId); });` |
+|  **Desmontaje**   |            `onUnmounted(() => { subscription.unsubscribe(); });`            |
+
+hooks permiten ejecutar cada operaci처n en el momento adecuado del ciclo de vida del componente.
 
 ---
 
