@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frameworks/Componentes.md",
-                "mode": "source",
+                "file": "Frameworks/Reactividad y Estados.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Componentes"
+              "title": "Reactividad y Estados"
             }
           }
         ]
@@ -258,9 +258,9 @@
   },
   "active": "027ff966f0737317",
   "lastOpenFiles": [
-    "Servicios.md",
     "Frameworks/Componentes.md",
-    "Reactividad y Estados.md",
+    "Frameworks/Servicios.md",
+    "Frameworks/Reactividad y Estados.md",
     "Frameworks/Frameworks.md",
     "Frameworks/Binding y Eventos.md",
     "Frameworks/Ciclo de Vida de los Componentes.md",
