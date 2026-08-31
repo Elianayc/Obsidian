@@ -6,6 +6,7 @@
       {
         "id": "2846444c14e5e0df",
         "type": "tabs",
+        "dimension": 59.49781659388647,
         "children": [
           {
             "id": "027ff966f0737317",
@@ -19,7 +20,31 @@
               },
               "icon": "lucide-file",
               "title": "Reactividad y Estados"
-            }
+            },
+            "group": "cd4e1f623087fe4a"
+          }
+        ]
+      },
+      {
+        "id": "ea0e3bf591841fac",
+        "type": "tabs",
+        "dimension": 40.50218340611353,
+        "children": [
+          {
+            "id": "603acf418e31e6db",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Frameworks/Reactividad y Estados.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Reactividad y Estados"
+            },
+            "group": "cd4e1f623087fe4a"
           }
         ]
       }
