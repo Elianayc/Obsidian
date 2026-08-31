@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5,
-    "collapsed": true
+    "width": 303.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -256,12 +255,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "027ff966f0737317",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
     "Frameworks/Componentes.md",
+    "Frameworks/Binding y Eventos.md",
     "Frameworks/Ciclo de Vida de los Componentes.md",
     "Frameworks/Frameworks.md",
-    "Frameworks/Binding y Eventos.md",
     "Frameworks/Routing.md",
     "Frameworks/Renderizado de listas.md",
     "Frameworks/Props.md",
