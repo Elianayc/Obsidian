@@ -16,6 +16,8 @@ Un componente puede necesitar información proveniente de un **Backend o una API
 - Manejar errores.
 - Reintentar operaciones si es necesario.
 
+![[Pasted image 20260831123706.png]]
+
 Si toda esta lógica se coloca dentro del componente, aparecen problemas:
 
 - **Acoplamiento:** el componente queda demasiado ligado a la forma en que se obtienen los datos. Si cambia el Backend, hay que modificar los componentes.
@@ -23,6 +25,8 @@ Si toda esta lógica se coloca dentro del componente, aparecen problemas:
 - **Mantenimiento:** el código se vuelve más difícil de leer, probar y modificar.
 
 Por eso, esta responsabilidad se extrae a un **servicio**.
+
+![[Pasted image 20260831123731.png]]
 
 ---
 
