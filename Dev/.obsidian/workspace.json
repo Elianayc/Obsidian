@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5,
-    "collapsed": true
+    "width": 303.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -190,6 +189,18 @@
               "state": {},
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
+            }
+          },
+          {
+            "id": "6eed3beeaa625d58",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "Frameworks/Reactividad y Estados.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Notas al pie"
             }
           }
         ],
@@ -346,7 +357,12 @@
       "bases:Crear nueva base": false,
       "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:Nuevo Bosquejo": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "workspaces:Gestionar disposiciones de espacio de trabajo": false,
+      "audio-recorder:Iniciar/Detener la grabación": false,
+      "markdown-importer:Abrir el importador de Markdown": false,
+      "random-note:Abrir nota al azar": false,
+      "publish:Publicar cambios...": false
     }
   },
   "active": "027ff966f0737317",
