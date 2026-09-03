@@ -11,14 +11,12 @@
             "id": "027ff966f0737317",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Frameworks/Reactividad y Estados.md",
-                "mode": "preview",
-                "source": false
+                "file": "Z_Imágenes/Pasted image 20260831123731.png"
               },
-              "icon": "lucide-file",
-              "title": "Reactividad y Estados"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260831123731"
             }
           }
         ]
@@ -197,7 +195,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Frameworks/Reactividad y Estados.md"
+                "file": "Z_Imágenes/Pasted image 20260831123731.png"
               },
               "icon": "lucide-file-signature",
               "title": "Notas al pie"
@@ -365,14 +363,14 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "027ff966f0737317",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
+    "Pasted image 20260831123729.png",
+    "Z_Imágenes/Pasted image 20260831123731.png",
+    "Z_Imágenes/Pasted image 20260831123706.png",
+    "Frameworks/Reactividad y Estados.md",
     "Frameworks/Componentes.md",
     "Frameworks/Servicios.md",
-    "Pasted image 20260831123731.png",
-    "Pasted image 20260831123729.png",
-    "Pasted image 20260831123706.png",
-    "Frameworks/Reactividad y Estados.md",
     "Frameworks/Frameworks.md",
     "Frameworks/Binding y Eventos.md",
     "Frameworks/Ciclo de Vida de los Componentes.md",
