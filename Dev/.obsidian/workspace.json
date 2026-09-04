@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodología de Sistemas/Daily Scrum.md",
-                "mode": "source",
+                "file": "Javascript/Event Loop y Callbacks.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Daily Scrum"
+              "title": "Event Loop y Callbacks"
             }
           }
         ]
@@ -365,21 +365,23 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "e5e82a3c0ab485b6",
   "lastOpenFiles": [
     "Javascript/RxJS y Observables en Angular.md",
+    "Javascript/Uso de Javascript.md",
+    "Z_Imágenes/Pasted image 20260904120921.png",
+    "Pasted image 20260904121541.png",
+    "Z_Imágenes/Pasted image 20260904121735.png",
+    "Javascript/Propiedades `async` y `defer`.md",
+    "Javascript/Promesas y Async Await.md",
+    "Javascript/Llamadas HTTP Fetch y Axios.md",
+    "Javascript/Event Loop y Callbacks.md",
+    "Javascript/JavaScript.md",
+    "Javascript/Node.js.md",
+    "Metodología de Sistemas/Daily Scrum.md",
     "Metodología de Sistemas/Historias de Usuario.md",
     "Programación/Liskov Substitution Principle.md",
-    "Javascript/Promesas y Async Await.md",
     "Javascript/Procesamiento Asincrónico en JavaScript.md",
-    "Javascript/Event Loop y Callbacks.md",
-    "Javascript/Llamadas HTTP Fetch y Axios.md",
-    "Pasted image 20260904121735.png",
-    "Pasted image 20260904121541.png",
-    "Pasted image 20260904120921.png",
-    "Javascript/JavaScript.md",
-    "Javascript/Propiedades `async` y `defer`.md",
-    "Javascript/Uso de Javascript.md",
     "Frameworks/Reactividad y Estados.md",
     "Z_Imágenes/Pasted image 20260831123731.png",
     "Pasted image 20260831123729.png",
@@ -397,9 +399,6 @@
     "Bases de Datos/Diagrama Entidad - Relación (DER).md",
     "Modelado de Sistemas/Modelado de Sistemas.md",
     "Diagrama Entidad-Relación (DER).md",
-    "Bases de Datos/Entidad - Relación.md",
-    "Metodología de Sistemas/Metodología de Sistemas.md",
-    "Metodología de Sistemas/IA como Soporte.md",
     "Metodología de Sistemas",
     "Frameworks",
     "Z_Imágenes/Pasted image 20260821122513.png",
