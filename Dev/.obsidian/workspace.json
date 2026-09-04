@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Procesamiento Asincrónico en JavaScript.md",
+                "file": "Metodología de Sistemas/Daily Scrum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Procesamiento Asincrónico en JavaScript"
+              "title": "Daily Scrum"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ntidad relacion",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5,
-    "collapsed": true
+    "width": 272.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -366,16 +365,18 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "e5e82a3c0ab485b6",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
-    "Javascript/Event Loop y Callbacks.md",
+    "Javascript/RxJS y Observables en Angular.md",
+    "Metodología de Sistemas/Historias de Usuario.md",
+    "Programación/Liskov Substitution Principle.md",
+    "Javascript/Promesas y Async Await.md",
     "Javascript/Procesamiento Asincrónico en JavaScript.md",
+    "Javascript/Event Loop y Callbacks.md",
     "Javascript/Llamadas HTTP Fetch y Axios.md",
     "Pasted image 20260904121735.png",
     "Pasted image 20260904121541.png",
     "Pasted image 20260904120921.png",
-    "Javascript/Promesas y Async Await.md",
-    "Javascript/RxJS y Observables en Angular.md",
     "Javascript/JavaScript.md",
     "Javascript/Propiedades `async` y `defer`.md",
     "Javascript/Uso de Javascript.md",
@@ -399,7 +400,6 @@
     "Bases de Datos/Entidad - Relación.md",
     "Metodología de Sistemas/Metodología de Sistemas.md",
     "Metodología de Sistemas/IA como Soporte.md",
-    "Metodología de Sistemas/Human Computer Interaction (HCI).md",
     "Metodología de Sistemas",
     "Frameworks",
     "Z_Imágenes/Pasted image 20260821122513.png",
