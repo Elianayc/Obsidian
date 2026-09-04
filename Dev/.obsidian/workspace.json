@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5
+    "width": 272.5,
+    "collapsed": true
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -365,13 +366,14 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "e5e82a3c0ab485b6",
   "lastOpenFiles": [
-    "Javascript/RxJS y Observables en Angular.md",
+    "Pasted image 20260904120921.png",
     "Javascript/Procesamiento Asincrónico en JavaScript.md",
-    "Javascript/Llamadas HTTP Fetch y Axios.md",
     "Javascript/Promesas y Async Await.md",
     "Javascript/Event Loop y Callbacks.md",
+    "Javascript/RxJS y Observables en Angular.md",
+    "Javascript/Llamadas HTTP Fetch y Axios.md",
     "Javascript/JavaScript.md",
     "Javascript/Propiedades `async` y `defer`.md",
     "Javascript/Uso de Javascript.md",
@@ -396,7 +398,6 @@
     "Metodología de Sistemas/Metodología de Sistemas.md",
     "Metodología de Sistemas/IA como Soporte.md",
     "Metodología de Sistemas/Human Computer Interaction (HCI).md",
-    "Metodología de Sistemas/Historias de Usuario.md",
     "Metodología de Sistemas",
     "Frameworks",
     "Z_Imágenes/Pasted image 20260821122513.png",

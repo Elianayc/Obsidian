@@ -6,6 +6,8 @@ Cuando aparece una operación que puede tardar, como un `fetch()` o un `setTimeo
 
 Cuando la operación termina, el código pendiente queda disponible para ser ejecutado. El Event Loop se encarga de comprobar cuándo el hilo principal está disponible y permite ejecutar esas tareas.
 
+![[Pasted image 20260904120921.png]]
+
 De forma simplificada:
 
 ```text
