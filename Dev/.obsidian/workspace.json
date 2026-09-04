@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2846444c14e5e0df",
+        "id": "606c708e771234a1",
         "type": "tabs",
         "children": [
           {
-            "id": "027ff966f0737317",
+            "id": "e5e82a3c0ab485b6",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Z_Imágenes/Pasted image 20260831123731.png"
+                "file": "Javascript/Procesamiento Asincrónico en JavaScript.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260831123731"
+              "icon": "lucide-file",
+              "title": "Procesamiento Asincrónico en JavaScript"
             }
           }
         ]
@@ -81,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 272.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -363,12 +365,13 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "e5e82a3c0ab485b6",
   "lastOpenFiles": [
-    "Pasted image 20260831123729.png",
-    "Z_Imágenes/Pasted image 20260831123731.png",
-    "Z_Imágenes/Pasted image 20260831123706.png",
+    "Javascript/JavaScript.md",
     "Frameworks/Reactividad y Estados.md",
+    "Z_Imágenes/Pasted image 20260831123731.png",
+    "Pasted image 20260831123729.png",
+    "Z_Imágenes/Pasted image 20260831123706.png",
     "Frameworks/Componentes.md",
     "Frameworks/Servicios.md",
     "Frameworks/Frameworks.md",

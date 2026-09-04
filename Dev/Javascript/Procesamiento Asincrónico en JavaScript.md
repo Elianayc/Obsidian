@@ -205,3 +205,6 @@ También se puede llamar simplemente mediante:
 ```JavaScript
 displayCatFactAsync();
 ```
+
+---
+
