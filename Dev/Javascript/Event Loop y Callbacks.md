@@ -1,3 +1,4 @@
+
 ## Event Loop
 
 El **Event Loop** es el mecanismo que permite coordinar la ejecución del código asincrónico en JavaScript.
@@ -6,7 +7,7 @@ Cuando aparece una operación que puede tardar, como un `fetch()` o un `setTimeo
 
 Cuando la operación termina, el código pendiente queda disponible para ser ejecutado. El Event Loop se encarga de comprobar cuándo el hilo principal está disponible y permite ejecutar esas tareas.
 
-![[Pasted image 20260904120921.png]]
+![[Pasted image 20260904121735.png]]
 
 De forma simplificada:
 
@@ -53,6 +54,7 @@ Aunque el `setTimeout()` aparece antes de `console.log('Fin')`, JavaScript no se
 
 > **Idea clave:** JavaScript tiene un único hilo principal, pero puede delegar determinadas operaciones y continuar ejecutando código mientras espera sus resultados.
 
+
 ---
 
 ## Callbacks
@@ -80,7 +82,9 @@ En este ejemplo:
 3. La operación tarda un segundo.
 4. Cuando termina, se ejecuta el callback.
 5. El callback recibe las conversaciones.
-    
+
+![[Pasted image 20260904120921.png|681]]
+
 ---
 
 ## Callback Hell
