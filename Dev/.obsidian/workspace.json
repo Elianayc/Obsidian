@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Procesamiento Asincrónico en JavaScript.md",
+                "file": "Javascript/Event Loop y Callbacks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Procesamiento Asincrónico en JavaScript"
+              "title": "Event Loop y Callbacks"
             }
           }
         ]
@@ -365,9 +365,16 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "e5e82a3c0ab485b6",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
+    "Javascript/RxJS y Observables en Angular.md",
+    "Javascript/Procesamiento Asincrónico en JavaScript.md",
+    "Javascript/Llamadas HTTP Fetch y Axios.md",
+    "Javascript/Promesas y Async Await.md",
+    "Javascript/Event Loop y Callbacks.md",
     "Javascript/JavaScript.md",
+    "Javascript/Propiedades `async` y `defer`.md",
+    "Javascript/Uso de Javascript.md",
     "Frameworks/Reactividad y Estados.md",
     "Z_Imágenes/Pasted image 20260831123731.png",
     "Pasted image 20260831123729.png",
@@ -390,13 +397,6 @@
     "Metodología de Sistemas/IA como Soporte.md",
     "Metodología de Sistemas/Human Computer Interaction (HCI).md",
     "Metodología de Sistemas/Historias de Usuario.md",
-    "Metodología de Sistemas/Etapas del SDLC.md",
-    "Metodología de Sistemas/Equipo de Desarrollo.md",
-    "Metodología de Sistemas/Empatía en Ingeniería de Software.md",
-    "Metodología de Sistemas/Diferencias entre Enfoque Tradicional y Agile.md",
-    "Metodología de Sistemas/Diagrama de Flujo de Datos (DFD).md",
-    "Metodología de Sistemas/Criterios de Aceptación.md",
-    "Metodología de Sistemas/Ciclo de Vida del Desarrollo de Software (SDLC).md",
     "Metodología de Sistemas",
     "Frameworks",
     "Z_Imágenes/Pasted image 20260821122513.png",
