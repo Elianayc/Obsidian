@@ -112,6 +112,6 @@ La lógica puede ser correcta, pero el código se vuelve:
 - Difícil de modificar.
 - Más complicado de manejar cuando aparecen errores en cada nivel.
 
-Este problema llevó al desarrollo de una abstracción más conveniente: las **Promises**.
+Este problema llevó al desarrollo de una abstracción más conveniente: las [[Promesas y Async Await]].
 
 ---
