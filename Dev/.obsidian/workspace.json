@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes/Peticiones HTTP (Requests).md",
+                "file": "Redes/URI (Uniform Resource Identifier).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Peticiones HTTP (Requests)"
+              "title": "URI (Uniform Resource Identifier)"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes/Peticiones HTTP (Requests).md",
+                "file": "Redes/URI (Uniform Resource Identifier).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Redes/Peticiones HTTP (Requests).md",
+                "file": "Redes/URI (Uniform Resource Identifier).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,6 +366,9 @@
   },
   "active": "3904cc8df9d61c00",
   "lastOpenFiles": [
+    "Redes/Estructura de una petición HTTP.md",
+    "Redes/Peticiones HTTP (Requests).md",
+    "Redes/Ciclo de vida de una petición web.md",
     "Redes/HTTP (HyperText Transfer Protocol).md",
     "Redes/Protocolos.md",
     "Redes/TCP (Transmission Control Protocol).md",
@@ -395,9 +398,6 @@
     "Z_Imágenes/Pasted image 20260831123731.png",
     "Pasted image 20260831123729.png",
     "Z_Imágenes/Pasted image 20260831123706.png",
-    "Frameworks/Componentes.md",
-    "Frameworks/Servicios.md",
-    "Frameworks/Frameworks.md",
     "Z_Imágenes/Pasted image 20260826113030.png",
     "Metodología de Sistemas",
     "Frameworks",
