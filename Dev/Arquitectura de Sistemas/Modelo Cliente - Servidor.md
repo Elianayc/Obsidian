@@ -28,9 +28,9 @@ Algunas aplicaciones que utilizan este modelo:
 
 Un servidor no necesariamente es un único programa, proceso o máquina. Puede tener diferentes configuraciones:
 
-- **1 programa - 1 proceso.**
-- **1 programa - N procesos:** permite escalabilidad.
-- **N programas - M procesos:** múltiples programas y procesos.
+- **1 programa - 1 proceso.** *Chrome con una ventana.*
+- **1 programa - N procesos:** permite escalabilidad. *Chrome con varias ventanas.*
+- **N programas - M procesos:** múltiples programas y procesos. *Chrome con varias ventanas + Spotify con varios procesos.*
 
 ![[Pasted image 20260804121953.png]]
 
