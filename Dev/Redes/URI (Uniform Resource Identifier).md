@@ -26,14 +26,15 @@ Una **URI** es una cadena de caracteres que permite **identificar un recurso de 
   - Ejemplo: `#contacto`
 
 ---
+
 ### Tipos de URI
 
-- **[[URL (Uniform Resource Locator)]] (Uniform Resource Locator)**
+- **[[URL (Uniform Resource Locator)]]
 
-![[Pasted image 20260804140456.png]]
-![[Pasted image 20260804140435.png]]
-![[Pasted image 20260804140519.png]]
+![[Pasted image 20260804140456.png|587]]
+![[Pasted image 20260804140435.png|587]]
+![[Pasted image 20260804140519.png|587]]
 
-- **[[URN (Uniform Resource Name)]] (Uniform Resource Name)**
+- **[[URN (Uniform Resource Name)]]
 
 ---
