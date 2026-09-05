@@ -39,8 +39,13 @@ HTTP + TLS = HTTPS
 ```
 
 
-> [!NOTE]
-> ### HTTP sin HTTPS
+> [!question] #### ¿Qué hace HTTPS?
+> 
+> HTTPS hace que la comunicación entre tu navegador y el servidor sea **cifrada y autenticada** mediante TLS.
+> 
+> Pensalo así:
+> 
+> ##### HTTP sin HTTPS
 > 
 > ```text
 > Vos ──────── HTTP ────────→ Servidor
@@ -49,7 +54,7 @@ HTTP + TLS = HTTPS
 > 
 > Los datos viajan sin cifrar. Si alguien logra interceptar la comunicación, podría leerlos.
 > 
-> ### HTTPS
+> ##### HTTPS
 > 
 > ```text
 > Vos ──── HTTPS (HTTP + TLS) ────→ Servidor
@@ -68,7 +73,7 @@ HTTP + TLS = HTTPS
 > - **Autenticación del servidor:** mediante certificados digitales, el navegador puede verificar que está comunicándose con el servidor correspondiente al dominio.
 >     
 > 
-> ### Entonces, ¿qué cambia?
+> ##### Entonces, ¿qué cambia?
 > 
 > **HTTP** define **cómo se comunican** cliente y servidor.
 > 
