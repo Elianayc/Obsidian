@@ -6,7 +6,7 @@ El proceso implica una comunicación entre el **cliente** y el **servidor**, don
 
 ---
 
-- [[Ciclo de vida de una petición web]]
 - [[Estructura de una petición HTTP]]
+- [[Ciclo de vida de una petición web]]
 
 ---
