@@ -5,7 +5,6 @@ Cuando un usuario ingresa una URL en el navegador, ocurre una serie de pasos par
 ## 1. Resolución DNS
 
 El navegador obtiene la **dirección IP** del servidor donde se encuentra el recurso solicitado.
-
 Para esto utiliza **DNS (Domain Name System)**, que traduce un nombre de dominio en una dirección IP.
 
 **Ejemplo:*
@@ -20,7 +19,6 @@ Para esto utiliza **DNS (Domain Name System)**, que traduce un nombre de dominio
 ## 2. Establecimiento de la conexión
 
 Una vez obtenida la dirección IP, el navegador establece una conexión con el servidor utilizando **TCP**.
-
 TCP permite transportar los datos de manera confiable y controla su envío para asegurar que lleguen correctamente.
 
 ---
