@@ -64,7 +64,7 @@ Luego envía la respuesta al cliente.
 
 ## 6. Procesamiento del navegador
 
-El navegador interpreta la respuesta recibida. (Frontend)
+El navegador interpreta la respuesta recibida. 
 
 Si recibe una página web:
 - Procesa **HTML** para crear la estructura.
@@ -75,7 +75,7 @@ Si recibe una página web:
 
 ## 7. Presentación del recurso
 
-Finalmente, el navegador muestra el contenido solicitado al usuario.
+Finalmente, el navegador muestra el contenido solicitado al usuario. (Frontend)
 
 Este proceso se repite cada vez que el navegador solicita un nuevo recurso web.
 
