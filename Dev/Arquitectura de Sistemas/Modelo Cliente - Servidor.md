@@ -28,9 +28,9 @@ Algunas aplicaciones que utilizan este modelo:
 
 Un servidor no necesariamente es un único programa, proceso o máquina. Puede tener diferentes configuraciones:
 
-- **1 programa - 1 proceso.** *Chrome con una ventana.*
-- **1 programa - N procesos:** permite escalabilidad. *Chrome con varias ventanas.*
-- **N programas - M procesos:** múltiples programas y procesos. *Chrome con varias ventanas + Spotify con varios procesos.*
+- **1 programa - 1 proceso.** 
+- **1 programa - N procesos:** permite escalabilidad.
+- **N programas - M procesos:** múltiples programas y procesos.
 
 ![[Pasted image 20260804121953.png]]
 
@@ -46,16 +46,14 @@ A partir de este modelo pueden desarrollarse arquitecturas con más capas, incor
 - Capa de negocio.
 - Capa de seguridad.
 
-Para una explicación más detallada de la separación de responsabilidades por capas ver Arquitectura de Capas.
+Para una explicación más detallada de la separación de responsabilidades por capas ver [[Arquitectura en Capas]].
 
 ---
 
 ## Ventajas
 
 - **Control centralizado:** el servidor puede gestionar solicitudes de varios clientes al mismo tiempo, centralizando recursos y datos.
-
 - **Escalabilidad:** permite agregar más clientes o servidores sin afectar todo el sistema.
-
 - **Seguridad de los datos:** los servidores pueden incorporar controles de seguridad para proteger información sensible.
 
 ---
@@ -63,9 +61,7 @@ Para una explicación más detallada de la separación de responsabilidades por 
 ## Desventajas
 
 - **Único punto de fallo:** si el servidor deja de funcionar, los clientes pueden perder el acceso a los servicios y datos.
-
 - **Dependencia de la red:** problemas de conectividad pueden afectar el rendimiento del sistema.
-
 - **Consumo de recursos:** los servidores necesitan recursos suficientes para atender múltiples clientes, aumentando los costos de infraestructura.
 
 ---
