@@ -64,7 +64,7 @@ Luego envía la respuesta al cliente.
 
 ## 6. Procesamiento del navegador
 
-El navegador interpreta la respuesta recibida.
+El navegador interpreta la respuesta recibida. (Frontend)
 
 Si recibe una página web:
 - Procesa **HTML** para crear la estructura.
