@@ -14,7 +14,7 @@ Es la base de la comunicación entre **clientes y servidores** para intercambiar
 
 La comunicación HTTP se realiza mediante un intercambio de **mensajes**:
 
-- **Peticiones HTTP (Requests)**: mensajes enviados por el cliente, normalmente solicitando un recurso o una operación.
+- **[[Peticiones HTTP (Requests)]]**: mensajes enviados por el cliente, normalmente solicitando un recurso o una operación.
 - **Respuestas HTTP (Responses):** mensajes enviados por el servidor con el recurso solicitado o información sobre el resultado de la solicitud.
 
 El funcionamiento básico es:
