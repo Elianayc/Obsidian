@@ -5,7 +5,7 @@ Qué hace el TCP
 - **Divide los datos:** Parte la información en pequeños fragmentos llamados paquetes antes de enviarlos.
 - **Garantiza la entrega:** Comprueba que todos los paquetes lleguen al destino sin errores y en el orden correcto.
 - **Reenvía pérdidas:** Si un paquete se pierde en el camino, TCP pide que se vuelva a enviar.
-- **Establece conexión:** Crea una sesión activa entre el emisor y el receptor antes de transferir datos (similar a una llamada telefónica).]
+- **Establece conexión:** Crea una sesión activa entre el emisor y el receptor antes de transferir datos (similar a una llamada telefónica).
 
 Diferencia entre TCP e IP
 
