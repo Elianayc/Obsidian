@@ -28,6 +28,7 @@ TCP permite transportar los datos de manera confiable y controla su envío para 
 El navegador crea una **petición HTTP** con la información necesaria para comunicarse con el servidor.
 
 La petición puede incluir:
+
 - Recurso solicitado.
 - Información del navegador (_User-Agent_).
 - Preferencias de idioma y codificación.
