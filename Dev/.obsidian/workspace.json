@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes/URN (Uniform Resource Name).md",
+                "file": "Redes/URI (Uniform Resource Identifier).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "URN (Uniform Resource Name)"
+              "title": "URI (Uniform Resource Identifier)"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes/URN (Uniform Resource Name).md",
+                "file": "Redes/URI (Uniform Resource Identifier).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Redes/URN (Uniform Resource Name).md",
+                "file": "Redes/URI (Uniform Resource Identifier).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,6 +366,7 @@
   },
   "active": "3904cc8df9d61c00",
   "lastOpenFiles": [
+    "Redes/URN (Uniform Resource Name).md",
     "Redes/URI (Uniform Resource Identifier).md",
     "Redes/URL (Uniform Resource Locator).md",
     "Redes/Estructura de una petición HTTP.md",
@@ -394,7 +395,6 @@
     "Javascript/Node.js.md",
     "Metodología de Sistemas/Daily Scrum.md",
     "Metodología de Sistemas/Historias de Usuario.md",
-    "Programación/Liskov Substitution Principle.md",
     "Z_Imágenes/Pasted image 20260831123731.png",
     "Pasted image 20260831123729.png",
     "Z_Imágenes/Pasted image 20260831123706.png",
