@@ -40,9 +40,10 @@ Luego, la petición HTTP se envía al servidor.
 
 ## 4. Procesamiento del servidor
 
-El servidor recibe la petición y determina cómo responder.
+El servidor recibe la petición y determina cómo responder. (Backend)
 
 Puede:
+
 - Entregar un archivo estático como HTML, CSS o una imagen.
 - Ejecutar código para generar contenido dinámico.
 - Validar autenticación y permisos.

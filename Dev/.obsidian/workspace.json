@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Redes/Ciclo de vida de una petición web.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 327.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
