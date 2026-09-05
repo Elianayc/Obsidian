@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/HTML (HyperText Markup Language).md",
+                "file": "Redes/World Wide Web (WWW).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTML (HyperText Markup Language)"
+              "title": "World Wide Web (WWW)"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/HTML (HyperText Markup Language).md",
+                "file": "Redes/World Wide Web (WWW).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HTML/HTML (HyperText Markup Language).md",
+                "file": "Redes/World Wide Web (WWW).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,6 +366,7 @@
   },
   "active": "3904cc8df9d61c00",
   "lastOpenFiles": [
+    "HTML/HTML (HyperText Markup Language).md",
     "Redes/World Wide Web (WWW).md",
     "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
     "Arquitectura de Sistemas/Servidor Web.md",
@@ -392,7 +393,6 @@
     "Redes/Body.md",
     "Redes/URI (Uniform Resource Identifier).md",
     "Redes/URN (Uniform Resource Name).md",
-    "Redes/URL (Uniform Resource Locator).md",
     "Z_Imágenes/Pasted image 20260904120921.png",
     "Pasted image 20260904121541.png",
     "Z_Imágenes/Pasted image 20260904121735.png",
