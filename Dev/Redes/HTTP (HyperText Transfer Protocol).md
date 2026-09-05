@@ -38,6 +38,48 @@ Cuando HTTP utiliza **TLS** para cifrar la comunicación, se obtiene **HTTPS (HT
 HTTP + TLS = HTTPS
 ```
 
+
+> [!NOTE]
+> ### HTTP sin HTTPS
+> 
+> ```text
+> Vos ──────── HTTP ────────→ Servidor
+>        "Mi contraseña es 1234"
+> ```
+> 
+> Los datos viajan sin cifrar. Si alguien logra interceptar la comunicación, podría leerlos.
+> 
+> ### HTTPS
+> 
+> ```text
+> Vos ──── HTTPS (HTTP + TLS) ────→ Servidor
+>               🔒
+>        "x7$kP9#..." 
+> ```
+> 
+> TLS cifra los datos antes de enviarlos. Un tercero que los intercepte no debería poder entender su contenido.
+> 
+> Además, TLS proporciona:
+> 
+> - **Confidencialidad:** terceros no pueden leer fácilmente los datos transmitidos.
+>     
+> - **Integridad:** permite detectar si los datos fueron modificados durante el tránsito.
+>     
+> - **Autenticación del servidor:** mediante certificados digitales, el navegador puede verificar que está comunicándose con el servidor correspondiente al dominio.
+>     
+> 
+> ### Entonces, ¿qué cambia?
+> 
+> **HTTP** define **cómo se comunican** cliente y servidor.
+> 
+> **TLS** protege esa comunicación.
+> 
+> Por eso:
+> 
+> > **HTTPS = HTTP funcionando sobre una conexión protegida por TLS.**
+> 
+> Y algo importante para tu apunte: **HTTPS no es un protocolo completamente diferente de HTTP**. Es HTTP utilizando TLS para proteger la comunicación.
+
 ---
 
 ## Métodos HTTP
