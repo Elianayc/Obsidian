@@ -9,6 +9,7 @@ Un **servidor web** funciona atendiendo solicitudes de clientes (por ejemplo, na
 El cliente envía una solicitud HTTP al servidor indicando el recurso que desea obtener mediante una **URL**.
 
 La solicitud puede incluir información adicional del cliente, como:
+
 - Tipo de navegador.
 - Preferencias de idioma.
 - Datos de autenticación.

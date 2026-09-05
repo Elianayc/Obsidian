@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
+                "file": "HTML/HTML (HyperText Markup Language).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modelo Cliente - Servidor"
+              "title": "HTML (HyperText Markup Language)"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
+                "file": "HTML/HTML (HyperText Markup Language).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
+                "file": "HTML/HTML (HyperText Markup Language).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,9 +366,12 @@
   },
   "active": "3904cc8df9d61c00",
   "lastOpenFiles": [
-    "Arquitectura de Sistemas/Arquitectura en Capas.md",
-    "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
     "Redes/World Wide Web (WWW).md",
+    "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
+    "Arquitectura de Sistemas/Servidor Web.md",
+    "Arquitectura de Sistemas/Funcionamiento de un Servidor Web.md",
+    "Arquitectura de Sistemas/Tipos de Servidores.md",
+    "Arquitectura de Sistemas/Arquitectura en Capas.md",
     "Redes/Protocolos.md",
     "Redes/SOAP (Simple Object Access Protocol).md",
     "Redes/MQTT (Message Queuing Telemetry Transport).md",
@@ -390,9 +393,6 @@
     "Redes/URI (Uniform Resource Identifier).md",
     "Redes/URN (Uniform Resource Name).md",
     "Redes/URL (Uniform Resource Locator).md",
-    "Redes/TCP (Transmission Control Protocol).md",
-    "Redes/TCP (Transmission Control Protocol) - IP (Internet Protocol).md",
-    "Redes/DNS (Domain Name System).md",
     "Z_Imágenes/Pasted image 20260904120921.png",
     "Pasted image 20260904121541.png",
     "Z_Imágenes/Pasted image 20260904121735.png",
