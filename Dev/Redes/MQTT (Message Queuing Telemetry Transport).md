@@ -10,6 +10,7 @@ Es utilizado principalmente en **[[Internet de las Cosas (IoT)]]**.
 Funciona sobre **TCP/IP**.
 
 Puertos:
+
 - **1883:** sin cifrado.
 - **8883:** con TLS.
 
