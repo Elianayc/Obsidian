@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes/Header.md",
+                "file": "Redes/State.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Header"
+              "title": "State"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes/Header.md",
+                "file": "Redes/State.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Redes/Header.md",
+                "file": "Redes/State.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,8 +367,11 @@
   "active": "3904cc8df9d61c00",
   "lastOpenFiles": [
     "Redes/Estructura de una petición HTTP.md",
-    "Pasted image 20260905174032.png",
+    "Redes/Parameters.md",
+    "Redes/Method.md",
+    "Redes/Body.md",
     "Redes/Header.md",
+    "Pasted image 20260905174032.png",
     "Redes/URI (Uniform Resource Identifier).md",
     "Redes/URN (Uniform Resource Name).md",
     "Redes/URL (Uniform Resource Locator).md",
@@ -393,8 +396,6 @@
     "Javascript/Propiedades `async` y `defer`.md",
     "Javascript/Promesas y Async Await.md",
     "Javascript/Llamadas HTTP Fetch y Axios.md",
-    "Javascript/JavaScript.md",
-    "Javascript/Node.js.md",
     "Z_Imágenes/Pasted image 20260831123731.png",
     "Pasted image 20260831123729.png",
     "Z_Imágenes/Pasted image 20260831123706.png",

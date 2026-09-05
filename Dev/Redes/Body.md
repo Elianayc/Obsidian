@@ -1,7 +1,6 @@
 El **body** contiene información enviada al servidor para ser procesada.
 
 Generalmente se utiliza con:
-
 - **POST:** creación de recursos.
 - **PUT:** actualización completa.
 - **PATCH:** actualización parcial.

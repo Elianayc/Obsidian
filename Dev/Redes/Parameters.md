@@ -1,4 +1,4 @@
-Los parámetros permiten enviar información adicional dentro de una URL.
+Los parámetros permiten enviar información adicional dentro de una URL. 
 
 **Utilizan una estructura de clave-valor**:
 
