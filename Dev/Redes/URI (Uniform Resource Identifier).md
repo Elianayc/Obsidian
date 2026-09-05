@@ -4,7 +4,7 @@ Una **URI** es una cadena de caracteres que permite **identificar un recurso de 
 
 ### Componentes de una URI
 
-![[Pasted image 20260804135748.png]]
+![[Pasted image 20260804135748.png|622]]
 
 **Una URI puede estar formada por**:
 
