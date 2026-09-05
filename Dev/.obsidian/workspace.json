@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes/State.md",
+                "file": "Redes/Cookies.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "State"
+              "title": "Cookies"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes/State.md",
+                "file": "Redes/Cookies.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Redes/State.md",
+                "file": "Redes/Cookies.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,12 +366,14 @@
   },
   "active": "3904cc8df9d61c00",
   "lastOpenFiles": [
+    "Z_Imágenes/Pasted image 20260905174032.png",
+    "Redes/Header.md",
+    "Redes/Cookies.md",
+    "Redes/State.md",
     "Redes/Estructura de una petición HTTP.md",
     "Redes/Parameters.md",
     "Redes/Method.md",
     "Redes/Body.md",
-    "Redes/Header.md",
-    "Pasted image 20260905174032.png",
     "Redes/URI (Uniform Resource Identifier).md",
     "Redes/URN (Uniform Resource Name).md",
     "Redes/URL (Uniform Resource Locator).md",
@@ -393,9 +395,6 @@
     "Z_Imágenes/Pasted image 20260904120921.png",
     "Pasted image 20260904121541.png",
     "Z_Imágenes/Pasted image 20260904121735.png",
-    "Javascript/Propiedades `async` y `defer`.md",
-    "Javascript/Promesas y Async Await.md",
-    "Javascript/Llamadas HTTP Fetch y Axios.md",
     "Z_Imágenes/Pasted image 20260831123731.png",
     "Pasted image 20260831123729.png",
     "Z_Imágenes/Pasted image 20260831123706.png",

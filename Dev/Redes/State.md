@@ -2,7 +2,7 @@ HTTP es un protocolo **sin estado (*stateless*)**, es decir, cada petición es i
 
 Para mantener información entre solicitudes se utilizan mecanismos adicionales como:
 
-- Cookies.
+- [[Cookies]].
 - Sesiones.
 - Tokens de autenticación.
 
