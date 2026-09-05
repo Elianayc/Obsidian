@@ -39,6 +39,8 @@ El tiempo durante el cual una respuesta permanece almacenada se llama **TTL (Tim
 
 Gracias a la caché, si varios usuarios consultan el mismo dominio, la respuesta puede entregarse rápidamente sin volver a consultar todos los servidores DNS.
 
+> **La caché DNS no está en un único lugar:** puede existir en el dispositivo del usuario, en el router y, especialmente, en los servidores DNS recursivos. El TTL indica cuánto tiempo puede utilizarse una respuesta almacenada antes de tener que consultarla nuevamente.
+
 ---
 
 ## Importancia del DNS
