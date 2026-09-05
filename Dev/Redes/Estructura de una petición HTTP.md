@@ -2,6 +2,8 @@ Una petición **HTTP (*request*)** es un conjunto de datos que sigue las reglas 
 
 Tanto las peticiones como las respuestas utilizan una estructura similar basada en headers y body. La diferencia está en la información que contienen y en el momento de la comunicación en que aparecen.
 
+![[Pasted image 20260905174032.png|375]]
+
 **Una petición puede contener**:
 
 - **[[URI (Uniform Resource Identifier)]]:** indica el recurso solicitado.

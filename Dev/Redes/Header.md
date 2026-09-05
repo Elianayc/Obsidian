@@ -10,9 +10,7 @@ Permiten transportar información como:
 
 > [!example]
 > **User-Agent**: navegador utilizado  
-> 
 > **Content-Type**: formato del contenido  
-> 
 > **Cookie**: información almacenada del usuario
 
 
