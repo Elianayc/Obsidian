@@ -5,7 +5,7 @@ Utiliza un modelo de:
 - **Publicación:** un dispositivo envía mensajes a un tema (*topic*).
 - **Suscripción:** otros dispositivos reciben mensajes de ese tema.
 
-Es utilizado principalmente en **Internet de las Cosas (IoT)**.
+Es utilizado principalmente en **[[Internet de las Cosas (IoT)]]**.
 
 Funciona sobre **TCP/IP**.
 
