@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Event Loop y Callbacks.md",
-                "mode": "preview",
+                "file": "Backend/API REST.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Event Loop y Callbacks"
+              "title": "API REST"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "backend",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -365,8 +365,20 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "e5e82a3c0ab485b6",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
+    "Backend/Backend.md",
+    "Backend/Seguridad de APIs.md",
+    "Backend/Autenticación y autorización.md",
+    "Backend/API REST.md",
+    "Backend",
+    "Arquitectura de Sistemas/Modelo frontend y backend.md",
+    "Metodología de Sistemas/Pruebas de Software.md",
+    "Metodología de Sistemas/Historias de Usuario.md",
+    "Metodología de Sistemas/Requerimientos.md",
+    "Metodología de Sistemas/Usuarios del Sistema.md",
+    "Metodología de Sistemas/Sprint Review.md",
+    "Javascript/Event Loop y Callbacks.md",
     "Z_Imágenes/Pasted image 20260905174032.png",
     "Redes/Cookies.md",
     "Arquitectura de Sistemas/Internet de las Cosas (IoT).md",
@@ -378,11 +390,9 @@
     "Javascript/Propiedades `async` y `defer`.md",
     "Javascript/Promesas y Async Await.md",
     "Javascript/Llamadas HTTP Fetch y Axios.md",
-    "Javascript/Event Loop y Callbacks.md",
     "Javascript/JavaScript.md",
     "Javascript/Node.js.md",
     "Metodología de Sistemas/Daily Scrum.md",
-    "Metodología de Sistemas/Historias de Usuario.md",
     "Programación/Liskov Substitution Principle.md",
     "Javascript/Procesamiento Asincrónico en JavaScript.md",
     "Frameworks/Reactividad y Estados.md",
@@ -391,20 +401,11 @@
     "Z_Imágenes/Pasted image 20260831123706.png",
     "Frameworks/Componentes.md",
     "Frameworks/Servicios.md",
-    "Frameworks/Frameworks.md",
-    "Frameworks/Binding y Eventos.md",
-    "Frameworks/Ciclo de Vida de los Componentes.md",
-    "Frameworks/Routing.md",
-    "Frameworks/Renderizado de listas.md",
-    "Frameworks/Props.md",
-    "Metodología de Sistemas/Modelado y Gestión de Datos.md",
     "Z_Imágenes/Pasted image 20260826113030.png",
-    "Bases de Datos/Diagrama Entidad - Relación (DER).md",
     "Metodología de Sistemas",
     "Frameworks",
     "Z_Imágenes/Pasted image 20260821122513.png",
     "Z_Imágenes/Pasted image 20260821121524.png",
-    "Z_Imágenes/Pasted image 20260821122410.png",
     "Javascript",
     "Typescript",
     "CSS",
@@ -412,7 +413,6 @@
     "Sin título.base",
     "Modelado de Sistemas",
     "TCP",
-    "Redes",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]
