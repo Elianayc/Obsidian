@@ -11,14 +11,10 @@
             "id": "e5e82a3c0ab485b6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Seguridad de APIs.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Seguridad de APIs"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -365,8 +361,21 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "e5e82a3c0ab485b6",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
+    "Bases de Datos/Sort Aggregate - Group Aggregate.md",
+    "Aggregation Methods.md",
+    "Backend/Checkilst de Seguridad para APIs.md",
+    "Backend/Seguridad de APIs.md",
+    "Backend/CORS.md",
+    "Backend/RBAC.md",
+    "Backend/Autenticación y autorización.md",
+    "Backend/JWT.md",
+    "Backend/Digest Authentication.md",
+    "Backend/Basic Authentication.md",
+    "Backend/Validación de Inputs.md",
+    "Backend/Rate Limiting y Throttling.md",
+    "Backend/HTTPS.md",
     "Backend/Backend.md",
     "Backend/API REST.md",
     "Backend/Representaciones de Recursos.md",
@@ -375,25 +384,12 @@
     "Backend/Idempotencia.md",
     "Backend/Recursos y URLs.md",
     "Backend/Diseño de APIs REST.md",
-    "Backend/CORS.md",
-    "Backend/JWT.md",
     "Backend/Headers de Seguridad.md",
-    "Backend/Digest Authentication.md",
-    "Backend/Checkilst de Seguridad para APIs.md",
-    "Backend/Basic Authentication.md",
-    "Backend/Autenticación y autorización.md",
-    "Backend/Validación de Inputs.md",
-    "Backend/Seguridad de APIs.md",
-    "Backend/HTTPS.md",
-    "Backend/RBAC.md",
     "Autenticación.md",
-    "Backend/Rate Limiting y Throttling.md",
     "Backend",
     "Arquitectura de Sistemas/Modelo frontend y backend.md",
     "Metodología de Sistemas/Pruebas de Software.md",
     "Metodología de Sistemas/Historias de Usuario.md",
-    "Metodología de Sistemas/Requerimientos.md",
-    "Metodología de Sistemas/Usuarios del Sistema.md",
     "Z_Imágenes/Pasted image 20260905174032.png",
     "Z_Imágenes/Pasted image 20260904120921.png",
     "Pasted image 20260904121541.png",

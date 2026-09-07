@@ -3,9 +3,9 @@
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": true,
+  "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"Arquitectura de Sistemas\"  ",
@@ -18,84 +18,91 @@
       "query": "path:\"Bases de Datos\"  ",
       "color": {
         "a": 1,
-        "rgb": 14516825
+        "rgb": 14654263
       }
     },
     {
       "query": "path:CSS",
       "color": {
         "a": 1,
-        "rgb": 14654263
+        "rgb": 4827034
       }
     },
     {
       "query": "path:Frameworks  ",
       "color": {
         "a": 1,
-        "rgb": 4827034
+        "rgb": 4233290
       }
     },
     {
       "query": "path:HTML  ",
       "color": {
         "a": 1,
-        "rgb": 4233290
+        "rgb": 11244069
       }
     },
     {
       "query": "path: Javascript  ",
       "color": {
         "a": 1,
-        "rgb": 11244069
+        "rgb": 13663942
       }
     },
     {
       "query": "path: \"Modelado de Sistemas\"  ",
       "color": {
         "a": 1,
-        "rgb": 7450715
+        "rgb": 7569612
       }
     },
     {
       "query": "path: Programación  ",
       "color": {
         "a": 1,
-        "rgb": 7569612
+        "rgb": 10905059
       }
     },
     {
       "query": "path:Redes  ",
       "color": {
         "a": 1,
-        "rgb": 10905059
+        "rgb": 14381941
       }
     },
     {
       "query": "path:Typescript  ",
       "color": {
         "a": 1,
-        "rgb": 14381941
+        "rgb": 5552298
       }
     },
     {
       "query": "path: Z_Imágenes  ",
       "color": {
         "a": 1,
-        "rgb": 8280233
+        "rgb": 14192416
       }
     },
     {
       "query": "path: Z_Excalidraw  ",
       "color": {
         "a": 1,
-        "rgb": 5552298
+        "rgb": 8280233
       }
     },
     {
       "query": "path:\"Metodología de Sistemas\"  ",
       "color": {
         "a": 1,
-        "rgb": 13663942
+        "rgb": 7569612
+      }
+    },
+    {
+      "query": "path:Backend  ",
+      "color": {
+        "a": 1,
+        "rgb": 14516825
       }
     }
   ],
@@ -109,6 +116,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.22920135941748007,
-  "close": false
+  "scale": 0.16348370567219556,
+  "close": true
 }
