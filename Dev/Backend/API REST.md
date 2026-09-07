@@ -5,6 +5,4 @@ Principales conceptos:
 - [[Diseño de APIs REST]]
 - [[Recursos y URLs]]
 - [[Métodos HTTP y CRUD]]
-- [[Idempotencia]]
 - [[Versionado de APIs REST]]
-- [[Representaciones de Recursos]]
