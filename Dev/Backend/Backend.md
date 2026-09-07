@@ -45,7 +45,6 @@ Luego, según el resultado, devuelve una respuesta al Frontend, por ejemplo indi
 ## Temas relacionados
 
 - [[API REST]]
-- [[Autenticación y autorización]]
 - [[Seguridad de APIs]]
     
 
