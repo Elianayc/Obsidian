@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JWT.md",
+                "file": "Backend/Seguridad de APIs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JWT"
+              "title": "Seguridad de APIs"
             }
           }
         ]
@@ -367,19 +367,19 @@
   },
   "active": "e5e82a3c0ab485b6",
   "lastOpenFiles": [
+    "Backend/Backend.md",
+    "Backend/Autenticación y autorización.md",
+    "Backend/API REST.md",
     "Autenticación.md",
     "JWT.md",
     "Digest Authentication.md",
     "Basic Authentication.md",
-    "Backend/Autenticación y autorización.md",
-    "Backend/API REST.md",
     "Representaciones de Recursos.md",
     "Métodos HTTP y CRUD.md",
     "Idempotencia.md",
     "Recursos y URLs.md",
     "Versionado de APIs REST.md",
     "Diseño de APIs REST.md",
-    "Backend/Backend.md",
     "Backend/Seguridad de APIs.md",
     "Backend",
     "Arquitectura de Sistemas/Modelo frontend y backend.md",

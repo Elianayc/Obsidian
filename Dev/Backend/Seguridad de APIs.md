@@ -1,5 +1,3 @@
-## Seguridad de APIs
-
 La seguridad del Backend requiere distintas capas de protección:
 
 - [[HTTPS]]
