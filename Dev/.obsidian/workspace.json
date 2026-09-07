@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Validación de Inputs.md",
+                "file": "Backend/Métodos HTTP y CRUD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Validación de Inputs"
+              "title": "Métodos HTTP y CRUD"
             }
           }
         ]
@@ -55,8 +55,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "https",
-                "matchingCase": true,
+                "query": "crud",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -365,23 +365,23 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "e5e82a3c0ab485b6",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
-    "Backend/Seguridad de APIs.md",
-    "Backend/API REST.md",
-    "Backend/JWT.md",
-    "Backend/HTTPS.md",
+    "Backend/Headers de Seguridad.md",
     "Backend/Diseño de APIs REST.md",
     "Backend/Digest Authentication.md",
     "Backend/CORS.md",
     "Backend/Checkilst de Seguridad para APIs.md",
     "Backend/Basic Authentication.md",
-    "Backend/Autenticación y autorización.md",
     "Backend/Backend.md",
-    "Backend/Headers de Seguridad.md",
+    "Backend/Autenticación y autorización.md",
+    "Backend/API REST.md",
+    "Backend/Validación de Inputs.md",
+    "Backend/Seguridad de APIs.md",
+    "Backend/JWT.md",
+    "Backend/HTTPS.md",
     "Backend/RBAC.md",
     "Autenticación.md",
-    "Backend/Validación de Inputs.md",
     "Backend/Rate Limiting y Throttling.md",
     "Backend/Representaciones de Recursos.md",
     "Backend/Métodos HTTP y CRUD.md",

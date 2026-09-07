@@ -3,13 +3,13 @@ Los métodos HTTP indican la **operación que se quiere realizar sobre un recurs
 
 Se relacionan con las operaciones básicas de **CRUD**:
 
-|Método|CRUD|Acción|Descripción|
-|---|---|---|---|
-|`GET`|Read|Leer|Obtener uno o varios recursos|
-|`POST`|Create|Crear|Crear un recurso|
-|`PUT`|Update|Modificar|Modificar completamente un recurso|
-|`PATCH`|Update|Modificar|Modificar parcialmente un recurso|
-|`DELETE`|Delete|Eliminar|Eliminar un recurso|
+|  Método  |  CRUD  |  Acción   |            Descripción             |
+| :------: | :----: | :-------: | :--------------------------------: |
+|  `GET`   |  Read  |   Leer    |   Obtener uno o varios recursos    |
+|  `POST`  | Create |   Crear   |          Crear un recurso          |
+|  `PUT`   | Update | Modificar | Modificar completamente un recurso |
+| `PATCH`  | Update | Modificar | Modificar parcialmente un recurso  |
+| `DELETE` | Delete | Eliminar  |        Eliminar un recurso         |
 
 ##### Ejemplos
 
