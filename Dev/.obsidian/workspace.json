@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Versionado de APIs REST.md",
+                "file": "JWT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Versionado de APIs REST"
+              "title": "JWT"
             }
           }
         ]
@@ -367,12 +367,20 @@
   },
   "active": "e5e82a3c0ab485b6",
   "lastOpenFiles": [
+    "Autenticación.md",
+    "JWT.md",
+    "Digest Authentication.md",
+    "Basic Authentication.md",
+    "Backend/Autenticación y autorización.md",
     "Backend/API REST.md",
+    "Representaciones de Recursos.md",
+    "Métodos HTTP y CRUD.md",
+    "Idempotencia.md",
+    "Recursos y URLs.md",
     "Versionado de APIs REST.md",
     "Diseño de APIs REST.md",
     "Backend/Backend.md",
     "Backend/Seguridad de APIs.md",
-    "Backend/Autenticación y autorización.md",
     "Backend",
     "Arquitectura de Sistemas/Modelo frontend y backend.md",
     "Metodología de Sistemas/Pruebas de Software.md",
@@ -390,14 +398,6 @@
     "Pasted image 20260904121541.png",
     "Z_Imágenes/Pasted image 20260904121735.png",
     "Javascript/Propiedades `async` y `defer`.md",
-    "Javascript/Promesas y Async Await.md",
-    "Javascript/Llamadas HTTP Fetch y Axios.md",
-    "Javascript/JavaScript.md",
-    "Javascript/Node.js.md",
-    "Metodología de Sistemas/Daily Scrum.md",
-    "Programación/Liskov Substitution Principle.md",
-    "Javascript/Procesamiento Asincrónico en JavaScript.md",
-    "Frameworks/Reactividad y Estados.md",
     "Z_Imágenes/Pasted image 20260831123731.png",
     "Pasted image 20260831123729.png",
     "Z_Imágenes/Pasted image 20260831123706.png",

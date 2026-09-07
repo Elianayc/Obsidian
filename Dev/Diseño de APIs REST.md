@@ -122,7 +122,7 @@ Las más habituales son:
 - **JSON**
 - **XML**
     
-Ver [[Representaciones de recursos]].
+Ver [[Representaciones de Recursos]].
 
 ---
 

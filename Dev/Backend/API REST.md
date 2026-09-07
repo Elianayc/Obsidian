@@ -7,4 +7,4 @@ Principales conceptos:
 - [[Métodos HTTP y CRUD]]
 - [[Idempotencia]]
 - [[Versionado de APIs REST]]
-- [[Representaciones de recursos]]
+- [[Representaciones de Recursos]]
