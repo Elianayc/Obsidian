@@ -7,7 +7,7 @@ La clase presenta dos estrategias principales:
 
 ---
 
-### URL-Based Versioning
+### 1. URL-Based Versioning
 
 Consiste en incluir la versión directamente en la URL.
 Es la estrategia **recomendada**.
@@ -54,7 +54,7 @@ Una estructura posible:
 
 ---
 
-### Versionado mediante parámetros enviados en el request
+### 2. Versionado mediante parámetros enviados en el request
 
 Consiste en indicar la versión de la API mediante un **parámetro de la solicitud HTTP**, en lugar de incluir la versión directamente en la URL.
 
