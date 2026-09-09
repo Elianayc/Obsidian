@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Validación de Inputs.md",
+                "file": "Backend/Headers de Seguridad.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Validación de Inputs"
+              "title": "Headers de Seguridad"
             }
           }
         ]

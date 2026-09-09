@@ -11,9 +11,9 @@ La seguridad de una API requiere aplicar diferentes mecanismos de protección de
 - [[HTTPS]]
 - [[Rate Limiting y Throttling]]
 - [[Validación de Inputs]]
+- [[Headers de Seguridad]]
 - [[Autenticación y autorización]]
 - [[RBAC]]
-- [[Headers de Seguridad]]
 - [[CORS]]
 - [[Checkilst de Seguridad para APIs]]
 
