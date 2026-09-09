@@ -82,27 +82,7 @@ Una API REST debe utilizar de manera consistente:
 Esto proporciona una experiencia **predecible y estándar** para los consumidores de la API.
 
 Los métodos HTTP y CRUD se desarrollan en [[Métodos HTTP y CRUD]].
-
-
-#### Códigos de estado HTTP
-
-**2xx — Operaciones exitosas**
-- `200 OK` → recuperación exitosa.
-- `201 Created` → creación exitosa.
-- `204 No Content` → operación exitosa sin contenido de respuesta.
-    
-
-**4xx — Errores del cliente**
-- `400 Bad Request` → datos inválidos.
-- `401 Unauthorized` → falta autenticación.
-- `403 Forbidden` → no posee permisos.
-- `404 Not Found` → recurso no encontrado.
-    
-
-**5xx — Errores del servidor**
-- `500 Internal Server Error` → error interno.
-- `503 Service Unavailable` → servicio temporalmente no disponible.
-    
+ 
 
 ##### Beneficios
 

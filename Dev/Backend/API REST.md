@@ -3,6 +3,6 @@ Una **API REST** permite que el Backend exponga recursos y servicios para que ot
 Principales conceptos:
 
 - [[Diseño de APIs REST]]
+- [[HTTP (HyperText Transfer Protocol)]]
 - [[Recursos y URLs]]
-- [[Métodos HTTP y CRUD]]
 - [[Versionado de APIs REST]]

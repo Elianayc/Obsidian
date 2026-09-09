@@ -89,7 +89,9 @@ HTTP + TLS = HTTPS
 
 ## Métodos HTTP
 
-Los mensajes HTTP utilizan distintos métodos según la acción que se desea realizar:
+Los **métodos HTTP** indican la **operación que se quiere realizar sobre un recurso**.
+
+Los principales métodos son:
 
 - **GET:** solicita o consulta información del servidor.
 - **POST:** crea o da de alta un nuevo recurso enviando información al servidor.
@@ -97,22 +99,61 @@ Los mensajes HTTP utilizan distintos métodos según la acción que se desea rea
 - **PATCH:** modifica **parcialmente** un recurso existente.
 - **DELETE:** elimina un recurso.
 
+Estos métodos se relacionan con las operaciones básicas de **CRUD**:
+
+| Método | CRUD | Acción | Descripción |
+| :--- | :--- | :--- | :--- |
+| `GET` | Read | Leer | Obtener uno o varios recursos |
+| `POST` | Create | Crear | Crear un recurso |
+| `PUT` | Update | Modificar | Modificar completamente un recurso |
+| `PATCH` | Update | Modificar | Modificar parcialmente un recurso |
+| `DELETE` | Delete | Eliminar | Eliminar un recurso |
+
+### Ejemplos
+
+```http
+GET /api/products
+```
+
+Obtiene una lista de productos.
+
+```http
+GET /api/products/123
+```
+
+Obtiene un producto específico.
+
+```http
+POST /api/products
+```
+
+Crea un nuevo producto.
+
+```http
+PUT /api/products/123
+```
+
+Modifica completamente el producto 123.
+
+```http
+PATCH /api/products/123
+```
+
+Modifica parcialmente el producto 123.
+
+```http
+DELETE /api/products/123
+```
+
+Elimina el producto 123.
+
+Ver [[Idempotencia]].
+
 ---
 
 ## Códigos de respuesta
 
 HTTP utiliza **códigos de estado** para indicar el resultado de una solicitud.
-
-| Código                        |     Significado      |                        Uso                         |
-| :---------------------------- | :------------------: | :------------------------------------------------: |
-| **200 OK**                    |        Éxito         |         Operación realizada correctamente          |
-| **201 Created**               |        Creado        |            Recurso creado correctamente            |
-| **204 No Content**            |    Sin contenido     |        Éxito sin contenido en la respuesta         |
-| **400 Bad Request**           | Solicitud incorrecta |           Datos inválidos o mal formados           |
-| **401 Unauthorized**          |    No autenticado    |        Faltan credenciales o autenticación         |
-| **403 Forbidden**             |      Prohibido       | El cliente está autenticado pero no tiene permisos |
-| **404 Not Found**             |    No encontrado     |          El recurso solicitado no existe           |
-| **500 Internal Server Error** |    Error interno     |         Error no controlado en el servidor         |
 
 Los códigos se agrupan en cinco categorías:
 
@@ -121,6 +162,20 @@ Los códigos se agrupan en cinco categorías:
 - **3xx** → redirecciones.
 - **4xx** → errores del cliente.
 - **5xx** → errores del servidor.
+
+### Principales códigos de estado
+
+|            Código             |      Significado       |                        Uso                         |
+| :---------------------------: | :--------------------: | :------------------------------------------------: |
+|          **200 OK**           |         Éxito          |         Operación realizada correctamente          |
+|        **201 Created**        |         Creado         |            Recurso creado correctamente            |
+|      **204 No Content**       |     Sin contenido      |  Operación exitosa sin contenido en la respuesta   |
+|      **400 Bad Request**      |  Solicitud incorrecta  |           Datos inválidos o mal formados           |
+|     **401 Unauthorized**      |     No autenticado     |        Faltan credenciales o autenticación         |
+|       **403 Forbidden**       |       Prohibido        | El cliente está autenticado pero no tiene permisos |
+|       **404 Not Found**       |     No encontrado      |          El recurso solicitado no existe           |
+| **500 Internal Server Error** |     Error interno      |         Error no controlado en el servidor         |
+|  **503 Service Unavailable**  | Servicio no disponible |    El servicio no está disponible temporalmente    |
 
 ---
 
