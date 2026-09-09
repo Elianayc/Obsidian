@@ -75,14 +75,11 @@ Cada request debe contener **toda la información necesaria para ser procesada**
 
 Una API REST debe utilizar de manera consistente:
 
-- Métodos HTTP.
+- Métodos [[HTTP (HyperText Transfer Protocol)]].
 - Códigos de estado HTTP.
 - Convenciones de nombres.
 
 Esto proporciona una experiencia **predecible y estándar** para los consumidores de la API.
-
-Los métodos HTTP y CRUD se desarrollan en [[Métodos HTTP y CRUD]].
- 
 
 ##### Beneficios
 
