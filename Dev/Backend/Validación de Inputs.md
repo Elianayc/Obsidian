@@ -44,7 +44,7 @@ app.post('/users', (req, res) => {
 
 También es necesario comprobar que los datos sean del **tipo esperado** y estén dentro de un rango válido.
 
-```
+```js
 function validateProductPrice(price) {
   if (typeof price !== 'number' || price < 0 || price > 999999) {
     throw new Error('Precio inválido');
