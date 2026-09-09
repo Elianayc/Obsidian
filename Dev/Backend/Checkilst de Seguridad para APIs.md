@@ -1,5 +1,5 @@
-
 ## Seguridad como proceso continuo
+
 La seguridad de una API REST requiere un **enfoque multicapa** que combine diferentes mecanismos de protección.
 
 Ninguna medida por sí sola garantiza la seguridad de una API.
