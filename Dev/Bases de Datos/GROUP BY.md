@@ -5,8 +5,14 @@ tags:
 ---
 Agrupa registros que tienen valores iguales en una o más columnas.
 
-```
-SELECT id_cliente, SUM(monto)FROM pedidosGROUP BY id_cliente;
+```sql
+SELECT 
+	id_cliente, 
+	SUM(monto)
+FROM 
+	pedidosGROUP 
+BY 
+	id_cliente;
 ```
 
 ##### Resultado:  

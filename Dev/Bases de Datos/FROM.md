@@ -12,28 +12,41 @@ Es una parte fundamental del comando **SELECT**, ya que sin FROM no se puede acc
 - Permite trabajar con una o varias tablas
 - Es obligatoria en la mayoría de consultas SELECT
 
+---
 
 ### Sintaxis básica
 ```SQL
-SELECT nombre, email FROM clientes;
+SELECT 
+	nombre, email
+FROM
+	clientes;
 ```
 
 Indica que los datos se obtienen de la tabla clientes.
+
+---
 
 ### FROM con alias
 Los alias permiten renombrar temporalmente una tabla para simplificar consultas.
 
 ```SQL
-SELECT e.nombre FROM empleados e;
+SELECT 
+	e.nombre 
+FROM 
+	empleados e;
 ```
 
 “e” es un alias de la tabla empleados.
 
+---
 
 ### FROM con múltiples tablas (JOIN implícito)
 
 ```SQL
-SELECT e.nombre, d.nombre_departamento FROM empleados e, departamentos d;
+SELECT 
+	e.nombre, d.nombre_departamento 
+FROM 
+	empleados e, departamentos d;
 ```
 
 Aunque hoy se usa más JOIN, esto muestra que FROM puede incluir varias tablas.

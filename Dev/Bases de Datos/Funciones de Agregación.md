@@ -20,7 +20,10 @@ Permiten obtener **estadísticas** sobre los datos.
 - Cuenta la cantidad de filas o valores no nulos en una columna.
 
 ```sql
-SELECT COUNT(*) FROM pedidos;
+SELECT 
+	COUNT(*) 
+FROM 
+	pedidos;
 ```
 
 ##### Resultado:  
@@ -34,7 +37,10 @@ Devuelve la cantidad total de pedidos.
 Suma todos los valores de una columna numérica.
 
 ```sql
-SELECT SUM(monto) FROM pedidos;
+SELECT 
+	SUM(monto) 
+FROM 
+	pedidos;
 ```
 
 ##### Resultado:  
@@ -46,7 +52,10 @@ Devuelve el total de dinero vendido.
 Calcula el promedio de una columna numérica.
 
 ```sql
-SELECT AVG(monto) FROM pedidos;
+SELECT 
+	AVG(monto) 
+FROM 
+	pedidos;
 ```
 
 ##### Resultado:  
@@ -58,7 +67,10 @@ Devuelve el promedio de los montos de pedidos.
 Devuelve el valor mínimo de una columna.
 
 ```sql
-SELECT MIN(monto) FROM pedidos;
+SELECT 
+	MIN(monto) 
+FROM 
+	pedidos;
 ```
 
 ##### Resultado:  
@@ -70,7 +82,10 @@ Devuelve el pedido con menor monto.
 Devuelve el valor máximo de una columna.
 
 ```SQL
-SELECT MAX(monto) FROM pedidos;
+SELECT 
+	MAX(monto) 
+FROM 
+	pedidos;
 ```
 
 ##### Resultado:  

@@ -11,10 +11,14 @@
             "id": "ac1ac339b2d2df49",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Bases de Datos/Cláusulas.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "Cláusulas"
             }
           }
         ]
@@ -79,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 272.5
+    "width": 272.5,
+    "collapsed": true
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -158,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodología de Sistemas/Buenas prácticas de testing.md",
+                "file": "Bases de Datos/Cláusulas.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -213,7 +218,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Metodología de Sistemas/Buenas prácticas de testing.md",
+                "file": "Bases de Datos/Cláusulas.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -360,8 +365,20 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "ac1ac339b2d2df49",
   "lastOpenFiles": [
+    "Bases de Datos/LIMIT.md",
+    "Bases de Datos/Cláusulas.md",
+    "Bases de Datos/ORDER BY.md",
+    "Bases de Datos/JOIN.md",
+    "Bases de Datos/FROM.md",
+    "Bases de Datos/SELECT.md",
+    "Bases de Datos/Funciones de Agregación.md",
+    "Bases de Datos/HAVING.md",
+    "Bases de Datos/GROUP BY.md",
+    "Bases de Datos/WHERE.md",
+    "Pasted image 20260910113346.png",
+    "Metodología de Sistemas/Buenas prácticas de testing.md",
     "Metodología de Sistemas/Evolución de las pruebas de software.md",
     "Programación/Debugging.md",
     "Metodología de Sistemas/Pruebas de Software.md",
@@ -374,21 +391,10 @@
     "Metodología de Sistemas/Pruebas manuales y automatizadas.md",
     "Metodología de Sistemas/Inteligencia artificial en las pruebas.md",
     "Programación/Testing.md",
-    "Metodología de Sistemas/Buenas prácticas de testing.md",
     "Programación/Mock Objects.md",
     "Programación/Testing automatizado.md",
     "Programación/Clasificación de Tipos de Testing.md",
-    "Backend/Versionado de APIs REST.md",
-    "Backend/Diseño de APIs REST.md",
-    "Programación/Programación.md",
-    "Modelado de Sistemas/Mermaid.md",
-    "Programación/Singleton.md",
-    "Metodología de Sistemas/IA como Soporte.md",
-    "Metodología de Sistemas/Product Owner.md",
-    "Backend/Checkilst de Seguridad para APIs.md",
     "Z_Imágenes/Pasted image 20260909151125.png",
-    "Backend/API REST.md",
-    "Backend/Autenticación y autorización.md",
     "Backend",
     "Z_Imágenes/Pasted image 20260905174032.png",
     "Z_Imágenes/Pasted image 20260904120921.png",
@@ -400,7 +406,6 @@
     "Z_Imágenes/Pasted image 20260826113030.png",
     "Metodología de Sistemas",
     "Frameworks",
-    "Z_Imágenes/Pasted image 20260821122513.png",
     "Javascript",
     "Typescript",
     "CSS",
