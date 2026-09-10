@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de Datos/Entidad - Relación.md",
-                "mode": "preview",
+                "file": "Backend/API REST.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Entidad - Relación"
+              "title": "API REST"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "aggrega",
+                "query": "api",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,11 +79,12 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 272.5
+    "width": 203.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bases de Datos/Entidad - Relación.md",
+                "file": "Backend/API REST.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +218,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Bases de Datos/Entidad - Relación.md",
+                "file": "Backend/API REST.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -344,7 +345,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 411.5
+    "width": 248.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -366,8 +367,23 @@
   },
   "active": "299554efaaf5b497",
   "lastOpenFiles": [
+    "Backend/Seguridad de APIs.md",
+    "Backend/Checkilst de Seguridad para APIs.md",
+    "Programación/Lenguajes de Programación.md",
+    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
+    "Arquitectura de Sistemas/Paquetes.md",
+    "Frameworks/Frameworks.md",
+    "Arquitectura de Sistemas/Arquitectura REST.md",
+    "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
+    "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
+    "Arquitectura de Sistemas/Modelo frontend y backend.md",
+    "Arquitectura de Sistemas/Patrones Arquitecturales.md",
+    "Metodología de Sistemas/Metodología de Sistemas.md",
+    "Metodología de Sistemas/Scrum.md",
+    "Arquitectura de Sistemas/Persistencia de datos.md",
     "Bases de Datos/Diagrama Entidad - Relación (DER).md",
     "Metodología de Sistemas/Modelado y Gestión de Datos.md",
+    "Bases de Datos/Entidad - Relación.md",
     "Metodología de Sistemas/Inteligencia artificial en las pruebas.md",
     "Metodología de Sistemas/Pruebas de Software.md",
     "Metodología de Sistemas/IA como Soporte.md",
@@ -377,21 +393,6 @@
     "Typescript/Colecciones en TypeScript.md",
     "Typescript/Propiedades en TypeScript.md",
     "Typescript/Visibilidad en Typescript.md",
-    "Typescript/Readonly en TypeScript.md",
-    "Programación/C Sharp.md",
-    "Backend/Backend.md",
-    "Bases de Datos/Tipos de índices.md",
-    "Bases de Datos/Sort Aggregate - Group Aggregate.md",
-    "Bases de Datos/Aggregation Methods.md",
-    "Bases de Datos/Hash Aggregate.md",
-    "Bases de Datos/Optimización de Consultas.md",
-    "Bases de Datos/Funciones de Ventana.md",
-    "Bases de Datos/Funciones Incorporadas.md",
-    "Bases de Datos/Funciones de Agregación.md",
-    "Bases de Datos/Funciones Definidas por el Usuario.md",
-    "Bases de Datos/Funciones de Fecha.md",
-    "Bases de Datos/Funciones de Cadena.md",
-    "Bases de Datos/SQL (Structured Query Language).md",
     "Z_Imágenes/Pasted image 20260910113346.png",
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Backend",

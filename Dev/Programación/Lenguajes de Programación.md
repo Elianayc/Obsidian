@@ -14,5 +14,3 @@ Conjunto de instrucciones (acciones u operaciones) que pueden ser traducidas a l
 - [[Desarrollo Web]]
 
 ---
-
-#Programación
