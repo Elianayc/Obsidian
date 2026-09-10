@@ -34,15 +34,7 @@ function sumar(a: number, b: number): number {
 
 ---
 
-- [[Set (TypeScript)]]
-- [[Map (TypeScript)]]
-- [[Array (TypeScript)]]
-- [[Readonly en TypeScript]]
-- [[Visibilidad en Typescript]]
-- [[Propiedades en TypeScript]]
 - [[Colecciones en TypeScript]]
 - [[Angular]]
 
 ---
-#Programación
-#ProgramaciónII 
