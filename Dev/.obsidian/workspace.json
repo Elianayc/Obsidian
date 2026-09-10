@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Typescript/Typescript.md",
-                "mode": "preview",
+                "file": "Bases de Datos/Cláusulas.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Typescript"
+              "title": "Cláusulas"
             }
           }
         ]
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433.5
+    "width": 245.5,
+    "collapsed": true
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Typescript/Typescript.md",
+                "file": "Bases de Datos/Cláusulas.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +218,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Typescript/Typescript.md",
+                "file": "Bases de Datos/Cláusulas.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -344,7 +345,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 483.5
+    "width": 221.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -366,6 +367,12 @@
   },
   "active": "c1d546b231e14bb9",
   "lastOpenFiles": [
+    "Bases de Datos/WHERE.md",
+    "Bases de Datos/Cláusulas.md",
+    "Bases de Datos/HAVING.md",
+    "Bases de Datos/Hash Join.md",
+    "Bases de Datos/Con marcas temporales.md",
+    "Typescript/Typescript.md",
     "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
     "Programación/Frontend.md",
     "Arquitectura de Sistemas/Modelo frontend y backend.md",
@@ -386,12 +393,6 @@
     "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
     "Arquitectura de Sistemas/Patrones Arquitecturales.md",
     "Metodología de Sistemas/Metodología de Sistemas.md",
-    "Metodología de Sistemas/Scrum.md",
-    "Arquitectura de Sistemas/Persistencia de datos.md",
-    "Bases de Datos/Diagrama Entidad - Relación (DER).md",
-    "Metodología de Sistemas/Modelado y Gestión de Datos.md",
-    "Bases de Datos/Entidad - Relación.md",
-    "Metodología de Sistemas/Inteligencia artificial en las pruebas.md",
     "Z_Imágenes/Pasted image 20260910113346.png",
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Backend",

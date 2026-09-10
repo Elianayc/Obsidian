@@ -3,28 +3,6 @@ tags:
   - 
   
 ---
-Filtra resultados después de un `GROUP BY`.
-
-```sql
-SELECT 
-	id_cliente, 
-	SUM(monto)
-FROM 
-	pedidos
-GROUP BY 
-	id_cliente
-HAVING 
-	SUM(monto) > 3000;
-```
-
-##### Resultado:
-
-Muestra solo clientes cuyo total de compras supera 3000.
-
----
-
-### HAVING: filtrar después de agrupar
-
 `HAVING` actúa sobre los **grupos ya formados por `GROUP BY`**, no sobre las filas originales.
 
 Según el orden lógico de ejecución:
