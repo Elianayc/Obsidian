@@ -34,7 +34,6 @@ function sumar(a: number, b: number): number {
 
 ---
 
-- [[Colecciones en TypeScript]]
 - [[Angular]]
 
 ---
