@@ -1,7 +1,7 @@
 
 ### Depuración y control de calidad
 
-Inicialmente, la **depuración ([[Debugging]])** era el principal método para encontrar y corregir errores.
+Inicialmente, la **depuración (debugging)** era el principal método para encontrar y corregir errores.
 
 Durante la década de 1980, las pruebas comenzaron a adoptar una visión más amplia, incorporando el **control y la garantía de calidad** como parte fundamental del desarrollo.
 
