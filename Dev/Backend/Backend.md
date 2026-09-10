@@ -15,7 +15,7 @@ El Backend se ocupa de:
 - Procesar las **reglas de negocio**.
 - Gestionar usuarios, autenticación y permisos.
 - Comunicarse con **bases de datos**.
-- Exponer servicios mediante API REST.
+- Exponer servicios mediante [[Interfaces de programación de aplicaciones (API)]].
 - Procesar y validar la información recibida.
 - Garantizar la **seguridad** de la información.
 - Generar las respuestas que serán enviadas al Frontend.
