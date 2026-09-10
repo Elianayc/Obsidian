@@ -11,10 +11,14 @@
             "id": "c1d546b231e14bb9",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Typescript/Typescript.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Typescript"
             }
           }
         ]
@@ -79,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 433.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -158,6 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Typescript/Typescript.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -212,6 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Typescript/Typescript.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -358,11 +364,13 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "c1d546b231e14bb9",
   "lastOpenFiles": [
-    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Arquitectura de Sistemas/Interfaces de programación de aplicaciones (API).md",
-    "Backend/Backend.md",
+    "Programación/Frontend.md",
+    "Arquitectura de Sistemas/Modelo frontend y backend.md",
+    "Arquitectura de Sistemas/Backend.md",
+    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Backend/API REST.md",
     "Arquitectura de Sistemas/Arquitectura REST.md",
     "Redes/HTTP (HyperText Transfer Protocol).md",
@@ -376,7 +384,6 @@
     "Arquitectura de Sistemas/Paquetes.md",
     "Frameworks/Frameworks.md",
     "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
-    "Arquitectura de Sistemas/Modelo frontend y backend.md",
     "Arquitectura de Sistemas/Patrones Arquitecturales.md",
     "Metodología de Sistemas/Metodología de Sistemas.md",
     "Metodología de Sistemas/Scrum.md",
@@ -385,7 +392,6 @@
     "Metodología de Sistemas/Modelado y Gestión de Datos.md",
     "Bases de Datos/Entidad - Relación.md",
     "Metodología de Sistemas/Inteligencia artificial en las pruebas.md",
-    "Metodología de Sistemas/Pruebas de Software.md",
     "Z_Imágenes/Pasted image 20260910113346.png",
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Backend",
