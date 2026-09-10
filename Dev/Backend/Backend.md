@@ -20,17 +20,6 @@ El Backend se ocupa de:
 - Garantizar la **seguridad** de la información.
 - Generar las respuestas que serán enviadas al Frontend.
 
----
-
-## Tecnologías
-
-Puede estar desarrollado con tecnologías como:
-
-- [[C Sharp]] / [[puntoNET]].
-- [[Java]].
-- [[Node.js]].
-- [[Python]].
-- [[PHP]].
 
 ---
 
