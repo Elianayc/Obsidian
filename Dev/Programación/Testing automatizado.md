@@ -6,6 +6,7 @@ tags:
 El testing automatizado consiste en programas que verifican otros programas.
 
 ### Características
+
 - Separación entre código de aplicación y código de pruebas.
 - Tests repetibles sin efectos colaterales.
 - Mayor seguridad: el usuario no ve mensajes internos.
@@ -14,3 +15,6 @@ El testing automatizado consiste en programas que verifican otros programas.
 - Ayuda a detectar acoplamientos y reduce el costo de cambios.
 
 Aunque requiere inversión inicial de tiempo, a largo plazo reduce errores y mejora la calidad del software.
+
+---
+
