@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Testing.md",
+                "file": "Backend/Diseño de APIs REST.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Testing"
+              "title": "Diseño de APIs REST"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "testing",
+                "query": "debuggin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/Testing.md",
+                "file": "Backend/Diseño de APIs REST.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -218,7 +218,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programación/Testing.md",
+                "file": "Backend/Diseño de APIs REST.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,17 +367,24 @@
   },
   "active": "e5e82a3c0ab485b6",
   "lastOpenFiles": [
+    "Metodología de Sistemas/Pruebas de Software.md",
+    "Programación/Programación.md",
+    "Modelado de Sistemas/Mermaid.md",
+    "Programación/Singleton.md",
     "Programación/Testing automatizado.md",
     "Programación/Testing.md",
+    "Metodología de Sistemas/IA como Soporte.md",
+    "Backend/Versionado de APIs REST.md",
+    "Evolución de las pruebas de software.md",
+    "Pruebas de seguridad.md",
+    "Buenas prácticas de testing.md",
+    "Programación/Tipos de testing.md",
+    "Programación/Debugging.md",
     "Pruebas funcionales.md",
-    "Metodología de Sistemas/Pruebas de Software.md",
     "Niveles de pruebas.md",
     "Pruebas manuales y automatizadas.md",
     "Inteligencia artificial en las pruebas.md",
-    "Evolución de las pruebas de software.md",
-    "Buenas prácticas de testing.md",
     "Pruebas de usabilidad.md",
-    "Pruebas de seguridad.md",
     "Pruebas de carga y estrés.md",
     "Pruebas no funcionales.md",
     "Metodología de Sistemas/Product Owner.md",
@@ -387,13 +394,6 @@
     "Backend/Autenticación y autorización.md",
     "Backend/Digest Authentication.md",
     "Backend/Basic Authentication.md",
-    "Backend/RBAC.md",
-    "Backend/Seguridad de APIs.md",
-    "Backend/CORS.md",
-    "Backend/Headers de Seguridad.md",
-    "Backend/Validación de Inputs.md",
-    "Backend/Rate Limiting y Throttling.md",
-    "Backend/HTTPS.md",
     "Backend",
     "Z_Imágenes/Pasted image 20260905174032.png",
     "Z_Imágenes/Pasted image 20260904120921.png",

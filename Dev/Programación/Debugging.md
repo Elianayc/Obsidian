@@ -16,4 +16,5 @@ Proceso de encontrar y corregir errores en el código.
 - Rastreo hacia atrás: consiste en analizar las condiciones y pasos que llevaron al error, retrocediendo en la ejecución.
 - Eliminar el error (aislamiento): consiste en comentar o eliminar partes del código para identificar el origen del problema observando el efecto de los cambios.
 
-#Programación
+---
+
