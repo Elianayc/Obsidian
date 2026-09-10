@@ -18,7 +18,6 @@ Dentro de la arquitectura de un sistema se analizan diferentes aspectos:
 - **Cómo se comunican los componentes del sistema:**
   - [[Modelo Cliente - Servidor]]
   - [[Interfaces de programación de aplicaciones (API)]]
-  - [[Arquitectura REST]]
 
 - **Cómo se almacenan y gestionan los datos:**
 
