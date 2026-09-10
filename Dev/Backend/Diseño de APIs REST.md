@@ -68,7 +68,7 @@ Cada request debe contener **toda la información necesaria para ser procesada**
 
 Una API REST debe utilizar de manera consistente:
 
-- Métodos [[HTTP (HyperText Transfer Protocol)]].
+- Métodos HTTP (HyperText Transfer Protocol).
 - Códigos de estado HTTP.
 - Convenciones de nombres.
 
