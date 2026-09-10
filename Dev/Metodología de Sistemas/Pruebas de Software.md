@@ -50,8 +50,6 @@ Las pruebas son especialmente importantes al integrar software de terceros en si
 - [[Pruebas de seguridad]]
 - [[Pruebas de usabilidad]]
 
-- [[Buenas prácticas de testing]]
-
 ---
 
 ## Relación con otros conceptos

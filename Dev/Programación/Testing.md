@@ -17,6 +17,7 @@ El testing es el proceso de verificar que un sistema (o parte de él) cumple con
 - [[Tipos de testing]]
 - [[Testing automatizado]]
 - [[Mock Objects]]
+- [[Buenas prácticas de testing]]
 
 ---
 

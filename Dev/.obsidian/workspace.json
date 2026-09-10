@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Evolución de las pruebas de software.md",
+                "file": "Programación/Testing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Evolución de las pruebas de software"
+              "title": "Testing"
             }
           }
         ]
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Evolución de las pruebas de software.md",
+                "file": "Programación/Testing.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -218,7 +218,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Evolución de las pruebas de software.md",
+                "file": "Programación/Testing.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,12 +367,12 @@
   },
   "active": "e5e82a3c0ab485b6",
   "lastOpenFiles": [
+    "Metodología de Sistemas/Pruebas de Software.md",
+    "Evolución de las pruebas de software.md",
     "Backend/Versionado de APIs REST.md",
     "Backend/Diseño de APIs REST.md",
-    "Metodología de Sistemas/Pruebas de Software.md",
     "Programación/Programación.md",
     "Programación/Debugging.md",
-    "Evolución de las pruebas de software.md",
     "Modelado de Sistemas/Mermaid.md",
     "Programación/Singleton.md",
     "Programación/Testing automatizado.md",
