@@ -58,7 +58,13 @@ Se indica con `LANGUAGE`: `SQL`, `PLpgSQL` o `PLPythonu`.
 
 ---
 
-[[Tipos de funciones según lenguaje]]
-[[Manejo de excepciones (PL - pgSQL)]]
-[[Triggers]]
-#BasesdeDatos
+- [[Tipos de funciones según lenguaje]]
+- [[Manejo de excepciones (PL - pgSQL)]]
+- [[Triggers]]
+
+- [[Funciones de Agregación]]
+- [[Funciones de Ventana]]
+- [[Funciones de Fecha]]
+- [[Funciones de Cadena]]
+
+---

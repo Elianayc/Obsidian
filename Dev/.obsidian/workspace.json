@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de Datos/Cláusulas.md",
+                "file": "Bases de Datos/Funciones de Agregación.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cláusulas"
+              "title": "Funciones de Agregación"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bases de Datos/Cláusulas.md",
+                "file": "Bases de Datos/Funciones de Agregación.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Bases de Datos/Cláusulas.md",
+                "file": "Bases de Datos/Funciones de Agregación.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -332,7 +332,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.5694148860370294,
+                  "scale": 0.4061496662621672,
                   "close": true
                 }
               },
@@ -366,6 +366,19 @@
   },
   "active": "ac1ac339b2d2df49",
   "lastOpenFiles": [
+    "Bases de Datos/Funciones.md",
+    "Bases de Datos/Triggers.md",
+    "Bases de Datos/Manejo de excepciones (PL - pgSQL).md",
+    "Bases de Datos/Tipos de funciones según lenguaje.md",
+    "Bases de Datos/SQL (Structured Query Language).md",
+    "Bases de Datos/TCL (Transaction Control Language).md",
+    "Bases de Datos/DCL (Data Control Language).md",
+    "Bases de Datos/DQL (Data Query Language).md",
+    "Bases de Datos/SELECT.md",
+    "Bases de Datos/DML (Data Manipulation Language).md",
+    "Bases de Datos/DDL (Data Definition Language).md",
+    "Bases de Datos/FROM.md",
+    "Bases de Datos/Cláusulas.md",
     "Bases de Datos/HAVING.md",
     "Bases de Datos/GROUP BY.md",
     "Metodología de Sistemas/Pruebas de Software.md",
@@ -379,20 +392,7 @@
     "Metodología de Sistemas/Evolución de las pruebas de software.md",
     "Metodología de Sistemas/Niveles de pruebas.md",
     "Metodología de Sistemas/Testing.md",
-    "Metodología de Sistemas/Buenas prácticas de testing.md",
-    "Metodología de Sistemas/Mock Objects.md",
-    "Metodología de Sistemas/Clasificación de Tipos de Testing.md",
-    "Metodología de Sistemas/Ciclo de Vida del Desarrollo de Software.md",
-    "Metodología de Sistemas/Ciclo de Vida del Desarrollo de Software.md",
     "Z_Imágenes/Pasted image 20260910113346.png",
-    "Bases de Datos/Cláusulas.md",
-    "Bases de Datos/LIMIT.md",
-    "Bases de Datos/ORDER BY.md",
-    "Bases de Datos/JOIN.md",
-    "Bases de Datos/FROM.md",
-    "Bases de Datos/SELECT.md",
-    "Bases de Datos/WHERE.md",
-    "Metodología de Sistemas/Pruebas de usabilidad.md",
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Backend",
     "Z_Imágenes/Pasted image 20260905174032.png",

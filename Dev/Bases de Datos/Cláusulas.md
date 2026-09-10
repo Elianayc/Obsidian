@@ -11,8 +11,6 @@ tags:
 > 
 > Aunque el `SELECT` se escribe primero, el motor evalúa la consulta aproximadamente en este orden:
 > 
-> - [[Funciones de Agregación]]
-> 
 > - [[FROM]] → origen de los datos
 > - [[JOIN]] → combinación de tablas
 > - [[WHERE]] → filtro de filas
@@ -41,4 +39,3 @@ SELECT salario * 12 AS salario_anualFROM empleados;
 ```
 
 ---
-
