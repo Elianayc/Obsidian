@@ -55,7 +55,7 @@ Las pruebas son especialmente importantes al integrar software de terceros en si
 
 ## Relación con otros conceptos
 
-Las pruebas verifican que lo definido en los **[Requerimientos](Requerimientos.md)** se cumpla correctamente.
+Las pruebas verifican que lo definido en los **Requerimientos** se cumpla correctamente.
 
 En metodologías ágiles, los **Criterios de Aceptación** permiten definir qué debe verificarse para considerar terminada una historia de usuario.
 

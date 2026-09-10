@@ -40,3 +40,4 @@ Puede analizar interfaces para detectar inconsistencias visuales y generar prueb
 
 ---
 
+- [[IA como soporte]]

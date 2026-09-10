@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "378390099446d2fd",
+        "id": "459b62c3c91661f6",
         "type": "tabs",
         "children": [
           {
-            "id": "da83c5f3ae1fd3d1",
+            "id": "299554efaaf5b497",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodología de Sistemas/IA como Soporte.md",
+                "file": "Bases de Datos/Entidad - Relación.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "IA como Soporte"
+              "title": "Entidad - Relación"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodología de Sistemas/IA como Soporte.md",
+                "file": "Bases de Datos/Entidad - Relación.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Metodología de Sistemas/IA como Soporte.md",
+                "file": "Bases de Datos/Entidad - Relación.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -332,7 +332,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.40614966626216664,
+                  "scale": 0.7983099319630415,
                   "close": true
                 }
               },
@@ -344,7 +344,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5
+    "width": 411.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -364,8 +364,14 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "da83c5f3ae1fd3d1",
+  "active": "299554efaaf5b497",
   "lastOpenFiles": [
+    "Bases de Datos/Diagrama Entidad - Relación (DER).md",
+    "Metodología de Sistemas/Modelado y Gestión de Datos.md",
+    "Metodología de Sistemas/Inteligencia artificial en las pruebas.md",
+    "Metodología de Sistemas/Pruebas de Software.md",
+    "Metodología de Sistemas/IA como Soporte.md",
+    "Metodología de Sistemas/Requerimientos.md",
     "Frameworks/Angular.md",
     "Typescript/Typescript.md",
     "Typescript/Colecciones en TypeScript.md",
@@ -386,12 +392,6 @@
     "Bases de Datos/Funciones de Fecha.md",
     "Bases de Datos/Funciones de Cadena.md",
     "Bases de Datos/SQL (Structured Query Language).md",
-    "Bases de Datos/DQL (Data Query Language).md",
-    "Bases de Datos/Cláusulas.md",
-    "Bases de Datos/WHERE.md",
-    "Bases de Datos/NoSQL.md",
-    "Bases de Datos/SELECT.md",
-    "Bases de Datos/JOIN.md",
     "Z_Imágenes/Pasted image 20260910113346.png",
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Backend",
