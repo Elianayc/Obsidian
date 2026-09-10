@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de Datos/GROUP BY.md",
+                "file": "Bases de Datos/HAVING.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GROUP BY"
+              "title": "HAVING"
             }
           }
         ]
@@ -367,6 +367,7 @@
   },
   "active": "ac1ac339b2d2df49",
   "lastOpenFiles": [
+    "Bases de Datos/GROUP BY.md",
     "Metodología de Sistemas/Pruebas de Software.md",
     "Bases de Datos/Funciones de Agregación.md",
     "Bases de Datos/COUNT DISTINCT.md",
@@ -391,7 +392,6 @@
     "Bases de Datos/FROM.md",
     "Bases de Datos/SELECT.md",
     "Bases de Datos/HAVING.md",
-    "Bases de Datos/GROUP BY.md",
     "Bases de Datos/WHERE.md",
     "Metodología de Sistemas/Pruebas de usabilidad.md",
     "Z_Imágenes/Pasted image 20260909151125.png",
