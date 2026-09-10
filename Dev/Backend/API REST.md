@@ -1,6 +1,8 @@
-Una **API REST** permite que el Backend exponga recursos y servicios para que otras aplicaciones puedan comunicarse con él mediante HTTP.
+Una **API REST** es una API diseñada siguiendo los principios del estilo arquitectónico [[Arquitectura REST]].
 
-Principales conceptos:
+Permite que distintos sistemas se comuniquen mediante HTTP y accedan a recursos del Backend.
+
+### Conceptos principales
 
 - [[Diseño de APIs REST]]
 - [[Recursos y URLs]]
