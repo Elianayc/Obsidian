@@ -17,7 +17,7 @@ Independientemente de la metodología utilizada, existen etapas y objetivos fund
 
 El objetivo es encontrar un equilibrio adecuado entre planificación, recursos, tiempo, calidad y adaptación al cambio.
 
-- [[Ciclo de Vida del Desarrollo de Software (SDLC)]]
+- [[Ciclo de Vida del Desarrollo de Software]]
 - [[Diagrama de Flujo de Datos (DFD)]]
 - [[Usuarios del Sistema]]
 - [[Modelado y Gestión de Datos]]

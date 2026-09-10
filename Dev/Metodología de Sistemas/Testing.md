@@ -13,7 +13,7 @@ El testing es el proceso de verificar que un sistema (o parte de él) cumple con
 - Consistencia: mismo resultado ante las mismas condiciones de entrada.
 - Completitud: cubrir la mayor cantidad posible de situaciones en la práctica.
 
-
+**Temas Relacionados:**
 - [[Clasificación de Tipos de Testing]]
 - [[Testing automatizado]]
 - [[Mock Objects]]

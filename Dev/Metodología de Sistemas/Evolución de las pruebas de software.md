@@ -5,7 +5,7 @@ Inicialmente, la **depuración (debugging)** era el principal método para encon
 
 Durante la década de 1980, las pruebas comenzaron a adoptar una visión más amplia, incorporando el **control y la garantía de calidad** como parte fundamental del desarrollo.
 
-Las pruebas pasaron a integrarse al **[Ciclo de Vida del Desarrollo de Software (SDLC)](Ciclo%20de%20Vida%20del%20Desarrollo%20de%20Software)**.
+Las pruebas pasaron a integrarse al **[Ciclo de Vida del Desarrollo de Software (SDLC)](Ciclo%20de%20Vida%20del%20Desarrollo%20de%20Software.md)**.
 
 ---
 

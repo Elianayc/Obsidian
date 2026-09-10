@@ -1,4 +1,4 @@
-Las pruebas pueden realizarse en diferentes niveles del **[Ciclo de Vida del Desarrollo de Software (SDLC)](Ciclo%20de%20Vida%20del%20Desarrollo%20de%20Software)**:
+Las pruebas pueden realizarse en diferentes niveles del **[Ciclo de Vida del Desarrollo de Software (SDLC)](Ciclo%20de%20Vida%20del%20Desarrollo%20de%20Software.md)**:
 
 ---
 
