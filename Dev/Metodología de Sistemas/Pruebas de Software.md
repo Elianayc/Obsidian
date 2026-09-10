@@ -36,6 +36,7 @@ Las pruebas son especialmente importantes al integrar software de terceros en si
 
 ### Temas: 
 
+- [[Debugging]]
 - [[Testing]]
 
 - [[Evolución de las pruebas de software]]
