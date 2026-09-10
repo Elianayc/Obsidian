@@ -23,4 +23,3 @@ Es uno de los métodos más comunes y eficientes.
 > Tabla A → generar hashTabla B → buscar coincidencias en hash
 > ```
 > 
-#BasesdeDatos
