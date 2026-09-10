@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de Datos/Funciones Incorporadas.md",
+                "file": "Bases de Datos/Funciones de Ventana.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Funciones Incorporadas"
+              "title": "Funciones de Ventana"
             }
           }
         ]
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bases de Datos/Funciones Incorporadas.md",
+                "file": "Bases de Datos/Funciones de Ventana.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -218,7 +218,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Bases de Datos/Funciones Incorporadas.md",
+                "file": "Bases de Datos/Funciones de Ventana.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,6 +367,7 @@
   },
   "active": "c1d546b231e14bb9",
   "lastOpenFiles": [
+    "Bases de Datos/Funciones Incorporadas.md",
     "Bases de Datos/Funciones de Agregación.md",
     "Typescript/Typescript.md",
     "Bases de Datos/Con marcas temporales.md",
@@ -392,7 +393,6 @@
     "Arquitectura de Sistemas/Paquetes.md",
     "Frameworks/Frameworks.md",
     "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
-    "Arquitectura de Sistemas/Patrones Arquitecturales.md",
     "Z_Imágenes/Pasted image 20260910113346.png",
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Backend",
