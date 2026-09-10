@@ -20,7 +20,7 @@ Por ejemplo:
 /authors/3
 
 ### Interfaz uniforme
-Utiliza los métodos [[HTTP (HyperText Transfer Protocol)]] estándar con significados bien definidos:
+Utiliza los métodos HTTP (HyperText Transfer Protocol) estándar con significados bien definidos:
 
 ### Sin estado (_Stateless_)
 Cada solicitud debe contener toda la información necesaria para que el servidor pueda procesarla.

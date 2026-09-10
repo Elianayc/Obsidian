@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Redes/World Wide Web (WWW).md",
+                "file": "Arquitectura de Sistemas/Arquitectura REST.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "World Wide Web (WWW)"
+              "title": "Arquitectura REST"
             }
           }
         ]
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Redes/World Wide Web (WWW).md",
+                "file": "Arquitectura de Sistemas/Arquitectura REST.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -218,7 +219,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Redes/World Wide Web (WWW).md",
+                "file": "Arquitectura de Sistemas/Arquitectura REST.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -333,7 +334,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.5694148860370278,
+                  "scale": 0.7983099319630402,
                   "close": true
                 }
               },
@@ -345,7 +346,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 361.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -367,9 +368,10 @@
   },
   "active": "299554efaaf5b497",
   "lastOpenFiles": [
-    "HTML/HTML (HyperText Markup Language).md",
-    "Redes/World Wide Web (WWW).md",
     "Redes/HTTP (HyperText Transfer Protocol).md",
+    "Redes/Peticiones HTTP (Requests).md",
+    "Redes/World Wide Web (WWW).md",
+    "HTML/HTML (HyperText Markup Language).md",
     "Arquitectura de Sistemas/Arquitectura REST.md",
     "Backend/API REST.md",
     "Backend/Backend.md",
@@ -392,7 +394,6 @@
     "Bases de Datos/Entidad - Relación.md",
     "Metodología de Sistemas/Inteligencia artificial en las pruebas.md",
     "Metodología de Sistemas/Pruebas de Software.md",
-    "Metodología de Sistemas/IA como Soporte.md",
     "Z_Imágenes/Pasted image 20260910113346.png",
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Backend",
