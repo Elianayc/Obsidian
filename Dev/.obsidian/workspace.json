@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodología de Sistemas/Pruebas de Software.md",
+                "file": "Bases de Datos/Funciones de Agregación.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pruebas de Software"
+              "title": "Funciones de Agregación"
             }
           }
         ]
@@ -367,8 +367,10 @@
   },
   "active": "ac1ac339b2d2df49",
   "lastOpenFiles": [
-    "Metodología de Sistemas/Debugging.md",
+    "Bases de Datos/COUNT DISTINCT.md",
+    "Bases de Datos/Funciones de Agregación.md",
     "Metodología de Sistemas/Pruebas de Software.md",
+    "Metodología de Sistemas/Debugging.md",
     "Metodología de Sistemas/Metodología de Sistemas.md",
     "Modelado de Sistemas/UML.md",
     "Metodología de Sistemas/Testing automatizado.md",
@@ -388,12 +390,10 @@
     "Bases de Datos/JOIN.md",
     "Bases de Datos/FROM.md",
     "Bases de Datos/SELECT.md",
-    "Bases de Datos/Funciones de Agregación.md",
     "Bases de Datos/HAVING.md",
     "Bases de Datos/GROUP BY.md",
     "Bases de Datos/WHERE.md",
     "Metodología de Sistemas/Pruebas de usabilidad.md",
-    "Metodología de Sistemas/Pruebas de seguridad.md",
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Backend",
     "Z_Imágenes/Pasted image 20260905174032.png",

@@ -29,7 +29,16 @@ FROM
 ##### Resultado:  
 Devuelve la cantidad total de pedidos.
 
-[[COUNT DISTINCT]]
+---
+
+### COUNT DISTINCT
+Cuenta valores únicos.
+
+```SQL
+SELECT COUNT(DISTINCT id_departamento)
+FROM empleados;
+```
+
 
 ---
 
