@@ -28,4 +28,3 @@ Modelos no relacionales que ganaron popularidad con la web 2.0.
 - Menor control de integridad
 - Menor control de transacciones
 - Se prioriza rendimiento sobre consistencia
-#BasesdeDatos

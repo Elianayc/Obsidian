@@ -15,3 +15,5 @@ Su comando principal es:
 - Permite filtros, agrupaciones y ordenamientos
 - Devuelve siempre un conjunto de resultados (tabla virtual)
 
+---
+

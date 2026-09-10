@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de Datos/Funciones de Agregación.md",
+                "file": "Bases de Datos/SQL (Structured Query Language).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Funciones de Agregación"
+              "title": "SQL (Structured Query Language)"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "sql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +79,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bases de Datos/Funciones de Agregación.md",
+                "file": "Bases de Datos/SQL (Structured Query Language).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +218,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Bases de Datos/Funciones de Agregación.md",
+                "file": "Bases de Datos/SQL (Structured Query Language).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,32 +367,32 @@
   },
   "active": "ac1ac339b2d2df49",
   "lastOpenFiles": [
-    "Bases de Datos/Funciones.md",
+    "Bases de Datos/Cláusulas.md",
+    "Bases de Datos/WHERE.md",
+    "Bases de Datos/NoSQL.md",
+    "Bases de Datos/SELECT.md",
+    "Bases de Datos/JOIN.md",
+    "Bases de Datos/DQL (Data Query Language).md",
+    "Bases de Datos/SQL (Structured Query Language).md",
+    "Bases de Datos/DDL (Data Definition Language).md",
+    "Bases de Datos/Entidad - Relación.md",
+    "Bases de Datos/Modelos de Bases de Datos.md",
+    "Bases de Datos/DBMS.md",
+    "Bases de Datos/Funciones Definidas por el Usuario.md",
+    "Funciones Incorporadas.md",
+    "Bases de Datos/Funciones de Agregación.md",
     "Bases de Datos/Triggers.md",
     "Bases de Datos/Manejo de excepciones (PL - pgSQL).md",
     "Bases de Datos/Tipos de funciones según lenguaje.md",
-    "Bases de Datos/SQL (Structured Query Language).md",
     "Bases de Datos/TCL (Transaction Control Language).md",
     "Bases de Datos/DCL (Data Control Language).md",
-    "Bases de Datos/DQL (Data Query Language).md",
-    "Bases de Datos/SELECT.md",
     "Bases de Datos/DML (Data Manipulation Language).md",
-    "Bases de Datos/DDL (Data Definition Language).md",
     "Bases de Datos/FROM.md",
-    "Bases de Datos/Cláusulas.md",
     "Bases de Datos/HAVING.md",
     "Bases de Datos/GROUP BY.md",
     "Metodología de Sistemas/Pruebas de Software.md",
-    "Bases de Datos/Funciones de Agregación.md",
     "Bases de Datos/COUNT DISTINCT.md",
     "Metodología de Sistemas/Debugging.md",
-    "Metodología de Sistemas/Metodología de Sistemas.md",
-    "Modelado de Sistemas/UML.md",
-    "Metodología de Sistemas/Testing automatizado.md",
-    "Metodología de Sistemas/Pruebas no funcionales.md",
-    "Metodología de Sistemas/Evolución de las pruebas de software.md",
-    "Metodología de Sistemas/Niveles de pruebas.md",
-    "Metodología de Sistemas/Testing.md",
     "Z_Imágenes/Pasted image 20260910113346.png",
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Backend",
