@@ -4,6 +4,7 @@ Permite que distintos sistemas se comuniquen mediante HTTP y accedan a recursos 
 
 ### Conceptos principales
 
+- [[Arquitectura REST]]
 - [[Diseño de APIs REST]]
 - [[Recursos y URLs]]
 - [[Versionado de APIs REST]]
