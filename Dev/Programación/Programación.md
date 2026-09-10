@@ -36,11 +36,3 @@ tags:
 
 
 ---
-
-- [[Debugging]]
-
----
-
-- [[Testing]]
-
----

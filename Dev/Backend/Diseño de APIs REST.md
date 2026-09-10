@@ -51,22 +51,15 @@ Cada request debe contener **toda la información necesaria para ser procesada**
 ##### Esto implica:
 
 1. **Autosuficiencia:** cada request incluye los datos de autenticación, contexto y parámetros necesarios.
-    
 2. **No dependencia de sesiones:** el servidor no mantiene el estado de conversaciones anteriores.
-    
 3. **Escalabilidad horizontal:** cualquier servidor puede procesar cualquier request.
-    
 4. **Tolerancia a fallos:** la pérdida de conexión no afecta el estado de la aplicación.
-    
-
+   
 ##### Ventajas:
 
 - **Escalabilidad:** facilita el uso de _load balancers_ para distribuir la carga.
-    
 - **Confiabilidad:** reduce puntos de fallo relacionados con el estado del cliente.
-    
 - **Simplicidad:** simplifica la lógica del servidor y el debugging.
-    
 - **Cacheable:** facilita implementar estrategias de caché.
 
 ---
