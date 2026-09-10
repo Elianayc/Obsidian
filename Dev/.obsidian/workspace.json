@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bases de Datos/Funciones de Agregación.md",
+                "file": "Bases de Datos/GROUP BY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Funciones de Agregación"
+              "title": "GROUP BY"
             }
           }
         ]
@@ -367,9 +367,9 @@
   },
   "active": "ac1ac339b2d2df49",
   "lastOpenFiles": [
-    "Bases de Datos/COUNT DISTINCT.md",
-    "Bases de Datos/Funciones de Agregación.md",
     "Metodología de Sistemas/Pruebas de Software.md",
+    "Bases de Datos/Funciones de Agregación.md",
+    "Bases de Datos/COUNT DISTINCT.md",
     "Metodología de Sistemas/Debugging.md",
     "Metodología de Sistemas/Metodología de Sistemas.md",
     "Modelado de Sistemas/UML.md",
