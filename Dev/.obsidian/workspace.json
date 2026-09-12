@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arquitectura de Sistemas/Arquitectura Monolítica.md",
-                "mode": "source",
+                "file": "Arquitectura de Sistemas/Arquitectura en Capas.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arquitectura Monolítica"
+              "title": "Arquitectura en Capas"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Arquitectura de Sistemas/Arquitectura Monolítica.md",
+                "file": "Arquitectura de Sistemas/Arquitectura en Capas.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Arquitectura de Sistemas/Arquitectura Monolítica.md",
+                "file": "Arquitectura de Sistemas/Arquitectura en Capas.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,6 +367,7 @@
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
     "Arquitectura de Sistemas/Patrones Arquitecturales.md",
+    "Arquitectura de Sistemas/Arquitectura Monolítica.md",
     "Metodología de Sistemas/Historias de Usuario.md",
     "Metodología de Sistemas/Criterios de Aceptación.md",
     "Redes/World Wide Web (WWW).md",
@@ -393,7 +394,6 @@
     "Backend/Diseño de APIs REST.md",
     "Backend/Digest Authentication.md",
     "Backend/CORS.md",
-    "Backend/Checkilst de Seguridad para APIs.md",
     "Backend",
     "Z_Imágenes/Pasted image 20260905174032.png",
     "Z_Imágenes/Pasted image 20260904120921.png",
