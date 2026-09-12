@@ -13,22 +13,23 @@ REST organiza la comunicación alrededor de **recursos**, que pueden ser identif
 ### Basada en recursos
 Todo se representa como un **recurso** identificable mediante una URL.
 
-Por ejemplo:
-
-/books
-/books/15
-/authors/3
+> [!example]
+> /books
+> /books/15
+> /authors/3
 
 ### Interfaz uniforme
-Utiliza los métodos HTTP (HyperText Transfer Protocol) estándar con significados bien definidos:
+Utiliza los métodos [[HTTP (HyperText Transfer Protocol)]] estándar con significados bien definidos.
+
 
 ### Sin estado (_Stateless_)
 Cada solicitud debe contener toda la información necesaria para que el servidor pueda procesarla.
-
 El servidor **no debe depender del estado de solicitudes anteriores** del cliente.
+
 
 ### Sistema por capas
 La comunicación puede incluir componentes intermedios, como **proxies** o **gateways**, que pueden gestionar o transformar las comunicaciones sin que el cliente tenga que conocerlos.
+
 
 ### Representaciones múltiples
 Un mismo recurso puede representarse en diferentes formatos, por ejemplo:
@@ -36,6 +37,7 @@ Un mismo recurso puede representarse en diferentes formatos, por ejemplo:
 - **JSON**
 - **XML**
 - **HTML**
+
 
 ### HATEOAS
 **HATEOAS (Hypermedia as the Engine of Application State)** permite que las respuestas incluyan enlaces que indiquen al cliente qué acciones o recursos puede consultar a continuación.

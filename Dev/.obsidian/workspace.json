@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Backend/Arquitectura REST.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -366,6 +366,9 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "Redes/HTTP (HyperText Transfer Protocol).md",
+    "Backend/Arquitectura REST.md",
+    "Backend/HTTPS.md",
     "Arquitectura de Sistemas/Patrones Arquitecturales.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Backend/API REST.md",
@@ -391,9 +394,6 @@
     "Backend/Validación de Inputs.md",
     "Backend/Seguridad de APIs.md",
     "Backend/Recursos y URLs.md",
-    "Backend/Representaciones de Recursos.md",
-    "Backend/RBAC.md",
-    "Backend/Rate Limiting y Throttling.md",
     "Backend",
     "Z_Imágenes/Pasted image 20260905174032.png",
     "Z_Imágenes/Pasted image 20260904120921.png",
