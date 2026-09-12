@@ -29,7 +29,7 @@ Los **enfoques arquitectónicos** definen principalmente cómo se **organiza, es
 
 - [[Arquitectura de Microservicios]] → **Cómo se divide la aplicación:** se organiza en múltiples servicios independientes, generalmente orientados a dominios o funcionalidades específicas.
 
-- [[API REST]] → **Cómo se comunican los recursos:** estilo arquitectónico para diseñar sistemas de comunicación orientados a recursos, generalmente mediante HTTP.
+- [[Arquitectura REST]] → **Cómo se comunican los recursos:** estilo arquitectónico para diseñar sistemas de comunicación orientados a recursos, generalmente mediante HTTP.
 
 > **Importante:** REST no es mutuamente excluyente con los otros enfoques. Puede utilizarse junto con cualquiera de ellos.
 
