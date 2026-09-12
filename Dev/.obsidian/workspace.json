@@ -4,35 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d857130ed8ed7342",
+        "id": "25b1c3f3a228351a",
         "type": "tabs",
         "children": [
           {
-            "id": "3904cc8df9d61c00",
+            "id": "87f4fa3d7e9fda5a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Redes/World Wide Web (WWW).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "World Wide Web (WWW)"
-            }
-          },
-          {
-            "id": "c9436263b7b160ce",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,7 +51,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "internet",
+                "query": "criterios de acepta",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -373,8 +358,10 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "c9436263b7b160ce",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
+    "Metodología de Sistemas/Historias de Usuario.md",
+    "Metodología de Sistemas/Criterios de Aceptación.md",
     "Redes/World Wide Web (WWW).md",
     "conflict-files-obsidian-git.md",
     "Z_Imágenes/Pasted image 20260910113346.png",
@@ -401,8 +388,6 @@
     "Backend/CORS.md",
     "Backend/Checkilst de Seguridad para APIs.md",
     "Backend/Basic Authentication.md",
-    "Backend/Autenticación y autorización.md",
-    "Backend/API REST.md",
     "Backend",
     "Z_Imágenes/Pasted image 20260905174032.png",
     "Z_Imágenes/Pasted image 20260904120921.png",

@@ -95,3 +95,5 @@ La **colaboración entre estos roles** permite comprender la necesidad, construi
 - Mantienen el foco en el valor que se busca entregar.
 
 ---
+
+[[Criterios de Aceptación]]
