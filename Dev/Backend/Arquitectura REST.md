@@ -10,7 +10,7 @@ REST organiza la comunicación alrededor de **recursos**, que pueden ser identif
 
 ## Características
 
-### Basada en recursos
+#### Basada en recursos
 Todo se representa como un **recurso** identificable mediante una URL.
 
 > [!example]
@@ -18,20 +18,20 @@ Todo se representa como un **recurso** identificable mediante una URL.
 > /books/15
 > /authors/3
 
-### Interfaz uniforme
+#### Interfaz uniforme
 Utiliza los métodos [[HTTP (HyperText Transfer Protocol)]] estándar con significados bien definidos.
 
 
-### Sin estado (_Stateless_)
+#### Sin estado (_Stateless_)
 Cada solicitud debe contener toda la información necesaria para que el servidor pueda procesarla.
 El servidor **no debe depender del estado de solicitudes anteriores** del cliente.
 
 
-### Sistema por capas
+#### Sistema por capas
 La comunicación puede incluir componentes intermedios, como [[Proxy]] o **[[Gateway]], que pueden gestionar o transformar las comunicaciones sin que el cliente tenga que conocerlos.
 
 
-### Representaciones múltiples
+#### Representaciones múltiples
 Un mismo recurso puede representarse en diferentes formatos, por ejemplo:
 
 - **JSON**
@@ -41,7 +41,7 @@ Un mismo recurso puede representarse en diferentes formatos, por ejemplo:
 ![[Pasted image 20260912191716.png|831]]
 
 
-### HATEOAS
+#### HATEOAS
 **HATEOAS (Hypermedia as the Engine of Application State)** permite que las respuestas incluyan enlaces que indiquen al cliente qué acciones o recursos puede consultar a continuación.
 
 ![[Pasted image 20260912191616.png|556]]
@@ -72,16 +72,16 @@ Un mismo recurso puede representarse en diferentes formatos, por ejemplo:
 
 El **Modelo de Madurez de Richardson** permite clasificar las APIs según el grado en que aplican los principios de REST.
 
-### Nivel 0 — HTTP como transporte
+#### Nivel 0 — HTTP como transporte
 Se utiliza HTTP principalmente como medio de transporte para realizar operaciones, de forma similar a **RPC sobre HTTP**.
 
-### Nivel 1 — Recursos
+#### Nivel 1 — Recursos
 La API comienza a organizarse alrededor de **recursos identificables mediante URLs**.
 
-### Nivel 2 — Verbos HTTP y códigos de estado
+#### Nivel 2 — Verbos HTTP y códigos de estado
 Se utilizan correctamente los **métodos HTTP** y los **códigos de estado HTTP** según el resultado de cada operación.
 
-### Nivel 3 — HATEOAS
+#### Nivel 3 — HATEOAS
 Las respuestas incluyen **hipermedia**, proporcionando enlaces que indican posibles acciones o recursos relacionados.
 
 ![[Pasted image 20260821122410.png]]
