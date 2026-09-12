@@ -11,10 +11,14 @@
             "id": "87f4fa3d7e9fda5a",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
+              "type": "markdown",
+              "state": {
+                "file": "Arquitectura de Sistemas/Arquitectura Monolítica.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Arquitectura Monolítica"
             }
           }
         ]
@@ -51,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "criterios de acepta",
+                "query": "patrones ar",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -158,6 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Arquitectura de Sistemas/Arquitectura Monolítica.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -212,6 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Arquitectura de Sistemas/Arquitectura Monolítica.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -358,8 +364,9 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "Arquitectura de Sistemas/Patrones Arquitecturales.md",
     "Metodología de Sistemas/Historias de Usuario.md",
     "Metodología de Sistemas/Criterios de Aceptación.md",
     "Redes/World Wide Web (WWW).md",
@@ -387,7 +394,6 @@
     "Backend/Digest Authentication.md",
     "Backend/CORS.md",
     "Backend/Checkilst de Seguridad para APIs.md",
-    "Backend/Basic Authentication.md",
     "Backend",
     "Z_Imágenes/Pasted image 20260905174032.png",
     "Z_Imágenes/Pasted image 20260904120921.png",

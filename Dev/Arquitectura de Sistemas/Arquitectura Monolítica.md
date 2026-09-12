@@ -37,7 +37,7 @@ Los módulos pertenecen a la misma aplicación y pueden comunicarse entre sí.
 ## Casos de uso
 
 - Aplicaciones pequeñas o medianas.
-- **MVPs** y proyectos en etapas iniciales.
+- **MVPs (Minimun Viable Product** y proyectos en etapas iniciales.
 - Equipos pequeños.
 - Aplicaciones donde el rendimiento sea prioritario.
 
