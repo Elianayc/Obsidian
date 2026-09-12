@@ -28,7 +28,7 @@ El servidor **no debe depender del estado de solicitudes anteriores** del client
 
 
 ### Sistema por capas
-La comunicación puede incluir componentes intermedios, como **proxies** o **gateways**, que pueden gestionar o transformar las comunicaciones sin que el cliente tenga que conocerlos.
+La comunicación puede incluir componentes intermedios, como [[Proxy]] o **[[Gateway]], que pueden gestionar o transformar las comunicaciones sin que el cliente tenga que conocerlos.
 
 
 ### Representaciones múltiples
