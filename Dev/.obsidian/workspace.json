@@ -11,12 +11,14 @@
             "id": "87f4fa3d7e9fda5a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Z_Imágenes/Pasted image 20260912191616.png"
+                "file": "HTML/HTML (HyperText Markup Language).md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260912191616"
+              "icon": "lucide-file",
+              "title": "HTML (HyperText Markup Language)"
             }
           }
         ]
@@ -53,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "patrones ar",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -160,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Z_Imágenes/Pasted image 20260912191616.png",
+                "file": "HTML/HTML (HyperText Markup Language).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -215,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Z_Imágenes/Pasted image 20260912191616.png",
+                "file": "HTML/HTML (HyperText Markup Language).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -330,7 +332,7 @@
                   "repelStrength": 20,
                   "linkStrength": 1,
                   "linkDistance": 30,
-                  "scale": 0.7983099319630421,
+                  "scale": 0.5694148860370289,
                   "close": true
                 }
               },
@@ -362,22 +364,27 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
-    "Backend/Checkilst de Seguridad para APIs.md",
+    "Programación/Desarrollo Web.md",
+    "Programación/Lenguajes de Programación.md",
+    "HTML/HTML (HyperText Markup Language).md",
     "Backend/API REST.md",
-    "Backend/Gateway.md",
+    "Redes/HTTP (HyperText Transfer Protocol).md",
+    "Metodología de Sistemas/Mock Objects.md",
+    "Backend/Interfaces de programación de aplicaciones (API).md",
+    "Programación/Singleton.md",
     "Z_Imágenes/Pasted image 20260912191616.png",
+    "Backend/Checkilst de Seguridad para APIs.md",
+    "Backend/Gateway.md",
     "Backend/Proxy.md",
     "Z_Imágenes/Pasted image 20260912191716.png",
     "Redes/Body.md",
     "Backend/Arquitectura REST.md",
     "Arquitectura de Sistemas/Patrones Arquitecturales.md",
-    "Redes/HTTP (HyperText Transfer Protocol).md",
     "Backend/HTTPS.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
     "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
-    "Backend/Interfaces de programación de aplicaciones (API).md",
     "Arquitectura de Sistemas/Backend.md",
     "Arquitectura de Sistemas/Arquitectura de Microservicios.md",
     "Arquitectura de Sistemas/Arquitectura en Capas.md",
@@ -389,11 +396,6 @@
     "Z_Imágenes/Pasted image 20260910113346.png",
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Bases de Datos/Funciones de Ventana.md",
-    "Bases de Datos/Funciones de Fecha.md",
-    "Bases de Datos/Funciones de Cadena.md",
-    "Bases de Datos/Funciones Incorporadas.md",
-    "Bases de Datos/Funciones Definidas por el Usuario.md",
-    "Bases de Datos/Aggregation Methods.md",
     "Backend",
     "Z_Imágenes/Pasted image 20260905174032.png",
     "Z_Imágenes/Pasted image 20260904120921.png",
