@@ -24,12 +24,9 @@ Esta decisión debe considerar factores como:
 - [[Arquitectura Monolítica]]
 - [[Arquitectura en Capas]]
 - [[Arquitectura de Microservicios]]
+- [[API REST]]
 
 Cada arquitectura presenta **ventajas, desventajas y casos de uso** diferentes.
-
-Son tres ejes que a veces se combinan: **monolítico** vs **microservicios** describe cómo **desplegás** (una sola pieza o muchas piezas chicas). Arquitectura en **capas** describe cómo **organizás** el código por responsabilidades. 
-
-Por eso, **monolito puede estar organizado en capas**. No se contradicen: una define estructura interna y la otra estrategia de despliegue. Por eso a veces se presentan como opciones distintas para enseñar, pero en la práctica podés mezclarlas según convenga.
 
 ---
 
@@ -50,20 +47,20 @@ Por eso, la comparación sirve para distinguir sus características, pero no sig
 
 ## Comparación
 
-| Criterio | Monolítica | En Capas | Microservicios | REST |
-|---|---|---|---|---|
-| **Complejidad inicial** | Baja | Media | Alta | Media |
-| **Escalabilidad** | Limitada | Moderada | Alta | Alta |
-| **Tiempo de desarrollo inicial** | Rápido | Medio | Lento | Medio |
-| **Mantenibilidad a largo plazo** | Disminuye con el tamaño | Buena | Buena | Buena |
-| **Tolerancia a fallos** | Baja | Media | Alta | Alta |
-| **Flexibilidad tecnológica** | Baja | Media | Alta | Alta |
-| **Curva de aprendizaje** | Baja | Media | Alta | Media |
-| **Costos de infraestructura** | Bajos | Medios | Altos | Medios |
-| **Facilidad de refactorización** | Disminuye con el tiempo | Media | Alta | Media |
-| **Coherencia del código** | Alta | Alta | Variable | Media |
-| **Estándares / principios** | Variables | Definidos | Variables | Bien definidos |
-| **Orientación** | Funcional | Por capas | Por dominio | Por recursos |
+|             Criterio             |       Monolítica        | En Capas  | Microservicios |      REST      |
+| :------------------------------: | :---------------------: | :-------: | :------------: | :------------: |
+|     **Complejidad inicial**      |          Baja           |   Media   |      Alta      |     Media      |
+|        **Escalabilidad**         |        Limitada         | Moderada  |      Alta      |      Alta      |
+| **Tiempo de desarrollo inicial** |         Rápido          |   Medio   |     Lento      |     Medio      |
+| **Mantenibilidad a largo plazo** | Disminuye con el tamaño |   Buena   |     Buena      |     Buena      |
+|     **Tolerancia a fallos**      |          Baja           |   Media   |      Alta      |      Alta      |
+|   **Flexibilidad tecnológica**   |          Baja           |   Media   |      Alta      |      Alta      |
+|     **Curva de aprendizaje**     |          Baja           |   Media   |      Alta      |     Media      |
+|  **Costos de infraestructura**   |          Bajos          |  Medios   |     Altos      |     Medios     |
+| **Facilidad de refactorización** | Disminuye con el tiempo |   Media   |      Alta      |     Media      |
+|    **Coherencia del código**     |          Alta           |   Alta    |    Variable    |     Media      |
+|   **Estándares / principios**    |        Variables        | Definidos |   Variables    | Bien definidos |
+|         **Orientación**          |        Funcional        | Por capas |  Por dominio   |  Por recursos  |
 
 ---
 
@@ -72,9 +69,7 @@ Por eso, la comparación sirve para distinguir sus características, pero no sig
 **REST no es mutuamente excluyente con los otros enfoques arquitectónicos.** De hecho, puede complementarlos:
 
 - **Con arquitectura monolítica:** una aplicación monolítica puede exponer una **API REST** para clientes externos.
-
 - **Con arquitectura en capas:** REST puede implementarse como parte de la **capa de presentación** o mediante una **capa de API separada**.
-
 - **Con microservicios:** REST es uno de los estilos más utilizados para la comunicación entre **microservicios** y con clientes externos.
 
 ---

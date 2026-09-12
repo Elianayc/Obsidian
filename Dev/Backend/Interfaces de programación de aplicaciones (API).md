@@ -7,5 +7,3 @@ Mecanismos que permiten la comunicación entre distintos sistemas o componentes 
 - Facilitan la interoperabilidad entre aplicaciones
 - Actúan como intermediarios entre frontend, backend y servicios externos
 - Permiten el acceso controlado a funcionalidades o datos
-
-- [[API REST]]
