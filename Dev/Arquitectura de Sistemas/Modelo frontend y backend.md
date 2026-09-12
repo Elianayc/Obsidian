@@ -2,7 +2,7 @@
 tags:
   - ArquitecturadeSistemas
 ---
-El modelo [**Frontend**](Frontend) **y** [**Backend**](Backend) es una forma de organizar una aplicación separando responsabilidades entre la parte que interactúa con el usuario y la parte que procesa la información del sistema.
+El modelo [**Frontend**](Frontend) **y** [**Backend**](Backend.md) es una forma de organizar una aplicación separando responsabilidades entre la parte que interactúa con el usuario y la parte que procesa la información del sistema.
 
 Esta separación permite desarrollar sistemas más ordenados, escalables y fáciles de mantener.
 

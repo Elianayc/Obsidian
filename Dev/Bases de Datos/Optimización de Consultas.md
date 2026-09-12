@@ -71,5 +71,3 @@ Para cada consulta, el motor de base de datos arma un árbol de ejecución, dond
 - [[Aggregation Methods]] (hash, sort)
 
 ---
-
-#BasesdeDatos

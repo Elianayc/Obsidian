@@ -20,6 +20,7 @@ Permite la gestión eficiente de grandes volúmenes de datos, asegurando su orga
 Concepto que especifica cómo van a estar organizados los datos y cómo se van a relacionar.
 
 #### Componentes
+
 - [[Gestor de almacenamiento]]
 - [[Procesador de consultas]]
 
@@ -79,7 +80,7 @@ La base de datos puede crecer sin afectar a las aplicaciones que no utilizan los
 - [[ANSI SPARC]]
 - [[Transacciones]]
 - [[Normalización]]
-- [[Funciones]]
+
 
 ---
 

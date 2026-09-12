@@ -41,4 +41,3 @@ clave_del_grupo → acumulador
 > HashAggregate
 > ```
 > 
-#BasesdeDatos

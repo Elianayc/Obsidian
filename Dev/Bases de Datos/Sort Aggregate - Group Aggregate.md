@@ -4,6 +4,7 @@ tags:
 El motor primero ordena los datos y luego agrupa los registros consecutivos.
 
 **Conceptualmente**:
+
 ```text
 ordenar → agrupar
 ```
@@ -32,4 +33,5 @@ ordenar → agrupar
 > GroupAggregate
 > ```
 > 
-#BasesdeDatos
+
+---

@@ -39,4 +39,3 @@ SELECT salario * 12 AS salario_anualFROM empleados;
 ```
 
 ---
-

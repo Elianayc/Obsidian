@@ -18,10 +18,17 @@ Dentro de la arquitectura de un sistema se analizan diferentes aspectos:
 - **Cómo se comunican los componentes del sistema:**
   - [[Modelo Cliente - Servidor]]
   - [[Interfaces de programación de aplicaciones (API)]]
-  - [[Arquitectura REST]]
 
 - **Cómo se almacenan y gestionan los datos:**
-  - [[Persistencia de datos]]
+
+	**Persistencia de datos**
+    Incluye el estudio de los mecanismos mediante los cuales la información es almacenada y recuperada de forma permanente.
+
+	#### Elementos asociados:
+	- Memoria RAM vs almacenamiento persistente
+	- Sistemas de archivos
+	- DBMS
+	- Operaciones CRUD
 
 ---
 ## Relación con la implementación

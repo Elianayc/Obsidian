@@ -7,9 +7,15 @@ La cláusula **LIMIT** se utiliza en SQL para **restringir la cantidad de filas 
 
 Se usa principalmente para controlar el tamaño del resultado, especialmente en consultas grandes o en paginación de datos.
 
+---
+
 ### Sintaxis básica
 ```sql
-SELECT * FROM empleados LIMIT 5;
+SELECT 
+	* 
+FROM 
+	empleados 
+LIMIT 5;
 ```
 
  Devuelve solo los primeros 5 registros.
@@ -20,7 +26,10 @@ SELECT * FROM empleados LIMIT 5;
 
 Permite saltar registros antes de empezar a mostrar resultados.
 ```sql
-SELECT *FROM empleados 
+SELECT 
+*
+FROM 
+	empleados 
 LIMIT 5 
 OFFSET 10;
 ```
