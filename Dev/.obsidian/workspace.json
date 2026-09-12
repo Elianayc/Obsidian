@@ -11,14 +11,12 @@
             "id": "87f4fa3d7e9fda5a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Backend/Arquitectura REST.md",
-                "mode": "preview",
-                "source": false
+                "file": "Z_Imágenes/Pasted image 20260912191616.png"
               },
-              "icon": "lucide-file",
-              "title": "Arquitectura REST"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260912191616"
             }
           }
         ]
@@ -162,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/Arquitectura REST.md",
+                "file": "Z_Imágenes/Pasted image 20260912191616.png",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +215,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Backend/Arquitectura REST.md",
+                "file": "Z_Imágenes/Pasted image 20260912191616.png",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -364,18 +362,20 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "87f4fa3d7e9fda5a",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
-    "Gateway.md",
+    "Backend/Checkilst de Seguridad para APIs.md",
+    "Backend/API REST.md",
+    "Backend/Gateway.md",
+    "Z_Imágenes/Pasted image 20260912191616.png",
+    "Backend/Proxy.md",
+    "Z_Imágenes/Pasted image 20260912191716.png",
+    "Redes/Body.md",
     "Backend/Arquitectura REST.md",
-    "Proxy.md",
-    "Pasted image 20260912191716.png",
-    "Pasted image 20260912191616.png",
+    "Arquitectura de Sistemas/Patrones Arquitecturales.md",
     "Redes/HTTP (HyperText Transfer Protocol).md",
     "Backend/HTTPS.md",
-    "Arquitectura de Sistemas/Patrones Arquitecturales.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-    "Backend/API REST.md",
     "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
     "Backend/Interfaces de programación de aplicaciones (API).md",
     "Arquitectura de Sistemas/Backend.md",
@@ -394,8 +394,6 @@
     "Bases de Datos/Funciones Incorporadas.md",
     "Bases de Datos/Funciones Definidas por el Usuario.md",
     "Bases de Datos/Aggregation Methods.md",
-    "Backend/Versionado de APIs REST.md",
-    "Backend/Validación de Inputs.md",
     "Backend",
     "Z_Imágenes/Pasted image 20260905174032.png",
     "Z_Imágenes/Pasted image 20260904120921.png",
