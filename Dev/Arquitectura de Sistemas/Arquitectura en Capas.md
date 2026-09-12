@@ -25,6 +25,7 @@ El procesamiento de una solicitud puede involucrar a **todas o casi todas las ca
 
 ## Capas típicas
 
+
 ### 1. Presentación
 Se encarga de la **interacción con el usuario** y de presentar la información.
 
@@ -36,7 +37,6 @@ Se encarga de la **interacción con el usuario** y de presentar la información.
 
 Debe evitar contener lógica de negocio.
 
----
 
 ### 2. Aplicación
 Coordina las operaciones y **orquesta los casos de uso** de la aplicación.
@@ -49,7 +49,6 @@ Coordina las operaciones y **orquesta los casos de uso** de la aplicación.
 
 Debe mantenerse relativamente delgada y delegar las reglas de negocio a la capa de dominio.
 
----
 
 ### 3. Dominio / Negocio
 Contiene la **lógica de negocio central**, las reglas y las entidades principales del sistema.
@@ -62,7 +61,6 @@ Contiene la **lógica de negocio central**, las reglas y las entidades principal
 
 Debe ser independiente de cualquier framework, base de datos o tecnologías de interfaz uses.
 
----
 
 ### 4. Acceso a Datos
 Se encarga de la **persistencia y recuperación de información**.
@@ -75,7 +73,6 @@ Se encarga de la **persistencia y recuperación de información**.
 
 Puede utilizar repositorios, ORM o DAO.
 
----
 
 ### 5. Infraestructura
 Proporciona servicios técnicos que utiliza el resto de la aplicación.
