@@ -366,8 +366,9 @@
   },
   "active": "3904cc8df9d61c00",
   "lastOpenFiles": [
-    "HTML/HTML (HyperText Markup Language).md",
+    "Redes/HTTP (HyperText Transfer Protocol).md",
     "Redes/World Wide Web (WWW).md",
+    "HTML/HTML (HyperText Markup Language).md",
     "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
     "Arquitectura de Sistemas/Servidor Web.md",
     "Arquitectura de Sistemas/Funcionamiento de un Servidor Web.md",
@@ -380,7 +381,6 @@
     "Redes/SMTP (Simple Mail Transfer Protocol).md",
     "Redes/SFTP (SSH File Transfer Protocol).md",
     "Redes/FTP (File Transfer Protocol).md",
-    "Redes/HTTP (HyperText Transfer Protocol).md",
     "Redes/Peticiones HTTP (Requests).md",
     "Redes/Ciclo de vida de una petición web.md",
     "Redes/Estructura de una petición HTTP.md",
