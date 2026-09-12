@@ -60,7 +60,7 @@ Contiene la **lógica de negocio central**, las reglas y las entidades principal
 - Aplicar validaciones complejas.
 - Representar el dominio del problema.
 
-Debe ser independiente de frameworks, bases de datos y tecnologías de interfaz.
+Debe ser independiente de cualquier framework, base de datos o tecnologías de interfaz uses.
 
 ---
 
