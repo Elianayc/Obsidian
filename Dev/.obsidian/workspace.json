@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Backend/Arquitectura REST.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -366,6 +366,8 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "Pasted image 20260912191716.png",
+    "Pasted image 20260912191616.png",
     "Redes/HTTP (HyperText Transfer Protocol).md",
     "Backend/Arquitectura REST.md",
     "Backend/HTTPS.md",
@@ -393,7 +395,6 @@
     "Backend/Versionado de APIs REST.md",
     "Backend/Validación de Inputs.md",
     "Backend/Seguridad de APIs.md",
-    "Backend/Recursos y URLs.md",
     "Backend",
     "Z_Imágenes/Pasted image 20260905174032.png",
     "Z_Imágenes/Pasted image 20260904120921.png",
@@ -402,7 +403,6 @@
     "Z_Imágenes/Pasted image 20260831123731.png",
     "Pasted image 20260831123729.png",
     "Z_Imágenes/Pasted image 20260831123706.png",
-    "Z_Imágenes/Pasted image 20260826113030.png",
     "Metodología de Sistemas",
     "Frameworks",
     "Javascript",

@@ -38,9 +38,13 @@ Un mismo recurso puede representarse en diferentes formatos, por ejemplo:
 - **XML**
 - **HTML**
 
+![[Pasted image 20260912191716.png|831]]
+
 
 ### HATEOAS
 **HATEOAS (Hypermedia as the Engine of Application State)** permite que las respuestas incluyan enlaces que indiquen al cliente qué acciones o recursos puede consultar a continuación.
+
+![[Pasted image 20260912191616.png|556]]
 
 ---
 
