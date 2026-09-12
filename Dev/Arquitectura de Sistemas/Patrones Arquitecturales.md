@@ -27,6 +27,10 @@ Esta decisión debe considerar factores como:
 
 Cada arquitectura presenta **ventajas, desventajas y casos de uso** diferentes.
 
+Son tres ejes que a veces se combinan: **monolítico** vs **microservicios** describe cómo **desplegás** (una sola pieza o muchas piezas chicas). Arquitectura en **capas** describe cómo **organizás** el código por responsabilidades. 
+
+Por eso, **monolito puede estar organizado en capas**. No se contradicen: una define estructura interna y la otra estrategia de despliegue. Por eso a veces se presentan como opciones distintas para enseñar, pero en la práctica podés mezclarlas según convenga.
+
 ---
 
 # Comparación de enfoques arquitectónicos

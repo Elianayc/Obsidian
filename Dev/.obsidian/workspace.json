@@ -367,6 +367,7 @@
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
     "Arquitectura de Sistemas/Patrones Arquitecturales.md",
+    "Arquitectura de Sistemas/Arquitectura de Microservicios.md",
     "Arquitectura de Sistemas/Arquitectura en Capas.md",
     "Arquitectura de Sistemas/Arquitectura Monolítica.md",
     "Metodología de Sistemas/Historias de Usuario.md",
@@ -393,7 +394,6 @@
     "Backend/HTTPS.md",
     "Backend/Headers de Seguridad.md",
     "Backend/Diseño de APIs REST.md",
-    "Backend/Digest Authentication.md",
     "Backend",
     "Z_Imágenes/Pasted image 20260905174032.png",
     "Z_Imágenes/Pasted image 20260904120921.png",
