@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Concepto de hipertexto.md",
+                "file": "HTML/Etiquetas HTML.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concepto de hipertexto"
+              "title": "Etiquetas HTML"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/Concepto de hipertexto.md",
+                "file": "HTML/Etiquetas HTML.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HTML/Concepto de hipertexto.md",
+                "file": "HTML/Etiquetas HTML.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,6 +367,8 @@
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
     "HTML/HTML (HyperText Markup Language).md",
+    "HTML/Etiquetas HTML.md",
+    "HTML/Etiquetas abiertas y cerradas.md",
     "HTML/Concepto de hipertexto.md",
     "Redes/World Wide Web (WWW).md",
     "HTML/HTML Entities.md",
@@ -392,8 +394,6 @@
     "Arquitectura de Sistemas/Backend.md",
     "Arquitectura de Sistemas/Arquitectura de Microservicios.md",
     "Arquitectura de Sistemas/Arquitectura en Capas.md",
-    "Arquitectura de Sistemas/Arquitectura Monolítica.md",
-    "Metodología de Sistemas/Historias de Usuario.md",
     "Z_Imágenes/Pasted image 20260910113346.png",
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Backend",
