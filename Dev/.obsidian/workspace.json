@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frameworks/Frameworks.md",
+                "file": "HTML/HTML (HyperText Markup Language).md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Frameworks"
+              "title": "HTML (HyperText Markup Language)"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Frameworks/Frameworks.md",
+                "file": "HTML/HTML (HyperText Markup Language).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Frameworks/Frameworks.md",
+                "file": "HTML/HTML (HyperText Markup Language).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,6 +366,7 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "Frameworks/Frameworks.md",
     "HTML/HTML (HyperText Markup Language).md",
     "Programación/Desarrollo Web.md",
     "Programación/Lenguajes de Programación.md",
@@ -395,7 +396,6 @@
     "conflict-files-obsidian-git.md",
     "Z_Imágenes/Pasted image 20260910113346.png",
     "Z_Imágenes/Pasted image 20260909151125.png",
-    "Bases de Datos/Funciones de Ventana.md",
     "Backend",
     "Z_Imágenes/Pasted image 20260905174032.png",
     "Z_Imágenes/Pasted image 20260904120921.png",
