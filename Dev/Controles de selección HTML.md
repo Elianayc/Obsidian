@@ -1,5 +1,3 @@
-# Controles de selección
-
 Los controles de selección permiten que el usuario elija opciones definidas previamente por el programador.
 
 El valor enviado corresponde al atributo:
