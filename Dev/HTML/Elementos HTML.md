@@ -45,7 +45,7 @@ Los elementos pueden contener:
 - [[Tablas HTML]]
 - [[Formularios HTML]]
 - [[Iframe]]
-- [[HTML Entities]]
+- [[Entidades HTML]]
 - [[Simbolos y Emojis]]
 
 ---
