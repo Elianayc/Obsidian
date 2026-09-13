@@ -1,8 +1,3 @@
-Los controles de formulario permiten que el usuario ingrese datos o seleccione opciones.
-
----
-
-# Ingreso de texto
 Existen diferentes controles para ingresar texto.
 
 ---
