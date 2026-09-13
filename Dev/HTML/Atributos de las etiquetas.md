@@ -22,6 +22,10 @@ En este caso:
 
 ---
 
+![[Pasted image 20260913183701.png]]
+
+---
+
 ## Características de los atributos
 Una etiqueta puede tener más de un atributo.
 

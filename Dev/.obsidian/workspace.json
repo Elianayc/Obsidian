@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Etiquetas HTML.md",
+                "file": "HTML/Atributos de las etiquetas.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Etiquetas HTML"
+              "title": "Atributos de las etiquetas"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/Etiquetas HTML.md",
+                "file": "HTML/Atributos de las etiquetas.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HTML/Etiquetas HTML.md",
+                "file": "HTML/Atributos de las etiquetas.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,8 +366,12 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
-    "HTML/HTML (HyperText Markup Language).md",
+    "Pasted image 20260913183701.png",
     "HTML/Etiquetas HTML.md",
+    "HTML/HTML (HyperText Markup Language).md",
+    "HTML/Elementos HTML.md",
+    "HTML/Atributos de las etiquetas.md",
+    "HTML/Uso del signo barra.md",
     "HTML/Etiquetas abiertas y cerradas.md",
     "HTML/Concepto de hipertexto.md",
     "Redes/World Wide Web (WWW).md",
@@ -390,10 +394,6 @@
     "Arquitectura de Sistemas/Patrones Arquitecturales.md",
     "Backend/HTTPS.md",
     "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
-    "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
-    "Arquitectura de Sistemas/Backend.md",
-    "Arquitectura de Sistemas/Arquitectura de Microservicios.md",
-    "Arquitectura de Sistemas/Arquitectura en Capas.md",
     "Z_Imágenes/Pasted image 20260910113346.png",
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Backend",
