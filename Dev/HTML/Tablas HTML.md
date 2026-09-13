@@ -8,12 +8,12 @@ HTML dispone de varias etiquetas para definir la estructura de una tabla.
 
 ## Elementos principales de una tabla
 
-|Elemento|Tipo|Descripción|
-|---|---|---|
-|`<table>`|Bloque|Contiene todos los elementos que forman la tabla (filas y columnas)|
-|`<tr>`|Bloque|Define una fila de la tabla|
-|`<th>`|Bloque|Define una celda de encabezado de la tabla|
-|`<td>`|Bloque|Define una celda de datos de la tabla|
+| Elemento  |  Tipo  |                             Descripción                             |
+| :-------: | :----: | :-----------------------------------------------------------------: |
+| `<table>` | Bloque | Contiene todos los elementos que forman la tabla (filas y columnas) |
+|  `<tr>`   | Bloque |                     Define una fila de la tabla                     |
+|  `<th>`   | Bloque |             Define una celda de encabezado de la tabla              |
+|  `<td>`   | Bloque |                Define una celda de datos de la tabla                |
 
 ---
 
@@ -43,9 +43,9 @@ HTML dispone de varias etiquetas para definir la estructura de una tabla.
 
 **Resultado**:
 
-|Producto|Precio|Cantidad|
-|---|---|---|
-|Laptop|$1200|5|
-|Mouse|$25|20|
+| Producto | Precio | Cantidad |
+| :------: | :----: | :------: |
+|  Laptop  | $1200  |    5     |
+|  Mouse   |  $25   |    20    |
 
 ---

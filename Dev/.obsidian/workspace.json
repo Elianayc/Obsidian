@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Tablas HTML.md",
-                "mode": "source",
+                "file": "HTML/Formularios HTML.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tablas HTML"
+              "title": "Formularios HTML"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/Tablas HTML.md",
+                "file": "HTML/Formularios HTML.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HTML/Tablas HTML.md",
+                "file": "HTML/Formularios HTML.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,6 +367,7 @@
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
     "HTML/Elementos HTML.md",
+    "HTML/Tablas HTML.md",
     "HTML/Favicon.md",
     "HTML/Imágenes HTML.md",
     "HTML/Listas HTML.md",
@@ -396,7 +397,6 @@
     "Redes/HTTP (HyperText Transfer Protocol).md",
     "Metodología de Sistemas/Mock Objects.md",
     "Backend/Interfaces de programación de aplicaciones (API).md",
-    "Programación/Singleton.md",
     "Z_Imágenes/Pasted image 20260912191616.png",
     "Z_Imágenes/Pasted image 20260912191716.png",
     "Z_Imágenes/Pasted image 20260910113346.png",
