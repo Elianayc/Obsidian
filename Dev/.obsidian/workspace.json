@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Tipos de elementos HTML.md",
+                "file": "HTML/Tipos de elementos HTML (Block & Inline).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tipos de elementos HTML"
+              "title": "Tipos de elementos HTML (Block & Inline)"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/Tipos de elementos HTML.md",
+                "file": "HTML/Tipos de elementos HTML (Block & Inline).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HTML/Tipos de elementos HTML.md",
+                "file": "HTML/Tipos de elementos HTML (Block & Inline).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -369,7 +369,7 @@
     "HTML/Elementos HTML.md",
     "Elementos HTML principales.md",
     "HTML/HTML (HyperText Markup Language).md",
-    "HTML/Tipos de elementos HTML.md",
+    "HTML/Tipos de elementos HTML (Block & Inline).md",
     "HTML/Etiquetas HTML.md",
     "HTML/Atributos de las etiquetas.md",
     "Pasted image 20260913183701.png",

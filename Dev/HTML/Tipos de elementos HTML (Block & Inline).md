@@ -14,7 +14,7 @@ Ejemplos:
 
 ---
 
-## Elementos de línea (inline)
+## Elementos de línea (inlin[]()e)
 
 Los elementos de línea:
 - Ocupan solamente el espacio necesario según su contenido.

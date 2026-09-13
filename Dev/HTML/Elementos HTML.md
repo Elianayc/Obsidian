@@ -35,7 +35,7 @@ Los elementos pueden contener:
 
 ---
 
-- [[Tipos de elementos HTML]]
+- [[Tipos de elementos HTML (Block & Inline)]]
 - [[Niveles de encabezado HTML]]
 - [[Elementos contenedores HTML]]
 - [[Enlaces HTML]]
