@@ -10,15 +10,13 @@ Los principales son:
 
 Es un divisor o contenedor de elementos HTML.
 
-Características:
-
+**Características**:
 - Puede contener otros elementos HTML.
 - Puede incluir incluso otros elementos `<div>`.
 - No produce una salida visual por sí mismo.
 - Se utiliza para definir áreas o secciones dentro de una página.
 
-Ejemplo:
-
+**Ejemplo**:
 ```
 <div>
     <h1>Título</h1>
@@ -33,11 +31,9 @@ Ejemplo:
 **Tipo:** Línea
 
 Define un contenedor en línea sin formato propio.
-
 Se utiliza dentro de textos cuando se necesita modificar solamente una parte específica.
 
-Ejemplo:
-
+**Ejemplo**:
 ```
 <p>
     Este texto tiene una palabra 

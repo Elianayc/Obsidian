@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Tipos de elementos HTML (Block & Inline).md",
+                "file": "HTML/Elementos contenedores HTML.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tipos de elementos HTML (Block & Inline)"
+              "title": "Elementos contenedores HTML"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/Tipos de elementos HTML (Block & Inline).md",
+                "file": "HTML/Elementos contenedores HTML.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HTML/Tipos de elementos HTML (Block & Inline).md",
+                "file": "HTML/Elementos contenedores HTML.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,11 +366,13 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "HTML/Elementos HTML.md",
+    "HTML/Niveles de encabezado HTML.md",
+    "Sin título.base",
+    "HTML/Tipos de elementos HTML (Block & Inline).md",
     "Pasted image 20260913185456.png",
     "Z_Imágenes/Pasted image 20260913183701.png",
-    "HTML/Tipos de elementos HTML (Block & Inline).md",
     "Pasted image 20260913185119.png",
-    "HTML/Elementos HTML.md",
     "Elementos HTML principales.md",
     "HTML/HTML (HyperText Markup Language).md",
     "HTML/Etiquetas HTML.md",
@@ -402,14 +404,12 @@
     "Z_Imágenes/Pasted image 20260905174032.png",
     "Z_Imágenes/Pasted image 20260904120921.png",
     "Pasted image 20260904121541.png",
-    "Z_Imágenes/Pasted image 20260904121735.png",
     "Metodología de Sistemas",
     "Frameworks",
     "Javascript",
     "Typescript",
     "CSS",
     "HTML",
-    "Sin título.base",
     "Modelado de Sistemas",
     "TCP",
     "Sin título.canvas",

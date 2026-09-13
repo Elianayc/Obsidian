@@ -23,6 +23,8 @@ El encabezado `<h1>` representa el nivel más importante y los siguientes nivele
 <h3>Sección dentro del subtítulo</h3>
 ```
 
-La jerarquía debe respetarse. Por ejemplo, antes de utilizar un `<h3>` debería existir un encabezado de nivel superior como `<h2>`.
+
+> **Sugerencia**: La jerarquía debería respetarse. Por ejemplo, antes de utilizar un `<h3>` debería existir un encabezado de nivel superior como `<h2>`.
+
 
 ---
