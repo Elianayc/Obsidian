@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "HTML/Tipos de elementos HTML (Block & Inline).md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -366,6 +366,7 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "Pasted image 20260913185119.png",
     "HTML/Elementos HTML.md",
     "Elementos HTML principales.md",
     "HTML/HTML (HyperText Markup Language).md",
@@ -394,7 +395,6 @@
     "Redes/Body.md",
     "Backend/Arquitectura REST.md",
     "Arquitectura de Sistemas/Patrones Arquitecturales.md",
-    "Backend/HTTPS.md",
     "Z_Imágenes/Pasted image 20260910113346.png",
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Backend",
