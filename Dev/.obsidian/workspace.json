@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Estructura básica de un documento HTML.md",
-                "mode": "preview",
+                "file": "HTML/HTML5.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estructura básica de un documento HTML"
+              "title": "HTML5"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/Estructura básica de un documento HTML.md",
+                "file": "HTML/HTML5.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HTML/Estructura básica de un documento HTML.md",
+                "file": "HTML/HTML5.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",

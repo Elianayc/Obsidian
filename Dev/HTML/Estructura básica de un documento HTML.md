@@ -34,6 +34,8 @@ Mediante esta definición se establece qué estructura tendrá el documento que 
 
 En este caso, se indica que el documento utiliza el estándar **HTML**.
 
+Ya casi no se usa.
+
 ---
 
 # Etiqueta `<html>`
