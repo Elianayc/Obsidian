@@ -18,7 +18,6 @@ Ejemplo:
 ### Enlaces relativos
 
 Son aquellos que apuntan a documentos que se encuentran dentro del mismo proyecto.
-
 No utilizan la URL completa, sino la ubicación del archivo.
 
 Si el archivo está en el mismo directorio:
