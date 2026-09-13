@@ -60,11 +60,11 @@ Se utiliza para representar términos y sus descripciones.
 
 Está formada por:
 
-|Etiqueta|Función|
-|---|---|
-|`<dl>`|Define la lista de definición|
-|`<dt>`|Define el término|
-|`<dd>`|Define la descripción del término|
+| Etiqueta |              Función              |
+| :------: | :-------------------------------: |
+|  `<dl>`  |   Define la lista de definición   |
+|  `<dt>`  |         Define el término         |
+|  `<dd>`  | Define la descripción del término |
 
 **Ejemplo**:
 ```html
