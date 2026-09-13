@@ -26,7 +26,6 @@ Si no se especifica un valor, el formulario enviará los datos al mismo document
 ## `method`
 
 Indica cómo serán enviados los datos del formulario.
-
 Define el método HTTP utilizado para realizar el envío.
 
 Los métodos más utilizados son:
