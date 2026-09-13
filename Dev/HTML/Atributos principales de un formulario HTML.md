@@ -47,16 +47,15 @@ method="GET"
 ## `enctype`
 
 Define cómo se codificará la información enviada por el formulario.
-
 Es especialmente importante cuando el método utilizado es `POST`.
 
 Los valores posibles son:
 
-|Valor|Uso|
-|---|---|
-|`application/x-www-form-urlencoded`|Valor predeterminado para enviar datos|
-|`multipart/form-data`|Se utiliza cuando se envían archivos|
-|`text/plain`|Incorporado en HTML5|
+|                Valor                |                  Uso                   |
+| :---------------------------------: | :------------------------------------: |
+| `application/x-www-form-urlencoded` | Valor predeterminado para enviar datos |
+|        `multipart/form-data`        |  Se utiliza cuando se envían archivos  |
+|            `text/plain`             |          Incorporado en HTML5          |
 
 **Ejemplo**:
 ```html

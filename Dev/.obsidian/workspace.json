@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Formularios HTML.md",
-                "mode": "preview",
+                "file": "HTML/Atributos principales de un formulario HTML.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Formularios HTML"
+              "title": "Atributos principales de un formulario HTML"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/Formularios HTML.md",
+                "file": "HTML/Atributos principales de un formulario HTML.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HTML/Formularios HTML.md",
+                "file": "HTML/Atributos principales de un formulario HTML.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,6 +366,7 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "HTML/Formularios HTML.md",
     "HTML/Elementos HTML.md",
     "HTML/Tablas HTML.md",
     "HTML/Favicon.md",
@@ -396,7 +397,6 @@
     "Backend/API REST.md",
     "Redes/HTTP (HyperText Transfer Protocol).md",
     "Metodología de Sistemas/Mock Objects.md",
-    "Backend/Interfaces de programación de aplicaciones (API).md",
     "Z_Imágenes/Pasted image 20260912191616.png",
     "Z_Imágenes/Pasted image 20260912191716.png",
     "Z_Imágenes/Pasted image 20260910113346.png",
