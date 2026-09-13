@@ -1,6 +1,6 @@
 Los elementos HTML que se encuentran dentro del documento se pueden dividir en dos grupos principales:
 
-![[Pasted image 20260913185119.png]]
+
 
 ---
 
