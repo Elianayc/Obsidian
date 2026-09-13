@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Elementos contenedores HTML.md",
-                "mode": "preview",
+                "file": "HTML/Tipos de enlaces.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Elementos contenedores HTML"
+              "title": "Tipos de enlaces"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/Elementos contenedores HTML.md",
+                "file": "HTML/Tipos de enlaces.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HTML/Elementos contenedores HTML.md",
+                "file": "HTML/Tipos de enlaces.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,7 +366,9 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "HTML/Enlaces HTML.md",
     "HTML/Elementos HTML.md",
+    "HTML/Elementos contenedores HTML.md",
     "HTML/Niveles de encabezado HTML.md",
     "Sin título.base",
     "HTML/Tipos de elementos HTML (Block & Inline).md",
@@ -396,8 +398,6 @@
     "Backend/Proxy.md",
     "Z_Imágenes/Pasted image 20260912191716.png",
     "Redes/Body.md",
-    "Backend/Arquitectura REST.md",
-    "Arquitectura de Sistemas/Patrones Arquitecturales.md",
     "Z_Imágenes/Pasted image 20260910113346.png",
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Backend",

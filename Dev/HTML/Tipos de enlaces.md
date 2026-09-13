@@ -1,4 +1,6 @@
 
+---
+
 ### Enlaces absolutos
 Son aquellos que apuntan a documentos externos al sitio actual.
 
