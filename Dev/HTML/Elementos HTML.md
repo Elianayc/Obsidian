@@ -33,7 +33,8 @@ Los elementos pueden contener:
 | `<strong>` | Línea  | Marca un texto con especial importancia o énfasis fuerte         |
 | `<em>`     | Línea  | Indica énfasis en un texto, generalmente representado en cursiva |
 
---
+---
+
 - [[Tipos de elementos HTML]]
 - [[Niveles de encabezado HTML]]
 - [[Elementos contenedores HTML]]
