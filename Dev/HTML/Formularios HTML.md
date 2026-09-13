@@ -38,6 +38,7 @@ Un formulario funciona como un contenedor de diferentes controles de entrada, co
 - [[Atributos principales de un formulario HTML]]
 - [[Ingreso de texto HTML]]
 - [[Botones de un formulario HTML]]
+- [[Controles de selección HTML]]
 
 ---
 

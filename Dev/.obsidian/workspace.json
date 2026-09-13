@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Botones de un formulario HTML.md",
+                "file": "HTML/Formularios HTML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Botones de un formulario HTML"
+              "title": "Formularios HTML"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/Botones de un formulario HTML.md",
+                "file": "HTML/Formularios HTML.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HTML/Botones de un formulario HTML.md",
+                "file": "HTML/Formularios HTML.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,6 +366,8 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "Controles de selección HTML.md",
+    "HTML/Botones de un formulario HTML.md",
     "HTML/Formularios HTML.md",
     "HTML/Ingreso de texto HTML.md",
     "HTML/Atributos principales de un formulario HTML.md",
@@ -395,8 +397,6 @@
     "HTML/HTML Entities.md",
     "Frameworks/Frameworks.md",
     "Programación/Desarrollo Web.md",
-    "Programación/Lenguajes de Programación.md",
-    "Backend/API REST.md",
     "Z_Imágenes/Pasted image 20260912191616.png",
     "Z_Imágenes/Pasted image 20260912191716.png",
     "Z_Imágenes/Pasted image 20260910113346.png",
