@@ -25,6 +25,7 @@ Permite indicar que el documento sigue una estructura determinada por un **DTD (
 ## DTD (Document Type Definition)
 
 Un **DTD** define:
+
 - La estructura de un documento.
 - Los elementos permitidos.
 - Los atributos disponibles.
@@ -118,12 +119,12 @@ Ejemplo:
 
 # Resumen
 
-|Elemento|Función|
-|---|---|
-|`DOCTYPE`|Declara el tipo de documento HTML|
-|`DTD`|Define la estructura y elementos permitidos del documento|
-|`<html>`|Contiene todo el documento HTML|
-|`<head>`|Contiene información de configuración y comunicación con el navegador|
-|`<body>`|Contiene el contenido visible de la página|
+| Elemento  |                                Función                                |
+| :-------: | :-------------------------------------------------------------------: |
+| `DOCTYPE` |                   Declara el tipo de documento HTML                   |
+|   `DTD`   |       Define la estructura y elementos permitidos del documento       |
+| `<html>`  |                    Contiene todo el documento HTML                    |
+| `<head>`  | Contiene información de configuración y comunicación con el navegador |
+| `<body>`  |              Contiene el contenido visible de la página               |
 
 ---
