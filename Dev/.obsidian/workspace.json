@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Mejoras en formularios HTML5.md",
+                "file": "HTML/Metatags.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mejoras en formularios HTML5"
+              "title": "Metatags"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/Mejoras en formularios HTML5.md",
+                "file": "HTML/Metatags.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HTML/Mejoras en formularios HTML5.md",
+                "file": "HTML/Metatags.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,9 +366,11 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
-    "HTML/HTML5.md",
-    "HTML/Multimedia en HTML5.md",
     "HTML/HTML (HyperText Markup Language).md",
+    "HTML/HTML5.md",
+    "HTML/Mejoras en formularios HTML5.md",
+    "HTML/Validaciones automáticas.md",
+    "HTML/Multimedia en HTML5.md",
     "HTML/Estructura básica de un documento HTML.md",
     "HTML/HTML y la presentación visual.md",
     "HTML/Atributos HTML.md",
@@ -393,10 +395,8 @@
     "HTML/Tipos de enlaces.md",
     "HTML/Elementos contenedores HTML.md",
     "HTML/Niveles de encabezado HTML.md",
-    "HTML/Tipos de elementos HTML (Block & Inline).md",
     "Z_Imágenes/Pasted image 20260913183701.png",
     "Pasted image 20260913185119.png",
-    "Elementos HTML principales.md",
     "Z_Imágenes/Pasted image 20260912191616.png",
     "Z_Imágenes/Pasted image 20260912191716.png",
     "Z_Imágenes/Pasted image 20260910113346.png",
