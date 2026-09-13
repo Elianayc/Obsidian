@@ -10,5 +10,5 @@ Si un texto solamente tiene apariencia de encabezado pero no fue definido como t
 
 ![[Pasted image 20260814151210.png]]
 
-![[Pasted image 20260814151240.png]]
+
 ---

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Iframe.md",
+                "file": "HTML/Estructura básica de un documento HTML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Iframe"
+              "title": "Estructura básica de un documento HTML"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/Iframe.md",
+                "file": "HTML/Estructura básica de un documento HTML.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HTML/Iframe.md",
+                "file": "HTML/Estructura básica de un documento HTML.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,7 +366,15 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "HTML/HTML (HyperText Markup Language).md",
+    "HTML/Estructura básica de un documento HTML.md",
+    "HTML/HTML y la presentación visual.md",
+    "HTML/Atributos HTML.md",
+    "HTML/Anidamiento y jerarquía.md",
     "HTML/Elementos HTML.md",
+    "HTML/Simbolos y Emojis.md",
+    "HTML/HTML Entities.md",
+    "HTML/Iframe.md",
     "HTML/Formularios HTML.md",
     "Controles de selección HTML.md",
     "HTML/Botones de un formulario HTML.md",
@@ -387,16 +395,8 @@
     "Z_Imágenes/Pasted image 20260913183701.png",
     "Pasted image 20260913185119.png",
     "Elementos HTML principales.md",
-    "HTML/HTML (HyperText Markup Language).md",
     "HTML/Etiquetas HTML.md",
     "HTML/Atributos de las etiquetas.md",
-    "HTML/Uso del signo barra.md",
-    "HTML/Etiquetas abiertas y cerradas.md",
-    "HTML/Concepto de hipertexto.md",
-    "Redes/World Wide Web (WWW).md",
-    "HTML/HTML Entities.md",
-    "Frameworks/Frameworks.md",
-    "Programación/Desarrollo Web.md",
     "Z_Imágenes/Pasted image 20260912191616.png",
     "Z_Imágenes/Pasted image 20260912191716.png",
     "Z_Imágenes/Pasted image 20260910113346.png",

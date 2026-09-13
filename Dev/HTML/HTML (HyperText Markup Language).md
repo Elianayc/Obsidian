@@ -21,12 +21,12 @@ HTML funciona como la base estructural de una página, organizando sus diferente
 ### Temas Relacionados
 
 - [[Concepto de hipertexto]]
+- [[Estructura básica de un documento HTML]]
 - [[Etiquetas HTML]]
 - [[Elementos HTML]]
 - [[Anidamiento y jerarquía]]
 - [[Atributos HTML]]
 - [[HTML y la presentación visual]]
-- [[Estructura básica de un documento HTML]]
 - [[HTML5]]
 - [[Metatags]]
 
