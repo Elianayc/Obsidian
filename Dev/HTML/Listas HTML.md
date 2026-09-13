@@ -1,6 +1,6 @@
 HTML permite crear diferentes tipos de listas:
 
-![[Pasted image 20260814151300.png]]
+![[Pasted image 20260913191929.png]]
 
 ---
 

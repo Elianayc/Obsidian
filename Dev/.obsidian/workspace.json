@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Listas HTML.md",
+                "file": "HTML/Imágenes HTML.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Listas HTML"
+              "title": "Imágenes HTML"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/Listas HTML.md",
+                "file": "HTML/Imágenes HTML.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HTML/Listas HTML.md",
+                "file": "HTML/Imágenes HTML.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,13 +367,15 @@
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
     "HTML/Elementos HTML.md",
+    "HTML/Listas HTML.md",
+    "Z_Imágenes/Pasted image 20260913191929.png",
+    "Z_Imágenes/Pasted image 20260913185456.png",
+    "Sin título.base",
     "HTML/Enlaces HTML.md",
     "HTML/Tipos de enlaces.md",
     "HTML/Elementos contenedores HTML.md",
     "HTML/Niveles de encabezado HTML.md",
-    "Sin título.base",
     "HTML/Tipos de elementos HTML (Block & Inline).md",
-    "Pasted image 20260913185456.png",
     "Z_Imágenes/Pasted image 20260913183701.png",
     "Pasted image 20260913185119.png",
     "Elementos HTML principales.md",
@@ -395,15 +397,12 @@
     "Programación/Singleton.md",
     "Z_Imágenes/Pasted image 20260912191616.png",
     "Backend/Checkilst de Seguridad para APIs.md",
-    "Backend/Gateway.md",
-    "Backend/Proxy.md",
     "Z_Imágenes/Pasted image 20260912191716.png",
     "Z_Imágenes/Pasted image 20260910113346.png",
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Backend",
     "Z_Imágenes/Pasted image 20260905174032.png",
     "Z_Imágenes/Pasted image 20260904120921.png",
-    "Pasted image 20260904121541.png",
     "Metodología de Sistemas",
     "Frameworks",
     "Javascript",
