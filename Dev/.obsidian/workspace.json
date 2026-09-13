@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Imágenes HTML.md",
+                "file": "HTML/Favicon.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Imágenes HTML"
+              "title": "Favicon"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/Imágenes HTML.md",
+                "file": "HTML/Favicon.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HTML/Imágenes HTML.md",
+                "file": "HTML/Favicon.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,6 +367,7 @@
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
     "HTML/Elementos HTML.md",
+    "HTML/Imágenes HTML.md",
     "HTML/Listas HTML.md",
     "Z_Imágenes/Pasted image 20260913191929.png",
     "Z_Imágenes/Pasted image 20260913185456.png",
