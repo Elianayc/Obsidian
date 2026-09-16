@@ -181,6 +181,7 @@ Para establecer espacios entre las celdas de una cuadrícula se pueden utilizar:
 
 ![[Pasted image 20260812201406.png]]
 
+- `gap`: mismo espacio entre filas y columnas.
 - `column-gap`: espacio entre columnas.
 - `row-gap`: espacio entre filas.
 
