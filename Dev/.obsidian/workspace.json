@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Box Model o Modelo de Caja CSS.md",
-                "mode": "preview",
+                "file": "CSS/Flexbox.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Box Model o Modelo de Caja CSS"
+              "title": "Flexbox"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/Box Model o Modelo de Caja CSS.md",
+                "file": "CSS/Flexbox.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CSS/Box Model o Modelo de Caja CSS.md",
+                "file": "CSS/Flexbox.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,14 +366,15 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "CSS/CSS (Cascading Style Sheets).md",
+    "CSS/Box Model o Modelo de Caja CSS.md",
+    "CSS/Flexbox.md",
     "Pasted image 20260915224623.png",
     "CSS/Margen (margin).md",
-    "CSS/Box Model o Modelo de Caja CSS.md",
     "CSS/Borde (border).md",
     "CSS/Relleno (padding).md",
     "CSS/Contenido (content).md",
     "HTML/Block & Inline.md",
-    "CSS/CSS (Cascading Style Sheets).md",
     "CSS/Iconos en CSS.md",
     "CSS/Unidades de Medida CSS.md",
     "CSS/Unidades relativas.md",
@@ -403,7 +404,6 @@
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Backend",
     "Z_Imágenes/Pasted image 20260905174032.png",
-    "Z_Imágenes/Pasted image 20260904120921.png",
     "Metodología de Sistemas",
     "Frameworks",
     "Javascript",

@@ -53,6 +53,9 @@ La propiedad `display` permite definir cómo se comporta y se muestra un element
 
 ![[Pasted image 20260915224623.png|626]]
 
+*En inline los elementos NO van a hacer saltos de línea, en block sí. *
+
+
 
 Entre sus posibilidades se encuentran:
 
@@ -69,17 +72,5 @@ Entre sus posibilidades se encuentran:
 - ##### `none`	Hace que el elemento **no se muestre**.
 
 ![[Pasted image 20260812200706.png|523]]
-
----
-
-
-## Comparación entre `block`, `inline` e `inline-block`
-
-|Propiedad|`block`|`inline`|`inline-block`|
-|---|:-:|:-:|:-:|
-|`width`|Sí|No|Sí|
-|`height`|Sí|No|Sí|
-|`padding`|Sí|Solo costados|Sí|
-|`margin`|Sí|Solo costados|Sí|
 
 ---
