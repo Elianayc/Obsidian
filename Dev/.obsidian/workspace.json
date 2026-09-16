@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Unidades de Medida CSS.md",
-                "mode": "source",
+                "file": "CSS/Iconos en CSS.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Unidades de Medida CSS"
+              "title": "Iconos en CSS"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/Unidades de Medida CSS.md",
+                "file": "CSS/Iconos en CSS.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CSS/Unidades de Medida CSS.md",
+                "file": "CSS/Iconos en CSS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -364,12 +364,12 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
-    "CSS/Unidades relativas.md",
-    "CSS/Unidades de Medida CSS.md",
-    "CSS/Unidades absolutas.md",
     "CSS/CSS (Cascading Style Sheets).md",
+    "CSS/Unidades de Medida CSS.md",
+    "CSS/Unidades relativas.md",
+    "CSS/Unidades absolutas.md",
     "CSS/Herencia en CSS.md",
     "CSS/Selectores en CSS.md",
     "CSS/Etiquetas.md",

@@ -22,6 +22,8 @@ Por ejemplo, podemos utilizar los iconos de **Font Awesome** incluyendo su hoja 
 
 En este ejemplo se utilizan diferentes tamaños y colores para el mismo icono.
 
+> **[Font Awesome](https://fontawesome.com/)**
+
 ---
 
 ## Google Material Icons
