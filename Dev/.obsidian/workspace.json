@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/Block & Inline.md",
+                "file": "HTML/Botones de un formulario HTML.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Block & Inline"
+              "title": "Botones de un formulario HTML"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/Block & Inline.md",
+                "file": "HTML/Botones de un formulario HTML.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "HTML/Block & Inline.md",
+                "file": "HTML/Botones de un formulario HTML.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,19 +366,22 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "HTML/Atributos principales de un formulario HTML.md",
+    "HTML/Formularios HTML.md",
+    "HTML/Ingreso de texto HTML.md",
+    "HTML/Botones de un formulario HTML.md",
+    "HTML/Controles de selección HTML.md",
+    "HTML/Block & Inline.md",
     "HTML/Etiquetas HTML.md",
     "HTML/Etiquetas abiertas y cerradas.md",
     "HTML/Iframe.md",
     "HTML/Entidades HTML.md",
-    "HTML/Atributos principales de un formulario HTML.md",
-    "HTML/Formularios HTML.md",
     "HTML/Tablas HTML.md",
     "HTML/HTML (HyperText Markup Language).md",
     "HTML/HTML5.md",
     "HTML/HTML y la presentación visual.md",
     "Frameworks/Frameworks.md",
     "Redes/World Wide Web (WWW).md",
-    "HTML/Controles de selección HTML.md",
     "HTML/Metatags.md",
     "HTML/Mejoras en formularios HTML5.md",
     "HTML/Validaciones automáticas.md",
@@ -388,10 +391,7 @@
     "HTML/Anidamiento y jerarquía.md",
     "HTML/Elementos HTML.md",
     "HTML/Simbolos y Emojis.md",
-    "HTML/Botones de un formulario HTML.md",
-    "HTML/Ingreso de texto HTML.md",
     "HTML/Favicon.md",
-    "HTML/Imágenes HTML.md",
     "Z_Imágenes/Pasted image 20260913191929.png",
     "Z_Imágenes/Pasted image 20260913185456.png",
     "Sin título.base",
