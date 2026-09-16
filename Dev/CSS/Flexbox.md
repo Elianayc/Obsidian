@@ -121,7 +121,7 @@ Permite alinear y distribuir los elementos sobre el **eje principal**.
 # `align-items`
 
 Permite establecer la alineación de los elementos sobre el **eje cruzado**, es decir, el eje perpendicular al principal.
-*Controla cómo se acomodan los items dentro de cada línea*
+*Controla cómo se acomodan los items dentro de cada línea.*
 
 ![[Pasted image 20260812201311.png]]
 
@@ -142,7 +142,7 @@ Permite establecer la alineación de los elementos sobre el **eje cruzado**, es 
 # `align-content`
 
 Alinea las **líneas de elementos** cuando existe más de una línea y estas no ocupan todo el espacio disponible en el eje cruzado.
-*Controla como se acomodan las líneas entre sí.*
+*Controla como se acomodan las líneas dentro del contenedor.*
 
 ![[Pasted image 20260812201329.png]]
 
@@ -160,7 +160,9 @@ Si todos los elementos se encuentran en una única línea, esta propiedad no tie
 # `flex-grow`
 
 Define la capacidad de un elemento para **crecer** cuando existe espacio disponible dentro del contenedor.
+
 Recibe un valor numérico.
+
 Su valor predeterminado es `0`, por lo que el elemento no crece para ocupar el espacio disponible.
 
 ![[Pasted image 20260812201510.png]]
