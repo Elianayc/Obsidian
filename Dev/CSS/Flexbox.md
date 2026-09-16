@@ -121,6 +121,7 @@ Permite alinear y distribuir los elementos sobre el **eje principal**.
 # `align-items`
 
 Permite establecer la alineación de los elementos sobre el **eje cruzado**, es decir, el eje perpendicular al principal.
+*Controla cómo se acomodan los items dentro de cada línea*
 
 ![[Pasted image 20260812201311.png]]
 
@@ -141,6 +142,7 @@ Permite establecer la alineación de los elementos sobre el **eje cruzado**, es 
 # `align-content`
 
 Alinea las **líneas de elementos** cuando existe más de una línea y estas no ocupan todo el espacio disponible en el eje cruzado.
+*Controla como se acomodan las líneas entre sí.*
 
 ![[Pasted image 20260812201329.png]]
 
