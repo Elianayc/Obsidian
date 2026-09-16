@@ -264,4 +264,7 @@ También existe la propiedad abreviada `place-self`, que permite establecer amba
 ---
 ![[Pasted image 20260812201857.png]]
 
+
+*Span: abarcar.*
+
 ---
