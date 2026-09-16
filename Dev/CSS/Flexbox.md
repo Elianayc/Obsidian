@@ -95,7 +95,6 @@ Determina si los elementos pueden distribuirse en **múltiples líneas** cuando 
 |     `wrap`     | Los elementos pasan a una nueva línea cuando es necesario. |
 | `wrap-reverse` | Los elementos pasan a nuevas líneas en dirección inversa.  |
 
-
 ---
 
 # `justify-content`
@@ -109,8 +108,6 @@ Permite alinear y distribuir los elementos sobre el **eje principal**.
     justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
 }
 ```
-
-Valores principales:
 
 * **`flex-start`**: elementos al inicio del eje.
 * **`flex-end`**: elementos al final del eje.
@@ -133,12 +130,10 @@ Permite establecer la alineación de los elementos sobre el **eje cruzado**, es 
 }
 ```
 
-Valores:
-
-* **`stretch`**: valor predeterminado. Los elementos se estiran para ocupar el espacio disponible.
 * **`flex-start`**: elementos al inicio del eje cruzado.
 * **`flex-end`**: elementos al final del eje cruzado.
 * **`center`**: elementos centrados en el eje cruzado.
+* **`stretch`**: valor predeterminado. Los elementos se estiran para ocupar el espacio disponible.
 * **`baseline`**: elementos alineados según la línea base de su texto.
 
 ---
