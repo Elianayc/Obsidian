@@ -68,7 +68,7 @@ Entre sus posibilidades se encuentran:
 
 - ##### `none`	Hace que el elemento **no se muestre**.
 
-![[Pasted image 20260812200706.png]]
+![[Pasted image 20260812200706.png|523]]
 
 ---
 
