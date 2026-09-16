@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rem ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -364,7 +364,7 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "87f4fa3d7e9fda5a",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
     "CSS/Unidades relativas.md",
     "CSS/Unidades de Medida CSS.md",
