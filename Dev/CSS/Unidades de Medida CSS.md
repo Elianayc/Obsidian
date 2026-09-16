@@ -70,7 +70,6 @@ Las unidades relativas son:
 ## Ventaja de las unidades relativas
 
 La principal ventaja de las unidades relativas es que **mantienen las proporciones del diseño de la página**.
-
 Por ejemplo, establecer el margen de un elemento en `1em` equivale a indicar que el margen debe tener el mismo tamaño que su letra y cambiar proporcionalmente.
 
 ---
