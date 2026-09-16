@@ -2,6 +2,8 @@ Todos los elementos HTML son interpretados como **cajas rectangulares**. Compren
 
 Los elementos de tipo **línea (inline)** ocupan el ancho necesario según su contenido, mientras que los elementos de tipo **bloque (block)** ocupan, por defecto, el 100% del ancho disponible de su elemento contenedor.
 
+[[Block & Inline]]
+
 ![[Pasted image 20260812195734.png]]
 
 ---
