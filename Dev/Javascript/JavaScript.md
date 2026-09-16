@@ -60,6 +60,7 @@ El resultado final depende de:
 - [[DOM (Document Object Model)]]
 - [[Uso de JavaScript]]
 - [[Propiedades `async` y `defer`]]
+- [[Script al final de body vs. defer]]
 - [[Procesamiento Asincrónico en JavaScript]]
 - [[React]]
 - [[Vue]]
