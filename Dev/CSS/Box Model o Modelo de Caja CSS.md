@@ -20,17 +20,18 @@ Estas propiedades:
 
 
 Cuando un elemento tiene un ancho o alto fijo y su contenido supera las dimensiones de la caja, el contenido puede desbordarse y superponerse con otros elementos.
+
 Para controlar este comportamiento se utiliza la propiedad `overflow`.
 
 ### Overflow
 Permite controlar qué sucede cuando el contenido excede las dimensiones de la caja.
 
-|Valor|Descripción|
-|---|---|
-|`visible`|Valor predeterminado. El contenido excedente permanece visible.|
-|`hidden`|Oculta el contenido que excede la caja.|
-|`scroll`|Genera barras de desplazamiento en ambos ejes, aunque no sean necesarias.|
-|`auto`|Genera barras de desplazamiento únicamente cuando son necesarias.|
+|   Valor   |                                Descripción                                |
+| :-------: | :-----------------------------------------------------------------------: |
+| `visible` |      Valor predeterminado. El contenido excedente permanece visible.      |
+| `hidden`  |                  Oculta el contenido que excede la caja.                  |
+| `scroll`  | Genera barras de desplazamiento en ambos ejes, aunque no sean necesarias. |
+|  `auto`   |     Genera barras de desplazamiento únicamente cuando son necesarias.     |
 
 ---
 

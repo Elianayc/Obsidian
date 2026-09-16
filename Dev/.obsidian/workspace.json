@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Box Model o Modelo de Caja CSS.md",
+                "file": "CSS/Contenido (content).md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Box Model o Modelo de Caja CSS"
+              "title": "Contenido (content)"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/Box Model o Modelo de Caja CSS.md",
+                "file": "CSS/Contenido (content).md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CSS/Box Model o Modelo de Caja CSS.md",
+                "file": "CSS/Contenido (content).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,8 +366,8 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
-    "HTML/Block & Inline.md",
     "CSS/Box Model o Modelo de Caja CSS.md",
+    "HTML/Block & Inline.md",
     "CSS/CSS (Cascading Style Sheets).md",
     "CSS/Iconos en CSS.md",
     "CSS/Unidades de Medida CSS.md",
