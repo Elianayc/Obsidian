@@ -19,19 +19,21 @@ JavaScript permite que la interfaz responda a las acciones del usuario y pueda m
 ---
 
 ## Origen de JavaScript
-El origen de JavaScript se remonta a mediados de la década de los noventa, cuando **Netscape** desarrolla un lenguaje de scripting con un nombre muy similar al ya conocido Java.
 
-En 1996, **Internet Explorer** lanza una versión propia llamada **JScript**, con muchas similitudes y compatibilidad con JavaScript.
+El origen de JavaScript se remonta a mediados de la década de los **90**, cuando **Netscape** desarrolla un lenguaje de scripting para agregar interactividad a las páginas web.
 
-Esto llevó a que la **W3C** tomara cartas en el asunto y creara el **[[DOM (Document Object Model)]]** como instrumento guía para que los lenguajes pudieran explotar las características de los documentos HTML y del navegador.
+En **1996**, **Microsoft** desarrolla para Internet Explorer una implementación propia llamada **JScript**, con muchas similitudes y compatibilidad con JavaScript.
 
-En 1997, la **European Computer Manufacturers Association (ECMA)** adopta JavaScript como base para definir las especificaciones que deben cumplir los lenguajes de scripting, dando lugar al estándar llamado **ECMAScript**.
+En este contexto de estandarización de las tecnologías web, la **W3C** desarrolla el **DOM (Document Object Model)**, un estándar que permite que los lenguajes de scripting puedan acceder y manipular los documentos HTML y sus elementos.
 
-Actualmente, **JavaScript es una implementación de ECMAScript**, pero incorpora además características propias.
+En **1997**, la **European Computer Manufacturers Association (ECMA)** toma JavaScript como base para definir una especificación estándar para los lenguajes de scripting, dando origen a **ECMAScript**.
+
+Actualmente, **JavaScript es una implementación de ECMAScript**, aunque incorpora además algunas características propias.
 
 ---
 
 ## JavaScript en páginas web
+
 El empleo de JavaScript en los documentos HTML permite que las páginas web **no sean estáticas**.
 
 Mediante la manipulación del **DOM**, es posible:
@@ -55,6 +57,7 @@ El resultado final depende de:
    
 ---
 
+- [[DOM (Document Object Model)]]
 - [[Uso de JavaScript]]
 - [[Propiedades `async` y `defer`]]
 - [[Procesamiento Asincrónico en JavaScript]]
