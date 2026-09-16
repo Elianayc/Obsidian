@@ -5,11 +5,16 @@ El **Event Loop** es el mecanismo que permite coordinar la ejecución del códig
 
 Cuando aparece una operación que puede tardar, como un `fetch()` o un `setTimeout()`, esta se delega al navegador o al entorno de ejecución mientras JavaScript continúa ejecutando otras instrucciones.
 
+> - **`fetch`** → es una función de JavaScript para hacer una solicitud a un servidor, por ejemplo pedir datos a una API.
+> - **`setTimeout`** → permite decirle a JavaScript: **“ejecutá esta función después de cierto tiempo”**.
+
 Cuando la operación termina, el código pendiente queda disponible para ser ejecutado. El Event Loop se encarga de comprobar cuándo el hilo principal está disponible y permite ejecutar esas tareas.
 
 ![[Pasted image 20260904121735.png]]
 
-De forma simplificada:
+> - **queue** → una lista de tareas esperando ser procesadas.
+> - **thread** → significa **hilo**. Es una secuencia de ejecución.
+> - **thread pool** → un conjunto de hilos que el entorno puede utilizar para realizar determinadas tareas en paralelo.
 
 ```text
 JavaScript ejecuta código
@@ -52,7 +57,8 @@ Terminó el timeout
 
 Aunque el `setTimeout()` aparece antes de `console.log('Fin')`, JavaScript no se queda esperando un segundo.
 
-> **Idea clave:** JavaScript tiene un único hilo principal, pero puede delegar determinadas operaciones y continuar ejecutando código mientras espera sus resultados.
+
+> **Idea clave:** JavaScript tiene un hilo principal que ejecuta una cosa por vez. Cuando aparece una operación que puede tardar, el entorno (por ejemplo, el navegador) puede encargarse de esa operación mientras JavaScript sigue trabajando.
 
 
 ---
