@@ -51,6 +51,9 @@ Cada caja está compuesta por cuatro áreas:
 
 La propiedad `display` permite definir cómo se comporta y se muestra un elemento HTML.
 
+![[Pasted image 20260915224623.png|626]]
+
+
 Entre sus posibilidades se encuentran:
 
 - ##### `block` 	Convierte el elemento en un **elemento de bloque**.
