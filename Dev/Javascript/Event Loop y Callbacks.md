@@ -35,7 +35,11 @@ El Event Loop detecta que el hilo principal está disponible
 JavaScript ejecuta el código correspondiente
 ```
 
-Por ejemplo:
+> **Idea clave:** JavaScript tiene un hilo principal que ejecuta una cosa por vez. Cuando aparece una operación que puede tardar, el entorno (por ejemplo, el navegador) puede encargarse de esa operación mientras JavaScript sigue trabajando.
+
+---
+
+### Ejemplo:
 
 ```JavaScript
 console.log('Inicio');
@@ -57,10 +61,17 @@ Terminó el timeout
 
 Aunque el `setTimeout()` aparece antes de `console.log('Fin')`, JavaScript no se queda esperando un segundo.
 
-
-> **Idea clave:** JavaScript tiene un hilo principal que ejecuta una cosa por vez. Cuando aparece una operación que puede tardar, el entorno (por ejemplo, el navegador) puede encargarse de esa operación mientras JavaScript sigue trabajando.
-
-
+1. Imprime **Inicio**.
+2. Encuentra `setTimeout` y le dice al navegador:  
+    **"Avisame cuando haya pasado 1 segundo."**
+3. **No se queda esperando.**
+4. Continúa y ejecuta `console.log('Fin')`.
+5. Pasa 1 segundo y el navegador dice:  
+    **"La función del timeout ya está lista."**
+6. Esa función queda en la **cola de tareas**.
+7. El Event Loop ve que el hilo principal está libre.
+8. La función entra al Call Stack y se ejecuta.
+9. Imprime **Terminó el timeout**.
 ---
 
 ## Callbacks
