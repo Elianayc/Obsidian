@@ -80,15 +80,15 @@ Las filas tienen un tamaño determinado automáticamente mediante `auto`.
 # Unidades de medida para Grid
 CSS Grid permite utilizar diferentes unidades para definir el tamaño de filas y columnas:
 
-|Unidad|Descripción|
-|---|---|
-|`px`|Tamaño fijo.|
-|`%`|Tamaño relativo al contenedor.|
-|`fr`|Distribuye proporcionalmente el espacio disponible.|
-|`auto`|El tamaño se determina según el contenido.|
-|`min-content`|Se basa en el tamaño mínimo que necesita el contenido.|
-|`max-content`|Se basa en el tamaño máximo que necesita el contenido.|
-|`minmax(min, max)`|Establece un límite mínimo y máximo para el tamaño.|
+|       Unidad       |                      Descripción                       |
+| :----------------: | :----------------------------------------------------: |
+|        `px`        |                      Tamaño fijo.                      |
+|        `%`         |             Tamaño relativo al contenedor.             |
+|        `fr`        |  Distribuye proporcionalmente el espacio disponible.   |
+|       `auto`       |       El tamaño se determina según el contenido.       |
+|   `min-content`    | Se basa en el tamaño mínimo que necesita el contenido. |
+|   `max-content`    | Se basa en el tamaño máximo que necesita el contenido. |
+| `minmax(min, max)` |  Establece un límite mínimo y máximo para el tamaño.   |
 
 ---
 
