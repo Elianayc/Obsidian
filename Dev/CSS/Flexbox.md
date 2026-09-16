@@ -151,7 +151,6 @@ Alinea las **líneas de elementos** cuando existe más de una línea y estas no 
 ```
 
 **Importante:** `align-content` solo tiene efecto cuando el contenedor tiene **varias líneas de Flex items**, por ejemplo, cuando se utiliza `flex-wrap: wrap`.
-
 Si todos los elementos se encuentran en una única línea, esta propiedad no tiene efecto.
 
 ---
