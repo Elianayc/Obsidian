@@ -15,6 +15,9 @@ También se pueden aplicar estilos sobre esta área, como colores o imágenes de
 
 La propiedad `box-sizing` determina cómo se calculan las dimensiones de una caja.
 
+![[Pasted image 20260812200626.png]]
+
+---
 
 ### `content-box`
 
@@ -37,6 +40,7 @@ Si se agregan `padding` y `border`, estos se suman al tamaño especificado.
 
 Por lo tanto, el tamaño total de la caja será mayor que los valores definidos en `width` y `height`.
 
+---
 
 ### `border-box`
 
@@ -57,6 +61,6 @@ El navegador ajusta automáticamente el tamaño del área de contenido para mant
 
 Esto facilita la creación de diseños con tamaños más precisos y predecibles.
 
-![[Pasted image 20260812200626.png]]
+
 
 ---

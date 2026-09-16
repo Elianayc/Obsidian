@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "CSS/Contenido (content).md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -367,6 +367,7 @@
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
     "CSS/Box Model o Modelo de Caja CSS.md",
+    "CSS/Contenido (content).md",
     "HTML/Block & Inline.md",
     "CSS/CSS (Cascading Style Sheets).md",
     "CSS/Iconos en CSS.md",
@@ -391,7 +392,6 @@
     "HTML/Iframe.md",
     "HTML/Entidades HTML.md",
     "HTML/Tablas HTML.md",
-    "HTML/HTML (HyperText Markup Language).md",
     "Z_Imágenes/Pasted image 20260913191929.png",
     "Z_Imágenes/Pasted image 20260913185456.png",
     "Sin título.base",
