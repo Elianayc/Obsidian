@@ -11,14 +11,12 @@
             "id": "87f4fa3d7e9fda5a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "CSS/Propiedad `display`.md",
-                "mode": "source",
-                "source": false
+                "file": "Z_Imágenes/Pasted image 20260915234240.png"
               },
-              "icon": "lucide-file",
-              "title": "Propiedad `display`"
+              "icon": "lucide-image",
+              "title": "Pasted image 20260915234240"
             }
           }
         ]
@@ -162,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/Propiedad `display`.md",
+                "file": "Z_Imágenes/Pasted image 20260915234240.png",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +215,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CSS/Propiedad `display`.md",
+                "file": "Z_Imágenes/Pasted image 20260915234240.png",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -364,11 +362,11 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "87f4fa3d7e9fda5a",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
+    "CSS/Propiedad `display`.md",
     "CSS/CSS (Cascading Style Sheets).md",
     "CSS/Reglas de CSS.md",
-    "CSS/Propiedad `display`.md",
     "CSS/Grid vs Flexbox.md",
     "CSS/Grillas (CSS Grid).md",
     "HTML/Elementos contenedores HTML.md",
@@ -376,7 +374,7 @@
     "Frameworks/React.md",
     "CSS/Iconos en CSS.md",
     "Javascript/DOM (Document Object Model).md",
-    "Pasted image 20260915234240.png",
+    "Z_Imágenes/Pasted image 20260915234240.png",
     "CSS/Flexbox.md",
     "Typescript/Readonly en TypeScript.md",
     "Redes/HTTP (HyperText Transfer Protocol).md",
