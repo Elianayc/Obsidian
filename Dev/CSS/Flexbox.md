@@ -68,18 +68,12 @@ Determina la dirección en la que se organizan los elementos sobre el **eje prin
 
 ![[Pasted image 20260812201217.png]]
 
-
-### Valores:
-
 |      Valor       |                  Descripción                   |
 | :--------------: | :--------------------------------------------: |
 |      `row`       | Elementos en una fila, de izquierda a derecha. |
 |  `row-reverse`   |    Elementos en una fila, en orden inverso.    |
 |     `column`     |           Elementos en una columna.            |
 | `column-reverse` |  Elementos en una columna, en orden inverso.   |
-
-![[Pasted image 20260812200741.png]]
-![[Pasted image 20260812200844.png]]
 
 ---
 

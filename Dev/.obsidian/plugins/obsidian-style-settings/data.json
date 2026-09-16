@@ -72,5 +72,6 @@
   "retroma-obsidian-theme@@h2-color@@light": "#6F51C8",
   "retroma-obsidian-theme@@h2-color@@dark": "#2B1667",
   "retroma-obsidian-theme@@h3-color@@dark": "#234E70",
-  "retroma-obsidian-theme@@h5-color@@light": "#C43644"
+  "retroma-obsidian-theme@@h5-color@@light": "#C43644",
+  "retroma-obsidian-theme@@disable-table-border": true
 }
