@@ -11,6 +11,7 @@ Los elementos de tipo **línea (inline)** ocupan el ancho necesario según su co
 ## Width y Height
 
 CSS permite controlar el tamaño de la caja mediante:
+
 - `width`: define el **ancho**.
 - `height`: define el **alto**.
 

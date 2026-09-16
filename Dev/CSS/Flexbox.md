@@ -7,6 +7,7 @@ Permite controlar la **alineación, orden y tamaño** de los elementos dentro de
 ---
 
 ## ¿Por qué usar Flexbox?
+
 Antes de Flexbox, se utilizaban técnicas como:
 
 * **Floats:** originalmente diseñados para envolver texto alrededor de imágenes, no para crear estructuras completas de páginas.
