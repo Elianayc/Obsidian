@@ -53,20 +53,17 @@ La propiedad `display` permite definir cómo se comporta y se muestra un element
 
 Entre sus posibilidades se encuentran:
 
-- ### `block`
-	Convierte el elemento en un **elemento de bloque**.
+- ##### `block` 	Convierte el elemento en un **elemento de bloque**.
 
-- ### `inline`
-	Convierte el elemento en un **elemento de línea**.
+- ##### `inline` 	Convierte el elemento en un **elemento de línea**.
 
-- ### `inline-block`
-	Combina características de ambos:
+- ##### `inline-block` 	Combina características de ambos:
+  
 	- Mantiene el comportamiento de un elemento `inline`.
 	- Permite establecer `width` y `height`.
 	- Respeta los márgenes verticales.
 
-- ### `none`
-	Hace que el elemento **no se muestre**.
+- ##### `none`	Hace que el elemento **no se muestre**.
 
 ![[Pasted image 20260812200706.png]]
 

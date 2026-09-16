@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/Contenido (content).md",
-                "mode": "source",
+                "file": "CSS/Box Model o Modelo de Caja CSS.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contenido (content)"
+              "title": "Box Model o Modelo de Caja CSS"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSS/Contenido (content).md",
+                "file": "CSS/Box Model o Modelo de Caja CSS.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CSS/Contenido (content).md",
+                "file": "CSS/Box Model o Modelo de Caja CSS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,7 +366,10 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "CSS/Margen (margin).md",
     "CSS/Box Model o Modelo de Caja CSS.md",
+    "CSS/Borde (border).md",
+    "CSS/Relleno (padding).md",
     "CSS/Contenido (content).md",
     "HTML/Block & Inline.md",
     "CSS/CSS (Cascading Style Sheets).md",
@@ -389,9 +392,6 @@
     "HTML/Controles de selección HTML.md",
     "HTML/Etiquetas HTML.md",
     "HTML/Etiquetas abiertas y cerradas.md",
-    "HTML/Iframe.md",
-    "HTML/Entidades HTML.md",
-    "HTML/Tablas HTML.md",
     "Z_Imágenes/Pasted image 20260913191929.png",
     "Z_Imágenes/Pasted image 20260913185456.png",
     "Sin título.base",
