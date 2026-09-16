@@ -25,6 +25,7 @@ Flexbox permite:
 # Conceptos básicos
 
 Para trabajar con Flexbox es necesario conocer algunos conceptos:
+
 * **Flex container:** elemento padre que utiliza `display: flex` y establece el contexto Flexbox.
 * **Flex items:** elementos hijos directos del Flex container.
 * **Main axis:** eje principal del contenedor. Es horizontal por defecto.
