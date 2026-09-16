@@ -27,8 +27,8 @@ Cuando el navegador carga una página web, crea un modelo de la página en memor
 ## Utilización del DOM con JavaScript
 
 ### 1. Selección de elementos
-Para manipular elementos HTML, primero es necesario seleccionarlos.
 
+Para manipular elementos HTML, primero es necesario seleccionarlos.
 Para ello se pueden utilizar funciones del objeto DOM como `getElementById`, `getElementsByClassName`, entre otras.
 
 **Seleccionar por ID:**
