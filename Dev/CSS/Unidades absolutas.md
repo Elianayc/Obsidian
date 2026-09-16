@@ -2,13 +2,13 @@ Las **unidades absolutas** establecen completamente el valor de una medida, ya q
 
 Las unidades absolutas definidas por CSS son:
 
-|Unidad|Significado|
-|---|---|
-|`in`|Pulgadas (_inches_). Una pulgada equivale a 2,54 centímetros.|
-|`cm`|Centímetros.|
-|`mm`|Milímetros.|
-|`pt`|Puntos. Un punto equivale a 1/72 de pulgada, aproximadamente 0,35 mm.|
-|`pc`|Picas. Una pica equivale a 12 puntos, aproximadamente 4,23 mm.|
+| Unidad |                              Significado                              |
+| :----: | :-------------------------------------------------------------------: |
+|  `in`  |     Pulgadas (_inches_). Una pulgada equivale a 2,54 centímetros.     |
+|  `cm`  |                             Centímetros.                              |
+|  `mm`  |                              Milímetros.                              |
+|  `pt`  | Puntos. Un punto equivale a 1/72 de pulgada, aproximadamente 0,35 mm. |
+|  `pc`  |    Picas. Una pica equivale a 12 puntos, aproximadamente 4,23 mm.     |
 
 ### Ventajas y desventajas
 
