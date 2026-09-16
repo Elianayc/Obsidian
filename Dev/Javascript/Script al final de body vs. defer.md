@@ -1,4 +1,3 @@
-# Script al final de `<body>` vs. `defer`
 Existen similitudes y diferencias entre ambos métodos respecto de la performance de la página.
 
 ### Tiempo de descarga

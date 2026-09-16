@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Propiedades `async` y `defer`.md",
+                "file": "Javascript/Script al final de body vs. defer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Propiedades `async` y `defer`"
+              "title": "Script al final de body vs. defer"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Propiedades `async` y `defer`.md",
+                "file": "Javascript/Script al final de body vs. defer.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Javascript/Propiedades `async` y `defer`.md",
+                "file": "Javascript/Script al final de body vs. defer.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -364,8 +364,9 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "Javascript/Propiedades `async` y `defer`.md",
     "Javascript/Script al final de body vs. defer.md",
     "Javascript/JavaScript.md",
     "Javascript/Uso de Javascript.md",
@@ -393,7 +394,6 @@
     "Programación/Bridge.md",
     "CSS/Box Model o Modelo de Caja CSS.md",
     "Z_Imágenes/Pasted image 20260915224623.png",
-    "CSS/Margen (margin).md",
     "Z_Imágenes/Pasted image 20260913191929.png",
     "Z_Imágenes/Pasted image 20260913185456.png",
     "Sin título.base",
