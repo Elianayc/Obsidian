@@ -1,7 +1,5 @@
-## ¿Qué es el DOM?
 El **DOM (Document Object Model)** es una de las piezas fundamentales para trabajar con JavaScript en el desarrollo web frontend.
-
-El DOM es una **representación estructurada del documento HTML como un árbol de objetos** que puede ser manipulado utilizando JavaScript.
+Es una **representación estructurada del documento HTML como un árbol de objetos** que puede ser manipulado utilizando JavaScript.
 
 En esencia, es una interfaz de programación que permite a JavaScript acceder y modificar:
 
