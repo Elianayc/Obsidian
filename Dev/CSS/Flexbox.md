@@ -15,6 +15,7 @@ Antes de Flexbox, se utilizaban técnicas como:
 * **Tablas HTML:** pueden generar problemas de semántica y accesibilidad.
 
 Flexbox permite:
+
 * Controlar la alineación vertical y horizontal.
 * Ordenar visualmente elementos sin modificar el HTML.
 * Distribuir proporcionalmente el espacio disponible.
@@ -37,7 +38,6 @@ Para trabajar con Flexbox es necesario conocer algunos conceptos:
 ![[Pasted image 20260812201124.png]]
 
 ![[Pasted image 20260812201138.png]]
-
 
 
 ---

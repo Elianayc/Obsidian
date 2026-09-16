@@ -51,8 +51,7 @@ Para consultar una guía completa de las propiedades que se pueden aplicar a cad
 - [[Iconos en CSS]]
 
 - [[Box Model o Modelo de Caja CSS]]
-- [[Flexbox]]
-- [[Grillas (CSS Grid)]]
-- [[Grid vs Flexbox]]
+- [[Propiedad `display`]]
+
 
 ---
