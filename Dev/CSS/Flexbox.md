@@ -60,13 +60,13 @@ Los elementos hijos directos del contenedor se convierten automáticamente en **
 
 Determina la dirección en la que se organizan los elementos sobre el **eje principal**.
 
+![[Pasted image 20260812201217.png]]
+
 ```css
 .container {
     flex-direction: row | row-reverse | column | column-reverse;
 }
 ```
-
-![[Pasted image 20260812201217.png]]
 
 |      Valor       |                  Descripción                   |
 | :--------------: | :--------------------------------------------: |
@@ -89,10 +89,10 @@ Determina si los elementos pueden distribuirse en **múltiples líneas** cuando 
 }
 ```
 
-| Valor          | Descripción                                                |
-| -------------- | ---------------------------------------------------------- |
-| `nowrap`       | Todos los elementos permanecen en una sola línea.          |
-| `wrap`         | Los elementos pasan a una nueva línea cuando es necesario. |
+|     Valor      |                        Descripción                         |
+| :------------: | :--------------------------------------------------------: |
+|    `nowrap`    |     Todos los elementos permanecen en una sola línea.      |
+|     `wrap`     | Los elementos pasan a una nueva línea cuando es necesario. |
 | `wrap-reverse` | Los elementos pasan a nuevas líneas en dirección inversa.  |
 
 
@@ -102,7 +102,7 @@ Determina si los elementos pueden distribuirse en **múltiples líneas** cuando 
 
 Permite alinear y distribuir los elementos sobre el **eje principal**.
 
-![[Pasted image 20260812201253.png]]
+![[Pasted image 20260812201253.png|324]]
 
 ```css
 .container {
