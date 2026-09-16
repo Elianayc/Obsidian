@@ -22,9 +22,7 @@ La propiedad `box-sizing` determina cómo se calculan las dimensiones de una caj
 ### `content-box`
 
 Es el valor predeterminado.
-
 Las propiedades `width` y `height` se aplican únicamente al **área de contenido**.
-
 Si se agregan `padding` y `border`, estos se suman al tamaño especificado.
 
 ```css
@@ -45,7 +43,6 @@ Por lo tanto, el tamaño total de la caja será mayor que los valores definidos 
 ### `border-box`
 
 Con `border-box`, las propiedades `width` y `height` incluyen el **contenido, padding y border**.
-
 El navegador ajusta automáticamente el tamaño del área de contenido para mantener las dimensiones totales especificadas.
 
 ```css
@@ -60,7 +57,5 @@ El navegador ajusta automáticamente el tamaño del área de contenido para mant
 ```
 
 Esto facilita la creación de diseños con tamaños más precisos y predecibles.
-
-
 
 ---
