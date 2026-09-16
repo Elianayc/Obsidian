@@ -31,7 +31,7 @@ Cuando se carga un script con el atributo `defer`:
 
 En resumen, `defer` indica al navegador:
 
-> Descarga este script mientras sigues trabajando, pero no lo ejecutes hasta que hayas terminado de analizar toda la página.
+> Descargá este script mientras seguís trabajando, pero no lo ejecutes hasta que hayas terminado de analizar toda la página.
 
 ---
 
@@ -50,7 +50,7 @@ Cuando se carga un script con el atributo `async`:
 
 En resumen, `async` indica al navegador:
 
-> Descarga este script mientras sigues trabajando y ejecútalo tan pronto como esté listo, incluso si aún no terminaste de analizar el HTML.
+> Descargá este script mientras seguís trabajando y ejecutalo tan pronto como esté listo, incluso si aún no terminaste de analizar el HTML.
 
 ---
 

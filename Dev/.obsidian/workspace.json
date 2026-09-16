@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/DOM (Document Object Model).md",
+                "file": "Javascript/Propiedades `async` y `defer`.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DOM (Document Object Model)"
+              "title": "Propiedades `async` y `defer`"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/DOM (Document Object Model).md",
+                "file": "Javascript/Propiedades `async` y `defer`.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Javascript/DOM (Document Object Model).md",
+                "file": "Javascript/Propiedades `async` y `defer`.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,6 +367,7 @@
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
     "Javascript/JavaScript.md",
+    "Javascript/Uso de Javascript.md",
     "Javascript/DOM (Document Object Model).md",
     "Z_Imágenes/Pasted image 20260915234240.png",
     "CSS/Propiedad `display`.md",
@@ -393,7 +394,6 @@
     "Z_Imágenes/Pasted image 20260915224623.png",
     "CSS/Margen (margin).md",
     "CSS/Borde (border).md",
-    "CSS/Relleno (padding).md",
     "Z_Imágenes/Pasted image 20260913191929.png",
     "Z_Imágenes/Pasted image 20260913185456.png",
     "Sin título.base",
