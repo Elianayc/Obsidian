@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "CSS/Grillas (CSS Grid).md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -366,6 +366,7 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "Pasted image 20260915234240.png",
     "CSS/Propiedad `display`.md",
     "CSS/Flexbox.md",
     "Typescript/Readonly en TypeScript.md",
@@ -392,7 +393,6 @@
     "CSS/Iconos en CSS.md",
     "CSS/Unidades de Medida CSS.md",
     "CSS/Unidades relativas.md",
-    "CSS/Unidades absolutas.md",
     "Z_Imágenes/Pasted image 20260913191929.png",
     "Z_Imágenes/Pasted image 20260913185456.png",
     "Sin título.base",

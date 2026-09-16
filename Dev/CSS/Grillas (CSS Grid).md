@@ -169,6 +169,8 @@ Esto facilita la creación y el mantenimiento de layouts complejos.
 }
 ```
 
+![[Pasted image 20260915234240.png|788]]
+
 La cantidad de áreas definidas mediante `grid-template-areas` debe corresponder con la cantidad de filas y columnas establecidas mediante `grid-template-rows` y `grid-template-columns`.
 
 ---
