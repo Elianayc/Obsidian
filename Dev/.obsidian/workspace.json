@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Promesas y Async Await.md",
-                "mode": "preview",
+                "file": "Javascript/JavaScript.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Promesas y Async Await"
+              "title": "JavaScript"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Promesas y Async Await.md",
+                "file": "Javascript/JavaScript.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Javascript/Promesas y Async Await.md",
+                "file": "Javascript/JavaScript.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,12 +366,18 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
-    "Javascript/Event Loop y Callbacks.md",
-    "Javascript/Procesamiento Asincrónico en JavaScript.md",
+    "Javascript/Node.js.md",
     "Javascript/JavaScript.md",
+    "Frameworks/Vue.md",
+    "Frameworks/React.md",
+    "Javascript/Procesamiento Asincrónico en JavaScript.md",
+    "Javascript/RxJS y Observables en Angular.md",
+    "Javascript/Llamadas HTTP Fetch y Axios.md",
+    "Javascript/Event Loop y Callbacks.md",
+    "Javascript/Promesas y Async Await.md",
     "Javascript/Propiedades `async` y `defer`.md",
-    "Javascript/Script al final de body vs. defer.md",
     "Javascript/Uso de Javascript.md",
+    "Javascript/Script al final de body vs. defer.md",
     "Javascript/DOM (Document Object Model).md",
     "Z_Imágenes/Pasted image 20260915234240.png",
     "CSS/Propiedad `display`.md",
@@ -380,8 +386,6 @@
     "CSS/Grid vs Flexbox.md",
     "CSS/Grillas (CSS Grid).md",
     "HTML/Elementos contenedores HTML.md",
-    "Frameworks/Vue.md",
-    "Frameworks/React.md",
     "CSS/Iconos en CSS.md",
     "CSS/Flexbox.md",
     "Typescript/Readonly en TypeScript.md",
@@ -389,10 +393,6 @@
     "Backend/Digest Authentication.md",
     "Backend/CORS.md",
     "Redes/DNS (Domain Name System).md",
-    "Redes/Ciclo de vida de una petición web.md",
-    "Bases de Datos/Álgebra Relacional.md",
-    "Arquitectura de Sistemas/Patrones Arquitecturales.md",
-    "Arquitectura de Sistemas/Arquitectura en Capas.md",
     "Z_Imágenes/Pasted image 20260915224623.png",
     "Z_Imágenes/Pasted image 20260913191929.png",
     "Z_Imágenes/Pasted image 20260913185456.png",
