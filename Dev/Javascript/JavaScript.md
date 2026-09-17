@@ -62,7 +62,7 @@ El resultado final depende de:
 - [[Dónde y cómo incorporar JavaScript]]
 - [[Cómo se carga y ejecuta un archivo JavaScript]]
 - [[Cómo JavaScript procesa operaciones asincrónicas]]
-- [[Async - Await]]
+
 
 - [[React]]
 - [[Vue]]

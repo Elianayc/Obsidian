@@ -168,12 +168,12 @@ Por eso el código es más fácil de **leer, modificar y mantener**. Esa es just
 
 El objeto `Promise` proporciona métodos útiles para coordinar múltiples Promises:
 
-|         Método         |            ¿Cuándo termina?             |
-| :--------------------: | :-------------------------------------: |
-|    `Promise.any()`     |  Espera que **alguna** tenga **éxito**  |
-|    `Promise.all()`     | Espera a que **todas** tengan **éxito** |
-|    `Promise.race()`    |     Espera a que **alguna termine**     |
-| `Promise.allSettled()` |     Espera a que **todas terminen**     |
+|         Método         |             ¿Cuándo termina?             |
+| :--------------------: | :--------------------------------------: |
+|    `Promise.any()`     |  Espera que **alguna** tenga **éxito**.  |
+|    `Promise.all()`     | Espera a que **todas** tengan **éxito**. |
+|    `Promise.race()`    |     Espera a que **alguna termine**.     |
+| `Promise.allSettled()` |     Espera a que **todas terminen**.     |
 
 Para más información: [**MDN - Promise**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 

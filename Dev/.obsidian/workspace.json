@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Promesas.md",
-                "mode": "source",
+                "file": "Javascript/Async - Await.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Promesas"
+              "title": "Async - Await"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Promesas.md",
+                "file": "Javascript/Async - Await.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Javascript/Promesas.md",
+                "file": "Javascript/Async - Await.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -368,14 +368,14 @@
   "lastOpenFiles": [
     "Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
     "Javascript/JavaScript.md",
-    "Javascript/Promesas.md",
     "Javascript/Async - Await.md",
+    "Javascript/Llamadas HTTP Fetch y Axios.md",
+    "Javascript/Promesas.md",
     "Javascript/Event Loop y Callbacks.md",
     "Javascript/Cómo se carga y ejecuta un archivo JavaScript.md",
     "Javascript/Dónde y cómo incorporar JavaScript.md",
     "Javascript/Ejecución... script al final de body vs. defer.md",
     "Javascript/Node.js.md",
-    "Javascript/Llamadas HTTP Fetch y Axios.md",
     "Javascript/DOM (Document Object Model).md",
     "Frameworks/Vue.md",
     "Frameworks/React.md",

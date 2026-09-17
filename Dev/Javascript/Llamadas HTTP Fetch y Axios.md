@@ -1,5 +1,4 @@
 Las aplicaciones frontend necesitan comunicarse frecuentemente con un **backend** mediante solicitudes HTTP.
-
 JavaScript ofrece `fetch` como API nativa del navegador, mientras que también existen librerías externas como **Axios**.
 
 ---

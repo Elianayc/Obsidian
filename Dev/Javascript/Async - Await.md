@@ -1,15 +1,10 @@
-## Async / Await
-
 **Async/Await** es una sintaxis introducida en **ES2017** que facilita el trabajo con Promises.
-
 No reemplaza las Promises: **las utiliza por debajo**.
-
 Permite escribir código asincrónico de forma más lineal y legible, haciendo que su sintaxis se parezca a la del código sincrónico.
 
 ---
 
 ### Funciones `async`
-
 Una función declarada con `async` **siempre devuelve una Promise**.
 
 ```JavaScript
@@ -22,7 +17,6 @@ miFuncionAsincronica()
 ```
 
 El valor retornado se convierte automáticamente en una Promise equivalente a:
-
 ```JavaScript
 Promise.resolve('Hola Mundo');
 ```
