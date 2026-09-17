@@ -26,3 +26,24 @@ Cuando estas operaciones terminan, JavaScript ejecuta el código correspondiente
 
 ---
 
+# Ideas clave
+
+- JavaScript es **single-threaded**.
+- El asincronismo permite evitar que operaciones lentas bloqueen el hilo principal.
+- El **Event Loop** coordina la ejecución del código asincrónico.
+- Los **callbacks** fueron una de las primeras formas de manejar asincronismo.
+- El **Callback Hell** aparece cuando los callbacks se anidan excesivamente.
+- Las **Promises** representan el resultado eventual de una operación asincrónica.
+- Una Promise puede estar `Pending`, `Fulfilled` o `Rejected`.
+- `async/await` utiliza Promises por debajo.
+- `await` pausa la función `async`, pero **no bloquea el hilo principal**.
+- `fetch()` devuelve una Promise.
+- `fetch` no rechaza automáticamente una Promise ante respuestas HTTP 4xx o 5xx.
+- `response.ok` permite comprobar si la respuesta HTTP fue exitosa.
+- `response.json()` también devuelve una Promise.
+- Axios simplifica varias tareas habituales de las solicitudes HTTP.
+- Angular utiliza **RxJS y Observables** mediante `HttpClient`.
+- Un Observable puede emitir múltiples valores, aunque una solicitud HTTP típica de Angular emite una respuesta y luego completa.
+
+---
+

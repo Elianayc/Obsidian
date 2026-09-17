@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Evolución del Asincronismo.md",
+                "file": "Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Evolución del Asincronismo"
+              "title": "Cómo JavaScript procesa operaciones asincrónicas"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Evolución del Asincronismo.md",
+                "file": "Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Evolución del Asincronismo.md",
+                "file": "Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,9 +366,9 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "Evolución del Asincronismo.md",
     "Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
     "Javascript/RxJS y Observables en Angular.md",
-    "Evolución del Asincronismo.md",
     "Frameworks/Angular.md",
     "Javascript/Llamadas HTTP - Fetch y Axios.md",
     "Javascript/Async - Await.md",
