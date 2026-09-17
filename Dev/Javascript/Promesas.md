@@ -79,9 +79,11 @@ En este caso:
 
 ## Encadenamiento de Promises
 
-Las Promises pueden encadenarse para ejecutar operaciones asincrónicas de manera secuencial.
+Las **Promises pueden encadenarse** para ejecutar operaciones asincrónicas de manera secuencial.
 
-```JavaScript
+Cada operación devuelve una Promise, y el siguiente `.then()` recibe el resultado de la operación anterior.
+
+```javascript
 login(usuario, password)
     .then(token => obtenerPerfil(token))
     .then(perfil => obtenerConversaciones(perfil.id))
@@ -89,9 +91,138 @@ login(usuario, password)
     .catch(error => manejarError(error));
 ```
 
-Cada `.then()` recibe el resultado de la operación anterior.
+El flujo sería:
 
-Esto permite evitar el anidamiento excesivo de callbacks.
+```text
+login()
+   ↓ devuelve token
+then → obtenerPerfil(token)
+   ↓ devuelve perfil
+then → obtenerConversaciones(perfil.id)
+   ↓ devuelve conversaciones
+then → obtenerMensajes(...)
+   ↓
+catch → manejar error
+```
+
+Cada `.then()` recibe un **callback** para manejar el resultado exitoso de la Promise anterior.
+
+Además, ese callback puede devolver otra Promise. De esta manera, el siguiente `.then()` recibe el resultado de esa nueva operación y puede continuar el proceso.
+
+### ¿Por qué usar Promises en lugar de callbacks?
+
+Con callbacks, las operaciones pueden quedar **anidadas unas dentro de otras**:
+
+```javascript
+login(usuario, password, function(token) {
+    obtenerPerfil(token, function(perfil) {
+        obtenerConversaciones(perfil.id, function(conversaciones) {
+            obtenerMensajes(conversaciones[0].id, function(mensajes) {
+                // Continuar...
+            });
+        });
+    });
+});
+```
+
+Con Promises, las operaciones se pueden escribir **una después de otra**, evitando ese anidamiento:
+
+```javascript
+login(usuario, password)
+    .then(token => obtenerPerfil(token))
+    .then(perfil => obtenerConversaciones(perfil.id))
+    .then(conversaciones => obtenerMensajes(conversaciones[0].id))
+    .catch(error => manejarError(error));
+```
+
+Por eso, el código suele resultar más fácil de leer y mantener.
+
+> **Importante:** `.then()` está pensado para manejar el **resultado exitoso de la Promise anterior**. El error puede manejarse mediante `.catch()`, que puede capturar un error producido durante cualquiera de las operaciones de la cadena.
+
+Se pueden encadenar tantos `.then()` como sean necesarios para realizar los distintos pasos de una operación.
+
+
+## Encadenamiento de Promises
+
+Las **Promises pueden encadenarse** para ejecutar operaciones asincrónicas de manera secuencial.
+
+Cada operación devuelve una Promise, y el siguiente `.then()` puede utilizar el resultado de la operación anterior.
+
+```javascript
+login(usuario, password)
+    .then(function(token) {
+        return obtenerPerfil(token);
+    })
+    .then(function(perfil) {
+        return obtenerConversaciones(perfil.id);
+    })
+    .then(function(conversaciones) {
+        return obtenerMensajes(conversaciones[0].id);
+    })
+    .catch(function(error) {
+        manejarError(error);
+    });
+```
+
+El flujo sería:
+
+```text
+login()
+   ↓ devuelve token
+then → obtenerPerfil(token)
+   ↓ devuelve perfil
+then → obtenerConversaciones(perfil.id)
+   ↓ devuelve conversaciones
+then → obtenerMensajes(conversaciones[0].id)
+   ↓
+catch → manejar cualquier error
+```
+
+Cada `.then()` **recibe un callback para manejar el resultado exitoso de la Promise anterior**.
+
+Además, ese callback puede **devolver otra Promise**, permitiendo continuar el encadenamiento.
+
+### ¿Por qué es mejor que anidar callbacks?
+
+Con callbacks, las operaciones se pueden ir metiendo unas dentro de otras:
+
+```javascript
+login(usuario, password, function(token) {
+
+    obtenerPerfil(token, function(perfil) {
+
+        obtenerConversaciones(perfil.id, function(conversaciones) {
+
+            obtenerMensajes(conversaciones[0].id, function(mensajes) {
+
+                // Continuar...
+
+            });
+        });
+    });
+});
+```
+
+Con Promises, las operaciones se escriben **una después de otra**, sin anidar tantas funciones:
+
+```javascript
+login(usuario, password)
+    .then(function(token) {
+        return obtenerPerfil(token);
+    })
+    .then(function(perfil) {
+        return obtenerConversaciones(perfil.id);
+    })
+    .then(function(conversaciones) {
+        return obtenerMensajes(conversaciones[0].id);
+    });
+```
+
+Por eso el código resulta más fácil de leer y mantener.
+
+> **Importante:** `.then()` está pensado para manejar el **éxito de la Promise anterior**. Los errores pueden manejarse mediante `.catch()`, que puede capturar un error producido en cualquiera de las operaciones de la cadena.
+
+Se pueden encadenar tantos `.then()` como sean necesarios para completar los pasos de una operación.
 
 ---
 
