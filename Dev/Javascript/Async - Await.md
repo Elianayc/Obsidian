@@ -23,6 +23,8 @@ Promise.resolve('Hola Mundo');
 
 Si la función lanza una excepción, la Promise que devuelve queda rechazada.
 
+> Una función declarada con `async` siempre devuelve una Promise. El valor que retorna la función se convierte en el resultado de esa Promise.
+
 ---
 
 ### Operador `await`
