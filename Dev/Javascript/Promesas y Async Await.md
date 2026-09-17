@@ -12,9 +12,9 @@ Una Promise puede estar en uno de tres estados:
 Una Promise que ya terminó, tanto si fue exitosa como si falló, se encuentra en estado **settled**.
 
 ```text
-             ┌── Fulfilled
+                   ┌── Fulfilled
 Pending ─────┤
-             └── Rejected
+                   └── Rejected
 
 Fulfilled / Rejected = Settled
 ```
