@@ -166,12 +166,16 @@ Por eso el código es más fácil de **leer, modificar y mantener**. Esa es just
 
 ## Métodos estáticos de `Promise`
 
-El objeto `Promise` proporciona métodos útiles para trabajar con múltiples Promises:
+El objeto `Promise` proporciona métodos útiles para coordinar múltiples Promises:
 
-- **`Promise.all()`**: espera a que todas las Promises se resuelvan. Si una falla, el resultado completo falla.
-- **`Promise.race()`**: termina cuando la primera Promise se resuelve o rechaza.
-- **`Promise.allSettled()`**: espera a que todas terminen, independientemente de si se resolvieron o rechazaron.
-- **`Promise.any()`**: se resuelve cuando cualquiera de las Promises se resuelve correctamente.
+|         Método         |             ¿Cuándo termina?              |            ¿Qué pasa si alguna falla?            |
+| :--------------------: | :---------------------------------------: | :----------------------------------------------: |
+|    `Promise.any()`     |     Cuando **la primera tiene éxito**     | Ignora los rechazos hasta encontrar un éxito<br> |
+|    `Promise.all()`     |       Cuando **todas tienen éxito**       |                  **Falla todo**                  |
+|    `Promise.race()`    | Cuando **la primera termina**, bien o mal |        Depende de cómo termine la primera        |
+| `Promise.allSettled()` |  Cuando **todas terminaron**, bien o mal  |          **No falla por los rechazos**           |
+
+
     
 Para más información: [**MDN - Promise**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
