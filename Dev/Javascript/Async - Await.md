@@ -35,9 +35,7 @@ Si la función lanza una excepción, la Promise que devuelve queda rechazada.
 async function obtenerYProcesarDatos() {
     try {
         const datos = await obtenerDatos();
-
         const resultado = procesarDatos(datos);
-
         return resultado;
 
     } catch (error) {
