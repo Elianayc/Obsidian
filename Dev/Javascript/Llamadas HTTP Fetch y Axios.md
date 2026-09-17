@@ -179,14 +179,14 @@ Los **interceptors**, por ejemplo, permiten agregar automáticamente un JWT a la
 
 ## Fetch vs Axios
 
-|Característica|**Fetch**|**Axios**|
-|---|---|---|
-|Tipo|API nativa|Librería externa|
-|Instalación|No requiere|Requiere instalación|
-|JSON de respuesta|Hay que llamar `.json()`|Se procesa automáticamente|
-|Errores HTTP 4xx/5xx|Hay que comprobar `response.ok`|Los rechaza automáticamente|
-|Interceptors|No incorporados|Sí|
-|Configuración centralizada|Más manual|Más sencilla|
-|Sintaxis|Más verbosa|Más concisa|
+|       Característica       |            **Fetch**            |          **Axios**          |
+| :------------------------: | :-----------------------------: | :-------------------------: |
+|            Tipo            |           API nativa            |      Librería externa       |
+|        Instalación         |           No requiere           |    Requiere instalación     |
+|     JSON de respuesta      |    Hay que llamar `.json()`     | Se procesa automáticamente  |
+|    Errores HTTP 4xx/5xx    | Hay que comprobar `response.ok` | Los rechaza automáticamente |
+|        Interceptors        |         No incorporados         |             Sí              |
+| Configuración centralizada |           Más manual            |        Más sencilla         |
+|          Sintaxis          |           Más verbosa           |         Más concisa         |
 
 ---
