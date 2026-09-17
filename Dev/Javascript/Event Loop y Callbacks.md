@@ -81,25 +81,25 @@ Un **callback** es una función que se pasa como argumento a otra función para 
 
 Es una de las primeras formas utilizadas para manejar asincronismo en JavaScript.
 
-```JavaScript
-function obtenerConversaciones(callback) {
+```js
+function hacerAlgo(callback) {
     setTimeout(() => {
-        callback(['conv1', 'conv2', 'conv3']);
+        callback();
     }, 1000);
 }
 
-obtenerConversaciones(function(conversaciones) {
-    console.log(conversaciones);
+hacerAlgo(function() {
+    console.log("La operación terminó");
 });
 ```
 
 En este ejemplo:
 
-1. Se llama a `obtenerConversaciones()`.
+1. Se llama a `hacerAlgo()`.
 2. Se le pasa una función como callback.
 3. La operación tarda un segundo.
 4. Cuando termina, se ejecuta el callback.
-5. El callback recibe las conversaciones.
+5. El callback muestra `"La operación terminó"` en la consola.
 
 ![[Pasted image 20260904120921.png|681]]
 
