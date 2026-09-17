@@ -27,7 +27,6 @@ async function getConversaciones() {
 ---
 
 ### POST
-
 Se utiliza para enviar información al servidor:
 
 ```JavaScript
@@ -52,16 +51,11 @@ async function enviarMensaje(conversacionId, texto) {
 ```
 
 En este caso:
-
 - `method` indica el método HTTP.
-    
 - `headers` proporciona información adicional.
-    
 - `body` contiene los datos enviados.
-    
 - `JSON.stringify()` convierte el objeto JavaScript en JSON.
     
-
 ---
 
 ### `response.ok`
@@ -69,21 +63,16 @@ En este caso:
 Una característica importante de `fetch` es que **no rechaza automáticamente la Promise cuando el servidor responde con un error HTTP**.
 
 Por ejemplo, una respuesta:
-
 ```text
 404 Not Found
 ```
-
 o:
-
 ```text
 500 Internal Server Error
 ```
-
 sigue produciendo una respuesta `Response`.
 
 Por eso hay que comprobar:
-
 ```JavaScript
 if (!response.ok) {
     throw new Error(`Error: ${response.status}`);
