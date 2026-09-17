@@ -80,7 +80,6 @@ En este caso:
 ## Encadenamiento de Promises
 
 Las **Promises pueden encadenarse** para ejecutar operaciones asincrónicas de manera secuencial.
-
 Cada operación devuelve una Promise, y el siguiente `.then()` recibe el resultado de la operación anterior.
 
 ```javascript
@@ -109,7 +108,9 @@ Cada `.then()` recibe un **callback** para manejar el resultado exitoso de la Pr
 
 Además, ese callback puede devolver otra Promise. De esta manera, el siguiente `.then()` recibe el resultado de esa nueva operación y puede continuar el proceso.
 
-### ¿Por qué usar Promises en lugar de callbacks?
+---
+
+## ¿Por qué usar Promises en lugar de callbacks?
 
 Con callbacks, las operaciones pueden quedar **anidadas unas dentro de otras**:
 
