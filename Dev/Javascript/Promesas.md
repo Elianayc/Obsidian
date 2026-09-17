@@ -1,8 +1,8 @@
-Las **Promises** son objetos que representan el resultado eventual de una operación asincrónica.
-Permiten trabajar con operaciones potencialmente lentas sin bloquear el hilo principal.
+Las **Promises** son objetos que representan el resultado eventual de una operación asincrónica. Permiten trabajar con operaciones potencialmente lentas sin bloquear el hilo principal.
+
+> “Ahora no tengo el resultado, pero te prometo que cuando termine la operación te voy a entregar un resultado o te voy a informar que hubo un error.”
 
 Una Promise puede estar en uno de tres estados:
-
 - **Pending:** la operación todavía no terminó.
 - **Fulfilled:** la operación terminó correctamente y tiene un valor resultante.
 - **Rejected:** la operación falló y tiene un motivo de error.
@@ -112,7 +112,14 @@ Además, ese callback puede devolver otra Promise. De esta manera, el siguiente 
 
 ## ¿Por qué usar Promises en lugar de callbacks?
 
-Con callbacks, las operaciones pueden quedar **anidadas unas dentro de otras**:
+Con callbacks, las operaciones pueden quedar **anidadas unas dentro de otras**. Es como una mamushka: cada operación queda **adentro de la anterior**.
+
+```
+PASO 1
+  └── PASO 2
+       └── PASO 3
+            └── PASO 4
+```
 
 ```javascript
 login(usuario, password, function(token) {
@@ -126,7 +133,20 @@ login(usuario, password, function(token) {
 });
 ```
 
-Con Promises, las operaciones se pueden escribir **una después de otra**, evitando ese anidamiento:
+
+
+Con Promises, las operaciones se pueden escribir **una después de otra**, evitando ese anidamiento. Son **pasos independientes encadenados**. 
+El resultado de uno pasa al siguiente, pero no necesitás meter físicamente una función dentro de otra.
+
+```
+PASO 1
+  ↓
+PASO 2
+  ↓
+PASO 3
+  ↓
+PASO 4
+```
 
 ```javascript
 login(usuario, password)
@@ -136,11 +156,11 @@ login(usuario, password)
     .catch(error => manejarError(error));
 ```
 
-Por eso, el código suele resultar más fácil de leer y mantener.
+Por eso el código es más fácil de **leer, modificar y mantener**. Esa es justamente la idea del **encadenamiento de Promises**.
 
 > **Importante:** `.then()` está pensado para manejar el **resultado exitoso de la Promise anterior**. El error puede manejarse mediante `.catch()`, que puede capturar un error producido durante cualquiera de las operaciones de la cadena.
-
-Se pueden encadenar tantos `.then()` como sean necesarios para realizar los distintos pasos de una operación.
+> 
+> Se pueden encadenar tantos `.then()` como sean necesarios para realizar los distintos pasos de una operación.
 
 ---
 
