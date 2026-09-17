@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
-                "mode": "source",
+                "file": "Javascript/Event Loop y Callbacks.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cómo JavaScript procesa operaciones asincrónicas"
+              "title": "Event Loop y Callbacks"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
+                "file": "Javascript/Event Loop y Callbacks.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
+                "file": "Javascript/Event Loop y Callbacks.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,10 +366,10 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
     "Javascript/JavaScript.md",
     "Javascript/Cómo se carga y ejecuta un archivo JavaScript.md",
     "Javascript/Dónde y cómo incorporar JavaScript.md",
-    "Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
     "Javascript/Ejecución... script al final de body vs. defer.md",
     "Javascript/Promesas y Async Await.md",
     "Javascript/Node.js.md",

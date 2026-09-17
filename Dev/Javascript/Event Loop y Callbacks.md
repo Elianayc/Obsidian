@@ -8,7 +8,8 @@ Cuando aparece una operación que puede tardar, como un `fetch()` o un `setTimeo
 > - **`fetch`** → es una función de JavaScript para hacer una solicitud a un servidor, por ejemplo pedir datos a una API.
 > - **`setTimeout`** → permite decirle a JavaScript: **“ejecutá esta función después de cierto tiempo”**.
 
-Cuando la operación termina, el código pendiente queda disponible para ser ejecutado. El Event Loop se encarga de comprobar cuándo el hilo principal está disponible y permite ejecutar esas tareas.
+Cuando la operación termina, el código pendiente queda disponible para ser ejecutado. 
+El Event Loop se encarga de comprobar cuándo el hilo principal está disponible y permite ejecutar esas tareas.
 
 ![[Pasted image 20260904121735.png]]
 
