@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Backend/Arquitectura REST.md",
+                "file": "Backend/Basic Authentication.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Arquitectura REST"
+              "title": "Basic Authentication"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "span",
+                "query": "api path:Backend  ",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +79,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -162,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/Arquitectura REST.md",
+                "file": "Backend/Basic Authentication.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +218,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Backend/Arquitectura REST.md",
+                "file": "Backend/Basic Authentication.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,32 +367,32 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
-    "Backend/Validación de Inputs.md",
+    "Backend/CORS.md",
+    "Backend/Idempotencia.md",
+    "Backend/Digest Authentication.md",
+    "Backend/JWT.md",
+    "Backend/RBAC.md",
+    "Backend/Recursos y URLs.md",
+    "Backend/Versionado de APIs REST.md",
+    "Backend/Basic Authentication.md",
+    "Backend/Proxy.md",
+    "Backend/APIs",
+    "Backend/Gateway.md",
+    "Backend/Arquitectura REST.md",
     "Backend/Seguridad de APIs.md",
+    "Backend/Representaciones de Recursos.md",
+    "Backend/Rate Limiting y Throttling.md",
+    "Backend/HTTPS.md",
+    "Backend/Headers de Seguridad.md",
+    "Backend/Diseño de APIs REST.md",
+    "Backend/Checkilst de Seguridad para APIs.md",
+    "Backend/Autenticación y Autorización.md",
+    "Backend/API REST.md",
+    "Backend/Validación de Inputs.md",
     "Backend/Backend.md",
     "Backend/Interfaces de programación de aplicaciones (API).md",
-    "Backend/API REST.md",
-    "Backend/Checkilst de Seguridad para APIs.md",
-    "Backend/Idempotencia.md",
-    "Backend/Headers de Seguridad.md",
-    "Backend/Autenticación y autorización.md",
-    "Backend/Arquitectura REST.md",
-    "Backend/Versionado de APIs REST.md",
-    "Backend/Proxy.md",
-    "Backend/Gateway.md",
-    "Backend/HTTPS.md",
-    "Backend/Diseño de APIs REST.md",
-    "Backend/CORS.md",
-    "Backend/Basic Authentication.md",
     "Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
     "Javascript/JavaScript.md",
-    "Javascript/Node.js.md",
-    "Frameworks/Vue.md",
-    "Frameworks/React.md",
-    "Javascript/Evolución del Asincronismo.md",
-    "Javascript/RxJS y Observables en Angular.md",
-    "Frameworks/Angular.md",
-    "Javascript/Llamadas HTTP - Fetch y Axios.md",
     "Z_Imágenes/Pasted image 20260915234240.png",
     "Z_Imágenes/Pasted image 20260915224623.png",
     "Z_Imágenes/Pasted image 20260913191929.png",
@@ -411,7 +412,6 @@
     "CSS",
     "HTML",
     "Modelado de Sistemas",
-    "TCP",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]
