@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Event Loop y Callbacks.md",
-                "mode": "preview",
+                "file": "Javascript/Promesas y Async Await.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Event Loop y Callbacks"
+              "title": "Promesas y Async Await"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Event Loop y Callbacks.md",
+                "file": "Javascript/Promesas y Async Await.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Javascript/Event Loop y Callbacks.md",
+                "file": "Javascript/Promesas y Async Await.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,6 +366,7 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "Javascript/Event Loop y Callbacks.md",
     "Javascript/Procesamiento Asincrónico en JavaScript.md",
     "Javascript/JavaScript.md",
     "Javascript/Propiedades `async` y `defer`.md",
@@ -392,7 +393,6 @@
     "Bases de Datos/Álgebra Relacional.md",
     "Arquitectura de Sistemas/Patrones Arquitecturales.md",
     "Arquitectura de Sistemas/Arquitectura en Capas.md",
-    "Programación/Bridge.md",
     "Z_Imágenes/Pasted image 20260915224623.png",
     "Z_Imágenes/Pasted image 20260913191929.png",
     "Z_Imágenes/Pasted image 20260913185456.png",
