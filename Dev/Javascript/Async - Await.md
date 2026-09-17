@@ -92,12 +92,8 @@ Actualmente es una de las formas más utilizadas para escribir código asincrón
 ## Ventajas de Async / Await
 
 - **Código más limpio y legible:** permite escribir operaciones asincrónicas de forma lineal.
-    
 - **Mejor manejo de errores:** permite utilizar `try/catch`.
-    
 - **Depuración más sencilla:** el flujo del código es más fácil de seguir.
-    
 - **Control de flujo simplificado:** facilita trabajar con condiciones, bucles y operaciones asincrónicas secuenciales.
-    
 
 ---
