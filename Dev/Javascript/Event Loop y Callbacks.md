@@ -81,27 +81,59 @@ Un **callback** es una función que se pasa como argumento a otra función para 
 
 Es una de las primeras formas utilizadas para manejar asincronismo en JavaScript.
 
+![[Pasted image 20260904120921.png|681]]
+
+
+### Ejemplo explicado
+
 ```js
+// Función que será utilizada como callback.
+function avisarFin() {
+    console.log("La operación terminó");
+}
+
+// Función que recibe una función (Callback) como parámetro.
 function hacerAlgo(callback) {
-    setTimeout(() => {
-        callback();
+    setTimeout(function() { // Simulamos una operación que tarda un segundo.
+        callback(); // Ejecutamos la función recibida.
     }, 1000);
 }
 
-hacerAlgo(function() {
-    console.log("La operación terminó");
-});
+// Pasamos la función avisarFin como argumento.
+hacerAlgo(avisarFin);
 ```
 
 En este ejemplo:
 
-1. Se llama a `hacerAlgo()`.
-2. Se le pasa una función como callback.
-3. La operación tarda un segundo.
-4. Cuando termina, se ejecuta el callback.
-5. El callback muestra `"La operación terminó"` en la consola.
+1. Se define la función `avisarFin()`.
+2. Se define `hacerAlgo()`, que recibe una función mediante el parámetro `callback`.
+3. Se llama a `hacerAlgo(avisarFin)`.
+4. La función `avisarFin` queda almacenada en el parámetro `callback`.
+5. `setTimeout()` espera un segundo.
+6. Cuando termina la espera, `callback()` ejecuta la función `avisarFin()`.
+7. Se muestra `"La operación terminó"` en la consola.
 
-![[Pasted image 20260904120921.png|681]]
+> **Importante:** `callback` no es una palabra reservada de JavaScript. Es simplemente el nombre convencional que se utiliza para el parámetro que recibe la función que será ejecutada posteriormente.
+
+
+### Forma de uso más común
+
+En código JavaScript es muy habitual pasar directamente una **función anónima** como callback cuando esa función solamente se necesita en ese lugar:
+
+```js
+function hacerAlgo(callback) {
+    setTimeout(function() {
+        callback();
+    }, 1000);
+}
+
+hacerAlgo(function() {  //Función anónima que hace lo mismo que avisarFin() .
+    console.log("La operación terminó");
+});
+```
+
+Esta versión hace lo mismo que la anterior. La diferencia es que la función que se ejecuta al finalizar **no tiene un nombre propio**, porque se utiliza únicamente como callback.
+
 
 ---
 
