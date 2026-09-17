@@ -22,9 +22,13 @@ Fulfilled / Rejected = Settled
 ## Creación y uso de Promises
 
 Una Promise recibe dos funciones:
+- **`resolve()`** → indica que la operación terminó correctamente.  
+- **`reject()`** → indica que la operación falló.
 
-- `resolve()` → indica que la operación terminó correctamente.  
-- `reject()` → indica que la operación falló.
+Los principales métodos para consumir una Promise son:
+- **`.then()`** → maneja el resultado exitoso.
+- **`.catch()`** → maneja errores.
+- **`.finally()`** → se ejecuta al finalizar, independientemente del resultado.
 
 ```JavaScript
 const miPromesa = new Promise((resolve, reject) => {
@@ -48,12 +52,6 @@ miPromesa
     });
 ```
 
-Los principales métodos para consumir una Promise son:
-
-- **`.then()`** → maneja el resultado exitoso.
-- **`.catch()`** → maneja errores.
-- **`.finally()`** → se ejecuta al finalizar, independientemente del resultado.
-    
 ---
 
 ## Encadenamiento de Promises
