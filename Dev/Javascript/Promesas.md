@@ -52,6 +52,25 @@ miPromesa
     });
 ```
 
+
+> Esto:
+> 
+> ```js
+> (resultado) => {
+>     console.log(resultado);
+> }
+> ```
+> 
+> es una forma abreviada de:
+> 
+> ```js
+> function (resultado) {
+>     console.log(resultado);
+> }
+> ```
+> 
+> 
+
 ---
 
 ## Encadenamiento de Promises
