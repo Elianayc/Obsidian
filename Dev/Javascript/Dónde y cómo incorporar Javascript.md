@@ -1,21 +1,22 @@
-El primer paso es conseguir que el documento HTML tenga noción de la existencia del código JavaScript. 
+El primer paso es conseguir que el documento HTML tenga conocimiento de la existencia del código JavaScript.
 
-Esto puede lograrse mediante:
-- La referencia a un **archivo externo** que contenga los comandos.
-- Embebiendo el código entre las etiquetas `<script>`.
+Esto puede lograrse principalmente de dos formas:
 
-El segundo paso consiste en llamar a las funciones para conseguir el efecto deseado. En la mayoría de los casos, la invocación se realiza para atender eventos provocados por el usuario, como hacer clic sobre un botón o mover el mouse sobre una determinada zona.
+- **JavaScript inline:** el código se escribe directamente dentro del documento HTML, utilizando la etiqueta `<script>` o, en algunos casos, dentro de atributos de eventos.
 
-También es posible ejecutar código JavaScript ante eventos desatendidos, como el inicio o la finalización de la carga de la página web.
+- **JavaScript externo:** el código se escribe en un archivo `.js` separado y se incorpora al HTML mediante la etiqueta `<script>` y su atributo `src`.
 
 ---
 
-## JavaScript dentro del HTML
+## JavaScript inline
 
-La etiqueta `<script>` permite definir código JavaScript directamente dentro del documento HTML.
+El **JavaScript inline** consiste en escribir el código JavaScript directamente dentro del documento HTML.
+
+La etiqueta `<script>` permite definir código JavaScript dentro del documento.
 
 **Ejemplo:**
-```html
+
+```js
 <html>
 <head>
     <title>Prueba uso Js</title>
@@ -34,28 +35,22 @@ La etiqueta `<script>` permite definir código JavaScript directamente dentro de
 </html>
 ```
 
-En el ejemplo se utiliza la etiqueta `<script>` para definir código JavaScript.
+En el ejemplo se utiliza la etiqueta `<script>` para definir código JavaScript directamente dentro del HTML.
 
 Se define la función `sayHi()`, que será ejecutada cuando el usuario presione el botón **"Saludar"**.
 
-La etiqueta `<script>` también puede definirse dentro de `<body>`.
+La etiqueta `<script>` puede ubicarse tanto dentro de `<head>` como dentro de `<body>`.
 
-Es usual que las etiquetas `<script>` aparezcan al final de `<body>` por al menos dos razones:
-
-1. **Necesidad de que los elementos HTML ya estén definidos.**
-2. **Rendimiento:** si el código a cargar demanda más tiempo que la carga o renderizado de la página, la usabilidad puede verse afectada.
+> La ubicación del `<script>` y las diferentes formas de carga y ejecución (`defer`, `async`, etc.) se desarrollan en el apartado **Cómo se carga y ejecuta un archivo JavaScript**.
 
 ---
 
 ## JavaScript en un archivo externo
 
-Definir JavaScript directamente dentro del HTML no es recomendable desde el punto de vista de la **mantenibilidad**, ya que dentro de un mismo archivo se encuentran tanto la estructura como el comportamiento.
+Otra posibilidad consiste en colocar el código JavaScript en un archivo separado con extensión `.js` e incluirlo en el HTML mediante la etiqueta `<script>` y el atributo `src`.
 
-Esto dificulta la separación de responsabilidades, especialmente en aplicaciones que contienen mucho código.
+**HTML:**
 
-Para solucionarlo, se puede desacoplar el código JavaScript del HTML en otro archivo e incluirlo mediante la etiqueta `<script>`.
-
-### HTML
 ```html
 <html>
 <head>
@@ -72,22 +67,21 @@ Para solucionarlo, se puede desacoplar el código JavaScript del HTML en otro ar
 </html>
 ```
 
+**JavaScript (`fnc.js`):**
 
-### JavaScript
-```javascript
+```js
 function sayHi() {
     alert("Hola Mundo!");
 }
 ```
 
+Separar el código JavaScript del HTML permite mejorar la **mantenibilidad** y la **separación de responsabilidades**, ya que la estructura del documento y su comportamiento quedan en archivos diferentes.
 
 ### Ventajas
-Separar el código JavaScript en un archivo externo permite:
 
-- Carga más rápida de la página.
-- Mejorar la mantenibilidad y legibilidad.
-- Aplicar separación de responsabilidades.
-- Reutilizar el código JavaScript en otro documento HTML.
+- Mejorar la **mantenibilidad y legibilidad**.
+- Aplicar una mejor **separación de responsabilidades**.
+- **Reutilizar** el mismo código JavaScript en diferentes documentos HTML.
+- Facilitar la organización del código en aplicaciones grandes.
 
 ---
-
