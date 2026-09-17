@@ -29,7 +29,6 @@ Una Promise recibe dos funciones:
 ```JavaScript
 const miPromesa = new Promise((resolve, reject) => {
     const exito = true;
-
     if (exito) {
         resolve('Operación completada con éxito');
     } else {
