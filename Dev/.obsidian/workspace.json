@@ -11,14 +11,10 @@
             "id": "87f4fa3d7e9fda5a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backend/Seguridad de APIs/Rate Limiting y Throttling.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Rate Limiting y Throttling"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
             }
           }
         ]
@@ -162,7 +158,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Backend/Seguridad de APIs/Rate Limiting y Throttling.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +212,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Backend/Seguridad de APIs/Rate Limiting y Throttling.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,6 +360,12 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "Z_Imágenes/solid.png",
+    "Backend/Diseño de API REST/Arquitectura REST.md",
+    "Backend/Seguridad de APIs/RBAC.md",
+    "Backend/Seguridad de APIs/Seguridad de APIs.md",
+    "Backend/Seguridad de APIs/Validación de Inputs.md",
+    "Backend/Seguridad de APIs/Rate Limiting y Throttling.md",
     "Backend/Seguridad de APIs/JWT.md",
     "Backend/Seguridad de APIs/HTTPS.md",
     "Backend/Seguridad de APIs/Headers de Seguridad.md",
@@ -381,20 +381,15 @@
     "Backend/Diseño de API REST/Idempotencia.md",
     "Backend/Diseño de API REST/Gateway.md",
     "Backend/Diseño de API REST/Diseño de APIs REST.md",
-    "Backend/Diseño de API REST/Arquitectura REST.md",
     "Backend/Conceptos/APIs (Interfaces de programación de aplicaciones).md",
     "Backend/Conceptos/Backend.md",
     "Backend/Conceptos/API REST.md",
-    "Backend/Seguridad de APIs/Validación de Inputs.md",
-    "Backend/Seguridad de APIs/Seguridad de APIs.md",
-    "Backend/Seguridad de APIs/Rate Limiting y Throttling.md",
     "Backend/Seguridad de APIs",
     "Backend/Diseño de API REST",
     "Backend/Conceptos",
-    "Backend/Seguridad de APIs/RBAC.md",
     "Backend/APIs",
-    "Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
-    "Javascript/JavaScript.md",
+    "Programación/Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
+    "Programación/Javascript/JavaScript.md",
     "Z_Imágenes/Pasted image 20260915234240.png",
     "Z_Imágenes/Pasted image 20260915224623.png",
     "Z_Imágenes/Pasted image 20260913191929.png",
@@ -407,10 +402,10 @@
     "Z_Imágenes/Pasted image 20260910113346.png",
     "Z_Imágenes/Pasted image 20260909151125.png",
     "Backend",
-    "Metodología de Sistemas",
-    "Frameworks",
-    "Javascript",
-    "Typescript",
+    "Arquitectura de Sistemas/Metodología de Sistemas",
+    "Programación/Frameworks",
+    "Programación/Javascript",
+    "Programación/Typescript",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]

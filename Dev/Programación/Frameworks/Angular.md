@@ -1,4 +1,4 @@
-**Angular** es un **framework de desarrollo web** basado en **[[TypeScript]]**, desarrollado por Google.
+**Angular** es un **framework de desarrollo web** basado en **[[Typescript]]**, desarrollado por Google.
 Se utiliza principalmente para crear aplicaciones **Frontend completas, estructuradas y escalables**, especialmente aplicaciones de una sola página (**SPA**).
 
 ---

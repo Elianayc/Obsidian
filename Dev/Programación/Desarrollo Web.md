@@ -6,7 +6,7 @@ Las aplicaciones web se ejecutan principalmente mediante un **navegador web** y 
 
 - [[HTML (HyperText Markup Language)]] → estructura y contenido de las páginas web.
 - [[CSS (Cascading Style Sheets)]] → presentación y diseño visual.
-- [[JavaScript]] / [[TypeScript]] → comportamiento e interactividad.
+- [[JavaScript]] / [[Typescript]] → comportamiento e interactividad.
 
 Estas tecnologías trabajan de manera complementaria para construir interfaces modernas, interactivas y atractivas.
 
