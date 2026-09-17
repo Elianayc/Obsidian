@@ -83,6 +83,7 @@ function sayHi() {
 
 ### Ventajas
 Separar el código JavaScript en un archivo externo permite:
+
 - Carga más rápida de la página.
 - Mejorar la mantenibilidad y legibilidad.
 - Aplicar separación de responsabilidades.

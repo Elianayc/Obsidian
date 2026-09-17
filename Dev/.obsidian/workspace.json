@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/JavaScript.md",
+                "file": "Javascript/Propiedades `async` y `defer`.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JavaScript"
+              "title": "Propiedades `async` y `defer`"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/JavaScript.md",
+                "file": "Javascript/Propiedades `async` y `defer`.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Javascript/JavaScript.md",
+                "file": "Javascript/Propiedades `async` y `defer`.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,8 +366,11 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
-    "Javascript/Node.js.md",
     "Javascript/JavaScript.md",
+    "Javascript/Uso de Javascript.md",
+    "Javascript/Propiedades `async` y `defer`.md",
+    "Javascript/DOM (Document Object Model).md",
+    "Javascript/Node.js.md",
     "Frameworks/Vue.md",
     "Frameworks/React.md",
     "Javascript/Procesamiento Asincrónico en JavaScript.md",
@@ -375,10 +378,7 @@
     "Javascript/Llamadas HTTP Fetch y Axios.md",
     "Javascript/Event Loop y Callbacks.md",
     "Javascript/Promesas y Async Await.md",
-    "Javascript/Propiedades `async` y `defer`.md",
-    "Javascript/Uso de Javascript.md",
     "Javascript/Script al final de body vs. defer.md",
-    "Javascript/DOM (Document Object Model).md",
     "Z_Imágenes/Pasted image 20260915234240.png",
     "CSS/Propiedad `display`.md",
     "CSS/CSS (Cascading Style Sheets).md",
