@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Frameworks/Angular.md",
+                "file": "Javascript/RxJS y Observables en Angular.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Angular"
+              "title": "RxJS y Observables en Angular"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Frameworks/Angular.md",
+                "file": "Javascript/RxJS y Observables en Angular.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Frameworks/Angular.md",
+                "file": "Javascript/RxJS y Observables en Angular.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,6 +366,7 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "Frameworks/Angular.md",
     "Javascript/RxJS y Observables en Angular.md",
     "Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
     "Javascript/Llamadas HTTP - Fetch y Axios.md",
@@ -392,7 +393,6 @@
     "Typescript/Readonly en TypeScript.md",
     "Redes/HTTP (HyperText Transfer Protocol).md",
     "Backend/Digest Authentication.md",
-    "Backend/CORS.md",
     "Z_Imágenes/Pasted image 20260915224623.png",
     "Z_Imágenes/Pasted image 20260913191929.png",
     "Z_Imágenes/Pasted image 20260913185456.png",

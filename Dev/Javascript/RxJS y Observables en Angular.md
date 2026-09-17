@@ -102,11 +102,11 @@ this.http.get<Conversacion[]>('/api/conversaciones')
 
 Los callbacks de `subscribe()` indican qué hacer en cada situación:
 
-|Callback|Se ejecuta cuando...|
-|---|---|
-|`next`|El Observable emite un valor.|
-|`error`|Ocurre un error.|
-|`complete`|El Observable termina.|
+|  Callback  |     Se ejecuta cuando...      |
+| :--------: | :---------------------------: |
+|   `next`   | El Observable emite un valor. |
+|  `error`   |       Ocurre un error.        |
+| `complete` |    El Observable termina.     |
 
 ---
 
