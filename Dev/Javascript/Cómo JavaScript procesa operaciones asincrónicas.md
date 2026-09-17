@@ -22,6 +22,7 @@ Cuando estas operaciones terminan, JavaScript ejecuta el código correspondiente
 - [[Async - Await]]
 - [[Llamadas HTTP - Fetch y Axios]]
 - [[RxJS y Observables en Angular]]
+- [[Evolución del Asincronismo]]
 
 ---
 
