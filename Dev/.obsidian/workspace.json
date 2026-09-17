@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/RxJS y Observables en Angular.md",
+                "file": "Frameworks/Angular.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RxJS y Observables en Angular"
+              "title": "Angular"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/RxJS y Observables en Angular.md",
+                "file": "Frameworks/Angular.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Javascript/RxJS y Observables en Angular.md",
+                "file": "Frameworks/Angular.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,6 +366,7 @@
   },
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
+    "Javascript/RxJS y Observables en Angular.md",
     "Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
     "Javascript/Llamadas HTTP - Fetch y Axios.md",
     "Javascript/Async - Await.md",
@@ -379,7 +380,6 @@
     "Javascript/DOM (Document Object Model).md",
     "Frameworks/Vue.md",
     "Frameworks/React.md",
-    "Javascript/RxJS y Observables en Angular.md",
     "Z_Imágenes/Pasted image 20260915234240.png",
     "CSS/Propiedad `display`.md",
     "CSS/CSS (Cascading Style Sheets).md",
