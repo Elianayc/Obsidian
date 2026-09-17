@@ -4,13 +4,10 @@ JavaScript ofrece `fetch` como API nativa del navegador, mientras que también e
 ---
 
 ## Fetch
-
 `fetch` es la **API nativa del navegador** para realizar solicitudes HTTP.
-
 No requiere instalar ninguna librería.
 
 ### GET
-
 Se utiliza para obtener información del servidor:
 
 ```JavaScript
