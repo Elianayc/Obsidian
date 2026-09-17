@@ -19,57 +19,64 @@ Fulfilled / Rejected = Settled
 
 ---
 
-## Creación y uso de Promises
+## Creación de una Promise
 
 Una Promise recibe dos funciones:
-- **`resolve()`** → indica que la operación terminó correctamente.  
+- **`resolve()`** → indica que la operación terminó correctamente.
 - **`reject()`** → indica que la operación falló.
+   
+```javascript
+const miPromesa = new Promise(function(resolve, reject) {
+    const exito = true;
 
-Los principales métodos para consumir una Promise son:
+    if (exito) {
+        resolve("Operación completada con éxito");
+    } else {
+        reject("Error en la operación");
+    }
+
+});
+```
+
+En este ejemplo:
+
+1. `new Promise()` crea una nueva Promise.
+2. `resolve` y `reject` son las dos funciones que recibe.
+3. Si `exito` es `true`, se ejecuta `resolve()`.
+4. Si `exito` es `false`, se ejecuta `reject()`.
+    
+---
+
+## Uso de la Promise
+
+Los principales métodos para usar una Promise son:
+
 - **`.then()`** → maneja el resultado exitoso.
-- **`.catch()`** → maneja errores.
+- **`.catch()`** → maneja el error.
 - **`.finally()`** → se ejecuta al finalizar, independientemente del resultado.
 
-```JavaScript
-const miPromesa = new Promise((resolve, reject) => {
-    const exito = true;
-    if (exito) {
-        resolve('Operación completada con éxito');
-    } else {
-        reject('Error en la operación');
-    }
-});
 
+```javascript
 miPromesa
-    .then((resultado) => {
+    .then(function(resultado) {
         console.log(resultado);
     })
-    .catch((error) => {
+    .catch(function(error) {
         console.error(error);
     })
-    .finally(() => {
-        console.log('Promesa finalizada');
+    .finally(function() {
+        console.log("Promesa finalizada");
     });
 ```
 
+En este caso:
 
-> Esto:
-> 
-> ```js
-> (resultado) => {
->     console.log(resultado);
-> }
-> ```
-> 
-> es una forma abreviada de:
-> 
-> ```js
-> function (resultado) {
->     console.log(resultado);
-> }
-> ```
-> 
-> 
+- `.then()` recibe el resultado enviado por `resolve()`.
+- `.catch()` recibe el error enviado por `reject()`.
+- `.finally()` se ejecuta siempre, tanto si la Promise tuvo éxito como si falló.
+
+> **Nota:** también es posible escribir estas funciones utilizando la sintaxis de **funciones flecha (`=>`)**, pero primero conviene entender la forma tradicional con `fun` .
+
 
 ---
 
