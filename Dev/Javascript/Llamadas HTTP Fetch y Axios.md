@@ -107,7 +107,6 @@ para obtener otros tipos de contenido.
 ## Axios
 
 **Axios** es una librería externa para realizar solicitudes HTTP.
-
 Busca simplificar varias tareas que con `fetch` requieren código adicional.
 
 ```JavaScript
