@@ -47,9 +47,7 @@ async function obtenerYProcesarDatos() {
 
 `await` pausa la ejecución de **esa función `async`** hasta que la Promise se resuelve.
 
-Esto **no bloquea el hilo principal**. Mientras la función espera, JavaScript puede continuar procesando otras tareas.
-
-> `await` no detiene todo JavaScript. Suspende la ejecución de esa función hasta obtener el resultado.
+> `await` espera el resultado de una Promise porque necesito ese resultado para continuar con el siguiente paso de esta función. Mientras espera, el hilo principal puede seguir trabajando en otras tareas.
 
 ---
 
