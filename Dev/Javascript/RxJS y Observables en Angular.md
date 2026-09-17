@@ -1,5 +1,4 @@
 Angular utiliza **RxJS** para trabajar con asincronismo, especialmente mediante su `HttpClient`.
-
 Un **Observable** representa un flujo de valores a lo largo del tiempo.
 
 A diferencia de una Promise, que representa normalmente un único resultado eventual, un Observable **puede emitir múltiples valores**, puede cancelarse y permite transformar y combinar los valores mediante operadores de RxJS.

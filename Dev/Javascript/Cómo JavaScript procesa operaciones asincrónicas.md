@@ -20,7 +20,7 @@ Cuando estas operaciones terminan, JavaScript ejecuta el código correspondiente
 - [[Event Loop y Callbacks]]
 - [[Promesas]]
 - [[Async - Await]]
-- [[Llamadas HTTP Fetch y Axios]]
+- [[Llamadas HTTP - Fetch y Axios]]
 - [[RxJS y Observables en Angular]]
 
 ---

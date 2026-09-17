@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Llamadas HTTP Fetch y Axios.md",
+                "file": "Javascript/RxJS y Observables en Angular.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Llamadas HTTP Fetch y Axios"
+              "title": "RxJS y Observables en Angular"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Llamadas HTTP Fetch y Axios.md",
+                "file": "Javascript/RxJS y Observables en Angular.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Javascript/Llamadas HTTP Fetch y Axios.md",
+                "file": "Javascript/RxJS y Observables en Angular.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,11 +367,11 @@
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
     "Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
+    "Javascript/Llamadas HTTP - Fetch y Axios.md",
     "Javascript/Async - Await.md",
     "Javascript/Promesas.md",
     "Javascript/Event Loop y Callbacks.md",
     "Javascript/JavaScript.md",
-    "Javascript/Llamadas HTTP Fetch y Axios.md",
     "Javascript/Cómo se carga y ejecuta un archivo JavaScript.md",
     "Javascript/Dónde y cómo incorporar JavaScript.md",
     "Javascript/Ejecución... script al final de body vs. defer.md",
