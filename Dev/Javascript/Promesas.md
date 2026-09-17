@@ -46,16 +46,14 @@ En este ejemplo:
 4. Si `exito` es `false`, se ejecuta `reject()`.
     
 ---
-
 ## Uso de la Promise
 
 Los principales métodos para usar una Promise son:
 
-- **`.then()`** → maneja el resultado exitoso.
-- **`.catch()`** → maneja el error.
-- **`.finally()`** → se ejecuta al finalizar, independientemente del resultado.
-
-
+- **`.then()`** → recibe un **callback** para manejar el resultado exitoso.
+- **`.catch()`** → recibe un **callback** para manejar el error.
+- **`.finally()`** → recibe un **callback** que se ejecuta al finalizar, independientemente del resultado.
+    
 ```javascript
 miPromesa
     .then(function(resultado) {
@@ -71,12 +69,11 @@ miPromesa
 
 En este caso:
 
-- `.then()` recibe el resultado enviado por `resolve()`.
-- `.catch()` recibe el error enviado por `reject()`.
-- `.finally()` se ejecuta siempre, tanto si la Promise tuvo éxito como si falló.
+- `.then()` recibe un callback que recibe el resultado enviado por `resolve()`.
+- `.catch()` recibe un callback que recibe el error enviado por `reject()`.
+- `.finally()` recibe un callback que se ejecuta siempre, tanto si la Promise tuvo éxito como si falló.
 
-> **Nota:** también es posible escribir estas funciones utilizando la sintaxis de **funciones flecha (`=>`)**, pero primero conviene entender la forma tradicional con `fun` .
-
+> **Nota:** también es posible escribir estos callbacks utilizando la sintaxis de **funciones flecha (`=>`)**, pero primero conviene entender la forma tradicional con `function`.
 
 ---
 
