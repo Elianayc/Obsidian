@@ -36,7 +36,7 @@ El Event Loop detecta que el hilo principal está disponible
 JavaScript ejecuta el código correspondiente
 ```
 
-> **Idea clave:** JavaScript tiene un hilo principal que ejecuta una cosa por vez. Cuando aparece una operación que puede tardar, el entorno (por ejemplo, el navegador) puede encargarse de esa operación mientras JavaScript sigue trabajando.
+> JavaScript tiene un hilo principal que ejecuta una cosa por vez. Cuando aparece una operación que puede tardar, el entorno (por ejemplo, el navegador) puede encargarse de esa operación mientras JavaScript sigue trabajando.
 
 ---
 
