@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Event Loop y Callbacks.md",
+                "file": "Javascript/Promesas y Async Await.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Event Loop y Callbacks"
+              "title": "Promesas y Async Await"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Event Loop y Callbacks.md",
+                "file": "Javascript/Promesas y Async Await.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Javascript/Event Loop y Callbacks.md",
+                "file": "Javascript/Promesas y Async Await.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,13 +367,13 @@
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
     "Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
+    "Javascript/Event Loop y Callbacks.md",
     "Javascript/JavaScript.md",
     "Javascript/Cómo se carga y ejecuta un archivo JavaScript.md",
     "Javascript/Dónde y cómo incorporar JavaScript.md",
     "Javascript/Ejecución... script al final de body vs. defer.md",
     "Javascript/Promesas y Async Await.md",
     "Javascript/Node.js.md",
-    "Javascript/Event Loop y Callbacks.md",
     "Javascript/Llamadas HTTP Fetch y Axios.md",
     "Javascript/DOM (Document Object Model).md",
     "Frameworks/Vue.md",

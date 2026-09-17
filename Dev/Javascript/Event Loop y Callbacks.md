@@ -139,19 +139,33 @@ Esta versión hace lo mismo que la anterior. La diferencia es que la función qu
 
 ## Callback Hell
 
-Cuando una operación asincrónica depende del resultado de otra, los callbacks pueden comenzar a anidarse:
+Cuando una operación asincrónica depende del resultado de otra, los callbacks pueden comenzar a **anidarse unos dentro de otros**, formando una cadena de operaciones.
 
-```JavaScript
-login(usuario, password, function(token) {
-    obtenerPerfil(token, function(perfil) {
-        obtenerConversaciones(perfil.id, function(conversaciones) {
-            obtenerMensajes(conversaciones[0].id, function(mensajes) {
-                // etc...
+Por ejemplo:
+
+```js
+hacerAlgo(function(resultado1) {
+    hacerOtraCosa(resultado1, function(resultado2) {
+        procesarResultado(resultado2, function(resultado3) {
+            guardarResultado(resultado3, function(resultado4) {
+                console.log("Todo terminó");
             });
         });
     });
 });
 ```
+
+En este ejemplo:
+
+1. Se ejecuta `hacerAlgo()`.
+2. Cuando termina, se ejecuta su callback.
+3. Ese callback llama a `hacerOtraCosa()`.
+4. Cuando termina, vuelve a ejecutar otro callback.
+5. Ese callback llama a `procesarResultado()`.
+6. Luego se ejecuta otro callback que llama a `guardarResultado()`.
+7. Finalmente se muestra `"Todo terminó"`.
+
+Cuantas más operaciones dependientes se agregan, **más niveles de anidamiento aparecen**.
 
 Esto se conoce como **Callback Hell**.
 
@@ -162,6 +176,6 @@ La lógica puede ser correcta, pero el código se vuelve:
 - Difícil de modificar.
 - Más complicado de manejar cuando aparecen errores en cada nivel.
 
-Este problema llevó al desarrollo de una abstracción más conveniente: las [[Promesas y Async Await]].
+Este problema llevó al desarrollo de una abstracción más conveniente: las **Promesas y Async/Await**.
 
 ---
