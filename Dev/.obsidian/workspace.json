@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Uso de Javascript.md",
-                "mode": "preview",
+                "file": "Javascript/Procesamiento Asincrónico en JavaScript.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Uso de Javascript"
+              "title": "Procesamiento Asincrónico en JavaScript"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Uso de Javascript.md",
+                "file": "Javascript/Procesamiento Asincrónico en JavaScript.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Javascript/Uso de Javascript.md",
+                "file": "Javascript/Procesamiento Asincrónico en JavaScript.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,11 +367,11 @@
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
     "Javascript/JavaScript.md",
+    "Javascript/Ejecución... propiedades `async` y `defer`.md",
+    "Javascript/Ejecución... script al final de body vs. defer.md",
+    "Javascript/Dónde y cómo incorporar Javascript.md",
     "Javascript/Procesamiento Asincrónico en JavaScript.md",
-    "Javascript/Uso de Javascript.md",
-    "Javascript/Script al final de body vs. defer.md",
     "Javascript/Promesas y Async Await.md",
-    "Javascript/Propiedades `async` y `defer`.md",
     "Javascript/Node.js.md",
     "Javascript/Event Loop y Callbacks.md",
     "Javascript/Llamadas HTTP Fetch y Axios.md",
@@ -392,7 +392,6 @@
     "Redes/HTTP (HyperText Transfer Protocol).md",
     "Backend/Digest Authentication.md",
     "Backend/CORS.md",
-    "Redes/DNS (Domain Name System).md",
     "Z_Imágenes/Pasted image 20260915224623.png",
     "Z_Imágenes/Pasted image 20260913191929.png",
     "Z_Imágenes/Pasted image 20260913185456.png",

@@ -58,8 +58,11 @@ El resultado final depende de:
 ---
 
 - [[DOM (Document Object Model)]]
-- [[Uso de JavaScript]]
-- [[Propiedades `async` y `defer`]]
+
+- [[Dónde y cómo incorporar Javascript]]
+- [[Ejecución... propiedades `async` y `defer`]]
+- [[Ejecución... script al final de body vs. defer]]
+
 - [[Procesamiento Asincrónico en JavaScript]]
 - [[React]]
 - [[Vue]]
