@@ -2,11 +2,11 @@ Las propiedades `async` y `defer` son atributos del elemento `<script>` que modi
 
 Ambos ayudan a mejorar el rendimiento de carga de la página, pero funcionan de manera diferente.
 
-|  Descarga  |    Ejecución    |                                Uso típico                                 |                                              Casos de Uso                                              |
+|   Script   |      Carga      |                             Ejecución del JS                              |                                              Casos de Uso                                              |
 | :--------: | :-------------: | :-----------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
 | **normal** | bloquea el HTML |                              inmediatamente                               | casos donde querés **ejecución inmediata**; <br>suele evitarse para el JS principal si no es necesario |
 | **defer**  |   en paralelo   |  cuando termina de procesarse el HTML, <br>**cuando el DOM está listo**   |                                **JS que necesita trabajar con el DOM**                                 |
-| **async**  |   en paralelo   | apenas termina la descarga del JS, <br>**aunque el DOM no esté completo** |                 scripts **independientes** que no dependen del DOM ni de otros scripts                 |
+| **async**  |   en paralelo   | apenas termina la descarga del JS, <br>**aunque el DOM no esté completo** |               scripts **independientes** que **no dependen del DOM ni de otros scripts**               |
 
 ---
 
