@@ -1,5 +1,4 @@
 **React** es una **biblioteca de JavaScript** desarrollada originalmente por Facebook (actualmente Meta) para crear **interfaces de usuario**.
-
 Se utiliza principalmente en el **Frontend web** y permite construir interfaces mediante **componentes reutilizables**.
 
 ---
