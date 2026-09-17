@@ -18,7 +18,7 @@ Cuando estas operaciones terminan, JavaScript ejecuta el código correspondiente
 ---
 
 - [[Event Loop y Callbacks]]
-- [[Promesas y Async Await]]
+- [[Promesas]]
 - [[Llamadas HTTP Fetch y Axios]]
 - [[RxJS y Observables en Angular]]
 

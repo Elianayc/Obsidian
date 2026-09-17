@@ -1,5 +1,3 @@
-## Promesas
-
 Las **Promises** son objetos que representan el resultado eventual de una operación asincrónica.
 Permiten trabajar con operaciones potencialmente lentas sin bloquear el hilo principal.
 

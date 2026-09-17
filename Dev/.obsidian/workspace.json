@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Promesas y Async Await.md",
-                "mode": "preview",
+                "file": "Javascript/Promesas.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Promesas y Async Await"
+              "title": "Promesas"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Promesas y Async Await.md",
+                "file": "Javascript/Promesas.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Javascript/Promesas y Async Await.md",
+                "file": "Javascript/Promesas.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -372,7 +372,7 @@
     "Javascript/Cómo se carga y ejecuta un archivo JavaScript.md",
     "Javascript/Dónde y cómo incorporar JavaScript.md",
     "Javascript/Ejecución... script al final de body vs. defer.md",
-    "Javascript/Promesas y Async Await.md",
+    "Javascript/Promesas.md",
     "Javascript/Node.js.md",
     "Javascript/Llamadas HTTP Fetch y Axios.md",
     "Javascript/DOM (Document Object Model).md",
