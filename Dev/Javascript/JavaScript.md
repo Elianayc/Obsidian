@@ -58,11 +58,14 @@ El resultado final depende de:
 ---
 
 - [[DOM (Document Object Model)]]
+
 - [[Dónde y cómo incorporar JavaScript]]
-- [[Carga y Ejecución de un Archivo JavaScript...`async` y `defer`]]
-- [[Procesamiento Asincrónico en JavaScript]]
+- [[Cómo se carga y ejecuta un archivo JavaScript]]
+- [[Cómo JavaScript procesa operaciones asincrónicas]]
+
 - [[React]]
 - [[Vue]]
 - [[Node.js]].
 
 ---
+
