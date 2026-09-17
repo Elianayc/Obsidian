@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Javascript/Procesamiento Asincrónico en JavaScript.md",
+                "file": "Javascript/Dónde y cómo incorporar JavaScript.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Procesamiento Asincrónico en JavaScript"
+              "title": "Dónde y cómo incorporar JavaScript"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Javascript/Procesamiento Asincrónico en JavaScript.md",
+                "file": "Javascript/Dónde y cómo incorporar JavaScript.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Javascript/Procesamiento Asincrónico en JavaScript.md",
+                "file": "Javascript/Dónde y cómo incorporar JavaScript.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,10 +367,10 @@
   "active": "87f4fa3d7e9fda5a",
   "lastOpenFiles": [
     "Javascript/JavaScript.md",
-    "Javascript/Ejecución... propiedades `async` y `defer`.md",
-    "Javascript/Ejecución... script al final de body vs. defer.md",
-    "Javascript/Dónde y cómo incorporar Javascript.md",
+    "Javascript/Dónde y cómo incorporar JavaScript.md",
+    "Javascript/Carga y Ejecución de un Archivo JavaScript... propiedades `async` y `defer`.md",
     "Javascript/Procesamiento Asincrónico en JavaScript.md",
+    "Javascript/Ejecución... script al final de body vs. defer.md",
     "Javascript/Promesas y Async Await.md",
     "Javascript/Node.js.md",
     "Javascript/Event Loop y Callbacks.md",
