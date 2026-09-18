@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Backend/Seguridad de APIs/HTTPS.md",
-                "mode": "source",
+                "file": "Programación/Backend/Seguridad de APIs/Rate Limiting y Throttling.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTPS"
+              "title": "Rate Limiting y Throttling"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/Backend/Seguridad de APIs/HTTPS.md",
+                "file": "Programación/Backend/Seguridad de APIs/Rate Limiting y Throttling.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programación/Backend/Seguridad de APIs/HTTPS.md",
+                "file": "Programación/Backend/Seguridad de APIs/Rate Limiting y Throttling.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,9 +366,9 @@
   },
   "active": "f280a768380c45df",
   "lastOpenFiles": [
-    "Redes/Protocolos.md",
-    "Programación/Backend/Seguridad de APIs/HTTPS.md",
     "Programación/Backend/Seguridad de APIs/Seguridad de APIs REST.md",
+    "Programación/Backend/Seguridad de APIs/HTTPS.md",
+    "Redes/Protocolos.md",
     "Programación/Backend/Conceptos/API REST.md",
     "Programación/Backend/Conceptos/APIs (Interfaces de programación de aplicaciones).md",
     "Programación/Backend/Diseño de API REST/Diseño de APIs REST.md",
