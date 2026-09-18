@@ -1,5 +1,7 @@
 Los **headers HTTP de seguridad** son encabezados que el servidor envía en la respuesta HTTP para indicarle al navegador cómo debe comportarse y agregar una capa de protección.
 
+Los headers de seguridad son configurados por el servidor y enviados en las respuestas HTTP para indicarle al navegador determinadas reglas de seguridad.
+
 |             **Header**              |                                              **Qué hace para proteger**                                              |                                                              **Contra qué protege**                                                               |
 | :---------------------------------: | :------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
 |    <br>`X-Content-Type-Options`     |      <br>Evita que el navegador intente **adivinar o cambiar el tipo de contenido** declarado por el servidor.       |     **MIME sniffing**<br>El navegador intenta interpretar un contenido como otro tipo para procesarlo de una manera diferente a la esperada.      |
