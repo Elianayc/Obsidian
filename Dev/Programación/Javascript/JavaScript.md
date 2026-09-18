@@ -1,4 +1,4 @@
-**JavaScript** es un lenguaje de programación interpretado y orientado a objetos, aunque basado en **prototipos**.
+**JavaScript** es un lenguaje de programación interpretado y orientado a objetos, aunque basado en **[[Prototipos en JavaScript]]**.
 
 Esto significa que conceptos como **encapsulamiento, herencia y polimorfismo** se implementan de un modo diferente al de lenguajes como Java, Python y C#.
 

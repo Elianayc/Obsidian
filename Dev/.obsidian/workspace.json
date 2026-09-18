@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "59e8c2e487880b9a",
+        "id": "7c57ff5e43f49792",
         "type": "tabs",
         "children": [
           {
-            "id": "6a9833d82ed4d80e",
+            "id": "2c64c9abc493435c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Programación Orientada a objetos (POO).md",
-                "mode": "source",
+                "file": "Programación/Abstract Factory.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Programación Orientada a objetos (POO)"
+              "title": "Abstract Factory"
+            }
+          },
+          {
+            "id": "b26b3fc20977c4ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programación/Adapter.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Adapter"
+            }
+          },
+          {
+            "id": "2dc81bbd024060bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programación/Abstract Factory.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Abstract Factory"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -55,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "api path:Backend  ",
+                "query": "patrones de diseño",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -365,8 +394,19 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "6a9833d82ed4d80e",
+  "active": "2dc81bbd024060bd",
   "lastOpenFiles": [
+    "Programación/Agregación.md",
+    "Programación/Adapter.md",
+    "Programación/Abstract Factory.md",
+    "Programación/Patrones de Diseño/Factory Method.md",
+    "Programación/Patrones de Diseño/Patrones Creacionales.md",
+    "Programación/Patrones de Diseño/Patrones de Diseño.md",
+    "Programación/Parámetro.md",
+    "Programación/Javascript/Prototipos en JavaScript.md",
+    "Programación/Patrones de Diseño",
+    "Programación/Javascript/JavaScript.md",
+    "Programación/Programación Orientada a objetos (POO).md",
     "Z_Imágenes/solid.png",
     "Programación/Backend/Diseño de API REST/Arquitectura REST.md",
     "Programación/Backend/Seguridad de APIs/RBAC.md",
@@ -384,19 +424,10 @@
     "Programación/Backend/Diseño de API REST/Versionado de APIs REST.md",
     "Programación/Backend/Diseño de API REST/Representaciones de Recursos.md",
     "Programación/Backend/Diseño de API REST/Recursos y URLs.md",
-    "Programación/Backend/Diseño de API REST/Proxy.md",
-    "Programación/Backend/Diseño de API REST/Idempotencia.md",
-    "Programación/Backend/Diseño de API REST/Gateway.md",
-    "Programación/Backend/Diseño de API REST/Diseño de APIs REST.md",
-    "Programación/Backend/Conceptos/APIs (Interfaces de programación de aplicaciones).md",
-    "Programación/Backend/Conceptos/Backend.md",
-    "Programación/Backend/Conceptos/API REST.md",
     "Programación/Backend/Seguridad de APIs",
     "Programación/Backend/Diseño de API REST",
     "Programación/Backend/Conceptos",
     "Backend/APIs",
-    "Programación/Javascript/Cómo JavaScript procesa operaciones asincrónicas.md",
-    "Programación/Javascript/JavaScript.md",
     "Z_Imágenes/Pasted image 20260915234240.png",
     "Z_Imágenes/Pasted image 20260915224623.png",
     "Z_Imágenes/Pasted image 20260913191929.png",
@@ -407,12 +438,10 @@
     "Z_Imágenes/Pasted image 20260912191616.png",
     "Z_Imágenes/Pasted image 20260912191716.png",
     "Z_Imágenes/Pasted image 20260910113346.png",
-    "Z_Imágenes/Pasted image 20260909151125.png",
     "Programación/Backend",
     "Arquitectura de Sistemas/Metodología de Sistemas",
     "Programación/Frameworks",
     "Programación/Javascript",
-    "Programación/Typescript",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]
