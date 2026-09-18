@@ -5,8 +5,7 @@ Permite que distintos sistemas se comuniquen mediante HTTP y accedan a recursos 
 
 - [[Arquitectura REST]]
 - [[Diseño de APIs REST]]
-- [[Versionado de APIs REST]]
-- [[Seguridad de APIs]]
+- [[Seguridad de APIs REST]]
 
 ---
 

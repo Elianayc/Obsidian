@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Backend/Diseño de API REST/Versionado de APIs REST.md",
+                "file": "Programación/Backend/Seguridad de APIs/HTTPS.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Versionado de APIs REST"
+              "title": "HTTPS"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/Backend/Diseño de API REST/Versionado de APIs REST.md",
+                "file": "Programación/Backend/Seguridad de APIs/HTTPS.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programación/Backend/Diseño de API REST/Versionado de APIs REST.md",
+                "file": "Programación/Backend/Seguridad de APIs/HTTPS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,18 +366,19 @@
   },
   "active": "f280a768380c45df",
   "lastOpenFiles": [
+    "Programación/Backend/Seguridad de APIs/Seguridad de APIs REST.md",
+    "Programación/Backend/Conceptos/API REST.md",
+    "Programación/Backend/Conceptos/APIs (Interfaces de programación de aplicaciones).md",
     "Programación/Backend/Diseño de API REST/Diseño de APIs REST.md",
+    "Programación/Backend/Diseño de API REST/Versionado de APIs REST.md",
+    "Redes/HTTP (HyperText Transfer Protocol).md",
     "Programación/Backend/Diseño de API REST/Recursos y URLs.md",
     "Programación/Backend/Diseño de API REST/Idempotencia.md",
-    "Redes/HTTP (HyperText Transfer Protocol).md",
     "HTTP.md",
-    "Programación/Backend/Conceptos/APIs (Interfaces de programación de aplicaciones).md",
     "Programación/Backend/Seguridad de APIs/Autenticación y Autorización.md",
-    "Programación/Backend/Diseño de API REST/Versionado de APIs REST.md",
     "Programación/Backend/Conceptos/Gateway.md",
     "Programación/Backend/Conceptos/Backend.md",
     "Programación/Backend/Conceptos/Arquitectura REST.md",
-    "Programación/Backend/Conceptos/API REST.md",
     "Programación/Backend/Diseño de API REST/Representaciones de Recursos.md",
     "Programación/HTML/Desarrollo Web.md",
     "Redes/FTP (File Transfer Protocol).md",
@@ -391,7 +392,6 @@
     "Arquitectura de Sistemas/Patrones Arquitecturales.md",
     "Arquitectura de Sistemas/Paquetes.md",
     "Arquitectura de Sistemas/Modelo frontend y backend.md",
-    "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
     "Programación/Python",
     "Programación/C Sharp",
     "Programación/C",

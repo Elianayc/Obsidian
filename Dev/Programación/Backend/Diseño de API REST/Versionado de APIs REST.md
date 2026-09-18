@@ -52,6 +52,8 @@ Una estructura posible:
 3. Comunicar con anticipación la **deprecación** de una versión.
 4. Documentar claramente los cambios entre versiones.
 
+> **Deprecación**: significa que una versión **sigue existiendo y puede seguir funcionando, pero se anuncia que dejará de estar soportada o recomendada en el futuro**.
+
 ---
 
 ### 2. Versionado mediante parámetros enviados en el request

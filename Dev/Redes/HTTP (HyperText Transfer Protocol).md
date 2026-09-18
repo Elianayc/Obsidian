@@ -109,6 +109,8 @@ Estos métodos se relacionan con las operaciones básicas de **CRUD**:
 | `PATCH`  | Update | Modificar | Modificar parcialmente un recurso  |
 | `DELETE` | Delete | Eliminar  |        Eliminar un recurso         |
 
+---
+
 ### Ejemplos
 
 ```http
@@ -146,8 +148,6 @@ DELETE /api/products/123
 ```
 
 Elimina el producto 123.
-
-Ver [[Idempotencia]].
 
 ---
 
