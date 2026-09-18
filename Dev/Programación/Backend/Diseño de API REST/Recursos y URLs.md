@@ -1,4 +1,3 @@
-
 En una API REST, las URLs identifican **recursos y entidades**, no acciones.
 
 ---
