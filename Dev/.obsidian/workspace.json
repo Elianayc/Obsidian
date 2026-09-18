@@ -55,8 +55,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "patrones de diseño",
-                "matchingCase": true,
+                "query": "protocolo",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -364,8 +364,10 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "f280a768380c45df",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
+    "Redes/Protocolos.md",
+    "Programación/Backend/Seguridad de APIs/HTTPS.md",
     "Programación/Backend/Seguridad de APIs/Seguridad de APIs REST.md",
     "Programación/Backend/Conceptos/API REST.md",
     "Programación/Backend/Conceptos/APIs (Interfaces de programación de aplicaciones).md",
@@ -390,8 +392,6 @@
     "Arquitectura de Sistemas/Tipos de Servidores.md",
     "Arquitectura de Sistemas/Servidor Web.md",
     "Arquitectura de Sistemas/Patrones Arquitecturales.md",
-    "Arquitectura de Sistemas/Paquetes.md",
-    "Arquitectura de Sistemas/Modelo frontend y backend.md",
     "Programación/Python",
     "Programación/C Sharp",
     "Programación/C",
