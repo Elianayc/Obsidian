@@ -48,8 +48,5 @@ La autorización suele basarse en **roles o permisos**.
 | **Autenticación** |    ¿Quién sos?    | Identificar al usuario o cliente. |
 | **Autorización**  | ¿Qué podés hacer? |      Verificar sus permisos.      |
 
-**Autenticación → identifica.**
-**Autorización → determina qué puede hacer.**
-
 ---
 

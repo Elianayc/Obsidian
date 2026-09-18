@@ -12,7 +12,7 @@ La seguridad de una API requiere aplicar diferentes mecanismos de protección de
 - [[Headers de Seguridad]]
 - [[CORS]]
 - [[Autenticación y Autorización]]
-- [[RBAC]]
+- [[RBAC (Role-Based Access Control)]]
 
 - [[Checkilst de Seguridad para APIs]]
 
