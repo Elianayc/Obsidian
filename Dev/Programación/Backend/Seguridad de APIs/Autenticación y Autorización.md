@@ -18,7 +18,7 @@ Los principales métodos son:
 
 - **[[Basic Authentication]]** → envía usuario y contraseña en cada solicitud, codificados en Base64.
 - **[[Digest Authentication]]** → utiliza un mecanismo de desafío-respuesta para evitar enviar directamente la contraseña.
-- **[[JWT]]** → utiliza un token firmado que el cliente envía en las solicitudes posteriores.
+- **[[JWT (JSON Web Token)]]** → utiliza un token firmado que el cliente envía en las solicitudes posteriores.
     
 > **Importante:** Base64 es una **codificación**, no un mecanismo de cifrado. Por eso Basic Authentication debe utilizarse junto con **HTTPS**.
 

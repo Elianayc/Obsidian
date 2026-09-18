@@ -2,7 +2,7 @@
 
 Permite transmitir información de forma **compacta y autónoma** entre partes mediante un objeto JSON.
 
-Es especialmente utilizado para implementar autenticación en APIs REST.
+Es especialmente utilizado para implementar **autenticación** en APIs REST.
 
 ---
 
@@ -37,11 +37,13 @@ Por ejemplo:
 }
 ```
 
+También puede incluir `exp`, que indica el **vencimiento del token**.
+
 #### 3. Signature
 
 Es la firma utilizada para verificar que el token **no haya sido manipulado**.
 
-> El payload está codificado en Base64URL, pero **no está cifrado por defecto**. Su contenido puede ser leído por quien tenga el token.
+> El payload está codificado en **Base64URL**, pero **no está cifrado por defecto**. Su contenido puede ser leído por quien tenga el token.
 
 ---
 
@@ -63,40 +65,56 @@ El flujo básico es:
     
 7. El servidor verifica el token.
     
-8. Si es válido, permite acceder al recurso protegido.
+8. Si es válido, identifica al usuario y permite acceder al recurso protegido.
     
+
+El JWT se envía normalmente mediante el header HTTP `Authorization` utilizando el esquema **Bearer**:
+
+```http
+Authorization: Bearer <JWT>
+```
+
+> **Bearer** es el esquema utilizado para enviar el token. El token es el **JWT**.
+
+---
+
+### Vencimiento y autenticación
+
+El JWT puede contener la claim `exp`, que indica cuándo deja de ser válido.
+
+Si el cliente intenta utilizar un token **vencido o inválido**, la API responde normalmente:
+
+```text
+401 Unauthorized
+```
+
+Si el usuario está autenticado correctamente pero **no tiene permiso** para realizar una operación:
+
+```text
+403 Forbidden
+```
+
+> **401 → problema de autenticación.**  
+> **403 → problema de autorización.**
+
 ---
 
 ### Generación del token
 
+El servidor puede generar un JWT incluyendo información del usuario y un tiempo de vencimiento:
+
 ```js
-const SECRET_KEY = 'clave_secreta_muy_segura';
-
-app.post('/login', (req, res) => {
-  const { usuario, contraseña } = req.body;
-
-  if (usuario === 'usuario' && contraseña === 'contraseña') {
-
-    const token = jwt.sign(
-      {
-        id: 1,
-        usuario,
-        rol: 'usuario'
-      },
-      SECRET_KEY,
-      {
-        expiresIn: '1h'
-      }
-    );
-
-    res.json({ token });
-
-  } else {
-    res.status(401).json({
-      mensaje: 'Credenciales incorrectas'
-    });
+const token = jwt.sign(
+  {
+    id: 1,
+    usuario: 'usuario',
+    rol: 'usuario'
+  },
+  SECRET_KEY,
+  {
+    expiresIn: '1h'
   }
-});
+);
 ```
 
 En producción, la clave secreta debe almacenarse mediante **variables de entorno**, no directamente en el código.
@@ -121,7 +139,6 @@ function verificarToken(req, res, next) {
   const token = authHeader.split(' ')[1];
 
   try {
-
     const decoded = jwt.verify(token, SECRET_KEY);
 
     req.usuario = decoded;
@@ -137,69 +154,32 @@ function verificarToken(req, res, next) {
 }
 ```
 
-Una ruta protegida puede utilizar este middleware:
-
-```js
-app.get('/recursos', verificarToken, (req, res) => {
-
-  res.json({
-    mensaje: 'Acceso autorizado',
-    usuario: req.usuario
-  });
-
-});
-```
-
-##### Cliente
-
-Para iniciar sesión:
-
-```js
-fetch('https://api.ejemplo.com/login', {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json'
-  },
-  body: JSON.stringify({
-    usuario: 'usuario',
-    contraseña: 'contraseña'
-  })
-})
-  .then(response => response.json())
-  .then(data => {
-    localStorage.setItem('token', data.token);
-  });
-```
-
-Luego, para acceder a un recurso protegido:
-
-```js
-fetch('https://api.ejemplo.com/recursos', {
-  headers: {
-    'Authorization': `Bearer ${localStorage.getItem('token')}`
-  }
-})
-  .then(response => response.json())
-  .then(data => console.log(data));
-```
+El middleware verifica que exista el token, que tenga el formato esperado y que sea válido.
 
 ---
 
 #### Ventajas
 
 - **Stateless:** el servidor no necesita mantener sesiones.
+    
 - **Escalable:** resulta adecuado para arquitecturas distribuidas.
+    
 - **Firmado:** permite verificar que el token no haya sido manipulado.
+    
 - **Flexible:** el payload puede contener distintas claims.
+    
 - Adecuado para aplicaciones **SPA y móviles**.
     
 
 #### Desventajas
 
 - Los tokens pueden ser más grandes que las cookies.
+    
 - El payload es visible porque está codificado, no cifrado.
+    
 - La revocación requiere mecanismos adicionales.
+    
 - Si se compromete el secreto de firma, los tokens que dependan de ese secreto quedan comprometidos.
+    
 
 ---
-
