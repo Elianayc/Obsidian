@@ -123,8 +123,6 @@ Por ejemplo:
 
 El contador se reinicia al comenzar cada período.
 
-**Idea clave:** períodos fijos + contador.
-
 ---
 
 ### Sliding Window
@@ -135,22 +133,19 @@ Por ejemplo, con un límite de 100 requests cada 15 minutos, el sistema analiza 
 
 ```text
 10:00 ───────────────── 10:15
-        ventana
+               ventana
 
 10:01 ───────────────── 10:16
-         ventana desplazada
+          ventana desplazada
 ```
 
 Esto permite un control más preciso de las solicitudes a lo largo del tiempo.
-
-**Idea clave:** la ventana se desplaza con el tiempo.
 
 ---
 
 ### Token Bucket
 
 Utiliza un sistema de **tokens que se van reponiendo gradualmente**.
-
 Cada solicitud consume un token.
 
 Por ejemplo, si tenemos 5 tokens:
@@ -177,20 +172,17 @@ Si no quedan tokens disponibles, una solicitud puede **esperar o ser rechazada**
 
 Esto permite soportar pequeños picos de solicitudes mientras existan tokens disponibles, pero limita el tráfico sostenido.
 
-**Idea clave:** tokens que se consumen y se reponen.
-
 ---
 
 ## Resumen
 
-|Concepto|¿Qué controla?|Ejemplo|
-|---|---|---|
-|**Rate Limiting**|Cantidad de solicitudes|100 requests cada 15 minutos|
-|**Throttling**|Velocidad de las solicitudes|5 requests por segundo|
-|**Fixed Window**|Solicitudes dentro de períodos fijos|100 cada 15 minutos|
-|**Sliding Window**|Solicitudes dentro de una ventana móvil|Últimos 15 minutos|
-|**Token Bucket**|Solicitudes según tokens disponibles|5 tokens que se reponen gradualmente|
+|      Concepto      |             ¿Qué controla?              |               Ejemplo                |
+| :----------------: | :-------------------------------------: | :----------------------------------: |
+| **Rate Limiting**  |         Cantidad de solicitudes         |     100 requests cada 15 minutos     |
+|   **Throttling**   |      Velocidad de las solicitudes       |        5 requests por segundo        |
+|  **Fixed Window**  |  Solicitudes dentro de períodos fijos   |         100 cada 15 minutos          |
+| **Sliding Window** | Solicitudes dentro de una ventana móvil |          Últimos 15 minutos          |
+|  **Token Bucket**  |  Solicitudes según tokens disponibles   | 5 tokens que se reponen gradualmente |
 
-### Idea clave
+---
 
-> **Rate Limiting limita la cantidad de solicitudes; Throttling controla la velocidad a la que se permiten o procesan.**
