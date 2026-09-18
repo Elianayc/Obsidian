@@ -197,22 +197,3 @@ Es una inyección dirigida a bases de datos NoSQL.
 Una medida de protección es realizar una **validación estricta de los tipos y estructuras de los datos recibidos**, además de utilizar consultas seguras.
 
 ---
-
-## Idea clave
-
-La API **no debe confiar en los datos que recibe del cliente**.
-
-Antes de procesarlos debe comprobar que:
-
-- tienen la estructura esperada;
-    
-- tienen el tipo correcto;
-    
-- cumplen los formatos requeridos;
-    
-- están dentro de los valores permitidos;
-    
-- y, cuando corresponde, fueron sanitizados.
-    
-
-**Express** facilita recibir y procesar los requests de la API, mientras que **Joi** puede utilizarse para validar los datos recibidos.

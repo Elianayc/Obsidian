@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Backend/Seguridad de APIs/Validación de Inputs.md",
+                "file": "Programación/Backend/Seguridad de APIs/Headers de Seguridad.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Validación de Inputs"
+              "title": "Headers de Seguridad"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/Backend/Seguridad de APIs/Validación de Inputs.md",
+                "file": "Programación/Backend/Seguridad de APIs/Headers de Seguridad.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programación/Backend/Seguridad de APIs/Validación de Inputs.md",
+                "file": "Programación/Backend/Seguridad de APIs/Headers de Seguridad.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -366,6 +366,10 @@
   },
   "active": "f280a768380c45df",
   "lastOpenFiles": [
+    "Programación/Backend/Seguridad de APIs/Seguridad de APIs REST.md",
+    "Bases de Datos/Hash Join.md",
+    "Bases de Datos/FROM.md",
+    "Programación/Backend/Seguridad de APIs/Validación de Inputs.md",
     "Z_Excalidraw/switch.md",
     "Z_Excalidraw/for.md",
     "Z_Excalidraw/diagramadeclases.md",
@@ -374,12 +378,8 @@
     "Bases de Datos/Nested Loop.md",
     "Bases de Datos/Merge Join.md",
     "Bases de Datos/Join Methods.md",
-    "Programación/Backend/Seguridad de APIs/Validación de Inputs.md",
-    "Bases de Datos/FROM.md",
-    "Bases de Datos/Hash Join.md",
     "Bases de Datos/JOIN.md",
     "Bases de Datos/Optimización de Consultas.md",
-    "Programación/Backend/Seguridad de APIs/Seguridad de APIs REST.md",
     "Programación/Backend/Seguridad de APIs/Rate Limiting y Throttling.md",
     "Programación/Backend/Seguridad de APIs/HTTPS.md",
     "Redes/Protocolos.md",
