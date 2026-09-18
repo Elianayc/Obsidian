@@ -9,7 +9,7 @@ Tanto las peticiones como las respuestas utilizan una estructura similar basada 
 - **[[URI (Uniform Resource Identifier)]]:** indica el recurso solicitado.
 - **[[Header]] (encabezado):** contiene información adicional sobre el cliente, el recurso y la comunicación.
 - **[[Method]] (método o verbo):** indica la acción que se desea realizar.
-- **[[Body]] (cuerpo):** contiene datos enviados al servidor.
+- **[[Body en Peticiones HTTP]] (cuerpo):** contiene datos enviados al servidor.
 - **[[Parameters]] (parámetros):** información adicional enviada generalmente mediante la URL.
 - **[[State]] (estado):** información relacionada con el estado de la comunicación.
 

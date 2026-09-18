@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7c57ff5e43f49792",
+        "id": "aa379249fb2a4802",
         "type": "tabs",
         "children": [
           {
-            "id": "2dc81bbd024060bd",
+            "id": "f280a768380c45df",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Contadores y Acumuladores.md",
-                "mode": "source",
+                "file": "Programación/Backend/Diseño de API REST/Diseño de APIs REST.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Contadores y Acumuladores"
+              "title": "Diseño de APIs REST"
             }
           }
         ]
@@ -40,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/Contadores y Acumuladores.md",
+                "file": "Programación/Backend/Diseño de API REST/Diseño de APIs REST.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programación/Contadores y Acumuladores.md",
+                "file": "Programación/Backend/Diseño de API REST/Diseño de APIs REST.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -364,35 +364,38 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "2dc81bbd024060bd",
+  "active": "f280a768380c45df",
   "lastOpenFiles": [
-    "Programación/Constructor.md",
-    "Programación/Contadores y Acumuladores.md",
-    "Programación/Control de flujo.md",
-    "Programación/Fundamentos de Programación/Constante.md",
-    "Programación/Fundamentos de Programación/Comunicación entre módulos.md",
-    "Programación/Estructuras de Datos/List.md",
-    "Programación/Estructuras de Datos/Map.md",
+    "Programación/Backend/Diseño de API REST/Arquitectura REST.md",
+    "Programación/HTML/Desarrollo Web.md",
+    "Programación/Backend/Diseño de API REST/Diseño de APIs REST.md",
+    "Programación/Backend/Conceptos/API REST.md",
+    "Programación/Backend/Conceptos/APIs (Interfaces de programación de aplicaciones).md",
+    "Programación/Backend/Conceptos/Backend.md",
+    "Redes/FTP (File Transfer Protocol).md",
+    "Redes/Estructura de una petición HTTP.md",
+    "Redes/DNS (Domain Name System).md",
+    "Redes/Cookies.md",
+    "Redes/Ciclo de vida de una petición web.md",
+    "Redes/Body en Peticiones HTTP.md",
+    "Arquitectura de Sistemas/Tipos de Servidores.md",
+    "Arquitectura de Sistemas/Servidor Web.md",
+    "Arquitectura de Sistemas/Patrones Arquitecturales.md",
+    "Arquitectura de Sistemas/Paquetes.md",
+    "Arquitectura de Sistemas/Modelo frontend y backend.md",
+    "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
+    "Arquitectura de Sistemas/Internet de las Cosas (IoT).md",
+    "Arquitectura de Sistemas/Funcionamiento de un Servidor Web.md",
+    "Arquitectura de Sistemas/Arquitectura Monolítica.md",
+    "Arquitectura de Sistemas/Arquitectura en Capas.md",
+    "Arquitectura de Sistemas/Arquitectura de Sistemas.md",
+    "Arquitectura de Sistemas/Arquitectura de Microservicios.md",
+    "Programación/Frameworks/Desarrollo de Aplicaciones Móviles.md",
+    "Programación/Frameworks/puntoNET.md",
+    "Programación/Python",
+    "Programación/C Sharp",
+    "Programación/C",
     "Programación/Estructuras de Datos",
-    "Programación/Modularidad.md",
-    "Programación/POO/Composición.md",
-    "Programación/Estructuras de Datos/Colecciones.md",
-    "Programación/POO/Clase.md",
-    "Programación/POO/Clase Abstracta.md",
-    "Programación/Fundamentos de Programación/Char.md",
-    "Programación/Fundamentos de Programación/C.md",
-    "Programación/Fundamentos de Programación/C++.md",
-    "Programación/Fundamentos de Programación/C Sharp.md",
-    "Programación/Fundamentos de Programación/Búsquedas.md",
-    "Programación/Fundamentos de Programación/Búsqueda Secuencial.md",
-    "Programación/Fundamentos de Programación/Búsqueda Binaria.md",
-    "Programación/Fundamentos de Programación/Burbujeo.md",
-    "Programación/Fundamentos de Programación/Burbujeo Mejorado.md",
-    "Programación/Fundamentos de Programación/Bool.md",
-    "Programación/Fundamentos de Programación/Bajo nivel.md",
-    "Programación/Fundamentos de Programación/Assembly.md",
-    "Programación/Fundamentos de Programación/ArrayList.md",
-    "Programación/Fundamentos de Programación/Argumento.md",
     "Programación/Fundamentos de Programación",
     "Programación/POO",
     "Programación/SOLID",
@@ -400,13 +403,10 @@
     "Z_Imágenes/solid.png",
     "Programación/Backend/Seguridad de APIs",
     "Programación/Backend/Diseño de API REST",
-    "Programación/Backend/Conceptos",
-    "Backend/APIs",
     "Z_Imágenes/Pasted image 20260915234240.png",
     "Z_Imágenes/Pasted image 20260915224623.png",
     "Z_Imágenes/Pasted image 20260913191929.png",
     "Z_Imágenes/Pasted image 20260913185456.png",
-    "Sin título.base",
     "Z_Imágenes/Pasted image 20260913183701.png",
     "Pasted image 20260913185119.png",
     "Z_Imágenes/Pasted image 20260912191616.png",

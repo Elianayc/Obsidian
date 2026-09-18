@@ -7,6 +7,6 @@ tags:
 - [[Entrada - Salida]]
 - [[Cálculo]]
 - [[Estructuras de control]]
-- [[Estructuras de Repetición]]
+- [[Estructuras de repetición]]
 
 #Programación
