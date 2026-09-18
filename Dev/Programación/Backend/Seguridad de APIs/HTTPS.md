@@ -51,7 +51,6 @@ Para utilizar HTTPS, el servidor necesita principalmente:
 1. Un **certificado digital** para el dominio.
 2. Una **clave privada** asociada a ese certificado.
 3. Configurar el servidor para utilizar TLS.
-    
 
 **Conceptualmente**:
 
@@ -65,24 +64,73 @@ Certificado + Clave privada
          Cliente
 ```
 
+
+> [!ACLARACIÓN]
+> Certificado y clave privada son cosas distintas, pero están relacionadas.
+> 
+> ```
+> CERTIFICADO
+> → contiene información del dominio + clave pública
+> 
+> CLAVE PRIVADA
+> → pertenece al servidor y debe mantenerse secreta
+> ```
+> 
+> Ambas se utilizan juntas durante TLS.
+> 
+> ### Entonces, ¿por qué aparecen las dos?
+> 
+> Porque TLS utiliza un par de claves:
+> 
+> ```
+> Clave pública  → puede compartirse
+> Clave privada  → debe mantenerse secreta
+> ```
+> 
+> El certificado contiene la **clave pública** y la identidad del dominio.
+> 
+> La **clave privada** queda guardada en el servidor.
+> 
+> No es:
+> 
+> > certificado + contraseña para acceder al certificado
+> 
+> Es:
+> 
+> > **certificado que identifica al dominio + clave privada que posee el servidor**
+> 
+> 
+
+
 Por ejemplo, en Node.js se puede crear un servidor HTTPS indicando el certificado y la clave privada:
 
 ```js
 const https = require('https');
+const fs = require('fs'); 
 
 const options = {
-  key: clavePrivada,
-  cert: certificado
+  key: fs.readFileSync('private-key.pem'),      // Lee la clave privada
+  cert: fs.readFileSync('certificate.pem')      // Lee el certificado
 };
 
-https.createServer(options, servidor).listen(443);
+https.createServer(options, app).listen(443, () => {
+  console.log('Servidor HTTPS ejecutándose en el puerto 443');
+});
 ```
 
-- `https` permite crear servidores HTTPS.
-- `key` contiene la clave privada.
-- `cert` contiene el certificado digital.
-- `443` es el puerto estándar utilizado por HTTPS.
-- `servidor` representa la aplicación que atenderá las solicitudes.
+- `https` → permite crear un servidor HTTPS.
+- `fs` → permite trabajar con archivos.
+
+- `options` → reúne la clave y el certificado.
+- `key` → contiene la **clave privada** del servidor.
+- `cert` → contiene el **certificado digital** del dominio.
+- `readFileSync()` → lee el archivo.
+
+- `https.createServer()` → crea el servidor HTTPS usando esa configuración.
+- `app` → aplicación que atenderá las solicitudes.
+- `listen(443)` → hace que el servidor escuche en el **puerto 443**, estándar de HTTPS.
+
+- `=>` → función flecha que se ejecuta cuando el servidor empieza a escuchar.
 
 > La lectura de los archivos que contienen el certificado y la clave privada (`fs.readFileSync`) corresponde a conceptos de manejo de archivos de Node.js y puede estudiarse por separado.
 
