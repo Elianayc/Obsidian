@@ -11,14 +11,10 @@ En REST, todo gira alrededor de **recursos**, que representan entidades o concep
 ##### Características:
 
 - **Identificación única:** cada recurso debe identificarse mediante una URL específica.
-    
 - **Sustantivos, no verbos:** las URLs representan entidades, no acciones.
-    
 - **Jerarquía lógica:** las relaciones padre-hijo pueden reflejarse en la estructura de la URL.
-    
 - **Colecciones e instancias:** se diferencia entre una colección de recursos y un recurso individual.
-    
-
+   
 ##### Ejemplo:
 
 ```text
@@ -83,16 +79,36 @@ Esto proporciona una experiencia **predecible y estándar** para los consumidore
     
 ---
 
-### Representaciones múltiples
+### Representaciones de Recursos
 
-Un mismo recurso puede tener diferentes **representaciones** según las necesidades del cliente.
+Una **representación** es la forma en que un recurso se presenta o transmite al cliente.
+Un mismo recurso puede tener diferentes representaciones según las necesidades del cliente.
 
-Las más habituales son:
+Las más comunes son:
 
 - **JSON**
 - **XML**
-    
-Ver [[Representaciones de Recursos]].
+
+##### Ejemplo JSON
+
+```json
+{
+  "id": 123,
+  "nombre": "Juan"
+}
+```
+
+##### Ejemplo XML
+
+```xml
+<usuario>
+  <id>123</id>
+  <nombre>Juan</nombre>
+</usuario>
+```
+
+En ambos casos se representa el **mismo recurso**, aunque cambia el formato utilizado para transmitirlo.
 
 ---
+
 
