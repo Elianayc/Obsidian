@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Programación/Programación Orientada a objetos (POO).md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 351.5,
-    "collapsed": true
+    "width": 351.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
