@@ -131,7 +131,7 @@ Por lo tanto, repetir el mismo `POST` puede producir un efecto adicional cada ve
 
 `PATCH` permite **modificar parcialmente un recurso**.
 
-A diferencia de `PUT`, la idempotencia de `PATCH depende de la operación concreta que se realice**.
+A diferencia de `PUT`, la idempotencia de `PATCH` **depende de la operación concreta que se realice**.
 
 #### PATCH idempotente
 
@@ -202,16 +202,19 @@ En este caso, el `PATCH` no es idempotente.
 
 ## Resumen
 
-|Método|¿Idempotente?|Motivo|
-|---|---|---|
-|`GET`|Sí|Obtener un recurso no modifica su estado.|
-|`PUT`|Sí|Repetir el mismo reemplazo deja el mismo estado final.|
-|`DELETE`|Sí|Una vez eliminado, repetir la eliminación no cambia el estado final.|
-|`POST`|No|Repetirlo puede crear nuevos recursos.|
-|`PATCH`|Depende|Puede establecer un valor o realizar una operación acumulativa.|
+|  Método  | ¿Idempotente? |                                Motivo                                |
+| :------: | :-----------: | :------------------------------------------------------------------: |
+|  `GET`   |      Sí       |              Obtener un recurso no modifica su estado.               |
+|  `PUT`   |      Sí       |        Repetir el mismo reemplazo deja el mismo estado final.        |
+| `DELETE` |      Sí       | Una vez eliminado, repetir la eliminación no cambia el estado final. |
+|  `POST`  |      No       |                Repetirlo puede crear nuevos recursos.                |
+| `PATCH`  |    Depende    |   Puede establecer un valor o realizar una operación acumulativa.    |
 
 ### Idea clave
 
 > **Idempotencia = repetir la misma operación no continúa cambiando el estado final del recurso.**
 
 No significa que el request tenga que devolver exactamente la misma respuesta ni que el recurso nunca pueda cambiar por otras acciones externas.
+
+---
+
