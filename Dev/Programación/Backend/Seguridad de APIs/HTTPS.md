@@ -152,7 +152,6 @@ HTTPS → utilizar
 ## Versiones de TLS
 
 TLS tiene diferentes versiones. Las versiones antiguas fueron quedando obsoletas por problemas de seguridad.
-
 Por eso se recomienda utilizar **TLS 1.2 o superior**, como TLS 1.3.
 
 ---
