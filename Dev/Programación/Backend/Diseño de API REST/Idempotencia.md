@@ -2,6 +2,24 @@ Una operación es **idempotente** cuando ejecutarla varias veces con los mismos 
 
 > **Importante:** idempotencia no significa que siempre se devuelvan exactamente los mismos datos. Significa que repetir la operación no continúa modificando el estado del recurso.
 
+- **Recurso** → la entidad que la API expone, por ejemplo, un producto.
+- **Estado del recurso** → los datos que describen cómo está ese producto en un momento determinado.
+
+Ejemplo:
+
+```json
+{
+  "id": 123,
+  "nombre": "Mouse",
+  "precio": 100,
+  "stock": 20
+}
+```
+
+Eso es una **representación del recurso** `producto 123`, y esos datos describen su **estado actual**.
+
+> **Recurso = entidad que manejo. Estado del recurso = cómo están sus datos en ese momento.**
+
 ---
 
 ## Métodos idempotentes

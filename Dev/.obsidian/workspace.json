@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Backend/Diseño de API REST/Idempotencia.md",
+                "file": "Programación/Backend/Diseño de API REST/Versionado de APIs REST.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Idempotencia"
+              "title": "Versionado de APIs REST"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/Backend/Diseño de API REST/Idempotencia.md",
+                "file": "Programación/Backend/Diseño de API REST/Versionado de APIs REST.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programación/Backend/Diseño de API REST/Idempotencia.md",
+                "file": "Programación/Backend/Diseño de API REST/Versionado de APIs REST.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,13 +367,13 @@
   "active": "f280a768380c45df",
   "lastOpenFiles": [
     "Programación/Backend/Diseño de API REST/Diseño de APIs REST.md",
-    "Redes/HTTP (HyperText Transfer Protocol).md",
     "Programación/Backend/Diseño de API REST/Recursos y URLs.md",
+    "Programación/Backend/Diseño de API REST/Idempotencia.md",
+    "Redes/HTTP (HyperText Transfer Protocol).md",
     "HTTP.md",
     "Programación/Backend/Conceptos/APIs (Interfaces de programación de aplicaciones).md",
     "Programación/Backend/Seguridad de APIs/Autenticación y Autorización.md",
     "Programación/Backend/Diseño de API REST/Versionado de APIs REST.md",
-    "Programación/Backend/Diseño de API REST/Idempotencia.md",
     "Programación/Backend/Conceptos/Gateway.md",
     "Programación/Backend/Conceptos/Backend.md",
     "Programación/Backend/Conceptos/Arquitectura REST.md",

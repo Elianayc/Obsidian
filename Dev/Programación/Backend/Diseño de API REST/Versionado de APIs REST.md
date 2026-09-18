@@ -1,6 +1,6 @@
 El **versionado** permite evolucionar una API sin romper los clientes existentes, manteniendo la **retrocompatibilidad** mientras se incorporan nuevas características.
 
-La clase presenta dos estrategias principales:
+Existen dos estrategias principales:
 
 1. Versionado mediante la **URL**.
 2. Versionado mediante **parámetros enviados en el request**.
