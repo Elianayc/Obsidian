@@ -12,7 +12,7 @@ La autenticación responde a la pregunta:
 
 Su objetivo es **identificar al usuario o cliente** que intenta acceder a la API y comprobar que se trata de una identidad válida.
 
-Los métodos de autenticación tratados en la clase son:
+Algunos métodos de autenticación:
 
 - [[Basic Authentication]]
 - [[Digest Authentication]]
