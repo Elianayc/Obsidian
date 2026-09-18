@@ -53,7 +53,7 @@ Para utilizar HTTPS, el servidor necesita principalmente:
 3. Configurar el servidor para utilizar TLS.
     
 
-Conceptualmente:
+**Conceptualmente**:
 
 ```text
 Certificado + Clave privada
@@ -62,7 +62,7 @@ Certificado + Clave privada
              ↓
       Puerto 443
              ↓
-           Cliente
+         Cliente
 ```
 
 Por ejemplo, en Node.js se puede crear un servidor HTTPS indicando el certificado y la clave privada:
