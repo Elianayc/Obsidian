@@ -117,10 +117,7 @@ Por eso se recomienda utilizar **TLS 1.2 o superior**, como TLS 1.3.
 - Implementar **HSTS** para reforzar el uso de HTTPS.
 - **Redirigir HTTP a HTTPS** para evitar que los clientes continúen utilizando conexiones no seguras.
 - Mantener los certificados **actualizados y renovados** antes de su vencimiento.
-    
-### Idea clave
-
-> **HTTPS utiliza TLS para proteger la comunicación entre cliente y servidor mediante cifrado, autenticación e integridad.**
 
 ---
+
 
