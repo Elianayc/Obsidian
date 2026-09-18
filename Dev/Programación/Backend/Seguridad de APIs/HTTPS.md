@@ -59,7 +59,7 @@ Certificado + Clave privada
              ↓
        Servidor HTTPS
              ↓
-      Puerto 443
+       Puerto 443
              ↓
          Cliente
 ```
@@ -78,7 +78,7 @@ Certificado + Clave privada
 > 
 > Ambas se utilizan juntas durante TLS.
 > 
-> ### Entonces, ¿por qué aparecen las dos?
+> ##### Entonces, ¿por qué aparecen las dos en el ejemplo?
 > 
 > Porque TLS utiliza un par de claves:
 > 
