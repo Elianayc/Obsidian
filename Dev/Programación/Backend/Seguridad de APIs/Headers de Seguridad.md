@@ -1,6 +1,8 @@
-Los **headers HTTP de seguridad** son encabezados que el servidor envía en la respuesta HTTP para indicarle al navegador cómo debe comportarse y agregar una capa de protección.
+Los **headers HTTP de seguridad** son encabezados que el servidor envía en la **respuesta HTTP** para indicarle al navegador cómo debe comportarse y agregar una capa de protección.
 
-Los headers de seguridad son configurados por el servidor y enviados en las respuestas HTTP para indicarle al navegador determinadas reglas de seguridad.
+Forman parte de la seguridad de una API porque una **API REST se comunica mediante HTTP** y sus respuestas también pueden incluir estos headers.
+
+Los headers son **configurados en el servidor** y enviados automáticamente en las respuestas correspondientes.
 
 |             **Header**              |                                              **Qué hace para proteger**                                              |                                                              **Contra qué protege**                                                               |
 | :---------------------------------: | :------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: |

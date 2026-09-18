@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Backend/Seguridad de APIs/Headers de Seguridad.md",
-                "mode": "source",
+                "file": "Programación/Backend/Seguridad de APIs/CORS.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Headers de Seguridad"
+              "title": "CORS"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/Backend/Seguridad de APIs/Headers de Seguridad.md",
+                "file": "Programación/Backend/Seguridad de APIs/CORS.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programación/Backend/Seguridad de APIs/Headers de Seguridad.md",
+                "file": "Programación/Backend/Seguridad de APIs/CORS.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -367,6 +367,7 @@
   "active": "f280a768380c45df",
   "lastOpenFiles": [
     "Programación/Backend/Seguridad de APIs/Seguridad de APIs REST.md",
+    "Programación/Backend/Seguridad de APIs/Headers de Seguridad.md",
     "Bases de Datos/Hash Join.md",
     "Bases de Datos/FROM.md",
     "Programación/Backend/Seguridad de APIs/Validación de Inputs.md",
@@ -391,7 +392,6 @@
     "Programación/Backend/Diseño de API REST/Recursos y URLs.md",
     "Programación/Backend/Diseño de API REST/Idempotencia.md",
     "HTTP.md",
-    "Programación/Backend/Seguridad de APIs/Autenticación y Autorización.md",
     "Programación/Python",
     "Programación/C Sharp",
     "Programación/C",
