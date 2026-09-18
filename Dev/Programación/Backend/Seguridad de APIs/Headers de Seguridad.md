@@ -1,114 +1,16 @@
-Los **headers HTTP de seguridad** proporcionan una capa adicional de protección indicando al navegador cómo debe comportarse al procesar determinado contenido.
+Los **headers HTTP de seguridad** son encabezados que el servidor envía para indicarle al navegador **cómo debe comportarse** y agregar una capa de protección.
 
----
-
-## X-Content-Type-Options
-
-Previene ataques de **MIME sniffing**, evitando que el navegador intente interpretar el contenido como un tipo diferente al declarado.
-
-```js
-res.setHeader('X-Content-Type-Options', 'nosniff');
-```
-
----
-
-## X-Frame-Options
-
-Controla si el contenido puede ser cargado dentro de un `iframe`, ayudando a prevenir ataques de **clickjacking**.
-
-```js
-res.setHeader('X-Frame-Options', 'DENY');
-```
-
-También puede utilizarse `SAMEORIGIN`.
-
----
-
-## X-XSS-Protection
-
-Es un mecanismo antiguo relacionado con la protección contra XSS.
-
-Actualmente está **deprecado** y se prioriza el uso de **Content-Security-Policy (CSP)**.
-
-```js
-res.setHeader('X-XSS-Protection', '1; mode=block');
-```
-
----
-
-## Strict-Transport-Security (HSTS)
-
-Fuerza al navegador a utilizar **HTTPS** durante un período determinado.
-
-Ayuda a prevenir ataques de downgrade.
-
-```js
-res.setHeader(
-  'Strict-Transport-Security',
-  'max-age=31536000; includeSubDomains; preload'
-);
-```
-
----
-
-## Content-Security-Policy (CSP)
-
-Define qué tipos de contenido y recursos puede cargar el navegador, ayudando a prevenir la **inyección de código malicioso**.
-
-```js
-res.setHeader(
-  'Content-Security-Policy',
-  "default-src 'none'; frame-ancestors 'none';"
-);
-```
-
----
-
-## Referrer-Policy
-
-Controla qué información del encabezado `Referer` puede enviarse a otros sitios.
-
-```js
-res.setHeader(
-  'Referrer-Policy',
-  'strict-origin-when-cross-origin'
-);
-```
-
----
-
-## Permissions-Policy
-
-Controla qué funcionalidades del navegador pueden utilizarse.
-
-```js
-res.setHeader(
-  'Permissions-Policy',
-  'geolocation=(), microphone=(), camera=()'
-);
-```
-
----
-
-## Ocultar información del servidor
-
-También es recomendable evitar exponer información innecesaria sobre las tecnologías utilizadas.
-
-### X-Powered-By
-
-Puede revelar el framework utilizado, por ejemplo Express.
-
-```js
-res.removeHeader('X-Powered-By');
-```
-
-### Server
-
-Puede revelar información sobre el software utilizado para procesar las solicitudes, como Nginx o Apache.
-
-```js
-res.removeHeader('Server');
-```
+|        **Header**        |                  **Qué hace**                   |         **Protege contra**          |                            **Qué es**                            |                       **Cómo protege**                       |
+| :----------------------: | :---------------------------------------------: | :---------------------------------: | :--------------------------------------------------------------: | :----------------------------------------------------------: |
+| `X-Content-Type-Options` |     Respeta el tipo de contenido declarado.     |          **MIME sniffing**          |  El navegador intenta interpretar el contenido como otro tipo.   |  `nosniff` evita que el navegador intente adivinar el tipo.  |
+|    `X-Frame-Options`     |          Controla el uso de `iframe`.           |          **Clickjacking**           |      El usuario hace clic en algo distinto de lo que cree.       |  Impide o limita que la página sea cargada en un `iframe`.   |
+|    `X-XSS-Protection`    |          Mecanismo antiguo contra XSS.          |               **XSS**               |           Se introduce código malicioso en una página.           |  Podía detectar y bloquear algunos XSS. Está **deprecado**.  |
+|          `HSTS`          |             Fuerza el uso de HTTPS.             |            **Downgrade**            |    Se intenta utilizar una conexión menos segura, como HTTP.     |          El navegador recuerda que debe usar HTTPS.          |
+|          `CSP`           |  Define qué recursos puede cargar o ejecutar.   |    **XSS / inyección de código**    |       Se intenta introducir código o recursos maliciosos.        | El navegador bloquea recursos no permitidos por la política. |
+|    `Referrer-Policy`     | Controla qué información se envía en `Referer`. |    **Exposición de información**    |     Se comparte información innecesaria de la URL anterior.      |   Limita la información que se envía al sitio de destino.    |
+|   `Permissions-Policy`   |     Controla funcionalidades del navegador.     | **Uso indebido de funcionalidades** | Una página intenta usar cámara, micrófono, geolocalización, etc. |     Permite bloquear o restringir esas funcionalidades.      |
+|      `X-Powered-By`      |      Puede revelar el framework utilizado.      |    **Exposición de información**    |         Se muestran tecnologías usadas por el servidor.          |       Se elimina para ocultar información innecesaria.       |
+|         `Server`         |     Puede revelar el software del servidor.     |    **Exposición de información**    |         Se muestra información sobre Nginx, Apache, etc.         |     Se puede ocultar para reducir información expuesta.      |
 
 ---
 
