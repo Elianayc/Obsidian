@@ -1,82 +1,130 @@
-**CORS (Cross-Origin Resource Sharing)** es un mecanismo de seguridad implementado por los navegadores que controla si una página web puede realizar solicitudes hacia recursos pertenecientes a un **origen diferente**.
-
-Un origen está determinado por:
-
-- Protocolo.
-- Dominio.
-- Puerto.
+**CORS (Cross-Origin Resource Sharing)** es un mecanismo de seguridad que permite controlar qué solicitudes realizadas desde un **origen diferente** pueden ser aceptadas por el navegador.
 
 ---
 
-## Same-Origin Policy
+### Origen
 
-Por defecto, los navegadores aplican la **Same-Origin Policy**, que restringe determinadas solicitudes entre orígenes diferentes.
+Un **origen** está determinado por:
 
-**Por ejemplo**:
+- **Protocolo**: `http` o `https`.
+- **Dominio**.
+- **Puerto**.
+
+Por ejemplo:
 
 ```text
 https://api.example.com:443/users
 https://api.example.com:443/products
 ```
 
-pertenecen al mismo origen.
+pertenecen al mismo origen porque tienen el mismo **protocolo, dominio y puerto**.
 
+En cambio:
 
-**Mientras que**:
-
-```
+```text
 https://evil.com/steal-data
 ```
 
-tiene un dominio diferente.
+tiene un **dominio** diferente.
 
+Y:
 
-**Y**:
-
-```
+```text
 http://api.example.com/users
 ```
 
-tiene un protocolo diferente.
+tiene un **protocolo** diferente.
+
+> Si el puerto no se indica, se utiliza el puerto por defecto del protocolo. Por ejemplo, `https` utiliza normalmente el puerto `443`.
 
 ---
 
-## Preflight Request
+### Same-Origin Policy
 
-Para determinadas solicitudes cross-origin, el navegador realiza primero una solicitud **OPTIONS**, denominada **preflight request**.
+Por defecto, los navegadores aplican la **Same-Origin Policy (SOP)**, una política de seguridad que restringe determinadas solicitudes entre orígenes diferentes.
 
+**CORS permite que el servidor indique qué solicitudes cross-origin están permitidas.**
+
+Por ejemplo:
+
+```text
+Frontend
+https://miapp.com
+      ↓
+      ↓ solicitud
+      ↓
+API
+https://api.example.com
+```
+
+Como son orígenes diferentes, interviene CORS.
+
+El servidor puede indicar que permite solicitudes desde `https://miapp.com` mediante headers como:
+
+```http
+Access-Control-Allow-Origin: https://miapp.com
+```
+
+---
+
+### Preflight Request
+
+Para determinadas solicitudes cross-origin, el navegador realiza primero una solicitud HTTP **`OPTIONS`**, denominada **Preflight Request**.
 Su objetivo es consultar al servidor si la solicitud real está permitida.
 
-### Funcionamiento
+#### Funcionamiento
 
 1. El navegador envía una solicitud `OPTIONS`.
-2. El servidor responde indicando qué orígenes, métodos y headers están permitidos.
-3. Si la solicitud está permitida, el navegador realiza la solicitud real.
+2. El servidor responde indicando qué **orígenes, métodos y headers** están permitidos.
+3. Si la respuesta permite la operación, el navegador realiza la solicitud real.
 
-Entre los headers utilizados se encuentran:
+Por ejemplo, el servidor puede responder:
 
+```http
+Access-Control-Allow-Origin: https://miapp.com
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE
+Access-Control-Allow-Headers: Content-Type, Authorization
 ```
-Access-Control-Allow-Origin
-Access-Control-Allow-Methods
-Access-Control-Allow-Headers
-```
 
-### ¿Cuándo se realiza un preflight?
+#### ¿Cuándo se realiza un Preflight?
 
 Generalmente cuando:
 
-- Se utilizan métodos distintos de `GET`, `POST` o `HEAD`.
+- Se utilizan métodos como `PUT`, `DELETE` o `PATCH`.
 - Se utilizan headers no considerados simples, como `Authorization`.
 - Se utiliza `Content-Type: application/json`.
+- Se utilizan otros headers personalizados.
+
+> **Importante:** el Preflight no es un JSON. Es una **solicitud HTTP `OPTIONS` previa** que el navegador utiliza para consultar al servidor.
 
 ---
 
-## Implementación
+### Simple Requests
+
+Son solicitudes **cross-origin** que cumplen determinadas condiciones y **no requieren un preflight**.
+
+Generalmente:
+
+- Métodos: `GET`, `HEAD` o `POST`.
+- Headers considerados simples.
+- `Content-Type`:
+    - `text/plain`
+    - `multipart/form-data`
+    - `application/x-www-form-urlencoded`
+
+Estas solicitudes pueden enviarse directamente.
+
+---
+
+### Implementación
+
+En Express se puede configurar CORS indicando qué orígenes, métodos, headers y credenciales están permitidos.
+
+Para desarrollo:
 
 ```js
 const cors = require('cors');
 
-// Solo recomendado para desarrollo
 app.use(cors());
 ```
 
@@ -101,47 +149,26 @@ const corsOptions = {
 app.use(cors(corsOptions));
 ```
 
----
-
-## Simple Requests
-
-Son solicitudes que cumplen determinadas condiciones y **no requieren preflight**.
-
-- Métodos: `GET`, `HEAD`, `POST`.
-- Headers considerados simples.
-- `Content-Type`:
-    - `text/plain`
-    - `multipart/form-data`
-    - `application/x-www-form-urlencoded`
+- `origin` → qué orígenes pueden acceder.
+- `methods` → qué métodos HTTP se permiten.
+- `allowedHeaders` → qué headers puede enviar el cliente.
+- `credentials` → si se permiten credenciales, como cookies.
+- `maxAge` → cuánto tiempo puede conservar el navegador la respuesta del Preflight.
 
 ---
 
-## Preflighted Requests
+### Buenas prácticas
 
-Son solicitudes que requieren una solicitud `OPTIONS` previa.
+- No utilizar configuraciones excesivamente permisivas en producción.
+- Especificar **orígenes exactos**.
+- Evitar `*` cuando no sea necesario.
+- Limitar los métodos HTTP a los estrictamente necesarios.
+- Limitar los headers permitidos.
+- Utilizar **HTTPS** en producción.
+- Configurar `maxAge` para optimizar la caché del Preflight.
+- Monitorear las solicitudes CORS fallidas.
 
-Por ejemplo:
-
-- `PUT`
-- `DELETE`
-- `PATCH`
-- Header `Authorization`.
-- Headers personalizados.
-- `Content-Type: application/json`.
-
----
-
-## Buenas prácticas
-
-1. No utilizar configuraciones excesivamente permisivas en producción.
-2. Especificar **orígenes exactos**.
-3. Evitar comodines (`*`) cuando no sean necesarios.
-4. Limitar los métodos HTTP a los estrictamente necesarios.
-5. Validar los headers permitidos.
-6. Utilizar HTTPS en producción.
-7. Configurar `maxAge` para optimizar la caché del preflight.
-8. Monitorear las solicitudes CORS fallidas.
-
-> **Importante:** CORS controla principalmente qué solicitudes cross-origin pueden realizar los navegadores. No debe considerarse por sí solo un mecanismo de protección contra CSRF.
+> **Importante:** CORS controla principalmente qué solicitudes **cross-origin pueden realizar los navegadores**. No debe considerarse por sí solo un mecanismo de protección contra **CSRF**.
 
 ----
+
