@@ -50,5 +50,4 @@ Requiere que el vector esté ordenado de forma ascendente.
 > 
 > ```
 
-
-#Programación
+---

@@ -7,4 +7,5 @@ tags:
 - [[Búsqueda Secuencial]]
 - [[Posición Única Predecible (PUP)]]
 - [[Búsqueda Binaria]]
-#Programación
+
+---

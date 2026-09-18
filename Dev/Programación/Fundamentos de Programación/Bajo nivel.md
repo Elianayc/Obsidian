@@ -21,4 +21,5 @@ En lugar de escribir bits, se usan **mnemónicos** (palabras cortas) que represe
 - Dependen de la arquitectura (no son portables).
 
 Se usan cuando se necesita máximo rendimiento o control del hardware.
-#Programación
+
+---

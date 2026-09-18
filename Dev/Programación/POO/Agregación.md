@@ -14,4 +14,6 @@ Se da cuando una clase tiene atributos cuyo tipo es otra clase, pero no es neces
 **Ejemplo:**  
 Auto + Aire Acondicionado  
 El auto puede existir sin aire acondicionado.
-#Programación
+
+---
+

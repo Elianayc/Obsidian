@@ -31,4 +31,5 @@ Es la implementación más utilizada cuando se necesita principalmente lectura y
 > 
 > **Resultado:**  
 > 10, 20, 20
-#Programación
+
+---

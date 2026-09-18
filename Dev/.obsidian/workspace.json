@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2c64c9abc493435c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programación/Abstract Factory.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Abstract Factory"
-            }
-          },
-          {
-            "id": "b26b3fc20977c4ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programación/Adapter.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Adapter"
-            }
-          },
-          {
             "id": "2dc81bbd024060bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Abstract Factory.md",
-                "mode": "preview",
+                "file": "Programación/Contadores y Acumuladores.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Abstract Factory"
+              "title": "Contadores y Acumuladores"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +40,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -191,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/Programación Orientada a objetos (POO).md",
+                "file": "Programación/Contadores y Acumuladores.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -246,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programación/Programación Orientada a objetos (POO).md",
+                "file": "Programación/Contadores y Acumuladores.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -362,7 +333,7 @@
                   "linkStrength": 1,
                   "linkDistance": 30,
                   "scale": 0.5694148860370289,
-                  "close": false
+                  "close": true
                 }
               },
               "icon": "lucide-git-fork",
@@ -373,8 +344,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5,
-    "collapsed": true
+    "width": 418.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -396,34 +366,38 @@
   },
   "active": "2dc81bbd024060bd",
   "lastOpenFiles": [
-    "Programación/Agregación.md",
-    "Programación/Adapter.md",
-    "Programación/Abstract Factory.md",
-    "Programación/Patrones de Diseño/Factory Method.md",
-    "Programación/Patrones de Diseño/Patrones Creacionales.md",
-    "Programación/Patrones de Diseño/Patrones de Diseño.md",
-    "Programación/Parámetro.md",
-    "Programación/Javascript/Prototipos en JavaScript.md",
+    "Programación/Constructor.md",
+    "Programación/Contadores y Acumuladores.md",
+    "Programación/Control de flujo.md",
+    "Programación/Fundamentos de Programación/Constante.md",
+    "Programación/Fundamentos de Programación/Comunicación entre módulos.md",
+    "Programación/Estructuras de Datos/List.md",
+    "Programación/Estructuras de Datos/Map.md",
+    "Programación/Estructuras de Datos",
+    "Programación/Modularidad.md",
+    "Programación/POO/Composición.md",
+    "Programación/Estructuras de Datos/Colecciones.md",
+    "Programación/POO/Clase.md",
+    "Programación/POO/Clase Abstracta.md",
+    "Programación/Fundamentos de Programación/Char.md",
+    "Programación/Fundamentos de Programación/C.md",
+    "Programación/Fundamentos de Programación/C++.md",
+    "Programación/Fundamentos de Programación/C Sharp.md",
+    "Programación/Fundamentos de Programación/Búsquedas.md",
+    "Programación/Fundamentos de Programación/Búsqueda Secuencial.md",
+    "Programación/Fundamentos de Programación/Búsqueda Binaria.md",
+    "Programación/Fundamentos de Programación/Burbujeo.md",
+    "Programación/Fundamentos de Programación/Burbujeo Mejorado.md",
+    "Programación/Fundamentos de Programación/Bool.md",
+    "Programación/Fundamentos de Programación/Bajo nivel.md",
+    "Programación/Fundamentos de Programación/Assembly.md",
+    "Programación/Fundamentos de Programación/ArrayList.md",
+    "Programación/Fundamentos de Programación/Argumento.md",
+    "Programación/Fundamentos de Programación",
+    "Programación/POO",
+    "Programación/SOLID",
     "Programación/Patrones de Diseño",
-    "Programación/Javascript/JavaScript.md",
-    "Programación/Programación Orientada a objetos (POO).md",
     "Z_Imágenes/solid.png",
-    "Programación/Backend/Diseño de API REST/Arquitectura REST.md",
-    "Programación/Backend/Seguridad de APIs/RBAC.md",
-    "Programación/Backend/Seguridad de APIs/Seguridad de APIs.md",
-    "Programación/Backend/Seguridad de APIs/Validación de Inputs.md",
-    "Programación/Backend/Seguridad de APIs/Rate Limiting y Throttling.md",
-    "Programación/Backend/Seguridad de APIs/JWT.md",
-    "Programación/Backend/Seguridad de APIs/HTTPS.md",
-    "Programación/Backend/Seguridad de APIs/Headers de Seguridad.md",
-    "Programación/Backend/Seguridad de APIs/Digest Authentication.md",
-    "Programación/Backend/Seguridad de APIs/CORS.md",
-    "Programación/Backend/Seguridad de APIs/Checkilst de Seguridad para APIs.md",
-    "Programación/Backend/Seguridad de APIs/Basic Authentication.md",
-    "Programación/Backend/Seguridad de APIs/Autenticación y Autorización.md",
-    "Programación/Backend/Diseño de API REST/Versionado de APIs REST.md",
-    "Programación/Backend/Diseño de API REST/Representaciones de Recursos.md",
-    "Programación/Backend/Diseño de API REST/Recursos y URLs.md",
     "Programación/Backend/Seguridad de APIs",
     "Programación/Backend/Diseño de API REST",
     "Programación/Backend/Conceptos",
@@ -438,10 +412,6 @@
     "Z_Imágenes/Pasted image 20260912191616.png",
     "Z_Imágenes/Pasted image 20260912191716.png",
     "Z_Imágenes/Pasted image 20260910113346.png",
-    "Programación/Backend",
-    "Arquitectura de Sistemas/Metodología de Sistemas",
-    "Programación/Frameworks",
-    "Programación/Javascript",
     "Sin título.canvas",
     "Sin título 1.canvas"
   ]
