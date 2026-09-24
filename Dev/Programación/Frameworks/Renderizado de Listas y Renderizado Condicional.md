@@ -27,9 +27,7 @@ Permite mostrar determinados elementos de la interfaz únicamente cuando se cump
 Por ejemplo, se puede mostrar:
 
 - Un mensaje de **“Cargando...”** mientras se obtienen datos.
-    
 - Un mensaje de **“Sin resultados”** cuando una lista está vacía.
-    
 - Una sección determinada únicamente cuando el usuario está autenticado.
 
 ---

@@ -61,7 +61,7 @@ ChatComponent
 ---
 
 - [[Props]] 
-- [[Renderizado de listas]]
+- [[Renderizado de Listas y Renderizado Condicional]]
 - [[Routing]]
 - [[Ciclo de Vida de los Componentes]]
 - [[Binding y Eventos]]
