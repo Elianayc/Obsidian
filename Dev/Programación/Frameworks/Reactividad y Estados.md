@@ -1,5 +1,4 @@
 La **reactividad** es el mecanismo mediante el cual un framework mantiene la **interfaz sincronizada con los datos** automáticamente.
-
 El desarrollador declara **qué debe mostrarse**, y el framework se encarga de actualizar la interfaz cuando los datos cambian.
 
 ---
@@ -9,13 +8,10 @@ El desarrollador declara **qué debe mostrarse**, y el framework se encarga de a
 Antes de utilizar frameworks, había diferentes formas de actualizar la interfaz:
 
 - **Recargar la página:** el servidor genera nuevamente el HTML con los datos actualizados y el navegador recarga toda la página.
-	
 - **Reemplazar fragmentos de HTML:** se obtiene una parte actualizada del HTML y se reemplaza manualmente en el DOM.
-	
 - **Manipular el DOM con JavaScript:** se modifica el dato y también se actualiza manualmente el elemento correspondiente del DOM.
 	
 El problema es que en todos estos casos el desarrollador debe encargarse de **mantener sincronizados los datos y la interfaz**.
-
 En aplicaciones grandes esto se vuelve difícil de mantener.
 
 ---
@@ -23,7 +19,6 @@ En aplicaciones grandes esto se vuelve difícil de mantener.
 ## Reactividad
 
 Con reactividad:
-
 **Estado cambia → framework detecta el cambio → UI se actualiza**
 
 Por ejemplo, sin reactividad:

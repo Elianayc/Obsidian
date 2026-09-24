@@ -142,7 +142,6 @@ En los tres casos, el evento del usuario ejecuta una función del componente.
 Permite sincronizar el estado y la interfaz en ambas direcciones:
 
 **Estado → UI:** el estado actualiza el elemento.
-
 **UI → Estado:** las acciones del usuario actualizan el estado.
 
 #### Angular

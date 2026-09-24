@@ -60,12 +60,12 @@ ChatComponent
 
 ---
 
+- [[Ciclo de Vida de los Componentes]]
+- [[Reactividad y Estados]]
 - [[Props]] 
 - [[Renderizado de Listas y Renderizado Condicional]]
 - [[Routing]]
-- [[Ciclo de Vida de los Componentes]]
 - [[Binding y Eventos]]
-- [[Reactividad y Estados]]
 - [[Servicios]]
 
 ---

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Frameworks/Routing.md",
-                "mode": "preview",
+                "file": "Programación/Frameworks/Reactividad y Estados.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Routing"
+              "title": "Reactividad y Estados"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/Frameworks/Routing.md",
+                "file": "Programación/Frameworks/Reactividad y Estados.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -197,7 +197,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Programación/Frameworks/Routing.md"
+                "file": "Programación/Frameworks/Reactividad y Estados.md"
               },
               "icon": "lucide-file-signature",
               "title": "Notas al pie"
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programación/Frameworks/Routing.md",
+                "file": "Programación/Frameworks/Reactividad y Estados.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -368,12 +368,14 @@
   "active": "f280a768380c45df",
   "lastOpenFiles": [
     "Programación/Frameworks/Componentes.md",
-    "Programación/Frameworks/Renderizado de Listas y Renderizado Condicional.md",
+    "Programación/Frameworks/Reactividad y Estados.md",
+    "Programación/Frameworks/Binding y Eventos.md",
     "Programación/Frameworks/Props.md",
+    "Programación/Frameworks/Ciclo de Vida de los Componentes.md",
+    "Programación/Frameworks/Routing.md",
+    "Programación/Frameworks/Renderizado de Listas y Renderizado Condicional.md",
     "Programación/Frameworks/Angular.md",
     "componente.md",
-    "Programación/Frameworks/Ciclo de Vida de los Componentes.md",
-    "Programación/Frameworks/Binding y Eventos.md",
     "Programación/Backend/Diseño de API REST/Versionado de APIs REST.md",
     "Programación/Backend/Diseño de API REST/Recursos y URLs.md",
     "Programación/Backend/Diseño de API REST/Diseño de APIs REST.md",
@@ -391,8 +393,6 @@
     "Bases de Datos/FROM.md",
     "Z_Excalidraw/switch.md",
     "Z_Excalidraw/for.md",
-    "Z_Excalidraw/diagramadeclases.md",
-    "Bases de Datos/Tabla intermedia.md",
     "Programación/Python",
     "Programación/C Sharp",
     "Programación/C",
