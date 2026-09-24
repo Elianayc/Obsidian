@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Backend/Seguridad de APIs/JWT (JSON Web Token).md",
+                "file": "Programación/Frameworks/Componentes.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JWT (JSON Web Token)"
+              "title": "Componentes"
             }
           }
         ]
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programación/Backend/Seguridad de APIs/JWT (JSON Web Token).md",
+                "file": "Programación/Frameworks/Componentes.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
@@ -197,14 +197,14 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "Z_Imágenes/Pasted image 20260831123731.png"
+                "file": "Programación/Frameworks/Componentes.md"
               },
               "icon": "lucide-file-signature",
               "title": "Notas al pie"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       },
       {
         "id": "7d43bd82675bbd45",
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Programación/Backend/Seguridad de APIs/JWT (JSON Web Token).md",
+                "file": "Programación/Frameworks/Componentes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -344,7 +344,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5
+    "width": 418.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -366,6 +367,15 @@
   },
   "active": "f280a768380c45df",
   "lastOpenFiles": [
+    "Programación/Frameworks/Angular.md",
+    "Programación/Frameworks/Componentes.md",
+    "componente.md",
+    "Programación/Frameworks/Ciclo de Vida de los Componentes.md",
+    "Programación/Frameworks/Binding y Eventos.md",
+    "Programación/Backend/Diseño de API REST/Versionado de APIs REST.md",
+    "Programación/Backend/Diseño de API REST/Recursos y URLs.md",
+    "Programación/Backend/Diseño de API REST/Diseño de APIs REST.md",
+    "Programación/Backend/Seguridad de APIs/JWT (JSON Web Token).md",
     "Programación/Backend/Seguridad de APIs/CORS.md",
     "Programación/Backend/Seguridad de APIs/Autenticación y Autorización.md",
     "Programación/Backend/Seguridad de APIs/Basic Authentication.md",
@@ -373,7 +383,6 @@
     "Programación/Backend/Seguridad de APIs/Seguridad de APIs REST.md",
     "Programación/Backend/Seguridad de APIs/Checkilst de Seguridad para APIs.md",
     "Programación/Backend/Seguridad de APIs/RBAC (Role-Based Access Control).md",
-    "Programación/Backend/Seguridad de APIs/JWT (JSON Web Token).md",
     "Programación/Backend/Seguridad de APIs/Digest Authentication.md",
     "Programación/Backend/Seguridad de APIs/Headers de Seguridad.md",
     "Bases de Datos/Hash Join.md",
@@ -384,14 +393,6 @@
     "Bases de Datos/Tabla intermedia.md",
     "Bases de Datos/5FN.md",
     "Bases de Datos/Nested Loop.md",
-    "Bases de Datos/Merge Join.md",
-    "Bases de Datos/Join Methods.md",
-    "Bases de Datos/JOIN.md",
-    "Bases de Datos/Optimización de Consultas.md",
-    "Programación/Backend/Seguridad de APIs/Rate Limiting y Throttling.md",
-    "Programación/Backend/Seguridad de APIs/HTTPS.md",
-    "Redes/Protocolos.md",
-    "Programación/Backend/Conceptos/API REST.md",
     "Programación/Python",
     "Programación/C Sharp",
     "Programación/C",

@@ -22,7 +22,7 @@ Se utiliza principalmente para crear aplicaciones **Frontend completas, estructu
 
 ## Componentes
 
-Un componente Angular es una unidad reutilizable de la interfaz que encapsula **estructura, lógica y opcionalmente estilos**.
+Un [[Componentes|componente]] Angular es una unidad reutilizable de la interfaz que encapsula **estructura, lógica y opcionalmente estilos**.
 
 Se define mediante el decorador `@Component`.
 
