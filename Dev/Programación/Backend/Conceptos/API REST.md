@@ -1,5 +1,222 @@
-Una **API REST** es una API diseñada siguiendo los principios del estilo arquitectónico **REST (Representational State Transfer)**.
-Permite que distintos sistemas se comuniquen mediante HTTP y accedan a recursos del backend.
+# API REST
+
+**REST** significa **Representational State Transfer** (_Transferencia de Estado Representacional_).
+
+REST es un **estilo arquitectónico** para diseñar sistemas distribuidos y servicios web.
+
+Una **API REST** es una API diseñada siguiendo los principios del estilo arquitectónico **REST**. Generalmente utiliza **HTTP** para permitir que distintos sistemas se comuniquen y accedan a los **recursos** de un servidor.
+
+A diferencia de una API genérica, una API REST sigue una serie de principios y convenciones para organizar la comunicación entre el cliente y el servidor.
+
+```text
+Cliente
+   ↓ HTTP
+API REST
+   ↓
+Backend
+   ↓
+Base de datos
+```
+
+## Recursos
+
+En REST, la información y las entidades del sistema se representan como **recursos**.
+
+Por ejemplo:
+
+```text
+/usuarios
+/productos
+/pedidos
+/categorias
+```
+
+Cada URL identifica un tipo de recurso.
+
+También se pueden identificar recursos individuales:
+
+```text
+/usuarios/123
+/productos/45
+/pedidos/890
+```
+
+La API permite realizar operaciones sobre estos recursos mediante los métodos HTTP.
+
+## Comunicación mediante HTTP
+
+Las APIs REST suelen utilizar HTTP para realizar operaciones sobre los recursos.
+
+Por ejemplo:
+
+```http
+GET /usuarios/123
+```
+
+Solicita el usuario `123`.
+
+```http
+POST /usuarios
+```
+
+Solicita la creación de un nuevo usuario.
+
+```http
+PUT /usuarios/123
+```
+
+Solicita reemplazar o actualizar el usuario `123`.
+
+```http
+DELETE /usuarios/123
+```
+
+Solicita eliminar el usuario `123`.
+
+La **URL identifica el recurso**, mientras que el **método HTTP indica la operación** que se quiere realizar.
+
+## Representación de los recursos
+
+REST trabaja con **representaciones** de los recursos.
+
+Por ejemplo, un usuario puede estar almacenado internamente de una determinada manera en el servidor, pero la API puede representarlo mediante JSON:
+
+```json
+{
+  "id": 123,
+  "nombre": "Eli",
+  "email": "eli@example.com"
+}
+```
+
+El cliente trabaja con esta representación y no necesita conocer cómo se almacena internamente la información.
+
+## Principios fundamentales de REST
+
+### Cliente-servidor
+
+El cliente y el servidor tienen responsabilidades separadas.
+
+- El **cliente** se ocupa de la interfaz y de realizar solicitudes.
+    
+- El **servidor** se ocupa de los datos y de la lógica de negocio.
+    
+
+Esta separación permite que ambos puedan evolucionar de manera independiente.
+
+### Stateless
+
+Cada solicitud debe contener la información necesaria para que el servidor pueda procesarla.
+
+El servidor no debería depender del estado almacenado de solicitudes anteriores para interpretar una nueva solicitud.
+
+Esto permite que las solicitudes sean independientes entre sí y facilita la escalabilidad del sistema.
+
+### Cacheable
+
+Las respuestas pueden indicar si pueden almacenarse temporalmente en una **caché**.
+
+Esto permite reutilizar determinadas respuestas y evitar solicitudes innecesarias al servidor.
+
+### Interfaz uniforme
+
+REST busca establecer una forma uniforme y predecible de interactuar con los recursos.
+
+Por ejemplo:
+
+```http
+GET /usuarios/123
+DELETE /usuarios/123
+```
+
+La URL identifica el recurso y el método HTTP define la operación.
+
+### Sistema en capas
+
+El cliente no necesita conocer todos los componentes que existen detrás de la API.
+
+Puede existir una arquitectura como:
+
+```text
+Cliente
+   ↓
+API
+   ↓
+Servicio
+   ↓
+Base de datos
+```
+
+Cada capa puede encargarse de una responsabilidad diferente.
+
+## REST y JSON
+
+REST **no exige utilizar JSON**.
+
+Sin embargo, JSON es uno de los formatos más utilizados para representar los datos intercambiados entre clientes y servidores.
+
+También pueden utilizarse otros formatos, como XML.
+
+## Códigos de estado HTTP
+
+Las APIs REST utilizan los códigos de estado HTTP para indicar el resultado de una solicitud.
+
+|Código|Significado|
+|---|---|
+|`200 OK`|Solicitud procesada correctamente|
+|`201 Created`|Recurso creado correctamente|
+|`204 No Content`|Operación correcta sin contenido para devolver|
+|`400 Bad Request`|Solicitud incorrecta|
+|`401 Unauthorized`|Falta autenticación válida|
+|`403 Forbidden`|No se permite realizar la operación|
+|`404 Not Found`|Recurso no encontrado|
+|`500 Internal Server Error`|Error interno del servidor|
+
+## Ejemplo completo
+
+Un cliente quiere obtener el usuario `123`:
+
+```http
+GET /usuarios/123
+```
+
+El servidor puede responder:
+
+```http
+200 OK
+Content-Type: application/json
+```
+
+```json
+{
+  "id": 123,
+  "nombre": "Eli",
+  "email": "eli@example.com"
+}
+```
+
+En este caso:
+
+- `GET` indica la operación.
+    
+- `/usuarios/123` identifica el recurso.
+    
+- `200 OK` indica que la solicitud fue procesada correctamente.
+    
+- `application/json` indica el formato de la representación.
+    
+- El JSON contiene la representación del usuario.
+    
+
+## API REST y arquitectura REST
+
+**REST** es el estilo arquitectónico que define los principios generales.
+
+**API REST** es una API que aplica esos principios para permitir la comunicación entre clientes y servidores.
+
+Por lo tanto, una API puede utilizar HTTP sin necesariamente estar diseñada siguiendo todos los principios de REST.
+
+---
 
 ### Conceptos relacionados
 
@@ -8,125 +225,3 @@ Permite que distintos sistemas se comuniquen mediante HTTP y accedan a recursos 
 - [[Seguridad de APIs REST]]
 
 ---
-
-# Diseño de APIs REST
-
-El diseño de una **API REST** busca crear servicios **mantenibles, escalables y fáciles de utilizar**.
-
-A diferencia de la arquitectura REST, que explica **los principios generales**, este apartado se centra en **cómo aplicar esos principios al diseñar una API**.
-
----
-
-## Recursos y URLs
-
-En REST, las URLs representan **recursos o entidades**, no acciones.
-
-### Principios
-
-- **Identificación:** cada recurso se identifica mediante una URL.
-    
-- **Sustantivos, no verbos:** las URLs representan entidades, no operaciones.
-    
-- **Jerarquía lógica:** las relaciones entre recursos pueden reflejarse en la URL.
-    
-- **Colecciones e instancias:** se diferencia entre una colección y un recurso individual.
-    
-
-### Ejemplo
-
-```text
-/usuarios
-/usuarios/123
-/usuarios/123/pedidos
-```
-
-- `/usuarios` → colección de usuarios.
-    
-- `/usuarios/123` → usuario específico.
-    
-- `/usuarios/123/pedidos` → colección de pedidos del usuario 123.
-    
-
-La URL permite identificar directamente el recurso solicitado. No es necesario realizar previamente las otras solicitudes.
-
-### Acciones mediante HTTP
-
-La acción se determina mediante el **método HTTP**, no mediante el nombre de la URL.
-
-```http
-GET /usuarios/123
-```
-
-→ Obtener el usuario.
-
-```http
-DELETE /usuarios/123
-```
-
-→ Eliminar el usuario.
-
-Por eso se prefieren rutas como:
-
-```text
-/usuarios/123
-```
-
-en lugar de rutas orientadas a acciones como:
-
-```text
-/obtenerUsuario/123
-/getUser/123
-```
-
-Este último enfoque se aproxima al estilo **RPC**, donde las operaciones se expresan como acciones.
-
----
-
-## Métodos HTTP
-
-Los métodos HTTP permiten indicar qué operación se desea realizar sobre un recurso.
-
-|Método|Uso habitual|
-|---|---|
-|`GET`|Obtener un recurso|
-|`POST`|Crear un recurso|
-|`PUT`|Reemplazar o actualizar un recurso|
-|`PATCH`|Modificar parcialmente un recurso|
-|`DELETE`|Eliminar un recurso|
-
----
-
-## Idempotencia
-
-Una operación es **idempotente** cuando realizarla una o varias veces produce el mismo efecto final sobre el recurso.
-
-Por ejemplo, realizar varias veces:
-
-```http
-PUT /usuarios/123
-```
-
-con los mismos datos debería dejar al usuario en el mismo estado final.
-
-La idempotencia es importante para diseñar APIs predecibles y seguras frente a reintentos.
-
----
-
-## Versionado
-
-El versionado permite evolucionar una API sin romper los clientes existentes.
-
-Una estrategia habitual es incluir la versión en la URL:
-
-```text
-/api/v1/usuarios
-/api/v2/usuarios
-```
-
-Esto permite mantener diferentes versiones durante un período de transición y comunicar claramente los cambios entre versiones.
-
----
-
-## Idea central
-
-> **Arquitectura REST explica los principios que caracterizan a REST. Diseño de API REST explica cómo aplicar esos principios al construir las rutas, recursos y operaciones concretas de una API.**
