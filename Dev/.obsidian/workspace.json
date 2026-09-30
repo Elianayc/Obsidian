@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "joi",
+                "query": "API",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -79,7 +79,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -367,11 +368,11 @@
   },
   "active": "f280a768380c45df",
   "lastOpenFiles": [
+    "Programación/Backend/Conceptos/APIs (Interfaces de programación de aplicaciones).md",
+    "Programación/Backend/Conceptos/API REST.md",
     "Programación/Backend/Conceptos/Gateway.md",
     "Programación/Backend/Conceptos/Backend.md",
     "Programación/Backend/Conceptos/Arquitectura REST.md",
-    "Programación/Backend/Conceptos/APIs (Interfaces de programación de aplicaciones).md",
-    "Programación/Backend/Conceptos/API REST.md",
     "Programación/Frameworks/Reactividad y Estados.md",
     "Programación/Frameworks/Componentes.md",
     "Programación/Frameworks/Binding y Eventos.md",
