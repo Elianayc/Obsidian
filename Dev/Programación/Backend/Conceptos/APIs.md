@@ -4,128 +4,86 @@ tags:
 ---
 **API** significa **Application Programming Interface** (_Interfaz de Programación de Aplicaciones_).
 
-Una API es un **conjunto de reglas, protocolos y mecanismos que permite que diferentes aplicaciones, sistemas o componentes de software se comuniquen entre sí**.
+Una API es una **interfaz que permite la comunicación entre diferentes aplicaciones, sistemas o componentes de software**. Define un conjunto de reglas que indica cómo un sistema puede solicitar información o utilizar funcionalidades proporcionadas por otro sistema.
 
-La API define **cómo un sistema puede solicitar información o utilizar determinadas funcionalidades de otro sistema**, sin necesidad de conocer cómo está implementado internamente.
-
-Por ejemplo, un frontend puede comunicarse con un backend mediante una API para:
-
-- Obtener información.
-- Crear nuevos datos.
-- Modificar datos existentes.
-- Eliminar información.
-- Ejecutar determinadas operaciones.
-    
-----
-
-## ¿Cómo funciona?
-
-Una aplicación que necesita utilizar una funcionalidad realiza una **solicitud (request)** a la API.
-
-La API recibe la solicitud, la procesa y devuelve una **respuesta (response)**.
-
-```text
-Cliente
-   ↓
-Solicitud
-   ↓
-API
-   ↓
-Sistema / Backend
-   ↓
-Respuesta
-   ↓
-Cliente
-```
-
-Por ejemplo:
-
-```http
-GET /usuarios/123
-```
-
-El cliente solicita información sobre el usuario `123`.
-
-La API procesa la solicitud y puede devolver:
-
-```json
-{
-  "id": 123,
-  "nombre": "Eli"
-}
-```
+La API funciona como un **intermediario** entre el sistema que realiza una solicitud y el sistema que proporciona la información o funcionalidad. El sistema que utiliza la API no necesita conocer cómo está implementada internamente la funcionalidad que está utilizando.
 
 ---
 
-## API como intermediario
+<div style="text-align: center;">
 
-La API funciona como un **punto de comunicación entre diferentes sistemas**.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IwnIxk8DdHs?start=12" title="YouTube video" frameborder="0" allowfullscreen></iframe>
 
-Por ejemplo:
+</div>
+
+---
+
+## ¿Para qué sirve?
+
+Una API permite:
+
+- Facilitar la **interoperabilidad** entre diferentes aplicaciones y sistemas.
+- Permitir que distintos componentes de software se comuniquen.
+- Acceder a **datos o funcionalidades** de otro sistema de una forma definida.
+- Separar la implementación interna de un sistema de los programas que lo utilizan.
+- Reutilizar funcionalidades sin tener que implementarlas nuevamente en cada aplicación.
+    
+---
+
+## Funcionamiento básico
+
+La comunicación mediante una API puede representarse de la siguiente manera:
+
+```text
+Cliente → Solicitud → API → Sistema
+Cliente ← Respuesta ← API ← Sistema
+```
+
+El **cliente** realiza una solicitud a la API.
+
+La API recibe esa solicitud, la comunica al sistema correspondiente y devuelve una respuesta al cliente.
+
+Por ejemplo, una aplicación puede utilizar una API para consultar información almacenada en otro sistema sin acceder directamente a su base de datos.
+
+---
+
+## API como contrato
+
+Una API puede entenderse como un **contrato de comunicación** entre sistemas.
+
+Define qué funcionalidades están disponibles y establece cómo deben solicitarse. De esta manera, los sistemas pueden comunicarse siguiendo reglas conocidas, independientemente de cómo esté implementada internamente cada parte.
+
+---
+
+## API y backend
+
+En una aplicación web, es habitual que el frontend utilice una API para comunicarse con el backend.
 
 ```text
 Frontend
-    ↓
-   API
-    ↓
+   ↓
+  API
+   ↓
 Backend
-    ↓
-Base de datos
 ```
 
-El frontend no necesita acceder directamente a la base de datos. Se comunica con el backend mediante la API.
+De esta manera, el frontend no necesita acceder directamente a la lógica interna o a la base de datos del backend.
 
-Esto permite **separar responsabilidades** y controlar qué información y funcionalidades pueden utilizar los distintos clientes.
-
----
-
-## Características
-
-- **Interoperabilidad:** permite que sistemas diferentes se comuniquen entre sí.
-- **Abstracción:** el cliente no necesita conocer la implementación interna del sistema.
-- **Reutilización:** una misma API puede ser utilizada por diferentes aplicaciones.
-- **Control de acceso:** permite definir qué operaciones y datos están disponibles.
-- **Separación de responsabilidades:** cada sistema puede encargarse de una parte específica del proceso.
-- **Estandarización:** establece una forma definida de comunicación entre los componentes.
-    
 ---
 
 ## Tipos de APIs
 
-Las APIs pueden clasificarse de diferentes maneras según el criterio utilizado.
+Existen diferentes tipos de APIs según la tecnología utilizada y el contexto en el que se emplean.
 
-Algunas de las más utilizadas son:
+Algunos ejemplos son:
 
-- **[[API REST]]:** utilizan los principios de REST y normalmente se comunican mediante HTTP.
+- **[[APIs REST]]:** utilizan los principios del estilo arquitectónico REST.
     
-- **APIs SOAP:** utilizan el protocolo SOAP (_Simple Object Access Protocol_) y suelen utilizar XML para el intercambio de información.
+- **APIs SOAP:** utilizan SOAP (_Simple Object Access Protocol_) para la comunicación.
     
 - **APIs GraphQL:** permiten que el cliente especifique qué datos necesita obtener.
     
-- **APIs internas:** se utilizan dentro de una misma organización o sistema.
-    
-- **APIs externas:** están disponibles para otros sistemas o desarrolladores.
+
+Las APIs también pueden clasificarse según quién puede utilizarlas, por ejemplo, como APIs públicas, privadas o internas.
 
 ---
-
-## API y HTTP
-
-Una API no necesariamente tiene que utilizar HTTP. Sin embargo, las APIs web suelen utilizarlo porque permite establecer una comunicación estandarizada entre clientes y servidores.
-
-En una API basada en HTTP, la solicitud puede incluir:
-
-- **Método HTTP:** indica la operación que se desea realizar.
-- **URL:** identifica el recurso al que se quiere acceder.
-- **Headers:** proporcionan información adicional sobre la solicitud.
-- **Body:** contiene datos enviados al servidor cuando corresponde.
-
-La respuesta puede incluir:
-
-- **Código de estado HTTP:** indica el resultado de la operación.
-- **Headers:** información adicional sobre la respuesta.
-- **Body:** datos devueltos por el servidor.
-    
-
----
-
-
