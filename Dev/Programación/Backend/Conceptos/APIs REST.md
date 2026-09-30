@@ -1,6 +1,6 @@
 **REST** significa **Representational State Transfer** (_Transferencia de Estado Representacional_).
 
-Una **API REST** es una API diseñada siguiendo los principios del estilo arquitectónico **REST (Representational State Transfer)**.
+Una **API REST** es una API diseñada siguiendo los principios del estilo arquitectónico [[Arquitectura REST]] (Representational State Transfer)**.
 
 Permite que distintos sistemas se comuniquen mediante **HTTP** y accedan a **recursos del backend**.
 
@@ -17,18 +17,6 @@ Una API REST busca proporcionar una forma **estandarizada y predecible** de comu
 El cliente puede realizar solicitudes al servidor para acceder a los recursos disponibles, mientras que el servidor procesa esas solicitudes y devuelve las respuestas correspondientes.
 
 La utilización de HTTP permite aprovechar los mecanismos definidos por este protocolo para realizar la comunicación entre cliente y servidor.
-
-Los aspectos relacionados con la organización de los recursos, las URLs, los métodos HTTP, la idempotencia y el versionado se desarrollan en [[Diseño de APIs REST]].
-
----
-
-## API REST y REST
-
-**REST** es el **estilo arquitectónico** que define los principios generales.
-
-Una **API REST** es una API diseñada siguiendo esos principios.
-
-Por lo tanto, REST no es un protocolo de comunicación ni una tecnología específica.
 
 ---
 
