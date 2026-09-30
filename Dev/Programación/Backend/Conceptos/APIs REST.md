@@ -22,7 +22,6 @@ La utilización de HTTP permite aprovechar los mecanismos definidos por este pro
 
 ## Conceptos relacionados
 
-- [[Arquitectura REST]]
 - [[Diseño de APIs REST]]
 - [[Seguridad de APIs REST]]
     
