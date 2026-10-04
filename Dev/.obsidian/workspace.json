@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Frameworks/Angular/Componentes Ciclo de Vida.md",
+                "file": "Programación/Frameworks/React/Renderizado de Listas y Renderizado Condicional.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Componentes Ciclo de Vida"
+              "title": "Renderizado de Listas y Renderizado Condicional"
             }
           }
         ]
@@ -365,30 +365,32 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "0e9030dc06c1f8db",
+  "active": "f280a768380c45df",
   "lastOpenFiles": [
-    "Programación/Frameworks/Sin nombre",
-    "Programación/Frameworks/Vue",
-    "Programación/Frameworks/Vue.md",
-    "Programación/Frameworks/React/Renderizado de Listas y Renderizado Condicional.md",
     "Programación/Frameworks/React/Reactividad y Estados.md",
-    "Programación/Frameworks/puntoNET.md",
+    "Programación/Frameworks/React/React.md",
     "Programación/Frameworks/React/Props.md",
+    "Programación/Frameworks/Angular/Componentes Ciclo de Vida.md",
+    "Programación/Frameworks/Otras Tecnologías",
+    "Programación/Frameworks/Sin título.md",
+    "Programación/Frameworks/Desarrollo Móvil",
+    "Programación/Frameworks/Vue",
+    "Programación/Frameworks/Vue/Vue.md",
+    "Programación/Frameworks/React/Renderizado de Listas y Renderizado Condicional.md",
+    "Programación/Frameworks/Otras Tecnologías/puntoNET.md",
     "Programación/Frameworks/Frameworks.md",
-    "Programación/Frameworks/Electron.md",
-    "Programación/Frameworks/Desarrollo de Aplicaciones Móviles.md",
-    "Programación/Frameworks/React Native.md",
+    "Programación/Frameworks/Otras Tecnologías/Electron.md",
+    "Programación/Frameworks/Desarrollo Móvil/Desarrollo de Aplicaciones Móviles.md",
+    "Programación/Frameworks/Desarrollo Móvil/React Native.md",
     "Programación/Frameworks/Angular/Servicios.md",
     "Programación/Frameworks/Angular/Routing.md",
     "Programación/Frameworks/Angular/Componentes.md",
-    "Programación/Frameworks/Angular/Componentes Ciclo de Vida.md",
     "Redes/Gateway.md",
     "Programación/Frameworks/React",
     "Programación/Lenguajes",
     "Programación/Backend/Backend.md",
     "Programación/Backend/APIs/APIs REST",
     "Programación/Backend",
-    "Programación/Frameworks/React/React.md",
     "Programación/Frameworks/Angular/Binding y Eventos.md",
     "Programación/Frameworks/Angular",
     "Programación/Backend/APIs/APIs REST/Arquitectura REST.md",
@@ -398,11 +400,8 @@
     "Programación/Backend/Conceptos/APIs (Interfaces de programación de aplicaciones).md",
     "Programación/Frameworks/Angular/Angular.md",
     "componente.md",
-    "Programación/Backend/APIs/APIs REST/Diseño de API REST/Versionado de APIs REST.md",
     "Programación/Lenguajes/Python",
     "Programación/Lenguajes/C Sharp",
-    "Programación/Lenguajes/C",
-    "Programación/Estructuras de Datos",
     "Z_Imágenes/solid.png",
     "Z_Imágenes/Pasted image 20260915234240.png",
     "Z_Imágenes/Pasted image 20260915224623.png",
