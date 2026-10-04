@@ -60,7 +60,7 @@ ChatComponent
 
 ---
 
-- [[Componentes Ciclo de Vida]]
+- [[Componentes - Ciclo de Vida]]
 - [[Reactividad y Estados]]
 - [[Props]] 
 - [[Renderizado de Listas y Renderizado Condicional]]

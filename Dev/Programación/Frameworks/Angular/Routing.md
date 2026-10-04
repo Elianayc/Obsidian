@@ -7,9 +7,7 @@ En una **Single Page Application (SPA)**, la navegación entre pantallas normalm
 Permite:
 
 - Compartir enlaces a pantallas específicas.
-    
 - Utilizar correctamente el botón **Atrás** del navegador.
-    
 - Mantener una ruta específica al recargar la página.
     
 
