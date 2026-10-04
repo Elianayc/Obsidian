@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Frameworks/Renderizado de Listas y Renderizado Condicional.md",
+                "file": "Programación/Frameworks/Desarrollo Móvil/Desarrollo de Aplicaciones Móviles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Renderizado de Listas y Renderizado Condicional"
+              "title": "Desarrollo de Aplicaciones Móviles"
             }
           }
         ]
@@ -367,23 +367,25 @@
   },
   "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
-    "Programación/Frameworks/React/Reactividad y Estados.md",
+    "Programación/Frameworks/puntoNET",
+    "Programación/Frameworks/Sin título.md",
+    "Programación/Frameworks/Desarrollo Móvil/Desarrollo de Aplicaciones Móviles.md",
+    "Programación/Frameworks/Angular/Servicios.md",
+    "Programación/Frameworks/Angular/Routing.md",
+    "Programación/Frameworks/Angular/Componentes Ciclo de Vida.md",
+    "Programación/Frameworks/Angular/Binding y Eventos.md",
+    "Programación/Frameworks/Renderizado de Listas y Renderizado Condicional.md",
+    "Programación/Frameworks/Reactividad y Estados.md",
     "Programación/Frameworks/React/React.md",
     "Programación/Frameworks/Props.md",
-    "Programación/Frameworks/Angular/Componentes Ciclo de Vida.md",
     "Programación/Frameworks/Otras Tecnologías",
-    "Programación/Frameworks/Sin título.md",
     "Programación/Frameworks/Desarrollo Móvil",
     "Programación/Frameworks/Vue",
     "Programación/Frameworks/Vue/Vue.md",
-    "Programación/Frameworks/Renderizado de Listas y Renderizado Condicional.md",
     "Programación/Frameworks/Otras Tecnologías/puntoNET.md",
     "Programación/Frameworks/Frameworks.md",
     "Programación/Frameworks/Otras Tecnologías/Electron.md",
-    "Programación/Frameworks/Desarrollo Móvil/Desarrollo de Aplicaciones Móviles.md",
     "Programación/Frameworks/Desarrollo Móvil/React Native.md",
-    "Programación/Frameworks/Angular/Servicios.md",
-    "Programación/Frameworks/Angular/Routing.md",
     "Programación/Frameworks/Componentes.md",
     "Redes/Gateway.md",
     "Programación/Frameworks/React",
@@ -391,7 +393,6 @@
     "Programación/Backend/Backend.md",
     "Programación/Backend/APIs/APIs REST",
     "Programación/Backend",
-    "Programación/Frameworks/Angular/Binding y Eventos.md",
     "Programación/Frameworks/Angular",
     "Programación/Backend/APIs/APIs REST/Arquitectura REST.md",
     "Programación/Backend/APIs/APIs REST/APIs REST.md",
