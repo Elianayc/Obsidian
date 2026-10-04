@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Frameworks/Vue.md",
+                "file": "Programación/Backend/Backend.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vue"
+              "title": "Backend"
             }
           }
         ]
@@ -365,8 +365,11 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "f280a768380c45df",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
+    "Programación/Backend/APIs/Gateway.md",
+    "Programación/Frameworks/Vue.md",
+    "Programación/Backend",
     "Programación/Frameworks/Servicios.md",
     "Programación/Frameworks/Routing.md",
     "Programación/Frameworks/Renderizado de Listas y Renderizado Condicional.md",
@@ -381,19 +384,17 @@
     "Programación/Frameworks/Componentes.md",
     "Programación/Frameworks/Binding y Eventos.md",
     "Programación/Frameworks/Angular/Ciclo de Vida de los Componentes.md",
-    "Programación/APIs/Conceptos/Gateway.md",
     "Programación/Frameworks/Angular",
-    "Programación/APIs/Conceptos/Backend.md",
-    "Programación/APIs/Conceptos/Arquitectura REST.md",
-    "Programación/APIs/Conceptos/APIs REST.md",
+    "Programación/Backend/Backend.md",
+    "Programación/Backend/APIs/Arquitectura REST.md",
+    "Programación/Backend/APIs/APIs REST.md",
     "Programación/Backend/Conceptos/API REST.md",
-    "Programación/APIs/Conceptos/APIs.md",
+    "Programación/Backend/APIs/APIs.md",
     "Programación/Backend/Conceptos/APIs (Interfaces de programación de aplicaciones).md",
     "Programación/Frameworks/Angular/Angular.md",
     "componente.md",
-    "Programación/APIs/Diseño de API REST/Versionado de APIs REST.md",
-    "Programación/APIs/Diseño de API REST/Recursos y URLs.md",
-    "Programación/APIs/Diseño de API REST/Diseño de APIs REST.md",
+    "Programación/Backend/APIs/Diseño de API REST/Versionado de APIs REST.md",
+    "Programación/Backend/APIs/Diseño de API REST/Recursos y URLs.md",
     "Programación/Python",
     "Programación/C Sharp",
     "Programación/C",
@@ -403,7 +404,6 @@
     "Programación/SOLID",
     "Programación/Patrones de Diseño",
     "Z_Imágenes/solid.png",
-    "Programación/APIs/Seguridad de APIs",
     "Z_Imágenes/Pasted image 20260915234240.png",
     "Z_Imágenes/Pasted image 20260915224623.png",
     "Z_Imágenes/Pasted image 20260913191929.png",
