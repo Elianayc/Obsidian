@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Backend/Seguridad de APIs/Validación de Inputs.md",
+                "file": "Programación/Frameworks/Vue.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Validación de Inputs"
+              "title": "Vue"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cliente servidor",
+                "query": "joi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -83,7 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 351.5
   },
   "right": {
     "id": "2f945f7dcf9efb3e",
@@ -367,32 +367,33 @@
   },
   "active": "f280a768380c45df",
   "lastOpenFiles": [
-    "Programación/Backend/Seguridad de APIs/CORS.md",
-    "Programación/Backend/Seguridad de APIs/Seguridad de APIs REST.md",
-    "Programación/Backend/Conceptos/APIs REST.md",
-    "Programación/Backend/Diseño de API REST/Diseño de APIs REST.md",
-    "Programación/Backend/Diseño de API REST/Versionado de APIs REST.md",
-    "Programación/Backend/Diseño de API REST/Idempotencia.md",
-    "Redes/HTTP (HyperText Transfer Protocol).md",
-    "Programación/Backend/Diseño de API REST/Recursos y URLs.md",
-    "Programación/Backend/Conceptos/Arquitectura REST.md",
-    "Programación/Backend/Conceptos/Backend.md",
-    "Programación/Backend/Conceptos/Gateway.md",
-    "Programación/Backend/Conceptos/APIs.md",
-    "Redes/World Wide Web (WWW).md",
-    "Arquitectura de Sistemas/Modelo Cliente - Servidor.md",
-    "Programación/Frameworks/Reactividad y Estados.md",
-    "Programación/Frameworks/Componentes.md",
-    "Programación/Frameworks/Binding y Eventos.md",
-    "Programación/Frameworks/Props.md",
-    "Programación/Frameworks/Ciclo de Vida de los Componentes.md",
+    "Programación/Frameworks/Servicios.md",
     "Programación/Frameworks/Routing.md",
     "Programación/Frameworks/Renderizado de Listas y Renderizado Condicional.md",
-    "Programación/Frameworks/Angular.md",
+    "Programación/Frameworks/Reactividad y Estados.md",
+    "Programación/Frameworks/React Native.md",
+    "Programación/Frameworks/React.md",
+    "Programación/Frameworks/puntoNET.md",
+    "Programación/Frameworks/Props.md",
+    "Programación/Frameworks/Frameworks.md",
+    "Programación/Frameworks/Electron.md",
+    "Programación/Frameworks/Desarrollo de Aplicaciones Móviles.md",
+    "Programación/Frameworks/Componentes.md",
+    "Programación/Frameworks/Binding y Eventos.md",
+    "Programación/Frameworks/Angular/Ciclo de Vida de los Componentes.md",
+    "Programación/APIs/Conceptos/Gateway.md",
+    "Programación/Frameworks/Angular",
+    "Programación/APIs/Conceptos/Backend.md",
+    "Programación/APIs/Conceptos/Arquitectura REST.md",
+    "Programación/APIs/Conceptos/APIs REST.md",
+    "Programación/Backend/Conceptos/API REST.md",
+    "Programación/APIs/Conceptos/APIs.md",
+    "Programación/Backend/Conceptos/APIs (Interfaces de programación de aplicaciones).md",
+    "Programación/Frameworks/Angular/Angular.md",
     "componente.md",
-    "Programación/Backend/Seguridad de APIs/JWT (JSON Web Token).md",
-    "Programación/Backend/Seguridad de APIs/Autenticación y Autorización.md",
-    "Programación/Backend/Seguridad de APIs/Basic Authentication.md",
+    "Programación/APIs/Diseño de API REST/Versionado de APIs REST.md",
+    "Programación/APIs/Diseño de API REST/Recursos y URLs.md",
+    "Programación/APIs/Diseño de API REST/Diseño de APIs REST.md",
     "Programación/Python",
     "Programación/C Sharp",
     "Programación/C",
@@ -402,8 +403,7 @@
     "Programación/SOLID",
     "Programación/Patrones de Diseño",
     "Z_Imágenes/solid.png",
-    "Programación/Backend/Seguridad de APIs",
-    "Programación/Backend/Diseño de API REST",
+    "Programación/APIs/Seguridad de APIs",
     "Z_Imágenes/Pasted image 20260915234240.png",
     "Z_Imágenes/Pasted image 20260915224623.png",
     "Z_Imágenes/Pasted image 20260913191929.png",
