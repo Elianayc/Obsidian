@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Frameworks/Angular/Ciclo de Vida de los Componentes.md",
+                "file": "Programación/Frameworks/Angular/Componentes Ciclo de Vida.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ciclo de Vida de los Componentes"
+              "title": "Componentes Ciclo de Vida"
             }
           }
         ]
@@ -365,21 +365,23 @@
       "publish:Publicar cambios...": false
     }
   },
-  "active": "f280a768380c45df",
+  "active": "0e9030dc06c1f8db",
   "lastOpenFiles": [
+    "Programación/Frameworks/Sin nombre",
+    "Programación/Frameworks/Vue",
     "Programación/Frameworks/Vue.md",
-    "Programación/Frameworks/Renderizado de Listas y Renderizado Condicional.md",
-    "Programación/Frameworks/Reactividad y Estados.md",
+    "Programación/Frameworks/React/Renderizado de Listas y Renderizado Condicional.md",
+    "Programación/Frameworks/React/Reactividad y Estados.md",
     "Programación/Frameworks/puntoNET.md",
-    "Programación/Frameworks/Props.md",
+    "Programación/Frameworks/React/Props.md",
     "Programación/Frameworks/Frameworks.md",
     "Programación/Frameworks/Electron.md",
     "Programación/Frameworks/Desarrollo de Aplicaciones Móviles.md",
-    "Programación/Frameworks/React/React Native.md",
+    "Programación/Frameworks/React Native.md",
     "Programación/Frameworks/Angular/Servicios.md",
     "Programación/Frameworks/Angular/Routing.md",
     "Programación/Frameworks/Angular/Componentes.md",
-    "Programación/Frameworks/Angular/Ciclo de Vida de los Componentes.md",
+    "Programación/Frameworks/Angular/Componentes Ciclo de Vida.md",
     "Redes/Gateway.md",
     "Programación/Frameworks/React",
     "Programación/Lenguajes",
@@ -387,7 +389,7 @@
     "Programación/Backend/APIs/APIs REST",
     "Programación/Backend",
     "Programación/Frameworks/React/React.md",
-    "Programación/Frameworks/Binding y Eventos.md",
+    "Programación/Frameworks/Angular/Binding y Eventos.md",
     "Programación/Frameworks/Angular",
     "Programación/Backend/APIs/APIs REST/Arquitectura REST.md",
     "Programación/Backend/APIs/APIs REST/APIs REST.md",
@@ -401,7 +403,6 @@
     "Programación/Lenguajes/C Sharp",
     "Programación/Lenguajes/C",
     "Programación/Estructuras de Datos",
-    "Programación/Fundamentos de Programación",
     "Z_Imágenes/solid.png",
     "Z_Imágenes/Pasted image 20260915234240.png",
     "Z_Imágenes/Pasted image 20260915224623.png",
