@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Frameworks/Reactividad y Estados.md",
-                "mode": "preview",
+                "file": "Programación/Frameworks/Angular/Ciclo de Vida de los Componentes.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reactividad y Estados"
+              "title": "Ciclo de Vida de los Componentes"
             }
           }
         ]
@@ -367,6 +367,9 @@
   },
   "active": "f280a768380c45df",
   "lastOpenFiles": [
+    "Programación/Frameworks/Vue.md",
+    "Programación/Frameworks/Renderizado de Listas y Renderizado Condicional.md",
+    "Programación/Frameworks/Reactividad y Estados.md",
     "Programación/Frameworks/puntoNET.md",
     "Programación/Frameworks/Props.md",
     "Programación/Frameworks/Frameworks.md",
@@ -382,12 +385,9 @@
     "Programación/Lenguajes",
     "Programación/Backend/Backend.md",
     "Programación/Backend/APIs/APIs REST",
-    "Programación/Frameworks/Vue.md",
     "Programación/Backend",
-    "Programación/Frameworks/Renderizado de Listas y Renderizado Condicional.md",
-    "Programación/Frameworks/Reactividad y Estados.md",
     "Programación/Frameworks/React/React.md",
-    "Programación/Frameworks/Angular/Binding y Eventos.md",
+    "Programación/Frameworks/Binding y Eventos.md",
     "Programación/Frameworks/Angular",
     "Programación/Backend/APIs/APIs REST/Arquitectura REST.md",
     "Programación/Backend/APIs/APIs REST/APIs REST.md",
