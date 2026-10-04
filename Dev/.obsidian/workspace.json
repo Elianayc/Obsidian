@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programación/Frameworks/Angular/Routing.md",
+                "file": "Programación/Frameworks/Angular/Angular.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Routing"
+              "title": "Angular"
             }
           }
         ]
@@ -367,17 +367,17 @@
   },
   "active": "f280a768380c45df",
   "lastOpenFiles": [
+    "Programación/Frameworks/Desarrollo Móvil/Desarrollo de Aplicaciones Móviles.md",
+    "Programación/Frameworks/Servicios.md",
+    "Programación/Frameworks/Routing.md",
     "Programación/Frameworks/Componentes - Ciclo de Vida.md",
     "Programación/Frameworks/Binding y Eventos.md",
     "Programación/Frameworks/Angular/Angular.md",
-    "Programación/Frameworks/Angular/Routing.md",
-    "Programación/Frameworks/Angular/Servicios.md",
     "Programación/Frameworks/Renderizado de Listas y Renderizado Condicional.md",
     "Programación/Frameworks/Reactividad y Estados.md",
     "Programación/Frameworks/Props.md",
     "Programación/Frameworks/Frameworks.md",
     "Programación/Frameworks/Componentes.md",
-    "Programación/Frameworks/Desarrollo Móvil/Desarrollo de Aplicaciones Móviles.md",
     "Programación/Frameworks/puntoNET",
     "Programación/Frameworks/Sin título.md",
     "Programación/Frameworks/React/React.md",

@@ -9,7 +9,7 @@ Permite:
 - Compartir enlaces a pantallas específicas.
 - Utilizar correctamente el botón **Atrás** del navegador.
 - Mantener una ruta específica al recargar la página.
-    
+
 
 ### Conceptos principales
 
