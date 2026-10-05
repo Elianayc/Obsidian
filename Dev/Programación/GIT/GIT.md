@@ -501,7 +501,7 @@ git tag
 - [[Git Rebase]]
 - [[Deshacer Cambios en Git]]
 - [[Gitignore]]
-- [[Tags]]
+- [[Tags en Git]]
     
 ---
 

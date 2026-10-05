@@ -58,13 +58,9 @@ Puede utilizarse para evitar versionar:
 - Dependencias instaladas.
 - Archivos temporales.
 - Logs.
-   
 - Configuraciones locales.
-    
 - Archivos generados automáticamente.
-    
 - Determinada información sensible.
-    
 
 ---
 
@@ -159,3 +155,5 @@ git check-ignore -v
 ```
 
 Ver también [[Git]] y [[Estados y Staging]].
+
+---
