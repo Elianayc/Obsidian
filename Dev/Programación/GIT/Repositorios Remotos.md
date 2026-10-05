@@ -266,6 +266,6 @@ origin/main
 → referencia del main remoto
 ```
 
-Ver también [[Git]], [[Ramas y Merge]] y [[Conflictos en Git]].
+Ver también [[GIT]], [[Ramas y Merge]] y [[Conflictos en Git]].
 
 ---

@@ -279,6 +279,6 @@ git rebase --abort
 → cancelar
 ```
 
-Ver también [[Historial]], [[Conflictos]] y [[Deshacer Cambios en Git]].
+Ver también [[Historial de Git]], [[Conflictos en Git]] y [[Deshacer Cambios en Git]].
 
 ---

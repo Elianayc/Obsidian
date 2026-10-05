@@ -205,6 +205,6 @@ git push --force-with-lease
 → actualizar remoto después de reescribir historial
 ```
 
-Ver también [[Estados y Staging]], [[Rebase]] y [[Historial de Git]].
+Ver también [[Estados y Staging]], [[Git Rebase]] y [[Historial de Git]].
 
 ---

@@ -154,6 +154,6 @@ git check-ignore -v
 → comprobar qué regla ignora una ruta
 ```
 
-Ver también [[Git]] y [[Estados y Staging]].
+Ver también [[GIT]] y [[Estados y Staging]].
 
 ---

@@ -182,6 +182,6 @@ git push --tags
 → subir todos los tags
 ```
 
-Ver también [[Git]], [[Historial de Git]] y [[Commits]].
+Ver también [[GIT]], [[Historial de Git]] y [[Commits]].
 
 ---
