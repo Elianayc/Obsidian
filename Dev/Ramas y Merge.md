@@ -242,6 +242,6 @@ git merge rama
 → traer esa rama a mi rama actual
 ```
 
-Ver también [[Git]], [[Conflictos en Git]], [[Repositorios Remotos]] y [[Rebase]].
+Ver también [[Git]], [[Conflictos en Git]], [[Repositorios Remotos]] y [[Git Rebase]].
 
 ---

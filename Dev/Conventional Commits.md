@@ -227,7 +227,7 @@ En proyectos reales o TPs es más útil utilizar mensajes descriptivos:
 feat(journey): agregar endpoint de recorrido actual
 ```
 
-Ver también [[GIT]], [[Historial de Git]] y [[Rebase]].
+Ver también [[GIT]], [[Historial de Git]] y [[Git Rebase]].
 
 ---
 

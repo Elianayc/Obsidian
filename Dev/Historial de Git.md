@@ -180,6 +180,6 @@ hash
 → identificador de un commit
 ```
 
-Ver también [[Commits]], [[Ramas y Merge]], [[Rebase]] y [[Deshacer Cambios]].
+Ver también [[Commits]], [[Ramas y Merge]], [[Git Rebase]] y [[Deshacer Cambios]].
 
 ---

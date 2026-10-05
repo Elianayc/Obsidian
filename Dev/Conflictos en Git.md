@@ -19,13 +19,9 @@ Git no sabe cuál conservar
 Pueden aparecer durante operaciones como:
 
 - `merge`
-    
 - `pull`
-    
 - `rebase`
-    
 - `stash pop`
-    
 
 No significa que Git esté roto.
 
@@ -67,13 +63,9 @@ Hay que editar manualmente el archivo y decidir cómo debe quedar.
 Podemos:
 
 - Conservar nuestra versión.
-    
 - Conservar la otra.
-    
 - Combinar ambas.
-    
 - Escribir una nueva versión.
-    
 
 Después debemos eliminar las marcas:
 
@@ -171,4 +163,6 @@ git rebase --abort
 → cancelar el rebase
 ```
 
-Ver también [[Ramas y Merge]], [[Rebase]] y [[Repositorios Remotos]].
+Ver también [[Ramas y Merge]], [[Git Rebase]] y [[Repositorios Remotos]].
+
+---
