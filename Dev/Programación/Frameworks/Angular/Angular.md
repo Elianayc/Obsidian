@@ -1,120 +1,203 @@
-**Angular** es un **framework de desarrollo web** basado en **[[Typescript]]**, desarrollado por Google.
-Se utiliza principalmente para crear aplicaciones **Frontend completas, estructuradas y escalables**, especialmente aplicaciones de una sola página (**SPA**).
+**Angular** es un framework de desarrollo Frontend basado en [[Typescript]] y desarrollado por Google.
+
+Permite construir aplicaciones web mediante una arquitectura basada en **componentes**.
 
 ---
 
-## Características principales
+## Conceptos principales
 
-- Arquitectura basada en **componentes**.
-- Utiliza **TypeScript**.
-- Los componentes encapsulan **estructura, lógica y estilo** de una parte de la interfaz.
-- Utiliza **`@Component`** para definir componentes.
-- Permite recibir datos desde un componente padre mediante **`@Input()`**.
-- Permite **renderizar listas** mediante herramientas como `*ngFor`.
-- Permite **renderizado condicional** mediante `*ngIf`.
-- Incluye un sistema de **routing** para navegar entre diferentes vistas sin recargar la página.
-- Permite manejar **formularios**.
-- Permite realizar **solicitudes HTTP** para comunicarse con APIs del Backend.
-- Facilita la creación de aplicaciones **SPA (Single Page Application)**.
-- Proporciona una estructura definida para organizar aplicaciones grandes.
+Angular proporciona mecanismos para:
+
+- Crear componentes.
+- Comunicar componentes.
+- Realizar binding entre TypeScript y HTML.
+- Renderizar contenido dinámicamente.
+- Manejar eventos.
+- Crear servicios.
+- Navegar mediante rutas.
+- Comunicarse mediante HTTP.
+- Trabajar con asincronismo y Observables.
+
+---
+
+## Estructura básica
+
+Una aplicación Angular puede pensarse inicialmente de esta forma:
+
+```
+index.html
+    ↓
+<app-root>
+    ↓
+AppComponent
+    ↓
+otros componentes
+```
+
+El navegador carga `index.html`.
+
+Angular inicia la aplicación y monta el componente principal dentro de su **selector**.
+
+Por ejemplo:
+
+```
+@Component({
+  selector: 'app-root'
+})
+export class AppComponent {}
+```
+
+El selector:
+
+```
+app-root
+```
+
+permite utilizar el componente en HTML:
+
+```
+<app-root></app-root>
+```
 
 ---
 
 ## Componentes
 
-Un [[Componentes|componente]] Angular es una unidad reutilizable de la interfaz que encapsula **estructura, lógica y opcionalmente estilos**.
+Los componentes representan partes de la interfaz.
 
-Se define mediante el decorador `@Component`.
-
-```typescript
-@Component({
-  selector: 'app-mensaje',
-  template: `
-    <div class="mensaje">
-      <span>{{ autor }}</span>
-      <p>{{ contenido }}</p>
-    </div>
-  `
-})
-export class MensajeComponent {
-  @Input() autor: string = '';
-  @Input() contenido: string = '';
-}
-```
+Ver [[Componentes en Angular]].
 
 ---
 
 ## Comunicación entre componentes
 
-Los datos pueden pasar de un componente **padre a un hijo** mediante `@Input()`.
+Angular permite comunicar componentes padres e hijos mediante:
 
-El flujo es **unidireccional**:
+- `@Input()`
+- `@Output()`
+- `EventEmitter`
+- Property binding `[ ]`
+- Event binding `( )`
 
-```typescript
-Componente padre
-      ↓
-   @Input()
-      ↓
-Componente hijo
-```
-
-El componente hijo no debería modificar directamente los datos recibidos. Para comunicar información hacia el padre se utilizan **eventos**.
+Ver [[Comunicación entre Componentes en Angular]].
 
 ---
 
-## Renderizado
+## Binding
 
-Angular permite generar contenido dinámicamente.
+Angular utiliza distintas sintaxis:
 
-- **Listas:** `*ngFor`
-- **Condicionales:** `*ngIf`
+```
+{{ }}  → interpolación
 
-Por ejemplo:
+[ ]     → property binding
 
-```typescript
-<div *ngIf="cargando">
-  Cargando...
-</div>
+( )     → event binding
+
+[()]    → two-way binding
 ```
 
-Para listas:
+### Interpolación
 
-```typescript
-<app-mensaje
-  *ngFor="let msg of mensajes"
-  [autor]="msg.autor"
-  [contenido]="msg.contenido">
-</app-mensaje>
 ```
+<p>{{ nombre }}</p>
+```
+
+Muestra en HTML el valor de una propiedad del componente.
+
+### Property binding
+
+```
+<button [disabled]="cargando">
+```
+
+TypeScript proporciona un valor a una propiedad.
+
+### Event binding
+
+```
+<button (click)="guardar()">
+```
+
+El evento de la interfaz ejecuta una función.
+
+### Two-way binding
+
+```
+<input [(ngModel)]="nombre">
+```
+
+Permite sincronizar el dato en ambas direcciones.
+
+---
+
+## Directivas
+
+Angular proporciona directivas que modifican el comportamiento o renderizado del HTML.
+
+Ver [[Directivas en Angular]].
+
+---
+
+## Ciclo de vida
+
+Los componentes Angular poseen hooks como:
+
+```
+ngOnInit
+ngOnChanges
+ngOnDestroy
+```
+
+Ver [[Ciclo de Vida en Angular]].
+
+---
+
+## Servicios
+
+Angular utiliza servicios para separar lógica de los componentes.
+
+Ver [[Servicios en Angular]].
 
 ---
 
 ## Routing
 
-Angular incluye un sistema de **routing** que permite asociar URLs con componentes y navegar entre vistas sin recargar toda la página.
+Angular incluye su propio sistema de routing.
 
-Ejemplo:
-
-```typescript
-const routes: Routes = [
-  { path: 'login', component: LoginComponent },
-  { path: 'chat', component: ChatComponent },
-  { path: 'chat/:id', component: ConversacionComponent }
-];
-```
-
-Los parámetros de ruta permiten utilizar valores dinámicos, por ejemplo:
-
-```typescript
-/chat/42
-```
-
-donde `42` podría ser el identificador de una conversación.
+Ver [[Routing en Angular]].
 
 ---
 
-## Ejemplo
+## HTTP y Observables
 
-Una aplicación empresarial puede utilizar Angular para crear las distintas **pantallas, componentes, formularios y navegación**, además de comunicarse con las **APIs del Backend** mediante solicitudes HTTP.
+Los servicios Angular pueden utilizar `HttpClient` para realizar solicitudes HTTP.
+
+`HttpClient` trabaja normalmente con **Observables**.
+
+Ver [[RxJS y Observables en Angular]].
 
 ---
+
+## Esquema general
+
+```
+USUARIO
+   ↓
+COMPONENTE
+   ↓
+SERVICIO ANGULAR
+   ↓
+BACKEND
+   ↓
+API / BASE DE DATOS
+```
+
+El componente se ocupa principalmente de la interfaz.
+
+El servicio Angular permite separar la comunicación y lógica reutilizable.
+
+El Backend procesa las solicitudes del Frontend y puede comunicarse con otros sistemas.
+
+---
+

@@ -8,45 +8,38 @@ Su objetivo es ofrecer una **base predefinida** sobre la cual construir una apli
 
 Con **HTML, CSS y JavaScript puro** se pueden construir interfaces web, pero a medida que una aplicación crece aparecen problemas:
 
-- El **DOM debe actualizarse manualmente** cuando cambian los datos.
-    
-- La lógica, la presentación y la manipulación del DOM pueden terminar mezcladas.
-    
-- Reutilizar partes de la interfaz puede implicar copiar y pegar código.
-    
-- Mantener sincronizados los datos con lo que se muestra se vuelve más difícil de controlar.
+- El DOM debe actualizarse manualmente cuando cambian los datos.
+- La lógica y la presentación pueden terminar mezcladas.
+- Reutilizar partes de la interfaz puede implicar repetir código.
+- Mantener sincronizados los datos con lo que se muestra se vuelve más complejo.
     
 
-Los frameworks ayudan a solucionar estos problemas proporcionando:
+Los frameworks proporcionan mecanismos para organizar estas responsabilidades.
 
-- **Estructura:** una forma organizada de distribuir el código.
-    
-- **[[Componentes]]:** elementos reutilizables que permiten dividir la aplicación.
-    
-- **Reactividad:** actualización automática de la interfaz cuando cambian los datos, especialmente en frameworks de frontend.
-    
-- **Convenciones:** reglas y formas recomendadas de trabajar.
-    
-- **Herramientas:** funcionalidades que simplifican tareas habituales.
-    
-- **Mantenibilidad:** facilitan que proyectos grandes puedan evolucionar de manera organizada.
-    
+Entre los conceptos más habituales se encuentran:
 
+- [[Componentes]]
+- [[Ciclo de Vida de Componentes]]
+- [[Props]]
+- [[Binding y Eventos]]
+- [[Reactividad y Estado]]
+- [[Renderizado]]
+- [[Routing]]
+- [[Servicios]]
+    
 ---
 
 ## Frameworks de Frontend
 
-Los frameworks de frontend permiten construir interfaces web mediante **componentes reutilizables**, manejar datos y actualizar la interfaz de forma reactiva.
+Los frameworks de Frontend permiten construir interfaces mediante **componentes reutilizables**, manejar datos y actualizar la interfaz cuando esos datos cambian.
 
-Entre las tecnologías utilizadas para este propósito se encuentran:
+Entre las principales tecnologías se encuentran:
 
-- [[Angular]] → framework de frontend desarrollado por Google.
-    
-- [[React]]→ biblioteca de JavaScript para construir interfaces mediante componentes.
-    
-- [[Vue]] → framework progresivo de JavaScript para construir interfaces.
-    
+- [[Angular]] → framework desarrollado por Google basado en TypeScript.
+- [[React]] → biblioteca de JavaScript desarrollada por Meta.
+- [[Vue]] → framework progresivo de JavaScript.
 
-> **Nota:** React suele estudiarse junto con Angular y Vue como tecnología de frontend, aunque técnicamente React es una **biblioteca (library)**, mientras que Angular y Vue se consideran frameworks.
+> React suele estudiarse junto con Angular y Vue porque los tres permiten construir aplicaciones Frontend basadas en componentes, aunque técnicamente React es una **biblioteca** y no un framework completo.
 
-----
+---
+
