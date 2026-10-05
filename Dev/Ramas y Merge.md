@@ -22,7 +22,7 @@ main
                     feature/r7
                           │
                           ├── commit
-                           └── commit
+                         └── commit
 ```
 
 Por ejemplo, podemos desarrollar una funcionalidad R7 en:
@@ -217,7 +217,7 @@ git branch
 
 # Si hay conflictos
 
-Si Git no puede combinar automáticamente los cambios, aparece un [[Conflictos|conflicto]].
+Si Git no puede combinar automáticamente los cambios, aparece un [[Conflictos en Git|conflicto]].
 
 Hay que resolverlo antes de terminar la integración.
 
@@ -242,4 +242,6 @@ git merge rama
 → traer esa rama a mi rama actual
 ```
 
-Ver también [[Git]], [[Conflictos]], [[Repositorios Remotos]] y [[Rebase]].
+Ver también [[Git]], [[Conflictos en Git]], [[Repositorios Remotos]] y [[Rebase]].
+
+---

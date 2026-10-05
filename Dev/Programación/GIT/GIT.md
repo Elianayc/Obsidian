@@ -496,7 +496,7 @@ git tag
 - [[Historial de Git]]
 - [[Ramas y Merge]]
 - [[Repositorios Remotos]]
-- [[Conflictos]]
+- [[Conflictos en Git]]
 - [[Stash]]
 - [[Rebase]]
 - [[Deshacer Cambios]]
