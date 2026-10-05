@@ -1,4 +1,3 @@
-
 Un **tag** permite asignar un nombre a un punto específico del historial.
 
 Se utiliza habitualmente para marcar:
@@ -182,6 +181,6 @@ git push --tags
 → subir todos los tags
 ```
 
-Ver también [[GIT]], [[Historial de Git]] y [[Commits]].
+Ver también [[Git]], [[Historial de Git]] y [[Commits]].
 
 ---

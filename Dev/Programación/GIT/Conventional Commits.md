@@ -152,7 +152,6 @@ refactor(auth): simplificar validación
 
 # Machete de Conventional Commits
 
-```
 feat      → nueva funcionalidad
 fix       → corregir error
 refactor  → reorganizar código
@@ -162,7 +161,6 @@ test      → tests
 chore     → mantenimiento
 build     → build/dependencias
 ci        → integración continua
-```
 
 ---
 
@@ -227,7 +225,7 @@ En proyectos reales o TPs es más útil utilizar mensajes descriptivos:
 feat(journey): agregar endpoint de recorrido actual
 ```
 
-Ver también [[GIT]], [[Historial de Git]] y [[Git Rebase]].
+Ver también [[Git]], [[Historial de Git]] y [[Git Rebase]].
 
 ---
 
