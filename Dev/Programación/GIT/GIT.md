@@ -492,28 +492,17 @@ git tag
 # Temas relacionados
 
 - [[Estados y Staging]]
-    
 - [[Commits]]
-    
 - [[Historial]]
-    
 - [[Ramas y Merge]]
-    
 - [[Repositorios Remotos]]
-    
 - [[Conflictos]]
-    
 - [[Stash]]
-    
 - [[Rebase]]
-    
 - [[Deshacer Cambios]]
-    
 - [[Gitignore]]
-    
 - [[Tags]]
     
-
 ---
 
 # Idea principal
@@ -539,3 +528,5 @@ GITHUB
 ```
 
 A partir de este flujo aparecen las demás herramientas de Git para manejar ramas, trabajo en equipo, conflictos, historial y correcciones.
+
+---
