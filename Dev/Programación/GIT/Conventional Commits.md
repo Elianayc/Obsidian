@@ -152,15 +152,17 @@ refactor(auth): simplificar validación
 
 # Machete de Conventional Commits
 
-feat      → nueva funcionalidad
-fix       → corregir error
-refactor  → reorganizar código
-docs      → documentación
-style     → formato
-test      → tests
-chore     → mantenimiento
-build     → build/dependencias
-ci        → integración continua
+| Tipo       | Cuándo lo usarías en tu TP                                                            | Ejemplo de commit                                            |
+| ---------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| `feat`     | Agregaste algo que antes el sistema no hacía.                                         | `feat(journey): agregar endpoint de recorrido actual`        |
+| `fix`      | Algo debía funcionar y estaba funcionando mal.                                        | `fix(journey): corregir carga de encuentros`                 |
+| `refactor` | El código ya funcionaba y lo reorganizaste sin cambiar lo que hace.                   | `refactor(journey): simplificar obtención del equipo actual` |
+| `docs`     | Tocaste solamente documentación.                                                      | `docs: actualizar README con instrucciones de ejecución`     |
+| `style`    | Solo cambiaste formato del código, sin cambiar su funcionamiento.                     | `style: aplicar Prettier al frontend`                        |
+| `test`     | Agregaste o modificaste pruebas.                                                      | `test(journey): agregar tests del servicio`                  |
+| `chore`    | Hiciste mantenimiento/configuración que no agrega una función al usuario.             | `chore: actualizar configuración del proyecto`               |
+| `build`    | Cambiaste dependencias o configuración necesaria para construir/ejecutar el proyecto. | `build(frontend): agregar dependencia de Angular`            |
+| `ci`       | Configuraste automatizaciones del repositorio.                                        | `ci: agregar workflow de GitHub Actions`                     |
 
 ---
 
