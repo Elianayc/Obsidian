@@ -16,7 +16,7 @@ COMPONENTE
 
 Las rutas pueden definirse mediante un arreglo de tipo `Routes`.
 
-```
+```typescript
 export const routes: Routes = [
   { path: 'one', component: ComponentOneComponent },
   { path: 'two', component: ComponentTwoComponent }
@@ -27,7 +27,6 @@ Cada objeto relaciona un `path` con un componente.
 
 ```
 /one → ComponentOneComponent
-
 /two → ComponentTwoComponent
 ```
 
@@ -35,7 +34,7 @@ Cada objeto relaciona un `path` con un componente.
 
 ## Redirección
 
-```
+```typescript
 {
   path: '',
   pathMatch: 'full',
@@ -49,7 +48,7 @@ Indica que cuando la ruta está vacía se debe redirigir a `/one`.
 
 ## Wildcard
 
-```
+```typescript
 {
   path: '**',
   redirectTo: '/one'
@@ -66,7 +65,7 @@ Puede utilizarse como ruta de respaldo.
 
 `router-outlet` indica dónde debe mostrar Angular el componente correspondiente a la ruta activa.
 
-```
+```html
 <router-outlet></router-outlet>
 ```
 
@@ -88,7 +87,7 @@ AppComponent
 
 Permite navegar directamente desde el HTML.
 
-```
+```html
 <a routerLink="/one">Ir a One</a>
 ```
 
@@ -107,13 +106,13 @@ routerLink
 
 Por ejemplo:
 
-```
+```typescript
 constructor(private router: Router) {}
 ```
 
 y posteriormente:
 
-```
+```typescript
 irAOne() {
   this.router.navigate(['/one']);
 }
@@ -121,7 +120,7 @@ irAOne() {
 
 El HTML puede llamar a esa función:
 
-```
+```html
 <button (click)="irAOne()">Ir a One</button>
 ```
 
@@ -143,7 +142,7 @@ router.navigate()
 
 ### `routerLink`
 
-```
+```html
 <a routerLink="/one">
 ```
 
@@ -151,7 +150,7 @@ Se utiliza cuando la navegación puede definirse directamente en HTML.
 
 ### `router.navigate()`
 
-```
+```typescript
 this.router.navigate(['/one']);
 ```
 
@@ -164,11 +163,8 @@ Esto permite ejecutar lógica antes de navegar.
 ## Machete
 
 ```
-routerLink
-= navegación desde HTML
-
-router.navigate()
-= navegación desde TypeScript
+routerLink = navegación desde HTML
+router.navigate() = navegación desde TypeScript
 ```
 
 ---
