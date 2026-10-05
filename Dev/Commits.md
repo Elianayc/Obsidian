@@ -113,8 +113,8 @@ git config --show-origin --get user.name
 git config --show-origin --get user.email
 ```
 
----
 
 Ver [[Conventional Commits]]
 
 ---
+

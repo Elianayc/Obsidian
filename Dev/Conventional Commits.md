@@ -1,5 +1,3 @@
-# Conventional Commits
-
 **Conventional Commits** es una convención para escribir mensajes de commits de manera consistente.
 
 Estructura:
@@ -173,14 +171,10 @@ ci        → integración continua
 Un mensaje debería ser:
 
 - Breve.
-    
 - Específico.
-    
 - Fácil de entender.
-    
 - Relacionado con un cambio concreto.
     
-
 Evitar:
 
 ```
