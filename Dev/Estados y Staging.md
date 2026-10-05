@@ -66,15 +66,10 @@ Permite consultar el estado actual del repositorio.
 Puede mostrar:
 
 - Archivos modificados.
-    
 - Archivos preparados.
-    
 - Archivos nuevos.
-    
 - Archivos eliminados.
-    
 - Rama actual.
-    
 - Estado respecto del remoto.
     
 
@@ -259,3 +254,5 @@ git diff --staged
 ```
 
 Ver también [[Git]], [[Commits]] y [[Deshacer Cambios]].
+
+---
