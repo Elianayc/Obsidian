@@ -499,7 +499,7 @@ git tag
 - [[Conflictos en Git]]
 - [[Git Stash]]
 - [[Git Rebase]]
-- [[Deshacer Cambios]]
+- [[Deshacer Cambios en Git]]
 - [[Gitignore]]
 - [[Tags]]
     

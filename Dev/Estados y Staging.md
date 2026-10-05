@@ -253,6 +253,6 @@ git diff --staged
 → ver cambios preparados
 ```
 
-Ver también [[Git]], [[Commits]] y [[Deshacer Cambios]].
+Ver también [[Git]], [[Commits]] y [[Deshacer Cambios en Git]].
 
 ---
