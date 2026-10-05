@@ -334,7 +334,7 @@ significa:
 2 commits antes de HEAD
 ```
 
-Ver [[Historial]].
+Ver [[Historial de Git]].
 
 ---
 
@@ -493,7 +493,7 @@ git tag
 
 - [[Estados y Staging]]
 - [[Commits]]
-- [[Historial]]
+- [[Historial de Git]]
 - [[Ramas y Merge]]
 - [[Repositorios Remotos]]
 - [[Conflictos]]
