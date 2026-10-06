@@ -19,7 +19,7 @@ Permite crear programas modulares, reutilizables y fáciles de mantener.
 - [[Polimorfismo]]
 - [[Principios S.O.L.I.D.]]
 - [[Patrones de Diseño]]
-- [[Interfaz]]
+- [[Programación/POO/# Interfaces]]
 
 ---
 
