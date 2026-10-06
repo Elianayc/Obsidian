@@ -81,3 +81,4 @@ significa:
 
 ---
 
+Ver [[Estados de un Control]]
