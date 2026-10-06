@@ -7,9 +7,9 @@ tags:
 Nos permiten controlar el flujo de ejecución del programa.
 Deben ser las condiciones expresiones lógicas de verdadero o falso.
 
-- [[Programación/Fundamentos de Programación/If]]
-- [[Programación/Fundamentos de Programación/If-else]]
-- [[Programación/Fundamentos de Programación/Switch]]
+- [[Programación/Fundamentos de Programación/If|If]]
+- [[Programación/Fundamentos de Programación/If-else|If-else]]
+- [[Switch]]
 
 #### Condicionales múltiples
 Podemos utilizar una condición que evalúe varias cosas.
