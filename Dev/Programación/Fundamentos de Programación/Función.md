@@ -67,4 +67,10 @@ No incluye el tipo de retorno en muchos lenguajes como C++ (esto depende del len
 > ```
 > 
 > 
-#Programación
+
+---
+
+Ver 
+- [[Funciones flecha]] 
+
+---
