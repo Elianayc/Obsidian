@@ -4,20 +4,74 @@ tags:
   - ProgramaciónI
   - ProgramaciónII
 ---
-Nos permiten controlar el flujo de ejecución del programa.
-Deben ser las condiciones expresiones lógicas de verdadero o falso.
+Las **estructuras de control** permiten controlar el flujo de ejecución de un programa.
 
-- [[Programación/Fundamentos de Programación/If|If]]
-- [[Programación/Fundamentos de Programación/If-else|If-else]]
+Las condiciones utilizadas en estas estructuras son **expresiones booleanas**, es decir, expresiones que al evaluarse producen `true` o `false`.
+
+## Estructuras condicionales
+
+Permiten ejecutar diferentes instrucciones dependiendo de si se cumple o no una condición.
+
+- [[If]]
+- [[If-else]]
 - [[Switch]]
 
-#### Condicionales múltiples
-Podemos utilizar una condición que evalúe varias cosas.
+---
 
-> [!example]
-> 	si(nota1>=6 Y nota2>=6 Y promedio>=6) entonces
+## Expresiones booleanas
 
-#### Anidando estructuras
-Todas las estructuras pueden combinarse y utilizarse en forma conjunta.
+Una condición produce un valor booleano:
 
-#Programación
+```typescript
+edad >= 18
+```
+
+El resultado de esa expresión será `true` o `false`.
+
+Por este motivo, una expresión booleana también puede devolverse directamente:
+
+```typescript
+return edad >= 18;
+```
+
+Esto equivale a:
+
+```typescript
+if (edad >= 18) {
+  return true;
+}
+
+return false;
+```
+
+---
+
+## Operadores lógicos
+
+Permiten combinar o negar expresiones booleanas.
+
+- `&&` → Y (AND)
+- `||` → O (OR)
+- `!` → NO (NOT)
+
+Ejemplo:
+
+```typescript
+edad >= 18 && tieneEntrada
+```
+
+La expresión completa también devuelve `true` o `false`.
+
+> El operador `!!` tiene un uso diferente: convierte un valor a booleano. Ver [[Doble negación]].
+
+---
+
+## Combinación de estructuras
+
+Las estructuras de control pueden combinarse y anidarse.
+
+Por ejemplo, un `if` puede contener otro `if`.
+
+Ver [[If]] y [[If-else]].
+
+---
