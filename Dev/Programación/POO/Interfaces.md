@@ -112,3 +112,6 @@ También es posible indicar a TypeScript que trate un valor según una interfaz 
 ```typescript
 const obj = engine as ITurnable;
 ```
+
+---
+
