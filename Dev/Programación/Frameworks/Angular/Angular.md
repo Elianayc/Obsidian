@@ -87,15 +87,17 @@ Ver [[Comunicación entre Componentes en Angular]].
 
 Angular utiliza distintas sintaxis:
 
-```
-{{ }}  → interpolación
+````
+{{ }}   → interpolación → TS → HTML → muestra un valor
 
-[ ]     → property binding
+[ ]      → property binding → TS → HTML → asigna un valor a una propiedad
 
-( )     → event binding
+( )      → event binding → HTML → TS → escucha un evento y ejecuta una acción
 
-[()]    → two-way binding
-```
+[()]     → two-way binding → TS ↔ HTML → mantiene ambos valores sincronizados
+
+#nombre  → template reference variable → referencia un elemento del HTML dentro del template
+`````
 
 ### Interpolación
 
