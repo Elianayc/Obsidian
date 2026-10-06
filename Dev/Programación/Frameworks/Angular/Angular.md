@@ -99,7 +99,7 @@ Las marcas indican **qué tipo de conexión se hace y en qué dirección**:
 [()]    → TS ↔ HTML    → mantener un dato sincronizado en ambos sentidos
 ```
 
-### Interpolación `{{ }}`
+#### Interpolación `{{ }}`
 
 ```
 {{ displayName }}
@@ -107,7 +107,7 @@ Las marcas indican **qué tipo de conexión se hace y en qué dirección**:
 
 Trae `displayName` del TypeScript y lo muestra en el HTML.
 
-### Property binding `[ ]`
+#### Property binding `[ ]`
 
 ```
 [value]="displayName"
@@ -115,7 +115,7 @@ Trae `displayName` del TypeScript y lo muestra en el HTML.
 
 Toma `displayName` del TypeScript y lo asigna a la propiedad `value` del elemento HTML.
 
-### Event binding `( )`
+#### Event binding `( )`
 
 ```
 (click)="guardar()"
@@ -123,7 +123,7 @@ Toma `displayName` del TypeScript y lo asigna a la propiedad `value` del element
 
 Cuando ocurre el evento `click` en el HTML, ejecuta `guardar()` en el TypeScript.
 
-### Two-way binding `[()]`
+#### Two-way binding `[()]`
 
 ```
 [(ngModel)]="displayName"
