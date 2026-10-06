@@ -22,9 +22,3 @@ tags:
 > ```
 > 
  
-
-
-
-
-
-#Programación
