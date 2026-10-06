@@ -85,51 +85,57 @@ Ver [[Comunicación entre Componentes en Angular]].
 
 ## Binding
 
-Angular utiliza distintas sintaxis:
+El **binding** es la forma en que Angular **conecta el HTML con el TypeScript**.
 
-````
-{{ }}   → interpolación → TS → HTML → muestra un valor
-
-[ ]      → property binding → TS → HTML → asigna un valor a una propiedad
-
-( )      → event binding → HTML → TS → escucha un evento y ejecuta una acción
-
-[()]     → two-way binding → TS ↔ HTML → mantiene ambos valores sincronizados
-
-#nombre  → template reference variable → referencia un elemento del HTML dentro del template
-`````
-
-### Interpolación
+Las marcas indican **qué tipo de conexión se hace y en qué dirección**:
 
 ```
-<p>{{ nombre }}</p>
+{{ }}   → TS → HTML    → mostrar un dato
+
+[ ]     → TS → HTML    → asignar un dato a una propiedad
+
+( )     → HTML → TS    → escuchar un evento y ejecutar una acción
+
+[()]    → TS ↔ HTML    → mantener un dato sincronizado en ambos sentidos
 ```
 
-Muestra en HTML el valor de una propiedad del componente.
-
-### Property binding
+### Interpolación `{{ }}`
 
 ```
-<button [disabled]="cargando">
+{{ displayName }}
 ```
 
-TypeScript proporciona un valor a una propiedad.
+Trae `displayName` del TypeScript y lo muestra en el HTML.
 
-### Event binding
-
-```
-<button (click)="guardar()">
-```
-
-El evento de la interfaz ejecuta una función.
-
-### Two-way binding
+### Property binding `[ ]`
 
 ```
-<input [(ngModel)]="nombre">
+[value]="displayName"
 ```
 
-Permite sincronizar el dato en ambas direcciones.
+Toma `displayName` del TypeScript y lo asigna a la propiedad `value` del elemento HTML.
+
+### Event binding `( )`
+
+```
+(click)="guardar()"
+```
+
+Cuando ocurre el evento `click` en el HTML, ejecuta `guardar()` en el TypeScript.
+
+### Two-way binding `[()]`
+
+```
+[(ngModel)]="displayName"
+```
+
+Mantiene sincronizados el elemento HTML y `displayName`:
+
+```
+HTML ↔ TypeScript
+```
+
+Si cambia uno, se actualiza el otro.
 
 ---
 
