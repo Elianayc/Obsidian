@@ -12,18 +12,21 @@ Permite modelar objetos que pueden o no pertenecer a la misma jerarquía de clas
 ---
 
 ### Idea conceptual
+
 - La clase define la **fisionomía** de un objeto (cómo es)
 - La interfaz define su **comportamiento** (qué puede hacer)
 
 ---
 
 ### Ejemplos conceptuales
+
 - Encendible
 - Apagable
 
 ---
 
 ### Ejemplo en TypeScript
+
 ```ts
 interface ITurnable {  
 	turnOn(): boolean;  
@@ -34,6 +37,7 @@ interface ITurnable {
 ---
 
 ### Implementación
+
 Las clases que implementan una interfaz deben utilizar la palabra clave `implements`, seguida del nombre de la interfaz.
 
 Si se implementan varias interfaces, se separan con comas.
@@ -50,15 +54,19 @@ class Engine implements ITurnable {
 ---
 
 ### Relación con polimorfismo
+
 Las interfaces permiten tratar objetos no solo por su clase, sino por su **comportamiento común**.
 Esto habilita el uso de **polimorfismo basado en interfaces**.
 
 ---
 
 ### Conversión de tipos
+
 También es posible tratar un objeto según una interfaz utilizando `as`.
 
 ```ts
 const obj = engine as ITurnable;
 ```
-#Programación
+
+---
+
