@@ -5,73 +5,81 @@ tags:
   - ProgramaciónII
 ---
 Las **estructuras de control** permiten controlar el flujo de ejecución de un programa.
-
-Las condiciones utilizadas en estas estructuras son **expresiones booleanas**, es decir, expresiones que al evaluarse producen `true` o `false`.
-
-## Estructuras condicionales
-
-Permiten ejecutar diferentes instrucciones dependiendo de si se cumple o no una condición.
-
-- [[If]]
-- [[If-else]]
-- [[Switch]]
+Las condiciones son expresiones lógicas cuyo resultado es verdadero o falso.
 
 ---
 
-## Expresiones booleanas
+## Operadores lógicos
 
-Una condición produce un valor booleano:
+Permiten relacionar condiciones:
+
+- `&&` → Y
+- `||` → O
+- `!` → NO
+
+---
+
+## Simplificación de condiciones
+
+Cuando varios [[If]] anidados solamente evalúan condiciones que deben cumplirse al mismo tiempo:
 
 ```typescript
-edad >= 18
+if (condicion1) {
+  if (condicion2) {
+    return true;
+  }
+}
+
+return false;
 ```
 
-El resultado de esa expresión será `true` o `false`.
-
-Por este motivo, una expresión booleana también puede devolverse directamente:
+pueden combinarse mediante `&&`:
 
 ```typescript
-return edad >= 18;
-```
-
-Esto equivale a:
-
-```typescript
-if (edad >= 18) {
+if (condicion1 && condicion2) {
   return true;
 }
 
 return false;
 ```
 
----
-
-## Operadores lógicos
-
-Permiten combinar o negar expresiones booleanas.
-
-- `&&` → Y (AND)
-- `||` → O (OR)
-- `!` → NO (NOT)
-
-Ejemplo:
+Como la expresión lógica ya produce un valor booleano, puede retornarse directamente:
 
 ```typescript
-edad >= 18 && tieneEntrada
+return condicion1 && condicion2;
 ```
 
-La expresión completa también devuelve `true` o `false`.
+Por lo tanto:
 
-> El operador `!!` tiene un uso diferente: convierte un valor a booleano. Ver [[Doble negación]].
+```text
+if anidados
+      ↓
+combinar condiciones con && 
+      ↓
+retornar directamente la expresión
+```
+
+---
+
+### Ejemplo
+
+```typescript
+return !!this.usernameControl?.touched &&
+       !!this.usernameControl?.hasError('required');
+```
+
+- `?.` → [[Optional chaining]]
+- `!!` → [[Doble negación]]
 
 ---
 
 ## Combinación de estructuras
 
-Las estructuras de control pueden combinarse y anidarse.
+Las estructuras pueden combinarse y anidarse.
 
-Por ejemplo, un `if` puede contener otro `if`.
-
-Ver [[If]] y [[If-else]].
+Ver:
+- [[If]]
+- [[If-else]]
+- [[Switch]]
 
 ---
