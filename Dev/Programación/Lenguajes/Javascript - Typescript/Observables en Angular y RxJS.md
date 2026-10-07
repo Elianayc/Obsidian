@@ -2,11 +2,13 @@ Angular utiliza **RxJS** para trabajar con asincronismo, especialmente mediante 
 
 Un `Observable` representa un flujo de valores a lo largo del tiempo.
 
-A diferencia de una `Promise`, que representa normalmente un único resultado eventual, un `Observable` puede emitir múltiples valores, puede cancelarse y permite transformar y combinar los valores mediante operadores de RxJS.
+A diferencia de una `Promise`, que representa normalmente un único resultado eventual, un `Observable` puede emitir múltiples valores, puede cancelarse y permite transformar los valores mediante operadores de RxJS.
+
+---
 
 ## Promise
 
-```
+```text
 Promise
 ↓
 resultado
@@ -14,9 +16,9 @@ resultado
 termina
 ```
 
-## Observable
+---
 
-Un Observable puede emitir:
+## Observable
 
 ```
 Observable
@@ -36,17 +38,14 @@ Un Observable puede emitir múltiples valores, aunque un Observable utilizado pa
 
 ## Promise vs Observable
 
-|     Característica     |                       Promise                       |                          Observable                           |
-| :--------------------: | :-------------------------------------------------: | :-----------------------------------------------------------: |
-|       Resultado        |             Resuelve un único resultado             | Puede emitir uno o múltiples resultados a lo largo del tiempo |
-| Inicio de la operación |      La operación comienza al crear la Promise      |    Generalmente comienza al suscribirse con `subscribe()`     |
-|      Cancelación       | No tiene un mecanismo de cancelación nativo general |           Puede cancelarse mediante la suscripción            |
-|     Transformación     |         Se utilizan métodos como `.then()`          |       Se utilizan operadores de RxJS mediante `.pipe()`       |
-|  Manejo del resultado  |         `.then()`, `.catch()`, `.finally()`         |        `subscribe()` con `next`, `error` y `complete`         |
-|  Angular `HttpClient`  |     No es el mecanismo que utiliza directamente     |                     Devuelve Observables                      |
-| Cantidad de emisiones  |            Una sola resolución o rechazo            |       Puede emitir múltiples valores antes de finalizar       |
-
----
+|Característica|Promise|Observable|
+|---|---|---|
+|Resultado|Un único resultado|Uno o múltiples valores|
+|Inicio|Comienza al crear la Promise|Generalmente comienza al hacer `subscribe()`|
+|Cancelación|No tiene cancelación nativa general|Puede cancelarse|
+|Transformación|`.then()`|operadores RxJS mediante `.pipe()`|
+|Manejo del resultado|`.then()`, `.catch()`, `.finally()`|`next`, `error`, `complete`|
+|Angular `HttpClient`|No lo utiliza directamente|Devuelve Observables|
 
 ### Ejemplo con Promise
 
@@ -58,36 +57,61 @@ promesa
   .then(productos => console.log(productos));
 ```
 
-La Promise representa un resultado futuro: cuando se obtiene la respuesta, la Promise se resuelve y termina.
-
----
-
 ### Ejemplo con Observable
 
 ```ts
 this.http.get<Producto[]>('/api/productos')
   .subscribe({
-    next: productos => console.log(productos),
-    error: error => console.error(error),
+    next: (productos) => console.log(productos),
+    error: (error) => console.error(error),
     complete: () => console.log('Finalizó')
   });
 ```
 
-El Observable representa una secuencia de valores a lo largo del tiempo. Puede emitir uno, varios o ningún valor y finalmente completar o producir un error.
-
-**Importante:** una petición HTTP realizada mediante `HttpClient` normalmente emite una sola respuesta y luego completa. La principal diferencia no es que toda petición HTTP produzca múltiples valores, sino que el modelo Observable permite trabajar con múltiples emisiones.
-
 ---
 
-# HttpClient de Angular
+# HttpClient
 
-El `HttpClient` de Angular utiliza Observables para realizar solicitudes HTTP.
+`HttpClient` es el servicio de Angular que permite realizar solicitudes HTTP a un backend o API.
+
+Puede hacer peticiones como:
+
+```
+GET    → obtener datos
+POST   → crear/enviar datos
+PUT    → modificar datos
+DELETE → eliminar datos
+```
+
+Se puede inyectar en un service:
+
+```ts
+constructor(private readonly http: HttpClient) {}
+```
+
+Luego se puede hacer una petición:
 
 ```ts
 this.http.get<Conversacion[]>('/api/conversaciones');
 ```
 
-El resultado es:
+Esto significa:
+
+```ts
+this.http
+= HttpClient
+
+get()
+= petición HTTP GET
+
+<Conversacion[]>
+= tipo de dato que esperamos recibir
+
+'/api/conversaciones'
+= URL que consultamos
+```
+
+`HttpClient` devuelve un Observable:
 
 ```ts
 Observable<Conversacion[]>
@@ -95,7 +119,7 @@ Observable<Conversacion[]>
 
 No devuelve directamente el array de conversaciones.
 
-Para consumir el Observable se utiliza `subscribe()`:
+Para consumirlo se utiliza `subscribe()`:
 
 ```ts
 this.http.get<Conversacion[]>('/api/conversaciones')
@@ -109,28 +133,53 @@ this.http.get<Conversacion[]>('/api/conversaciones')
     },
 
     complete: () => {
-      console.log('El Observable terminó correctamente');
+      console.log('Finalizó correctamente');
     }
   });
 ```
 
-Los callbacks de `subscribe()` indican qué hacer en cada situación:
+---
+
+# subscribe()
+
+`subscribe()` permite escuchar qué ocurre con el Observable.
+
+```
+subscribe()
+├── next
+├── error
+└── complete
+```
 
 |Callback|Se ejecuta cuando...|
 |---|---|
 |`next`|El Observable emite un valor|
-|`error`|El Observable termina debido a un error|
+|`error`|Ocurre un error|
 |`complete`|El Observable termina correctamente|
 
-Los parámetros `conversacionesRecibidas` y `errorRecibido` se declaran en esas funciones y reciben lo que emite el Observable.
+Ejemplo:
+
+```ts
+next: (conversacionesRecibidas) => {
+  this.conversaciones = conversacionesRecibidas;
+}
+```
+
+`conversacionesRecibidas` es un parámetro que recibe el valor emitido por el Observable.
+
+```
+Observable emite conversaciones
+↓
+conversacionesRecibidas
+↓
+this.conversaciones = conversacionesRecibidas
+```
 
 ---
 
 # pipe()
 
 `pipe()` permite aplicar **operadores de RxJS** al Observable antes de consumirlo con `subscribe()`.
-
-Ejemplo:
 
 ```ts
 observable
@@ -141,56 +190,122 @@ observable
   .subscribe(...);
 ```
 
-Algunos operadores de RxJS son `map`, `filter`, `switchMap` y `finalize`.
-
 Conceptualmente:
 
 ```
 Observable
 ↓
 pipe()
-aplica operadores al flujo
+aplica operadores
 ↓
 subscribe()
-consume/escucha el resultado
+consume el resultado
 ```
 
-`pipe()` no siempre es necesario. Se usa cuando queremos aplicar operadores al Observable.
+`pipe()` no siempre es necesario.
+
+Algunos operadores son:
+
+```ts
+map()
+tap()
+filter()
+switchMap()
+finalize()
+```
+
+---
+
+# map()
+
+`map()` transforma el valor que emite un Observable.
+
+```ts
+map((datoRecibido) => datoTransformado)
+```
+
+Flujo:
+
+```
+dato original
+↓
+map()
+↓
+dato transformado
+```
+
+Ejemplo:
+
+```ts
+map((response) => response.data)
+```
+
+Entra:
+
+```
+response
+├── success
+├── message
+└── data
+```
+
+Sale:
+
+```ts
+data
+```
+
+Machete:
+
+```ts
+map() = transforma el dato
+```
+
+---
+
+# tap()
+
+`tap()` permite hacer algo con el valor que pasa por el Observable **sin transformarlo**.
+
+```ts
+tap((conversacionesRecibidas) => {
+  this.conversaciones = conversacionesRecibidas;
+})
+```
+
+Machete:
+
+```ts
+map() → transforma el dato
+
+tap() → hace algo con el dato,
+        pero el dato sigue igual
+```
 
 ---
 
 # finalize()
 
-`finalize()` es un operador de RxJS, por eso se coloca dentro de `pipe()`.
+`finalize()` es un operador de RxJS, por eso va dentro de `pipe()`.
 
 ```ts
-this.http.get<Conversacion[]>('/api/conversaciones')
-  .pipe(
-    finalize(() => {
-      this.cargando = false;
-    })
-  )
-  .subscribe({
-    next: (conversacionesRecibidas) => {
-      this.conversaciones = conversacionesRecibidas;
-    },
-
-    error: (errorRecibido: unknown) => {
-      console.error(errorRecibido);
-    }
-  });
+.pipe(
+  finalize(() => {
+    this.cargando = false;
+  })
+)
 ```
 
-`finalize()` se ejecuta cuando el Observable termina, tanto si terminó correctamente como si terminó por error.
+Se ejecuta cuando el Observable termina, tanto si salió bien como si ocurrió un error.
 
-Por eso es útil para estados como `cargando`.
+Por eso es útil para estados de carga.
 
 ```
 cargando = true
 ↓
 Observable
 ↓
-├── next / complete
+├── éxito
 └── error
 ↓
 finalize
@@ -212,7 +327,7 @@ se ejecuta cuando el Observable termina correctamente
 
 ```
 se ejecuta cuando el Observable termina,
-haya terminado correctamente o con error
+haya salido bien o mal
 ```
 
 Caso exitoso:
@@ -233,38 +348,44 @@ error
 finalize
 ```
 
-Por eso para apagar un `loading` suele ser más útil `finalize()` que `complete`.
-
 ---
 
-## Estructura típica
+# Estructura típica
 
 ```ts
 this.servicio
   .obtenerDatos()
   .pipe(
+    map((respuesta) => respuesta.data),
+
+    tap((datosRecibidos) => {
+      this.datos = datosRecibidos;
+    }),
+
     finalize(() => {
       this.cargando = false;
     })
   )
   .subscribe({
-    next: (datosRecibidos) => {
-      this.datos = datosRecibidos;
-    },
-
     error: (errorRecibido: unknown) => {
       console.error(errorRecibido);
     }
   });
 ```
 
+Flujo:
+
 ```
 Service
+↓
+HttpClient
 ↓
 Observable
 ↓
 pipe()
-├── finalize()
+├── map()      → transforma
+├── tap()      → hace algo sin transformar
+└── finalize() → al terminar
 ↓
 subscribe()
 ├── next
@@ -272,12 +393,44 @@ subscribe()
 └── complete
 ```
 
-### Machete
+---
+
+## Para Angular y el TP
 
 ```
-Observable = flujo de valores en el tiempo
+Component
+↓
+Service Angular
+↓
+HttpClient
+↓
+Backend
+↓
+respuesta
+↓
+Observable
+↓
+pipe()
+↓
+subscribe()
+```
+
+---
+
+## Machete
+
+```
+HttpClient = hace solicitudes HTTP
+
+http.get() = hace una petición GET
+
+Observable = representa valores que pueden llegar después
 
 pipe() = aplica operadores al Observable
+
+map() = transforma el dato
+
+tap() = hace algo con el dato sin transformarlo
 
 subscribe() = escucha/consume el Observable
 
