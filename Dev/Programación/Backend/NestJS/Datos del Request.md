@@ -1,5 +1,9 @@
 NestJS también utiliza decoradores para obtener datos de una petición HTTP.
 
+Ver [[Contratos del Request]]
+
+---
+
 ### `@Body()`
 
 Obtiene datos enviados en el **cuerpo de la petición**.
@@ -50,3 +54,4 @@ getEncounter(
 ```
 
 ---
+
