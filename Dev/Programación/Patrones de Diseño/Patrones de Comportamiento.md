@@ -14,3 +14,29 @@ Se enfocan en **cómo se comunican los objetos** y cómo reparten responsabilida
 | ![[Pasted image 20260510173623.png]] | ![[Pasted image 20260510173628.png]] | ![[Pasted image 20260510173631.png]] | ![[Pasted image 20260510173636.png]] | ![[Pasted image 20260510173646.png]] |
 
 #Programación
+
+## Endpoint
+
+Un **endpoint** es una operación de una API identificada por:
+
+```
+método HTTP + URL
+```
+
+Ejemplo:
+
+```
+GET /current/encounters
+```
+
+- `GET` → método HTTP.
+- `/current/encounters` → URL del endpoint.
+
+Por lo tanto:
+
+```
+GET /current/encounters
+│          │
+│          └── URL
+└── método HTTP
+```

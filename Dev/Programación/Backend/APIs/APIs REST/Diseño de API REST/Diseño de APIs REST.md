@@ -3,7 +3,6 @@ El diseño de una API REST consiste en aplicar los principios de REST para defin
 ### Conceptos
 
 - [[Recursos y URLs]]
-- [[HTTP (HyperText Transfer Protocol)]]
-- [[NestJS - Controller y endpoints]]
+- [[HTTP en NestJS (Controller y endpoints)]]
 - [[Idempotencia]]
 - [[Versionado de APIs REST]]
