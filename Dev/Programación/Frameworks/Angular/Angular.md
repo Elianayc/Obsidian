@@ -183,7 +183,7 @@ Los servicios Angular pueden utilizar `HttpClient` para realizar solicitudes HTT
 
 `HttpClient` trabaja normalmente con **Observables**.
 
-Ver [[RxJS y Observables en Angular]].
+Ver [[Observables en Angular y RxJS]].
 
 ---
 

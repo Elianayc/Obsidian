@@ -133,7 +133,7 @@ subscribe
 - `complete` → terminó el flujo.
     
 
-Ver [[RxJS y Observables en Angular]].
+Ver [[Observables en Angular y RxJS]].
 
 ---
 
