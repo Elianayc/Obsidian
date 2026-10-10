@@ -164,3 +164,87 @@ Es importante no confundir:
 El Backend puede aplicar lógica del lado servidor y comunicarse con APIs externas o bases de datos.
 
 ---
+
+## BaseApiService y servicios API
+
+Cuando varios servicios necesitan realizar llamadas HTTP similares se puede centralizar ese comportamiento en un servicio base.
+
+Por ejemplo:
+
+```ts
+export class BaseApiService {
+
+  protected get<T>(path: string) {
+    // GET común
+  }
+
+  protected post<T>(path: string, body: unknown) {
+    // POST común
+  }
+
+  protected patch<T>(path: string, body: unknown) {
+    // PATCH común
+  }
+}
+```
+
+Después un servicio específico puede heredarlo:
+
+```ts
+export class AuthApiService extends BaseApiService {
+}
+```
+
+o:
+
+```ts
+export class ChatApiService extends BaseApiService {
+}
+```
+
+Conceptualmente:
+
+```text
+BaseApiService
+↓
+contiene llamadas HTTP comunes
+
+        ↓ extends
+
+AuthApiService
+ChatApiService
+otros servicios API
+```
+
+Así no se repite la misma implementación de `get`, `post`, `patch`, etc.
+
+---
+
+## Service vs API Service
+
+En esta arquitectura pueden existir varios niveles:
+
+```text
+Component
+↓
+Service
+↓
+ApiService
+↓
+BaseApiService
+↓
+HttpClient
+↓
+Backend
+```
+
+### Service
+Maneja lógica y estado del frontend.
+
+### ApiService
+Se ocupa específicamente de hablar con el backend.
+
+### BaseApiService
+Centraliza la mecánica HTTP que comparten distintos ApiServices.
+
+---
