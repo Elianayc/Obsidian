@@ -209,10 +209,18 @@ El Backend procesa las solicitudes del Frontend y puede comunicarse con otros si
 
 ---
 
-Temas Relacionados:
+## Temas de Angular
 
+- [[Componentes en Angular]]
+- [[Comunicación entre Componentes en Angular]]
+- [[Directivas en Angular]]
+- [[Ciclo de Vida en Angular]]
+- [[Servicios en Angular]]
+- [[Routing en Angular]]
 - [[Formularios Reactivos en Angular]]
-
+- [[Estados de un Control]]
+- [[Observables en Angular y RxJS]]
+- [[HttpClient]]
 
 ----
 

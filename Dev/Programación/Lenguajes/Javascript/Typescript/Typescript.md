@@ -34,6 +34,22 @@ function sumar(a: number, b: number): number {
 
 ---
 
+## Temas de TypeScript
+
+- [[Arrays en TypeScript]]
+- [[Colecciones en TypeScript]]
+- [[Maps en TypeScript]]
+- [[Sets en TypeScript]]
+- [[Propiedades en TypeScript]]
+- [[Readonly en TypeScript]]
+- [[Visibilidad en Typescript]]
+- [[Genéricos en Typescript]]
+
+---
+
+## Relacionado
+
+- [[JavaScript]]
 - [[Angular]]
 
 ---

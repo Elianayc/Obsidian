@@ -57,10 +57,43 @@ El resultado final depende de:
    
 ---
 
+## Temas de JavaScript
+
 - [[DOM (Document Object Model)]]
 - [[Dónde y cómo incorporar JavaScript]]
 - [[Cómo se carga y ejecuta un archivo JavaScript]]
 - [[Cómo JavaScript procesa operaciones asincrónicas]]
+- [[Event Loop y Callbacks]]
+- [[Evolución del Asincronismo]]
+- [[Promesas]]
+- [[Async - Await]]
+- [[Funciones flecha]]
+- [[Objeto Literal]]
+- [[Optional chaining]]
+- [[Doble Negación]]
+- [[Prototipos en JavaScript]]
+- [[Node.js]]
+
+---
+
+## Solicitudes HTTP y asincronismo
+
+- [[Llamadas HTTP - Fetch y Axios]]
+- [[HttpClient]]
+- [[Observables en Angular y RxJS]]
+- [[pipe()]]
+- [[map()]]
+- [[tap()]]
+- [[finalize()]]
+
+---
+
+## Relacionado
+
+- [[Typescript]]
+
+---
+
 
 ---
 
