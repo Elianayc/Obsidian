@@ -28,3 +28,41 @@ Se usa cuando existe una función que relaciona el dato con su posición.
 > 
 > Este algoritmo no busca recorriendo el vector: calcula directamente la posición del elemento usando una fórmula (`valor / 10`) y accede a esa posición. Solo funciona cuando los datos siguen un patrón fijo y ordenado.
 #Programación
+
+# pipe()
+
+`pipe()` permite aplicar **operadores de RxJS** al Observable antes de consumirlo con `subscribe()`.
+
+```ts
+observable
+  .pipe(
+    operador1(),
+    operador2()
+  )
+  .subscribe(...);
+```
+
+Conceptualmente:
+
+```
+Observable
+↓
+pipe()
+aplica operadores
+↓
+subscribe()
+consume el resultado
+```
+
+`pipe()` no siempre es necesario.
+
+Algunos operadores son:
+
+```ts
+map()
+tap()
+filter()
+switchMap()
+finalize()
+```
+
